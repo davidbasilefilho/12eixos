@@ -1,0 +1,218 @@
+import { describe, expect, test } from 'bun:test';
+import { questions, questionIds36, questionIds60 } from '../src/data/questions';
+import { AXES, parseResultSearch, resultSearch, scoreAnswers, type AnswerValue } from '../src/lib/scoring';
+import { calculateSimilarity12full, countDocumentedEvidenceAxes, documentedEvidenceAxes, hasEnoughEvidenceForRankedMatch, matchReferences, MIN_EVIDENCE_AXES_FOR_RANKED_MATCH, partitionMatchReferences, type MatchableReference } from '../src/lib/matching';
+import { referenceEntries } from '../src/data/references';
+
+describe('question sets', () => {
+  for (const [size, ids] of [[36, questionIds36], [60, questionIds60], [240, questions.map(question => question.id)]] as const) {
+    test(`${size} questions cover all axes`, () => {
+      expect(ids).toHaveLength(size);
+      expect(new Set(ids).size).toBe(size);
+      const chosen = ids.map(id => questions.find(question => question.id === id));
+      expect(chosen.every(Boolean)).toBe(true);
+      for (const axis of AXES) expect(chosen.filter(question => question?.axisId === axis.id)).toHaveLength(size / 12);
+    });
+  }
+
+  test('pool metadata preserves the original one-point weight and balanced pole directions', () => {
+    expect(new Set(questions.map(question => question.id)).size).toBe(240);
+    for (const question of questions) {
+      expect(AXES.some(axis => axis.id === question.axisId)).toBe(true);
+      expect(question.weight).toBe(1);
+      expect(['LEFT', 'RIGHT']).toContain(question.agreePole);
+    }
+    for (const axis of AXES) {
+      const onAxis = questions.filter(question => question.axisId === axis.id);
+      expect(onAxis.filter(question => question.agreePole === 'LEFT')).toHaveLength(10);
+      expect(onAxis.filter(question => question.agreePole === 'RIGHT')).toHaveLength(10);
+    }
+    for (const ids of [questionIds36, questionIds60]) {
+      const selected = ids.map(id => questions.find(question => question.id === id)!);
+      for (const axis of AXES) {
+        const onAxis = selected.filter(question => question.axisId === axis.id);
+        expect(onAxis.some(question => question.agreePole === 'LEFT')).toBe(true);
+        expect(onAxis.some(question => question.agreePole === 'RIGHT')).toBe(true);
+      }
+    }
+  });
+});
+
+describe('original scoring parity', () => {
+  test('agreement, inversion, weighting and neutral midpoint', () => {
+    const sample = [
+      { id: 'left', axisId: 'estrutura', agreePole: 'LEFT' as const, weight: 1 },
+      { id: 'right', axisId: 'estrutura', agreePole: 'RIGHT' as const, weight: 3 },
+    ];
+    const scores = scoreAnswers(sample, { left: 'STRONGLY_AGREE', right: 'AGREE' });
+    expect(scores.est).toBe(43.8); // (1*1 + 0.25*3) / 4, one decimal
+    expect(scores.rep).toBe(50);
+  });
+
+  test('each answer level follows the original Java AnswerValue', () => {
+    const answers: AnswerValue[] = ['STRONGLY_AGREE', 'AGREE', 'NEUTRAL', 'DISAGREE', 'STRONGLY_DISAGREE'];
+    const leftQuestion = [{ id: 'q', axisId: 'poder', agreePole: 'LEFT' as const, weight: 1 }];
+    const rightQuestion = [{ id: 'q', axisId: 'poder', agreePole: 'RIGHT' as const, weight: 1 }];
+    expect(answers.map(answer => scoreAnswers(leftQuestion, { q: answer }).pod)).toEqual([100, 75, 50, 25, 0]);
+    expect(answers.map(answer => scoreAnswers(rightQuestion, { q: answer }).pod)).toEqual([0, 25, 50, 75, 100]);
+  });
+
+  test('rejects inherited object properties as answers instead of producing NaN', () => {
+    const question = [{ id: 'q', axisId: 'estrutura', agreePole: 'LEFT' as const, weight: 1 }];
+    expect(() => scoreAnswers(question, { q: 'toString' as AnswerValue })).toThrow('Resposta inválida: toString');
+  });
+});
+
+test('results URL round-trips without local storage', () => {
+  const scores = scoreAnswers(questions, Object.fromEntries(questions.map(question => [question.id, 'NEUTRAL'])));
+  expect(parseResultSearch(resultSearch(scores))).toEqual(scores);
+  const quoted = new URLSearchParams(resultSearch(scores).slice(1));
+  for (const axis of AXES) quoted.set(axis.key, JSON.stringify(scores[axis.key]));
+  expect(parseResultSearch(quoted.toString())).toEqual(scores);
+  expect(parseResultSearch('?est=101')).toBeNull();
+});
+
+test('results URL rejects malformed or out-of-range quoted scores', () => {
+  const params = new URLSearchParams(AXES.map(axis => `${axis.key}=50`).join('&'));
+  params.set('est', '"101"');
+  expect(parseResultSearch(params.toString())).toBeNull();
+  params.set('est', '50');
+  params.set('rep', '"66.7');
+  expect(parseResultSearch(params.toString())).toBeNull();
+});
+
+test('matches are deterministic and expose explanatory differences', () => {
+  const scores = referenceEntries[0].vec;
+  const ranked = matchReferences(scores, referenceEntries);
+  expect(matchReferences(scores, referenceEntries).map(match => match.reference.id)).toEqual(ranked.map(match => match.reference.id));
+  expect(ranked.length).toBeGreaterThan(0);
+  for (const match of ranked) {
+    expect(match.similarity).toBeGreaterThanOrEqual(0);
+    expect(match.similarity).toBeLessThanOrEqual(100);
+    expect(match.coverage.count).toBeGreaterThanOrEqual(MIN_EVIDENCE_AXES_FOR_RANKED_MATCH);
+    expect(match.coverage.count).toBe(match.coverage.axes.length);
+    expect(match.differences.map(item => item.key)).toEqual(match.coverage.axes);
+  }
+  expect(ranked[0].differences.length).toBe(ranked[0].coverage.count);
+  expect(ranked[0].divergentAxes).toHaveLength(3);
+});
+
+test('catalog entries keep typed 12-axis provenance and category metadata', () => {
+  expect(new Set(referenceEntries.map(reference => reference.id)).size).toBe(referenceEntries.length);
+  for (const reference of referenceEntries) {
+    expect(Object.keys(reference.vec).sort()).toEqual([...AXES.map(axis => axis.key)].sort());
+    expect(reference.period.trim().length).toBeGreaterThan(0);
+    expect(reference.rationale.trim().length).toBeGreaterThan(0);
+    expect(reference.caveats.trim().length).toBeGreaterThan(0);
+    expect(reference.sources.length).toBeGreaterThan(0);
+    expect(Object.keys(reference.evidence).every(key => AXES.some(axis => axis.key === key))).toBe(true);
+    expect(
+      (reference.kind === 'ideology' && reference.category === 'ideology')
+      || (reference.kind === 'person' && (reference.category === 'public-figure' || reference.category === 'historical-figure'))
+      || (reference.kind === 'country' && (reference.category === 'country' || reference.category === 'historical-country')),
+    ).toBe(true);
+    for (const source of reference.sources) {
+      expect(source.title.trim().length).toBeGreaterThan(0);
+      expect(source.note.trim().length).toBeGreaterThan(0);
+      expect(new URL(source.url).protocol).toBe('https:');
+    }
+  }
+});
+
+describe('evidence eligibility for match rankings', () => {
+  test('keeps low-evidence profiles available but out of the ranked political matches', () => {
+    const partition = partitionMatchReferences(referenceEntries);
+    const turing = referenceEntries.find(reference => reference.id === 'alan-turing')!;
+    expect(MIN_EVIDENCE_AXES_FOR_RANKED_MATCH).toBe(6);
+    expect(countDocumentedEvidenceAxes(turing)).toBe(0);
+    expect(hasEnoughEvidenceForRankedMatch(turing)).toBe(false);
+    expect(partition.insufficientEvidence.map(reference => reference.id)).toContain('alan-turing');
+    expect(partition.ranked.map(reference => reference.id)).not.toContain('alan-turing');
+    const neutralScores = Object.fromEntries(AXES.map(axis => [axis.key, 50])) as Record<(typeof AXES)[number]['key'], number>;
+    expect(matchReferences(neutralScores, referenceEntries).map(match => match.reference.id)).not.toContain('alan-turing');
+    expect(partition.ranked.length + partition.insufficientEvidence.length).toBe(referenceEntries.length);
+    expect(partition.ranked.map(reference => reference.id)).toEqual(
+      referenceEntries.filter(hasEnoughEvidenceForRankedMatch).map(reference => reference.id),
+    );
+  });
+
+  test('does not change the raw similarity score for an eligible exact vector match', () => {
+    const base = referenceEntries.find(entry => entry.id === 'social-democracy')!;
+    const source = base.sources[0];
+    const reference = {
+      ...base,
+      evidence: Object.fromEntries(AXES.map(axis => [axis.key, 'high'])) as typeof base.evidence,
+      sources: [source],
+      axisEvidence: Object.fromEntries(AXES.map(axis => [axis.key, { sourceTitles: [source.title], rationale: `Evidência ${axis.key}` }])),
+    };
+    expect(hasEnoughEvidenceForRankedMatch(reference)).toBe(true);
+    expect(matchReferences(reference.vec, [reference])[0].similarity).toBe(calculateSimilarity12full(reference.vec, reference));
+    expect(matchReferences(reference.vec, [reference])[0].similarity).toBe(100);
+    expect(calculateSimilarity12full(reference.vec, reference)).toBe(100);
+  });
+
+  const mappedReference = (overrides: Partial<MatchableReference> = {}): MatchableReference => {
+    const source = { title: 'Cited source' };
+    const keys = AXES.slice(0, 6).map(axis => axis.key);
+    return {
+      id: 'mapped-profile', name: 'Perfil mapeado', kind: 'ideology',
+      vec: Object.fromEntries(AXES.map(axis => [axis.key, 60])) as MatchableReference['vec'],
+      evidence: Object.fromEntries(keys.map(key => [key, 'high'])) as MatchableReference['evidence'],
+      sources: [source],
+      axisEvidence: Object.fromEntries(keys.map(key => [key, { sourceTitles: [source.title], rationale: `Evidência ${key}` }])),
+      ...overrides,
+    };
+  };
+
+  test('unknown-axis values do not affect conditional ranking similarity', () => {
+    const supported = AXES.slice(0, 6).map(axis => axis.key);
+    const reference = mappedReference();
+    const scores = Object.fromEntries(AXES.map(axis => [axis.key, supported.includes(axis.key) ? 62 : 10])) as typeof reference.vec;
+    const before = matchReferences(scores, [reference])[0];
+    const changedUnknowns = {
+      ...reference,
+      vec: { ...reference.vec, ...Object.fromEntries(AXES.slice(6).map(axis => [axis.key, 100])) },
+    };
+    const after = matchReferences(scores, [changedUnknowns])[0];
+    expect(before.similarity).toBe(after.similarity);
+    expect(before.coverage).toEqual({ axes: supported, count: 6, total: 12 });
+    expect(before.differences.map(item => item.key)).toEqual(supported);
+    expect(calculateSimilarity12full(scores, reference)).not.toBe(calculateSimilarity12full(scores, changedUnknowns));
+  });
+
+  test('only exact source-mapped, reasoned medium/high evidence makes an axis eligible', () => {
+    const reference = mappedReference({
+      axisEvidence: {
+        ...mappedReference().axisEvidence,
+        [AXES[5].key]: { sourceTitles: ['Uncited source'], rationale: 'Some rationale' },
+      },
+    });
+    expect(documentedEvidenceAxes(reference)).toHaveLength(5);
+    expect(hasEnoughEvidenceForRankedMatch(reference)).toBe(false);
+    expect(matchReferences(reference.vec, [reference])).toHaveLength(0);
+  });
+
+  test('conditional similarity handles opposite supported poles and prefers stronger coverage on ties', () => {
+    const supported = AXES.slice(0, 6).map(axis => axis.key);
+    const scores = Object.fromEntries(AXES.map(axis => [axis.key, 100])) as Record<(typeof AXES)[number]['key'], number>;
+    const exact = mappedReference({ vec: Object.fromEntries(AXES.map(axis => [axis.key, 100])) as MatchableReference['vec'] });
+    const opposite = mappedReference({ id: 'opposite-profile', vec: Object.fromEntries(AXES.map(axis => [axis.key, supported.includes(axis.key) ? 0 : 100])) as MatchableReference['vec'] });
+    expect(matchReferences(scores, [opposite, exact]).map(match => match.reference.id)).toEqual(['mapped-profile', 'opposite-profile']);
+    expect(matchReferences(scores, [exact])[0].similarity).toBe(100);
+    expect(matchReferences(scores, [opposite])[0].similarity).toBeLessThan(100);
+
+    const broaderTie = mappedReference({ id: 'a-broader', evidence: Object.fromEntries(AXES.slice(0, 7).map(axis => [axis.key, 'high'])) as MatchableReference['evidence'], axisEvidence: Object.fromEntries(AXES.slice(0, 7).map(axis => [axis.key, { sourceTitles: ['Cited source'], rationale: `Evidência ${axis.key}` }])) });
+    const narrowerTie = mappedReference({ id: 'z-narrower' });
+    const neutralScores = Object.fromEntries(AXES.map(axis => [axis.key, 50])) as typeof scores;
+    expect(matchReferences(neutralScores, [narrowerTie, broaderTie]).map(match => match.reference.id)).toEqual(['a-broader', 'z-narrower']);
+  });
+
+  test('rejects invalid current or future scores and reference vector values', () => {
+    const validReference = referenceEntries.find(entry => entry.id === 'social-democracy')!;
+    expect(() => matchReferences({ ...validReference.vec, est: 101 }, [validReference])).toThrow();
+    const invalidReference = { ...validReference, vec: { ...validReference.vec, tec: -1 } };
+    expect(() => matchReferences(validReference.vec, [invalidReference])).toThrow();
+    const insufficientButInvalid = { ...referenceEntries.find(entry => entry.id === 'alan-turing')!, vec: { ...referenceEntries.find(entry => entry.id === 'alan-turing')!.vec, tec: 101 } };
+    expect(() => partitionMatchReferences([insufficientButInvalid])).toThrow();
+  });
+});
