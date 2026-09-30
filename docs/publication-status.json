@@ -1,0 +1,19 @@
+{
+  "date": "2026-09-30",
+  "status": "published-incomplete",
+  "site_url": "https://doze-eixos.davidbasilefilho.chatgpt.site",
+  "site_access": "private",
+  "project_id": "appgprj_6abd4e2698fc81918ec78202fc120597",
+  "version_id": "appgprj_6abd4e2698fc81918ec78202fc120597~appgver_55e7ea2673c08191b1b55b6085f8053c",
+  "deployment_id": "appgdep_6abd4f5710008191aebb9eb3e1b9b518",
+  "source_commit": "6fa5e8a67a132909f4315cab71663ed653cdd5f6",
+  "github_url": "https://github.com/davidbasilefilho/12eixos",
+  "agents": "all stopped",
+  "validation": {
+    "bundle": "passed (bun x vite build)",
+    "typescript": "failed (App.tsx:829 params.axis)",
+    "tests": "20 passed, 2 failed"
+  },
+  "resume_document": "docs/resume-status.md",
+  "shutdown_requested": true
+}
