@@ -34,8 +34,8 @@
     ],
     "provenance": "Executed before local data corrections in this recovery checkpoint; not recomputed from unavailable prior Library checkpoint."
   },
-  "headCommitAtAudit": "b0378bb3d8d9489d356720dd3446425b8fbf8d26",
-  "integratedCatalogSha256": "74e0296ed1a3e0a1a85426d728f2ad3a106abf298f9395833941765810d3bb0d",
+  "headCommitAtAudit": "a67572b4829fb67b2cefa56f951e1b3204783ae5",
+  "integratedCatalogSha256": "e110eb052010993defa4dd744280b6aee7c8b4c790a22a6b80fa218754d7bc8c",
   "scope": "Integrated working-tree catalog after preparation; fixed remote baseline and current HEAD are provenance, not immutable copies of modified files.",
   "evidenceGate": {
     "minimumAxes": 6,
@@ -52,10 +52,10 @@
     "Expansion preparation has already centered and removed unsupported axes; this inventory does not recover discarded raw estimates."
   ],
   "totalTarget": 675,
-  "totalRecords": 530,
+  "totalRecords": 547,
   "structurallyEligible": 60,
-  "insufficientEvidence": 470,
-  "summedCategoryIdentityGap": 276,
+  "insufficientEvidence": 487,
+  "summedCategoryIdentityGap": 259,
   "categories": [
     {
       "category": "country",
@@ -70,20 +70,20 @@
     {
       "category": "historical-country",
       "target": 150,
-      "records": 83,
+      "records": 91,
       "structurallyEligible": 0,
-      "insufficientEvidence": 83,
-      "missingIdentitiesBeforeSemanticReview": 67,
+      "insufficientEvidence": 91,
+      "missingIdentitiesBeforeSemanticReview": 59,
       "preservedExcess": 0,
       "missingEligibleToTarget": 150
     },
     {
       "category": "public-figure",
       "target": 150,
-      "records": 42,
+      "records": 51,
       "structurallyEligible": 18,
-      "insufficientEvidence": 24,
-      "missingIdentitiesBeforeSemanticReview": 108,
+      "insufficientEvidence": 33,
+      "missingIdentitiesBeforeSemanticReview": 99,
       "preservedExcess": 0,
       "missingEligibleToTarget": 132
     },
@@ -13196,6 +13196,414 @@
         "https://api.parliament.uk/historic-hansard/commons/1893/jun/02/civil-service-of-india-examination",
         "https://dinyarpatel.com/naoroji/letter-box/",
         "https://api.parliament.uk/historic-hansard/people/mr-dadabhai-naoroji/index.html"
+      ]
+    },
+    {
+      "id": "cory-booker",
+      "name": "Cory Booker",
+      "aliases": [],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "Propostas e declarações selecionadas, abril de 2025–abril de 2026",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "rep",
+        "pod",
+        "mor"
+      ],
+      "directionalAxes": [
+        "rep",
+        "pod",
+        "mor"
+      ],
+      "sourceCount": 4,
+      "sourceUrls": [
+        "https://www.senate.gov/general/resources/pdf/senators_phone_list.pdf",
+        "https://www.baldwin.senate.gov/news/press-releases/senator-baldwin-leads-bill-to-ban-discrimination-against-lgbtq-americans",
+        "https://www.lee.senate.gov/2026/2/lee-cosponsors-government-surveillance-transparency-act",
+        "https://www.booker.senate.gov/news/press/icymi-booker-responds-to-scotus-decision-attacking-vra-this-is-now-a-movement-election"
+      ]
+    },
+    {
+      "id": "ed-markey",
+      "name": "Ed Markey",
+      "aliases": [
+        "Edward J. Markey"
+      ],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "Propostas selecionadas, fevereiro–julho de 2026",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "eco",
+        "con",
+        "mor"
+      ],
+      "directionalAxes": [
+        "eco",
+        "con",
+        "mor"
+      ],
+      "sourceCount": 3,
+      "sourceUrls": [
+        "https://www.senate.gov/general/resources/pdf/senators_phone_list.pdf",
+        "https://www.markey.senate.gov/news/press-releases/as-trump-administration-continues-cruel-attacks-on-transgender-community-markey-and-jayapal-reintroduce-transgender-bill-of-rights",
+        "https://www.markey.senate.gov/news/press-releases/markey-khanna-reintroduce-green-new-deal-for-health-to-invest-in-patients-workers-and-infrastructure-for-todays-climate-health-threats"
+      ]
+    },
+    {
+      "id": "jeff-merkley",
+      "name": "Jeff Merkley",
+      "aliases": [],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "Propostas selecionadas, abril de 2025–outubro de 2026",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "pod",
+        "mor"
+      ],
+      "directionalAxes": [
+        "pod",
+        "mor"
+      ],
+      "sourceCount": 3,
+      "sourceUrls": [
+        "https://www.senate.gov/general/resources/pdf/senators_phone_list.pdf",
+        "https://www.baldwin.senate.gov/news/press-releases/senator-baldwin-leads-bill-to-ban-discrimination-against-lgbtq-americans",
+        "https://www.merkley.senate.gov/sanders-ocasio-cortez-merkley-unveil-ban-flock-act-to-protect-americans-right-to-privacy/"
+      ]
+    },
+    {
+      "id": "pramila-jayapal",
+      "name": "Pramila Jayapal",
+      "aliases": [],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "Propostas selecionadas, fevereiro–julho de 2026",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "eco",
+        "mor"
+      ],
+      "directionalAxes": [
+        "eco",
+        "mor"
+      ],
+      "sourceCount": 3,
+      "sourceUrls": [
+        "https://clerk.house.gov/Members/J000298",
+        "https://www.markey.senate.gov/news/press-releases/as-trump-administration-continues-cruel-attacks-on-transgender-community-markey-and-jayapal-reintroduce-transgender-bill-of-rights",
+        "https://jayapal.house.gov/2026/07/22/jayapal-dingell-cpc-members-host-universal-healthcare-shadow-hearing/"
+      ]
+    },
+    {
+      "id": "tammy-baldwin",
+      "name": "Tammy Baldwin",
+      "aliases": [],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "Propostas selecionadas, abril de 2025–abril de 2026",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "com",
+        "mor"
+      ],
+      "directionalAxes": [
+        "com",
+        "mor"
+      ],
+      "sourceCount": 3,
+      "sourceUrls": [
+        "https://www.senate.gov/general/resources/pdf/senators_phone_list.pdf",
+        "https://www.baldwin.senate.gov/news/press-releases/senator-baldwin-leads-bill-to-ban-discrimination-against-lgbtq-americans",
+        "https://www.baldwin.senate.gov/news/press-releases/baldwin-banks-introduce-bill-to-enforce-build-america-buy-america-standards"
+      ]
+    },
+    {
+      "id": "rand-paul",
+      "name": "Rand Paul",
+      "aliases": [],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "Propostas selecionadas de novembro de 2023 e agosto de 2026",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "pod",
+        "com"
+      ],
+      "directionalAxes": [
+        "pod",
+        "com"
+      ],
+      "sourceCount": 3,
+      "sourceUrls": [
+        "https://www.senate.gov/general/resources/pdf/senators_phone_list.pdf",
+        "https://www.paul.senate.gov/dr-rand-paul-introduces-legislation-to-restore-and-protect-americans-fourth-amendment-rights/",
+        "https://www.paul.senate.gov/senator-rand-paul-offers-amendment-to-strip-half-trillion-dollar-tax-increase-from-russia-sanctions-bill/"
+      ]
+    },
+    {
+      "id": "josh-hawley",
+      "name": "Josh Hawley",
+      "aliases": [],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "Proposta de março de 2026 sobre mifepristona para aborto",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "mor"
+      ],
+      "directionalAxes": [
+        "mor"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.senate.gov/general/resources/pdf/senators_phone_list.pdf",
+        "https://www.hawley.senate.gov/hawley-introduces-bill-to-ban-chemical-abortion-drug-hosts-press-conference-featuring-pro-life-testimonies-leaders/"
+      ]
+    },
+    {
+      "id": "ted-cruz",
+      "name": "Ted Cruz",
+      "aliases": [],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "Propostas selecionadas, maio de 2025–julho de 2026",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "eco",
+        "mor"
+      ],
+      "directionalAxes": [
+        "eco",
+        "mor"
+      ],
+      "sourceCount": 3,
+      "sourceUrls": [
+        "https://www.senate.gov/general/resources/pdf/senators_phone_list.pdf",
+        "https://www.cruz.senate.gov/newsroom/press-releases/sen-cruz-introduces-universal-school-choice-act",
+        "https://www.lee.senate.gov/2026/7/lee-introduces-ban-on-federal-funding-for-child-mutilation-studies"
+      ]
+    },
+    {
+      "id": "mike-lee",
+      "name": "Mike Lee",
+      "aliases": [],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "Propostas selecionadas, fevereiro–julho de 2026",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "pod",
+        "mor"
+      ],
+      "directionalAxes": [
+        "pod",
+        "mor"
+      ],
+      "sourceCount": 3,
+      "sourceUrls": [
+        "https://www.senate.gov/general/resources/pdf/senators_phone_list.pdf",
+        "https://www.lee.senate.gov/2026/2/lee-cosponsors-government-surveillance-transparency-act",
+        "https://www.lee.senate.gov/2026/7/lee-introduces-ban-on-federal-funding-for-child-mutilation-studies"
+      ]
+    },
+    {
+      "id": "poland-peoples-republic-1952",
+      "name": "Polônia — República Popular",
+      "aliases": [
+        "Polska Rzeczpospolita Ludowa",
+        "PRL"
+      ],
+      "kind": "country",
+      "category": "historical-country",
+      "period": "Regime da República Popular, 1952–1989; codificação da edição constitucional original de 1952",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "est",
+        "rep",
+        "con"
+      ],
+      "directionalAxes": [
+        "est",
+        "rep",
+        "con"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://api.sejm.gov.pl/eli/acts/DU/1952/232/text.pdf",
+        "https://eng.ipn.gov.pl/en/brief-history-of-poland"
+      ]
+    },
+    {
+      "id": "czechoslovakia-socialist-unitary-1960",
+      "name": "Tchecoslováquia — República Socialista unitária",
+      "aliases": [
+        "Československá socialistická republika — ordem unitária"
+      ],
+      "kind": "country",
+      "category": "historical-country",
+      "period": "Carta socialista unitária, 1960–1968; federalização em vigor em 1º de janeiro de 1969",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "est",
+        "rep",
+        "eco",
+        "con"
+      ],
+      "directionalAxes": [
+        "est",
+        "rep",
+        "eco",
+        "con"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.psp.cz/docs/texts/constitution_1960.html",
+        "https://www.psp.cz/docs/texts/constitution_1968.html"
+      ]
+    },
+    {
+      "id": "poland-april-charter-1935",
+      "name": "Polônia — República sob a Constituição de Abril",
+      "aliases": [
+        "Segunda República Polonesa — carta de abril de 1935"
+      ],
+      "kind": "country",
+      "category": "historical-country",
+      "period": "Ordem territorial anterior à ocupação, 1935–1939; desenho original de abril de 1935",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "rep"
+      ],
+      "directionalAxes": [
+        "rep"
+      ],
+      "sourceCount": 1,
+      "sourceUrls": [
+        "https://api.sejm.gov.pl/eli/acts/DU/1935/227/text.pdf"
+      ]
+    },
+    {
+      "id": "hawaii-republic-1894",
+      "name": "República do Havaí",
+      "aliases": [
+        "Republic of Hawaii"
+      ],
+      "kind": "country",
+      "category": "historical-country",
+      "period": "República independente, 1894–1898; desenho da carta promulgada em 4 de julho de 1894",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "rep",
+        "rel"
+      ],
+      "directionalAxes": [
+        "rep",
+        "rel"
+      ],
+      "sourceCount": 4,
+      "sourceUrls": [
+        "https://en.wikisource.org/wiki/1894_Constitution_of_the_Republic_of_Hawaii",
+        "https://ags.hawaii.gov/archives/online-exhibitions/1894-constitutional-convention/",
+        "https://www.law.cornell.edu/supremecourt/text/206/206",
+        "https://www.archives.gov/milestone-documents/joint-resolution-for-annexing-the-hawaiian-islands"
+      ]
+    },
+    {
+      "id": "norway-swedish-union-1814",
+      "name": "Noruega — reino constitucional na união com a Suécia",
+      "aliases": [
+        "Noruega na união sueco-norueguesa"
+      ],
+      "kind": "country",
+      "category": "historical-country",
+      "period": "Unidade histórica da união, 1814–1905; codificação delimitada ao desenho inicial e controles parlamentares anteriores a 1884",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "rep"
+      ],
+      "directionalAxes": [
+        "rep"
+      ],
+      "sourceCount": 1,
+      "sourceUrls": [
+        "https://www.stortinget.no/en/In-English/About-the-Storting/historical-highlights/milestones-in-norways-democratic-history/"
+      ]
+    },
+    {
+      "id": "finland-constitution-republic-1919",
+      "name": "Finlândia — república da Constituição de 1919",
+      "aliases": [
+        "Suomen Hallitusmuoto — ordem republicana de 1919"
+      ],
+      "kind": "country",
+      "category": "historical-country",
+      "period": "Unidade constitucional, 1919–2000; codificação da edição fundadora de 17 de julho de 1919",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "rep",
+        "pod"
+      ],
+      "directionalAxes": [
+        "rep",
+        "pod"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://en.wikisource.org/wiki/Constitution_of_Finland_(1919)",
+        "https://www.finlex.fi/en/legislation/translations/1999/eng/731"
+      ]
+    },
+    {
+      "id": "dominican-san-cristobal-1844",
+      "name": "República Dominicana — ordem de San Cristóbal",
+      "aliases": [
+        "República Dominicana sob a primeira Constituição"
+      ],
+      "kind": "country",
+      "category": "historical-country",
+      "period": "Primeira carta de 1844, antes da reforma de fevereiro de 1854; cláusulas originais de 6 de novembro de 1844",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "est",
+        "rel"
+      ],
+      "directionalAxes": [
+        "est",
+        "rel"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://es.wikisource.org/wiki/Constituci%C3%B3n_dominicana_de_1844",
+        "https://tribunalconstitucional.gov.do/cec/publicaciones/la-constitucio-n-dominicana-y-sus-reformas-1844-2010/"
+      ]
+    },
+    {
+      "id": "research-brazil-imperial-charter-1824",
+      "name": "Brasil — Império sob a carta original de 1824",
+      "aliases": [
+        "Império do Brasil — desenho anterior ao Ato Adicional"
+      ],
+      "kind": "country",
+      "category": "historical-country",
+      "period": "Desenho original da carta imperial, 1824–1834; antes do Ato Adicional de 12 de agosto de 1834",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "est",
+        "rep",
+        "rel"
+      ],
+      "directionalAxes": [
+        "est",
+        "rep",
+        "rel"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www2.camara.leg.br/legin/fed/consti/1824-1899/constituicao-35041-25-marco-1824-532540-publicacaooriginal-14770-pl.html",
+        "https://www.planalto.gov.br/ccivil_03/leis/lim/lim16.htm"
       ]
     },
     {
