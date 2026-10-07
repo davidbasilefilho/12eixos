@@ -17,13 +17,12 @@ const people: PersonSpec[] = [
     axes: {
       rep: { value: 55, strength: 'medium', reason: 'O ensaio pede sufrágio universal e igual, mas coloca o governo sob liderança e ditadura conjunta de classes revolucionárias; essa tensão mantém a estimativa perto do centro.' },
       dip: { value: 78, strength: 'high', reason: 'O texto enquadra a revolução como luta armada contra forças imperiais e prevê um exército e aparelho de Estado revolucionários.' },
-      int: { value: 88, strength: 'high', reason: 'Mao declara que a revolução chinesa integra uma revolução proletária-socialista mundial e propõe solidariedade internacional.' },
       eco: { value: 85, strength: 'high', reason: 'O ensaio determina que bancos e grandes empresas monopolistas sejam propriedade e administração do Estado.' },
       con: { value: 77, strength: 'high', reason: 'O documento atribui ao Estado controle das empresas centrais e coloca essas empresas estatais como força dirigente da economia.' },
       mor: { value: 72, strength: 'medium', reason: 'Defende sufrágio sem distinção de sexo, crença, propriedade ou escolaridade, uma afirmação explícita de igualdade política; não cobre todas as dimensões do eixo.' },
     },
     rationale: 'O recorte descreve somente o programa de “Nova Democracia” exposto no ensaio de 1940, não toda a trajetória do governo de Mao.',
-    caveats: 'O ensaio mistura transição democrática e direção revolucionária de classe. Não se inferem posições sobre tecnologia, religião, imigração ou federalismo.',
+    caveats: 'O ensaio mistura transição democrática e direção revolucionária de classe. Solidariedade revolucionária internacional não estabelece não intervenção; esse eixo permanece desconhecido. Não se inferem posições sobre tecnologia, religião, imigração ou federalismo.',
   },
   {
     id: 'sukarno-1945-pancasila', name: 'Sukarno', category: 'historical-figure', period: 'Discurso sobre Pancasila à BPUPK, 1º de junho de 1945',
