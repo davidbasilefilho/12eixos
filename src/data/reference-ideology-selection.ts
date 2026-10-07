@@ -6,10 +6,10 @@ export const ideologySelectionSnapshot = {
   "catalogCount": 206,
   "intendedSubsetCount": 75,
   "readyForDefaultUse": false,
-  "boundedReviewedReferents": 40,
+  "boundedReviewedReferents": 43,
   "referentCountScope": "Unique selected IDs reviewed in the ontology sequence; prior LP reading was additionally reopened for §§2.1/2.4. Combahee remains an additionally reviewed alternative; modern Leopold explanation alone is excluded from the primary-referent count.",
   "independent75Verified": false,
-  "boundedTwoSidedContrasts": 27
+  "boundedTwoSidedContrasts": 30
 } as const;
 
 export const ideologyInclusionDefinition = {
@@ -1137,6 +1137,38 @@ export const ideologySelectionSources = [
     "locator": "PDF pp1–6 definitions and II.2 Misunderstanding about the Method pp48–50",
     "supports": "Distribuição ampla de propriedade privada em vez de concentração; pluralidade de arranjos, regras de herança, impostos e acesso jurídico contra concentração. Transcrição textual, não fac-símile paginado da primeira edição; definições de capitalismo/socialismo são do autor.",
     "readAt": "2026-10-07"
+  },
+  {
+    "id": "renan-consent-1882",
+    "title": "Qu’est-ce qu’une nation? — Renan 11 March 1882, UQAM transcription of 1991 edition",
+    "url": "https://classiques.uqam.ca/classiques/renan_ernest/qu_est_ce_une_nation/qu_est_ce_une_nation_texte.html",
+    "locator": "Primary lecture ONLY web lines 202–308; II dynastic/racial/language/religious criteria and III inhabitants’ consent",
+    "supports": "Comunidade histórica depende de consentimento presente; dinastia e religião não constituem critério suficiente de nacionalidade. Introdução de Philippe Forest não atribuída a Renan; generalizações sobre povos e história não validadas.",
+    "readAt": "2026-10-07"
+  },
+  {
+    "id": "nkrumah-union-1963",
+    "title": "Nkrumah at first OAU summit — May 1963, official AU primary-speech compilation",
+    "url": "https://au.int/sites/default/files/speeches/38523-sp-oau_summit_may_1963_speeches.pdf",
+    "locator": "Nkrumah speech PDF pp44–53, especially pp49/52–53 common institutions/union-government proposals",
+    "supports": "União política continental com governo, cidadania, moeda, banco, diplomacia e defesa comuns; programa de ação política além de cooperação interestatal. Não representa todo pan-africanismo.",
+    "readAt": "2026-10-07"
+  },
+  {
+    "id": "oau-charter-primary-1963",
+    "title": "OAU Charter —25May 1963, official AU PDF",
+    "url": "https://au.int/sites/default/files/treaties/7759-file-oau_charter_1963.pdf",
+    "locator": "Preamble PDF p1; Arts II–III pp3–4",
+    "supports": "Cooperação e emancipação continental com soberania, integridade territorial e não interferência preservadas. Variante institucional distinta da proposta de governo continental de Nkrumah; carta sozinha não prova doutrina total.",
+    "readAt": "2026-10-07"
+  },
+  {
+    "id": "nyerere-ujamaa-columbia-1962",
+    "title": "Ujamaa — The Basis of African Socialism, Nyerere 1962, Columbia course transcription",
+    "url": "https://www.columbia.edu/itc/history/mann/w3005/ujamaa.html",
+    "locator": "Whole text; paras 28–32 land tenure, 49–54 expanding family/no inevitable class enmity",
+    "supports": "TANU deve abolir propriedade fundiária incondicional e garantir uso comunitário; família humana ampliada, dever de trabalho e reciprocidade. Fonte não pretende especificar instituições completas; afirmações sobre África tradicional são argumentos do autor, não fatos confirmados.",
+    "readAt": "2026-10-07"
   }
 ] as const;
 
@@ -1566,10 +1598,11 @@ export const intendedIdeologySelection = [
     "name": "Nacionalismo cívico",
     "family": "decolonial",
     "selectionRationale": "Consentimento e pertencimento cívico nacional",
-    "reviewStatus": "provisional",
+    "reviewStatus": "referent-and-bounded-neighbor-contrast-reviewed",
     "documentedAxisCountAtSnapshot": 0,
-    "ontologyStatus": "provisional-normative-referent",
-    "contrastStatus": "not-independently-verified"
+    "ontologyStatus": "bounded-normative-referent-reviewed",
+    "contrastStatus": "bounded-primary-neighbor-contrast",
+    "ontologyLimit": "Programas normativos localizados em transcrição primária; afirmações históricas dos autores não verificadas como fatos. Variantes e sobreposição entre anticolonialismo, solidariedade continental e socialismo permanecem delimitadas."
   },
   {
     "id": "ideology-anticolonial-nationalism",
@@ -1586,10 +1619,11 @@ export const intendedIdeologySelection = [
     "name": "Pan-africanismo",
     "family": "decolonial",
     "selectionRationale": "Unidade continental africana",
-    "reviewStatus": "provisional",
+    "reviewStatus": "referent-and-bounded-neighbor-contrast-reviewed",
     "documentedAxisCountAtSnapshot": 0,
-    "ontologyStatus": "provisional-normative-referent",
-    "contrastStatus": "not-independently-verified"
+    "ontologyStatus": "bounded-normative-referent-reviewed",
+    "contrastStatus": "bounded-primary-neighbor-contrast",
+    "ontologyLimit": "Programas normativos localizados em transcrição primária; afirmações históricas dos autores não verificadas como fatos. Variantes e sobreposição entre anticolonialismo, solidariedade continental e socialismo permanecem delimitadas."
   },
   {
     "id": "ideology-left-nasserism",
@@ -1616,10 +1650,11 @@ export const intendedIdeologySelection = [
     "name": "Ujamaa",
     "family": "decolonial",
     "selectionRationale": "Socialismo comunitário tanzaniano",
-    "reviewStatus": "provisional",
+    "reviewStatus": "referent-and-bounded-neighbor-contrast-reviewed",
     "documentedAxisCountAtSnapshot": 2,
-    "ontologyStatus": "provisional-normative-referent",
-    "contrastStatus": "not-independently-verified"
+    "ontologyStatus": "bounded-normative-referent-reviewed",
+    "contrastStatus": "bounded-primary-neighbor-contrast",
+    "ontologyLimit": "Programas normativos localizados em transcrição primária; afirmações históricas dos autores não verificadas como fatos. Variantes e sobreposição entre anticolonialismo, solidariedade continental e socialismo permanecem delimitadas."
   },
   {
     "id": "ideology-left-mariateguismo",
@@ -2302,6 +2337,27 @@ export const ideologyOverlapChecks = [
     "b": "libertarianism",
     "relation": "property-dispersion-through-tax-and-law-versus-all-tax-abolition",
     "rationale": "Chesterton II.2 propõe meios legais, herança e tributação para reverter concentração de propriedade privada; LP §§2.4/2.8 rejeita todos os impostos e subsídios. Não significa que todo distributismo prefira pequenas fazendas ou que toda tradição socialista seja a definição de Chesterton.",
+    "status": "bounded-primary-contrast"
+  },
+  {
+    "a": "ideology-civic-nationalism",
+    "b": "ideology-right-showa-statism",
+    "relation": "present-inhabitants-consent-versus-hereditary-divine-imperial-polity",
+    "rationale": "Renan 1882 II/III rejeita direito dinástico suficiente e subordina pertencimento territorial ao consentimento dos habitantes; Kokutai 1937 funda a unidade normativa na linhagem imperial divina e dever de devoção. Contraste de legitimação nos textos lidos, não prova de toda variante de nacionalismo cívico ou religião japonesa.",
+    "status": "bounded-primary-contrast"
+  },
+  {
+    "a": "ideology-pan-africanism",
+    "b": "ideology-national-conservatism",
+    "relation": "continental-union-government-versus-no-supranational-authority-transfer",
+    "rationale": "Nkrumah 1963 PDF pp49/52–53 exige governo continental com instituições comuns; NatCon 2022§2 rejeita transferência de autoridade a órgãos supranacionais. Nkrumah mantém soberanias em aspectos não especificados; OAU Arts II–III preserva cooperação soberana, portanto pan-africanismo não é sinônimo universal de centralização.",
+    "status": "bounded-primary-contrast"
+  },
+  {
+    "a": "ideology-left-ujamaa",
+    "b": "libertarianism",
+    "relation": "conditional-community-land-use-versus-private-freehold",
+    "rationale": "Nyerere 1962 paras 28–32 exige direito de uso da terra condicionado ao uso e abolição de freehold incondicional; LP2.1 defende propriedade privada, homesteading e rejeita limites governamentais de propriedade/uso. A comparação é fundiária e normativa, não alegação sobre implementação histórica tanzaniana nem toda modalidade de propriedade comunitária.",
     "status": "bounded-primary-contrast"
   }
 ] as const;
@@ -4220,6 +4276,25 @@ export const ideologyOntologyReviewGroups = [
       "chesterton-outline-1927",
       "epp-cyber-ontology",
       "li-andorra-ontology",
+      "lp-ontology-finance"
+    ],
+    "reviewedOn": "2026-10-07"
+  },
+  {
+    "id": "consent-continental-union-and-ujamaa-land-tenure",
+    "selectedIds": [
+      "ideology-civic-nationalism",
+      "ideology-pan-africanism",
+      "ideology-left-ujamaa"
+    ],
+    "status": "three-bounded-two-sided-primary-contrasts",
+    "scope": "Constitutive consent, substantive continental institutions and conditional community land tenure. Historical claims not validated; charter/program distinctions and decolonial nesting retained.",
+    "sourceIds": [
+      "renan-consent-1882",
+      "nkrumah-union-1963",
+      "oau-charter-primary-1963",
+      "nyerere-ujamaa-columbia-1962",
+      "natcon-principles-2022",
       "lp-ontology-finance"
     ],
     "reviewedOn": "2026-10-07"
