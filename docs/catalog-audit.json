@@ -34,8 +34,8 @@
     ],
     "provenance": "Executed before local data corrections in this recovery checkpoint; not recomputed from unavailable prior Library checkpoint."
   },
-  "headCommitAtAudit": "8bf4e2a3a9b78ad7a91c468b4bb84d564f8dd7c9",
-  "integratedCatalogSha256": "4b4362fc74622cfbd59cfa3f501f5ffed70177ddccbf8179f06d10527eff744e",
+  "headCommitAtAudit": "b0378bb3d8d9489d356720dd3446425b8fbf8d26",
+  "integratedCatalogSha256": "74e0296ed1a3e0a1a85426d728f2ad3a106abf298f9395833941765810d3bb0d",
   "scope": "Integrated working-tree catalog after preparation; fixed remote baseline and current HEAD are provenance, not immutable copies of modified files.",
   "evidenceGate": {
     "minimumAxes": 6,
@@ -52,18 +52,18 @@
     "Expansion preparation has already centered and removed unsupported axes; this inventory does not recover discarded raw estimates."
   ],
   "totalTarget": 675,
-  "totalRecords": 512,
+  "totalRecords": 530,
   "structurallyEligible": 60,
-  "insufficientEvidence": 452,
-  "summedCategoryIdentityGap": 294,
+  "insufficientEvidence": 470,
+  "summedCategoryIdentityGap": 276,
   "categories": [
     {
       "category": "country",
       "target": 150,
-      "records": 130,
+      "records": 140,
       "structurallyEligible": 1,
-      "insufficientEvidence": 129,
-      "missingIdentitiesBeforeSemanticReview": 20,
+      "insufficientEvidence": 139,
+      "missingIdentitiesBeforeSemanticReview": 10,
       "preservedExcess": 0,
       "missingEligibleToTarget": 149
     },
@@ -90,10 +90,10 @@
     {
       "category": "historical-figure",
       "target": 150,
-      "records": 51,
+      "records": 59,
       "structurallyEligible": 16,
-      "insufficientEvidence": 35,
-      "missingIdentitiesBeforeSemanticReview": 99,
+      "insufficientEvidence": 43,
+      "missingIdentitiesBeforeSemanticReview": 91,
       "preservedExcess": 0,
       "missingEligibleToTarget": 134
     },
@@ -12796,6 +12796,406 @@
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Cote_DIvoire_1960",
         "https://history.state.gov/countries/cote-divoire"
+      ]
+    },
+    {
+      "id": "belize-current-2025",
+      "name": "Belize",
+      "aliases": [],
+      "kind": "country",
+      "category": "country",
+      "period": "Prática em 2024; contexto institucional de 2023 quando identificado",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "rep"
+      ],
+      "directionalAxes": [
+        "rep"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.constituteproject.org/constitution/Belize_2011?lang=en",
+        "https://freedomhouse.org/country/belize/freedom-world/2025"
+      ]
+    },
+    {
+      "id": "bahamas-current-2025",
+      "name": "Bahamas",
+      "aliases": [
+        "The Bahamas"
+      ],
+      "kind": "country",
+      "category": "country",
+      "period": "Prática em 2024; contexto institucional de 2023 quando identificado",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "rep",
+        "eco"
+      ],
+      "directionalAxes": [
+        "rep",
+        "eco"
+      ],
+      "sourceCount": 3,
+      "sourceUrls": [
+        "https://www.constituteproject.org/constitution/Bahamas_1973?lang=en",
+        "https://freedomhouse.org/country/bahamas/freedom-world/2025",
+        "https://freedomhouse.org/country/bahamas/freedom-world/2024"
+      ]
+    },
+    {
+      "id": "barbados-current-2025",
+      "name": "Barbados",
+      "aliases": [],
+      "kind": "country",
+      "category": "country",
+      "period": "Prática em 2024; contexto institucional de 2023 quando identificado",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "rep"
+      ],
+      "directionalAxes": [
+        "rep"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.constituteproject.org/constitution/Barbados_2007?lang=en",
+        "https://freedomhouse.org/country/barbados/freedom-world/2025"
+      ]
+    },
+    {
+      "id": "antigua-and-barbuda-current-2025",
+      "name": "Antígua e Barbuda",
+      "aliases": [
+        "Antigua and Barbuda"
+      ],
+      "kind": "country",
+      "category": "country",
+      "period": "Prática em 2024; contexto institucional de 2023 quando identificado",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "est",
+        "rep"
+      ],
+      "directionalAxes": [
+        "est",
+        "rep"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.constituteproject.org/constitution/Antigua_and_Barbuda_1981?lang=en",
+        "https://freedomhouse.org/country/antigua-and-barbuda/freedom-world/2025"
+      ]
+    },
+    {
+      "id": "dominica-current-2025",
+      "name": "Dominica",
+      "aliases": [],
+      "kind": "country",
+      "category": "country",
+      "period": "Prática em 2024; contexto institucional de 2023 quando identificado",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "rep"
+      ],
+      "directionalAxes": [
+        "rep"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.constituteproject.org/constitution/Dominica_2014?lang=en",
+        "https://freedomhouse.org/country/dominica/freedom-world/2025"
+      ]
+    },
+    {
+      "id": "grenada-current-2025",
+      "name": "Granada",
+      "aliases": [
+        "Grenada"
+      ],
+      "kind": "country",
+      "category": "country",
+      "period": "Prática em 2024; contexto institucional de 2023 quando identificado",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "rep"
+      ],
+      "directionalAxes": [
+        "rep"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.constituteproject.org/constitution/Grenada_1992?lang=en",
+        "https://freedomhouse.org/country/grenada/freedom-world/2025"
+      ]
+    },
+    {
+      "id": "st-kitts-and-nevis-current-2025",
+      "name": "São Cristóvão e Névis",
+      "aliases": [
+        "Saint Kitts and Nevis",
+        "St Kitts and Nevis"
+      ],
+      "kind": "country",
+      "category": "country",
+      "period": "Prática em 2024; contexto institucional de 2023 quando identificado",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "est",
+        "rep"
+      ],
+      "directionalAxes": [
+        "est",
+        "rep"
+      ],
+      "sourceCount": 3,
+      "sourceUrls": [
+        "https://www.constituteproject.org/constitution/St_Kitts_and_Nevis_1983?lang=en",
+        "https://freedomhouse.org/country/st-kitts-and-nevis/freedom-world/2025",
+        "https://www.gov.kn/the-constitution/"
+      ]
+    },
+    {
+      "id": "st-lucia-current-2025",
+      "name": "Santa Lúcia",
+      "aliases": [
+        "Saint Lucia",
+        "St Lucia"
+      ],
+      "kind": "country",
+      "category": "country",
+      "period": "Prática em 2024; contexto institucional de 2023 quando identificado",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "rep"
+      ],
+      "directionalAxes": [
+        "rep"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.constituteproject.org/constitution/St_Lucia_1978?lang=en",
+        "https://freedomhouse.org/country/st-lucia/freedom-world/2025"
+      ]
+    },
+    {
+      "id": "st-vincent-and-the-grenadines-current-2025",
+      "name": "São Vicente e Granadinas",
+      "aliases": [
+        "Saint Vincent and the Grenadines"
+      ],
+      "kind": "country",
+      "category": "country",
+      "period": "Prática em 2024; contexto institucional de 2023 quando identificado",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "rep"
+      ],
+      "directionalAxes": [
+        "rep"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.constituteproject.org/constitution/St_Vincent_and_the_Grenadines_1979?lang=en",
+        "https://freedomhouse.org/country/st-vincent-and-the-grenadines/freedom-world/2025"
+      ]
+    },
+    {
+      "id": "trinidad-and-tobago-current-2025",
+      "name": "Trinidad e Tobago",
+      "aliases": [
+        "Trinidad and Tobago"
+      ],
+      "kind": "country",
+      "category": "country",
+      "period": "Prática em 2024; contexto institucional de 2023 quando identificado",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "rep"
+      ],
+      "directionalAxes": [
+        "rep"
+      ],
+      "sourceCount": 3,
+      "sourceUrls": [
+        "https://www.constituteproject.org/constitution/Trinidad_and_Tobago_2007?lang=en",
+        "https://freedomhouse.org/country/trinidad-and-tobago/freedom-world/2025",
+        "https://freedomhouse.org/country/trinidad-and-tobago/freedom-world/2024"
+      ]
+    },
+    {
+      "id": "jose-rizal",
+      "name": "José Rizal",
+      "aliases": [],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "Filipinas dentro de cien años, 1889–1890; tradução de 1912",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "rep",
+        "pod",
+        "mor"
+      ],
+      "directionalAxes": [
+        "rep",
+        "pod",
+        "mor"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.gutenberg.org/files/35899/35899-h/35899-h.htm",
+        "https://philhistoricsites.nhcp.gov.ph/registry_database/jose-rizal-1861-1896-2/"
+      ]
+    },
+    {
+      "id": "yukichi-fukuzawa",
+      "name": "Yukichi Fukuzawa",
+      "aliases": [],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "Nakatsu Ritsubetsu no Sho, 1870; excerto institucional",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "mor"
+      ],
+      "directionalAxes": [
+        "mor"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.keio.ac.jp/en/about/engagement/work-life-balance/initiatives/philosophy/",
+        "https://www.keio.ac.jp/en/about/philosophy/fukuzawa-en/"
+      ]
+    },
+    {
+      "id": "domingo-faustino-sarmiento",
+      "name": "Domingo Faustino Sarmiento",
+      "aliases": [],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "Programa final de Facundo, 1845; edição de 1921",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "pod",
+        "com"
+      ],
+      "directionalAxes": [
+        "pod",
+        "com"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.gutenberg.org/files/33267/33267-h/33267-h.htm",
+        "https://www.argentina.gob.ar/node/503454"
+      ]
+    },
+    {
+      "id": "leo-tolstoy",
+      "name": "Leo Tolstoy",
+      "aliases": [],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "The Kingdom of God Is Within You, 1893; tradução inglesa",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "pod",
+        "dip",
+        "rel"
+      ],
+      "directionalAxes": [
+        "pod",
+        "dip",
+        "rel"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.gutenberg.org/cache/epub/4602/pg4602-images.html",
+        "https://www.gutenberg.org/ebooks/4602"
+      ]
+    },
+    {
+      "id": "bertrand-russell",
+      "name": "Bertrand Russell",
+      "aliases": [],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "Manifesto coletivo Russell–Einstein, 9 de julho de 1955",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "dip"
+      ],
+      "directionalAxes": [
+        "dip"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://pugwash.org/1955/07/09/statement-manifesto/",
+        "https://library.mcmaster.ca/node/238"
+      ]
+    },
+    {
+      "id": "voltairine-de-cleyre",
+      "name": "Voltairine de Cleyre",
+      "aliases": [],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "Direct Action, coletânea póstuma Selected Works, edição de 1914",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "pod",
+        "eco"
+      ],
+      "directionalAxes": [
+        "pod",
+        "eco"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.gutenberg.org/cache/epub/43098/pg43098-images.html",
+        "https://gutenberg.org/ebooks/43098"
+      ]
+    },
+    {
+      "id": "olaudah-equiano",
+      "name": "Olaudah Equiano",
+      "aliases": [],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "The Interesting Narrative, 1789; apelo abolicionista no capítulo XII",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "rel",
+        "mor"
+      ],
+      "directionalAxes": [
+        "rel",
+        "mor"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.gutenberg.org/cache/epub/15399/pg15399-images.html",
+        "https://www.gutenberg.org/ebooks/15399"
+      ]
+    },
+    {
+      "id": "dadabhai-naoroji",
+      "name": "Dadabhai Naoroji",
+      "aliases": [],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "Discurso parlamentar de 2 de junho de 1893; cartas de 1885 e 1903 como contexto",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "mor"
+      ],
+      "directionalAxes": [
+        "mor"
+      ],
+      "sourceCount": 3,
+      "sourceUrls": [
+        "https://api.parliament.uk/historic-hansard/commons/1893/jun/02/civil-service-of-india-examination",
+        "https://dinyarpatel.com/naoroji/letter-box/",
+        "https://api.parliament.uk/historic-hansard/people/mr-dadabhai-naoroji/index.html"
       ]
     },
     {
