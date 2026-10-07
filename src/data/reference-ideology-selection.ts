@@ -6,10 +6,10 @@ export const ideologySelectionSnapshot = {
   "catalogCount": 206,
   "intendedSubsetCount": 75,
   "readyForDefaultUse": false,
-  "boundedReviewedReferents": 17,
+  "boundedReviewedReferents": 22,
   "referentCountScope": "Unique selected IDs reviewed in the ontology sequence; prior LP reading was additionally reopened for §§2.1/2.4. Combahee remains an additionally reviewed alternative; modern Leopold explanation alone is excluded from the primary-referent count.",
   "independent75Verified": false,
-  "boundedTwoSidedContrasts": 10
+  "boundedTwoSidedContrasts": 13
 } as const;
 
 export const ideologyInclusionDefinition = {
@@ -937,6 +937,46 @@ export const ideologySelectionSources = [
     "locator": "Preamble; Statement of Principles; §§2.1 Property/Contract, 2.4 Government Finance, 3.6 Representative Government",
     "supports": "Programa político além de instrumento: direitos individuais e autonomia; §2.4 revogação eventual de toda tributação contrasta com renda fundiária pública georgista.",
     "readAt": "2026-10-07"
+  },
+  {
+    "id": "trotsky-permanent-postulates",
+    "title": "The Permanent Revolution — Trotsky, 1931 English text",
+    "url": "https://www.marxists.org/archive/trotsky/1931/tpr/pr10.htm",
+    "locator": "Chapter 10 Basic Postulates §§2–8,10–13; transcribed primary text",
+    "supports": "Liderança proletária aliada ao campesinato, rejeição de etapa classista intermediária e passagem direta a incursões na propriedade burguesa; conclusão internacional, não hostilidade genérica a camponeses.",
+    "readAt": "2026-10-07"
+  },
+  {
+    "id": "mao-new-democracy-1940",
+    "title": "On New Democracy — Mao, January 1940",
+    "url": "https://www.marxists.org/reference/archive/mao/selected-works/volume-2/mswv2_26.htm",
+    "locator": "Sections III, V and VI; selected works primary translation",
+    "supports": "Duas etapas distintas; nova democracia com ditadura conjunta das classes revolucionárias sob liderança proletária, participação da burguesia nacional e capital privado limitado. Não equivale a pluralismo liberal.",
+    "readAt": "2026-10-07"
+  },
+  {
+    "id": "luxemburg-conquest-1900",
+    "title": "Reform or Revolution — Luxemburg, 1900 English text",
+    "url": "https://www.marxists.org/archive/luxemburg/1900/reform-revolution/ch08.htm",
+    "locator": "Chapter VIII Conquest of Political Power, opening argument and democracy paragraphs",
+    "supports": "Reformas e democracia necessárias à luta, mas reforma legislativa dentro da ordem capitalista não substitui conquista do poder e transformação socialista. Não rejeita toda reforma nem prescreve qualquer violência.",
+    "readAt": "2026-10-07"
+  },
+  {
+    "id": "fabian-transition-1889",
+    "title": "Fabian Essays in Socialism — 1889 essays, American edition 1891, OLL electronic edition 2011",
+    "url": "https://oll-resources.s3.amazonaws.com/titles/298/Shaw_0066_EBk_v6.0.pdf",
+    "locator": "Sidney Webb Historic pp13–14; Bernard Shaw Transition PDF pp126–128 (zero-based pages125–127)",
+    "supports": "Transformação democrática, gradual, constitucional e pacífica no contexto britânico; franquia e transferência gradual da renda/juros ao Estado. Escopo dos ensaios originais, não prefácios posteriores.",
+    "readAt": "2026-10-07"
+  },
+  {
+    "id": "gic-production-1930",
+    "title": "Fundamental Principles of Communist Production and Distribution — GIC, 1930, translation 1990",
+    "url": "https://www.marxists.org/subject/left-wing/gik/1930/13.htm",
+    "locator": "Chapter XIII; Chapter I §§1–3 companion https://www.marxists.org/subject/left-wing/gik/1930/01.htm",
+    "supports": "Autoadministração por conselhos produtivos em lugar do Estado administrador; propriedade social, fim dos mercados e disciplina contábil comum. O texto admite coerção econômica sobre estabelecimentos não associados; não é ausência de autoridade coletiva.",
+    "readAt": "2026-10-07"
   }
 ] as const;
 
@@ -1185,30 +1225,33 @@ export const intendedIdeologySelection = [
     "name": "Maoismo: programa da Nova Democracia",
     "family": "socialist",
     "selectionRationale": "Programa maoista de Nova Democracia",
-    "reviewStatus": "provisional",
+    "reviewStatus": "referent-and-bounded-neighbor-contrast-reviewed",
     "documentedAxisCountAtSnapshot": 4,
-    "ontologyStatus": "provisional-normative-referent",
-    "contrastStatus": "not-independently-verified"
+    "ontologyStatus": "bounded-normative-referent-reviewed",
+    "contrastStatus": "bounded-primary-neighbor-contrast",
+    "ontologyLimit": "Programas localizados de transição, coalizão de classes e autoridade produtiva; não certificam todas variantes históricas nem a independência de todo vizinho. Nenhum vetor foi validado por esta comparação."
   },
   {
     "id": "ideology-trotskyism",
     "name": "Trotskismo",
     "family": "socialist",
     "selectionRationale": "Revolução permanente e internacionalismo",
-    "reviewStatus": "provisional",
+    "reviewStatus": "referent-and-bounded-neighbor-contrast-reviewed",
     "documentedAxisCountAtSnapshot": 0,
-    "ontologyStatus": "provisional-normative-referent",
-    "contrastStatus": "not-independently-verified"
+    "ontologyStatus": "bounded-normative-referent-reviewed",
+    "contrastStatus": "bounded-primary-neighbor-contrast",
+    "ontologyLimit": "Programas localizados de transição, coalizão de classes e autoridade produtiva; não certificam todas variantes históricas nem a independência de todo vizinho. Nenhum vetor foi validado por esta comparação."
   },
   {
     "id": "ideology-luxemburgism",
     "name": "Luxemburguismo",
     "family": "socialist",
     "selectionRationale": "Ação de massas e democracia operária",
-    "reviewStatus": "provisional",
+    "reviewStatus": "referent-and-bounded-neighbor-contrast-reviewed",
     "documentedAxisCountAtSnapshot": 0,
-    "ontologyStatus": "provisional-normative-referent",
-    "contrastStatus": "not-independently-verified"
+    "ontologyStatus": "bounded-normative-referent-reviewed",
+    "contrastStatus": "bounded-primary-neighbor-contrast",
+    "ontologyLimit": "Programas localizados de transição, coalizão de classes e autoridade produtiva; não certificam todas variantes históricas nem a independência de todo vizinho. Nenhum vetor foi validado por esta comparação."
   },
   {
     "id": "ideology-eurocommunism",
@@ -1225,20 +1268,22 @@ export const intendedIdeologySelection = [
     "name": "Comunismo de conselhos",
     "family": "socialist",
     "selectionRationale": "Conselhos operários contra centralização partidária",
-    "reviewStatus": "provisional",
+    "reviewStatus": "referent-and-bounded-neighbor-contrast-reviewed",
     "documentedAxisCountAtSnapshot": 0,
-    "ontologyStatus": "provisional-normative-referent",
-    "contrastStatus": "not-independently-verified"
+    "ontologyStatus": "bounded-normative-referent-reviewed",
+    "contrastStatus": "bounded-primary-neighbor-contrast",
+    "ontologyLimit": "Programas localizados de transição, coalizão de classes e autoridade produtiva; não certificam todas variantes históricas nem a independência de todo vizinho. Nenhum vetor foi validado por esta comparação."
   },
   {
     "id": "ideology-fabianism",
     "name": "Fabianismo",
     "family": "socialist",
     "selectionRationale": "Reforma gradual e administração socialista",
-    "reviewStatus": "provisional",
+    "reviewStatus": "referent-and-bounded-neighbor-contrast-reviewed",
     "documentedAxisCountAtSnapshot": 0,
-    "ontologyStatus": "provisional-normative-referent",
-    "contrastStatus": "not-independently-verified"
+    "ontologyStatus": "bounded-normative-referent-reviewed",
+    "contrastStatus": "bounded-primary-neighbor-contrast",
+    "ontologyLimit": "Programas localizados de transição, coalizão de classes e autoridade produtiva; não certificam todas variantes históricas nem a independência de todo vizinho. Nenhum vetor foi validado por esta comparação."
   },
   {
     "id": "ideology-left-yugoslav-self-management",
@@ -1942,6 +1987,27 @@ export const ideologyOverlapChecks = [
     "relation": "shared-minimal-government-different-justification-unreviewed",
     "rationale": "Fontes lidas convergem em governo protetor de direitos; autoria e sistema filosófico diferente não bastam para provar doutrinas políticas independentes. Necessária comparação localizada dos fundamentos.",
     "status": "both-primary-referents-read-contrast-unresolved"
+  },
+  {
+    "a": "ideology-maoism",
+    "b": "ideology-trotskyism",
+    "relation": "distinct-democratic-stage-versus-direct-permanent-transition",
+    "rationale": "Mao 1940 III/V/VI conserva etapa democrática de coalizão incluindo burguesia nacional e capital privado limitado; Trotsky Chapter 10 §§2–8 rejeita regime classista intermediário e prevê incursões imediatas na propriedade burguesa. Ambos lideram alianças camponesas pelo proletariado; contraste é fase/coalizão, não camponeses versus trabalhadores.",
+    "status": "bounded-primary-contrast"
+  },
+  {
+    "a": "ideology-luxemburgism",
+    "b": "ideology-fabianism",
+    "relation": "conquest-of-power-versus-constitutional-gradual-transfer",
+    "rationale": "Luxemburg VIII mantém reformas democráticas, mas nega que substituam conquista do poder; Webb/Shaw nos ensaios 1889 propõem transformação gradual constitucional e transferência estatal por parcelas. Contextos e meios não são escala numérica de radicalidade.",
+    "status": "bounded-primary-contrast"
+  },
+  {
+    "a": "ideology-council-communism",
+    "b": "ideology-fabianism",
+    "relation": "council-production-versus-state-administered-transition",
+    "rationale": "GIC 1930 I/XIII rejeita Estado administrador da produção e institui conselhos, propriedade social e contabilidade coerciva comum; Fabian 1889 legitima organização política democrática e transferências econômicas ao Estado. Não se presume que comunismo de conselhos dispense coerção ou que todos fabianos defendam burocracia idêntica.",
+    "status": "bounded-primary-contrast"
   }
 ] as const;
 
@@ -3768,6 +3834,26 @@ export const ideologyOntologyReviewGroups = [
       "friedman-machinery-second",
       "george-rent-1879",
       "lp-ontology-finance"
+    ],
+    "reviewedOn": "2026-10-07"
+  },
+  {
+    "id": "socialist-transition-and-productive-authority",
+    "selectedIds": [
+      "ideology-trotskyism",
+      "ideology-maoism",
+      "ideology-luxemburgism",
+      "ideology-fabianism",
+      "ideology-council-communism"
+    ],
+    "status": "three-bounded-two-sided-primary-contrasts",
+    "scope": "Distinct-stage class coalition versus permanent transition; conquest versus constitutional gradualism; council administration versus political-state transfers. Nearest umbrella/subtradition relations remain incomplete.",
+    "sourceIds": [
+      "trotsky-permanent-postulates",
+      "mao-new-democracy-1940",
+      "luxemburg-conquest-1900",
+      "fabian-transition-1889",
+      "gic-production-1930"
     ],
     "reviewedOn": "2026-10-07"
   }
