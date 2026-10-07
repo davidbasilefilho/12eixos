@@ -34,8 +34,8 @@
     ],
     "provenance": "Executed before local data corrections in this recovery checkpoint; not recomputed from unavailable prior Library checkpoint."
   },
-  "headCommitAtAudit": "af2364bae574aac38883310b6d056762bea4c2c7",
-  "integratedCatalogSha256": "1ad8ca5f2dbc70f240339bf6be830a32efb62d38de3e012b567409f2b48227dc",
+  "headCommitAtAudit": "887702a5e76a75cda9653179e17be76b99e0e461",
+  "integratedCatalogSha256": "782110dd06b382042641b657d090374b6b548baca4a9426ae3ea8ea3fc4a4793",
   "scope": "Integrated working-tree catalog after preparation; fixed remote baseline and current HEAD are provenance, not immutable copies of modified files.",
   "evidenceGate": {
     "minimumAxes": 6,
@@ -52,10 +52,10 @@
     "Expansion preparation has already centered and removed unsupported axes; this inventory does not recover discarded raw estimates."
   ],
   "totalTarget": 675,
-  "totalRecords": 581,
+  "totalRecords": 591,
   "structurallyEligible": 63,
-  "insufficientEvidence": 518,
-  "summedCategoryIdentityGap": 225,
+  "insufficientEvidence": 528,
+  "summedCategoryIdentityGap": 215,
   "categories": [
     {
       "category": "country",
@@ -70,10 +70,10 @@
     {
       "category": "historical-country",
       "target": 150,
-      "records": 97,
+      "records": 107,
       "structurallyEligible": 0,
-      "insufficientEvidence": 97,
-      "missingIdentitiesBeforeSemanticReview": 53,
+      "insufficientEvidence": 107,
+      "missingIdentitiesBeforeSemanticReview": 43,
       "preservedExcess": 0,
       "missingEligibleToTarget": 150
     },
@@ -13988,6 +13988,217 @@
         "https://www.assemblee-nationale.fr/dyn/histoire-et-patrimoine/second-empire/plebiscite-et-proclamation-de-l-empire",
         "https://www.elysee.fr/en/french-presidency/the-constitution-of-14-january-1852-and-its-modifications",
         "https://www.assemblee-nationale.fr/dyn/histoire-et-patrimoine/second-empire/defaite-de-sedan-proclamation-de-la-republique-et-gouvernement-provisoire"
+      ]
+    },
+    {
+      "id": "north-german-confederation-1867",
+      "name": "Confederação da Alemanha do Norte",
+      "aliases": [],
+      "kind": "country",
+      "category": "historical-country",
+      "period": "Estado federal de 1867–1871; carta de 1867, anterior à incorporação dos Estados do sul e ao Império de 1871",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "est",
+        "rep"
+      ],
+      "directionalAxes": [
+        "est",
+        "rep"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://de.wikisource.org/wiki/Verfassung_des_Norddeutschen_Bundes",
+        "https://www.bundestag.de/besuche/ausstellungen/verfassung/tafel12"
+      ]
+    },
+    {
+      "id": "france-bourbon-restoration-1814",
+      "name": "França — Restauração Bourbon",
+      "aliases": [],
+      "kind": "country",
+      "category": "historical-country",
+      "period": "Restauração de 1814–1830, interrompida pelos Cem Dias de 1815; texto original de 4/6/1814",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "rep",
+        "rel"
+      ],
+      "directionalAxes": [
+        "rep",
+        "rel"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://fr.wikisource.org/wiki/Charte_constitutionnelle_du_4_juin_1814",
+        "https://www.assemblee-nationale.fr/dyn/histoire-et-patrimoine/monarchie-de-juillet"
+      ]
+    },
+    {
+      "id": "france-july-monarchy-1830",
+      "name": "França — Monarquia de Julho",
+      "aliases": [],
+      "kind": "country",
+      "category": "historical-country",
+      "period": "Regime de 1830–1848; carta original de 14/8/1830, antes de emendas",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "pod"
+      ],
+      "directionalAxes": [
+        "pod"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://fr.wikisource.org/wiki/Charte_constitutionnelle_du_14_août_1830",
+        "https://www.assemblee-nationale.fr/dyn/histoire-et-patrimoine/monarchie-de-juillet"
+      ]
+    },
+    {
+      "id": "belgium-unitary-kingdom-1831",
+      "name": "Bélgica — reino unitário",
+      "aliases": [],
+      "kind": "country",
+      "category": "historical-country",
+      "period": "Ordem unitária fundada em 1831, anterior à federalização iniciada em 1970; âncoras somente na edição original de 7/2/1831",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "rep",
+        "pod"
+      ],
+      "directionalAxes": [
+        "rep",
+        "pod"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.constituteproject.org/constitution/Belgium_1831",
+        "https://www.belgium.be/en/about_belgium/country/history/belgium_from_1830/formation_federal_state"
+      ]
+    },
+    {
+      "id": "afghanistan-constitutional-monarchy-1964",
+      "name": "Afeganistão — monarquia constitucional",
+      "aliases": [],
+      "kind": "country",
+      "category": "historical-country",
+      "period": "Monarquia sob a carta de 1964 até ruptura republicana de 1973; recorte textual original de 1/10/1964",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "pod",
+        "rel"
+      ],
+      "directionalAxes": [
+        "pod",
+        "rel"
+      ],
+      "sourceCount": 1,
+      "sourceUrls": [
+        "https://www.constituteproject.org/constitution/Afghanistan_1964"
+      ]
+    },
+    {
+      "id": "nepal-multiparty-monarchy-1990",
+      "name": "Nepal — monarquia multipartidária",
+      "aliases": [],
+      "kind": "country",
+      "category": "historical-country",
+      "period": "Ordem da carta de 1990 até substituição pela Constituição Interina de 2007; norma fundadora de 9/11/1990",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "rep",
+        "rel"
+      ],
+      "directionalAxes": [
+        "rep",
+        "rel"
+      ],
+      "sourceCount": 1,
+      "sourceUrls": [
+        "https://www.servat.unibe.ch/icl/np00000_.html"
+      ]
+    },
+    {
+      "id": "philippines-commonwealth-1935",
+      "name": "Filipinas — Commonwealth",
+      "aliases": [],
+      "kind": "country",
+      "category": "historical-country",
+      "period": "Commonwealth de 1935–1946, com ocupação e governo no exílio; cláusulas de direitos na edição emendada da carta de1935, anterior à independência",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "pod",
+        "rel"
+      ],
+      "directionalAxes": [
+        "pod",
+        "rel"
+      ],
+      "sourceCount": 1,
+      "sourceUrls": [
+        "https://lawphil.net/consti/cons1935.html"
+      ]
+    },
+    {
+      "id": "bavaria-kingdom-1818",
+      "name": "Reino da Baviera",
+      "aliases": [],
+      "kind": "country",
+      "category": "historical-country",
+      "period": "Reino de1806–1918; recorte constitucional original de26/5/1818, antes de1848 e da incorporação federal de1871",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "rep",
+        "rel"
+      ],
+      "directionalAxes": [
+        "rep",
+        "rel"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://en.wikisource.org/wiki/Constitution_of_the_Kingdom_of_Bavaria_(1818)",
+        "https://www.bsb-muenchen.de/en/article/the-constitution-of-the-kingdom-of-bavaria-1818-1918-a-virtual-exhibition-in-the-cultural-portal-bavarikon-2414/"
+      ]
+    },
+    {
+      "id": "spain-democratic-monarchy-1869",
+      "name": "Espanha — monarquia do Sexênio Democrático",
+      "aliases": [],
+      "kind": "country",
+      "category": "historical-country",
+      "period": "Ordem monárquica de1869–1873, anterior à Primeira República; texto fundador de1869",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "pod"
+      ],
+      "directionalAxes": [
+        "pod"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://es.wikisource.org/wiki/Constitución_española_de_1869",
+        "https://www.senado.es/web/conocersenado/senadohistoria/periodosconstitucionales/index.html"
+      ]
+    },
+    {
+      "id": "philippines-first-republic-1899",
+      "name": "Filipinas — Primeira República",
+      "aliases": [],
+      "kind": "country",
+      "category": "historical-country",
+      "period": "República revolucionária de1899–1901; carta de Malolos de20/1/1899, em contexto de guerra",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "pod"
+      ],
+      "directionalAxes": [
+        "pod"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://lawphil.net/consti/consmalo.html",
+        "https://philhistoricsites.nhcp.gov.ph/registry_database/philippine-republic-1898-1901/"
       ]
     },
     {

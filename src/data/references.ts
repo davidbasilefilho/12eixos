@@ -22,6 +22,7 @@ import { historicalCountryBatch02 } from './reference-historical-country-batch-0
 import { currentCountryBatch03 } from './reference-current-country-batch-03';
 import { historicalFigureBatch03 } from './reference-historical-figure-batch-03';
 import { historicalCountryBatch03 } from './reference-historical-country-batch-03';
+import { historicalCountryBatch04 } from './reference-historical-country-batch-04';
 import { publicFigureBatch03 } from './reference-public-figure-batch-03';
 import { reconcileHistoricalCountry03 } from './reference-historical-country-reconciliation-03';
 import { reconcileCurrentCountry03 } from './reference-current-country-reconciliation-03';
@@ -531,6 +532,7 @@ export const referenceExpansionEntries: ReferenceEntry[] = [
   ...currentCountryBatch03,
   ...historicalFigureBatch03,
   ...historicalCountryBatch03,
+  ...historicalCountryBatch04,
   ...publicFigureBatch03,
   ...currentCountryBatch.map(entry => ({ ...entry, coding: currentCountryBatchCoding[entry.id] })),
 ].map(prepareExpansionEntry);

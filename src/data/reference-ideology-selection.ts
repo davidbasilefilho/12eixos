@@ -6,10 +6,10 @@ export const ideologySelectionSnapshot = {
   "catalogCount": 206,
   "intendedSubsetCount": 75,
   "readyForDefaultUse": false,
-  "boundedReviewedReferents": 28,
+  "boundedReviewedReferents": 33,
   "referentCountScope": "Unique selected IDs reviewed in the ontology sequence; prior LP reading was additionally reopened for §§2.1/2.4. Combahee remains an additionally reviewed alternative; modern Leopold explanation alone is excluded from the primary-referent count.",
   "independent75Verified": false,
-  "boundedTwoSidedContrasts": 17
+  "boundedTwoSidedContrasts": 21
 } as const;
 
 export const ideologyInclusionDefinition = {
@@ -1025,6 +1025,46 @@ export const ideologySelectionSources = [
     "locator": "Introduction; II Principles1–11, especially7,9,10",
     "supports": "Organização sindical revolucionária como via ao comunismo libertário; ação direta, milícias e violência defensiva limitada. Atualização 2023 não é cópia imutável da resolução 1922, cuja nova leitura falhou.",
     "readAt": "2026-10-07"
+  },
+  {
+    "id": "li-andorra-ontology",
+    "title": "Andorra Liberal Manifesto 2017 — LI official PDF",
+    "url": "https://liberal-international.org/wp-content/uploads/2018/03/Andorra-Liberal-Manifesto-2017-FINAL.pdf",
+    "locator": "Vision pp2–3; Response C1,C4–7 pp4–8, especially C5 government health objective and C7 education/research",
+    "supports": "Direitos individuais, instituições democráticas, igualdade de oportunidade e responsabilidade pública por acesso social; não é socialização de toda propriedade.",
+    "readAt": "2026-10-07"
+  },
+  {
+    "id": "epp-cyber-ontology",
+    "title": "EPP Manifesto 2024 — official text",
+    "url": "https://www.epp.eu/papers/epp-manifesto-2024",
+    "locator": "Opening dignity/heritage/pluralism; §§1.7,2 and3.1–3.2",
+    "supports": "Economia social de mercado, subsidiariedade e raízes cristãs com liberdade religiosa/pluralismo; §1.7 defende regras obrigatórias europeias para crimes digitais. Programa de partido delimitado, não todo cristianismo democrático.",
+    "readAt": "2026-10-07"
+  },
+  {
+    "id": "si-frankfurt-ontology",
+    "title": "Aims and Tasks of Democratic Socialism — Frankfurt 1951 declaration",
+    "url": "https://www.socialistinternational.org/our-meetings/congresses/i-frankfurt/",
+    "locator": "Political Democracy§§4–7; Economic Democracy§§1–8",
+    "supports": "Democracia multipartidária e planejamento democrático com formas diversas de propriedade pública e setores privados; fonte não exige estatizar toda produção.",
+    "readAt": "2026-10-07"
+  },
+  {
+    "id": "si-stockholm-ontology",
+    "title": "SI Declaration of Principles — Stockholm 1989",
+    "url": "https://www.socialistinternational.org/our-meetings/congresses/xviii-stockholm/declaration-of-principles-of-the-socialist-international/",
+    "locator": "§§17–25 pluralist democracy; §§59–63 mixed economic control",
+    "supports": "Socialização/propriedade pública em economia mista, controle democrático participativo e mercados; continua a se denominar socialismo democrático, impedindo separação artificial de identidade apenas por ano.",
+    "readAt": "2026-10-07"
+  },
+  {
+    "id": "barlow-cyberspace-1996",
+    "title": "Declaration of the Independence of Cyberspace — Barlow 8 February 1996",
+    "url": "https://www.eff.org/cyberspace-independence",
+    "locator": "Whole declaration, sovereign jurisdiction/open entry/social contract/government of bodies paragraphs",
+    "supports": "Autogoverno e contrato social digital sem jurisdição estatal externa, entrada e expressão livres. Admite governo de corpos físicos: não é ausência universal de Estado nem previsão empírica validada.",
+    "readAt": "2026-10-07"
   }
 ] as const;
 
@@ -1034,10 +1074,11 @@ export const intendedIdeologySelection = [
     "name": "Liberalismo social",
     "family": "liberal",
     "selectionRationale": "Rede social dentro de uma ordem liberal",
-    "reviewStatus": "provisional",
+    "reviewStatus": "referent-and-bounded-neighbor-contrast-reviewed",
     "documentedAxisCountAtSnapshot": 8,
-    "ontologyStatus": "provisional-normative-referent",
-    "contrastStatus": "not-independently-verified"
+    "ontologyStatus": "bounded-normative-referent-reviewed",
+    "contrastStatus": "bounded-primary-neighbor-contrast",
+    "ontologyLimit": "Programas institucionais de ação social/economia ou jurisdição digital localizados. As duas declarações SI continuam no mesmo campo democrático socialista: diferença de edição não prova doutrinas independentes. Barlow limita autonomia ao ciberespaço e admite governo dos corpos."
   },
   {
     "id": "ideology-classical-liberalism",
@@ -1120,10 +1161,11 @@ export const intendedIdeologySelection = [
     "name": "Libertarianismo tecnológico",
     "family": "liberal",
     "selectionRationale": "Autogoverno do ciberespaço",
-    "reviewStatus": "provisional",
+    "reviewStatus": "referent-and-bounded-neighbor-contrast-reviewed",
     "documentedAxisCountAtSnapshot": 1,
-    "ontologyStatus": "provisional-normative-referent",
-    "contrastStatus": "not-independently-verified"
+    "ontologyStatus": "bounded-normative-referent-reviewed",
+    "contrastStatus": "bounded-primary-neighbor-contrast",
+    "ontologyLimit": "Programas institucionais de ação social/economia ou jurisdição digital localizados. As duas declarações SI continuam no mesmo campo democrático socialista: diferença de edição não prova doutrinas independentes. Barlow limita autonomia ao ciberespaço e admite governo dos corpos."
   },
   {
     "id": "ideology-neoliberalism",
@@ -1220,22 +1262,22 @@ export const intendedIdeologySelection = [
     "name": "Social-democracia",
     "family": "socialist",
     "selectionRationale": "Proteção social na economia mista",
-    "reviewStatus": "provisional",
+    "reviewStatus": "referent-and-bounded-neighbor-contrast-reviewed",
     "documentedAxisCountAtSnapshot": 8,
-    "ontologyStatus": "overlapping-umbrella",
-    "contrastStatus": "not-independently-verified",
-    "ontologyLimit": "Textos da SI não provam distinção ontológica frente a socialismo democrático."
+    "ontologyStatus": "overlapping-umbrella-primary-referent-reviewed",
+    "contrastStatus": "bounded-primary-neighbor-contrast",
+    "ontologyLimit": "Programas institucionais de ação social/economia ou jurisdição digital localizados. As duas declarações SI continuam no mesmo campo democrático socialista: diferença de edição não prova doutrinas independentes. Barlow limita autonomia ao ciberespaço e admite governo dos corpos."
   },
   {
     "id": "democratic-socialism",
     "name": "Socialismo democrático",
     "family": "socialist",
     "selectionRationale": "Democratização da propriedade e da produção",
-    "reviewStatus": "provisional",
+    "reviewStatus": "referent-and-bounded-neighbor-contrast-reviewed",
     "documentedAxisCountAtSnapshot": 8,
-    "ontologyStatus": "overlapping-umbrella",
-    "contrastStatus": "not-independently-verified",
-    "ontologyLimit": "Textos da SI não provam distinção ontológica frente a social-democracia."
+    "ontologyStatus": "overlapping-umbrella-primary-referent-reviewed",
+    "contrastStatus": "bounded-primary-neighbor-contrast",
+    "ontologyLimit": "Programas institucionais de ação social/economia ou jurisdição digital localizados. As duas declarações SI continuam no mesmo campo democrático socialista: diferença de edição não prova doutrinas independentes. Barlow limita autonomia ao ciberespaço e admite governo dos corpos."
   },
   {
     "id": "ideology-market-socialism",
@@ -1527,10 +1569,11 @@ export const intendedIdeologySelection = [
     "name": "Democracia cristã",
     "family": "religious",
     "selectionRationale": "Democracia e economia social em tradição cristã",
-    "reviewStatus": "provisional",
+    "reviewStatus": "referent-and-bounded-neighbor-contrast-reviewed",
     "documentedAxisCountAtSnapshot": 7,
-    "ontologyStatus": "provisional-normative-referent",
-    "contrastStatus": "not-independently-verified"
+    "ontologyStatus": "bounded-normative-referent-reviewed",
+    "contrastStatus": "bounded-primary-neighbor-contrast",
+    "ontologyLimit": "Programas institucionais de ação social/economia ou jurisdição digital localizados. As duas declarações SI continuam no mesmo campo democrático socialista: diferença de edição não prova doutrinas independentes. Barlow limita autonomia ao ciberespaço e admite governo dos corpos."
   },
   {
     "id": "ideology-christian-socialism",
@@ -2111,6 +2154,34 @@ export const ideologyOverlapChecks = [
     "relation": "nested-or-specific-distribution-contrast-unresolved",
     "rationale": "Bakunin 1866 admite desigualdades por energia/aptidão e propriedade usada pelo produtor, mas esta leitura não demonstra integral sistema de remuneração coletivista. Kropotkin13 critica também coletivismo estatal; não atribuir alvo inteiro a Bakunin.",
     "status": "both-primary-referents-read-contrast-unresolved"
+  },
+  {
+    "a": "social-liberalism",
+    "b": "libertarianism",
+    "relation": "public-social-access-purpose-versus-government-only-rights-protection",
+    "rationale": "LI 2017 C5/C7 atribui a governos acesso universal de saúde, educação e pesquisa; LP3.0 limita propósito estatal à proteção de direitos e2.12–2.14 propõe educação/saúde/segurança social privada voluntária. Distinção de missão pública, não inferir modelo único de financiamento ou estatização.",
+    "status": "bounded-primary-contrast"
+  },
+  {
+    "a": "democratic-socialism",
+    "b": "libertarianism",
+    "relation": "democratic-production-planning-versus-production-mandate-rejection",
+    "rationale": "Frankfurt 1951 Economic Democracy2–5 exige planejamento democrático da produção, compatível com setores privados; LP2.1 rejeita mandatos produtivos governamentais. Fonte não prova oposição entre socialdemocracia e socialismo democrático.",
+    "status": "bounded-primary-contrast"
+  },
+  {
+    "a": "social-democracy",
+    "b": "libertarianism",
+    "relation": "mixed-public-enterprise-versus-separation-business-state",
+    "rationale": "Stockholm 1989§60 legitima empresas públicas quando necessárias às prioridades sociais em economia mista; LP2.8 proíbe competição governamental com empresas privadas. O contraste está no programa econômico, não no ano nem numa diferença fabricada entre os dois rótulos SI.",
+    "status": "bounded-primary-contrast"
+  },
+  {
+    "a": "ideology-right-technolibertarianism",
+    "b": "christian-democracy",
+    "relation": "cyberspace-self-jurisdiction-versus-binding-public-digital-law",
+    "rationale": "Barlow 1996 rejeita jurisdição legal governamental externa no espaço virtual, mantendo consentimento ao governo dos corpos; EPP 2024§1.7 propõe regras digitais públicas obrigatórias, crimes e brigada cibernética. Conflito localizado de jurisdição, não diferença universal por entusiasmo tecnológico.",
+    "status": "bounded-primary-contrast"
   }
 ] as const;
 
@@ -3979,6 +4050,27 @@ export const ideologyOntologyReviewGroups = [
       "bakunin-catechism-ontology",
       "tolstoy-nonresistance-ontology",
       "iwa-statutes-2023-ontology"
+    ],
+    "reviewedOn": "2026-10-07"
+  },
+  {
+    "id": "pluralist-social-programs-and-digital-jurisdiction",
+    "selectedIds": [
+      "social-liberalism",
+      "christian-democracy",
+      "social-democracy",
+      "democratic-socialism",
+      "ideology-right-technolibertarianism"
+    ],
+    "status": "four-bounded-two-sided-primary-contrasts",
+    "scope": "Public social purpose/planned or public production versus LP limited purpose; cyberspace self-jurisdiction versus binding digital public law. SI1951/1989 identity overlap remains unresolved.",
+    "sourceIds": [
+      "li-andorra-ontology",
+      "epp-cyber-ontology",
+      "si-frankfurt-ontology",
+      "si-stockholm-ontology",
+      "barlow-cyberspace-1996",
+      "lp-ontology-finance"
     ],
     "reviewedOn": "2026-10-07"
   }

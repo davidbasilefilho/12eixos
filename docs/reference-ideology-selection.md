@@ -4,7 +4,7 @@ Reviewed on 2026-10-07. The catalog still preserves all 206 ideology records. Th
 
 An included object should be an identifiable **political normative doctrine or tradition** addressing legitimate authority, collective social/economic order and action, with a located referent and a material contrast to retained neighbors. A framework, institutional device or policy instrument alone is insufficient. State-authored normative doctrines can qualify; government authorship alone is neither acceptance nor rejection. Subtraditions may be retained when their extra commitments are identified; they must not be presented as mutually exclusive families.
 
-Four weakly scoped slots were replaced with existing records. The original entries remain among 131 alternatives; the selected plus alternative IDs still cover all 206 exactly. Twenty-eight selected IDs have located primary normative referents and scoped review. Seventeen two-sided contrasts are recorded across libertarian strategy, ecological programs and liberal authority/property programs. Full nearest-neighbor comparisons remain incomplete. See `docs/reference-ideology-ontology-audit.md` for locators, edition limitations and what was actually verified.
+Four weakly scoped slots were replaced with existing records. The original entries remain among 131 alternatives; the selected plus alternative IDs still cover all 206 exactly. Thirty-three selected IDs have located primary normative referents and scoped review. Twenty-one two-sided contrasts are recorded across libertarian strategy, ecological programs and liberal authority/property programs. Full nearest-neighbor comparisons remain incomplete. See `docs/reference-ideology-ontology-audit.md` for locators, edition limitations and what was actually verified.
 
 | Deferred slot | Selected existing record | Reason |
 | --- | --- | --- |
@@ -21,7 +21,7 @@ The overall selection remains provisional. Individually grounded bounded contras
 
 | ID | Label | Family | Ontology status | Contrast status |
 | --- | --- | --- | --- | --- |
-| `social-liberalism` | Liberalismo social | liberal | provisional-normative-referent | not-independently-verified |
+| `social-liberalism` | Liberalismo social | liberal | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | `ideology-classical-liberalism` | Liberalismo clássico | liberal | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | `ideology-ordoliberalism` | Ordoliberalismo | liberal | provisional-normative-referent | not-independently-verified |
 | `libertarianism` | Libertarianismo | liberal | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
@@ -29,7 +29,7 @@ The overall selection remains provisional. Individually grounded bounded contras
 | `ideology-right-anarcho-capitalism` | Anarcocapitalismo | liberal | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | `ideology-georgism` | Georgismo | liberal | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | `ideology-right-objectivism` | Objetivismo político | liberal | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
-| `ideology-right-technolibertarianism` | Libertarianismo tecnológico | liberal | provisional-normative-referent | not-independently-verified |
+| `ideology-right-technolibertarianism` | Libertarianismo tecnológico | liberal | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | `ideology-neoliberalism` | Neoliberalismo inicial (Colóquio Walter Lippmann) | liberal | provisional-normative-referent | not-independently-verified |
 | `ideology-conservatism` | Conservadorismo | conservative | provisional-normative-referent | not-independently-verified |
 | `ideology-social-conservatism` | Conservadorismo social | conservative | provisional-normative-referent | not-independently-verified |
@@ -39,8 +39,8 @@ The overall selection remains provisional. Individually grounded bounded contras
 | `ideology-right-constitutional-monarchism` | Monarquismo constitucional | conservative | provisional-normative-referent | not-independently-verified |
 | `ideology-right-absolute-monarchy` | Monarquia absoluta | conservative | provisional-normative-referent | not-independently-verified |
 | `ideology-right-bonapartism` | Bonapartismo | conservative | provisional-normative-referent | not-independently-verified |
-| `social-democracy` | Social-democracia | socialist | overlapping-umbrella | not-independently-verified |
-| `democratic-socialism` | Socialismo democrático | socialist | overlapping-umbrella | not-independently-verified |
+| `social-democracy` | Social-democracia | socialist | overlapping-umbrella-primary-referent-reviewed | bounded-primary-neighbor-contrast |
+| `democratic-socialism` | Socialismo democrático | socialist | overlapping-umbrella-primary-referent-reviewed | bounded-primary-neighbor-contrast |
 | `ideology-market-socialism` | Socialismo de mercado | socialist | provisional-normative-referent | not-independently-verified |
 | `ideology-revolutionary-socialism` | Socialismo revolucionário | socialist | provisional-normative-referent | not-independently-verified |
 | `ideology-marxism-leninism` | Marxismo-leninismo: recorte constitucional da RPC | socialist | doctrine-referent-source-mismatch | not-independently-verified |
@@ -68,7 +68,7 @@ The overall selection remains provisional. Individually grounded bounded contras
 | `ideology-left-ujamaa` | Ujamaa | decolonial | provisional-normative-referent | not-independently-verified |
 | `ideology-left-mariateguismo` | Mariateguismo | decolonial | provisional-normative-referent | not-independently-verified |
 | `ideology-indigenous-autonomy` | Autonomismo indígena | decolonial | provisional-normative-referent | not-independently-verified |
-| `christian-democracy` | Democracia cristã | religious | provisional-normative-referent | not-independently-verified |
+| `christian-democracy` | Democracia cristã | religious | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | `ideology-christian-socialism` | Socialismo cristão | religious | provisional-normative-referent | not-independently-verified |
 | `ideology-distributism` | Distributismo | religious | provisional-normative-referent | not-independently-verified |
 | `ideology-islamic-democracy` | Democracia muçulmana | religious | provisional-normative-referent | not-independently-verified |
