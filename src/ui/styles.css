@@ -3564,3 +3564,5 @@ body:has(.quiz-page)::before { @apply hidden; }
 
 .share-capture-source .share-countries > p b { @apply col-start-2 row-start-1; }
 .share-capture-source .share-countries > p:not(:has(img)) b { @apply col-start-1 col-span-2; }
+/* Two-line secondary names retain their category caption inside the export strip. */
+.share-capture-source .share-person-card > img { height:72px !important; }

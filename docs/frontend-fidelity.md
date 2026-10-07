@@ -20,7 +20,7 @@ Each row records at least five concrete comparisons. The layout follows the refe
 
 ## Validation
 
-- Full Bun suite:29 pass,0 fail,65,949 assertions after the accepted country/public/historical batches04 and Soros05; raw output `bun-tests.txt`.
+- Historical611/66 snapshot:29 tests passed after the accepted batches04/Soros05. Later611/76 snapshot:31 tests passed,66,479 assertions. Latest639/77 checkpoint:31 pass,0 fail,70,569 assertions; raw output is in `ui/checkpoint-639/bun-tests.txt`.
 - TypeScript/Vite production build passes; raw output `build.txt`. Vite reports a large JavaScript chunk; performance/code splitting remains a separate improvement.
 - Settled matrix: six surfaces ×1440/390 ×light/dark =24 states; no horizontal overflow, broken images, error overlays, page errors or console errors. Four actual PNG downloads, mobile menu navigation, result-to-axis navigation, source access and persisted manual theme are recorded in `regression.json`.
 - All twelve axis-detail routes ×1440/768/390 ×light/dark =72 states; no horizontal overflow or broken images, recorded in `all-axis-routes.json`.
@@ -34,9 +34,9 @@ Scripts are saved in `/workspace/12eixos-deliverables/ui/scripts`: `fidelity-reg
 
 Visual architecture and material rendering defects were repaired, but this is not a pixel-identical reproduction or a10/10 fidelity claim. Exact reference artwork and the approved light reference are unavailable. Approved demonstration data and unsupported methodology claims were intentionally replaced with real behavior. Browser evidence is Chromium only; Safari/Firefox, screen-reader behavior and full motion/contrast/accessibility audits remain unverified. Source validity is judged independently of UI appearance; incomplete catalog coverage cannot be repaired with fabricated data or photos.
 
-The live catalog at this report checkpoint contains611 identities/66 structurally eligible profiles:150 current countries,107 historical countries,69 public figures,79 historical figures and206 preserved ideologies. This does not fulfill the category-based675 goal. Root owns subsequent source review, commits, recovery bundle and Library packaging.
+The initial611/66 report checkpoint was superseded by611/76 after source reconciliation. The latest639/77 checkpoint contains150 current countries,115 historical countries,79 public figures,89 historical figures and206 preserved ideologies. This does not fulfill the category-based675 goal. Root owns subsequent source review, commits, recovery bundle and Library packaging.
 
-The24-state and72-state matrices and final exported images correspond to the611-record static build. `build-source-manifest.json` records source/dist SHA256 values; the root packaging manifest supplies its eventual commit identity. Earlier591-record capture/review messages are preceding snapshots, not current counts.
+The24-state and72-state route matrices correspond to the preceding611-record static build. Those unchanged routes were not rerun at639. Focused results/export checks at639 are recorded separately in `ui/checkpoint-639`; they do not imply a new72-route matrix. `build-source-manifest.json` records source/dist SHA256 values; the root packaging manifest supplies its eventual commit identity. Earlier591-record capture/review messages are preceding snapshots, not current counts.
 
 ## Long-title and missing-portrait regression
 
@@ -45,3 +45,13 @@ An actual Mazzini vector fixture produces Socialismo democrático and Giuseppe M
 The final expanded country matches have much longer contextual period strings. Export captions list the exact date tokens from each existing period, retaining the full period in the live catalog and HTML title. They do not infer a new period or omit dates. Export shows the closest three countries; other matches remain in the live source catalog. Names with unavailable flags use the full name width. Fresh download and measured bounds evidence are in `export-final.json`, `missing-portrait-run.txt` and `export-missing-portrait.png`.
 
 Root visually reviewed and accepted the unique final missing-portrait raster `export-missing-portrait-reviewed-76.png`, SHA256 `a62103444f681c1319b59aca575da9c18aac697c2c5ad376a66828fdab666cc6`. Final source/build/evidence hashes and the611/76 catalog identity are recorded in `build-source-manifest.json`; Root owns the eventual immutable commit linkage.
+
+## Focused639/77 checkpoint
+
+Accepted source batches increased the catalog to639 identities/77 structurally eligible profiles (150 current countries,115 historical countries,79 public figures,89 historical figures,206 preserved ideologies). Catalog SHA256: `6b2e811d16825701c5f58bcd43f442eb7d04da822944d9c6dcf2c3b6a364e879`. The previous611/76 manifest and images remain identified historical evidence.
+
+A separate production build and focused12-state check cover normal results, the actual Mazzini vector, and the newly eligible Ricardo Flores Magón vector, each at1440/390 in light/dark. All12 downloads are1440×1920 PNGs. The final report has zero errors, broken images, horizontal overflow, hero/card containment failures, country-panel overflow or secondary-category caption overflow. Magón's two-line secondary name initially hid its classification; the export portrait height was reduced to72px and the caption bounds were added to the assertions. The failed intermediate JSON is preserved as `browser-before-caption-fix.json`.
+
+Actual original-detail raster inspection confirms full Socialismo democrático heading/card text, Mazzini without an empty portrait frame, Magón's full name and1906 period, all twelve axes, contained country captions and the truthful empty historical-country state. The unique normal fixture `export-normal-caption-reviewed-77.png` has SHA256 `718360e8f69e8c1da30e032ee042b673c86970c408d9e2f95789b298ed7ab8fb`.
+
+Evidence: `/workspace/12eixos-deliverables/ui/checkpoint-639`. Its manifest hashes only the transitive local imports from `src/main.tsx`, build configuration/lockfile, packaged assets and actual dist files; unimported source drafts are listed separately without hashes. Full contextual periods and source objects for eligible countries are retained in `country-caption-context.json`, complementing the PNG's exact date-token index and the live catalog.31 tests pass,70,569 assertions; build and diff-check pass. The preceding72-axis/24-route matrices were not rerun at639. Chromium-only and the wider source/fidelity limitations remain unchanged.
