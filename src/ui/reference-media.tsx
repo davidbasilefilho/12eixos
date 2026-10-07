@@ -1,8 +1,10 @@
 import { useState, type CSSProperties } from 'react'
+import { flagAssets } from '../data/flag-assets'
 import { portraitAssets } from '../data/portrait-assets'
 import type { ReferenceEntry } from '../data/references'
 
 const portraitById = new Map(portraitAssets.flatMap(asset => [[asset.id, asset] as const, [asset.id.replace(/^(?:na|eu|as|af)-/, ''), asset] as const]))
+const packagedFlags = new Set(flagAssets)
 const countryFlagAspectRatios: Record<string, number> = {
   uruguay: 3 / 2, denmark: 37 / 28, 'united-states': 1235 / 650, singapore: 3 / 2, germany: 5 / 3,
   'new-zealand': 2, brazil: 10 / 7, japan: 3 / 2, india: 3 / 2, 'south-africa': 3 / 2, indonesia: 3 / 2,
@@ -19,8 +21,10 @@ export function referenceImage(reference: Pick<ReferenceEntry, 'id' | 'kind'>): 
     return asset ? { src: asset.src, alt: '', width: 40, height: 48 } : null
   }
   if (reference.kind === 'country') {
+    const src = `/assets/flags/${reference.id}.svg`
+    if (!packagedFlags.has(src)) return null
     const width = 36
-    return { src: `/assets/flags/${reference.id}.svg`, alt: '', width, height: width / (countryFlagAspectRatios[reference.id] ?? 3 / 2) }
+    return { src, alt: '', width, height: width / (countryFlagAspectRatios[reference.id] ?? 3 / 2) }
   }
   return null
 }

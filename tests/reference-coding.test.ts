@@ -1,6 +1,8 @@
 import { describe, expect, test } from 'bun:test';
 import { codeReferenceAxis, EDITORIAL_ANCHORS, REFERENCE_CODING_VERSION, type ReferenceAxisCoding } from '../src/lib/reference-coding';
 import { AXIS_KEYS, referenceEntries } from '../src/data/references';
+import { currentCountryLegacyVectors, currentCountryCodingAudit, reconcileCurrentCountry } from '../src/data/reference-current-country-reconciliation';
+import type { ReferenceEntry } from '../src/data/references';
 import { documentedEvidenceAxes, partitionMatchReferences } from '../src/lib/matching';
 
 const fixture: ReferenceAxisCoding = {
@@ -51,6 +53,34 @@ describe('auditable reference coding', () => {
     expect(djibouti!.axisEvidence?.rel).toBeUndefined();
     expect(djibouti!.coding?.rel).toBeUndefined();
     expect(documentedEvidenceAxes(djibouti!)).not.toContain('rel');
+  });
+
+  test('reconciliation preserves source records and immutable raw audit values while replacing all unsupported grades', () => {
+    const raw: ReferenceEntry = {
+      id: 'germany', kind: 'country', category: 'country', name: 'Germany fixture', period: 'Fixture only',
+      vec: Object.fromEntries(AXIS_KEYS.map(axis => [axis, 83])) as ReferenceEntry['vec'],
+      evidence: Object.fromEntries(AXIS_KEYS.map(axis => [axis, 'high'])) as ReferenceEntry['evidence'],
+      axisEvidence: Object.fromEntries(AXIS_KEYS.map(axis => [axis, { sourceTitles: [sources[0].title], rationale: 'Unreviewed legacy fixture.' }])),
+      sources, rationale: 'Synthetic merge fixture.', caveats: 'Never imported as a profile.',
+    };
+    const encoded = reconcileCurrentCountry(raw);
+    expect(encoded.sources).toContainEqual(sources[0]);
+    expect(raw.vec.rel).toBe(83);
+    expect(raw.evidence.rel).toBe('high');
+    expect(encoded.vec.rel).toBe(50);
+    expect(encoded.evidence.rel).toBeUndefined();
+    expect(encoded.axisEvidence?.rel).toBeUndefined();
+    expect(encoded.coding?.rel).toBeUndefined();
+    const denmark = referenceEntries.find(entry => entry.id === 'denmark')!;
+    expect(denmark.vec.mor).toBe(50);
+    expect(denmark.evidence.mor).toBeUndefined();
+    expect(denmark.coding?.mor).toBeUndefined();
+    for (const audit of currentCountryCodingAudit) {
+      expect(audit.baseline).toBe('9db0807');
+      expect(audit.legacyVector).toEqual(currentCountryLegacyVectors[audit.id]);
+      expect(audit.legacyVector).toHaveLength(12);
+      expect(referenceEntries.find(entry => entry.id === audit.id)?.coding).toBeDefined();
+    }
   });
 
   test('keeps integrated coding aligned with vectors, citations and documented-axis gate', () => {

@@ -34,8 +34,8 @@
     ],
     "provenance": "Executed before local data corrections in this recovery checkpoint; not recomputed from unavailable prior Library checkpoint."
   },
-  "headCommitAtAudit": "9db08071e7145b768c6a28005999c39c507860c5",
-  "integratedCatalogSha256": "dcec1455425ead5b8ed767a46361e5851fc8619117a7bb4fb407c9ad7423f052",
+  "headCommitAtAudit": "bb746ca3698b7d3e805caa788e2b2544895f9ce2",
+  "integratedCatalogSha256": "2af167e16cefe348bf0186b8a7065b64a29bba6a939117718fc05489ad254744",
   "scope": "Integrated working-tree catalog after preparation; fixed remote baseline and current HEAD are provenance, not immutable copies of modified files.",
   "evidenceGate": {
     "minimumAxes": 6,
@@ -52,48 +52,48 @@
     "Expansion preparation has already centered and removed unsupported axes; this inventory does not recover discarded raw estimates."
   ],
   "totalTarget": 675,
-  "totalRecords": 500,
-  "structurallyEligible": 59,
-  "insufficientEvidence": 441,
-  "summedCategoryIdentityGap": 306,
+  "totalRecords": 512,
+  "structurallyEligible": 60,
+  "insufficientEvidence": 452,
+  "summedCategoryIdentityGap": 294,
   "categories": [
     {
       "category": "country",
       "target": 150,
       "records": 130,
-      "structurallyEligible": 0,
-      "insufficientEvidence": 130,
+      "structurallyEligible": 1,
+      "insufficientEvidence": 129,
       "missingIdentitiesBeforeSemanticReview": 20,
       "preservedExcess": 0,
-      "missingEligibleToTarget": 150
+      "missingEligibleToTarget": 149
     },
     {
       "category": "historical-country",
       "target": 150,
-      "records": 79,
+      "records": 83,
       "structurallyEligible": 0,
-      "insufficientEvidence": 79,
-      "missingIdentitiesBeforeSemanticReview": 71,
+      "insufficientEvidence": 83,
+      "missingIdentitiesBeforeSemanticReview": 67,
       "preservedExcess": 0,
       "missingEligibleToTarget": 150
     },
     {
       "category": "public-figure",
       "target": 150,
-      "records": 38,
+      "records": 42,
       "structurallyEligible": 18,
-      "insufficientEvidence": 20,
-      "missingIdentitiesBeforeSemanticReview": 112,
+      "insufficientEvidence": 24,
+      "missingIdentitiesBeforeSemanticReview": 108,
       "preservedExcess": 0,
       "missingEligibleToTarget": 132
     },
     {
       "category": "historical-figure",
       "target": 150,
-      "records": 47,
+      "records": 51,
       "structurallyEligible": 16,
-      "insufficientEvidence": 31,
-      "missingIdentitiesBeforeSemanticReview": 103,
+      "insufficientEvidence": 35,
+      "missingIdentitiesBeforeSemanticReview": 99,
       "preservedExcess": 0,
       "missingEligibleToTarget": 134
     },
@@ -166,30 +166,6 @@
       "issue": "unsupported-direction:com"
     },
     {
-      "id": "uruguay",
-      "issue": "unsupported-direction:rep"
-    },
-    {
-      "id": "uruguay",
-      "issue": "unsupported-direction:pod"
-    },
-    {
-      "id": "uruguay",
-      "issue": "unsupported-direction:eco"
-    },
-    {
-      "id": "denmark",
-      "issue": "unsupported-direction:rep"
-    },
-    {
-      "id": "denmark",
-      "issue": "unsupported-direction:pod"
-    },
-    {
-      "id": "denmark",
-      "issue": "unsupported-direction:eco"
-    },
-    {
       "id": "united-states",
       "issue": "unsupported-direction:est"
     },
@@ -224,34 +200,6 @@
     {
       "id": "singapore",
       "issue": "unsupported-direction:com"
-    },
-    {
-      "id": "germany",
-      "issue": "unsupported-direction:est"
-    },
-    {
-      "id": "germany",
-      "issue": "unsupported-direction:rep"
-    },
-    {
-      "id": "germany",
-      "issue": "unsupported-direction:pod"
-    },
-    {
-      "id": "germany",
-      "issue": "unsupported-direction:eco"
-    },
-    {
-      "id": "new-zealand",
-      "issue": "unsupported-direction:rep"
-    },
-    {
-      "id": "new-zealand",
-      "issue": "unsupported-direction:pod"
-    },
-    {
-      "id": "new-zealand",
-      "issue": "unsupported-direction:eco"
     },
     {
       "id": "brazil",
@@ -1510,18 +1458,35 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas vigentes, 2024–2025",
-      "structurallyEligible": false,
-      "documentedAxes": [],
+      "period": "Instituições e prática relatada, 2024–2025; revisão documental em 07/10/2026",
+      "structurallyEligible": true,
+      "documentedAxes": [
+        "rep",
+        "pod",
+        "eco",
+        "con",
+        "rel",
+        "mor"
+      ],
       "directionalAxes": [
         "rep",
         "pod",
-        "eco"
+        "eco",
+        "con",
+        "rel",
+        "mor"
       ],
-      "sourceCount": 2,
+      "sourceCount": 9,
       "sourceUrls": [
         "https://freedomhouse.org/country/uruguay/freedom-world/2025",
-        "https://www.elibrary.imf.org/view/journals/002/2024/215/article-A001-en.xml"
+        "https://www.elibrary.imf.org/view/journals/002/2024/215/article-A001-en.xml",
+        "https://freedomhouse.org/country/uruguay/freedom-world/2025",
+        "https://www.impo.com.uy/bases/constitucion/1967-1967/77",
+        "https://www.impo.com.uy/bases/constitucion/1967-1967/15",
+        "https://www.impo.com.uy/bases/constitucion/1967-1967/5",
+        "https://www.impo.com.uy/bases/constitucion/1967-1967/71",
+        "https://www.impo.com.uy/bases/constitucion/1967-1967/230",
+        "https://www.impo.com.uy/bases/codigo-civil/16603-1994/83"
       ]
     },
     {
@@ -1530,18 +1495,29 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas vigentes, 2024–2025",
+      "period": "Instituições e prática relatada, 2024–2025; revisão documental em 07/10/2026",
       "structurallyEligible": false,
-      "documentedAxes": [],
+      "documentedAxes": [
+        "rep",
+        "pod",
+        "eco",
+        "com",
+        "rel"
+      ],
       "directionalAxes": [
         "rep",
         "pod",
-        "eco"
+        "eco",
+        "com",
+        "rel"
       ],
-      "sourceCount": 2,
+      "sourceCount": 5,
       "sourceUrls": [
         "https://freedomhouse.org/country/denmark/freedom-world/2025",
-        "https://www.oecd.org/en/publications/government-at-a-glance-2025_0efd0bcd-en.html"
+        "https://www.oecd.org/en/publications/government-at-a-glance-2025_0efd0bcd-en.html",
+        "https://freedomhouse.org/country/denmark/freedom-world/2025",
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:12016E/TXT",
+        "https://hrlibrary.umn.edu/research/denmark-constitution.html"
       ]
     },
     {
@@ -1593,19 +1569,31 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas vigentes, 2024–2025",
+      "period": "Instituições e prática relatada, 2024–2025; revisão documental em 07/10/2026",
       "structurallyEligible": false,
-      "documentedAxes": [],
+      "documentedAxes": [
+        "est",
+        "rep",
+        "pod",
+        "com",
+        "mor"
+      ],
       "directionalAxes": [
         "est",
         "rep",
         "pod",
-        "eco"
+        "com",
+        "mor"
       ],
-      "sourceCount": 2,
+      "sourceCount": 7,
       "sourceUrls": [
         "https://freedomhouse.org/country/germany/freedom-world/2025",
-        "https://www.oecd.org/en/publications/government-at-a-glance-2025_0efd0bcd-en.html"
+        "https://www.oecd.org/en/publications/government-at-a-glance-2025_0efd0bcd-en.html",
+        "https://freedomhouse.org/country/germany/freedom-world/2025",
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:12016E/TXT",
+        "https://www.gesetze-im-internet.de/gg/art_30.html",
+        "https://www.gesetze-im-internet.de/englisch_gg/englisch_gg.pdf",
+        "https://www.gesetze-im-internet.de/wrv/art_137.html"
       ]
     },
     {
@@ -1614,18 +1602,29 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas vigentes, 2024–2025",
+      "period": "Instituições e prática relatada, 2024–2025; revisão documental em 07/10/2026",
       "structurallyEligible": false,
-      "documentedAxes": [],
+      "documentedAxes": [
+        "rep",
+        "pod",
+        "com",
+        "mor"
+      ],
       "directionalAxes": [
         "rep",
         "pod",
-        "eco"
+        "com",
+        "mor"
       ],
-      "sourceCount": 2,
+      "sourceCount": 7,
       "sourceUrls": [
         "https://freedomhouse.org/country/new-zealand/freedom-world/2025",
-        "https://www.oecd.org/en/publications/government-at-a-glance-2025_0efd0bcd-en.html"
+        "https://www.oecd.org/en/publications/government-at-a-glance-2025_0efd0bcd-en.html",
+        "https://freedomhouse.org/country/new-zealand/freedom-world/2025",
+        "https://gg.govt.nz/office-governor-general/roles-and-functions-governor-general/constitutional-role/constitution",
+        "https://www.justice.govt.nz/justice-sector-policy/constitutional-issues-and-human-rights/human-rights/international-human-rights/international-covenant-on-civil-and-political-rights/",
+        "https://www.mfat.govt.nz/assets/Trade-agreements/EU-NZ-FTA/Chapters/2.-National-Treatment-and-Market-Access-for-Goods.pdf",
+        "https://www.govt.nz/browse/family-and-whanau/getting-married/"
       ]
     },
     {
@@ -8567,6 +8566,198 @@
       ]
     },
     {
+      "id": "ilhan-omar",
+      "name": "Ilhan Omar",
+      "aliases": [],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "Posições legislativas autodeclaradas na página Issues consultada em 7 de outubro de 2026; página sem data de publicação.",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "imi",
+        "dip",
+        "eco",
+        "con"
+      ],
+      "directionalAxes": [
+        "imi",
+        "dip",
+        "eco",
+        "con"
+      ],
+      "sourceCount": 1,
+      "sourceUrls": [
+        "https://omar.house.gov/issues"
+      ]
+    },
+    {
+      "id": "rashida-tlaib",
+      "name": "Rashida Tlaib",
+      "aliases": [],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "Agenda publicada pelo gabinete: Justice for All Act de 2023 e página Ending Poverty sem data; consulta em 7 de outubro de 2026.",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "rep",
+        "pod",
+        "imi",
+        "mor"
+      ],
+      "directionalAxes": [
+        "rep",
+        "pod",
+        "imi",
+        "mor"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://tlaib.house.gov/resources/justice",
+        "https://tlaib.house.gov/resources/ending-poverty"
+      ]
+    },
+    {
+      "id": "ayanna-pressley",
+      "name": "Ayanna Pressley",
+      "aliases": [],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "Plataforma de campanha publicada sem datas; consulta em 7 de outubro de 2026. O texto econômico menciona recuperação da crise de COVID-19 e não deve ser tratado como proposta recém-lançada.",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "imi",
+        "dip",
+        "eco",
+        "con",
+        "mor"
+      ],
+      "directionalAxes": [
+        "imi",
+        "dip",
+        "eco",
+        "con",
+        "mor"
+      ],
+      "sourceCount": 4,
+      "sourceUrls": [
+        "https://ayannapressley.com/issues/jobguarantee/",
+        "https://ayannapressley.com/issues/lgbtq/",
+        "https://ayannapressley.com/issues/protecting-the-rights-of-cisgender-and-transgender-women-and-girls/",
+        "https://ayannapressley.com/issues/immigration/"
+      ]
+    },
+    {
+      "id": "ro-khanna",
+      "name": "Ro Khanna",
+      "aliases": [],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "Plataforma de Ro for Congress disponível em 7 de outubro de 2026, sem data de publicação. Inclui propostas futuras e relatos de atividade anterior.",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "eco",
+        "con"
+      ],
+      "directionalAxes": [
+        "eco",
+        "con"
+      ],
+      "sourceCount": 1,
+      "sourceUrls": [
+        "https://rokhanna.com/en/platform"
+      ]
+    },
+    {
+      "id": "emma-goldman",
+      "name": "Emma Goldman",
+      "aliases": [],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "Ensaios autorais reunidos em Anarchism and Other Essays, 1910",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "pod",
+        "eco",
+        "rel",
+        "mor"
+      ],
+      "directionalAxes": [
+        "pod",
+        "eco",
+        "rel",
+        "mor"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.gutenberg.org/files/2162/2162-h/2162-h.htm",
+        "https://www.archives.gov/nhprc/projects/catalog/emma-goldman"
+      ]
+    },
+    {
+      "id": "henry-david-thoreau",
+      "name": "Henry David Thoreau",
+      "aliases": [],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "Resistance to Civil Government, publicado em 1849",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "pod",
+        "mor"
+      ],
+      "directionalAxes": [
+        "pod",
+        "mor"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.gutenberg.org/files/71/71-h/71-h.htm",
+        "https://www.archives.gov/dc/highlights/thoreau-census"
+      ]
+    },
+    {
+      "id": "william-morris",
+      "name": "William Morris",
+      "aliases": [],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "Conferência Useful Work versus Useless Toil, 1884",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "eco",
+        "con"
+      ],
+      "directionalAxes": [
+        "eco",
+        "con"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.marxists.org/archive/morris/works/1884/useful.htm",
+        "https://www.vam.ac.uk/articles/introducing-william-morris"
+      ]
+    },
+    {
+      "id": "william-godwin",
+      "name": "William Godwin",
+      "aliases": [],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "An Enquiry Concerning Political Justice, volume I, edição de 1793",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "pod"
+      ],
+      "directionalAxes": [
+        "pod"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://oll-resources.s3.us-east-2.amazonaws.com/oll3/store/titles/90/Godwin_0164-01_EBk_v6.0.pdf",
+        "https://plato.stanford.edu/entries/godwin/"
+      ]
+    },
+    {
       "id": "argentina-current-2025",
       "name": "Argentina",
       "aliases": [],
@@ -10368,6 +10559,102 @@
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/China_1982",
         "https://history.state.gov/milestones/1969-1976/rapprochement-china"
+      ]
+    },
+    {
+      "id": "us-articles-confederation-1781",
+      "name": "Estados Unidos — Artigos da Confederação",
+      "aliases": [
+        "Confederação norte-americana sob os Artigos de 1781"
+      ],
+      "kind": "country",
+      "category": "historical-country",
+      "period": "Ordem confederal dos Artigos, 1781–1789",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "est"
+      ],
+      "directionalAxes": [
+        "est"
+      ],
+      "sourceCount": 1,
+      "sourceUrls": [
+        "https://www.archives.gov/milestone-documents/articles-of-confederation"
+      ]
+    },
+    {
+      "id": "german-confederation-1815",
+      "name": "Confederação Germânica",
+      "aliases": [
+        "Deutscher Bund"
+      ],
+      "kind": "country",
+      "category": "historical-country",
+      "period": "Ordem confederal dos atos de 1815 e 1820, 1815–1866",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "est",
+        "rep"
+      ],
+      "directionalAxes": [
+        "est",
+        "rep"
+      ],
+      "sourceCount": 3,
+      "sourceUrls": [
+        "https://germanhistorydocs.org/en/from-vormaerz-to-prussian-dominance-1815-1866/german-federal-act-june-8-1815",
+        "https://germanhistorydocs.org/en/from-vormaerz-to-prussian-dominance-1815-1866/final-act-of-the-viennese-ministerial-conferences-may-15-1820",
+        "https://www.dhm.de/lemo/kapitel/vormaerz-und-revolution/wiener-kongress/bundesakte"
+      ]
+    },
+    {
+      "id": "sardinia-statuto-1848",
+      "name": "Reino da Sardenha — monarquia estatutária",
+      "aliases": [
+        "Reino da Sardenha sob o Statuto Albertino"
+      ],
+      "kind": "country",
+      "category": "historical-country",
+      "period": "Monarquia representativa do Statuto Albertino, 1848–1861",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "rep",
+        "pod",
+        "rel"
+      ],
+      "directionalAxes": [
+        "rep",
+        "pod",
+        "rel"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.quirinale.it/allegati_statici/costituzione/Statutoalbertino.pdf",
+        "https://en.wikisource.org/wiki/Statuto_Albertino"
+      ]
+    },
+    {
+      "id": "republic-texas-1836",
+      "name": "República do Texas",
+      "aliases": [
+        "Republic of Texas"
+      ],
+      "kind": "country",
+      "category": "historical-country",
+      "period": "República independente sob a Constituição de 1836, 1836–1845",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "rep",
+        "rel"
+      ],
+      "directionalAxes": [
+        "rep",
+        "rel"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://wheretexasbecametexas.org/texas-history/constitution-of-the-republic-of-texas-1836/",
+        "https://history.state.gov/countries/texas"
       ]
     },
     {

@@ -2,7 +2,7 @@
 
 O inventário real foi inspecionado antes da pesquisa. Cabo Verde, São Tomé e Príncipe, Seychelles, Comores, Djibouti e Eswatini não tinham perfil atual nos módulos integrados. São seis Estados nacionais, sem multiplicar regiões autônomas nem aliases. Maurício já existia e foi excluído da seleção.
 
-`src/data/reference-current-country-batch.ts` exporta seis perfis e seus registros auditáveis de codificação. Usa a [rubrica ordinal versionada](reference-coding-protocol.md), discutida com o agente responsável pela metodologia: 20/40/60/80 representam classes editoriais das faixas já documentadas, sem tratar números de terceiros como respostas ao questionário. A função compartilhada valida a ligação entre cada proposição, fonte, localização, data, incerteza e âncora.
+`src/data/reference-current-country-batch.ts` exporta seis perfis e seus registros auditáveis de codificação. Usa a [rubrica ordinal versionada](reference-coding-protocol.md), discutida com o agente responsável pela metodologia: 20/40/60/80 representam classes editoriais das faixas já documentadas, sem tratar números de terceiros como respostas ao questionário. A função compartilhada valida a ligação entre cada proposição, fonte, localização, data, incerteza e âncora. Após revisão do Root e correção das ressalvas temporais, os seis perfis foram integrados ao catálogo local em `src/data/references.ts`, incluindo seus metadados `coding`.
 
 ## Fontes efetivamente lidas e resultado
 

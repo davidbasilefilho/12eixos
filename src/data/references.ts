@@ -10,6 +10,10 @@ import { countriesAdditionalExpansion } from './reference-countries-additional';
 import { historicalCountriesAdditionalExpansion } from './reference-countries-additional';
 import { legacyReferenceCorrections } from './reference-legacy-corrections';
 import { currentCountryBatch, currentCountryBatchCoding } from './reference-current-country-batch';
+import { reconcileCurrentCountry } from './reference-current-country-reconciliation';
+import { publicFigureBatch } from './reference-public-figure-batch';
+import { historicalFigureBatch } from './reference-historical-figure-batch';
+import { historicalCountryBatch } from './reference-historical-country-batch';
 
 export const AXIS_KEYS = ['est', 'rep', 'pod', 'imi', 'dip', 'int', 'eco', 'con', 'com', 'rel', 'mor', 'tec'] as const;
 export type AxisKey = (typeof AXIS_KEYS)[number];
@@ -463,7 +467,7 @@ const correctedBaseReferenceEntries = baseReferenceEntries.map((entry) => {
     evidence: { ...entry.evidence, ...correction.evidence },
     axisEvidence: { ...entry.axisEvidence, ...correction.axisEvidence },
   };
-});
+}).map(reconcileCurrentCountry);
 
 const identityAliasesById: Partial<Record<string, string[]>> = {
   'nelson-mandela': ['Rolihlahla Mandela'],
@@ -502,8 +506,11 @@ export const referenceExpansionEntries: ReferenceEntry[] = [
   ...ideologiesCivicExpansion,
   ...ideologiesRightExpansion,
   ...peopleExpansion,
+  ...publicFigureBatch,
+  ...historicalFigureBatch,
   ...countryExpansion,
   ...historicalCountryExpansion,
+  ...historicalCountryBatch,
   ...countriesAdditionalExpansion,
   ...historicalCountriesAdditionalExpansion,
   ...currentCountryBatch.map(entry => ({ ...entry, coding: currentCountryBatchCoding[entry.id] })),

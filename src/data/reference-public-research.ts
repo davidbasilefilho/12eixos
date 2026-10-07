@@ -1,7 +1,8 @@
 import type { AxisKey } from '../lib/scoring';
 
-/** Documentary queue, deliberately NOT ReferenceEntry and NOT imported by the catalog.
- * A published, reproducible numerical coding rubric is still required before scoring.
+/** Original independent documentary queue, deliberately NOT ReferenceEntry.
+ * Partial claims were promoted via reference-public-figure-batch using the explicit
+ * editorial-ordinal-v1 protocol; original observations and queue status are preserved.
  * Source publication dates are not inferred from retrieval dates.
  */
 export type PublicFigureResearch = {
