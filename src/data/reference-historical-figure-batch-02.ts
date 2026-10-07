@@ -46,7 +46,7 @@ export const historicalFigureBatch02Specs: HistoricalFigureBatch02Spec[] = [
   },
   {
     id: 'domingo-faustino-sarmiento', name: 'Domingo Faustino Sarmiento', period: 'Programa final de Facundo, 1845; edição de 1921',
-    rationale: 'O programa defende conter o arbítrio; circulação fluvial e colonização permanecem contexto sem eixo próprio.',
+    rationale: 'O programa defende conter o arbítrio e permitir trânsito comercial internacional nos rios do Prata.',
     caveats: 'Oposição a Rosas não demonstra democracia plena. O projeto de colonização e sua hierarquia civilização/barbárie impedem pressupor inclusão igualitária; elogio da imigração europeia não é multiculturalismo.',
     sources: [source(titles.sarmiento, 'https://www.gutenberg.org/files/33267/33267-h/33267-h.htm', 'Texto espanhol; prólogo de Ricardo Rojas distinguido do texto de Sarmiento. Passagens usadas pertencem ao programa final, não ao prólogo.'), source('Sepulcro de Domingo Faustino Sarmiento — Argentina.gob.ar', 'https://www.argentina.gob.ar/node/503454', 'Confirma falecimento em Asunción em 11 de setembro de 1888; identidade apenas.')],
     claims: [

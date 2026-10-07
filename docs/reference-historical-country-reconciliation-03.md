@@ -1,0 +1,29 @@
+# Reconciliação de países históricos — lote 03
+
+Revisão autoral em 7/10/2026. O módulo `reference-historical-country-reconciliation-03.ts` propõe uma função de overlay para seis **identidades existentes**, sem criar aliases para crescimento de quota. Mantém snapshots exportados `historical03RawBaseVectors` e `historical03LiveBaseline`, capturados antes do overlay; o segundo conserva o objeto efetivamente integrado, inclusive fontes, caveats, vetor já preparado e evidências. A função conserva todos os objetos de fonte do registro recebido e acrescenta a fonte revisada quando necessário. Não há edição dos registros-base, imports de integração ou VCS nesta remessa.
+
+| ID existente | Eixos graduados anteriores | Eixos recodificados | Recorte |
+| --- | ---: | --- | --- |
+| `weimar-republic` | 3 | est60, rep60, rel60 | Constituição fundadora de 1919, sem média da prática de 1919–1933 |
+| `ussr-1977` | 10 | rep20, eco80, con80 | Edição constitucional de 1977, período Brejnev |
+| `yugoslavia-1974` | 6 | est60, rep20, eco80, con60 | Texto de 1974, anterior à morte de Tito |
+| `uk-attlee-1945` | 5 | rep80, eco60 | Eleições e nacionalizações de 1945–1951, contexto institucional |
+| `chile-up-1970` | 6 | eco80, con80, pod40 | Programa aprovado em 1969, edição de 1970; execução não imputada |
+| `brazil-estado-novo-1937` | 7 | rep20, pod80 | Cláusulas originais e transição de 1937, com emendas separadas |
+
+São 17 inferências localizadas e 55 eixos desconhecidos, estes em 50 sem grade, mapeamento ou coding. As 37 grades antigas não constituíam 37 fontes substantivamente validadas. A contagem de grades também não é a contagem de eixos estruturalmente qualificados no gate. Nenhum perfil desta remessa chega a seis eixos codificados; não usamos propriedades, direitos genéricos ou nomes ideológicos para preencher essa lacuna.
+
+## Correções substantivas e dependências
+
+- [Weimar, GHDI](https://germanhistorydocs.org/en/weimar-germany-1918-1933/the-weimar-constitution-august-11-1919): arts.5/12/60–63/74 delimitam poderes territoriais; arts.17/22/41/48/50/54 mostram representação com Presidência forte; arts.135/137 delimitam separação religiosa. Direitos de igualdade isolados não estabelecem o conjunto atual do eixo moral; não se preserva a grade mor antiga. Garantias versus emergência requerem prática antes de resolver pod.
+- [URSS, fac-símile traduzido de 1977](https://www.marxists.org/history/ussr/government/constitution/1977/constitution-ussr-1977.pdf): arts.2–6 e 10–17 sustentam direção partidária, propriedade social e planejamento; bens pessoais e iniciativa empresarial são contrapontos explícitos. Federalismo formal, religião, coerção e política externa não são resolvidos por identidade comunista ou pelas mesmas três cláusulas. O restante fica desconhecido nesta revisão, sem declarar falsas todas as fontes antigas.
+- [Iugoslávia, transcrição de 1974](https://en.wikisource.org/wiki/Constitution_of_Yugoslavia_(1974)): princípios III/IV/VIII e arts.244/273–281 delimitam autogestão, direção comunista e participação territorial. Os planos dos arts.69–71 são concertados e coexistem com mercado: con60 evita equiparação ao modelo soviético. **Propriedade social não é propriedade estatal**, e a aproximação com o eixo público/privado tem limite expresso e confiança média. Cotejo oficial integral permanece pendente.
+- [Attlee, GOV.UK](https://www.gov.uk/government/history/past-prime-ministers/clement-attlee): a fonte descreve derrota eleitoral e transferência de governo, nacionalização multissetorial e estima um quinto da economia nacionalizado. Isso não justifica eco78 como predomínio público nem con67 por mera criação do NHS. Links do National Archives e das leis originais não renderam texto utilizável nesta revisão; a fonte usada é uma retrospectiva institucional, não uma falsa leitura de estatutos originais.
+- [Unidade Popular, fac-símile MC0000544](https://www.memoriachilena.gob.cl/archivos2/pdfs/MC0000544.pdf), páginas impressas12–13/19–23, e [catálogo correto](https://www.memoriachilena.gob.cl/602/w3-article-7738.html): a antiga URL98051 é uma página de contexto com link ao documento, e não o próprio programa. As âncoras descrevem objetivos do programa e não nacionalizações integralmente realizadas. Área estatal dominante coexiste com empresas privadas numerosas. Nacionalização do comércio exterior não comprova proteção tarifária; direitos prometidos não comprovam eleições efetivas.
+- [Brasil, texto oficial anotado de 1937](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao37.htm): arts.178/180–181 dissolvem órgãos e entregam legislação ao Presidente; arts.168(a–d)/170/186 ativam emergência e coerção com barreira judicial. A página contém versões posteriores: excluímos a alínea168(e) de1938 e não tratamos a revogação de186 em1945 como conteúdo original. Federalismo e economia dependem de revisão adicional; não graduamos pelo nome corporativismo.
+
+França de Gaulle e China de Mao continuam fora deste overlay: os endpoints primários tentados não forneceram a edição original utilizável nesta rodada. Isso é limitação de revisão, não conclusão de que suas evidências são falsas. Seus registros úteis e fontes permanecem intactos.
+
+## Verificação
+
+Importação Bun e TypeScript `--noEmit` passaram. A aplicação isolada confirmou os seis IDs existentes e preservação de todos os títulos/URLs anteriores. `documentaryReview.independentReview` permanece `pending`: validação de plumbing e crítica de âncoras não são cotejo documental integral. A crítica independente de `coding_method` aceitou as direções e as ressalvas; ela não cotejou integralmente todas as fontes. O período resultante conserva a identidade original e explicita o recorte codificado, inclusive o programa chileno de 1969/1970. Integração, auditoria final de gate e suíte completa dependem da aceitação do Root; esta remessa não publica, integra ou altera contagens por si.

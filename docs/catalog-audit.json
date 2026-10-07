@@ -34,8 +34,8 @@
     ],
     "provenance": "Executed before local data corrections in this recovery checkpoint; not recomputed from unavailable prior Library checkpoint."
   },
-  "headCommitAtAudit": "a67572b4829fb67b2cefa56f951e1b3204783ae5",
-  "integratedCatalogSha256": "e110eb052010993defa4dd744280b6aee7c8b4c790a22a6b80fa218754d7bc8c",
+  "headCommitAtAudit": "b7fbf973fc59e64b54b8b0af41edc8c759ee67e4",
+  "integratedCatalogSha256": "a23ba68e85cb991c27298a8621e0aa3197830b078a494d549ec05354bf0a7a2c",
   "scope": "Integrated working-tree catalog after preparation; fixed remote baseline and current HEAD are provenance, not immutable copies of modified files.",
   "evidenceGate": {
     "minimumAxes": 6,
@@ -52,18 +52,18 @@
     "Expansion preparation has already centered and removed unsupported axes; this inventory does not recover discarded raw estimates."
   ],
   "totalTarget": 675,
-  "totalRecords": 547,
-  "structurallyEligible": 60,
-  "insufficientEvidence": 487,
-  "summedCategoryIdentityGap": 259,
+  "totalRecords": 567,
+  "structurallyEligible": 61,
+  "insufficientEvidence": 506,
+  "summedCategoryIdentityGap": 239,
   "categories": [
     {
       "category": "country",
       "target": 150,
-      "records": 140,
+      "records": 150,
       "structurallyEligible": 1,
-      "insufficientEvidence": 139,
-      "missingIdentitiesBeforeSemanticReview": 10,
+      "insufficientEvidence": 149,
+      "missingIdentitiesBeforeSemanticReview": 0,
       "preservedExcess": 0,
       "missingEligibleToTarget": 149
     },
@@ -90,12 +90,12 @@
     {
       "category": "historical-figure",
       "target": 150,
-      "records": 59,
-      "structurallyEligible": 16,
-      "insufficientEvidence": 43,
-      "missingIdentitiesBeforeSemanticReview": 91,
+      "records": 69,
+      "structurallyEligible": 17,
+      "insufficientEvidence": 52,
+      "missingIdentitiesBeforeSemanticReview": 81,
       "preservedExcess": 0,
-      "missingEligibleToTarget": 134
+      "missingEligibleToTarget": 133
     },
     {
       "category": "ideology",
@@ -494,34 +494,6 @@
       "issue": "unsupported-direction:com"
     },
     {
-      "id": "brazil-estado-novo-1937",
-      "issue": "unsupported-direction:est"
-    },
-    {
-      "id": "brazil-estado-novo-1937",
-      "issue": "unsupported-direction:rep"
-    },
-    {
-      "id": "brazil-estado-novo-1937",
-      "issue": "unsupported-direction:pod"
-    },
-    {
-      "id": "brazil-estado-novo-1937",
-      "issue": "unsupported-direction:eco"
-    },
-    {
-      "id": "brazil-estado-novo-1937",
-      "issue": "unsupported-direction:con"
-    },
-    {
-      "id": "brazil-estado-novo-1937",
-      "issue": "unsupported-direction:com"
-    },
-    {
-      "id": "brazil-estado-novo-1937",
-      "issue": "unsupported-direction:mor"
-    },
-    {
       "id": "imperial-japan-1931",
       "issue": "unsupported-direction:est"
     },
@@ -767,126 +739,6 @@
     },
     {
       "id": "france-de-gaulle-1958",
-      "issue": "unsupported-direction:tec"
-    },
-    {
-      "id": "chile-up-1970",
-      "issue": "unsupported-direction:rep"
-    },
-    {
-      "id": "chile-up-1970",
-      "issue": "unsupported-direction:eco"
-    },
-    {
-      "id": "chile-up-1970",
-      "issue": "unsupported-direction:con"
-    },
-    {
-      "id": "chile-up-1970",
-      "issue": "unsupported-direction:com"
-    },
-    {
-      "id": "chile-up-1970",
-      "issue": "unsupported-direction:rel"
-    },
-    {
-      "id": "chile-up-1970",
-      "issue": "unsupported-direction:mor"
-    },
-    {
-      "id": "uk-attlee-1945",
-      "issue": "unsupported-direction:rep"
-    },
-    {
-      "id": "uk-attlee-1945",
-      "issue": "unsupported-direction:int"
-    },
-    {
-      "id": "uk-attlee-1945",
-      "issue": "unsupported-direction:eco"
-    },
-    {
-      "id": "uk-attlee-1945",
-      "issue": "unsupported-direction:con"
-    },
-    {
-      "id": "uk-attlee-1945",
-      "issue": "unsupported-direction:mor"
-    },
-    {
-      "id": "weimar-republic",
-      "issue": "unsupported-direction:est"
-    },
-    {
-      "id": "weimar-republic",
-      "issue": "unsupported-direction:rep"
-    },
-    {
-      "id": "weimar-republic",
-      "issue": "unsupported-direction:mor"
-    },
-    {
-      "id": "yugoslavia-1974",
-      "issue": "unsupported-direction:est"
-    },
-    {
-      "id": "yugoslavia-1974",
-      "issue": "unsupported-direction:rep"
-    },
-    {
-      "id": "yugoslavia-1974",
-      "issue": "unsupported-direction:dip"
-    },
-    {
-      "id": "yugoslavia-1974",
-      "issue": "unsupported-direction:int"
-    },
-    {
-      "id": "yugoslavia-1974",
-      "issue": "unsupported-direction:eco"
-    },
-    {
-      "id": "yugoslavia-1974",
-      "issue": "unsupported-direction:con"
-    },
-    {
-      "id": "ussr-1977",
-      "issue": "unsupported-direction:est"
-    },
-    {
-      "id": "ussr-1977",
-      "issue": "unsupported-direction:rep"
-    },
-    {
-      "id": "ussr-1977",
-      "issue": "unsupported-direction:pod"
-    },
-    {
-      "id": "ussr-1977",
-      "issue": "unsupported-direction:dip"
-    },
-    {
-      "id": "ussr-1977",
-      "issue": "unsupported-direction:int"
-    },
-    {
-      "id": "ussr-1977",
-      "issue": "unsupported-direction:eco"
-    },
-    {
-      "id": "ussr-1977",
-      "issue": "unsupported-direction:con"
-    },
-    {
-      "id": "ussr-1977",
-      "issue": "unsupported-direction:com"
-    },
-    {
-      "id": "ussr-1977",
-      "issue": "unsupported-direction:rel"
-    },
-    {
-      "id": "ussr-1977",
       "issue": "unsupported-direction:tec"
     }
   ],
@@ -1895,22 +1747,21 @@
       "aliases": [],
       "kind": "country",
       "category": "historical-country",
-      "period": "Governo Vargas, 1937–1945",
+      "period": "Governo Vargas, 1937–1945; recorte codificado: Cláusulas originais da carta de 1937 e regime transitório declarado; não imputa redações de 1945 a todo1937–1945.",
       "structurallyEligible": false,
-      "documentedAxes": [],
-      "directionalAxes": [
-        "est",
+      "documentedAxes": [
         "rep",
-        "pod",
-        "eco",
-        "con",
-        "com",
-        "mor"
+        "pod"
       ],
-      "sourceCount": 2,
+      "directionalAxes": [
+        "rep",
+        "pod"
+      ],
+      "sourceCount": 3,
       "sourceUrls": [
         "https://cpdoc.fgv.br/biografias/getulio-vargas",
-        "https://cpdoc.fgv.br/sites/default/files/brasilia/dhbb/Get%C3%BAlio%20Vargas.pdf"
+        "https://cpdoc.fgv.br/sites/default/files/brasilia/dhbb/Get%C3%BAlio%20Vargas.pdf",
+        "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao37.htm"
       ]
     },
     {
@@ -2104,21 +1955,23 @@
       "aliases": [],
       "kind": "country",
       "category": "historical-country",
-      "period": "Governo Allende, 1970–1973",
+      "period": "Governo Allende, 1970–1973; recorte codificado: Programa pré-governamental aprovado em 1969, edição1970; não execução homogênea de 1970–1973.",
       "structurallyEligible": false,
-      "documentedAxes": [],
-      "directionalAxes": [
-        "rep",
+      "documentedAxes": [
+        "pod",
         "eco",
-        "con",
-        "com",
-        "rel",
-        "mor"
+        "con"
       ],
-      "sourceCount": 2,
+      "directionalAxes": [
+        "pod",
+        "eco",
+        "con"
+      ],
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.memoriachilena.gob.cl/602/w3-article-31433.html",
-        "https://www.memoriachilena.gob.cl/602/w3-article-98051.html"
+        "https://www.memoriachilena.gob.cl/602/w3-article-98051.html",
+        "https://www.memoriachilena.gob.cl/archivos2/pdfs/MC0000544.pdf"
       ]
     },
     {
@@ -2127,15 +1980,15 @@
       "aliases": [],
       "kind": "country",
       "category": "historical-country",
-      "period": "Governo trabalhista, 1945–1951",
+      "period": "Governo trabalhista, 1945–1951; recorte codificado: Governo Attlee, 1945–1951; eleições e nacionalizações documentadas em retrospectiva institucional.",
       "structurallyEligible": false,
-      "documentedAxes": [],
+      "documentedAxes": [
+        "rep",
+        "eco"
+      ],
       "directionalAxes": [
         "rep",
-        "int",
-        "eco",
-        "con",
-        "mor"
+        "eco"
       ],
       "sourceCount": 2,
       "sourceUrls": [
@@ -2149,13 +2002,17 @@
       "aliases": [],
       "kind": "country",
       "category": "historical-country",
-      "period": "Constituição de 1919, 1919–1933",
+      "period": "Constituição de 1919, 1919–1933; recorte codificado: Texto fundador de 1919; duração da República 1919–1933 não é prática inalterada.",
       "structurallyEligible": false,
-      "documentedAxes": [],
+      "documentedAxes": [
+        "est",
+        "rep",
+        "rel"
+      ],
       "directionalAxes": [
         "est",
         "rep",
-        "mor"
+        "rel"
       ],
       "sourceCount": 1,
       "sourceUrls": [
@@ -2168,14 +2025,17 @@
       "aliases": [],
       "kind": "country",
       "category": "historical-country",
-      "period": "Constituição de 1974 e período Tito, 1974–1980",
+      "period": "Constituição de 1974 e período Tito, 1974–1980; recorte codificado: Desenho constitucional de 1974 no recorte Tito, 1974–1980.",
       "structurallyEligible": false,
-      "documentedAxes": [],
+      "documentedAxes": [
+        "est",
+        "rep",
+        "eco",
+        "con"
+      ],
       "directionalAxes": [
         "est",
         "rep",
-        "dip",
-        "int",
         "eco",
         "con"
       ],
@@ -2192,20 +2052,17 @@
       "aliases": [],
       "kind": "country",
       "category": "historical-country",
-      "period": "Constituição de 1977 e governo Brejnev, 1977–1982",
+      "period": "Constituição de 1977 e governo Brejnev, 1977–1982; recorte codificado: Desenho normativo original de 1977 no período Brejnev, 1977–1982.",
       "structurallyEligible": false,
-      "documentedAxes": [],
-      "directionalAxes": [
-        "est",
+      "documentedAxes": [
         "rep",
-        "pod",
-        "dip",
-        "int",
         "eco",
-        "con",
-        "com",
-        "rel",
-        "tec"
+        "con"
+      ],
+      "directionalAxes": [
+        "rep",
+        "eco",
+        "con"
       ],
       "sourceCount": 3,
       "sourceUrls": [
@@ -13604,6 +13461,480 @@
       "sourceUrls": [
         "https://www2.camara.leg.br/legin/fed/consti/1824-1899/constituicao-35041-25-marco-1824-532540-publicacaooriginal-14770-pl.html",
         "https://www.planalto.gov.br/ccivil_03/leis/lim/lim16.htm"
+      ]
+    },
+    {
+      "id": "andorra-current-2025",
+      "name": "Andorra",
+      "aliases": [],
+      "kind": "country",
+      "category": "country",
+      "period": "Prática em 2024; norma: 1993, texto oferecido pelo Parlamento em consulta de 2026; sem certificação independente de consolidação",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "est",
+        "rep",
+        "pod",
+        "rel",
+        "mor"
+      ],
+      "directionalAxes": [
+        "est",
+        "rep",
+        "pod",
+        "rel",
+        "mor"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.consellgeneral.ad/fitxers/documents/constitucio/const-en",
+        "https://freedomhouse.org/country/andorra/freedom-world/2025"
+      ]
+    },
+    {
+      "id": "liechtenstein-current-2025",
+      "name": "Liechtenstein",
+      "aliases": [],
+      "kind": "country",
+      "category": "country",
+      "period": "Prática em 2024; normas antigas apenas como contexto não pontuado",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "rep",
+        "mor"
+      ],
+      "directionalAxes": [
+        "rep",
+        "mor"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.constituteproject.org/constitution/Liechtenstein_2011?lang=en",
+        "https://freedomhouse.org/country/liechtenstein/freedom-world/2025"
+      ]
+    },
+    {
+      "id": "monaco-current-2025",
+      "name": "Mônaco",
+      "aliases": [
+        "Monaco"
+      ],
+      "kind": "country",
+      "category": "country",
+      "period": "Prática em 2024; normas antigas apenas como contexto não pontuado",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "rep"
+      ],
+      "directionalAxes": [
+        "rep"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.constituteproject.org/constitution/Monaco_2002?lang=en",
+        "https://freedomhouse.org/country/monaco/freedom-world/2025"
+      ]
+    },
+    {
+      "id": "san-marino-current-2025",
+      "name": "San Marino",
+      "aliases": [],
+      "kind": "country",
+      "category": "country",
+      "period": "Prática em 2024; normas antigas apenas como contexto não pontuado",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "rep"
+      ],
+      "directionalAxes": [
+        "rep"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.consigliograndeegenerale.sm/on-line/documento17134126.html",
+        "https://freedomhouse.org/country/san-marino/freedom-world/2025"
+      ]
+    },
+    {
+      "id": "malta-current-2025",
+      "name": "Malta",
+      "aliases": [],
+      "kind": "country",
+      "category": "country",
+      "period": "Prática em 2024; norma: Consolidação oficial consultada em 7/10/2026, incorpora Atos IX e XVI de 2026",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "rep",
+        "dip",
+        "eco",
+        "rel",
+        "mor"
+      ],
+      "directionalAxes": [
+        "rep",
+        "dip",
+        "eco",
+        "rel",
+        "mor"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://legislation.mt/eli/const/eng/pdf",
+        "https://freedomhouse.org/country/malta/freedom-world/2025"
+      ]
+    },
+    {
+      "id": "cyprus-current-2025",
+      "name": "Chipre",
+      "aliases": [
+        "Cyprus",
+        "República de Chipre"
+      ],
+      "kind": "country",
+      "category": "country",
+      "period": "Prática em 2024; normas antigas apenas como contexto não pontuado",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "rep"
+      ],
+      "directionalAxes": [
+        "rep"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.constituteproject.org/constitution/Cyprus_2013?lang=en",
+        "https://freedomhouse.org/country/cyprus/freedom-world/2025"
+      ]
+    },
+    {
+      "id": "bosnia-and-herzegovina-current-2025",
+      "name": "Bósnia e Herzegovina",
+      "aliases": [
+        "Bosnia and Herzegovina"
+      ],
+      "kind": "country",
+      "category": "country",
+      "period": "Prática em 2024; normas antigas apenas como contexto não pontuado",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "rep"
+      ],
+      "directionalAxes": [
+        "rep"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.constituteproject.org/constitution/Bosnia_Herzegovina_2009?lang=en",
+        "https://freedomhouse.org/country/bosnia-and-herzegovina/freedom-world/2025"
+      ]
+    },
+    {
+      "id": "fiji-current-2025",
+      "name": "Fiji",
+      "aliases": [],
+      "kind": "country",
+      "category": "country",
+      "period": "Prática em 2024; norma: 2013, texto inglês disponibilizado pelo governo em abril de 2026",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "rep",
+        "rel",
+        "mor"
+      ],
+      "directionalAxes": [
+        "rep",
+        "rel",
+        "mor"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.fiji.gov.fj/wp-content/uploads/2026/04/Fiji-Constitution-English-2013.pdf",
+        "https://freedomhouse.org/country/fiji/freedom-world/2025"
+      ]
+    },
+    {
+      "id": "samoa-current-2025",
+      "name": "Samoa",
+      "aliases": [],
+      "kind": "country",
+      "category": "country",
+      "period": "Prática em 2024; norma: Consolidação oficial em 31/12/2023",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "rep",
+        "rel"
+      ],
+      "directionalAxes": [
+        "rep",
+        "rel"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.ag.gov.ws/wp-content/uploads/2024/02/Constitution-of-the-Independent-State-of-Samoa-1960.pdf",
+        "https://freedomhouse.org/country/samoa/freedom-world/2025"
+      ]
+    },
+    {
+      "id": "tonga-current-2025",
+      "name": "Tonga",
+      "aliases": [],
+      "kind": "country",
+      "category": "country",
+      "period": "Prática em 2024; norma: 1875, rev. 2025; tradução primária Constitute, cotejada com emenda oficial de julho de 2025",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "est",
+        "rep",
+        "rel"
+      ],
+      "directionalAxes": [
+        "est",
+        "rep",
+        "rel"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.constituteproject.org/constitution/Tonga_2025?lang=en",
+        "https://freedomhouse.org/country/tonga/freedom-world/2025"
+      ]
+    },
+    {
+      "id": "na-sojourner-truth",
+      "name": "Sojourner Truth",
+      "aliases": [],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "Discurso de Akron, maio de 1851; registro publicado em 21 de junho de 1851",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "rel",
+        "mor"
+      ],
+      "directionalAxes": [
+        "rel",
+        "mor"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://home.nps.gov/articles/000/aint-i-a-woman-lesson-plan.htm",
+        "https://home.nps.gov/people/sojourner-truth.htm"
+      ]
+    },
+    {
+      "id": "na-web-du-bois",
+      "name": "W. E. B. Du Bois",
+      "aliases": [],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "The Souls of Black Folk, 1903; capítulo III",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "rep",
+        "mor"
+      ],
+      "directionalAxes": [
+        "rep",
+        "mor"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.gutenberg.org/cache/epub/408/pg408-images.html",
+        "https://www.gutenberg.org/ebooks/408"
+      ]
+    },
+    {
+      "id": "na-ida-b-wells",
+      "name": "Ida B. Wells",
+      "aliases": [],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "Southern Horrors, 1892; conclusão e Self-Help",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "pod",
+        "mor"
+      ],
+      "directionalAxes": [
+        "pod",
+        "mor"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.gutenberg.org/cache/epub/14975/pg14975-images.html",
+        "https://www.gutenberg.org/ebooks/14975"
+      ]
+    },
+    {
+      "id": "giuseppe-mazzini",
+      "name": "Giuseppe Mazzini",
+      "aliases": [],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "On the Duties of Man, seções Country (1859) e Liberty (1860), edição acadêmica de 2009",
+      "structurallyEligible": true,
+      "documentedAxes": [
+        "est",
+        "rep",
+        "pod",
+        "int",
+        "rel",
+        "mor"
+      ],
+      "directionalAxes": [
+        "est",
+        "rep",
+        "pod",
+        "int",
+        "rel",
+        "mor"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://virtuale.unibo.it/pluginfile.php/1797807/mod_unibores/content/0/1.%20Mazzini%201.pdf",
+        "https://people.umass.edu/hist101/Mazzini%20Duties%20of%20Man.pdf"
+      ]
+    },
+    {
+      "id": "olympe-de-gouges",
+      "name": "Olympe de Gouges",
+      "aliases": [],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "Declaration of the Rights of Woman, setembro de 1791",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "rep",
+        "pod",
+        "mor"
+      ],
+      "directionalAxes": [
+        "rep",
+        "pod",
+        "mor"
+      ],
+      "sourceCount": 1,
+      "sourceUrls": [
+        "https://revolution.chnm.org/d/477/"
+      ]
+    },
+    {
+      "id": "mao-zedong-1940-new-democracy",
+      "name": "Mao Zedong",
+      "aliases": [],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "On New Democracy, janeiro de 1940; seções V–VI",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "rep",
+        "eco",
+        "mor"
+      ],
+      "directionalAxes": [
+        "rep",
+        "eco",
+        "mor"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.marxists.org/reference/archive/mao/selected-works/volume-2/mswv2_26.htm",
+        "https://www.marxists.org/catala/autors/mao/index.htm"
+      ]
+    },
+    {
+      "id": "salvador-allende",
+      "name": "Salvador Allende",
+      "aliases": [],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "Discurso individual à ONU, 4 de dezembro de 1972; excertos traduzidos",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "rep",
+        "pod",
+        "eco",
+        "con",
+        "mor"
+      ],
+      "directionalAxes": [
+        "rep",
+        "pod",
+        "eco",
+        "con",
+        "mor"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.marxists.org/archive/allende/1972/december/04.htm",
+        "https://www.memoriachilena.gob.cl/602/w3-article-18383.html"
+      ]
+    },
+    {
+      "id": "ashoka-edicts",
+      "name": "Ashoka",
+      "aliases": [],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "Grandes éditos rupestres pós-Kalinga, século III AEC",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "dip",
+        "eco",
+        "rel"
+      ],
+      "directionalAxes": [
+        "dip",
+        "eco",
+        "rel"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.livius.org/sources/content/ashoka-s-rock-edicts/",
+        "https://open.oregonstate.education/ancientcivilizations/chapter/edicts-of-ashoka/"
+      ]
+    },
+    {
+      "id": "na-booker-t-washington",
+      "name": "Booker T. Washington",
+      "aliases": [],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "Discurso de Atlanta de 1895, reproduzido em Up from Slavery, 1901",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "mor"
+      ],
+      "directionalAxes": [
+        "mor"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.gutenberg.org/cache/epub/2376/pg2376-images.html",
+        "https://www.gutenberg.org/ebooks/2376"
+      ]
+    },
+    {
+      "id": "na-robert-la-follette",
+      "name": "Robert M. La Follette",
+      "aliases": [],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "Free Speech in Wartime, Senado, 6 de outubro de 1917",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "rep",
+        "pod",
+        "dip"
+      ],
+      "directionalAxes": [
+        "rep",
+        "pod",
+        "dip"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.senate.gov/artandhistory/history/resources/pdf/FreeSpeechWartime.pdf",
+        "https://www.senate.gov/artandhistory/history/common/generic/Speeches_LaFollette_FreeSpeech.htm"
       ]
     },
     {
