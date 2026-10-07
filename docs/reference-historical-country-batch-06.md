@@ -1,0 +1,29 @@
+# Países históricos — lote documental 06
+
+Proposta isolada: três identidades, nove códigos, 27 eixos desconhecidos, zero matches elegíveis. Nenhuma alteração de import, Git ou UI. Os50sem código são desconhecidos; gate de seis eixos preservado. As posições20/40/60/80 são âncoras editoriais ordinais, não medições políticas. Fontes primárias transcritas são diferenciadas de história institucional.
+
+| Identidade | Recorte | Códigos |
+| --- | --- | --- |
+| `colombia-federal-1863` | Carta8/5/1863; substituição unitária5/8/1886 | est80,pod40,rel60 |
+| `uruguay-founder-constitution-1830` | Vigência18/7/1830; sucessora1/3/1919 | est40,pod40,rel40 |
+| `central-america-federation-1824` | Carta22/11/1824; dissolução gradual1838–1840 | est60,rel20,imi40 |
+
+Passagens realmente lidas: Colômbia1863arts.1/15/16/20–21/23/25 na transcrição primária Cervantes, e1886art.1/cabeçalho em Bogotá; Uruguai1830arts.5/11/18/76/110–121/123–129/130–147 na transcrição OCR parlamentar, além da sucessora1917disposição transitóriaA; Centro-América1824arts.6/8/11–12/14–15/21/175–178 na transcrição UNAM. URLs, locadores, bases normativas, limitações e datas constam no módulo.
+
+Colômbia: o PDF do Arquivo Geral intitulado texto1863 contém introdução e sumário, não corpo completo dos artigos iniciais. Não foi usado para fabricar leitura do art.15. A alternativa FuncionPublica falhou duas vezes; a transcrição Cervantes fornece o corpo lido. O art.16 reserva competências estaduais e o25permite anular atos federais; direitos e culto têm exceções. Não convertemos norma1863 em prática uniforme até1886, especialmente a ruptura militar1885.
+
+Uruguai: a página Cervantes intitulada1830 contém cabeçalho1829 e emendas1912; foi substituída pela transcrição oficial parlamentar1830. Não se misturam versões. A história parlamentar arredonda duração em88anos, mas a disposição transitóriaA da sucessora efetivamente lida fixa vigência1/3/1919. O recorte é da ordem constitucional, não uma democracia contínua nem um governo imaginado. Guerras e governos excepcionais não foram usados para gerar identidades artificiais. Confessionalidade deriva da religião oficial e do juramento presidencial; não de inferida proibição de toda crença.
+
+Centro-América: o art.10 da transcrição parece omitir a negação sobre competências não conferidas; não se cita essa passagem para reserva residual. O est60deriva dos poderes constituintes, legislativos e fiscais dos estados nos177–178, com limites nacionais. O monopólio católico público é explícito; a abertura estrangeira tem requisitos de naturalização. A história institucional diplomática do Departamento de Estado foi lida no corpo e delimita dissolução gradual1838–40. A retirada de agente em1842 não estende funcionamento do Estado. Não confundimos esta federação com os Estados Unidos de Colômbia ou com união centro-americana posterior.
+
+Candidato mexicano centralista1835–1846 adiado: texto normativo1836UNAM foi lido, incluindo SextaLei4–5/14–15 e PrimeiraLei3/7–12. Fontes catalográficas Berkeley e cronologia SCJN localizadas para restauração22/8/1846 não abriram; propostas parlamentares e postagens institucionais também não forneceram corpo aberto. Não contamos placeholder nem substituímos efetiva leitura por snippet. Um único regime centralista incluiria1836/1843; não criaríamos dois por reescrita formal da carta.
+
+Validação: importação Bun isolada passou com3identidades/9códigos, além de8/12no lote05 reparado. Confronto de IDs e aliases/nome com catálogo e busca dormente concluído abaixo. Revisão independente de passagens primárias e identidade concluída; prática histórica não auditada integralmente. Este lote não conclui675selecionadas nem torna três vetores completos.
+
+Validação final autoral: `bun x tsc --noEmit` passou. O catálogo já integrado após lote05 contém115países históricos; zero colisões de IDs das três propostas. Os registros próximos são Uruguai1973 e Colômbia1886, rupturas institucionais diferentes preservadas. Busca textual por nomes/aliases e regimes em todos os módulos de dados, excluindo esta proposta, não encontrou identidade histórica equivalente ativa ou dormente (rg sem resultados). As três propostas não acrescentam elegibilidade porque cada uma possui somente três eixos sustentados.
+
+Revisão independente delimitada por method_review: reabriu efetivamente os três textos de codificação e aceitou oito direções; corrigiu imi da Federação para40, segundo polo de abertura conforme imigracao_18. Os nove códigos permanecem, com27desconhecidos. A revisão final também reabriu as três fontes terminais; não equivale a auditoria integral da prática histórica. A garantia de prisão uruguaia113é explicitamente de cidadãos, não universalizada.
+
+Complemento realmente lido após revisão: Uruguai1830arts.81/83 permitem medidas urgentes sujeitas a prestação de contas e arresto com entrega judicial24h; essas exceções agora figuram explicitamente na incerteza do pod40. Para México, encontrou-se depois corpo parlamentar legível na Gaceta25/9/2001,p.15,https://gaceta.diputados.gob.mx/PDF/58/2001/sep/20010925.pdf,que delimita regime unitário1835–1846 e restauração federal1846. É exposição de iniciativa parlamentar de2001, não decreto1846 lido. O candidato segue fora deste lote limitado de três, disponível para continuação com fonte cronológica qualificada.
+
+Aceitação documental final de method_review: efetivamente reabriu todos os três textos codificados e três fontes de identidade/limites. Uruguai transitóriaA fixa1/3/1919; Bogotá1886art.210abole carta1863,art.1reconstitui unidade,art.4converte estados em departamentos, sem inferir data precisa de cessação de facto em1885. Campo independentReview atualizado para accepted-bounded-primary-and-identity. Lote congelado para aceitação/integracão do Root; prática histórica continua não auditada integralmente.

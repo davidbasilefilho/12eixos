@@ -36,6 +36,8 @@ import { historicalLegacyRecoding } from './reference-historical-legacy-recoding
 import { historicalCountryBatch05 } from './reference-historical-country-batch-05';
 import { historicalFigureBatch05 } from './reference-historical-figure-batch-05';
 import { publicFigureBatch05 } from './reference-public-figure-batch-05';
+import { historicalCountryBatch06 } from './reference-historical-country-batch-06';
+import { publicFigureBatch06 } from './reference-public-figure-batch-06';
 
 export const AXIS_KEYS = ['est', 'rep', 'pod', 'imi', 'dip', 'int', 'eco', 'con', 'com', 'rel', 'mor', 'tec'] as const;
 export type AxisKey = (typeof AXIS_KEYS)[number];
@@ -549,6 +551,8 @@ export const referenceExpansionEntries: ReferenceEntry[] = [
   ...historicalCountryBatch05,
   ...historicalFigureBatch05,
   ...publicFigureBatch05,
+  ...historicalCountryBatch06,
+  ...publicFigureBatch06,
   ...currentCountryBatch.map(entry => ({ ...entry, coding: currentCountryBatchCoding[entry.id] })),
 ].map(prepareExpansionEntry);
 

@@ -34,8 +34,8 @@
     ],
     "provenance": "Executed before local data corrections in this recovery checkpoint; not recomputed from unavailable prior Library checkpoint."
   },
-  "headCommitAtAudit": "80486be9a7cb665e719ae08968591e0609f91f29",
-  "integratedCatalogSha256": "6b2e811d16825701c5f58bcd43f442eb7d04da822944d9c6dcf2c3b6a364e879",
+  "headCommitAtAudit": "8e9929e278d783c86d959e78d30bd82759265f97",
+  "integratedCatalogSha256": "f1a22206c7ce30d7225c749d786b5dff178760b5c78fbfe7ee29c202ddb46203",
   "scope": "Integrated working-tree catalog after preparation; fixed remote baseline and current HEAD are provenance, not immutable copies of modified files.",
   "evidenceGate": {
     "minimumAxes": 6,
@@ -52,10 +52,10 @@
     "Expansion preparation has already centered and removed unsupported axes; this inventory does not recover discarded raw estimates."
   ],
   "totalTarget": 675,
-  "totalRecords": 639,
+  "totalRecords": 658,
   "structurallyEligible": 77,
-  "insufficientEvidence": 562,
-  "summedCategoryIdentityGap": 167,
+  "insufficientEvidence": 581,
+  "summedCategoryIdentityGap": 148,
   "categories": [
     {
       "category": "country",
@@ -70,20 +70,20 @@
     {
       "category": "historical-country",
       "target": 150,
-      "records": 115,
+      "records": 118,
       "structurallyEligible": 0,
-      "insufficientEvidence": 115,
-      "missingIdentitiesBeforeSemanticReview": 35,
+      "insufficientEvidence": 118,
+      "missingIdentitiesBeforeSemanticReview": 32,
       "preservedExcess": 0,
       "missingEligibleToTarget": 150
     },
     {
       "category": "public-figure",
       "target": 150,
-      "records": 79,
+      "records": 95,
       "structurallyEligible": 18,
-      "insufficientEvidence": 61,
-      "missingIdentitiesBeforeSemanticReview": 71,
+      "insufficientEvidence": 77,
+      "missingIdentitiesBeforeSemanticReview": 55,
       "preservedExcess": 0,
       "missingEligibleToTarget": 132
     },
@@ -15082,6 +15082,446 @@
       "sourceCount": 1,
       "sourceUrls": [
         "https://statehouse.gov.ng/from-reform-to-prosperity-independence-day-address-to-the-nation-by-his-excellency-president-bola-ahmed-tinubu-gcfr-1st-october-2026/"
+      ]
+    },
+    {
+      "id": "colombia-federal-1863",
+      "name": "Colômbia — Estados Unidos federais",
+      "aliases": [
+        "Estados Unidos de Colombia"
+      ],
+      "kind": "country",
+      "category": "historical-country",
+      "period": "Federação1863–1886; âncora na Constituição8/5/1863, substituída por unidade constitucional5/8/1886",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "est",
+        "pod",
+        "rel"
+      ],
+      "directionalAxes": [
+        "est",
+        "pod",
+        "rel"
+      ],
+      "sourceCount": 3,
+      "sourceUrls": [
+        "https://www.cervantesvirtual.com/obra-visor/colombia-29/html/02613e70-82b2-11df-acc7-002185ce6064_1.html",
+        "https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=7153",
+        "https://www.archivogeneral.gov.co/sites/default/files/exposiciones_patrimonio/ConstitucionesColombia/1863/Texto1863.pdf"
+      ]
+    },
+    {
+      "id": "uruguay-founder-constitution-1830",
+      "name": "Uruguai — primeira ordem constitucional",
+      "aliases": [
+        "Estado Oriental del Uruguay1830"
+      ],
+      "kind": "country",
+      "category": "historical-country",
+      "period": "Primeira ordem constitucional18/7/1830–1/3/1919; âncora normativa1830, sem continuidade prática uniforme",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "est",
+        "pod",
+        "rel"
+      ],
+      "directionalAxes": [
+        "est",
+        "pod",
+        "rel"
+      ],
+      "sourceCount": 3,
+      "sourceUrls": [
+        "https://biblioteca.parlamento.gub.uy/File/biblioteca/Constituciones/1830/1830%20Constitucion%20-%20OCR.pdf",
+        "https://biblioteca.parlamento.gub.uy/constitucion/",
+        "https://biblioteca.parlamento.gub.uy/File/biblioteca/Constituciones/1917/1917%20Constitucion%20-%20OCR.pdf"
+      ]
+    },
+    {
+      "id": "central-america-federation-1824",
+      "name": "América Central — Federação constitucional",
+      "aliases": [
+        "Federación de Centro-américa",
+        "República Federal de Centroamérica"
+      ],
+      "kind": "country",
+      "category": "historical-country",
+      "period": "Federação sob carta22/11/1824; dissolução gradual1838–1840, não data jurídica terminal única",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "est",
+        "imi",
+        "rel"
+      ],
+      "directionalAxes": [
+        "est",
+        "imi",
+        "rel"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://archivos.juridicas.unam.mx/www/bjv/libros/4/1541/9.pdf",
+        "https://history.state.gov/countries/central-american-federation"
+      ]
+    },
+    {
+      "id": "joseph-stiglitz",
+      "name": "Joseph Stiglitz",
+      "aliases": [
+        "Joseph E. Stiglitz"
+      ],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "2025-11; mês da edição, dia não indicado",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "eco"
+      ],
+      "directionalAxes": [
+        "eco"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.g20.org.za/wp-content/uploads/2025/11/1-G20-Global-Inequality-Report-Summary.pdf",
+        "https://www.nature.com/articles/d41586-026-02806-9?error=cookies_not_supported"
+      ]
+    },
+    {
+      "id": "adriana-abdenur",
+      "name": "Adriana Abdenur",
+      "aliases": [
+        "Adriana E. Abdenur"
+      ],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "2025-11; mês da edição, dia não indicado",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "eco"
+      ],
+      "directionalAxes": [
+        "eco"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.g20.org.za/wp-content/uploads/2025/11/1-G20-Global-Inequality-Report-Summary.pdf",
+        "https://www.nature.com/articles/d41586-026-02806-9?error=cookies_not_supported"
+      ]
+    },
+    {
+      "id": "winnie-byanyima",
+      "name": "Winnie Byanyima",
+      "aliases": [],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "2025-11; mês da edição, dia não indicado",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "eco"
+      ],
+      "directionalAxes": [
+        "eco"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.g20.org.za/wp-content/uploads/2025/11/1-G20-Global-Inequality-Report-Summary.pdf",
+        "https://www.nature.com/articles/d41586-026-02806-9?error=cookies_not_supported"
+      ]
+    },
+    {
+      "id": "jayati-ghosh",
+      "name": "Jayati Ghosh",
+      "aliases": [],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "2025-11; mês da edição, dia não indicado",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "eco"
+      ],
+      "directionalAxes": [
+        "eco"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.g20.org.za/wp-content/uploads/2025/11/1-G20-Global-Inequality-Report-Summary.pdf",
+        "https://www.nature.com/articles/d41586-026-02806-9?error=cookies_not_supported"
+      ]
+    },
+    {
+      "id": "imraan-valodia",
+      "name": "Imraan Valodia",
+      "aliases": [],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "2025-11; mês da edição, dia não indicado",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "eco"
+      ],
+      "directionalAxes": [
+        "eco"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.g20.org.za/wp-content/uploads/2025/11/1-G20-Global-Inequality-Report-Summary.pdf",
+        "https://www.nature.com/articles/d41586-026-02806-9?error=cookies_not_supported"
+      ]
+    },
+    {
+      "id": "wanga-zembe-mkabile",
+      "name": "Wanga Zembe-Mkabile",
+      "aliases": [],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "2025-11; mês da edição, dia não indicado",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "eco"
+      ],
+      "directionalAxes": [
+        "eco"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.g20.org.za/wp-content/uploads/2025/11/1-G20-Global-Inequality-Report-Summary.pdf",
+        "https://www.nature.com/articles/d41586-026-02806-9?error=cookies_not_supported"
+      ]
+    },
+    {
+      "id": "mia-mottley",
+      "name": "Mia Mottley",
+      "aliases": [
+        "Mia Amor Mottley"
+      ],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "2026-04-14",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "eco"
+      ],
+      "directionalAxes": [
+        "eco"
+      ],
+      "sourceCount": 1,
+      "sourceUrls": [
+        "https://cvfv20.org/wp-content/uploads/2026/04/16th-V20-Ministerial-Dialogue_Transcript_H.E.-Mia-Amor-Mottley-1.pdf"
+      ]
+    },
+    {
+      "id": "mario-draghi",
+      "name": "Mario Draghi",
+      "aliases": [],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "2026-05-14",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "rep",
+        "con",
+        "tec"
+      ],
+      "directionalAxes": [
+        "rep",
+        "con",
+        "tec"
+      ],
+      "sourceCount": 1,
+      "sourceUrls": [
+        "https://www.karlspreis.de/files/docs/Reden%20bei%20Verleihung/2026%20Mario%20Draghi%20English.pdf"
+      ]
+    },
+    {
+      "id": "christine-lagarde",
+      "name": "Christine Lagarde",
+      "aliases": [],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "2026-06-15",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "con",
+        "tec"
+      ],
+      "directionalAxes": [
+        "con",
+        "tec"
+      ],
+      "sourceCount": 1,
+      "sourceUrls": [
+        "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260615~35e6c6c4de.en.html"
+      ]
+    },
+    {
+      "id": "janet-yellen",
+      "name": "Janet Yellen",
+      "aliases": [
+        "Janet L. Yellen"
+      ],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "2026-06-02",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "con"
+      ],
+      "directionalAxes": [
+        "con"
+      ],
+      "sourceCount": 1,
+      "sourceUrls": [
+        "https://www.brookings.edu/articles/remarks-by-janet-l-yellen-at-the-powell-years-at-the-fed-a-retrospective/"
+      ]
+    },
+    {
+      "id": "nadia-murad",
+      "name": "Nadia Murad",
+      "aliases": [],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "2025-09-23; publicação; declaração adicional 2026-03-04",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "dip",
+        "mor"
+      ],
+      "directionalAxes": [
+        "dip",
+        "mor"
+      ],
+      "sourceCount": 3,
+      "sourceUrls": [
+        "https://www.nadiasinitiative.org/news/nadia-murad-calls-for-action-at-unga-september-2025",
+        "https://www.nadiasinitiative.org/news/ni-statement-on-the-escalating-conflict-in-the-middle-east",
+        "https://www.nadiasinitiative.org/advocacy"
+      ]
+    },
+    {
+      "id": "amina-mohammed",
+      "name": "Amina Mohammed",
+      "aliases": [
+        "Amina J. Mohammed"
+      ],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "2026-06-01",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "tec"
+      ],
+      "directionalAxes": [
+        "tec"
+      ],
+      "sourceCount": 1,
+      "sourceUrls": [
+        "https://un-dco.org/stories/dedicated-independent-and-impartial-development-coordination-delivers-un-deputy-secretary"
+      ]
+    },
+    {
+      "id": "antonio-guterres",
+      "name": "António Guterres",
+      "aliases": [
+        "Antonio Guterres"
+      ],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "2026-01-15",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "pod",
+        "imi",
+        "dip",
+        "mor"
+      ],
+      "directionalAxes": [
+        "pod",
+        "imi",
+        "dip",
+        "mor"
+      ],
+      "sourceCount": 1,
+      "sourceUrls": [
+        "https://ukraine.un.org/en/308435-un-secretary-general-pushes-reform-peace-and-unity-remarks-general-assembly-priorities-2026"
+      ]
+    },
+    {
+      "id": "lee-jae-myung",
+      "name": "Lee Jae-myung",
+      "aliases": [
+        "Lee Jae Myung",
+        "Lee Jaemyung"
+      ],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "2026-04-02",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "eco",
+        "con",
+        "tec"
+      ],
+      "directionalAxes": [
+        "eco",
+        "con",
+        "tec"
+      ],
+      "sourceCount": 1,
+      "sourceUrls": [
+        "https://en.president.go.kr/president/statements-remarks/QZxg91Ez"
+      ]
+    },
+    {
+      "id": "lawrence-wong",
+      "name": "Lawrence Wong",
+      "aliases": [],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "2026-08-23",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "eco",
+        "con",
+        "com",
+        "tec"
+      ],
+      "directionalAxes": [
+        "eco",
+        "con",
+        "com",
+        "tec"
+      ],
+      "sourceCount": 1,
+      "sourceUrls": [
+        "https://www.pmo.gov.sg/newsroom/ndr2026/"
+      ]
+    },
+    {
+      "id": "prabowo-subianto",
+      "name": "Prabowo Subianto",
+      "aliases": [],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "2026-01-22",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "dip",
+        "eco",
+        "con",
+        "com",
+        "tec"
+      ],
+      "directionalAxes": [
+        "dip",
+        "eco",
+        "con",
+        "com",
+        "tec"
+      ],
+      "sourceCount": 1,
+      "sourceUrls": [
+        "https://www.weforum.org/stories/forum-institutional/davos-2026-special-address-prabowo-subianto-indonesia/"
       ]
     },
     {
