@@ -6,10 +6,10 @@ export const ideologySelectionSnapshot = {
   "catalogCount": 206,
   "intendedSubsetCount": 75,
   "readyForDefaultUse": false,
-  "boundedReviewedReferents": 7,
-  "referentCountScope": "Freshly reviewed selected IDs only; Combahee is an additionally reviewed alternative; LP primary reading reused from legacy02.",
+  "boundedReviewedReferents": 17,
+  "referentCountScope": "Unique selected IDs reviewed in the ontology sequence; prior LP reading was additionally reopened for §§2.1/2.4. Combahee remains an additionally reviewed alternative; modern Leopold explanation alone is excluded from the primary-referent count.",
   "independent75Verified": false,
-  "boundedTwoSidedContrasts": 2
+  "boundedTwoSidedContrasts": 10
 } as const;
 
 export const ideologyInclusionDefinition = {
@@ -857,6 +857,86 @@ export const ideologySelectionSources = [
     "locator": "PDF pp1–6, sections1–3; especially What We Believe pp3–5",
     "supports": "Socialismo feminista negro: trabalho e distribuição coletiva, opressões interligadas e extensão da análise marxista; igualdade organizacional não distingue automaticamente anarquismo.",
     "readAt": "2026-10-07"
+  },
+  {
+    "id": "greens-2023-ontology",
+    "title": "Global Greens Charter — Korea 2023 edition",
+    "url": "https://globalgreens.org/wp-content/uploads/2023/07/GlobalGreens_Charter_2023.pdf",
+    "locator": "pp5–7 Principles; p11 §3.6 nuclear phase-out; pp13–14 sustainability governance",
+    "supports": "Programa político amplo de democracia/devolução, justiça e limites ecológicos; oposição expressa à expansão nuclear contrasta com nuclear ecomodernista.",
+    "readAt": "2026-10-07"
+  },
+  {
+    "id": "belem-2008-2009",
+    "title": "Belem Ecosocialist Declaration — dated 16 December 2008 for January 2009 distribution",
+    "url": "https://static1.squarespace.com/static/650a5ae871a77d7e0fdb7572/t/653c76cea5593c4dbe182cfa/1698461390774/Ecosocialist%2BManifesto.pdf",
+    "locator": "PDF p1 publication/distribution; pp4–5 The Ecosocialist Alternative; p6 immediate reforms",
+    "supports": "Substituição do capitalismo, propriedade coletiva dos meios de produção e planejamento democrático. São compromissos adicionais ao limite material, não posições dedutíveis de toda proposta de decrescimento.",
+    "readAt": "2026-10-07"
+  },
+  {
+    "id": "berg-bioregions-1983",
+    "title": "Bioregions — Peter Berg, Resurgence 98 May/June 1983",
+    "url": "https://planetdrum.org/bioregions-an-introduction/",
+    "locator": "Opening statist/industrial location critique; bioregion definition; Reinhabitation; final decentralization paragraphs",
+    "supports": "Reorganização coletiva pela identidade territorial ecológica e reinhabitação; não mero mapa físico. Referente 1983 dentro do período local 1970–1990; versão 2002 é posterior.",
+    "readAt": "2026-10-07"
+  },
+  {
+    "id": "ej1991-primary",
+    "title": "Principles of Environmental Justice — adopted 24–27 October 1991",
+    "url": "https://www.ejnet.org/ej/principles.pdf",
+    "locator": "Entire one-page 17 principles; preamble; §§2,5,6,7,11,12,17; adoption footer",
+    "supports": "Programa de libertação política/econômica/cultural, autodeterminação, participação igual e cessação de produção de materiais radioativos; não somente distribuição de riscos.",
+    "readAt": "2026-10-07"
+  },
+  {
+    "id": "leopold-foundation-scope",
+    "title": "The Land Ethic — current Aldo Leopold Foundation explanation, not complete 1949 essay",
+    "url": "https://www.aldoleopold.org/about/the-land-ethic",
+    "locator": "What are Ethics; What is a Land Ethic; Evolution in a Thinking Community",
+    "supports": "Fonte institucional explicativa com citação parcial de Leopold; comunidade moral inclui natureza, mas não é leitura do ensaio 1949 inteiro nem programa de autoridade independente.",
+    "readAt": "2026-10-07"
+  },
+  {
+    "id": "rand-government-1963",
+    "title": "The Nature of Government — Ayn Rand 1963, included 1966 anthology",
+    "url": "https://courses.aynrand.org/works/the-nature-of-government/",
+    "locator": "Paragraphs proper government functions (police/armed services/courts), objection to anarchy and competing governments; objective laws",
+    "supports": "Proteção objetiva de direitos por governo limitado, rejeitando explicitamente tribunais/governos concorrentes; não se presume diferença governamental com todo minarquismo.",
+    "readAt": "2026-10-07"
+  },
+  {
+    "id": "nozick-preface-1974-transcription",
+    "title": "Anarchy, State, and Utopia — Robert Nozick 1974 primary Preface transcription",
+    "url": "https://www.thetedkarchive.com/library/robert-nozick-anarchy-state-and-utopia",
+    "locator": "Preface opening paragraphs and stated conclusions; archive transcription cites Archive.org scan",
+    "supports": "Estado mínimo moralmente justificável para proteção e contratos; Estado mais abrangente injustificável. Texto primário transcrito, não conferido visualmente contra scan; nenhuma validação de todos capítulos.",
+    "readAt": "2026-10-07"
+  },
+  {
+    "id": "friedman-machinery-second",
+    "title": "The Machinery of Freedom — David Friedman second edition 1989, primary-text mirror",
+    "url": "https://www.lopp.net/pdf/books/The_Machinery_of_Freedom.pdf",
+    "locator": "PDF p3 second edition preface written 1988; Part III pp60–62 Police Courts Laws—OnMarket; first edition preface p4",
+    "supports": "Provisão de proteção e leis por agências/árbitros concorrentes. Prefácio distingue material 1967–1973 com alterações menores e novos capítulos Part IV; não é cópia exata primeira edição 1973.",
+    "readAt": "2026-10-07"
+  },
+  {
+    "id": "george-rent-1879",
+    "title": "Progress and Poverty — Henry George 1879, Gutenberg memorial edition",
+    "url": "https://www.gutenberg.org/files/55308/55308-h/55308-h.htm",
+    "locator": "Book VIII Chapter II, printed pp402–405, How Equal Rights to Land May Be Asserted and Secured",
+    "supports": "Direito comum à terra implementado pela apropriação pública da renda fundiária e abolição dos demais impostos, preservando posse nominal; não propriedade estatal de toda produção.",
+    "readAt": "2026-10-07"
+  },
+  {
+    "id": "lp-ontology-finance",
+    "title": "Libertarian Party platform — current undated page reopened 2026-10-07",
+    "url": "https://lp.org/platform-page/",
+    "locator": "Preamble; Statement of Principles; §§2.1 Property/Contract, 2.4 Government Finance, 3.6 Representative Government",
+    "supports": "Programa político além de instrumento: direitos individuais e autonomia; §2.4 revogação eventual de toda tributação contrasta com renda fundiária pública georgista.",
+    "readAt": "2026-10-07"
   }
 ] as const;
 
@@ -876,10 +956,11 @@ export const intendedIdeologySelection = [
     "name": "Liberalismo clássico",
     "family": "liberal",
     "selectionRationale": "Direitos e consentimento na tradição clássica",
-    "reviewStatus": "provisional",
+    "reviewStatus": "referent-and-bounded-neighbor-contrast-reviewed",
     "documentedAxisCountAtSnapshot": 2,
-    "ontologyStatus": "provisional-normative-referent",
-    "contrastStatus": "not-independently-verified"
+    "ontologyStatus": "bounded-normative-referent-reviewed",
+    "contrastStatus": "bounded-primary-neighbor-contrast",
+    "ontologyLimit": "Contraste específico de autoridade ou programa fundiário/fiscal localizado; fundamentos entre correntes próximas e relação com subtradições ainda não certificam independência global."
   },
   {
     "id": "ideology-ordoliberalism",
@@ -896,50 +977,55 @@ export const intendedIdeologySelection = [
     "name": "Libertarianismo",
     "family": "liberal",
     "selectionRationale": "Governo limitado e liberdades civis",
-    "reviewStatus": "provisional",
+    "reviewStatus": "referent-and-bounded-neighbor-contrast-reviewed",
     "documentedAxisCountAtSnapshot": 7,
-    "ontologyStatus": "provisional-normative-referent",
-    "contrastStatus": "not-independently-verified"
+    "ontologyStatus": "bounded-normative-referent-reviewed",
+    "contrastStatus": "bounded-primary-neighbor-contrast",
+    "ontologyLimit": "Contraste específico de autoridade ou programa fundiário/fiscal localizado; fundamentos entre correntes próximas e relação com subtradições ainda não certificam independência global."
   },
   {
     "id": "ideology-right-minarchism",
     "name": "Minarquismo",
     "family": "liberal",
     "selectionRationale": "Estado mínimo, preservado em contraste com abolição",
-    "reviewStatus": "provisional",
+    "reviewStatus": "referent-and-bounded-neighbor-contrast-reviewed",
     "documentedAxisCountAtSnapshot": 2,
-    "ontologyStatus": "provisional-normative-referent",
-    "contrastStatus": "not-independently-verified"
+    "ontologyStatus": "bounded-normative-referent-reviewed",
+    "contrastStatus": "bounded-primary-neighbor-contrast",
+    "ontologyLimit": "Contraste específico de autoridade ou programa fundiário/fiscal localizado; fundamentos entre correntes próximas e relação com subtradições ainda não certificam independência global."
   },
   {
     "id": "ideology-right-anarcho-capitalism",
     "name": "Anarcocapitalismo",
     "family": "liberal",
     "selectionRationale": "Serviços de justiça e segurança privados",
-    "reviewStatus": "provisional",
+    "reviewStatus": "referent-and-bounded-neighbor-contrast-reviewed",
     "documentedAxisCountAtSnapshot": 2,
-    "ontologyStatus": "provisional-normative-referent",
-    "contrastStatus": "not-independently-verified"
+    "ontologyStatus": "bounded-normative-referent-reviewed",
+    "contrastStatus": "bounded-primary-neighbor-contrast",
+    "ontologyLimit": "Contraste específico de autoridade ou programa fundiário/fiscal localizado; fundamentos entre correntes próximas e relação com subtradições ainda não certificam independência global."
   },
   {
     "id": "ideology-georgism",
     "name": "Georgismo",
     "family": "liberal",
     "selectionRationale": "Renda fundiária como base tributária comum",
-    "reviewStatus": "provisional",
+    "reviewStatus": "referent-and-bounded-neighbor-contrast-reviewed",
     "documentedAxisCountAtSnapshot": 0,
-    "ontologyStatus": "provisional-normative-referent",
-    "contrastStatus": "not-independently-verified"
+    "ontologyStatus": "bounded-normative-referent-reviewed",
+    "contrastStatus": "bounded-primary-neighbor-contrast",
+    "ontologyLimit": "Contraste específico de autoridade ou programa fundiário/fiscal localizado; fundamentos entre correntes próximas e relação com subtradições ainda não certificam independência global."
   },
   {
     "id": "ideology-right-objectivism",
     "name": "Objetivismo político",
     "family": "liberal",
     "selectionRationale": "Justificação filosófica objetivista do laissez-faire",
-    "reviewStatus": "provisional",
+    "reviewStatus": "referent-and-bounded-neighbor-contrast-reviewed",
     "documentedAxisCountAtSnapshot": 3,
-    "ontologyStatus": "provisional-normative-referent",
-    "contrastStatus": "not-independently-verified"
+    "ontologyStatus": "bounded-normative-referent-reviewed",
+    "contrastStatus": "bounded-primary-neighbor-contrast",
+    "ontologyLimit": "Contraste específico de autoridade ou programa fundiário/fiscal localizado; fundamentos entre correntes próximas e relação com subtradições ainda não certificam independência global."
   },
   {
     "id": "ideology-right-technolibertarianism",
@@ -1382,20 +1468,22 @@ export const intendedIdeologySelection = [
     "name": "Política verde",
     "family": "ecological",
     "selectionRationale": "Democracia, não violência e proteção ecológica",
-    "reviewStatus": "provisional",
+    "reviewStatus": "referent-and-bounded-neighbor-contrast-reviewed",
     "documentedAxisCountAtSnapshot": 7,
-    "ontologyStatus": "provisional-normative-referent",
-    "contrastStatus": "not-independently-verified"
+    "ontologyStatus": "bounded-normative-referent-reviewed",
+    "contrastStatus": "bounded-primary-neighbor-contrast",
+    "ontologyLimit": "Contraste específico com Manifesto Ecomodernista 2015 localizado; relações entre demais correntes ecológicas permanecem abertas e não são mutuamente exclusivas."
   },
   {
     "id": "ideology-eco-socialism",
     "name": "Ecossocialismo",
     "family": "ecological",
     "selectionRationale": "Transformação socialista da produção ecológica",
-    "reviewStatus": "provisional",
+    "reviewStatus": "referent-and-bounded-neighbor-contrast-reviewed",
     "documentedAxisCountAtSnapshot": 0,
-    "ontologyStatus": "provisional-normative-referent",
-    "contrastStatus": "not-independently-verified"
+    "ontologyStatus": "bounded-normative-referent-reviewed",
+    "contrastStatus": "bounded-primary-neighbor-contrast",
+    "ontologyLimit": "Contraste específico com Manifesto Ecomodernista 2015 localizado; relações entre demais correntes ecológicas permanecem abertas e não são mutuamente exclusivas."
   },
   {
     "id": "civic-degrowth",
@@ -1424,10 +1512,11 @@ export const intendedIdeologySelection = [
     "name": "Biorregionalismo",
     "family": "ecological",
     "selectionRationale": "Territórios políticos definidos por ecossistemas",
-    "reviewStatus": "provisional",
+    "reviewStatus": "referent-and-bounded-neighbor-contrast-reviewed",
     "documentedAxisCountAtSnapshot": 5,
-    "ontologyStatus": "provisional-normative-referent",
-    "contrastStatus": "not-independently-verified"
+    "ontologyStatus": "bounded-normative-referent-reviewed",
+    "contrastStatus": "bounded-primary-neighbor-contrast",
+    "ontologyLimit": "Contraste específico com Manifesto Ecomodernista 2015 localizado; relações entre demais correntes ecológicas permanecem abertas e não são mutuamente exclusivas."
   },
   {
     "id": "civic-earth-stewardship",
@@ -1445,10 +1534,11 @@ export const intendedIdeologySelection = [
     "name": "Justiça ambiental",
     "family": "ecological",
     "selectionRationale": "Desigualdade racial e distribuição de riscos ambientais",
-    "reviewStatus": "provisional",
+    "reviewStatus": "referent-and-bounded-neighbor-contrast-reviewed",
     "documentedAxisCountAtSnapshot": 3,
-    "ontologyStatus": "provisional-normative-referent",
-    "contrastStatus": "not-independently-verified"
+    "ontologyStatus": "bounded-normative-referent-reviewed",
+    "contrastStatus": "bounded-primary-neighbor-contrast",
+    "ontologyLimit": "Contraste específico com Manifesto Ecomodernista 2015 localizado; relações entre demais correntes ecológicas permanecem abertas e não são mutuamente exclusivas."
   },
   {
     "id": "ideology-republicanism",
@@ -1789,6 +1879,69 @@ export const ideologyOverlapChecks = [
     "relation": "alternative-economic-ecological-transition-programs",
     "rationale": "Paris 2008 exige redução da pegada e consumo nas economias excedentes, seguida de estado estacionário; Manifesto 2015 §2 propõe queda absoluta de impactos com crescimento econômico. Ambos têm compromisso político democrático explícito; não é prova de eficácia científica nem de exclusividade.",
     "status": "bounded-primary-contrast"
+  },
+  {
+    "a": "green-politics",
+    "b": "civic-ecomodernism",
+    "relation": "conflicting-declared-energy-strategies",
+    "rationale": "Carta 2023 §3.6 rejeita expansão nuclear e exige eliminação rápida; Manifesto 2015 §4 privilegia energia nuclear e §6 critica fechamento. Ambos são programas políticos amplos, não rótulos de técnica. Não resolve o mérito científico nem relação verdes–decrescimento.",
+    "status": "bounded-primary-contrast"
+  },
+  {
+    "a": "ideology-eco-socialism",
+    "b": "civic-ecomodernism",
+    "relation": "alternative-production-institution-programs",
+    "rationale": "Belém 2008/2009 pp4–5 exige substituição capitalista, coletivização produtiva e planejamento democrático; Manifesto 2015 §6 mobiliza empreendedores privados, mercados, sociedade civil e Estado e rejeita redução da modernização a laissez-faire. Não extrapolar a todos os socialismos/ecologismos.",
+    "status": "bounded-primary-contrast"
+  },
+  {
+    "a": "civic-bioregionalism",
+    "b": "civic-ecomodernism",
+    "relation": "reinhabitation-versus-decoupling-strategies",
+    "rationale": "Berg 1983 exige reinhabitação adaptada ao lugar e organiza ação por bioregiões; Manifesto 2015 abertura rejeita harmonização humana com natureza como princípio de sobrevivência, preferindo desacoplamento intensificado. Relação com descentralização verde é sobreposta.",
+    "status": "bounded-primary-contrast"
+  },
+  {
+    "a": "civic-environmental-justice",
+    "b": "civic-ecomodernism",
+    "relation": "conflicting-radioactive-production-programs",
+    "rationale": "Princípios 1991 §6 exigem cessação da produção de materiais radioativos; Manifesto 2015 §4 promove energia nuclear. A plataforma de justiça ambiental também especifica autodeterminação, direitos indígenas e participação. Contraste delimitado, não prova de incompatibilidade de toda justiça ambiental com toda tecnologia.",
+    "status": "bounded-primary-contrast"
+  },
+  {
+    "a": "ideology-right-minarchism",
+    "b": "ideology-right-anarcho-capitalism",
+    "relation": "legitimate-minimal-state-versus-competitive-law",
+    "rationale": "Nozick Preface 1974 legitima Estado mínimo; Friedman Part III projeta ausência de governo com proteção e sistemas legais concorrentes. Comparação por instituições, não por intensidade numérica do vetor.",
+    "status": "bounded-primary-contrast"
+  },
+  {
+    "a": "ideology-right-objectivism",
+    "b": "ideology-right-anarcho-capitalism",
+    "relation": "objective-government-versus-competing-law",
+    "rationale": "Rand 1963 rejeita expressamente competing governments e exige governo limitado/leis objetivas; Friedman Part III pp60–62 afirma produção competitiva de proteção e leis. Endpoint governamental Rand–Nozick sobreposto, fundamentos ainda pendentes.",
+    "status": "bounded-primary-contrast"
+  },
+  {
+    "a": "ideology-classical-liberalism",
+    "b": "ideology-right-anarcho-capitalism",
+    "relation": "commonwealth-authority-versus-private-law",
+    "rationale": "Locke IX §§123–131 institui leis comuns, juiz autorizado e poderes legislativo/executivo comunitários; Friedman propõe acordos privados entre agências e arbitragem concorrente. Não declarar que Locke determina todas variantes liberais clássicas.",
+    "status": "bounded-primary-contrast"
+  },
+  {
+    "a": "ideology-georgism",
+    "b": "libertarianism",
+    "relation": "common-land-rent-versus-tax-abolition",
+    "rationale": "George VIII.II exige renda fundiária pública/imposto único para direito comum à terra; LP atual §2.4 pretende revogar toda tributação. São programas positivos diferentes; a validade de títulos privados/terra permanece tema filosófico, não fato científico.",
+    "status": "bounded-primary-contrast"
+  },
+  {
+    "a": "ideology-right-objectivism",
+    "b": "ideology-right-minarchism",
+    "relation": "shared-minimal-government-different-justification-unreviewed",
+    "rationale": "Fontes lidas convergem em governo protetor de direitos; autoria e sistema filosófico diferente não bastam para provar doutrinas políticas independentes. Necessária comparação localizada dos fundamentos.",
+    "status": "both-primary-referents-read-contrast-unresolved"
   }
 ] as const;
 
@@ -3530,7 +3683,92 @@ export const ideologyOntologySubstitutions = [
 ] as const;
 
 export const ideologyOntologyReviewGroups = [
-  { id: 'agorism-lp-strategy', selectedIds: ['ideology-right-agorism', 'libertarianism'], status: 'bounded-two-sided-primary-contrast', scope: 'Party/electoral strategy versus countereconomics; market-anarchist umbrella relations unresolved.', sourceIds: ['konkin-1980'], additionalPrimaryUrl: 'https://lp.org/platform-page/', additionalLocator: '§3.6 Representative Government; independently read in legacy02 source audit', reviewedOn: '2026-10-07' },
-  { id: 'ecological-transition', selectedIds: ['civic-degrowth', 'civic-ecomodernism'], status: 'bounded-two-sided-primary-contrast', scope: 'Paris 2008 reduction/steady state versus 2015 absolute decoupling with growth; no scientific efficacy verdict, other ecological neighbors unresolved.', sourceIds: ['degrowth-paris-2008-reprint', 'ecomodernism-2015'], reviewedOn: '2026-10-07' },
-  { id: 'gender-race-socialist-anarchist', selectedIds: ['ideology-left-anarcha-feminism', 'ideology-left-black-anarchism'], comparisonId: 'ideology-feminist-socialism', status: 'primary-referents-read-overlap-unresolved', scope: 'Different central domination mechanisms and organizational referents located; Combahee shares anticapitalist/interlocking-oppression commitments, so authority difference remains unproved.', sourceIds: ['ervin-1993', 'goldman-1906', 'mujeres-primary-collection', 'combahee-1977-yale-reprint'], reviewedOn: '2026-10-07' }
+  {
+    "id": "agorism-lp-strategy",
+    "selectedIds": [
+      "ideology-right-agorism",
+      "libertarianism"
+    ],
+    "status": "bounded-two-sided-primary-contrast",
+    "scope": "Party/electoral strategy versus countereconomics; market-anarchist umbrella relations unresolved.",
+    "sourceIds": [
+      "konkin-1980"
+    ],
+    "additionalPrimaryUrl": "https://lp.org/platform-page/",
+    "additionalLocator": "§3.6 Representative Government; independently read in legacy02 source audit",
+    "reviewedOn": "2026-10-07"
+  },
+  {
+    "id": "ecological-transition",
+    "selectedIds": [
+      "civic-degrowth",
+      "civic-ecomodernism"
+    ],
+    "status": "bounded-two-sided-primary-contrast",
+    "scope": "Paris 2008 reduction/steady state versus 2015 absolute decoupling with growth; no scientific efficacy verdict, other ecological neighbors unresolved.",
+    "sourceIds": [
+      "degrowth-paris-2008-reprint",
+      "ecomodernism-2015"
+    ],
+    "reviewedOn": "2026-10-07"
+  },
+  {
+    "id": "gender-race-socialist-anarchist",
+    "selectedIds": [
+      "ideology-left-anarcha-feminism",
+      "ideology-left-black-anarchism"
+    ],
+    "comparisonId": "ideology-feminist-socialism",
+    "status": "primary-referents-read-overlap-unresolved",
+    "scope": "Different central domination mechanisms and organizational referents located; Combahee shares anticapitalist/interlocking-oppression commitments, so authority difference remains unproved.",
+    "sourceIds": [
+      "ervin-1993",
+      "goldman-1906",
+      "mujeres-primary-collection",
+      "combahee-1977-yale-reprint"
+    ],
+    "reviewedOn": "2026-10-07"
+  },
+  {
+    "id": "ecological-neighbors",
+    "selectedIds": [
+      "green-politics",
+      "ideology-eco-socialism",
+      "civic-bioregionalism",
+      "civic-environmental-justice",
+      "civic-ecomodernism"
+    ],
+    "status": "four-bounded-two-sided-primary-contrasts",
+    "scope": "Nuclear policy; mandatory collective production versus plural modernization; place-adapted reinhabitation versus decoupling; radioactive-material production. No science verdict, remaining ecological nesting unresolved.",
+    "sourceIds": [
+      "greens-2023-ontology",
+      "belem-2008-2009",
+      "berg-bioregions-1983",
+      "ej1991-primary",
+      "ecomodernism-2015"
+    ],
+    "reviewedOn": "2026-10-07"
+  },
+  {
+    "id": "liberal-authority-and-land",
+    "selectedIds": [
+      "ideology-classical-liberalism",
+      "libertarianism",
+      "ideology-right-minarchism",
+      "ideology-right-anarcho-capitalism",
+      "ideology-right-objectivism",
+      "ideology-georgism"
+    ],
+    "status": "four-bounded-two-sided-primary-contrasts",
+    "scope": "Minimal/common government versus competing private law; mandatory public land rent versus abolition all taxation. Rand/Nozick endpoint overlap and nearest subtradition foundations unresolved.",
+    "sourceIds": [
+      "locke",
+      "rand-government-1963",
+      "nozick-preface-1974-transcription",
+      "friedman-machinery-second",
+      "george-rent-1879",
+      "lp-ontology-finance"
+    ],
+    "reviewedOn": "2026-10-07"
+  }
 ] as const;

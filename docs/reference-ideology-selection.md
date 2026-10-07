@@ -4,7 +4,7 @@ Reviewed on 2026-10-07. The catalog still preserves all 206 ideology records. Th
 
 An included object should be an identifiable **political normative doctrine or tradition** addressing legitimate authority, collective social/economic order and action, with a located referent and a material contrast to retained neighbors. A framework, institutional device or policy instrument alone is insufficient. State-authored normative doctrines can qualify; government authorship alone is neither acceptance nor rejection. Subtraditions may be retained when their extra commitments are identified; they must not be presented as mutually exclusive families.
 
-Four weakly scoped slots were replaced with existing records. The original entries remain among 131 alternatives; the selected plus alternative IDs still cover all 206 exactly. Seven selected referents received fresh bounded primary reading. Two two-sided contrasts are grounded: agorism versus LP electoral strategy, and degrowth versus ecomodernist transition. Full nearest-neighbor comparisons remain incomplete. See `docs/reference-ideology-ontology-audit.md` for locators, edition limitations and what was actually verified.
+Four weakly scoped slots were replaced with existing records. The original entries remain among 131 alternatives; the selected plus alternative IDs still cover all 206 exactly. Seventeen selected IDs have located primary normative referents and scoped review. Ten two-sided contrasts are recorded across libertarian strategy, ecological programs and liberal authority/property programs. Full nearest-neighbor comparisons remain incomplete. See `docs/reference-ideology-ontology-audit.md` for locators, edition limitations and what was actually verified.
 
 | Deferred slot | Selected existing record | Reason |
 | --- | --- | --- |
@@ -22,13 +22,13 @@ The overall selection remains provisional. Individually grounded bounded contras
 | ID | Label | Family | Ontology status | Contrast status |
 | --- | --- | --- | --- | --- |
 | `social-liberalism` | Liberalismo social | liberal | provisional-normative-referent | not-independently-verified |
-| `ideology-classical-liberalism` | Liberalismo clássico | liberal | provisional-normative-referent | not-independently-verified |
+| `ideology-classical-liberalism` | Liberalismo clássico | liberal | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | `ideology-ordoliberalism` | Ordoliberalismo | liberal | provisional-normative-referent | not-independently-verified |
-| `libertarianism` | Libertarianismo | liberal | provisional-normative-referent | not-independently-verified |
-| `ideology-right-minarchism` | Minarquismo | liberal | provisional-normative-referent | not-independently-verified |
-| `ideology-right-anarcho-capitalism` | Anarcocapitalismo | liberal | provisional-normative-referent | not-independently-verified |
-| `ideology-georgism` | Georgismo | liberal | provisional-normative-referent | not-independently-verified |
-| `ideology-right-objectivism` | Objetivismo político | liberal | provisional-normative-referent | not-independently-verified |
+| `libertarianism` | Libertarianismo | liberal | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
+| `ideology-right-minarchism` | Minarquismo | liberal | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
+| `ideology-right-anarcho-capitalism` | Anarcocapitalismo | liberal | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
+| `ideology-georgism` | Georgismo | liberal | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
+| `ideology-right-objectivism` | Objetivismo político | liberal | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | `ideology-right-technolibertarianism` | Libertarianismo tecnológico | liberal | provisional-normative-referent | not-independently-verified |
 | `ideology-neoliberalism` | Neoliberalismo inicial (Colóquio Walter Lippmann) | liberal | provisional-normative-referent | not-independently-verified |
 | `ideology-conservatism` | Conservadorismo | conservative | provisional-normative-referent | not-independently-verified |
@@ -72,13 +72,13 @@ The overall selection remains provisional. Individually grounded bounded contras
 | `ideology-christian-socialism` | Socialismo cristão | religious | provisional-normative-referent | not-independently-verified |
 | `ideology-distributism` | Distributismo | religious | provisional-normative-referent | not-independently-verified |
 | `ideology-islamic-democracy` | Democracia muçulmana | religious | provisional-normative-referent | not-independently-verified |
-| `green-politics` | Política verde | ecological | provisional-normative-referent | not-independently-verified |
-| `ideology-eco-socialism` | Ecossocialismo | ecological | provisional-normative-referent | not-independently-verified |
+| `green-politics` | Política verde | ecological | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
+| `ideology-eco-socialism` | Ecossocialismo | ecological | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | `civic-degrowth` | Decrescimento | ecological | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | `civic-ecomodernism` | Ecomodernismo | ecological | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
-| `civic-bioregionalism` | Biorregionalismo | ecological | provisional-normative-referent | not-independently-verified |
+| `civic-bioregionalism` | Biorregionalismo | ecological | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | `civic-earth-stewardship` | Ética da terra e conservação | ecological | ethical-framework | not-independently-verified |
-| `civic-environmental-justice` | Justiça ambiental | ecological | provisional-normative-referent | not-independently-verified |
+| `civic-environmental-justice` | Justiça ambiental | ecological | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | `ideology-republicanism` | Republicanismo cívico | democratic | provisional-normative-referent | not-independently-verified |
 | `civic-participatory-democracy` | Democracia participativa | democratic | provisional-normative-referent | not-independently-verified |
 | `civic-direct-democracy` | Democracia direta | democratic | institutional-model | not-independently-verified |
