@@ -4,7 +4,7 @@ Reviewed on 2026-10-07. The catalog still preserves all 206 ideology records. Th
 
 An included object should be an identifiable **political normative doctrine or tradition** addressing legitimate authority, collective social/economic order and action, with a located referent and a material contrast to retained neighbors. A framework, institutional device or policy instrument alone is insufficient. State-authored normative doctrines can qualify; government authorship alone is neither acceptance nor rejection. Subtraditions may be retained when their extra commitments are identified; they must not be presented as mutually exclusive families.
 
-Four weakly scoped slots were replaced with existing records. The original entries remain among 131 alternatives; the selected plus alternative IDs still cover all 206 exactly. Forty-five selected IDs have located primary normative referents and scoped review. Thirty-one two-sided contrasts are recorded across libertarian strategy, ecological programs and liberal authority/property programs. Full nearest-neighbor comparisons remain incomplete. See `docs/reference-ideology-ontology-audit.md` for locators, edition limitations and what was actually verified.
+Four weakly scoped slots were replaced with existing records. The original entries remain among 131 alternatives; the selected plus alternative IDs still cover all 206 exactly. Forty-eight selected IDs have located primary normative referents and scoped review. Thirty-four two-sided contrasts are recorded across libertarian strategy, ecological programs and liberal authority/property programs. Full nearest-neighbor comparisons remain incomplete. See `docs/reference-ideology-ontology-audit.md` for locators, edition limitations and what was actually verified.
 
 | Deferred slot | Selected existing record | Reason |
 | --- | --- | --- |
@@ -42,8 +42,8 @@ The overall selection remains provisional. Individually grounded bounded contras
 | `social-democracy` | Social-democracia | socialist | overlapping-umbrella-primary-referent-reviewed | bounded-primary-neighbor-contrast |
 | `democratic-socialism` | Socialismo democrático | socialist | overlapping-umbrella-primary-referent-reviewed | bounded-primary-neighbor-contrast |
 | `ideology-market-socialism` | Socialismo de mercado | socialist | provisional-normative-referent | not-independently-verified |
-| `ideology-revolutionary-socialism` | Socialismo revolucionário | socialist | provisional-normative-referent | not-independently-verified |
-| `ideology-marxism-leninism` | Marxismo-leninismo: recorte constitucional da RPC | socialist | doctrine-referent-source-mismatch | not-independently-verified |
+| `ideology-revolutionary-socialism` | Socialismo revolucionário: Manifesto de 1848 | socialist | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
+| `ideology-marxism-leninism` | Marxismo-leninismo: direção partidária de Stalin, 1924 | socialist | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | `ideology-maoism` | Maoismo: programa da Nova Democracia | socialist | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | `ideology-trotskyism` | Trotskismo | socialist | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | `ideology-luxemburgism` | Luxemburguismo | socialist | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
@@ -93,7 +93,7 @@ The overall selection remains provisional. Individually grounded bounded contras
 | `ideology-technocracy` | Tecnocracia | technical | provisional-normative-referent | not-independently-verified |
 | `civic-transhumanism` | Transumanismo | technical | provisional-normative-referent | not-independently-verified |
 | `ideology-right-agorism` | Agorismo | liberal | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
-| `ideology-fascism` | Fascismo histórico | authoritarian | provisional-normative-referent | not-independently-verified |
+| `ideology-fascism` | Fascismo: formulação Mussolini/Gentile de 1932 | authoritarian | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | `ideology-left-anarcha-feminism` | Anarcafeminismo | anarchist | bounded-normative-referent-reviewed | not-independently-verified |
 | `ideology-right-showa-statism` | Doutrina imperial do kokutai, 1937 | authoritarian | state-normative-doctrine | not-independently-verified |
 

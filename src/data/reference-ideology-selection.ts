@@ -6,10 +6,10 @@ export const ideologySelectionSnapshot = {
   "catalogCount": 206,
   "intendedSubsetCount": 75,
   "readyForDefaultUse": false,
-  "boundedReviewedReferents": 45,
+  "boundedReviewedReferents": 48,
   "referentCountScope": "Unique selected IDs reviewed in the ontology sequence; prior LP reading was additionally reopened for §§2.1/2.4. Combahee remains an additionally reviewed alternative; modern Leopold explanation alone is excluded from the primary-referent count.",
   "independent75Verified": false,
-  "boundedTwoSidedContrasts": 31
+  "boundedTwoSidedContrasts": 34
 } as const;
 
 export const ideologyInclusionDefinition = {
@@ -1185,6 +1185,38 @@ export const ideologySelectionSources = [
     "locator": "III opening/A PDF pp21–22; III E–H pp26–29;IV pp30–31;publication details p4",
     "supports": "Autogoverno comunitário voluntário, decisões locais, coordenação confederada, pluralismo e autodefesa sob controle democrático. Coexistência com Estados durante processo longo de superação. Não prova unanimidade com veto ou prática implementada de Rojava.",
     "readAt": "2026-10-07"
+  },
+  {
+    "id": "manifesto-transition-1848",
+    "title": "Communist Manifesto — 1848, Moore/Engels translation 1888, Progress 1969 transcription",
+    "url": "https://www.marxists.org/archive/marx/works/1848/communist-manifesto/ch02.htm",
+    "locator": "II final political-power/property program; IV final paragraph https://www.marxists.org/archive/marx/works/1848/communist-manifesto/ch04.htm; preface 1872 opening; index edition metadata",
+    "supports": "Programa de classe, transformação da propriedade e ruptura; a nota de 1872 exige aplicação histórica variável. Não imputa violência a todo socialismo posterior.",
+    "readAt": "2026-10-07"
+  },
+  {
+    "id": "stalin-party-1924",
+    "title": "Foundations of Leninism — December 1924 second version, Works 6 edition 1953",
+    "url": "https://www.marxists.org/reference/archive/stalin/works/1924/foundations-leninism/ch08.htm",
+    "locator": "VIII §§1–5, especially 3 web 57–68 and 5 web 83–97; index publication metadata",
+    "supports": "Partido como direção política do conjunto das organizações proletárias; persuasão e aceitação voluntária, não subordinação oficial. Debate interno admitido; ação unificada após decisão e proibição de facções.",
+    "readAt": "2026-10-07"
+  },
+  {
+    "id": "pannekoek-party-class-1941",
+    "title": "The Party and Class — Pannekoek, Modern Socialism winter 1941, MIA transcription",
+    "url": "https://www.marxists.org/archive/pannekoe/1936/party-class.htm",
+    "locator": "Publication header winter 1941 despite URL 1936; web 10–24 and 35–37",
+    "supports": "Grupos podem esclarecer e propagar ideias; poder e direção da sociedade pertencem à ação dos trabalhadores e conselhos, em oposição à direção governante do partido. Afirmações históricas polêmicas não validadas.",
+    "readAt": "2026-10-07"
+  },
+  {
+    "id": "fascism-1932-fordham-excerpt",
+    "title": "What is Fascism — Mussolini/Gentile 1932 excerpts, IHSP 1997 English transcription",
+    "url": "https://sourcebooks.fordham.edu/mod/mussolini-fascism.asp",
+    "locator": "Primary excerpt web 26–39, especially 34–38; introductory attribution 22; electronic publication 44",
+    "supports": "Estado absoluto e expansão imperial como exigência normativa. Excertos com elipses e tradução não identificada; não são entrada integral nem prova da prática do regime.",
+    "readAt": "2026-10-07"
   }
 ] as const;
 
@@ -1416,24 +1448,25 @@ export const intendedIdeologySelection = [
   },
   {
     "id": "ideology-revolutionary-socialism",
-    "name": "Socialismo revolucionário",
+    "name": "Socialismo revolucionário: Manifesto de 1848",
     "family": "socialist",
-    "selectionRationale": "Ruptura revolucionária como estratégia",
-    "reviewStatus": "provisional",
+    "selectionRationale": "Programa de transformação da propriedade e conquista de poder no Manifesto; sobreposição com subtradições revolucionárias permanece.",
+    "reviewStatus": "referent-and-bounded-neighbor-contrast-reviewed",
     "documentedAxisCountAtSnapshot": 2,
-    "ontologyStatus": "provisional-normative-referent",
-    "contrastStatus": "not-independently-verified"
+    "ontologyStatus": "bounded-normative-referent-reviewed",
+    "contrastStatus": "bounded-primary-neighbor-contrast",
+    "ontologyLimit": "Programa primário delimitado, não certificação de toda tradição ou independência de todos os vizinhos; fontes e valores do catálogo não mudam. Contraste de transição com Webb não resolve o encaixe com maoismo, trotskismo ou marxismo-leninismo. Prefácio de 1872 qualifica aplicação histórica e medidas."
   },
   {
     "id": "ideology-marxism-leninism",
-    "name": "Marxismo-leninismo: recorte constitucional da RPC",
+    "name": "Marxismo-leninismo: direção partidária de Stalin, 1924",
     "family": "socialist",
-    "selectionRationale": "Partido único e propriedade estatal no recorte RPC",
-    "reviewStatus": "provisional",
+    "selectionRationale": "Referente normativo de direção partidária, em lugar de generalização a partir da Constituição da RPC.",
+    "reviewStatus": "referent-and-bounded-neighbor-contrast-reviewed",
     "documentedAxisCountAtSnapshot": 6,
-    "ontologyStatus": "doctrine-referent-source-mismatch",
-    "contrastStatus": "not-independently-verified",
-    "ontologyLimit": "Rótulo doutrinário amplo apoiado num recorte constitucional da RPC; não generalizar do regime à tradição."
+    "ontologyStatus": "bounded-normative-referent-reviewed",
+    "contrastStatus": "bounded-primary-neighbor-contrast",
+    "ontologyLimit": "Programa primário delimitado, não certificação de toda tradição ou independência de todos os vizinhos; fontes e valores do catálogo não mudam. Formulação de dezembro de 1924 na edição de 1953; não representa automaticamente todo Lenin ou variantes posteriores. Direção política voluntariamente aceita não é subordinação oficial de todas as organizações."
   },
   {
     "id": "ideology-maoism",
@@ -1959,13 +1992,14 @@ export const intendedIdeologySelection = [
   },
   {
     "id": "ideology-fascism",
-    "name": "Fascismo histórico",
+    "name": "Fascismo: formulação Mussolini/Gentile de 1932",
     "family": "authoritarian",
     "selectionRationale": "Estado total e mobilização nacional",
-    "reviewStatus": "provisional",
+    "reviewStatus": "referent-and-bounded-neighbor-contrast-reviewed",
     "documentedAxisCountAtSnapshot": 8,
-    "ontologyStatus": "provisional-normative-referent",
-    "contrastStatus": "not-independently-verified"
+    "ontologyStatus": "bounded-normative-referent-reviewed",
+    "contrastStatus": "bounded-primary-neighbor-contrast",
+    "ontologyLimit": "Programa primário delimitado, não certificação de toda tradição ou independência de todos os vizinhos; fontes e valores do catálogo não mudam. Excertos ingleses, não entrada integral; contraste imperial com NatCon não resolve a proximidade ao kokutai ou todas as variantes fascistas."
   },
   {
     "id": "ideology-left-anarcha-feminism",
@@ -2389,6 +2423,27 @@ export const ideologyOverlapChecks = [
     "relation": "shared-confederated-self-government-with-unresolved-decision-and-transition-emphases",
     "rationale": "Bookchin 161–178 prevê maiorias obrigatórias, dissenso protegido e mobilização eleitoral municipal; Öcalan III/IV prevê consenso orientador, participação voluntária e coexistência de duas entidades enquanto o Estado é superado em longo prazo. Consenso não especifica veto unânime; ambos defendem autogoverno confederado não estatal. Ênfases documentadas não provam duas doutrinas independentes. Comparação não entra na contagem de contrastes materiais resolvidos.",
     "status": "primary-nearest-overlap-unresolved"
+  },
+  {
+    "a": "ideology-revolutionary-socialism",
+    "b": "ideology-fabianism",
+    "relation": "declared-forceful-rupture-versus-peaceful-constitutional-transition",
+    "rationale": "Manifesto 1848 IV final declara ruptura pela força; Webb Historic na edição 1891 pp13–14 prescreve via constitucional pacífica no contexto britânico. Comparação de programas delimitados, não todos Marx ou socialistas; o prefácio 1872 qualifica a aplicação histórica. O rótulo revolucionário ainda inclui outras subtradições selecionadas.",
+    "status": "bounded-primary-contrast"
+  },
+  {
+    "a": "ideology-marxism-leninism",
+    "b": "ideology-council-communism",
+    "relation": "leading-party-direction-versus-worker-council-power-with-nonruling-opinion-groups",
+    "rationale": "Stalin VIII §3 requer direção política partidária das organizações proletárias, por persuasão/aceitação voluntária, e §5 unidade posterior ao debate; Pannekoek web 10–24/35–37 admite grupos de esclarecimento mas reserva direção social aos trabalhadores/conselhos, rejeitando partido governante. Não equivale debate interno a pluralismo de regime nem valida as generalizações históricas de ambos.",
+    "status": "bounded-primary-contrast"
+  },
+  {
+    "a": "ideology-fascism",
+    "b": "ideology-national-conservatism",
+    "relation": "imperial-expansion-and-absolute-state-versus-national-independence-and-constitutionally-limited-state",
+    "rationale": "Excerto 1932 web 34–38 prescreve Estado absoluto e expansão imperial; NatCon 2022 §§1–3 defende nações independentes, rejeita dominação imperial e limita constitucionalmente o Estado. Contraste normativo efetivo, não afirmação sobre toda prática; proximidade fascismo/kokutai ainda não resolvida.",
+    "status": "bounded-primary-contrast"
   }
 ] as const;
 
@@ -4341,6 +4396,26 @@ export const ideologyOntologyReviewGroups = [
       "bookchin-communalist-2002",
       "ocalan-confederalism-2017",
       "gic-production-1930"
+    ],
+    "reviewedOn": "2026-10-07"
+  },
+  {
+    "id": "party-authority-and-transition-programs",
+    "selectedIds": [
+      "ideology-revolutionary-socialism",
+      "ideology-marxism-leninism",
+      "ideology-fascism"
+    ],
+    "status": "three-bounded-two-sided-primary-contrasts",
+    "scope": "Declared transition, party/council authority and imperial-state commitments. Narrow selected referents replace regime-snapshot inference without editing catalog identities or vectors; closest nested traditions remain unresolved.",
+    "sourceIds": [
+      "manifesto-transition-1848",
+      "fabian-transition-1889",
+      "stalin-party-1924",
+      "pannekoek-party-class-1941",
+      "gic-production-1930",
+      "fascism-1932-fordham-excerpt",
+      "natcon-principles-2022"
     ],
     "reviewedOn": "2026-10-07"
   }
