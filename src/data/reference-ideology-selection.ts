@@ -6,10 +6,10 @@ export const ideologySelectionSnapshot = {
   "catalogCount": 206,
   "intendedSubsetCount": 75,
   "readyForDefaultUse": false,
-  "boundedReviewedReferents": 33,
+  "boundedReviewedReferents": 40,
   "referentCountScope": "Unique selected IDs reviewed in the ontology sequence; prior LP reading was additionally reopened for §§2.1/2.4. Combahee remains an additionally reviewed alternative; modern Leopold explanation alone is excluded from the primary-referent count.",
   "independent75Verified": false,
-  "boundedTwoSidedContrasts": 21
+  "boundedTwoSidedContrasts": 27
 } as const;
 
 export const ideologyInclusionDefinition = {
@@ -1065,6 +1065,78 @@ export const ideologySelectionSources = [
     "locator": "Whole declaration, sovereign jurisdiction/open entry/social contract/government of bodies paragraphs",
     "supports": "Autogoverno e contrato social digital sem jurisdição estatal externa, entrada e expressão livres. Admite governo de corpos físicos: não é ausência universal de Estado nem previsão empírica validada.",
     "readAt": "2026-10-07"
+  },
+  {
+    "id": "burke-reflections-1790",
+    "title": "Reflections on the Revolution in France — Burke 1790, Works III 1887 transcription",
+    "url": "https://www.gutenberg.org/cache/epub/15679/pg15679-images.html",
+    "locator": "Reflections paragraphs on inherited institutions, temporary possessors and partnership of living/dead/unborn; web lines 1826–1845",
+    "supports": "Legitimidade institucional herdada, obrigação entre gerações e reforma cautelosa em vez de dissolução à vontade. Vizinho conservador mais próximo não resolvido.",
+    "readAt": "2026-10-07"
+  },
+  {
+    "id": "natcon-principles-2022",
+    "title": "National Conservatism: Statement of Principles — 15 June 2022",
+    "url": "https://nationalconservatism.org/national-conservatism-a-statement-of-principles/",
+    "locator": "Whole ten principles; especially §§1–4 and 6",
+    "supports": "Nações independentes, autoridade nacional sem transferência supranacional, governo nacional forte mas limitado, raiz pública cristã onde majoritária e liberdade privada minoritária; propriedade e mercado com exceções públicas. Não rejeita todas as alianças.",
+    "readAt": "2026-10-07"
+  },
+  {
+    "id": "heritage-values-2024",
+    "title": "Heritage Party Values Manifesto — PDF URL edition May 2024",
+    "url": "https://heritageparty.org/wp-content/uploads/2024/05/Values-Manifesto-v6a.pdf",
+    "locator": "PDF pp1/3–6, especially Traditional Family p6; pp7–8 not used for empirical claims",
+    "supports": "Responsabilidade intergeracional e programa político explícito de família homem/mulher, apoio tributário e limite curricular para menores. Edição da URL de 2024, não prova do programa integral vigente em 2026; alegações climáticas não validadas.",
+    "readAt": "2026-10-07"
+  },
+  {
+    "id": "kristol-persuasion-2003",
+    "title": "The Neoconservative Persuasion — Kristol, AEI On the Issues September 2003",
+    "url": "https://ciaotest.cc.columbia.edu/pbei/aei/oti/kri03/kri03.pdf",
+    "locator": "Full three-page essay; pp2–3 foreign-policy attitudes; original Weekly Standard publication 25 August 2003",
+    "supports": "Programa americano moderno aceita expansão estatal e política cultural; grandes democracias têm interesses ideológicos externos e obrigação de defender outras democracias. Autor expressamente nega um conjunto fixo de crenças de política externa.",
+    "readAt": "2026-10-07"
+  },
+  {
+    "id": "hobbes-sovereignty-1651",
+    "title": "Leviathan — Hobbes 1651, Gutenberg transcription",
+    "url": "https://www.gutenberg.org/cache/epub/3207/pg3207-images.html",
+    "locator": "XVIII covenant/no forfeiture/indivisibility; XIX whole sovereignty in one/few/all and comparison of monarchy, web lines 2023/2069–2118",
+    "supports": "Soberania indivisível e obrigação derivada de pacto entre súditos, não pacto do soberano com eles; comparação favorável à monarquia não elimina soberania assemblear. Não usado para negar autodefesa pessoal.",
+    "readAt": "2026-10-07"
+  },
+  {
+    "id": "locke-trust-forfeiture",
+    "title": "Second Treatise — Locke 1690, trust and dissolution chapters",
+    "url": "https://www.gutenberg.org/files/7370/7370-h/7370-h.htm",
+    "locator": "XIII §149 and XIX §§221–222",
+    "supports": "Poder legislativo fiduciário condicionado à preservação da comunidade; violação da confiança permite retorno do poder ao povo. Contraste com a impossibilidade hobbesiana de perda do poder por quebra desse pacto.",
+    "readAt": "2026-10-07"
+  },
+  {
+    "id": "ics-gospel-current",
+    "title": "Christian Socialism and the Gospel — Institute for Christian Socialism, current undated",
+    "url": "https://christiansocialism.com/gospel/",
+    "locator": "Socialism and the Gospel / Christian Socialism Today / Imperatives, whole program",
+    "supports": "Programa político cristão de superação do capitalismo, economia plural, emancipação queer, antirracismo e anti-imperialismo; declara não haver modelo único. Crença teológica do autor, não verdade empírica universal.",
+    "readAt": "2026-10-07"
+  },
+  {
+    "id": "christians-left-constitution",
+    "title": "Christians on the Left — published constitution extract, undated",
+    "url": "https://www.christiansontheleft.org.uk/constitution",
+    "locator": "Extract §§2.1.1–2.1.5 and 2.2.1",
+    "supports": "Tradução de convicções cristãs em leis e instituições do socialismo democrático, ação redistributiva, cooperação, igualdade pessoal e cuidado da terra. Somente extrato publicado, não todo documento de sete páginas.",
+    "readAt": "2026-10-07"
+  },
+  {
+    "id": "chesterton-outline-1927",
+    "title": "The Outline of Sanity — Chesterton 1927, Seton Hall transcription PDF",
+    "url": "https://www.shu.edu/documents/1927-GK-Chesterton-The-Outline-of-Sanity.pdf",
+    "locator": "PDF pp1–6 definitions and II.2 Misunderstanding about the Method pp48–50",
+    "supports": "Distribuição ampla de propriedade privada em vez de concentração; pluralidade de arranjos, regras de herança, impostos e acesso jurídico contra concentração. Transcrição textual, não fac-símile paginado da primeira edição; definições de capitalismo/socialismo são do autor.",
+    "readAt": "2026-10-07"
   }
 ] as const;
 
@@ -1182,30 +1254,33 @@ export const intendedIdeologySelection = [
     "name": "Conservadorismo",
     "family": "conservative",
     "selectionRationale": "Prudência e mudança gradual",
-    "reviewStatus": "provisional",
+    "reviewStatus": "primary-normative-referent-reviewed",
     "documentedAxisCountAtSnapshot": 1,
-    "ontologyStatus": "provisional-normative-referent",
-    "contrastStatus": "not-independently-verified"
+    "ontologyStatus": "bounded-normative-referent-reviewed",
+    "contrastStatus": "nearest-neighbor-unresolved",
+    "ontologyLimit": "Referentes normativos localizados; comparação delimitada por texto e edição, sem provar independência de todos os vizinhos nem prática implementada."
   },
   {
     "id": "ideology-social-conservatism",
     "name": "Conservadorismo social",
     "family": "conservative",
     "selectionRationale": "Costumes e valores sociais como núcleo",
-    "reviewStatus": "provisional",
+    "reviewStatus": "referent-and-bounded-neighbor-contrast-reviewed",
     "documentedAxisCountAtSnapshot": 5,
-    "ontologyStatus": "provisional-normative-referent",
-    "contrastStatus": "not-independently-verified"
+    "ontologyStatus": "bounded-normative-referent-reviewed",
+    "contrastStatus": "bounded-primary-neighbor-contrast",
+    "ontologyLimit": "Referentes normativos localizados; comparação delimitada por texto e edição, sem provar independência de todos os vizinhos nem prática implementada."
   },
   {
     "id": "ideology-national-conservatism",
     "name": "Conservadorismo nacional",
     "family": "conservative",
     "selectionRationale": "Soberania e continuidade nacional",
-    "reviewStatus": "provisional",
+    "reviewStatus": "referent-and-bounded-neighbor-contrast-reviewed",
     "documentedAxisCountAtSnapshot": 2,
-    "ontologyStatus": "provisional-normative-referent",
-    "contrastStatus": "not-independently-verified"
+    "ontologyStatus": "bounded-normative-referent-reviewed",
+    "contrastStatus": "bounded-primary-neighbor-contrast",
+    "ontologyLimit": "Referentes normativos localizados; comparação delimitada por texto e edição, sem provar independência de todos os vizinhos nem prática implementada."
   },
   {
     "id": "ideology-right-one-nation-conservatism",
@@ -1222,10 +1297,11 @@ export const intendedIdeologySelection = [
     "name": "Neoconservadorismo",
     "family": "conservative",
     "selectionRationale": "Política externa ativa de defesa da ordem liberal",
-    "reviewStatus": "provisional",
+    "reviewStatus": "referent-and-bounded-neighbor-contrast-reviewed",
     "documentedAxisCountAtSnapshot": 5,
-    "ontologyStatus": "provisional-normative-referent",
-    "contrastStatus": "not-independently-verified"
+    "ontologyStatus": "bounded-normative-referent-reviewed",
+    "contrastStatus": "bounded-primary-neighbor-contrast",
+    "ontologyLimit": "Referentes normativos localizados; comparação delimitada por texto e edição, sem provar independência de todos os vizinhos nem prática implementada."
   },
   {
     "id": "ideology-right-constitutional-monarchism",
@@ -1239,13 +1315,14 @@ export const intendedIdeologySelection = [
   },
   {
     "id": "ideology-right-absolute-monarchy",
-    "name": "Monarquia absoluta",
+    "name": "Soberania indivisível de Hobbes, 1651",
     "family": "conservative",
     "selectionRationale": "Soberania concentrada para proteção da ordem",
-    "reviewStatus": "provisional",
+    "reviewStatus": "referent-and-bounded-neighbor-contrast-reviewed",
     "documentedAxisCountAtSnapshot": 2,
-    "ontologyStatus": "provisional-normative-referent",
-    "contrastStatus": "not-independently-verified"
+    "ontologyStatus": "bounded-normative-referent-reviewed",
+    "contrastStatus": "bounded-primary-neighbor-contrast",
+    "ontologyLimit": "Leviatã XVIII–XIX admite soberania inteira de um, poucos ou todos e argumenta vantagens da monarquia. Recorte de soberania indivisível: o rótulo original de monarquia absoluta não é prova exclusiva de todo monarquismo. Sem inferir inexistência de direitos de autopreservação."
   },
   {
     "id": "ideology-right-bonapartism",
@@ -1580,20 +1657,22 @@ export const intendedIdeologySelection = [
     "name": "Socialismo cristão",
     "family": "religious",
     "selectionRationale": "Igualdade socialista com fundamento cristão",
-    "reviewStatus": "provisional",
+    "reviewStatus": "referent-and-bounded-neighbor-contrast-reviewed",
     "documentedAxisCountAtSnapshot": 4,
-    "ontologyStatus": "provisional-normative-referent",
-    "contrastStatus": "not-independently-verified"
+    "ontologyStatus": "bounded-normative-referent-reviewed",
+    "contrastStatus": "bounded-primary-neighbor-contrast",
+    "ontologyLimit": "Referentes normativos localizados; comparação delimitada por texto e edição, sem provar independência de todos os vizinhos nem prática implementada."
   },
   {
     "id": "ideology-distributism",
     "name": "Distributismo",
     "family": "religious",
     "selectionRationale": "Distribuição da propriedade e corpos intermediários",
-    "reviewStatus": "provisional",
+    "reviewStatus": "referent-and-bounded-neighbor-contrast-reviewed",
     "documentedAxisCountAtSnapshot": 3,
-    "ontologyStatus": "provisional-normative-referent",
-    "contrastStatus": "not-independently-verified"
+    "ontologyStatus": "bounded-normative-referent-reviewed",
+    "contrastStatus": "bounded-primary-neighbor-contrast",
+    "ontologyLimit": "Referentes normativos localizados; comparação delimitada por texto e edição, sem provar independência de todos os vizinhos nem prática implementada."
   },
   {
     "id": "ideology-islamic-democracy",
@@ -2181,6 +2260,48 @@ export const ideologyOverlapChecks = [
     "b": "christian-democracy",
     "relation": "cyberspace-self-jurisdiction-versus-binding-public-digital-law",
     "rationale": "Barlow 1996 rejeita jurisdição legal governamental externa no espaço virtual, mantendo consentimento ao governo dos corpos; EPP 2024§1.7 propõe regras digitais públicas obrigatórias, crimes e brigada cibernética. Conflito localizado de jurisdição, não diferença universal por entusiasmo tecnológico.",
+    "status": "bounded-primary-contrast"
+  },
+  {
+    "a": "ideology-national-conservatism",
+    "b": "christian-democracy",
+    "relation": "national-sovereign-authority-versus-binding-supranational-law",
+    "rationale": "NatCon 2022 §2 rejeita transferência de autoridade a órgãos supranacionais; EPP 2024 §1.7 exige regras públicas europeias vinculantes. Contraste institucional localizado, não ausência de toda cooperação entre países.",
+    "status": "bounded-primary-contrast"
+  },
+  {
+    "a": "ideology-social-conservatism",
+    "b": "social-liberalism",
+    "relation": "exclusive-traditional-family-and-minor-curriculum-versus-sexuality-freedom",
+    "rationale": "Heritage PDF p6 programa família homem/mulher e restrição curricular de ideologias LGBT para menores; LI C1 defende liberdade de sexualidade e amor sem discriminação. Normas específicas de dois programas, não todas as variantes dos rótulos.",
+    "status": "bounded-primary-contrast"
+  },
+  {
+    "a": "ideology-right-neoconservatism",
+    "b": "libertarianism",
+    "relation": "external-democracy-defense-obligation-versus-no-world-policeman",
+    "rationale": "Kristol 2003 pp2–3 atribui às grandes democracias interesse ideológico e obrigação de defender democracias externas; LP §3.1 rejeita o papel de polícia do mundo e alianças entrelaçantes. Kristol nega uma doutrina fixa de política externa; não se deduz apoio a toda guerra.",
+    "status": "bounded-primary-contrast"
+  },
+  {
+    "a": "ideology-right-absolute-monarchy",
+    "b": "ideology-classical-liberalism",
+    "relation": "indivisible-sovereignty-versus-fiduciary-authority-forfeiture",
+    "rationale": "Hobbes XVIII não funda obrigação em pacto do soberano com súditos e rejeita perda do poder por violação desse pacto; Locke XIII §149/XIX §§221–222 admite perda da confiança e retorno do poder ao povo. Recorte de legitimidade/removibilidade, não comparação universal de monarquia e república.",
+    "status": "bounded-primary-contrast"
+  },
+  {
+    "a": "ideology-christian-socialism",
+    "b": "ideology-social-conservatism",
+    "relation": "queer-emancipation-program-versus-restrictive-family-curriculum",
+    "rationale": "ICS Gospel inclui emancipação queer no programa cristão de transformação política; Heritage p6 limita família ao casal homem/mulher e currículo LGBT para menores. Diferença normativa de programas, não simples diferença de fé ou autoria.",
+    "status": "bounded-primary-contrast"
+  },
+  {
+    "a": "ideology-distributism",
+    "b": "libertarianism",
+    "relation": "property-dispersion-through-tax-and-law-versus-all-tax-abolition",
+    "rationale": "Chesterton II.2 propõe meios legais, herança e tributação para reverter concentração de propriedade privada; LP §§2.4/2.8 rejeita todos os impostos e subsídios. Não significa que todo distributismo prefira pequenas fazendas ou que toda tradição socialista seja a definição de Chesterton.",
     "status": "bounded-primary-contrast"
   }
 ] as const;
@@ -4070,6 +4191,35 @@ export const ideologyOntologyReviewGroups = [
       "si-frankfurt-ontology",
       "si-stockholm-ontology",
       "barlow-cyberspace-1996",
+      "lp-ontology-finance"
+    ],
+    "reviewedOn": "2026-10-07"
+  },
+  {
+    "id": "conservative-sovereignty-and-christian-property-programs",
+    "selectedIds": [
+      "ideology-conservatism",
+      "ideology-national-conservatism",
+      "ideology-social-conservatism",
+      "ideology-right-neoconservatism",
+      "ideology-right-absolute-monarchy",
+      "ideology-christian-socialism",
+      "ideology-distributism"
+    ],
+    "status": "six-bounded-two-sided-primary-contrasts",
+    "scope": "Sovereignty, sexuality/family, intervention and property-dispersion norms. Burke inclusion grounded, nearest conservative neighbor unresolved; Hobbes narrowed to indivisible sovereignty.",
+    "sourceIds": [
+      "burke-reflections-1790",
+      "natcon-principles-2022",
+      "heritage-values-2024",
+      "kristol-persuasion-2003",
+      "hobbes-sovereignty-1651",
+      "locke-trust-forfeiture",
+      "ics-gospel-current",
+      "christians-left-constitution",
+      "chesterton-outline-1927",
+      "epp-cyber-ontology",
+      "li-andorra-ontology",
       "lp-ontology-finance"
     ],
     "reviewedOn": "2026-10-07"
