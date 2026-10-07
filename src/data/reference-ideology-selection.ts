@@ -6,10 +6,10 @@ export const ideologySelectionSnapshot = {
   "catalogCount": 206,
   "intendedSubsetCount": 75,
   "readyForDefaultUse": false,
-  "boundedReviewedReferents": 43,
+  "boundedReviewedReferents": 45,
   "referentCountScope": "Unique selected IDs reviewed in the ontology sequence; prior LP reading was additionally reopened for §§2.1/2.4. Combahee remains an additionally reviewed alternative; modern Leopold explanation alone is excluded from the primary-referent count.",
   "independent75Verified": false,
-  "boundedTwoSidedContrasts": 30
+  "boundedTwoSidedContrasts": 31
 } as const;
 
 export const ideologyInclusionDefinition = {
@@ -650,7 +650,7 @@ export const ideologySelectionFamilies = [
   {
     "id": "anarchist",
     "label": "Antiautoritarismo e autogoverno",
-    "count": 11
+    "count": 10
   },
   {
     "id": "decolonial",
@@ -670,7 +670,7 @@ export const ideologySelectionFamilies = [
   {
     "id": "democratic",
     "label": "Participação e desenho institucional",
-    "count": 7
+    "count": 8
   },
   {
     "id": "development",
@@ -1169,6 +1169,22 @@ export const ideologySelectionSources = [
     "locator": "Whole text; paras 28–32 land tenure, 49–54 expanding family/no inevitable class enmity",
     "supports": "TANU deve abolir propriedade fundiária incondicional e garantir uso comunitário; família humana ampliada, dever de trabalho e reciprocidade. Fonte não pretende especificar instituições completas; afirmações sobre África tradicional são argumentos do autor, não fatos confirmados.",
     "readAt": "2026-10-07"
+  },
+  {
+    "id": "bookchin-communalist-2002",
+    "title": "The Communalist Project — Bookchin, November 2002 primary essay",
+    "url": "https://theanarchistlibrary.org/library/murray-bookchin-the-communalist-project",
+    "locator": "Paragraphs 112–146 technics/municipal assemblies/municipalization; 161–178 identity, electoral action, majority and accountable leadership; footnotes [8]–[9], web lines210–212",
+    "supports": "Ordem política municipal confederada, economia sob assembleias cívicas, poder majoritário com dissenso protegido e organização responsável. Retirada de componente exige aprovação da confederação (nota [9]); não é associação com saída unilateral incondicional. Distinção expressa de anarquismo; afirmações históricas e crítica a todos os anarquistas não aceitas como fatos.",
+    "readAt": "2026-10-07"
+  },
+  {
+    "id": "ocalan-confederalism-2017",
+    "title": "Democratic Confederalism — Öcalan, fourth revised publisher edition 2017",
+    "url": "https://ocalanbooks.com/downloads/EN-brochure_democratic-confederalism_2017.pdf",
+    "locator": "III opening/A PDF pp21–22; III E–H pp26–29;IV pp30–31;publication details p4",
+    "supports": "Autogoverno comunitário voluntário, decisões locais, coordenação confederada, pluralismo e autodefesa sob controle democrático. Coexistência com Estados durante processo longo de superação. Não prova unanimidade com veto ou prática implementada de Rojava.",
+    "readAt": "2026-10-07"
   }
 ] as const;
 
@@ -1576,22 +1592,22 @@ export const intendedIdeologySelection = [
     "name": "Confederalismo democrático",
     "family": "anarchist",
     "selectionRationale": "Confederação não estatal e pluralismo comunitário",
-    "reviewStatus": "provisional",
+    "reviewStatus": "primary-referent-and-nearest-overlap-reviewed",
     "documentedAxisCountAtSnapshot": 0,
-    "ontologyStatus": "overlap-unresolved",
-    "contrastStatus": "not-independently-verified",
-    "ontologyLimit": "Contraste específico frente a comunalismo permanece por verificar."
+    "ontologyStatus": "bounded-normative-referent-reviewed",
+    "contrastStatus": "nearest-neighbor-overlap-unresolved",
+    "ontologyLimit": "Bookchin e Öcalan compartilham autogoverno local confederado e horizonte não estatal. Consenso orientador não prova veto unânime; coexistência de transição não prova oposição de fins. Duas autorias não demonstram independência doutrinal."
   },
   {
     "id": "ideology-communalism",
     "name": "Comunalismo",
-    "family": "anarchist",
+    "family": "democratic",
     "selectionRationale": "Municipalismo e ecologia social",
-    "reviewStatus": "provisional",
+    "reviewStatus": "primary-referent-and-nearest-overlap-reviewed",
     "documentedAxisCountAtSnapshot": 0,
-    "ontologyStatus": "overlap-unresolved",
-    "contrastStatus": "not-independently-verified",
-    "ontologyLimit": "Contraste específico frente a confederalismo permanece por verificar."
+    "ontologyStatus": "bounded-normative-referent-reviewed",
+    "contrastStatus": "bounded-primary-neighbor-contrast-with-nearest-overlap-unresolved",
+    "ontologyLimit": "Bookchin e Öcalan compartilham autogoverno local confederado e horizonte não estatal. Consenso orientador não prova veto unânime; coexistência de transição não prova oposição de fins. Duas autorias não demonstram independência doutrinal. Bookchin distingue explicitamente comunalismo de anarquismo; família editorial corrigida para democrática sem mudar o catálogo ou o retrato anterior."
   },
   {
     "id": "ideology-civic-nationalism",
@@ -2359,6 +2375,20 @@ export const ideologyOverlapChecks = [
     "relation": "conditional-community-land-use-versus-private-freehold",
     "rationale": "Nyerere 1962 paras 28–32 exige direito de uso da terra condicionado ao uso e abolição de freehold incondicional; LP2.1 defende propriedade privada, homesteading e rejeita limites governamentais de propriedade/uso. A comparação é fundiária e normativa, não alegação sobre implementação histórica tanzaniana nem toda modalidade de propriedade comunitária.",
     "status": "bounded-primary-contrast"
+  },
+  {
+    "a": "ideology-communalism",
+    "b": "ideology-council-communism",
+    "relation": "civic-municipal-assembly-versus-production-council-authority",
+    "rationale": "Bookchin 2002 §§137–146 integra empresas ao poder de assembleias de cidadãos enquanto cidadãos, em vez de representantes de ocupações; GIC 1930 XIII atribui administração produtiva aos conselhos de produtores sob contabilidade social. Distinção de órgão e identidade que autorizam produção, não municipalismo contra ausência de coordenação geral nem negação dos fins comunistas compartilhados.",
+    "status": "bounded-primary-contrast"
+  },
+  {
+    "a": "ideology-communalism",
+    "b": "ideology-democratic-confederalism",
+    "relation": "shared-confederated-self-government-with-unresolved-decision-and-transition-emphases",
+    "rationale": "Bookchin 161–178 prevê maiorias obrigatórias, dissenso protegido e mobilização eleitoral municipal; Öcalan III/IV prevê consenso orientador, participação voluntária e coexistência de duas entidades enquanto o Estado é superado em longo prazo. Consenso não especifica veto unânime; ambos defendem autogoverno confederado não estatal. Ênfases documentadas não provam duas doutrinas independentes. Comparação não entra na contagem de contrastes materiais resolvidos.",
+    "status": "primary-nearest-overlap-unresolved"
   }
 ] as const;
 
@@ -4296,6 +4326,21 @@ export const ideologyOntologyReviewGroups = [
       "nyerere-ujamaa-columbia-1962",
       "natcon-principles-2022",
       "lp-ontology-finance"
+    ],
+    "reviewedOn": "2026-10-07"
+  },
+  {
+    "id": "communal-civic-authority-and-confederal-overlap",
+    "selectedIds": [
+      "ideology-communalism",
+      "ideology-democratic-confederalism"
+    ],
+    "status": "one-bounded-two-sided-contrast-plus-unresolved-nearest-overlap",
+    "scope": "Bookchin civic municipal authority versus GIC productive councils. Bookchin/Öcalan nearest overlap actually checked, not forced into two independently distinct doctrines. Selected Bookchin family corrected; legacy records preserved.",
+    "sourceIds": [
+      "bookchin-communalist-2002",
+      "ocalan-confederalism-2017",
+      "gic-production-1930"
     ],
     "reviewedOn": "2026-10-07"
   }
