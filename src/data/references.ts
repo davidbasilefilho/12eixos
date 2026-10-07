@@ -21,6 +21,8 @@ import { publicFigureBatch02 } from './reference-public-figure-batch-02';
 import { historicalCountryBatch02 } from './reference-historical-country-batch-02';
 import { currentCountryBatch03 } from './reference-current-country-batch-03';
 import { historicalFigureBatch03 } from './reference-historical-figure-batch-03';
+import { historicalCountryBatch03 } from './reference-historical-country-batch-03';
+import { publicFigureBatch03 } from './reference-public-figure-batch-03';
 import { reconcileHistoricalCountry03 } from './reference-historical-country-reconciliation-03';
 
 export const AXIS_KEYS = ['est', 'rep', 'pod', 'imi', 'dip', 'int', 'eco', 'con', 'com', 'rel', 'mor', 'tec'] as const;
@@ -527,6 +529,8 @@ export const referenceExpansionEntries: ReferenceEntry[] = [
   ...historicalCountryBatch02,
   ...currentCountryBatch03,
   ...historicalFigureBatch03,
+  ...historicalCountryBatch03,
+  ...publicFigureBatch03,
   ...currentCountryBatch.map(entry => ({ ...entry, coding: currentCountryBatchCoding[entry.id] })),
 ].map(prepareExpansionEntry);
 

@@ -25,3 +25,9 @@ Bun suite29 passed, zero failed,58431 assertions including the new named-pole vi
 Root inspected immutable production results screenshot against approved results-dark. The prior giant export-canvas capture resulted from transient dev/HMR compilation failure; stable production rendering is normal. Material remaining fidelity issues: excessive blank tail, axis-card density and missing bottom editorial triptych. Repairs and route/theme/breakpoint/export verification continue. The previous512-profile and earlier UI reports remain historical snapshots, not evidence of the latest working tree.
 
 This checkpoint is not project completion and not a stopping condition. New public/historical batches, current-country legacy recoding, remaining ontology comparisons and material UI repairs continue.
+
+## Subsequent accepted integration — fourteen profiles
+
+Public global03 adds eight identities/ten codes: Karman, Ebadi, Mohammadi, Ressa, Mukwege, Robinson, Clark and Santos. Research specialist actually reopened all ten policy claims and eight current identity sources; dates and Ebadi2005 versus2026 counterevidence remain separated. Targeted diplomatic settlement sanctions map to intervention, not general industrial protectionism. Historical-country03 adds six distinct constitutional/state units/13 codes; actual second-reader reopens cover Hawaii1864 and France1852; Root additionally read France1791, Irish1922 arts6–9/14 and Mexican1824 arts3–5. Wiki transcription archival cotejo remains limited and documented; no fictional full facsimile audit.
+
+Catalog now581: current150, historical countries97, public figures59, historical figures69, ideologies206. Eligibility61 unchanged; non-ideology identity gap225. Structural problems158/24 unchanged. SHA256 `47a4cc502db89bd6deec2c82a39969d8f6a47d19f94426b01dab3a9799ead30d`. Integrated suite29pass/0fail/60341 assertions. These counts supersede the567 scope above without changing its historical evidence.

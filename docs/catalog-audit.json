@@ -34,8 +34,8 @@
     ],
     "provenance": "Executed before local data corrections in this recovery checkpoint; not recomputed from unavailable prior Library checkpoint."
   },
-  "headCommitAtAudit": "b7fbf973fc59e64b54b8b0af41edc8c759ee67e4",
-  "integratedCatalogSha256": "a23ba68e85cb991c27298a8621e0aa3197830b078a494d549ec05354bf0a7a2c",
+  "headCommitAtAudit": "b0930c7982ddefbd662047f659912959e69b8c47",
+  "integratedCatalogSha256": "47a4cc502db89bd6deec2c82a39969d8f6a47d19f94426b01dab3a9799ead30d",
   "scope": "Integrated working-tree catalog after preparation; fixed remote baseline and current HEAD are provenance, not immutable copies of modified files.",
   "evidenceGate": {
     "minimumAxes": 6,
@@ -52,10 +52,10 @@
     "Expansion preparation has already centered and removed unsupported axes; this inventory does not recover discarded raw estimates."
   ],
   "totalTarget": 675,
-  "totalRecords": 567,
+  "totalRecords": 581,
   "structurallyEligible": 61,
-  "insufficientEvidence": 506,
-  "summedCategoryIdentityGap": 239,
+  "insufficientEvidence": 520,
+  "summedCategoryIdentityGap": 225,
   "categories": [
     {
       "category": "country",
@@ -70,20 +70,20 @@
     {
       "category": "historical-country",
       "target": 150,
-      "records": 91,
+      "records": 97,
       "structurallyEligible": 0,
-      "insufficientEvidence": 91,
-      "missingIdentitiesBeforeSemanticReview": 59,
+      "insufficientEvidence": 97,
+      "missingIdentitiesBeforeSemanticReview": 53,
       "preservedExcess": 0,
       "missingEligibleToTarget": 150
     },
     {
       "category": "public-figure",
       "target": 150,
-      "records": 51,
+      "records": 59,
       "structurallyEligible": 18,
-      "insufficientEvidence": 33,
-      "missingIdentitiesBeforeSemanticReview": 99,
+      "insufficientEvidence": 41,
+      "missingIdentitiesBeforeSemanticReview": 91,
       "preservedExcess": 0,
       "missingEligibleToTarget": 132
     },
@@ -13935,6 +13935,320 @@
       "sourceUrls": [
         "https://www.senate.gov/artandhistory/history/resources/pdf/FreeSpeechWartime.pdf",
         "https://www.senate.gov/artandhistory/history/common/generic/Speeches_LaFollette_FreeSpeech.htm"
+      ]
+    },
+    {
+      "id": "france-constitutional-monarchy-1791",
+      "name": "França — monarquia constitucional de 1791",
+      "aliases": [
+        "Reino dos Franceses sob a Constituição de 1791"
+      ],
+      "kind": "country",
+      "category": "historical-country",
+      "period": "Monarquia constitucional revolucionária, 1791–1792; texto fundador de3/9/1791",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "est",
+        "rep",
+        "pod"
+      ],
+      "directionalAxes": [
+        "est",
+        "rep",
+        "pod"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://en.wikisource.org/wiki/French_Constitution_of_1791",
+        "https://en.wikisource.org/wiki/The_Constitutions_and_Other_Select_Documents_Illustrative_of_the_History_of_France,_1789%E2%80%931907"
+      ]
+    },
+    {
+      "id": "france-second-republic-1848",
+      "name": "França — Segunda República",
+      "aliases": [
+        "IIe République française"
+      ],
+      "kind": "country",
+      "category": "historical-country",
+      "period": "República de1848–1852; codificação da carta de4/11/1848 anterior ao golpe de1851",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "rep",
+        "pod"
+      ],
+      "directionalAxes": [
+        "rep",
+        "pod"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://fr.wikisource.org/wiki/Constitution_du_4_novembre_1848",
+        "https://www.elysee.fr/en/french-presidency/the-constitution-of-14-january-1852-and-its-modifications"
+      ]
+    },
+    {
+      "id": "irish-free-state-1922",
+      "name": "Estado Livre Irlandês",
+      "aliases": [
+        "Saorstát Éireann"
+      ],
+      "kind": "country",
+      "category": "historical-country",
+      "period": "Estado Livre sob a carta de1922, 1922–1937; edição fundadora anterior às emendas",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "rep",
+        "pod",
+        "rel"
+      ],
+      "directionalAxes": [
+        "rep",
+        "pod",
+        "rel"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://en.wikisource.org/wiki/Constitution_of_the_Irish_Free_State_(Saorst%C3%A1t_Eireann)_Act,_1922",
+        "https://www.oireachtas.ie/en/debates/debate/dail/1937-12-10/16/"
+      ]
+    },
+    {
+      "id": "mexico-first-federal-republic-1824",
+      "name": "México — Primeira República Federal",
+      "aliases": [
+        "Estados Unidos Mexicanos — primeira ordem federal"
+      ],
+      "kind": "country",
+      "category": "historical-country",
+      "period": "Primeira ordem federal,1824–1835; edição original de4/10/1824",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "est",
+        "rel"
+      ],
+      "directionalAxes": [
+        "est",
+        "rel"
+      ],
+      "sourceCount": 3,
+      "sourceUrls": [
+        "https://es.wikisource.org/wiki/Constituci%C3%B3n_Federal_de_los_Estados_Unidos_Mexicanos_(1824)",
+        "https://www.diputados.gob.mx/biblioteca/bibdig/const_mex/const_1824.pdf",
+        "https://www.ordenjuridico.gob.mx/Constitucion/antecedentes.php"
+      ]
+    },
+    {
+      "id": "hawaii-kingdom-independent",
+      "name": "Reino do Havaí",
+      "aliases": [
+        "Kingdom of Hawaii"
+      ],
+      "kind": "country",
+      "category": "historical-country",
+      "period": "Reino independente,1810–1893; cláusulas originais de1864 anteriores à carta de1887",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "rep",
+        "pod"
+      ],
+      "directionalAxes": [
+        "rep",
+        "pod"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://en.wikisource.org/wiki/1864_Constitution_of_the_Kingdom_of_Hawaii",
+        "https://www.archives.gov/milestone-documents/joint-resolution-for-annexing-the-hawaiian-islands"
+      ]
+    },
+    {
+      "id": "france-second-empire-1852",
+      "name": "França — Segundo Império",
+      "aliases": [
+        "Second Empire français"
+      ],
+      "kind": "country",
+      "category": "historical-country",
+      "period": "Segundo Império,1852–1870; arranjo inicial de1852 anterior às liberalizações",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "rep"
+      ],
+      "directionalAxes": [
+        "rep"
+      ],
+      "sourceCount": 4,
+      "sourceUrls": [
+        "https://fr.wikisource.org/wiki/Constitution_du_14_janvier_1852",
+        "https://www.assemblee-nationale.fr/dyn/histoire-et-patrimoine/second-empire/plebiscite-et-proclamation-de-l-empire",
+        "https://www.elysee.fr/en/french-presidency/the-constitution-of-14-january-1852-and-its-modifications",
+        "https://www.assemblee-nationale.fr/dyn/histoire-et-patrimoine/second-empire/defaite-de-sedan-proclamation-de-la-republique-et-gouvernement-provisoire"
+      ]
+    },
+    {
+      "id": "tawakkol-karman",
+      "name": "Tawakkol Karman",
+      "aliases": [],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "Nobel Prize Summit, edição indexada em 25 de maio de 2023",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "pod"
+      ],
+      "directionalAxes": [
+        "pod"
+      ],
+      "sourceCount": 3,
+      "sourceUrls": [
+        "https://www.tawakkolkarman.net/texts/speeches/4335-tawakkol-karman-speech-at-nobel-prize-summit-washington",
+        "https://www.tawakkolkarman.net/texts/speeches/5059-tawakkol-karman-speech-on-sarajevo-conference-on-democracy-in-the-arab-world",
+        "https://www.tawakkolkarman.net/"
+      ]
+    },
+    {
+      "id": "shirin-ebadi",
+      "name": "Shirin Ebadi",
+      "aliases": [],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "Diálogo na JFK Library, 8 de maio de 2005",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "rep",
+        "dip",
+        "rel"
+      ],
+      "directionalAxes": [
+        "rep",
+        "dip",
+        "rel"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.jfklibrary.org/events-and-awards/kennedy-library-forums/browse-all-forums/transcripts/conversation-with-shirin-ebadi",
+        "https://www.pbs.org/video/january-16-2026-xla3nu/"
+      ]
+    },
+    {
+      "id": "narges-mohammadi",
+      "name": "Narges Mohammadi",
+      "aliases": [],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "Discurso sobre discriminação de gênero, 21 de maio de 2025",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "mor"
+      ],
+      "directionalAxes": [
+        "mor"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.nobelpeacecenter.org/en/news/gender-apartheid-must-end",
+        "https://www.theguardian.com/global-development/2026/oct/06/iranian-nobel-laureate-narges-mohammadi-recounts-prison-beating"
+      ]
+    },
+    {
+      "id": "maria-ressa",
+      "name": "Maria Ressa",
+      "aliases": [],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "Discurso preparado para o prêmio CPJ de 2018",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "pod"
+      ],
+      "directionalAxes": [
+        "pod"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://cpj.org/awards/maria-ressa/",
+        "https://igp.sipa.columbia.edu/distinguished-fellows/maria-ressa"
+      ]
+    },
+    {
+      "id": "denis-mukwege",
+      "name": "Denis Mukwege",
+      "aliases": [],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "Artigo assinado de 13 de novembro de 2025",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "mor"
+      ],
+      "directionalAxes": [
+        "mor"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://theelders.org/news/without-women-there-can-be-no-lasting-peace",
+        "https://theelders.org/profile/denis-mukwege"
+      ]
+    },
+    {
+      "id": "mary-robinson",
+      "name": "Mary Robinson",
+      "aliases": [],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "Declaração conjunta nominal de 9 de setembro de 2026",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "int"
+      ],
+      "directionalAxes": [
+        "int"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://theelders.org/news/mary-robinson-and-helen-clark-react-israeli-settlement-trade-ban-uk-and-others",
+        "https://theelders.org/profile/mary-robinson"
+      ]
+    },
+    {
+      "id": "helen-clark",
+      "name": "Helen Clark",
+      "aliases": [],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "Declaração conjunta nominal de 9 de setembro de 2026",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "int"
+      ],
+      "directionalAxes": [
+        "int"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://theelders.org/news/mary-robinson-and-helen-clark-react-israeli-settlement-trade-ban-uk-and-others",
+        "https://theelders.org/profile/helen-clark"
+      ]
+    },
+    {
+      "id": "juan-manuel-santos",
+      "name": "Juan Manuel Santos",
+      "aliases": [],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "Declaração nominal de 24 de fevereiro de 2025",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "dip"
+      ],
+      "directionalAxes": [
+        "dip"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://theelders.org/news/juan-manuel-santos-urges-inclusive-peace-talks-ukraines-future",
+        "https://theelders.org/profile/juan-manuel-santos"
       ]
     },
     {
