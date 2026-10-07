@@ -1,158 +1,34 @@
-/** Editorial planning only. No catalog imports, scores, deletions or default UI changes.
- * Every selection is provisional; family literature is not per-profile verification.
+/** Editorial planning only: no catalog deletion, scores or default UI activation.
+ * Bounded referent review is separate from distinctness and axis validation.
  */
-export const ideologySelectionSnapshot = { date: '2026-10-07', catalogCount: 206, intendedSubsetCount: 75, readyForDefaultUse: false } as const;
+export const ideologySelectionSnapshot = {
+  "date": "2026-10-07",
+  "catalogCount": 206,
+  "intendedSubsetCount": 75,
+  "readyForDefaultUse": false,
+  "boundedReviewedReferents": 7,
+  "referentCountScope": "Freshly reviewed selected IDs only; Combahee is an additionally reviewed alternative; LP primary reading reused from legacy02.",
+  "independent75Verified": false,
+  "boundedTwoSidedContrasts": 2
+} as const;
 
-export const ideologySelectionFamilies = [
-  {
-    "id": "liberal",
-    "label": "Liberdade, propriedade e mercados",
-    "count": 10
-  },
-  {
-    "id": "conservative",
-    "label": "Continuidade, autoridade e monarquia",
-    "count": 8
-  },
-  {
-    "id": "socialist",
-    "label": "Socialismo, propriedade e estratégia",
-    "count": 12
-  },
-  {
-    "id": "anarchist",
-    "label": "Antiautoritarismo e autogoverno",
-    "count": 9
-  },
-  {
-    "id": "decolonial",
-    "label": "Emancipação, comunidade e autodeterminação",
-    "count": 8
-  },
-  {
-    "id": "religious",
-    "label": "Tradições religiosas e política",
-    "count": 4
-  },
-  {
-    "id": "ecological",
-    "label": "Ecologia e limites do desenvolvimento",
-    "count": 7
-  },
-  {
-    "id": "democratic",
-    "label": "Participação e desenho institucional",
-    "count": 7
-  },
-  {
-    "id": "development",
-    "label": "Desenvolvimento e coordenação econômica",
-    "count": 4
-  },
-  {
-    "id": "technical",
-    "label": "Conhecimento técnico e transformação humana",
-    "count": 3
-  },
-  {
-    "id": "authoritarian",
-    "label": "Mobilização autoritária histórica",
-    "count": 3
-  }
-] as const;
+export const ideologyInclusionDefinition = {
+  "object": "Identifiable political normative doctrine or tradition about legitimate authority, collective social/economic order and action.",
+  "requirements": [
+    "Located normative referent, beyond a label.",
+    "Explicit scope and period.",
+    "Material contrast with nearest retained neighbors, admitting umbrella/subtradition relations."
+  ],
+  "notSufficient": [
+    "Analytical/evaluative framework alone.",
+    "Policy instrument or technical project alone.",
+    "Regime name or statute alone without demonstrated normative referent."
+  ],
+  "stateDoctrineRule": "State-authored doctrines can qualify; government authorship alone neither qualifies nor excludes.",
+  "status": "editorial-working-definition-not75certification"
+} as const;
 
-export const ideologySelectionSources = [
-  {
-    "id": "sep-liberalism",
-    "title": "Liberalism — Stanford Encyclopedia of Philosophy",
-    "url": "https://plato.stanford.edu/entries/liberalism/",
-    "locator": "2.1 Classical Liberalism; 2.2 The New Liberalism",
-    "supports": "Família liberal inclui concepções distintas de propriedade e intervenção; não tratar todos os rótulos como aliases.",
-    "readAt": "2026-10-07"
-  },
-  {
-    "id": "sep-socialism",
-    "title": "Socialism — Stanford Encyclopedia of Philosophy",
-    "url": "https://plato.stanford.edu/entries/socialism/",
-    "locator": "4.1 Central and Participatory Planning; 4.2 Market Socialism; 4.3 Less Comprehensive, Piecemeal Reforms",
-    "supports": "Propriedade social, coordenação econômica e reforma constituem dimensões diferentes.",
-    "readAt": "2026-10-07"
-  },
-  {
-    "id": "sep-anarchism",
-    "title": "Anarchism — Stanford Encyclopedia of Philosophy",
-    "url": "https://plato.stanford.edu/entries/anarchism/",
-    "locator": "1.1 Political Anarchism; 2.4 Individualism, Libertarianism, and Socialist Anarchism",
-    "supports": "Crítica da autoridade não elimina divergências individualistas, socialistas e religiosas.",
-    "readAt": "2026-10-07"
-  },
-  {
-    "id": "sep-conservatism",
-    "title": "Conservatism — Stanford Encyclopedia of Philosophy",
-    "url": "https://plato.stanford.edu/entries/conservatism/",
-    "locator": "Introdução; 1.3 Tradition and gradual reform; 1.4 Formal procedural vs substantive senses",
-    "supports": "Prudência conservadora não deve ser igualada automaticamente a reação ou direita radical.",
-    "readAt": "2026-10-07"
-  },
-  {
-    "id": "sep-democracy",
-    "title": "Democracy — Stanford Encyclopedia of Philosophy",
-    "url": "https://plato.stanford.edu/entries/democracy/",
-    "locator": "1. Democracy Defined; 2.1 Justifications of Democracy",
-    "supports": "Procedimentos institucionais e justificações democráticas são níveis diferentes de descrição.",
-    "readAt": "2026-10-07"
-  },
-  {
-    "id": "sep-nationalism",
-    "title": "Nationalism — Stanford Encyclopedia of Philosophy",
-    "url": "https://plato.stanford.edu/entries/nationalism/",
-    "locator": "1. What is a Nation?; 2. Nationalism and Patriotism",
-    "supports": "Autonomia cultural e Estado próprio não são equivalentes necessários.",
-    "readAt": "2026-10-07"
-  },
-  {
-    "id": "sep-environment",
-    "title": "Environmental Ethics — Stanford Encyclopedia of Philosophy",
-    "url": "https://plato.stanford.edu/entries/ethics-environmental/",
-    "locator": "1. Introduction; 2. The Development of Environmental Ethics",
-    "supports": "Proteção ambiental admite fundamentos antropocêntricos e não antropocêntricos.",
-    "readAt": "2026-10-07"
-  },
-  {
-    "id": "sep-capability",
-    "title": "The Capability Approach — Stanford Encyclopedia of Philosophy",
-    "url": "https://plato.stanford.edu/entries/capability-approach/",
-    "locator": "1.1 Background; 1.2 Capability framework or capability theory?",
-    "supports": "Capacidades são estrutura normativa, não necessariamente ideologia política completa.",
-    "readAt": "2026-10-07"
-  },
-  {
-    "id": "ica",
-    "title": "Cooperative identity, values & principles — ICA",
-    "url": "https://www.ica.coop/en/cooperatives/cooperative-identity",
-    "locator": "Definition; Principles 2, 3 and 4",
-    "supports": "Forma empresarial democrática não determina por si um programa estatal abrangente.",
-    "readAt": "2026-10-07"
-  },
-  {
-    "id": "ocalan",
-    "title": "Democratic Confederalism — Abdullah Öcalan, 2017",
-    "url": "https://ocalanbooks.com/downloads/EN-brochure_democratic-confederalism_2017.pdf",
-    "locator": "Introdução; III; IV; capa",
-    "supports": "Paradigma não estatal de participação comunitária; não equivale a federalismo estatal apenas pelo nome.",
-    "readAt": "2026-10-07"
-  },
-  {
-    "id": "locke",
-    "title": "Second Treatise of Government — John Locke",
-    "url": "https://www.gutenberg.org/files/7370/7370-h/7370-h.htm",
-    "locator": "Chapters VIII and IX",
-    "supports": "Consentimento e fins da sociedade política; o mesmo documento aparece sob dois rótulos locais.",
-    "readAt": "2026-10-07"
-  }
-] as const;
-
-export const intendedIdeologySelection = [
+export const ideologySelectionPreviousSnapshot = [
   {
     "id": "social-liberalism",
     "name": "Liberalismo social",
@@ -755,6 +631,1003 @@ export const intendedIdeologySelection = [
   }
 ] as const;
 
+export const ideologySelectionFamilies = [
+  {
+    "id": "liberal",
+    "label": "Liberdade, propriedade e mercados",
+    "count": 11
+  },
+  {
+    "id": "conservative",
+    "label": "Continuidade, autoridade e monarquia",
+    "count": 8
+  },
+  {
+    "id": "socialist",
+    "label": "Socialismo, propriedade e estratégia",
+    "count": 13
+  },
+  {
+    "id": "anarchist",
+    "label": "Antiautoritarismo e autogoverno",
+    "count": 11
+  },
+  {
+    "id": "decolonial",
+    "label": "Emancipação, comunidade e autodeterminação",
+    "count": 8
+  },
+  {
+    "id": "religious",
+    "label": "Tradições religiosas e política",
+    "count": 4
+  },
+  {
+    "id": "ecological",
+    "label": "Ecologia e limites do desenvolvimento",
+    "count": 7
+  },
+  {
+    "id": "democratic",
+    "label": "Participação e desenho institucional",
+    "count": 7
+  },
+  {
+    "id": "development",
+    "label": "Desenvolvimento e coordenação econômica",
+    "count": 2
+  },
+  {
+    "id": "technical",
+    "label": "Conhecimento técnico e transformação humana",
+    "count": 2
+  },
+  {
+    "id": "authoritarian",
+    "label": "Mobilização autoritária histórica",
+    "count": 2
+  }
+] as const;
+
+export const ideologySelectionSources = [
+  {
+    "id": "sep-liberalism",
+    "title": "Liberalism — Stanford Encyclopedia of Philosophy",
+    "url": "https://plato.stanford.edu/entries/liberalism/",
+    "locator": "2.1 Classical Liberalism; 2.2 The New Liberalism",
+    "supports": "Família liberal inclui concepções distintas de propriedade e intervenção; não tratar todos os rótulos como aliases.",
+    "readAt": "2026-10-07"
+  },
+  {
+    "id": "sep-socialism",
+    "title": "Socialism — Stanford Encyclopedia of Philosophy",
+    "url": "https://plato.stanford.edu/entries/socialism/",
+    "locator": "4.1 Central and Participatory Planning; 4.2 Market Socialism; 4.3 Less Comprehensive, Piecemeal Reforms",
+    "supports": "Propriedade social, coordenação econômica e reforma constituem dimensões diferentes.",
+    "readAt": "2026-10-07"
+  },
+  {
+    "id": "sep-anarchism",
+    "title": "Anarchism — Stanford Encyclopedia of Philosophy",
+    "url": "https://plato.stanford.edu/entries/anarchism/",
+    "locator": "1.1 Political Anarchism; 2.4 Individualism, Libertarianism, and Socialist Anarchism",
+    "supports": "Crítica da autoridade não elimina divergências individualistas, socialistas e religiosas.",
+    "readAt": "2026-10-07"
+  },
+  {
+    "id": "sep-conservatism",
+    "title": "Conservatism — Stanford Encyclopedia of Philosophy",
+    "url": "https://plato.stanford.edu/entries/conservatism/",
+    "locator": "Introdução; 1.3 Tradition and gradual reform; 1.4 Formal procedural vs substantive senses",
+    "supports": "Prudência conservadora não deve ser igualada automaticamente a reação ou direita radical.",
+    "readAt": "2026-10-07"
+  },
+  {
+    "id": "sep-democracy",
+    "title": "Democracy — Stanford Encyclopedia of Philosophy",
+    "url": "https://plato.stanford.edu/entries/democracy/",
+    "locator": "1. Democracy Defined; 2.1 Justifications of Democracy",
+    "supports": "Procedimentos institucionais e justificações democráticas são níveis diferentes de descrição.",
+    "readAt": "2026-10-07"
+  },
+  {
+    "id": "sep-nationalism",
+    "title": "Nationalism — Stanford Encyclopedia of Philosophy",
+    "url": "https://plato.stanford.edu/entries/nationalism/",
+    "locator": "1. What is a Nation?; 2. Nationalism and Patriotism",
+    "supports": "Autonomia cultural e Estado próprio não são equivalentes necessários.",
+    "readAt": "2026-10-07"
+  },
+  {
+    "id": "sep-environment",
+    "title": "Environmental Ethics — Stanford Encyclopedia of Philosophy",
+    "url": "https://plato.stanford.edu/entries/ethics-environmental/",
+    "locator": "1. Introduction; 2. The Development of Environmental Ethics",
+    "supports": "Proteção ambiental admite fundamentos antropocêntricos e não antropocêntricos.",
+    "readAt": "2026-10-07"
+  },
+  {
+    "id": "sep-capability",
+    "title": "The Capability Approach — Stanford Encyclopedia of Philosophy",
+    "url": "https://plato.stanford.edu/entries/capability-approach/",
+    "locator": "1.1 Background; 1.2 Capability framework or capability theory?",
+    "supports": "Capacidades são estrutura normativa, não necessariamente ideologia política completa.",
+    "readAt": "2026-10-07"
+  },
+  {
+    "id": "ica",
+    "title": "Cooperative identity, values & principles — ICA",
+    "url": "https://www.ica.coop/en/cooperatives/cooperative-identity",
+    "locator": "Definition; Principles 2, 3 and 4",
+    "supports": "Forma empresarial democrática não determina por si um programa estatal abrangente.",
+    "readAt": "2026-10-07"
+  },
+  {
+    "id": "ocalan",
+    "title": "Democratic Confederalism — Abdullah Öcalan, 2017",
+    "url": "https://ocalanbooks.com/downloads/EN-brochure_democratic-confederalism_2017.pdf",
+    "locator": "Introdução; III; IV; capa",
+    "supports": "Paradigma não estatal de participação comunitária; não equivale a federalismo estatal apenas pelo nome.",
+    "readAt": "2026-10-07"
+  },
+  {
+    "id": "locke",
+    "title": "Second Treatise of Government — John Locke",
+    "url": "https://www.gutenberg.org/files/7370/7370-h/7370-h.htm",
+    "locator": "Chapters VIII and IX",
+    "supports": "Consentimento e fins da sociedade política; o mesmo documento aparece sob dois rótulos locais.",
+    "readAt": "2026-10-07"
+  },
+  {
+    "id": "ervin-1993",
+    "title": "Anarchism and the Black Revolution — Lorenzo Kom’boa Ervin, 1993 edition",
+    "url": "https://theanarchistlibrary.org/library/lorenzo-kom-boa-ervin-anarchism-and-the-black-revolution",
+    "locator": "Dedication dated September 1993; Ch.1 Race and Class; Ch.2 Commune; Ch.3 principles",
+    "supports": "Conceito racializado de libertação ligado a crítica do Estado/capitalismo e organização comunitária; não simples alias de nacionalismo negro.",
+    "readAt": "2026-10-07"
+  },
+  {
+    "id": "cole-1920",
+    "title": "Guild Socialism Re-Stated — G. D. H. Cole, 1920; scan reprinted 1921",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Guild_socialism_re-stated_(IA_guildsocialismre00coleiala).pdf",
+    "locator": "Preface; Chapter I printed pp.9–14, scan pp.13–18; chapter II/IV/VII headings",
+    "supports": "Autogoverno industrial e político como teoria de sociedade; não só instrumento de estabilização.",
+    "readAt": "2026-10-07"
+  },
+  {
+    "id": "konkin-1980",
+    "title": "New Libertarian Manifesto — Samuel Edward Konkin III, 1980/1983 with 2006 editorial foreword",
+    "url": "https://theanarchistlibrary.org/library/samuel-edward-konkin-iii-new-libertarian-manifesto",
+    "locator": "Prefaces; I Statism; II Agorism; III Counter-Economics",
+    "supports": "Mercado voluntário sem Estado com contraeconomia e rejeição de partidos; estratégia adicional ao ideal de mercado sem Estado.",
+    "readAt": "2026-10-07"
+  },
+  {
+    "id": "goldman-1906",
+    "title": "The Tragedy of Woman’s Emancipation — Emma Goldman, 1906",
+    "url": "https://theanarchistlibrary.org/library/emma-goldman-the-tragedy-of-woman-s-emancipation",
+    "locator": "Paragraphs on suffrage, factory/home dependence, marriage and internal tyrants; final paragraphs",
+    "supports": "Emancipação de gênero além de sufrágio e emprego; fundamento anarquista-feminista, não prova do recorte espanhol 1936–1939.",
+    "readAt": "2026-10-07"
+  },
+  {
+    "id": "kokutai-1937",
+    "title": "Kokutai no Hongi — 1937 excerpts, Columbia 2005",
+    "url": "https://afe.easia.columbia.edu/ps/japan/kokutai.pdf",
+    "locator": "Introduction, Our Mission, Longer Selection; PDF pp.1–5",
+    "supports": "Doutrina estatal normativa de essência nacional e autoridade imperial; não apenas nome de regime.",
+    "readAt": "2026-10-07"
+  },
+  {
+    "id": "keynes-ch24",
+    "title": "The General Theory — John Maynard Keynes, 1936 Chapter 24",
+    "url": "https://www.marxists.org/reference/subject/economics/keynes/general-theory/ch24.htm",
+    "locator": "Concluding Notes on the Social Philosophy; I–V",
+    "supports": "Há filosofia social ampla em Keynes, mas o ID selecionado era apenas estabilização; exclusão limitada ao escopo local.",
+    "readAt": "2026-10-07"
+  },
+  {
+    "id": "mujeres-primary-collection",
+    "title": "Mujeres Libres, España 1936–1939 — documents collected by Mary Nash, 1975",
+    "url": "https://mirror.anarhija.net/es.theanarchistlibrary.org/mirror/m/mn/mary-nash-mujeres-libres.a4.pdf",
+    "locator": "Cómo organizar una agrupación Mujeres Libres, printed pp.61–64; imposed PDF initial pages",
+    "supports": "Comitês que coordenam sem mandar, alfabetização, trabalho e assistência social: programa coletivo além de crítica matrimonial individual. Não alegamos leitura de Finalidades.",
+    "readAt": "2026-10-07"
+  },
+  {
+    "id": "degrowth-paris-2008-reprint",
+    "title": "Paris 2008 Degrowth Declaration — primary text reproduced ISEE October 2008 newsletter",
+    "url": "https://isecoeco.org/pdf/Newsletter_2008_Oct.pdf",
+    "locator": "Printed pp21–22/PDF pp21–22: DECLARATION, right-sizing and degrowth characteristics points1–7",
+    "supports": "Programa normativo de transformação econômica, equidade, democracia participativa, redução material nas economias excedentes e estado estacionário; não simples recessão.",
+    "readAt": "2026-10-07"
+  },
+  {
+    "id": "ecomodernism-2015",
+    "title": "An Ecomodernist Manifesto — authors 2015",
+    "url": "https://www.ecomodernism.org/manifesto-english",
+    "locator": "Opening statement; §§1–2,6–7: relative/absolute decoupling; public innovation; democracy/pluralism",
+    "supports": "Programa coletivo de desacoplamento tecnológico com crescimento econômico, instituições públicas e civis, democracia e pluralismo; não simples técnica nem sinônimo de laissez-faire.",
+    "readAt": "2026-10-07"
+  },
+  {
+    "id": "combahee-1977-yale-reprint",
+    "title": "Combahee River Collective Statement 1977 — primary text in Yale course reader",
+    "url": "https://americanstudies.yale.edu/sites/default/files/files/Keyword%20Coalition_Readings.pdf",
+    "locator": "PDF pp1–6, sections1–3; especially What We Believe pp3–5",
+    "supports": "Socialismo feminista negro: trabalho e distribuição coletiva, opressões interligadas e extensão da análise marxista; igualdade organizacional não distingue automaticamente anarquismo.",
+    "readAt": "2026-10-07"
+  }
+] as const;
+
+export const intendedIdeologySelection = [
+  {
+    "id": "social-liberalism",
+    "name": "Liberalismo social",
+    "family": "liberal",
+    "selectionRationale": "Rede social dentro de uma ordem liberal",
+    "reviewStatus": "provisional",
+    "documentedAxisCountAtSnapshot": 8,
+    "ontologyStatus": "provisional-normative-referent",
+    "contrastStatus": "not-independently-verified"
+  },
+  {
+    "id": "ideology-classical-liberalism",
+    "name": "Liberalismo clássico",
+    "family": "liberal",
+    "selectionRationale": "Direitos e consentimento na tradição clássica",
+    "reviewStatus": "provisional",
+    "documentedAxisCountAtSnapshot": 2,
+    "ontologyStatus": "provisional-normative-referent",
+    "contrastStatus": "not-independently-verified"
+  },
+  {
+    "id": "ideology-ordoliberalism",
+    "name": "Ordoliberalismo",
+    "family": "liberal",
+    "selectionRationale": "Concorrência sustentada por regras públicas",
+    "reviewStatus": "provisional",
+    "documentedAxisCountAtSnapshot": 2,
+    "ontologyStatus": "provisional-normative-referent",
+    "contrastStatus": "not-independently-verified"
+  },
+  {
+    "id": "libertarianism",
+    "name": "Libertarianismo",
+    "family": "liberal",
+    "selectionRationale": "Governo limitado e liberdades civis",
+    "reviewStatus": "provisional",
+    "documentedAxisCountAtSnapshot": 7,
+    "ontologyStatus": "provisional-normative-referent",
+    "contrastStatus": "not-independently-verified"
+  },
+  {
+    "id": "ideology-right-minarchism",
+    "name": "Minarquismo",
+    "family": "liberal",
+    "selectionRationale": "Estado mínimo, preservado em contraste com abolição",
+    "reviewStatus": "provisional",
+    "documentedAxisCountAtSnapshot": 2,
+    "ontologyStatus": "provisional-normative-referent",
+    "contrastStatus": "not-independently-verified"
+  },
+  {
+    "id": "ideology-right-anarcho-capitalism",
+    "name": "Anarcocapitalismo",
+    "family": "liberal",
+    "selectionRationale": "Serviços de justiça e segurança privados",
+    "reviewStatus": "provisional",
+    "documentedAxisCountAtSnapshot": 2,
+    "ontologyStatus": "provisional-normative-referent",
+    "contrastStatus": "not-independently-verified"
+  },
+  {
+    "id": "ideology-georgism",
+    "name": "Georgismo",
+    "family": "liberal",
+    "selectionRationale": "Renda fundiária como base tributária comum",
+    "reviewStatus": "provisional",
+    "documentedAxisCountAtSnapshot": 0,
+    "ontologyStatus": "provisional-normative-referent",
+    "contrastStatus": "not-independently-verified"
+  },
+  {
+    "id": "ideology-right-objectivism",
+    "name": "Objetivismo político",
+    "family": "liberal",
+    "selectionRationale": "Justificação filosófica objetivista do laissez-faire",
+    "reviewStatus": "provisional",
+    "documentedAxisCountAtSnapshot": 3,
+    "ontologyStatus": "provisional-normative-referent",
+    "contrastStatus": "not-independently-verified"
+  },
+  {
+    "id": "ideology-right-technolibertarianism",
+    "name": "Libertarianismo tecnológico",
+    "family": "liberal",
+    "selectionRationale": "Autogoverno do ciberespaço",
+    "reviewStatus": "provisional",
+    "documentedAxisCountAtSnapshot": 1,
+    "ontologyStatus": "provisional-normative-referent",
+    "contrastStatus": "not-independently-verified"
+  },
+  {
+    "id": "ideology-neoliberalism",
+    "name": "Neoliberalismo inicial (Colóquio Walter Lippmann)",
+    "family": "liberal",
+    "selectionRationale": "Renovação liberal de 1938, recorte historicamente delimitado",
+    "reviewStatus": "provisional",
+    "documentedAxisCountAtSnapshot": 0,
+    "ontologyStatus": "provisional-normative-referent",
+    "contrastStatus": "not-independently-verified"
+  },
+  {
+    "id": "ideology-conservatism",
+    "name": "Conservadorismo",
+    "family": "conservative",
+    "selectionRationale": "Prudência e mudança gradual",
+    "reviewStatus": "provisional",
+    "documentedAxisCountAtSnapshot": 1,
+    "ontologyStatus": "provisional-normative-referent",
+    "contrastStatus": "not-independently-verified"
+  },
+  {
+    "id": "ideology-social-conservatism",
+    "name": "Conservadorismo social",
+    "family": "conservative",
+    "selectionRationale": "Costumes e valores sociais como núcleo",
+    "reviewStatus": "provisional",
+    "documentedAxisCountAtSnapshot": 5,
+    "ontologyStatus": "provisional-normative-referent",
+    "contrastStatus": "not-independently-verified"
+  },
+  {
+    "id": "ideology-national-conservatism",
+    "name": "Conservadorismo nacional",
+    "family": "conservative",
+    "selectionRationale": "Soberania e continuidade nacional",
+    "reviewStatus": "provisional",
+    "documentedAxisCountAtSnapshot": 2,
+    "ontologyStatus": "provisional-normative-referent",
+    "contrastStatus": "not-independently-verified"
+  },
+  {
+    "id": "ideology-right-one-nation-conservatism",
+    "name": "Conservadorismo de uma nação",
+    "family": "conservative",
+    "selectionRationale": "Dever social paternalista",
+    "reviewStatus": "provisional",
+    "documentedAxisCountAtSnapshot": 2,
+    "ontologyStatus": "provisional-normative-referent",
+    "contrastStatus": "not-independently-verified"
+  },
+  {
+    "id": "ideology-right-neoconservatism",
+    "name": "Neoconservadorismo",
+    "family": "conservative",
+    "selectionRationale": "Política externa ativa de defesa da ordem liberal",
+    "reviewStatus": "provisional",
+    "documentedAxisCountAtSnapshot": 5,
+    "ontologyStatus": "provisional-normative-referent",
+    "contrastStatus": "not-independently-verified"
+  },
+  {
+    "id": "ideology-right-constitutional-monarchism",
+    "name": "Monarquismo constitucional",
+    "family": "conservative",
+    "selectionRationale": "Coroa limitada por instituições parlamentares",
+    "reviewStatus": "provisional",
+    "documentedAxisCountAtSnapshot": 1,
+    "ontologyStatus": "provisional-normative-referent",
+    "contrastStatus": "not-independently-verified"
+  },
+  {
+    "id": "ideology-right-absolute-monarchy",
+    "name": "Monarquia absoluta",
+    "family": "conservative",
+    "selectionRationale": "Soberania concentrada para proteção da ordem",
+    "reviewStatus": "provisional",
+    "documentedAxisCountAtSnapshot": 2,
+    "ontologyStatus": "provisional-normative-referent",
+    "contrastStatus": "not-independently-verified"
+  },
+  {
+    "id": "ideology-right-bonapartism",
+    "name": "Bonapartismo",
+    "family": "conservative",
+    "selectionRationale": "Legitimação plebiscitária com executivo concentrado",
+    "reviewStatus": "provisional",
+    "documentedAxisCountAtSnapshot": 2,
+    "ontologyStatus": "provisional-normative-referent",
+    "contrastStatus": "not-independently-verified"
+  },
+  {
+    "id": "social-democracy",
+    "name": "Social-democracia",
+    "family": "socialist",
+    "selectionRationale": "Proteção social na economia mista",
+    "reviewStatus": "provisional",
+    "documentedAxisCountAtSnapshot": 8,
+    "ontologyStatus": "overlapping-umbrella",
+    "contrastStatus": "not-independently-verified",
+    "ontologyLimit": "Textos da SI não provam distinção ontológica frente a socialismo democrático."
+  },
+  {
+    "id": "democratic-socialism",
+    "name": "Socialismo democrático",
+    "family": "socialist",
+    "selectionRationale": "Democratização da propriedade e da produção",
+    "reviewStatus": "provisional",
+    "documentedAxisCountAtSnapshot": 8,
+    "ontologyStatus": "overlapping-umbrella",
+    "contrastStatus": "not-independently-verified",
+    "ontologyLimit": "Textos da SI não provam distinção ontológica frente a social-democracia."
+  },
+  {
+    "id": "ideology-market-socialism",
+    "name": "Socialismo de mercado",
+    "family": "socialist",
+    "selectionRationale": "Propriedade social com coordenação por preços",
+    "reviewStatus": "provisional",
+    "documentedAxisCountAtSnapshot": 2,
+    "ontologyStatus": "provisional-normative-referent",
+    "contrastStatus": "not-independently-verified"
+  },
+  {
+    "id": "ideology-revolutionary-socialism",
+    "name": "Socialismo revolucionário",
+    "family": "socialist",
+    "selectionRationale": "Ruptura revolucionária como estratégia",
+    "reviewStatus": "provisional",
+    "documentedAxisCountAtSnapshot": 2,
+    "ontologyStatus": "provisional-normative-referent",
+    "contrastStatus": "not-independently-verified"
+  },
+  {
+    "id": "ideology-marxism-leninism",
+    "name": "Marxismo-leninismo: recorte constitucional da RPC",
+    "family": "socialist",
+    "selectionRationale": "Partido único e propriedade estatal no recorte RPC",
+    "reviewStatus": "provisional",
+    "documentedAxisCountAtSnapshot": 6,
+    "ontologyStatus": "doctrine-referent-source-mismatch",
+    "contrastStatus": "not-independently-verified",
+    "ontologyLimit": "Rótulo doutrinário amplo apoiado num recorte constitucional da RPC; não generalizar do regime à tradição."
+  },
+  {
+    "id": "ideology-maoism",
+    "name": "Maoismo: programa da Nova Democracia",
+    "family": "socialist",
+    "selectionRationale": "Programa maoista de Nova Democracia",
+    "reviewStatus": "provisional",
+    "documentedAxisCountAtSnapshot": 4,
+    "ontologyStatus": "provisional-normative-referent",
+    "contrastStatus": "not-independently-verified"
+  },
+  {
+    "id": "ideology-trotskyism",
+    "name": "Trotskismo",
+    "family": "socialist",
+    "selectionRationale": "Revolução permanente e internacionalismo",
+    "reviewStatus": "provisional",
+    "documentedAxisCountAtSnapshot": 0,
+    "ontologyStatus": "provisional-normative-referent",
+    "contrastStatus": "not-independently-verified"
+  },
+  {
+    "id": "ideology-luxemburgism",
+    "name": "Luxemburguismo",
+    "family": "socialist",
+    "selectionRationale": "Ação de massas e democracia operária",
+    "reviewStatus": "provisional",
+    "documentedAxisCountAtSnapshot": 0,
+    "ontologyStatus": "provisional-normative-referent",
+    "contrastStatus": "not-independently-verified"
+  },
+  {
+    "id": "ideology-eurocommunism",
+    "name": "Eurocomunismo",
+    "family": "socialist",
+    "selectionRationale": "Via comunista pluralista e parlamentar",
+    "reviewStatus": "provisional",
+    "documentedAxisCountAtSnapshot": 0,
+    "ontologyStatus": "provisional-normative-referent",
+    "contrastStatus": "not-independently-verified"
+  },
+  {
+    "id": "ideology-council-communism",
+    "name": "Comunismo de conselhos",
+    "family": "socialist",
+    "selectionRationale": "Conselhos operários contra centralização partidária",
+    "reviewStatus": "provisional",
+    "documentedAxisCountAtSnapshot": 0,
+    "ontologyStatus": "provisional-normative-referent",
+    "contrastStatus": "not-independently-verified"
+  },
+  {
+    "id": "ideology-fabianism",
+    "name": "Fabianismo",
+    "family": "socialist",
+    "selectionRationale": "Reforma gradual e administração socialista",
+    "reviewStatus": "provisional",
+    "documentedAxisCountAtSnapshot": 0,
+    "ontologyStatus": "provisional-normative-referent",
+    "contrastStatus": "not-independently-verified"
+  },
+  {
+    "id": "ideology-left-yugoslav-self-management",
+    "name": "Socialismo autogestionário iugoslavo",
+    "family": "socialist",
+    "selectionRationale": "Autogestão operária em socialismo federal",
+    "reviewStatus": "provisional",
+    "documentedAxisCountAtSnapshot": 4,
+    "ontologyStatus": "doctrine-referent-source-mismatch",
+    "contrastStatus": "not-independently-verified",
+    "ontologyLimit": "Autogestão iugoslava requer separar doutrina institucional e prática histórica."
+  },
+  {
+    "id": "ideology-anarcho-communism",
+    "name": "Anarcocomunismo",
+    "family": "anarchist",
+    "selectionRationale": "Comunismo sem Estado e ajuda mútua",
+    "reviewStatus": "provisional",
+    "documentedAxisCountAtSnapshot": 0,
+    "ontologyStatus": "provisional-normative-referent",
+    "contrastStatus": "not-independently-verified"
+  },
+  {
+    "id": "ideology-anarcho-syndicalism",
+    "name": "Anarcossindicalismo",
+    "family": "anarchist",
+    "selectionRationale": "Sindicatos e ação direta como organização social",
+    "reviewStatus": "provisional",
+    "documentedAxisCountAtSnapshot": 0,
+    "ontologyStatus": "provisional-normative-referent",
+    "contrastStatus": "not-independently-verified"
+  },
+  {
+    "id": "ideology-mutualism",
+    "name": "Mutualismo",
+    "family": "anarchist",
+    "selectionRationale": "Reciprocidade econômica e crítica aos privilégios",
+    "reviewStatus": "provisional",
+    "documentedAxisCountAtSnapshot": 0,
+    "ontologyStatus": "provisional-normative-referent",
+    "contrastStatus": "not-independently-verified"
+  },
+  {
+    "id": "ideology-pacifist-anarchism",
+    "name": "Anarquismo pacifista",
+    "family": "anarchist",
+    "selectionRationale": "Não violência religiosa contra coerção",
+    "reviewStatus": "provisional",
+    "documentedAxisCountAtSnapshot": 0,
+    "ontologyStatus": "provisional-normative-referent",
+    "contrastStatus": "not-independently-verified"
+  },
+  {
+    "id": "ideology-left-anarcho-collectivism",
+    "name": "Anarquismo coletivista",
+    "family": "anarchist",
+    "selectionRationale": "Federação coletivista de comunas",
+    "reviewStatus": "provisional",
+    "documentedAxisCountAtSnapshot": 8,
+    "ontologyStatus": "provisional-normative-referent",
+    "contrastStatus": "not-independently-verified"
+  },
+  {
+    "id": "ideology-left-individualist-anarchism",
+    "name": "Anarquismo individualista",
+    "family": "anarchist",
+    "selectionRationale": "Associação individual e oposição a monopólios",
+    "reviewStatus": "provisional",
+    "documentedAxisCountAtSnapshot": 6,
+    "ontologyStatus": "provisional-normative-referent",
+    "contrastStatus": "not-independently-verified"
+  },
+  {
+    "id": "ideology-left-anarcho-primitivism",
+    "name": "Anarcoprimitivismo",
+    "family": "anarchist",
+    "selectionRationale": "Crítica radical à civilização industrial",
+    "reviewStatus": "provisional",
+    "documentedAxisCountAtSnapshot": 2,
+    "ontologyStatus": "provisional-normative-referent",
+    "contrastStatus": "not-independently-verified"
+  },
+  {
+    "id": "ideology-democratic-confederalism",
+    "name": "Confederalismo democrático",
+    "family": "anarchist",
+    "selectionRationale": "Confederação não estatal e pluralismo comunitário",
+    "reviewStatus": "provisional",
+    "documentedAxisCountAtSnapshot": 0,
+    "ontologyStatus": "overlap-unresolved",
+    "contrastStatus": "not-independently-verified",
+    "ontologyLimit": "Contraste específico frente a comunalismo permanece por verificar."
+  },
+  {
+    "id": "ideology-communalism",
+    "name": "Comunalismo",
+    "family": "anarchist",
+    "selectionRationale": "Municipalismo e ecologia social",
+    "reviewStatus": "provisional",
+    "documentedAxisCountAtSnapshot": 0,
+    "ontologyStatus": "overlap-unresolved",
+    "contrastStatus": "not-independently-verified",
+    "ontologyLimit": "Contraste específico frente a confederalismo permanece por verificar."
+  },
+  {
+    "id": "ideology-civic-nationalism",
+    "name": "Nacionalismo cívico",
+    "family": "decolonial",
+    "selectionRationale": "Consentimento e pertencimento cívico nacional",
+    "reviewStatus": "provisional",
+    "documentedAxisCountAtSnapshot": 0,
+    "ontologyStatus": "provisional-normative-referent",
+    "contrastStatus": "not-independently-verified"
+  },
+  {
+    "id": "ideology-anticolonial-nationalism",
+    "name": "Nacionalismo anticolonial",
+    "family": "decolonial",
+    "selectionRationale": "Autodeterminação e soberania pós-colonial",
+    "reviewStatus": "provisional",
+    "documentedAxisCountAtSnapshot": 0,
+    "ontologyStatus": "provisional-normative-referent",
+    "contrastStatus": "not-independently-verified"
+  },
+  {
+    "id": "ideology-pan-africanism",
+    "name": "Pan-africanismo",
+    "family": "decolonial",
+    "selectionRationale": "Unidade continental africana",
+    "reviewStatus": "provisional",
+    "documentedAxisCountAtSnapshot": 0,
+    "ontologyStatus": "provisional-normative-referent",
+    "contrastStatus": "not-independently-verified"
+  },
+  {
+    "id": "ideology-left-nasserism",
+    "name": "Nasserismo",
+    "family": "decolonial",
+    "selectionRationale": "Desenvolvimento estatal e nacionalismo egípcio",
+    "reviewStatus": "provisional",
+    "documentedAxisCountAtSnapshot": 3,
+    "ontologyStatus": "provisional-normative-referent",
+    "contrastStatus": "not-independently-verified"
+  },
+  {
+    "id": "ideology-left-baathism",
+    "name": "Baathismo",
+    "family": "decolonial",
+    "selectionRationale": "Unidade árabe como programa partidário",
+    "reviewStatus": "provisional",
+    "documentedAxisCountAtSnapshot": 5,
+    "ontologyStatus": "provisional-normative-referent",
+    "contrastStatus": "not-independently-verified"
+  },
+  {
+    "id": "ideology-left-ujamaa",
+    "name": "Ujamaa",
+    "family": "decolonial",
+    "selectionRationale": "Socialismo comunitário tanzaniano",
+    "reviewStatus": "provisional",
+    "documentedAxisCountAtSnapshot": 2,
+    "ontologyStatus": "provisional-normative-referent",
+    "contrastStatus": "not-independently-verified"
+  },
+  {
+    "id": "ideology-left-mariateguismo",
+    "name": "Mariateguismo",
+    "family": "decolonial",
+    "selectionRationale": "Marxismo andino e questão da terra indígena",
+    "reviewStatus": "provisional",
+    "documentedAxisCountAtSnapshot": 3,
+    "ontologyStatus": "provisional-normative-referent",
+    "contrastStatus": "not-independently-verified"
+  },
+  {
+    "id": "ideology-indigenous-autonomy",
+    "name": "Autonomismo indígena",
+    "family": "decolonial",
+    "selectionRationale": "Autonomia indígena no recorte zapatista",
+    "reviewStatus": "provisional",
+    "documentedAxisCountAtSnapshot": 0,
+    "ontologyStatus": "provisional-normative-referent",
+    "contrastStatus": "not-independently-verified"
+  },
+  {
+    "id": "christian-democracy",
+    "name": "Democracia cristã",
+    "family": "religious",
+    "selectionRationale": "Democracia e economia social em tradição cristã",
+    "reviewStatus": "provisional",
+    "documentedAxisCountAtSnapshot": 7,
+    "ontologyStatus": "provisional-normative-referent",
+    "contrastStatus": "not-independently-verified"
+  },
+  {
+    "id": "ideology-christian-socialism",
+    "name": "Socialismo cristão",
+    "family": "religious",
+    "selectionRationale": "Igualdade socialista com fundamento cristão",
+    "reviewStatus": "provisional",
+    "documentedAxisCountAtSnapshot": 4,
+    "ontologyStatus": "provisional-normative-referent",
+    "contrastStatus": "not-independently-verified"
+  },
+  {
+    "id": "ideology-distributism",
+    "name": "Distributismo",
+    "family": "religious",
+    "selectionRationale": "Distribuição da propriedade e corpos intermediários",
+    "reviewStatus": "provisional",
+    "documentedAxisCountAtSnapshot": 3,
+    "ontologyStatus": "provisional-normative-referent",
+    "contrastStatus": "not-independently-verified"
+  },
+  {
+    "id": "ideology-islamic-democracy",
+    "name": "Democracia muçulmana",
+    "family": "religious",
+    "selectionRationale": "Pluralismo civil no recorte democrático muçulmano",
+    "reviewStatus": "provisional",
+    "documentedAxisCountAtSnapshot": 0,
+    "ontologyStatus": "provisional-normative-referent",
+    "contrastStatus": "not-independently-verified"
+  },
+  {
+    "id": "green-politics",
+    "name": "Política verde",
+    "family": "ecological",
+    "selectionRationale": "Democracia, não violência e proteção ecológica",
+    "reviewStatus": "provisional",
+    "documentedAxisCountAtSnapshot": 7,
+    "ontologyStatus": "provisional-normative-referent",
+    "contrastStatus": "not-independently-verified"
+  },
+  {
+    "id": "ideology-eco-socialism",
+    "name": "Ecossocialismo",
+    "family": "ecological",
+    "selectionRationale": "Transformação socialista da produção ecológica",
+    "reviewStatus": "provisional",
+    "documentedAxisCountAtSnapshot": 0,
+    "ontologyStatus": "provisional-normative-referent",
+    "contrastStatus": "not-independently-verified"
+  },
+  {
+    "id": "civic-degrowth",
+    "name": "Decrescimento",
+    "family": "ecological",
+    "selectionRationale": "Redução material nas economias ricas",
+    "reviewStatus": "referent-and-bounded-neighbor-contrast-reviewed",
+    "documentedAxisCountAtSnapshot": 4,
+    "ontologyStatus": "bounded-normative-referent-reviewed",
+    "contrastStatus": "bounded-primary-neighbor-contrast",
+    "ontologyLimit": "Contraste documental Paris 2008–Manifesto 2015 verificado; relações com verdes/ecossocialismo e diversidade interna permanecem abertas."
+  },
+  {
+    "id": "civic-ecomodernism",
+    "name": "Ecomodernismo",
+    "family": "ecological",
+    "selectionRationale": "Desacoplamento por tecnologia e produtividade",
+    "reviewStatus": "referent-and-bounded-neighbor-contrast-reviewed",
+    "documentedAxisCountAtSnapshot": 1,
+    "ontologyStatus": "bounded-normative-referent-reviewed",
+    "contrastStatus": "bounded-primary-neighbor-contrast",
+    "ontologyLimit": "Contraste documental Paris 2008–Manifesto 2015 verificado; relações com verdes/ecossocialismo e diversidade interna permanecem abertas."
+  },
+  {
+    "id": "civic-bioregionalism",
+    "name": "Biorregionalismo",
+    "family": "ecological",
+    "selectionRationale": "Territórios políticos definidos por ecossistemas",
+    "reviewStatus": "provisional",
+    "documentedAxisCountAtSnapshot": 5,
+    "ontologyStatus": "provisional-normative-referent",
+    "contrastStatus": "not-independently-verified"
+  },
+  {
+    "id": "civic-earth-stewardship",
+    "name": "Ética da terra e conservação",
+    "family": "ecological",
+    "selectionRationale": "Comunidade moral incluindo seres e sistemas naturais",
+    "reviewStatus": "provisional",
+    "documentedAxisCountAtSnapshot": 2,
+    "ontologyStatus": "ethical-framework",
+    "contrastStatus": "not-independently-verified",
+    "ontologyLimit": "Ética ambiental precisa de transição demonstrada a uma doutrina política, além do fundamento moral."
+  },
+  {
+    "id": "civic-environmental-justice",
+    "name": "Justiça ambiental",
+    "family": "ecological",
+    "selectionRationale": "Desigualdade racial e distribuição de riscos ambientais",
+    "reviewStatus": "provisional",
+    "documentedAxisCountAtSnapshot": 3,
+    "ontologyStatus": "provisional-normative-referent",
+    "contrastStatus": "not-independently-verified"
+  },
+  {
+    "id": "ideology-republicanism",
+    "name": "Republicanismo cívico",
+    "family": "democratic",
+    "selectionRationale": "Cidadania, leis e participação republicana",
+    "reviewStatus": "provisional",
+    "documentedAxisCountAtSnapshot": 0,
+    "ontologyStatus": "provisional-normative-referent",
+    "contrastStatus": "not-independently-verified"
+  },
+  {
+    "id": "civic-participatory-democracy",
+    "name": "Democracia participativa",
+    "family": "democratic",
+    "selectionRationale": "Participação para além da eleição",
+    "reviewStatus": "provisional",
+    "documentedAxisCountAtSnapshot": 8,
+    "ontologyStatus": "provisional-normative-referent",
+    "contrastStatus": "not-independently-verified"
+  },
+  {
+    "id": "civic-direct-democracy",
+    "name": "Democracia direta",
+    "family": "democratic",
+    "selectionRationale": "Iniciativa e decisão direta por voto",
+    "reviewStatus": "provisional",
+    "documentedAxisCountAtSnapshot": 2,
+    "ontologyStatus": "institutional-model",
+    "contrastStatus": "not-independently-verified",
+    "ontologyLimit": "Referendo e assembleia são mecanismos; precisa de justificação doutrinal em contraste com participação."
+  },
+  {
+    "id": "civic-deliberative-democracy",
+    "name": "Democracia deliberativa",
+    "family": "democratic",
+    "selectionRationale": "Deliberação informada como fundamento",
+    "reviewStatus": "provisional",
+    "documentedAxisCountAtSnapshot": 1,
+    "ontologyStatus": "provisional-normative-referent",
+    "contrastStatus": "not-independently-verified"
+  },
+  {
+    "id": "civic-consociational-democracy",
+    "name": "Democracia consociativa",
+    "family": "democratic",
+    "selectionRationale": "Partilha de poder entre comunidades",
+    "reviewStatus": "provisional",
+    "documentedAxisCountAtSnapshot": 3,
+    "ontologyStatus": "institutional-model",
+    "contrastStatus": "not-independently-verified",
+    "ontologyLimit": "Arranjo de acomodação entre elites/grupos; justificação normativa e tradição próprias por verificar."
+  },
+  {
+    "id": "civic-federal-republicanism",
+    "name": "Federalismo republicano",
+    "family": "democratic",
+    "selectionRationale": "Competências federadas e separação de poderes",
+    "reviewStatus": "provisional",
+    "documentedAxisCountAtSnapshot": 4,
+    "ontologyStatus": "institutional-model",
+    "contrastStatus": "not-independently-verified",
+    "ontologyLimit": "Combinação de instituições não prova família doutrinária autônoma."
+  },
+  {
+    "id": "civic-world-federalism",
+    "name": "Federalismo mundial",
+    "family": "democratic",
+    "selectionRationale": "Autoridade democrática mundial limitada",
+    "reviewStatus": "provisional",
+    "documentedAxisCountAtSnapshot": 4,
+    "ontologyStatus": "provisional-normative-referent",
+    "contrastStatus": "not-independently-verified"
+  },
+  {
+    "id": "ideology-developmentalism",
+    "name": "Desenvolvimentismo",
+    "family": "development",
+    "selectionRationale": "Industrialização e mudança centro-periferia",
+    "reviewStatus": "provisional",
+    "documentedAxisCountAtSnapshot": 0,
+    "ontologyStatus": "provisional-normative-referent",
+    "contrastStatus": "not-independently-verified"
+  },
+  {
+    "id": "ideology-dependency-theory",
+    "name": "Teoria da dependência",
+    "family": "development",
+    "selectionRationale": "Dependência estrutural internacional",
+    "reviewStatus": "provisional",
+    "documentedAxisCountAtSnapshot": 0,
+    "ontologyStatus": "explanatory-framework",
+    "contrastStatus": "not-independently-verified",
+    "ontologyLimit": "Teoria explicativa de desenvolvimento; agenda normativa e contraste perante desenvolvimentismo ainda precisam de prova."
+  },
+  {
+    "id": "ideology-left-guild-socialism",
+    "name": "Socialismo de guildas",
+    "family": "socialist",
+    "selectionRationale": "Autogoverno industrial e político por associações de produtores, consumidores e comunas; Cole fornece um programa de reconstrução social.",
+    "reviewStatus": "referent-reviewed-contrast-provisional",
+    "documentedAxisCountAtSnapshot": 4,
+    "ontologyStatus": "bounded-normative-referent-reviewed",
+    "contrastStatus": "not-independently-verified"
+  },
+  {
+    "id": "ideology-left-black-anarchism",
+    "name": "Anarquismo negro",
+    "family": "anarchist",
+    "selectionRationale": "Autonomia organizativa negra, combate à supremacia branca e reconstrução anticapitalista sem Estado, no programa de Ervin de 1993.",
+    "reviewStatus": "referent-reviewed-contrast-provisional",
+    "documentedAxisCountAtSnapshot": 4,
+    "ontologyStatus": "bounded-normative-referent-reviewed",
+    "contrastStatus": "not-independently-verified"
+  },
+  {
+    "id": "ideology-technocracy",
+    "name": "Tecnocracia",
+    "family": "technical",
+    "selectionRationale": "Coordenação por competência técnica",
+    "reviewStatus": "provisional",
+    "documentedAxisCountAtSnapshot": 0,
+    "ontologyStatus": "provisional-normative-referent",
+    "contrastStatus": "not-independently-verified"
+  },
+  {
+    "id": "civic-transhumanism",
+    "name": "Transumanismo",
+    "family": "technical",
+    "selectionRationale": "Ampliação voluntária de capacidades humanas",
+    "reviewStatus": "provisional",
+    "documentedAxisCountAtSnapshot": 4,
+    "ontologyStatus": "provisional-normative-referent",
+    "contrastStatus": "not-independently-verified"
+  },
+  {
+    "id": "ideology-right-agorism",
+    "name": "Agorismo",
+    "family": "liberal",
+    "selectionRationale": "Sociedade voluntária de mercado e transição pela contraeconomia; rejeição explícita da estratégia partidária em Konkin.",
+    "reviewStatus": "referent-reviewed-contrast-provisional",
+    "documentedAxisCountAtSnapshot": 2,
+    "ontologyStatus": "bounded-normative-referent-reviewed",
+    "contrastStatus": "bounded-primary-neighbor-contrast",
+    "ontologyLimit": "Contraste estratégico com plataforma eleitoral LP verificado; relação de subtradição com anarcocapitalismo ainda pendente."
+  },
+  {
+    "id": "ideology-fascism",
+    "name": "Fascismo histórico",
+    "family": "authoritarian",
+    "selectionRationale": "Estado total e mobilização nacional",
+    "reviewStatus": "provisional",
+    "documentedAxisCountAtSnapshot": 8,
+    "ontologyStatus": "provisional-normative-referent",
+    "contrastStatus": "not-independently-verified"
+  },
+  {
+    "id": "ideology-left-anarcha-feminism",
+    "name": "Anarcafeminismo",
+    "family": "anarchist",
+    "selectionRationale": "Emancipação de gênero contra dominação estatal e social, acompanhada de organização coletiva, alfabetização e formação laboral em Mujeres Libres.",
+    "reviewStatus": "referent-reviewed-contrast-provisional",
+    "documentedAxisCountAtSnapshot": 4,
+    "ontologyStatus": "bounded-normative-referent-reviewed",
+    "contrastStatus": "not-independently-verified"
+  },
+  {
+    "id": "ideology-right-showa-statism",
+    "name": "Doutrina imperial do kokutai, 1937",
+    "family": "authoritarian",
+    "selectionRationale": "Texto oficial normativo sobre essência nacional e autoridade imperial, sem equivaler ao conjunto da prática Shōwa.",
+    "reviewStatus": "referent-reviewed-contrast-provisional",
+    "documentedAxisCountAtSnapshot": 7,
+    "ontologyStatus": "state-normative-doctrine",
+    "contrastStatus": "not-independently-verified",
+    "ontologyLimit": "Uma doutrina estatal pode contar; comparação sistemática com fascismo e monarquia absoluta ainda não concluída."
+  }
+] as const;
+
 export const ideologyOverlapChecks = [
   {
     "a": "ideology-classical-liberalism",
@@ -881,6 +1754,41 @@ export const ideologyOverlapChecks = [
     "relation": "overlapping-traditions",
     "rationale": "Tecnoprogressismo enfatiza distribuição e democracia; não é sinônimo de transumanismo. Seleção do amplo mantém alternativa pendente.",
     "status": "provisional-local-metadata-check"
+  },
+  {
+    "a": "ideology-right-agorism",
+    "b": "libertarianism",
+    "relation": "strategy-and-institutional-program",
+    "rationale": "Konkin I rejeita partyarchy; LP §3.6 propõe participação eleitoral. Contraste documental delimitado, não incompatibilidade de toda família libertária.",
+    "status": "bounded-primary-contrast"
+  },
+  {
+    "a": "ideology-left-black-anarchism",
+    "b": "ideology-anarcho-communism",
+    "relation": "umbrella-subtradition",
+    "rationale": "Ervin Ch.1 exige autonomia do movimento negro e luta contra supremacia branca, complementando comunismo libertário; sobreposição admitida.",
+    "status": "bounded-primary-contrast-one-side"
+  },
+  {
+    "a": "ideology-left-anarcha-feminism",
+    "b": "ideology-feminist-socialism",
+    "relation": "authority-and-gender-traditions",
+    "rationale": "Mujeres Libres coordena sem comando; Combahee 1977 defende socialismo, opressões interligadas e organização igualitária. Há sobreposição real; ausência de rótulo anarquista em Combahee não prova compromisso estatal. Contraste de autoridade permanece aberto.",
+    "status": "both-primary-referents-read-contrast-unresolved"
+  },
+  {
+    "a": "ideology-left-guild-socialism",
+    "b": "ideology-market-socialism",
+    "relation": "functional-democratic-institutions",
+    "rationale": "Cole propõe autogoverno funcional de guildas/consumidores; comparação primária sistemática com socialismo de mercado ainda pendente.",
+    "status": "contrast-pending"
+  },
+  {
+    "a": "civic-degrowth",
+    "b": "civic-ecomodernism",
+    "relation": "alternative-economic-ecological-transition-programs",
+    "rationale": "Paris 2008 exige redução da pegada e consumo nas economias excedentes, seguida de estado estacionário; Manifesto 2015 §2 propõe queda absoluta de impactos com crescimento econômico. Ambos têm compromisso político democrático explícito; não é prova de eficácia científica nem de exclusividade.",
+    "status": "bounded-primary-contrast"
   }
 ] as const;
 
@@ -1250,19 +2158,6 @@ export const preservedIdeologyAlternatives = [
     "reviewStatus": "provisional"
   },
   {
-    "id": "ideology-left-guild-socialism",
-    "name": "Socialismo de guildas",
-    "reasonCode": "regional-or-subtradition",
-    "compareWith": null,
-    "decisionRationale": "Recorte regional, escola, movimento ou estratégia dentro de tradições já representadas; seleção limitada preserva este contraste como alternativa, sem afirmar sinonímia.",
-    "catalogRationale": "Cole propõe democracia econômica por associações autogeridas de produtores e representação política funcional.",
-    "catalogSourceTitles": [
-      "Guild Socialism Restated — G. D. H. Cole"
-    ],
-    "documentedAxisCountAtSnapshot": 4,
-    "reviewStatus": "provisional"
-  },
-  {
     "id": "ideology-left-revolutionary-syndicalism",
     "name": "Sindicalismo revolucionário",
     "reasonCode": "overlap-review",
@@ -1312,32 +2207,6 @@ export const preservedIdeologyAlternatives = [
       "Cooperative identity, values & principles — International Cooperative Alliance"
     ],
     "documentedAxisCountAtSnapshot": 2,
-    "reviewStatus": "provisional"
-  },
-  {
-    "id": "ideology-left-black-anarchism",
-    "name": "Anarquismo negro",
-    "reasonCode": "regional-or-subtradition",
-    "compareWith": null,
-    "decisionRationale": "Recorte regional, escola, movimento ou estratégia dentro de tradições já representadas; seleção limitada preserva este contraste como alternativa, sem afirmar sinonímia.",
-    "catalogRationale": "A obra de Lorenzo Kom’boa Ervin une crítica anarquista ao Estado e ao capitalismo à análise do racismo e da libertação negra.",
-    "catalogSourceTitles": [
-      "Anarchism and the Black Revolution — Lorenzo Kom’boa Ervin"
-    ],
-    "documentedAxisCountAtSnapshot": 4,
-    "reviewStatus": "provisional"
-  },
-  {
-    "id": "ideology-left-anarcha-feminism",
-    "name": "Anarcafeminismo",
-    "reasonCode": "regional-or-subtradition",
-    "compareWith": null,
-    "decisionRationale": "Recorte regional, escola, movimento ou estratégia dentro de tradições já representadas; seleção limitada preserva este contraste como alternativa, sem afirmar sinonímia.",
-    "catalogRationale": "Mujeres Libres combinou organização anarquista, formação autônoma e emancipação das mulheres durante a Guerra Civil Espanhola.",
-    "catalogSourceTitles": [
-      "Mujeres Libres: documentos e revista, 1936–1939 — Fundación Anselmo Lorenzo"
-    ],
-    "documentedAxisCountAtSnapshot": 4,
     "reviewStatus": "provisional"
   },
   {
@@ -2186,19 +3055,6 @@ export const preservedIdeologyAlternatives = [
     "reviewStatus": "provisional"
   },
   {
-    "id": "ideology-right-agorism",
-    "name": "Agorismo",
-    "reasonCode": "regional-or-subtradition",
-    "compareWith": null,
-    "decisionRationale": "Variante nacional, dinástica, eleitoral ou filosófica de tradições já representadas; prioridade de amplitude no subconjunto, sem desqualificar a corrente.",
-    "catalogRationale": "O manifesto propõe construir relações econômicas voluntárias fora de mercados regulados pelo Estado.",
-    "catalogSourceTitles": [
-      "The New Libertarian Manifesto — Samuel Edward Konkin III"
-    ],
-    "documentedAxisCountAtSnapshot": 2,
-    "reviewStatus": "provisional"
-  },
-  {
     "id": "ideology-right-paleolibertarianism",
     "name": "Paleolibertarianismo",
     "reasonCode": "regional-or-subtradition",
@@ -2587,5 +3443,94 @@ export const preservedIdeologyAlternatives = [
     ],
     "documentedAxisCountAtSnapshot": 1,
     "reviewStatus": "provisional"
+  },
+  {
+    "id": "civic-capability-approach",
+    "name": "Abordagem das capacidades",
+    "reasonCode": "bounded-ontology-deferral",
+    "compareWith": "ideology-left-black-anarchism",
+    "decisionRationale": "Estrutura avaliativa não identifica aqui uma doutrina política distinta; substituição de escopo, não crítica à teoria.",
+    "catalogRationale": "Avalia justiça e desenvolvimento pelas liberdades substantivas e oportunidades reais, em vez de renda isolada.",
+    "catalogSourceTitles": [
+      "Development as Freedom — Amartya Sen, Oxford University Press"
+    ],
+    "documentedAxisCountAtSnapshot": 2,
+    "reviewStatus": "preserved-not-selected"
+  },
+  {
+    "id": "civic-keynesian-policy",
+    "name": "Keynesianismo de estabilização",
+    "reasonCode": "bounded-ontology-deferral",
+    "compareWith": "ideology-left-guild-socialism",
+    "decisionRationale": "Perfil restrito à estabilização; a filosofia política mais ampla de Keynes não foi representada por este rótulo.",
+    "catalogRationale": "Explica desemprego por insuficiência de demanda e admite ação fiscal para sustentar atividade e emprego.",
+    "catalogSourceTitles": [
+      "The General Theory of Employment, Interest and Money — John Maynard Keynes"
+    ],
+    "documentedAxisCountAtSnapshot": 1,
+    "reviewStatus": "preserved-not-selected"
+  },
+  {
+    "id": "civic-cybernetic-governance",
+    "name": "Governança cibernética",
+    "reasonCode": "bounded-ontology-deferral",
+    "compareWith": "ideology-right-agorism",
+    "decisionRationale": "Projeto de gestão Cybersyn não equivale por si a tradição normativa independente.",
+    "catalogRationale": "O projeto de Stafford Beer conectava dados quase em tempo real à coordenação econômica distribuída por níveis de gestão.",
+    "catalogSourceTitles": [
+      "Brain of the Firm — Stafford Beer Archive"
+    ],
+    "documentedAxisCountAtSnapshot": 3,
+    "reviewStatus": "preserved-not-selected"
+  },
+  {
+    "id": "ideology-right-francoism",
+    "name": "Franquismo",
+    "reasonCode": "bounded-ontology-deferral",
+    "compareWith": "ideology-left-anarcha-feminism",
+    "decisionRationale": "Contraste doutrinal independente frente ao fascismo não foi demonstrado; lei de regime não basta sem exame de referentes.",
+    "catalogRationale": "O franquismo estabeleceu partido único, centralização, catolicismo político e repressão da oposição.",
+    "catalogSourceTitles": [
+      "Ley de Principios del Movimiento Nacional, 1958 — BOE"
+    ],
+    "documentedAxisCountAtSnapshot": 6,
+    "reviewStatus": "preserved-not-selected"
   }
+] as const;
+
+export const ideologyOntologySubstitutions = [
+  {
+    "removedId": "civic-capability-approach",
+    "selectedId": "ideology-left-black-anarchism",
+    "reason": "Estrutura avaliativa não identifica aqui uma doutrina política distinta; substituição de escopo, não crítica à teoria.",
+    "status": "bounded-provisional-substitution",
+    "catalogRecordsDeleted": false
+  },
+  {
+    "removedId": "civic-keynesian-policy",
+    "selectedId": "ideology-left-guild-socialism",
+    "reason": "Perfil restrito à estabilização; a filosofia política mais ampla de Keynes não foi representada por este rótulo.",
+    "status": "bounded-provisional-substitution",
+    "catalogRecordsDeleted": false
+  },
+  {
+    "removedId": "civic-cybernetic-governance",
+    "selectedId": "ideology-right-agorism",
+    "reason": "Projeto de gestão Cybersyn não equivale por si a tradição normativa independente.",
+    "status": "bounded-provisional-substitution",
+    "catalogRecordsDeleted": false
+  },
+  {
+    "removedId": "ideology-right-francoism",
+    "selectedId": "ideology-left-anarcha-feminism",
+    "reason": "Contraste doutrinal independente frente ao fascismo não foi demonstrado; lei de regime não basta sem exame de referentes.",
+    "status": "bounded-provisional-substitution",
+    "catalogRecordsDeleted": false
+  }
+] as const;
+
+export const ideologyOntologyReviewGroups = [
+  { id: 'agorism-lp-strategy', selectedIds: ['ideology-right-agorism', 'libertarianism'], status: 'bounded-two-sided-primary-contrast', scope: 'Party/electoral strategy versus countereconomics; market-anarchist umbrella relations unresolved.', sourceIds: ['konkin-1980'], additionalPrimaryUrl: 'https://lp.org/platform-page/', additionalLocator: '§3.6 Representative Government; independently read in legacy02 source audit', reviewedOn: '2026-10-07' },
+  { id: 'ecological-transition', selectedIds: ['civic-degrowth', 'civic-ecomodernism'], status: 'bounded-two-sided-primary-contrast', scope: 'Paris 2008 reduction/steady state versus 2015 absolute decoupling with growth; no scientific efficacy verdict, other ecological neighbors unresolved.', sourceIds: ['degrowth-paris-2008-reprint', 'ecomodernism-2015'], reviewedOn: '2026-10-07' },
+  { id: 'gender-race-socialist-anarchist', selectedIds: ['ideology-left-anarcha-feminism', 'ideology-left-black-anarchism'], comparisonId: 'ideology-feminist-socialism', status: 'primary-referents-read-overlap-unresolved', scope: 'Different central domination mechanisms and organizational referents located; Combahee shares anticapitalist/interlocking-oppression commitments, so authority difference remains unproved.', sourceIds: ['ervin-1993', 'goldman-1906', 'mujeres-primary-collection', 'combahee-1977-yale-reprint'], reviewedOn: '2026-10-07' }
 ] as const;
