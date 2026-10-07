@@ -26,6 +26,11 @@ import { historicalCountryBatch04 } from './reference-historical-country-batch-0
 import { publicFigureBatch03 } from './reference-public-figure-batch-03';
 import { reconcileHistoricalCountry03 } from './reference-historical-country-reconciliation-03';
 import { reconcileCurrentCountry03 } from './reference-current-country-reconciliation-03';
+import { reconcileSoros } from './reference-public-figure-reconciliation-05';
+import { reconcileCurrentCountry04 } from './reference-current-country-reconciliation-04';
+import { reconcileHistoricalCountry04 } from './reference-historical-country-reconciliation-04';
+import { publicFigureBatch04 } from './reference-public-figure-batch-04';
+import { historicalFigureBatch04 } from './reference-historical-figure-batch-04';
 
 export const AXIS_KEYS = ['est', 'rep', 'pod', 'imi', 'dip', 'int', 'eco', 'con', 'com', 'rel', 'mor', 'tec'] as const;
 export type AxisKey = (typeof AXIS_KEYS)[number];
@@ -534,10 +539,12 @@ export const referenceExpansionEntries: ReferenceEntry[] = [
   ...historicalCountryBatch03,
   ...historicalCountryBatch04,
   ...publicFigureBatch03,
+  ...publicFigureBatch04,
+  ...historicalFigureBatch04,
   ...currentCountryBatch.map(entry => ({ ...entry, coding: currentCountryBatchCoding[entry.id] })),
 ].map(prepareExpansionEntry);
 
 export const referenceEntries: ReferenceEntry[] = [
   ...correctedBaseReferenceEntries,
   ...referenceExpansionEntries,
-].map(reconcileHistoricalCountry03).map(withIdentityAliases);
+].map(reconcileHistoricalCountry03).map(reconcileCurrentCountry04).map(reconcileHistoricalCountry04).map(reconcileSoros).map(withIdentityAliases);

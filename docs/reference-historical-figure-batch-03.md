@@ -1,10 +1,10 @@
 # Figuras históricas — lote documental 03
 
-Data da leitura: 7 de outubro de 2026. Estado: módulo preparado, revisão independente de construto concluída nas passagens especificadas abaixo; aceitação do Root e integração pelo agente responsável pelo catálogo ainda pendentes. Não houve push, publicação ou remoção de registros.
+Data da leitura: 7 de outubro de 2026. Estado: módulo preparado, revisão independente de construto concluída nas passagens especificadas abaixo; aceitação do Root recebida e módulo importado no catálogo ativo pelo responsável pela integração. Não houve push, publicação ou remoção de registros.
 
 O lote recupera dez identidades de módulos dormentes, sem carregar seus valores anteriores como evidência nova. `historicalFigureBatch03OriginalRecords` guarda cópias completas dos registros antigos: IDs, nomes, períodos, vetores, fontes, razões e ressalvas. As entradas propostas preservam IDs reais, inclusive o prefixo `na-` do construtor norte-americano. Checagem contra `referenceEntries` encontrou zero duplicatas por ID ou nome.
 
-Há 30 eixos documentados e 90 desconhecidos, entre 120 possíveis. Mazzini tem seis eixos documentados e satisfaz o limiar mecânico para ranking; as outras nove entradas não. A aceitação editorial e integração ainda estão pendentes. Os desconhecidos ficam em 50 sem evidência; 50 não representa posição comprovada. Os valores são âncoras editoriais ordinais do [protocolo](reference-coding-protocol.md), não percentuais medidos. Confiança, intensidade e cobertura são registradas separadamente em `entry.coding`, com localização, data, argumento e incerteza. O limiar não mudou.
+Há 30 eixos documentados e 90 desconhecidos, entre 120 possíveis. Mazzini tem seis eixos documentados e satisfaz o limiar mecânico para ranking; as outras nove entradas não. O lote foi aceito editorialmente pelo Root e está importado no catálogo ativo. Os desconhecidos ficam em 50 sem evidência; 50 não representa posição comprovada. Os valores são âncoras editoriais ordinais do [protocolo](reference-coding-protocol.md), não percentuais medidos. Confiança, intensidade e cobertura são registradas separadamente em `entry.coding`, com localização, data, argumento e incerteza. O limiar não mudou.
 
 | Identidade preservada | Recorte primário efetivamente lido | Eixos propostos |
 | --- | --- | --- |
@@ -41,4 +41,4 @@ O agente de metodologia reabriu independentemente a edição Mazzini, as seçõe
 
 ## Validação local
 
-O módulo executou no Bun: dez perfis, dez registros originais de auditoria, trinta eixos documentados, nenhuma duplicata ativa por ID/nome. Verificação de todos os eixos desconhecidos confirmou valor 50 sem evidência. `bun run build` passou com TypeScript e Vite; mantém o aviso existente de tamanho do bundle. `bun test` passou: 28 testes, zero falhas, 55.002 verificações no catálogo compartilhado daquele momento. A suíte ainda não prova integração deste lote, pois a importação ativa está pendente de revisão.
+O módulo executou no Bun: dez perfis, dez registros originais de auditoria, trinta eixos documentados, nenhuma duplicata ativa por ID/nome. Verificação de todos os eixos desconhecidos confirmou valor 50 sem evidência. `bun run build` passou com TypeScript e Vite; mantém o aviso existente de tamanho do bundle. `bun test` passou: 28 testes, zero falhas, 55.002 verificações no catálogo compartilhado daquele momento. Esta execução foi anterior à integração; a validação final do catálogo integrado pertence ao responsável por QA.

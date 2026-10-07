@@ -1,6 +1,6 @@
 # Reconciliação de seis países atuais — lote 03
 
-Revisão documental em 7/10/2026. Este lote substitui estimativas antigas somente nos seis IDs existentes, sem criar identidades. São 33 eixos codificados por âncoras editoriais do protocolo `editorial-ordinal-v1`, com proposições localizadas, datas, inferência e contraevidências explícitas. Não são percentuais observados nem conversões de índices externos. Integração depende da revisão cruzada e do responsável pelo catálogo.
+Revisão documental em 7/10/2026. Este lote substitui estimativas antigas somente nos seis IDs existentes, sem criar identidades. São 33 eixos codificados por âncoras editoriais do protocolo `editorial-ordinal-v1`, com proposições localizadas, datas, inferência e contraevidências explícitas. Não são percentuais observados nem conversões de índices externos. Integrado pelo responsável pelo catálogo após revisão cruzada; o ajuste de provedor público do Japão preserva o total de 33 eixos.
 
 | Identidade | Eixos documentados | Quantidade |
 | --- | --- | ---: |

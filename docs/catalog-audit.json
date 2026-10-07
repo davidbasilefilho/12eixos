@@ -34,8 +34,8 @@
     ],
     "provenance": "Executed before local data corrections in this recovery checkpoint; not recomputed from unavailable prior Library checkpoint."
   },
-  "headCommitAtAudit": "887702a5e76a75cda9653179e17be76b99e0e461",
-  "integratedCatalogSha256": "782110dd06b382042641b657d090374b6b548baca4a9426ae3ea8ea3fc4a4793",
+  "headCommitAtAudit": "f285ea78c54e2afbcafd9487a5cdca432f8148bb",
+  "integratedCatalogSha256": "889614aeb344a58fc77dd40e410a38247c9dfec88435edfe2c618a26584a7854",
   "scope": "Integrated working-tree catalog after preparation; fixed remote baseline and current HEAD are provenance, not immutable copies of modified files.",
   "evidenceGate": {
     "minimumAxes": 6,
@@ -52,20 +52,20 @@
     "Expansion preparation has already centered and removed unsupported axes; this inventory does not recover discarded raw estimates."
   ],
   "totalTarget": 675,
-  "totalRecords": 591,
-  "structurallyEligible": 63,
-  "insufficientEvidence": 528,
-  "summedCategoryIdentityGap": 215,
+  "totalRecords": 611,
+  "structurallyEligible": 66,
+  "insufficientEvidence": 545,
+  "summedCategoryIdentityGap": 195,
   "categories": [
     {
       "category": "country",
       "target": 150,
       "records": 150,
-      "structurallyEligible": 3,
-      "insufficientEvidence": 147,
+      "structurallyEligible": 5,
+      "insufficientEvidence": 145,
       "missingIdentitiesBeforeSemanticReview": 0,
       "preservedExcess": 0,
-      "missingEligibleToTarget": 147
+      "missingEligibleToTarget": 145
     },
     {
       "category": "historical-country",
@@ -80,22 +80,22 @@
     {
       "category": "public-figure",
       "target": 150,
-      "records": 59,
+      "records": 69,
       "structurallyEligible": 18,
-      "insufficientEvidence": 41,
-      "missingIdentitiesBeforeSemanticReview": 91,
+      "insufficientEvidence": 51,
+      "missingIdentitiesBeforeSemanticReview": 81,
       "preservedExcess": 0,
       "missingEligibleToTarget": 132
     },
     {
       "category": "historical-figure",
       "target": 150,
-      "records": 69,
-      "structurallyEligible": 17,
-      "insufficientEvidence": 52,
-      "missingIdentitiesBeforeSemanticReview": 81,
+      "records": 79,
+      "structurallyEligible": 18,
+      "insufficientEvidence": 61,
+      "missingIdentitiesBeforeSemanticReview": 71,
       "preservedExcess": 0,
-      "missingEligibleToTarget": 133
+      "missingEligibleToTarget": 132
     },
     {
       "category": "ideology",
@@ -156,442 +156,6 @@
     {
       "id": "thomas-paine",
       "issue": "unsupported-direction:rel"
-    },
-    {
-      "id": "george-soros",
-      "issue": "unsupported-direction:com"
-    },
-    {
-      "id": "singapore",
-      "issue": "unsupported-direction:est"
-    },
-    {
-      "id": "singapore",
-      "issue": "unsupported-direction:rep"
-    },
-    {
-      "id": "singapore",
-      "issue": "unsupported-direction:pod"
-    },
-    {
-      "id": "singapore",
-      "issue": "unsupported-direction:con"
-    },
-    {
-      "id": "singapore",
-      "issue": "unsupported-direction:com"
-    },
-    {
-      "id": "indonesia",
-      "issue": "unsupported-direction:est"
-    },
-    {
-      "id": "indonesia",
-      "issue": "unsupported-direction:rep"
-    },
-    {
-      "id": "indonesia",
-      "issue": "unsupported-direction:pod"
-    },
-    {
-      "id": "indonesia",
-      "issue": "unsupported-direction:eco"
-    },
-    {
-      "id": "indonesia",
-      "issue": "unsupported-direction:con"
-    },
-    {
-      "id": "indonesia",
-      "issue": "unsupported-direction:rel"
-    },
-    {
-      "id": "mexico",
-      "issue": "unsupported-direction:est"
-    },
-    {
-      "id": "mexico",
-      "issue": "unsupported-direction:rep"
-    },
-    {
-      "id": "mexico",
-      "issue": "unsupported-direction:pod"
-    },
-    {
-      "id": "mexico",
-      "issue": "unsupported-direction:int"
-    },
-    {
-      "id": "mexico",
-      "issue": "unsupported-direction:eco"
-    },
-    {
-      "id": "mexico",
-      "issue": "unsupported-direction:rel"
-    },
-    {
-      "id": "turkey",
-      "issue": "unsupported-direction:est"
-    },
-    {
-      "id": "turkey",
-      "issue": "unsupported-direction:rep"
-    },
-    {
-      "id": "turkey",
-      "issue": "unsupported-direction:pod"
-    },
-    {
-      "id": "turkey",
-      "issue": "unsupported-direction:int"
-    },
-    {
-      "id": "turkey",
-      "issue": "unsupported-direction:rel"
-    },
-    {
-      "id": "turkey",
-      "issue": "unsupported-direction:mor"
-    },
-    {
-      "id": "saudi-arabia",
-      "issue": "unsupported-direction:est"
-    },
-    {
-      "id": "saudi-arabia",
-      "issue": "unsupported-direction:rep"
-    },
-    {
-      "id": "saudi-arabia",
-      "issue": "unsupported-direction:pod"
-    },
-    {
-      "id": "saudi-arabia",
-      "issue": "unsupported-direction:dip"
-    },
-    {
-      "id": "saudi-arabia",
-      "issue": "unsupported-direction:int"
-    },
-    {
-      "id": "saudi-arabia",
-      "issue": "unsupported-direction:rel"
-    },
-    {
-      "id": "saudi-arabia",
-      "issue": "unsupported-direction:mor"
-    },
-    {
-      "id": "saudi-arabia",
-      "issue": "unsupported-direction:tec"
-    },
-    {
-      "id": "paris-commune-1871",
-      "issue": "unsupported-direction:est"
-    },
-    {
-      "id": "paris-commune-1871",
-      "issue": "unsupported-direction:rep"
-    },
-    {
-      "id": "paris-commune-1871",
-      "issue": "unsupported-direction:pod"
-    },
-    {
-      "id": "paris-commune-1871",
-      "issue": "unsupported-direction:int"
-    },
-    {
-      "id": "paris-commune-1871",
-      "issue": "unsupported-direction:eco"
-    },
-    {
-      "id": "paris-commune-1871",
-      "issue": "unsupported-direction:con"
-    },
-    {
-      "id": "paris-commune-1871",
-      "issue": "unsupported-direction:rel"
-    },
-    {
-      "id": "paris-commune-1871",
-      "issue": "unsupported-direction:mor"
-    },
-    {
-      "id": "us-new-deal-1933",
-      "issue": "unsupported-direction:est"
-    },
-    {
-      "id": "us-new-deal-1933",
-      "issue": "unsupported-direction:rep"
-    },
-    {
-      "id": "us-new-deal-1933",
-      "issue": "unsupported-direction:pod"
-    },
-    {
-      "id": "us-new-deal-1933",
-      "issue": "unsupported-direction:dip"
-    },
-    {
-      "id": "us-new-deal-1933",
-      "issue": "unsupported-direction:eco"
-    },
-    {
-      "id": "us-new-deal-1933",
-      "issue": "unsupported-direction:con"
-    },
-    {
-      "id": "us-new-deal-1933",
-      "issue": "unsupported-direction:com"
-    },
-    {
-      "id": "imperial-japan-1931",
-      "issue": "unsupported-direction:est"
-    },
-    {
-      "id": "imperial-japan-1931",
-      "issue": "unsupported-direction:rep"
-    },
-    {
-      "id": "imperial-japan-1931",
-      "issue": "unsupported-direction:pod"
-    },
-    {
-      "id": "imperial-japan-1931",
-      "issue": "unsupported-direction:imi"
-    },
-    {
-      "id": "imperial-japan-1931",
-      "issue": "unsupported-direction:dip"
-    },
-    {
-      "id": "imperial-japan-1931",
-      "issue": "unsupported-direction:int"
-    },
-    {
-      "id": "imperial-japan-1931",
-      "issue": "unsupported-direction:eco"
-    },
-    {
-      "id": "imperial-japan-1931",
-      "issue": "unsupported-direction:con"
-    },
-    {
-      "id": "imperial-japan-1931",
-      "issue": "unsupported-direction:com"
-    },
-    {
-      "id": "imperial-japan-1931",
-      "issue": "unsupported-direction:mor"
-    },
-    {
-      "id": "prc-mao-1949",
-      "issue": "unsupported-direction:est"
-    },
-    {
-      "id": "prc-mao-1949",
-      "issue": "unsupported-direction:rep"
-    },
-    {
-      "id": "prc-mao-1949",
-      "issue": "unsupported-direction:pod"
-    },
-    {
-      "id": "prc-mao-1949",
-      "issue": "unsupported-direction:imi"
-    },
-    {
-      "id": "prc-mao-1949",
-      "issue": "unsupported-direction:dip"
-    },
-    {
-      "id": "prc-mao-1949",
-      "issue": "unsupported-direction:eco"
-    },
-    {
-      "id": "prc-mao-1949",
-      "issue": "unsupported-direction:con"
-    },
-    {
-      "id": "prc-mao-1949",
-      "issue": "unsupported-direction:com"
-    },
-    {
-      "id": "prc-mao-1949",
-      "issue": "unsupported-direction:rel"
-    },
-    {
-      "id": "prc-mao-1949",
-      "issue": "unsupported-direction:tec"
-    },
-    {
-      "id": "cuba-revolutionary-1959",
-      "issue": "unsupported-direction:est"
-    },
-    {
-      "id": "cuba-revolutionary-1959",
-      "issue": "unsupported-direction:rep"
-    },
-    {
-      "id": "cuba-revolutionary-1959",
-      "issue": "unsupported-direction:pod"
-    },
-    {
-      "id": "cuba-revolutionary-1959",
-      "issue": "unsupported-direction:dip"
-    },
-    {
-      "id": "cuba-revolutionary-1959",
-      "issue": "unsupported-direction:int"
-    },
-    {
-      "id": "cuba-revolutionary-1959",
-      "issue": "unsupported-direction:eco"
-    },
-    {
-      "id": "cuba-revolutionary-1959",
-      "issue": "unsupported-direction:con"
-    },
-    {
-      "id": "cuba-revolutionary-1959",
-      "issue": "unsupported-direction:com"
-    },
-    {
-      "id": "cuba-revolutionary-1959",
-      "issue": "unsupported-direction:rel"
-    },
-    {
-      "id": "portugal-estado-novo-1933",
-      "issue": "unsupported-direction:est"
-    },
-    {
-      "id": "portugal-estado-novo-1933",
-      "issue": "unsupported-direction:rep"
-    },
-    {
-      "id": "portugal-estado-novo-1933",
-      "issue": "unsupported-direction:pod"
-    },
-    {
-      "id": "portugal-estado-novo-1933",
-      "issue": "unsupported-direction:imi"
-    },
-    {
-      "id": "portugal-estado-novo-1933",
-      "issue": "unsupported-direction:dip"
-    },
-    {
-      "id": "portugal-estado-novo-1933",
-      "issue": "unsupported-direction:com"
-    },
-    {
-      "id": "portugal-estado-novo-1933",
-      "issue": "unsupported-direction:rel"
-    },
-    {
-      "id": "portugal-estado-novo-1933",
-      "issue": "unsupported-direction:mor"
-    },
-    {
-      "id": "chile-pinochet-1973",
-      "issue": "unsupported-direction:est"
-    },
-    {
-      "id": "chile-pinochet-1973",
-      "issue": "unsupported-direction:rep"
-    },
-    {
-      "id": "chile-pinochet-1973",
-      "issue": "unsupported-direction:pod"
-    },
-    {
-      "id": "chile-pinochet-1973",
-      "issue": "unsupported-direction:dip"
-    },
-    {
-      "id": "chile-pinochet-1973",
-      "issue": "unsupported-direction:int"
-    },
-    {
-      "id": "chile-pinochet-1973",
-      "issue": "unsupported-direction:eco"
-    },
-    {
-      "id": "chile-pinochet-1973",
-      "issue": "unsupported-direction:con"
-    },
-    {
-      "id": "chile-pinochet-1973",
-      "issue": "unsupported-direction:mor"
-    },
-    {
-      "id": "roc-taiwan-1949",
-      "issue": "unsupported-direction:est"
-    },
-    {
-      "id": "roc-taiwan-1949",
-      "issue": "unsupported-direction:rep"
-    },
-    {
-      "id": "roc-taiwan-1949",
-      "issue": "unsupported-direction:pod"
-    },
-    {
-      "id": "roc-taiwan-1949",
-      "issue": "unsupported-direction:dip"
-    },
-    {
-      "id": "roc-taiwan-1949",
-      "issue": "unsupported-direction:int"
-    },
-    {
-      "id": "roc-taiwan-1949",
-      "issue": "unsupported-direction:eco"
-    },
-    {
-      "id": "roc-taiwan-1949",
-      "issue": "unsupported-direction:con"
-    },
-    {
-      "id": "roc-taiwan-1949",
-      "issue": "unsupported-direction:com"
-    },
-    {
-      "id": "france-de-gaulle-1958",
-      "issue": "unsupported-direction:est"
-    },
-    {
-      "id": "france-de-gaulle-1958",
-      "issue": "unsupported-direction:rep"
-    },
-    {
-      "id": "france-de-gaulle-1958",
-      "issue": "unsupported-direction:pod"
-    },
-    {
-      "id": "france-de-gaulle-1958",
-      "issue": "unsupported-direction:dip"
-    },
-    {
-      "id": "france-de-gaulle-1958",
-      "issue": "unsupported-direction:int"
-    },
-    {
-      "id": "france-de-gaulle-1958",
-      "issue": "unsupported-direction:eco"
-    },
-    {
-      "id": "france-de-gaulle-1958",
-      "issue": "unsupported-direction:con"
-    },
-    {
-      "id": "france-de-gaulle-1958",
-      "issue": "unsupported-direction:rel"
-    },
-    {
-      "id": "france-de-gaulle-1958",
-      "issue": "unsupported-direction:tec"
     }
   ],
   "inventory": [
@@ -1051,28 +615,21 @@
       "aliases": [],
       "kind": "person",
       "category": "public-figure",
-      "period": "Ensaios e atuação pública, 1997–2025",
+      "period": "Ensaio próprio de 30 de dezembro de 2016",
       "structurallyEligible": false,
       "documentedAxes": [
-        "rep",
-        "imi",
-        "int",
-        "eco",
-        "mor"
+        "rep"
       ],
       "directionalAxes": [
-        "rep",
-        "imi",
-        "int",
-        "eco",
-        "com",
-        "mor"
+        "rep"
       ],
-      "sourceCount": 3,
+      "sourceCount": 5,
       "sourceUrls": [
         "https://www.theatlantic.com/magazine/archive/1997/02/the-capitalist-threat/376773/",
         "https://www.opensocietyfoundations.org/what-we-do",
-        "https://www.nybooks.com/articles/2009/11/05/open-society-a-decade-later/"
+        "https://www.nybooks.com/articles/2009/11/05/open-society-a-decade-later/",
+        "https://www.georgesoros.com/2016/12/30/open-society-needs-defending/",
+        "https://www.opensocietyfoundations.org/george-soros"
       ]
     },
     {
@@ -1259,20 +816,27 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas vigentes, 2024–2025",
+      "period": "Prática institucional em 2024; declarações oficiais do MHA de 29/09/2026 e Singapore Customs de 09/03/2026",
       "structurallyEligible": false,
-      "documentedAxes": [],
-      "directionalAxes": [
-        "est",
+      "documentedAxes": [
         "rep",
         "pod",
-        "con",
-        "com"
+        "com",
+        "rel"
       ],
-      "sourceCount": 2,
+      "directionalAxes": [
+        "rep",
+        "pod",
+        "com",
+        "rel"
+      ],
+      "sourceCount": 5,
       "sourceUrls": [
         "https://freedomhouse.org/country/singapore/freedom-world/2025",
-        "https://www.wto.org/english/tratop_e/tpr_e/s413_e.pdf"
+        "https://www.wto.org/english/tratop_e/tpr_e/s413_e.pdf",
+        "https://freedomhouse.org/country/singapore/freedom-world/2025",
+        "https://www.mha.gov.sg/what-we-do/managing-security-threats/maintaining-racial-and-religious-harmony/",
+        "https://www.customs.gov.sg/doing-business/valuation-duties-and-fees/duties-and-dutiable-goods/duties-and-dutiable-goods-overview/"
       ]
     },
     {
@@ -1474,21 +1038,28 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas vigentes, 2024–2025",
+      "period": "Prática institucional em 2024; camada normativa da tradução constitucional oferecida pela Corte em 2026, sem data editorial ou certificação independente de consolidação contemporânea",
       "structurallyEligible": false,
-      "documentedAxes": [],
+      "documentedAxes": [
+        "est",
+        "rep",
+        "pod",
+        "imi",
+        "rel"
+      ],
       "directionalAxes": [
         "est",
         "rep",
         "pod",
-        "eco",
-        "con",
+        "imi",
         "rel"
       ],
-      "sourceCount": 2,
+      "sourceCount": 4,
       "sourceUrls": [
         "https://freedomhouse.org/country/indonesia/freedom-world/2025",
-        "https://en.mkri.id/public/content/constitution/constitution_english.pdf"
+        "https://en.mkri.id/public/content/constitution/constitution_english.pdf",
+        "https://freedomhouse.org/country/indonesia/freedom-world/2025",
+        "https://en.mkri.id/download/constitution/constitution_1_1625426222_4c1e13f466840d7ed721.pdf"
       ]
     },
     {
@@ -1497,19 +1068,32 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas vigentes, 2024–2025",
-      "structurallyEligible": false,
-      "documentedAxes": [],
+      "period": "Prática institucional em 2024; Constituição oficial consolidada com últimas reformas DOF de 02/06/2026",
+      "structurallyEligible": true,
+      "documentedAxes": [
+        "est",
+        "rep",
+        "pod",
+        "imi",
+        "eco",
+        "con",
+        "rel",
+        "mor"
+      ],
       "directionalAxes": [
         "est",
         "rep",
         "pod",
-        "int",
+        "imi",
         "eco",
-        "rel"
+        "con",
+        "rel",
+        "mor"
       ],
-      "sourceCount": 2,
+      "sourceCount": 4,
       "sourceUrls": [
+        "https://freedomhouse.org/country/mexico/freedom-world/2025",
+        "https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf",
         "https://freedomhouse.org/country/mexico/freedom-world/2025",
         "https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf"
       ]
@@ -1520,21 +1104,28 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas vigentes, 2024–2025",
+      "period": "Prática institucional em 2024; camada normativa histórica da Constituição revista em 2017, sem certificação de consolidação em 2024–2026",
       "structurallyEligible": false,
-      "documentedAxes": [],
+      "documentedAxes": [
+        "est",
+        "rep",
+        "pod",
+        "eco",
+        "con"
+      ],
       "directionalAxes": [
         "est",
         "rep",
         "pod",
-        "int",
-        "rel",
-        "mor"
+        "eco",
+        "con"
       ],
-      "sourceCount": 2,
+      "sourceCount": 4,
       "sourceUrls": [
         "https://freedomhouse.org/country/turkey/freedom-world/2025",
-        "https://www.anayasa.gov.tr/en/legislation/turkish-constitution/"
+        "https://www.anayasa.gov.tr/en/legislation/turkish-constitution/",
+        "https://freedomhouse.org/country/turkey/freedom-world/2025",
+        "https://www.constituteproject.org/constitution/Turkey_2017?lang=en"
       ]
     },
     {
@@ -1543,23 +1134,31 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas vigentes, 2024–2025",
-      "structurallyEligible": false,
-      "documentedAxes": [],
-      "directionalAxes": [
-        "est",
+      "period": "Prática institucional em 2024; Lei Básica na edição com emendas de 2006/2017, sem certificação contemporânea; estratégia PIF declarada para 2026–2030",
+      "structurallyEligible": true,
+      "documentedAxes": [
         "rep",
         "pod",
-        "dip",
-        "int",
+        "eco",
+        "con",
         "rel",
-        "mor",
-        "tec"
+        "mor"
       ],
-      "sourceCount": 2,
+      "directionalAxes": [
+        "rep",
+        "pod",
+        "eco",
+        "con",
+        "rel",
+        "mor"
+      ],
+      "sourceCount": 5,
       "sourceUrls": [
         "https://freedomhouse.org/country/saudi-arabia/freedom-world/2025",
-        "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/16a2e5f8-68c3-4a3d-9a9a-a9a700f2a2d6/1"
+        "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/16a2e5f8-68c3-4a3d-9a9a-a9a700f2a2d6/1",
+        "https://freedomhouse.org/country/saudi-arabia/freedom-world/2025",
+        "https://www.refworld.org/sites/default/files/2025-05/alnzam_alasasy_llhkm_1.pdf",
+        "https://www.pif.gov.sa/en/strategy-and-impact/our-strategy/"
       ]
     },
     {
@@ -1601,24 +1200,22 @@
       "aliases": [],
       "kind": "country",
       "category": "historical-country",
-      "period": "Conselho comunal, março–maio de 1871",
+      "period": "Conselho comunal, março–maio de 1871; recorte codificado: Declaração de 19 abril 1871; proposta durante a Comuna, não realização nacional.",
       "structurallyEligible": false,
-      "documentedAxes": [],
+      "documentedAxes": [
+        "est",
+        "rep"
+      ],
       "directionalAxes": [
         "est",
-        "rep",
-        "pod",
-        "int",
-        "eco",
-        "con",
-        "rel",
-        "mor"
+        "rep"
       ],
-      "sourceCount": 3,
+      "sourceCount": 4,
       "sourceUrls": [
         "https://archives.paris.fr/recherches/presentation-des-fonds/administration-communale/commune-de-paris",
         "https://www.parismuseescollections.paris.fr/fr/musee-carnavalet/oeuvres/drapeau-de-la-commune-de-paris-1871",
-        "https://www.marxists.org/archive/marx/works/1871/civil-war-france/"
+        "https://www.marxists.org/archive/marx/works/1871/civil-war-france/",
+        "https://fr.wikisource.org/wiki/Vive_la_Commune_(Vandervelde)"
       ]
     },
     {
@@ -1627,22 +1224,19 @@
       "aliases": [],
       "kind": "country",
       "category": "historical-country",
-      "period": "Governo Roosevelt, 1933–1939",
+      "period": "Governo Roosevelt, 1933–1939; recorte codificado: NIRA de 1933, autoridade temporária inicial; não todo governo Roosevelt de 1933–1939.",
       "structurallyEligible": false,
-      "documentedAxes": [],
-      "directionalAxes": [
-        "est",
-        "rep",
-        "pod",
-        "dip",
-        "eco",
-        "con",
-        "com"
+      "documentedAxes": [
+        "con"
       ],
-      "sourceCount": 2,
+      "directionalAxes": [
+        "con"
+      ],
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.loc.gov/classroom-materials/new-deal/",
-        "https://www.archives.gov/milestone-documents/national-labor-relations-act"
+        "https://www.archives.gov/milestone-documents/national-labor-relations-act",
+        "https://www.archives.gov/milestone-documents/national-industrial-recovery-act"
       ]
     },
     {
@@ -1674,25 +1268,19 @@
       "aliases": [],
       "kind": "country",
       "category": "historical-country",
-      "period": "Militarização e guerra, 1931–1945",
+      "period": "Militarização e guerra, 1931–1945; recorte codificado: Desenho da carta1889 subjacente ao período1931–1945; militarização efetiva não graduada por esta fonte.",
       "structurallyEligible": false,
-      "documentedAxes": [],
-      "directionalAxes": [
-        "est",
-        "rep",
-        "pod",
-        "imi",
-        "dip",
-        "int",
-        "eco",
-        "con",
-        "com",
-        "mor"
+      "documentedAxes": [
+        "rep"
       ],
-      "sourceCount": 2,
+      "directionalAxes": [
+        "rep"
+      ],
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.ndl.go.jp/modern/e/cha2/index.html",
-        "https://history.state.gov/historicaldocuments/frus1945v06/d255"
+        "https://history.state.gov/historicaldocuments/frus1945v06/d255",
+        "https://www.ndl.go.jp/constitution/e/etc/c02.html"
       ]
     },
     {
@@ -1701,26 +1289,22 @@
       "aliases": [],
       "kind": "country",
       "category": "historical-country",
-      "period": "República Popular, 1949–1976",
+      "period": "República Popular, 1949–1976; recorte codificado: Carta fundadora1954 em transição socialista; não todas as fases1949–1976.",
       "structurallyEligible": false,
-      "documentedAxes": [],
-      "directionalAxes": [
-        "est",
-        "rep",
-        "pod",
-        "imi",
-        "dip",
+      "documentedAxes": [
         "eco",
-        "con",
-        "com",
-        "rel",
-        "tec"
+        "con"
       ],
-      "sourceCount": 3,
+      "directionalAxes": [
+        "eco",
+        "con"
+      ],
+      "sourceCount": 4,
       "sourceUrls": [
         "https://history.state.gov/milestones/1969-1976/rapprochement-china",
         "https://history.state.gov/historicaldocuments/frus1964-68v30/d302",
-        "https://www.marxists.org/subject/china/documents/constitution-1954.htm"
+        "https://www.marxists.org/subject/china/documents/constitution-1954.htm",
+        "https://en.wikisource.org/wiki/Constitution_of_the_People%27s_Republic_of_China_(1954)"
       ]
     },
     {
@@ -1729,25 +1313,24 @@
       "aliases": [],
       "kind": "country",
       "category": "historical-country",
-      "period": "Revolução e Constituição socialista, 1959–1976",
+      "period": "Revolução e Constituição socialista, 1959–1976; recorte codificado: Carta socialista fundadora1976, término do recorte1959–1976; não toda trajetória desde a revolução.",
       "structurallyEligible": false,
-      "documentedAxes": [],
-      "directionalAxes": [
-        "est",
+      "documentedAxes": [
         "rep",
-        "pod",
-        "dip",
-        "int",
         "eco",
-        "con",
-        "com",
-        "rel"
+        "con"
       ],
-      "sourceCount": 3,
+      "directionalAxes": [
+        "rep",
+        "eco",
+        "con"
+      ],
+      "sourceCount": 4,
       "sourceUrls": [
         "https://history.state.gov/historicaldocuments/frus1958-60v06/d217",
         "https://tile.loc.gov/storage-services/master/frd/frdcstdy/cu/cubacountrystudy00huds/cubacountrystudy00huds.pdf",
-        "https://www.granma.cu/file/pdf/gaceta/Constituci%C3%B3n%20de%20la%20Rep%C3%BAblica%20de%20Cuba.pdf"
+        "https://www.granma.cu/file/pdf/gaceta/Constituci%C3%B3n%20de%20la%20Rep%C3%BAblica%20de%20Cuba.pdf",
+        "https://es.wikisource.org/wiki/Constituci%C3%B3n_de_la_Rep%C3%BAblica_de_Cuba_%281976%29"
       ]
     },
     {
@@ -1756,23 +1339,19 @@
       "aliases": [],
       "kind": "country",
       "category": "historical-country",
-      "period": "Regime de Salazar e sucessão, 1933–1974",
+      "period": "Regime de Salazar e sucessão, 1933–1974; recorte codificado: Fundação1933, eleição1934 e abertura parlamentar1935; não todo Salazar/Caetano até1974.",
       "structurallyEligible": false,
-      "documentedAxes": [],
-      "directionalAxes": [
-        "est",
-        "rep",
-        "pod",
-        "imi",
-        "dip",
-        "com",
-        "rel",
-        "mor"
+      "documentedAxes": [
+        "rep"
       ],
-      "sourceCount": 2,
+      "directionalAxes": [
+        "rep"
+      ],
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.parlamento.pt/Parlamento/Paginas/EstadoNovo.aspx",
-        "https://diariodarepublica.pt/dr/legislacao-consolidada/decreto/1933-69985699"
+        "https://diariodarepublica.pt/dr/legislacao-consolidada/decreto/1933-69985699",
+        "https://app.parlamento.pt/comunicar/V1/202203/78/artigos/art6.html"
       ]
     },
     {
@@ -1781,23 +1360,21 @@
       "aliases": [],
       "kind": "country",
       "category": "historical-country",
-      "period": "Regime militar, 1973–1990",
+      "period": "Regime militar, 1973–1990; recorte codificado: Primeiro período transitório1981–1989 da carta1980; não toda ditadura1973–1990 nem transição posterior.",
       "structurallyEligible": false,
-      "documentedAxes": [],
-      "directionalAxes": [
-        "est",
+      "documentedAxes": [
         "rep",
-        "pod",
-        "dip",
-        "int",
-        "eco",
-        "con",
-        "mor"
+        "pod"
       ],
-      "sourceCount": 2,
+      "directionalAxes": [
+        "rep",
+        "pod"
+      ],
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.memoriachilena.gob.cl/602/w3-article-31395.html",
-        "https://www.memoriachilena.gob.cl/602/w3-article-92415.html"
+        "https://www.memoriachilena.gob.cl/602/w3-article-92415.html",
+        "https://www.bcn.cl/leychile/navegar?idNorma=17039"
       ]
     },
     {
@@ -1806,24 +1383,20 @@
       "aliases": [],
       "kind": "country",
       "category": "historical-country",
-      "period": "Retirada para Taiwan e lei marcial, 1949–1987",
+      "period": "Retirada para Taiwan e lei marcial, 1949–1987; recorte codificado: Disposições temporárias na edição1972 dentro do recorte1949–1987; abolição1991 não é fim da lei marcial1987.",
       "structurallyEligible": false,
-      "documentedAxes": [],
-      "directionalAxes": [
-        "est",
-        "rep",
-        "pod",
-        "dip",
-        "int",
-        "eco",
-        "con",
-        "com"
+      "documentedAxes": [
+        "rep"
       ],
-      "sourceCount": 3,
+      "directionalAxes": [
+        "rep"
+      ],
+      "sourceCount": 4,
       "sourceUrls": [
         "https://www.nhrm.gov.tw/w/nhrmEN/History_22070117122319529",
         "https://english.president.gov.tw/Page/94",
-        "https://tile.loc.gov/storage-services/master/frd/frdcstdy/taiwan/taiwanhistori00dobb_0/taiwanhistori00dobb.pdf"
+        "https://tile.loc.gov/storage-services/master/frd/frdcstdy/taiwan/taiwanhistori00dobb_0/taiwanhistori00dobb.pdf",
+        "https://en.wikisource.org/wiki/Temporary_Provisions_Effective_During_the_Period_of_Communist_Rebellion_(1972)"
       ]
     },
     {
@@ -1832,25 +1405,22 @@
       "aliases": [],
       "kind": "country",
       "category": "historical-country",
-      "period": "Quinta República, 1958–1969",
+      "period": "Quinta República, 1958–1969; recorte codificado: Arranjo inicial1958 anterior à reforma1962; não prática uniforme1958–1969.",
       "structurallyEligible": false,
-      "documentedAxes": [],
-      "directionalAxes": [
-        "est",
+      "documentedAxes": [
         "rep",
-        "pod",
-        "dip",
-        "int",
-        "eco",
-        "con",
-        "rel",
-        "tec"
+        "rel"
       ],
-      "sourceCount": 3,
+      "directionalAxes": [
+        "rep",
+        "rel"
+      ],
+      "sourceCount": 4,
       "sourceUrls": [
         "https://www.vie-publique.fr/fiches/19463-que-dit-la-constitution-de-1958",
         "https://www.assemblee-nationale.fr/histoire/suffrage-universel-direct-president-republique.asp",
-        "https://history.state.gov/milestones/1961-1968/degaulle"
+        "https://history.state.gov/milestones/1961-1968/degaulle",
+        "https://fr.wikisource.org/wiki/Constitution_fran%C3%A7aise_de_1958_(version_initiale)"
       ]
     },
     {
@@ -14364,6 +13934,461 @@
       "sourceUrls": [
         "https://theelders.org/news/juan-manuel-santos-urges-inclusive-peace-talks-ukraines-future",
         "https://theelders.org/profile/juan-manuel-santos"
+      ]
+    },
+    {
+      "id": "hina-jilani",
+      "name": "Hina Jilani",
+      "aliases": [],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "2022-11-25",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "mor"
+      ],
+      "directionalAxes": [
+        "mor"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://theelders.org/news/leaders-must-tackle-root-causes-gender-based-violence-and-ensure-justice-all",
+        "https://theelders.org/profile/hina-jilani"
+      ]
+    },
+    {
+      "id": "ernesto-zedillo",
+      "name": "Ernesto Zedillo",
+      "aliases": [],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "2025-05-07",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "dip"
+      ],
+      "directionalAxes": [
+        "dip"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://theelders.org/news/nuclear-weapons-pose-terrible-danger-us-all",
+        "https://theelders.org/profile/ernesto-zedillo"
+      ]
+    },
+    {
+      "id": "ban-ki-moon",
+      "name": "Ban Ki-moon",
+      "aliases": [],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "2025-12-15",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "dip"
+      ],
+      "directionalAxes": [
+        "dip"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://theelders.org/news/un-only-strong-its-193-member-states-want-it-be",
+        "https://theelders.org/profile/ban-ki-moon"
+      ]
+    },
+    {
+      "id": "zeid-raad-al-hussein",
+      "name": "Zeid Ra’ad Al Hussein",
+      "aliases": [],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "2025-10-14",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "dip"
+      ],
+      "directionalAxes": [
+        "dip"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://theelders.org/news/un-must-take-need-reform-seriously",
+        "https://theelders.org/profile/zeid-raad-al-hussein"
+      ]
+    },
+    {
+      "id": "lakhdar-brahimi",
+      "name": "Lakhdar Brahimi",
+      "aliases": [],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "2021-09-07",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "dip"
+      ],
+      "directionalAxes": [
+        "dip"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://theelders.org/news/international-community-must-act-responsibly-afghanistan",
+        "https://theelders.org/profile/lakhdar-brahimi"
+      ]
+    },
+    {
+      "id": "ricardo-lagos",
+      "name": "Ricardo Lagos",
+      "aliases": [],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "2022-11-25",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "mor"
+      ],
+      "directionalAxes": [
+        "mor"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://theelders.org/news/leaders-must-tackle-root-causes-gender-based-violence-and-ensure-justice-all",
+        "https://theelders.org/profile/ricardo-lagos"
+      ]
+    },
+    {
+      "id": "ziauddin-yousafzai",
+      "name": "Ziauddin Yousafzai",
+      "aliases": [],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "2019-06-05",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "mor"
+      ],
+      "directionalAxes": [
+        "mor"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://malala.org/news-and-voices/ziauddin-women-deliver-conference",
+        "https://malala.org/board?sc=header"
+      ]
+    },
+    {
+      "id": "jacinda-ardern",
+      "name": "Jacinda Ardern",
+      "aliases": [],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "2022-05-27",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "rep"
+      ],
+      "directionalAxes": [
+        "rep"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.beehive.govt.nz/speech/harvard-commencement-speech-democracy-disinformation-and-kindness",
+        "https://www.theguardian.com/world/2026/feb/26/jacinda-ardern-living-in-australia-former-nz-new-zealand-pm"
+      ]
+    },
+    {
+      "id": "jeremy-corbyn",
+      "name": "Jeremy Corbyn",
+      "aliases": [],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "2022-01-10; assinatura individual; moção apresentada 6/1/2022",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "eco"
+      ],
+      "directionalAxes": [
+        "eco"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://edm.parliament.uk/early-day-motion/59318/energy-prices",
+        "https://members.parliament.uk/member/185/contact"
+      ]
+    },
+    {
+      "id": "gro-harlem-brundtland",
+      "name": "Gro Harlem Brundtland",
+      "aliases": [],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "2019-09-06",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "eco"
+      ],
+      "directionalAxes": [
+        "eco"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://theelders.org/news/universal-health-coverage-affordable-even-tough-times",
+        "https://theelders.org/profile/gro-harlem-brundtland"
+      ]
+    },
+    {
+      "id": "albert-luthuli",
+      "name": "Albert Luthuli",
+      "aliases": [],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "Africa and Freedom, palestra Nobel de 11 de dezembro de 1961",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "rep",
+        "pod",
+        "dip",
+        "mor"
+      ],
+      "directionalAxes": [
+        "rep",
+        "pod",
+        "dip",
+        "mor"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://sahistory.org.za/archive/africa-and-freedom-1961",
+        "https://sahistory.org.za/article/chief-albert-john-mvumbi-luthuli-timeline-1800-1967"
+      ]
+    },
+    {
+      "id": "samora-machel",
+      "name": "Samora Machel",
+      "aliases": [],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "Discurso à primeira conferência de mulheres moçambicanas, 4 de março de 1973",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "eco",
+        "rel",
+        "mor"
+      ],
+      "directionalAxes": [
+        "eco",
+        "rel",
+        "mor"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.marxists.org/subject/africa/machel/1973/liberation-women.htm",
+        "https://sahistory.org.za/people/samora-machel?page=1"
+      ]
+    },
+    {
+      "id": "kofi-annan",
+      "name": "Kofi Annan",
+      "aliases": [],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "Palestra Nobel, 10 de dezembro de 2001",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "rep",
+        "pod",
+        "imi",
+        "mor"
+      ],
+      "directionalAxes": [
+        "rep",
+        "pod",
+        "imi",
+        "mor"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.kofiannanfoundation.org/publication/kofi-annan-nobel-lecture/",
+        "https://www.kofiannanfoundation.org/publication/kofi-annan-1938-2018/"
+      ]
+    },
+    {
+      "id": "desmond-tutu",
+      "name": "Desmond Tutu",
+      "aliases": [],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "Pronunciamento ao Conselho de Segurança da ONU, 23 de outubro de 1984",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "rep",
+        "pod",
+        "dip",
+        "mor"
+      ],
+      "directionalAxes": [
+        "rep",
+        "pod",
+        "dip",
+        "mor"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://sourcebooks.web.fordham.edu/mod/1984tutu.asp",
+        "https://sahistory.org.za/people/archbishop-emeritus-desmond-mpilo-tutu"
+      ]
+    },
+    {
+      "id": "apolinario-mabini",
+      "name": "Apolinario Mabini",
+      "aliases": [],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "The True Decalogue, texto revolucionário reproduzido pela Philippine Press Bureau, 1922",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "rep",
+        "rel"
+      ],
+      "directionalAxes": [
+        "rep",
+        "rel"
+      ],
+      "sourceCount": 1,
+      "sourceUrls": [
+        "https://www.gutenberg.org/files/14660/14660-h/14660-h.htm"
+      ]
+    },
+    {
+      "id": "david-ben-gurion-1948",
+      "name": "David Ben-Gurion",
+      "aliases": [],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "Endosso da Declaração de Independência de Israel, 14 de maio de 1948",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "rep",
+        "pod",
+        "imi",
+        "dip",
+        "mor"
+      ],
+      "directionalAxes": [
+        "rep",
+        "pod",
+        "imi",
+        "dip",
+        "mor"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://avalon.law.yale.edu/20th_century/israel.asp",
+        "https://www.bgu.ac.il/en/u/vps/pa-rd/bgu-milestones/"
+      ]
+    },
+    {
+      "id": "immanuel-kant",
+      "name": "Immanuel Kant",
+      "aliases": [],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "À paz perpétua, 1795; texto autoral na tradução Mary Campbell Smith",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "rep",
+        "pod",
+        "dip",
+        "int"
+      ],
+      "directionalAxes": [
+        "rep",
+        "pod",
+        "dip",
+        "int"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.gutenberg.org/cache/epub/50922/pg50922-images.html",
+        "https://www.gutenberg.org/ebooks/50922"
+      ]
+    },
+    {
+      "id": "thomas-hobbes",
+      "name": "Thomas Hobbes",
+      "aliases": [],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "Leviathan, 1651; capítulos XVIII–XIX e XXI",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "rep",
+        "pod"
+      ],
+      "directionalAxes": [
+        "rep",
+        "pod"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.gutenberg.org/cache/epub/3207/pg3207-images.html",
+        "https://www.gutenberg.org/ebooks/3207"
+      ]
+    },
+    {
+      "id": "john-locke",
+      "name": "John Locke",
+      "aliases": [],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "Second Treatise of Government, 1689; capítulos V, XI e XIII",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "rep",
+        "pod",
+        "eco",
+        "rel"
+      ],
+      "directionalAxes": [
+        "rep",
+        "pod",
+        "eco",
+        "rel"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.gutenberg.org/cache/epub/7370/pg7370-images.html",
+        "https://www.gutenberg.org/ebooks/7370"
+      ]
+    },
+    {
+      "id": "peter-kropotkin",
+      "name": "Piotr Kropotkin",
+      "aliases": [],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "The Conquest of Bread, 1892, com prefácio autoral de janeiro de 1913; edição de 1926",
+      "structurallyEligible": true,
+      "documentedAxes": [
+        "est",
+        "pod",
+        "eco",
+        "con",
+        "mor",
+        "tec"
+      ],
+      "directionalAxes": [
+        "est",
+        "pod",
+        "eco",
+        "con",
+        "mor",
+        "tec"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.marxists.org/reference/archive/kropotkin-peter/1892/bread.htm",
+        "https://www.gutenberg.org/ebooks/23428"
       ]
     },
     {
