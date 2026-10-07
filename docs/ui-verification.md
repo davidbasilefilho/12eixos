@@ -80,3 +80,7 @@ Targeted browser regression uses the immutable built preview at **`http://127.0.
 A manifest of the 207 **existing packaged** flag SVG files now prevents missing identities from making failed requests. No new country flag or historical substitute was invented. The accepted batches add 18 explicit media gaps: eight new figure portraits and ten new country flags. They render no image; source identity, displayed claims and matching never depend on a photo or flag. Exact gap IDs are preserved in `validation/latest/catalog-counts.json`. The earlier assertion that all then-integrated figures had media applies only to the pre-batch snapshot.
 
 This checkpoint adds sourced records and safe media omission; the reference-fidelity limitations above remain. No push, merge, deploy or Site creation occurred. The root artifact manifest will record the final immutable commit for this source/evidence package.
+
+## Subsequent visual architecture repair
+
+The initial fidelity-gap assessment above is historical. See `frontend-fidelity.md` for the repaired architecture, seven-surface comparison ledger, settled production screenshots, named-pole orientation tests, export contrast repair, and explicitly retained limitations. The final matrix supersedes the earlier transition-affected visual captures; the earlier functional evidence remains preserved.
