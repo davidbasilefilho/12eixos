@@ -24,6 +24,7 @@ import { historicalFigureBatch03 } from './reference-historical-figure-batch-03'
 import { historicalCountryBatch03 } from './reference-historical-country-batch-03';
 import { publicFigureBatch03 } from './reference-public-figure-batch-03';
 import { reconcileHistoricalCountry03 } from './reference-historical-country-reconciliation-03';
+import { reconcileCurrentCountry03 } from './reference-current-country-reconciliation-03';
 
 export const AXIS_KEYS = ['est', 'rep', 'pod', 'imi', 'dip', 'int', 'eco', 'con', 'com', 'rel', 'mor', 'tec'] as const;
 export type AxisKey = (typeof AXIS_KEYS)[number];
@@ -477,7 +478,7 @@ const correctedBaseReferenceEntries = baseReferenceEntries.map((entry) => {
     evidence: { ...entry.evidence, ...correction.evidence },
     axisEvidence: { ...entry.axisEvidence, ...correction.axisEvidence },
   };
-}).map(reconcileCurrentCountry).map(reconcileLegacy02);
+}).map(reconcileCurrentCountry).map(reconcileCurrentCountry03).map(reconcileLegacy02);
 
 const identityAliasesById: Partial<Record<string, string[]>> = {
   'nelson-mandela': ['Rolihlahla Mandela'],

@@ -34,8 +34,8 @@
     ],
     "provenance": "Executed before local data corrections in this recovery checkpoint; not recomputed from unavailable prior Library checkpoint."
   },
-  "headCommitAtAudit": "b0930c7982ddefbd662047f659912959e69b8c47",
-  "integratedCatalogSha256": "47a4cc502db89bd6deec2c82a39969d8f6a47d19f94426b01dab3a9799ead30d",
+  "headCommitAtAudit": "af2364bae574aac38883310b6d056762bea4c2c7",
+  "integratedCatalogSha256": "1ad8ca5f2dbc70f240339bf6be830a32efb62d38de3e012b567409f2b48227dc",
   "scope": "Integrated working-tree catalog after preparation; fixed remote baseline and current HEAD are provenance, not immutable copies of modified files.",
   "evidenceGate": {
     "minimumAxes": 6,
@@ -53,19 +53,19 @@
   ],
   "totalTarget": 675,
   "totalRecords": 581,
-  "structurallyEligible": 61,
-  "insufficientEvidence": 520,
+  "structurallyEligible": 63,
+  "insufficientEvidence": 518,
   "summedCategoryIdentityGap": 225,
   "categories": [
     {
       "category": "country",
       "target": 150,
       "records": 150,
-      "structurallyEligible": 1,
-      "insufficientEvidence": 149,
+      "structurallyEligible": 3,
+      "insufficientEvidence": 147,
       "missingIdentitiesBeforeSemanticReview": 0,
       "preservedExcess": 0,
-      "missingEligibleToTarget": 149
+      "missingEligibleToTarget": 147
     },
     {
       "category": "historical-country",
@@ -162,22 +162,6 @@
       "issue": "unsupported-direction:com"
     },
     {
-      "id": "united-states",
-      "issue": "unsupported-direction:est"
-    },
-    {
-      "id": "united-states",
-      "issue": "unsupported-direction:rep"
-    },
-    {
-      "id": "united-states",
-      "issue": "unsupported-direction:pod"
-    },
-    {
-      "id": "united-states",
-      "issue": "unsupported-direction:eco"
-    },
-    {
       "id": "singapore",
       "issue": "unsupported-direction:est"
     },
@@ -198,118 +182,6 @@
       "issue": "unsupported-direction:com"
     },
     {
-      "id": "brazil",
-      "issue": "unsupported-direction:est"
-    },
-    {
-      "id": "brazil",
-      "issue": "unsupported-direction:rep"
-    },
-    {
-      "id": "brazil",
-      "issue": "unsupported-direction:pod"
-    },
-    {
-      "id": "brazil",
-      "issue": "unsupported-direction:eco"
-    },
-    {
-      "id": "brazil",
-      "issue": "unsupported-direction:rel"
-    },
-    {
-      "id": "japan",
-      "issue": "unsupported-direction:est"
-    },
-    {
-      "id": "japan",
-      "issue": "unsupported-direction:rep"
-    },
-    {
-      "id": "japan",
-      "issue": "unsupported-direction:pod"
-    },
-    {
-      "id": "japan",
-      "issue": "unsupported-direction:dip"
-    },
-    {
-      "id": "japan",
-      "issue": "unsupported-direction:com"
-    },
-    {
-      "id": "japan",
-      "issue": "unsupported-direction:rel"
-    },
-    {
-      "id": "japan",
-      "issue": "unsupported-direction:tec"
-    },
-    {
-      "id": "india",
-      "issue": "unsupported-direction:est"
-    },
-    {
-      "id": "india",
-      "issue": "unsupported-direction:rep"
-    },
-    {
-      "id": "india",
-      "issue": "unsupported-direction:pod"
-    },
-    {
-      "id": "india",
-      "issue": "unsupported-direction:imi"
-    },
-    {
-      "id": "india",
-      "issue": "unsupported-direction:eco"
-    },
-    {
-      "id": "india",
-      "issue": "unsupported-direction:con"
-    },
-    {
-      "id": "india",
-      "issue": "unsupported-direction:rel"
-    },
-    {
-      "id": "india",
-      "issue": "unsupported-direction:tec"
-    },
-    {
-      "id": "south-africa",
-      "issue": "unsupported-direction:est"
-    },
-    {
-      "id": "south-africa",
-      "issue": "unsupported-direction:rep"
-    },
-    {
-      "id": "south-africa",
-      "issue": "unsupported-direction:imi"
-    },
-    {
-      "id": "south-africa",
-      "issue": "unsupported-direction:dip"
-    },
-    {
-      "id": "south-africa",
-      "issue": "unsupported-direction:eco"
-    },
-    {
-      "id": "south-africa",
-      "issue": "unsupported-direction:con"
-    },
-    {
-      "id": "south-africa",
-      "issue": "unsupported-direction:rel"
-    },
-    {
-      "id": "south-africa",
-      "issue": "unsupported-direction:mor"
-    },
-    {
       "id": "indonesia",
       "issue": "unsupported-direction:est"
     },
@@ -412,26 +284,6 @@
     {
       "id": "saudi-arabia",
       "issue": "unsupported-direction:tec"
-    },
-    {
-      "id": "france",
-      "issue": "unsupported-direction:est"
-    },
-    {
-      "id": "france",
-      "issue": "unsupported-direction:rep"
-    },
-    {
-      "id": "france",
-      "issue": "unsupported-direction:pod"
-    },
-    {
-      "id": "france",
-      "issue": "unsupported-direction:eco"
-    },
-    {
-      "id": "france",
-      "issue": "unsupported-direction:rel"
     },
     {
       "id": "paris-commune-1871",
@@ -1377,17 +1229,26 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas vigentes, 2024–2025",
+      "period": "Prática institucional em 2024; Constituição e emendas de 1791 no texto oferecido pelo Senado em 2026",
       "structurallyEligible": false,
-      "documentedAxes": [],
+      "documentedAxes": [
+        "est",
+        "rep",
+        "pod",
+        "rel",
+        "mor"
+      ],
       "directionalAxes": [
         "est",
         "rep",
         "pod",
-        "eco"
+        "rel",
+        "mor"
       ],
-      "sourceCount": 2,
+      "sourceCount": 4,
       "sourceUrls": [
+        "https://freedomhouse.org/country/united-states/freedom-world/2025",
+        "https://www.senate.gov/about/origins-foundations/senate-and-constitution/constitution.htm",
         "https://freedomhouse.org/country/united-states/freedom-world/2025",
         "https://www.senate.gov/about/origins-foundations/senate-and-constitution/constitution.htm"
       ]
@@ -1484,18 +1345,30 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas vigentes, 2024–2025",
-      "structurallyEligible": false,
-      "documentedAxes": [],
+      "period": "Prática institucional em 2024; norma constitucional no texto consolidado que inclui emendas até 2025, consultado em 07/10/2026",
+      "structurallyEligible": true,
+      "documentedAxes": [
+        "est",
+        "rep",
+        "pod",
+        "dip",
+        "eco",
+        "con",
+        "rel"
+      ],
       "directionalAxes": [
         "est",
         "rep",
         "pod",
+        "dip",
         "eco",
+        "con",
         "rel"
       ],
-      "sourceCount": 2,
+      "sourceCount": 4,
       "sourceUrls": [
+        "https://freedomhouse.org/country/brazil/freedom-world/2025",
+        "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
         "https://freedomhouse.org/country/brazil/freedom-world/2025",
         "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
       ]
@@ -1506,22 +1379,30 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas vigentes, 2024–2025",
+      "period": "Prática institucional em 2024; Constituição de 1946 oferecida pela Câmara em 2026 e interpretação oficial de defesa posterior à decisão de 01/07/2014; provisão escolar pública declarada pelo MEXT em página sem data consultada em 2026",
       "structurallyEligible": false,
-      "documentedAxes": [],
-      "directionalAxes": [
-        "est",
+      "documentedAxes": [
         "rep",
         "pod",
         "dip",
-        "com",
-        "rel",
-        "tec"
+        "eco",
+        "rel"
       ],
-      "sourceCount": 2,
+      "directionalAxes": [
+        "rep",
+        "pod",
+        "dip",
+        "eco",
+        "rel"
+      ],
+      "sourceCount": 6,
       "sourceUrls": [
         "https://freedomhouse.org/country/japan/freedom-world/2025",
-        "https://japan.kantei.go.jp/constitution_and_government_of_japan/constitution_e.html"
+        "https://japan.kantei.go.jp/constitution_and_government_of_japan/constitution_e.html",
+        "https://freedomhouse.org/country/japan/freedom-world/2025",
+        "https://www.shugiin.go.jp/internet/itdb_english.nsf/html/statics/english/constitution_e.htm",
+        "https://www.mod.go.jp/en/d_act/d_policy/index.html",
+        "https://www.mext.go.jp/a_menu/shotou/clarinet/003/001.htm"
       ]
     },
     {
@@ -1530,23 +1411,31 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas vigentes, 2024–2025",
-      "structurallyEligible": false,
-      "documentedAxes": [],
+      "period": "Prática institucional em 2024, exceto Caxemira administrada pela Índia; norma constitucional em 01/05/2024 e mandato NITI consultado em 2026",
+      "structurallyEligible": true,
+      "documentedAxes": [
+        "est",
+        "rep",
+        "pod",
+        "eco",
+        "con",
+        "rel"
+      ],
       "directionalAxes": [
         "est",
         "rep",
         "pod",
-        "imi",
         "eco",
         "con",
-        "rel",
-        "tec"
+        "rel"
       ],
-      "sourceCount": 2,
+      "sourceCount": 5,
       "sourceUrls": [
         "https://freedomhouse.org/country/india/freedom-world/2025",
-        "https://legislative.gov.in/constitution-of-india/"
+        "https://legislative.gov.in/constitution-of-india/",
+        "https://freedomhouse.org/country/india/freedom-world/2025",
+        "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf",
+        "https://www.niti.gov.in/about-us/objectives-and-features"
       ]
     },
     {
@@ -1555,23 +1444,28 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas vigentes, 2024–2025",
+      "period": "Prática institucional em 2024; normas da edição constitucional oficial com emendas até 2012, sem certificação de consolidação em 2024–2026",
       "structurallyEligible": false,
-      "documentedAxes": [],
+      "documentedAxes": [
+        "est",
+        "rep",
+        "pod",
+        "eco",
+        "mor"
+      ],
       "directionalAxes": [
         "est",
         "rep",
-        "imi",
-        "dip",
+        "pod",
         "eco",
-        "con",
-        "rel",
         "mor"
       ],
-      "sourceCount": 2,
+      "sourceCount": 4,
       "sourceUrls": [
         "https://freedomhouse.org/country/south-africa/freedom-world/2025",
-        "https://www.gov.za/documents/constitution-republic-south-africa-1996"
+        "https://www.gov.za/documents/constitution-republic-south-africa-1996",
+        "https://freedomhouse.org/country/south-africa/freedom-world/2025",
+        "https://www.justice.gov.za/constitution/SAConstitution-web-eng.pdf"
       ]
     },
     {
@@ -1674,21 +1568,31 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas vigentes, 2024–2025",
+      "period": "Prática institucional em 2024; artigos constitucionais nas redações de 2003, 2008 e 10/03/2024 oferecidas pelo Legifrance",
       "structurallyEligible": false,
-      "documentedAxes": [],
+      "documentedAxes": [
+        "est",
+        "rep",
+        "pod",
+        "rel",
+        "mor"
+      ],
       "directionalAxes": [
         "est",
         "rep",
         "pod",
-        "eco",
-        "rel"
+        "rel",
+        "mor"
       ],
-      "sourceCount": 3,
+      "sourceCount": 7,
       "sourceUrls": [
         "https://freedomhouse.org/country/france/freedom-world/2025",
         "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000019240997/2022-01-22",
-        "https://www.oecd.org/en/publications/government-at-a-glance-2025_0efd0bcd-en.html"
+        "https://www.oecd.org/en/publications/government-at-a-glance-2025_0efd0bcd-en.html",
+        "https://freedomhouse.org/country/france/freedom-world/2025",
+        "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000019240997",
+        "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000006527579",
+        "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000049255019"
       ]
     },
     {
