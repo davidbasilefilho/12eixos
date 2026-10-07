@@ -6,10 +6,10 @@ export const ideologySelectionSnapshot = {
   "catalogCount": 206,
   "intendedSubsetCount": 75,
   "readyForDefaultUse": false,
-  "boundedReviewedReferents": 48,
+  "boundedReviewedReferents": 52,
   "referentCountScope": "Unique selected IDs reviewed in the ontology sequence; prior LP reading was additionally reopened for §§2.1/2.4. Combahee remains an additionally reviewed alternative; modern Leopold explanation alone is excluded from the primary-referent count.",
   "independent75Verified": false,
-  "boundedTwoSidedContrasts": 34
+  "boundedTwoSidedContrasts": 37
 } as const;
 
 export const ideologyInclusionDefinition = {
@@ -1217,6 +1217,40 @@ export const ideologySelectionSources = [
     "locator": "Primary excerpt web 26–39, especially 34–38; introductory attribution 22; electronic publication 44",
     "supports": "Estado absoluto e expansão imperial como exigência normativa. Excertos com elipses e tradução não identificada; não são entrada integral nem prova da prática do regime.",
     "readAt": "2026-10-07"
+  },
+  {
+    "id": "montreux-federal-program-1947",
+    "title": "Montreux Declaration — 23 August 1947, Secretariat original reproduced by CVCE 2012",
+    "url": "https://www.cvce.eu/content/publication/1999/1/1/adf279f7-80a4-4855-9215-48a5184328aa/publishable_en.pdf",
+    "locator": "PDF pp2–3 whole declaration; six principles and two action methods; source metadata p1",
+    "supports": "Transferência limitada de poderes nacionais, lei mundial direta, forças supranacionais e receita própria; reforma ONU/assembleia constituinte com ratificação popular. Prognósticos de paz não são fatos verificados.",
+    "readAt": "2026-10-07"
+  },
+  {
+    "id": "madison-federal-program-1787-1788",
+    "title": "Federalist 10/39 — Madison 1787–1788, Yale Avalon transcription",
+    "url": "https://avalon.law.yale.edu/18th_century/fed10.asp",
+    "locator": "No10 web 56–73; No39 web 47–64 https://avalon.law.yale.edu/18th_century/fed39.asp",
+    "supports": "Autoridade representativa, divisão de competências e ratificação federada. Admite representantes corruptos e decisão geral de litígios de jurisdição; não prova sucesso institucional nem inclusão universal.",
+    "readAt": "2026-10-07"
+  },
+  {
+    "id": "rousseau-direct-legislation-1762",
+    "title": "Social Contract — Rousseau 1762, G.D.H.Cole translation 1920",
+    "url": "https://www.gutenberg.org/files/46333/46333-h/46333-h.htm",
+    "locator": "Author body III.15 web 1117–1138; title/translator metadata web25–49; II.1 web580",
+    "supports": "Soberania e legislação exigem vontade/ratificação pessoal; admite representação executiva. A discussão de liberdade cidadã em sociedades escravistas não prova inclusão universal; web 1137 nega necessidade/legitimidade da escravidão. História não validada.",
+    "readAt": "2026-10-07"
+  },
+  {
+    "id": "port-huron-program-1962",
+    "title": "Port Huron Statement — SDS convention June 1962, participant archive OCR",
+    "url": "https://www.sds-1960s.org/Port HuronStatement-OCR.pdf",
+    "locator": "Introductory note PDF p1; Values pp3–5, especially p4 web 146–176; Towards American Democracy pp30–31 web 1252–1320",
+    "supports": "Participação individual em decisões políticas/econômicas, regulação democrática e participação laboral; ação por associações, partidos e mudanças públicas. Não abole toda representação nem especifica um único modelo de propriedade.",
+    "readAt": "2026-10-07",
+    "alternateUrl": "https://www.crmvet.org/info/620615_sds_huron-stmt.pdf",
+    "accessLimit": "Participant-host PDF body read by ontology researcher; root and method reviewer encountered 403 there. Root independently reopened CRMvet identical 41-page primary reprint: publication note, Values p4 and Towards American Democracy pp30–31. No whole-document verification claim."
   }
 ] as const;
 
@@ -1857,24 +1891,25 @@ export const intendedIdeologySelection = [
   },
   {
     "id": "civic-participatory-democracy",
-    "name": "Democracia participativa",
+    "name": "Democracia participativa: Port Huron, 1962",
     "family": "democratic",
     "selectionRationale": "Participação para além da eleição",
-    "reviewStatus": "provisional",
+    "reviewStatus": "referent-and-bounded-neighbor-contrast-reviewed",
     "documentedAxisCountAtSnapshot": 8,
-    "ontologyStatus": "provisional-normative-referent",
-    "contrastStatus": "not-independently-verified"
+    "ontologyStatus": "bounded-normative-referent-reviewed",
+    "contrastStatus": "bounded-primary-neighbor-contrast",
+    "ontologyLimit": "Programa de autoridade e ação coletiva localizado, não mero instrumento institucional. O catálogo mantém seu recorte original e valores; a seleção estreita o referente. Não certifica independência de todos os modelos democráticos compatíveis. Manifesto mantém partidos e representação, acrescentando participação política e econômica. Compatibilidade com deliberação ou soberania direta permanece."
   },
   {
     "id": "civic-direct-democracy",
-    "name": "Democracia direta",
+    "name": "Soberania legislativa direta: Rousseau, 1762",
     "family": "democratic",
-    "selectionRationale": "Iniciativa e decisão direta por voto",
-    "reviewStatus": "provisional",
+    "selectionRationale": "Leis dependem de ratificação pessoal do povo; execução pode ser representada. Não generalizar a todos os referendos suíços.",
+    "reviewStatus": "referent-and-bounded-neighbor-contrast-reviewed",
     "documentedAxisCountAtSnapshot": 2,
-    "ontologyStatus": "institutional-model",
-    "contrastStatus": "not-independently-verified",
-    "ontologyLimit": "Referendo e assembleia são mecanismos; precisa de justificação doutrinal em contraste com participação."
+    "ontologyStatus": "bounded-normative-referent-reviewed",
+    "contrastStatus": "bounded-primary-neighbor-contrast",
+    "ontologyLimit": "Programa de autoridade e ação coletiva localizado, não mero instrumento institucional. O catálogo mantém seu recorte original e valores; a seleção estreita o referente. Não certifica independência de todos os modelos democráticos compatíveis. III.15 admite representação executiva e discute liberdade cidadã em sociedades escravistas, mas nega explicitamente necessidade/legitimidade da escravidão em web 1137; não afirmar prática igualitária ou apoio à escravidão."
   },
   {
     "id": "civic-deliberative-democracy",
@@ -1899,24 +1934,25 @@ export const intendedIdeologySelection = [
   },
   {
     "id": "civic-federal-republicanism",
-    "name": "Federalismo republicano",
+    "name": "Federalismo republicano: Madison, 1787–1788",
     "family": "democratic",
-    "selectionRationale": "Competências federadas e separação de poderes",
-    "reviewStatus": "provisional",
+    "selectionRationale": "Representação e competências divididas justificadas como programa, além da descrição constitucional.",
+    "reviewStatus": "referent-and-bounded-neighbor-contrast-reviewed",
     "documentedAxisCountAtSnapshot": 4,
-    "ontologyStatus": "institutional-model",
-    "contrastStatus": "not-independently-verified",
-    "ontologyLimit": "Combinação de instituições não prova família doutrinária autônoma."
+    "ontologyStatus": "bounded-normative-referent-reviewed",
+    "contrastStatus": "bounded-primary-neighbor-contrast",
+    "ontologyLimit": "Programa de autoridade e ação coletiva localizado, não mero instrumento institucional. O catálogo mantém seu recorte original e valores; a seleção estreita o referente. Não certifica independência de todos os modelos democráticos compatíveis."
   },
   {
     "id": "civic-world-federalism",
-    "name": "Federalismo mundial",
+    "name": "Federalismo mundial: declaração de Montreux, 1947",
     "family": "democratic",
-    "selectionRationale": "Autoridade democrática mundial limitada",
-    "reviewStatus": "provisional",
+    "selectionRationale": "Programa mundial com poderes limitados, lei direta e ação constituinte; não apenas cooperação internacional.",
+    "reviewStatus": "referent-and-bounded-neighbor-contrast-reviewed",
     "documentedAxisCountAtSnapshot": 4,
-    "ontologyStatus": "provisional-normative-referent",
-    "contrastStatus": "not-independently-verified"
+    "ontologyStatus": "bounded-normative-referent-reviewed",
+    "contrastStatus": "bounded-primary-neighbor-contrast",
+    "ontologyLimit": "Programa de autoridade e ação coletiva localizado, não mero instrumento institucional. O catálogo mantém seu recorte original e valores; a seleção estreita o referente. Não certifica independência de todos os modelos democráticos compatíveis."
   },
   {
     "id": "ideology-developmentalism",
@@ -2443,6 +2479,27 @@ export const ideologyOverlapChecks = [
     "b": "ideology-national-conservatism",
     "relation": "imperial-expansion-and-absolute-state-versus-national-independence-and-constitutionally-limited-state",
     "rationale": "Excerto 1932 web 34–38 prescreve Estado absoluto e expansão imperial; NatCon 2022 §§1–3 defende nações independentes, rejeita dominação imperial e limita constitucionalmente o Estado. Contraste normativo efetivo, não afirmação sobre toda prática; proximidade fascismo/kokutai ainda não resolvida.",
+    "status": "bounded-primary-contrast"
+  },
+  {
+    "a": "civic-world-federalism",
+    "b": "ideology-national-conservatism",
+    "relation": "limited-world-sovereignty-transfer-versus-prohibition-of-supranational-transfer",
+    "rationale": "Montreux 1947 princípios 2–4 atribuem poderes e lei direta à federação mundial; NatCon 2022 §2 recusa transferir autoridade de governos eleitos a órgãos supranacionais. Alianças são admitidas por NatCon; não equivalem a esta transferência. Contraste de programa, não implementação nem impossibilidade de qualquer cooperação.",
+    "status": "bounded-primary-contrast"
+  },
+  {
+    "a": "civic-federal-republicanism",
+    "b": "civic-direct-democracy",
+    "relation": "representative-legislative-authority-versus-required-personal-ratification",
+    "rationale": "Madison Federalist 10 web 60–69 justifica delegação a representantes; Rousseau III.15 web 1126 exige ratificação pessoal de cada lei. Rousseau web 1131 admite representação executiva: distinção é legislativa, não proibição de todos os agentes. Madison 39 explicita competências divididas, não federalismo só nominal. Tradicional exclusão e escravidão não são omitidas.",
+    "status": "bounded-primary-contrast"
+  },
+  {
+    "a": "civic-participatory-democracy",
+    "b": "libertarianism",
+    "relation": "democratic-economic-participation-and-public-regulation-versus-unrestricted-private-enterprise",
+    "rationale": "Port Huron Values p4 e programa p31 exigem participação laboral, regulação independente e combinações de propriedade pública; LP §§2.1/2.8 rejeita limites governamentais de propriedade/uso e participação pública em empresas. Port Huron ainda usa partidos/representação; o contraste econômico não estabelece exclusividade frente a democracia direta ou deliberativa.",
     "status": "bounded-primary-contrast"
   }
 ] as const;
@@ -4416,6 +4473,26 @@ export const ideologyOntologyReviewGroups = [
       "gic-production-1930",
       "fascism-1932-fordham-excerpt",
       "natcon-principles-2022"
+    ],
+    "reviewedOn": "2026-10-07"
+  },
+  {
+    "id": "democratic-authority-and-participation-programs",
+    "selectedIds": [
+      "civic-world-federalism",
+      "civic-federal-republicanism",
+      "civic-direct-democracy",
+      "civic-participatory-democracy"
+    ],
+    "status": "three-bounded-two-sided-primary-contrasts",
+    "scope": "World sovereignty, representative versus personally ratified legislation, and democratic economic participation. Normative texts supplement instrument/snapshot referents; compatible democratic nesting remains unresolved.",
+    "sourceIds": [
+      "montreux-federal-program-1947",
+      "madison-federal-program-1787-1788",
+      "rousseau-direct-legislation-1762",
+      "port-huron-program-1962",
+      "natcon-principles-2022",
+      "lp-ontology-finance"
     ],
     "reviewedOn": "2026-10-07"
   }
