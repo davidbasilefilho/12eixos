@@ -34,8 +34,8 @@
     ],
     "provenance": "Executed before local data corrections in this recovery checkpoint; not recomputed from unavailable prior Library checkpoint."
   },
-  "headCommitAtAudit": "7ac1679e01c16684d34dce2498d59b35fd4846e6",
-  "integratedCatalogSha256": "e4ac56ed76dc59f854c90d6c4754b0670ed47f222af81aea1761921404547f9d",
+  "headCommitAtAudit": "80486be9a7cb665e719ae08968591e0609f91f29",
+  "integratedCatalogSha256": "6b2e811d16825701c5f58bcd43f442eb7d04da822944d9c6dcf2c3b6a364e879",
   "scope": "Integrated working-tree catalog after preparation; fixed remote baseline and current HEAD are provenance, not immutable copies of modified files.",
   "evidenceGate": {
     "minimumAxes": 6,
@@ -52,10 +52,10 @@
     "Expansion preparation has already centered and removed unsupported axes; this inventory does not recover discarded raw estimates."
   ],
   "totalTarget": 675,
-  "totalRecords": 611,
-  "structurallyEligible": 76,
-  "insufficientEvidence": 535,
-  "summedCategoryIdentityGap": 195,
+  "totalRecords": 639,
+  "structurallyEligible": 77,
+  "insufficientEvidence": 562,
+  "summedCategoryIdentityGap": 167,
   "categories": [
     {
       "category": "country",
@@ -70,32 +70,32 @@
     {
       "category": "historical-country",
       "target": 150,
-      "records": 107,
+      "records": 115,
       "structurallyEligible": 0,
-      "insufficientEvidence": 107,
-      "missingIdentitiesBeforeSemanticReview": 43,
+      "insufficientEvidence": 115,
+      "missingIdentitiesBeforeSemanticReview": 35,
       "preservedExcess": 0,
       "missingEligibleToTarget": 150
     },
     {
       "category": "public-figure",
       "target": 150,
-      "records": 69,
+      "records": 79,
       "structurallyEligible": 18,
-      "insufficientEvidence": 51,
-      "missingIdentitiesBeforeSemanticReview": 81,
+      "insufficientEvidence": 61,
+      "missingIdentitiesBeforeSemanticReview": 71,
       "preservedExcess": 0,
       "missingEligibleToTarget": 132
     },
     {
       "category": "historical-figure",
       "target": 150,
-      "records": 79,
-      "structurallyEligible": 20,
-      "insufficientEvidence": 59,
-      "missingIdentitiesBeforeSemanticReview": 71,
+      "records": 89,
+      "structurallyEligible": 21,
+      "insufficientEvidence": 68,
+      "missingIdentitiesBeforeSemanticReview": 61,
       "preservedExcess": 0,
-      "missingEligibleToTarget": 130
+      "missingEligibleToTarget": 129
     },
     {
       "category": "ideology",
@@ -14385,6 +14385,703 @@
       "sourceUrls": [
         "https://www.marxists.org/reference/archive/kropotkin-peter/1892/bread.htm",
         "https://www.gutenberg.org/ebooks/23428"
+      ]
+    },
+    {
+      "id": "iceland-kingdom-1918",
+      "name": "Islândia — reino em união pessoal",
+      "aliases": [
+        "Kingdom of Iceland"
+      ],
+      "kind": "country",
+      "category": "historical-country",
+      "period": "Reino soberano em união pessoal, 1/12/1918–1944; âncora exclusivamente na Lei de União de 30/11/1918",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "dip"
+      ],
+      "directionalAxes": [
+        "dip"
+      ],
+      "sourceCount": 1,
+      "sourceUrls": [
+        "https://danmarkshistorien.lex.dk/Dansk-Islandsk_Forbundslov,_30._november_1918"
+      ]
+    },
+    {
+      "id": "south-africa-union-1910",
+      "name": "África do Sul — União",
+      "aliases": [
+        "Union of South Africa"
+      ],
+      "kind": "country",
+      "category": "historical-country",
+      "period": "União de 1910–1961; recorte fundador: South Africa Act original de 20/9/1909, não toda a política posterior",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "est",
+        "rep"
+      ],
+      "directionalAxes": [
+        "est",
+        "rep"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.legislation.gov.uk/ukpga/Edw7/9/9/pdfs/ukpga_19090009_en.pdf",
+        "https://thepresidency.gov.za/history"
+      ]
+    },
+    {
+      "id": "burma-parliamentary-union-1948",
+      "name": "Birmânia — União parlamentar",
+      "aliases": [
+        "Union of Burma 1948",
+        "Myanmar parlamentar"
+      ],
+      "kind": "country",
+      "category": "historical-country",
+      "period": "União independente de4/1/1948 até ruptura2/3/1962; carta24/9/1947; inclui governo provisório1958–1960 sem presumir competição contínua",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "rep",
+        "eco",
+        "con"
+      ],
+      "directionalAxes": [
+        "rep",
+        "eco",
+        "con"
+      ],
+      "sourceCount": 3,
+      "sourceUrls": [
+        "https://www.crteducazione.org/wp-content/uploads/2025/03/MMR_Constitution_1947_EN.pdf",
+        "https://www.burmalibrary.org/en/category/national-constitutions-draft-constitutions-amendments-and-announcements-texts",
+        "https://history.state.gov/historicaldocuments/frus1961-63v23/d49"
+      ]
+    },
+    {
+      "id": "ceylon-dominion-1948",
+      "name": "Ceilão — domínio independente",
+      "aliases": [
+        "Dominion of Ceylon"
+      ],
+      "kind": "country",
+      "category": "historical-country",
+      "period": "Domínio independente de 1948–1972; recorte textual dos Orders1946/1947 em compilação com alterações de1954 e notas futuras de1966",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "rep"
+      ],
+      "directionalAxes": [
+        "rep"
+      ],
+      "sourceCount": 5,
+      "sourceUrls": [
+        "https://lankalaw.net/wp-content/uploads/2025/02/1956Y11V379C.html",
+        "https://lankalaw.net/wp-content/uploads/2025/02/1956Y11V377C-1.html",
+        "https://www.parliament.lk/en/home/parliament-news/view/1416",
+        "https://www.parliament.lk/files/pdf/cpc/nb_20120909.pdf",
+        "https://archives.gov.lk/online-exhibits/path-to-freedom/republic"
+      ]
+    },
+    {
+      "id": "iraq-kingdom-1921",
+      "name": "Iraque — reino",
+      "aliases": [
+        "Kingdom of Iraq"
+      ],
+      "kind": "country",
+      "category": "historical-country",
+      "period": "Reino de1921–1958; recorte normativo21/3/1925 com emenda29/7/1925, não prática ou todas as revisões posteriores",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "pod",
+        "rel"
+      ],
+      "directionalAxes": [
+        "pod",
+        "rel"
+      ],
+      "sourceCount": 5,
+      "sourceUrls": [
+        "https://constitution.org/1-Constitution/cons/iraq/iraqiconst19250321.html",
+        "https://www.inis.gov.iq/rules1.html",
+        "https://history.state.gov/historicaldocuments/frus1958-60v12/d110",
+        "https://history.state.gov/historicaldocuments/frus1958-60v12/d20",
+        "https://history.state.gov/historicaldocuments/frus1958-60v12/d112"
+      ]
+    },
+    {
+      "id": "egypt-kingdom-1922",
+      "name": "Egito — reino",
+      "aliases": [
+        "Kingdom of Egypt"
+      ],
+      "kind": "country",
+      "category": "historical-country",
+      "period": "Reino1922–1953; carta1923, substituída1930 e restaurada1935; ruptura governamental1952 anterior ao término formal da Coroa",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "pod",
+        "rel"
+      ],
+      "directionalAxes": [
+        "pod",
+        "rel"
+      ],
+      "sourceCount": 3,
+      "sourceUrls": [
+        "https://constitutionnet.org/sites/default/files/1923_-_egyptian_constitution_english_1.pdf",
+        "https://constitutionnet.org/country/egypt",
+        "https://www.presidency.eg/en/%D8%A7%D9%84%D8%B1%D8%A6%D8%A7%D8%B3%D8%A9/%D9%85%D8%AA%D8%AD%D9%81-%D9%85%D8%AC%D9%84%D8%B3-%D9%82%D9%8A%D8%A7%D8%AF%D8%A9-%D8%A7%D9%84%D8%AB%D9%88%D8%B1%D8%A9/"
+      ]
+    },
+    {
+      "id": "newfoundland-commission-1934",
+      "name": "Terra Nova — Comissão de Governo",
+      "aliases": [
+        "Newfoundland Commission of Government"
+      ],
+      "kind": "country",
+      "category": "historical-country",
+      "period": "Governo comissarial16/2/1934–31/3/1949; norma habilitadora21/12/1933, seguido de incorporação como província canadense",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "rep"
+      ],
+      "directionalAxes": [
+        "rep"
+      ],
+      "sourceCount": 3,
+      "sourceUrls": [
+        "https://www.legislation.gov.uk/ukpga/Geo5/23-24/2/pdfs/ukpga_19330002_en.pdf",
+        "https://www.heritage.nf.ca/articles/politics/commission-government.php",
+        "https://www.legislation.gov.uk/ukpga/Geo6/12-13-14/22/pdfs/ukpga_19490022_en.pdf"
+      ]
+    },
+    {
+      "id": "portugal-charter-monarchy-1826",
+      "name": "Portugal — monarquia da Carta",
+      "aliases": [
+        "Monarquia cartista portuguesa"
+      ],
+      "kind": "country",
+      "category": "historical-country",
+      "period": "Carta em vigor1826–1828,1834–1836 e1842–1910; um registro com interrupções e revisões, não governos contínuos1826–1910",
+      "structurallyEligible": false,
+      "documentedAxes": [],
+      "directionalAxes": [],
+      "sourceCount": 3,
+      "sourceUrls": [
+        "https://www.parlamento.pt/Parlamento/Paginas/guia-fundo-camara-pares-1826-1910.aspx",
+        "https://www.parlamento.pt/parlamento/documents/cartaconstitucional.pdf",
+        "https://www.parlamento.pt/Parlamento/paginas/monarquia.aspx"
+      ]
+    },
+    {
+      "id": "ricardo-flores-magon",
+      "name": "Ricardo Flores Magón",
+      "aliases": [],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "Programa coletivo do PLM, assinado em 1º de julho de 1906",
+      "structurallyEligible": true,
+      "documentedAxes": [
+        "rep",
+        "pod",
+        "dip",
+        "eco",
+        "con",
+        "rel",
+        "mor"
+      ],
+      "directionalAxes": [
+        "rep",
+        "pod",
+        "dip",
+        "eco",
+        "con",
+        "rel",
+        "mor"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.memoriapoliticademexico.org/Textos/5RepDictadura/1906PPL.html",
+        "https://inehrm.gob.mx/es/inehrm/magon"
+      ]
+    },
+    {
+      "id": "fidel-castro",
+      "name": "Fidel Castro",
+      "aliases": [],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "History Will Absolve Me, defesa de 16 de outubro de 1953",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "rep",
+        "eco",
+        "con"
+      ],
+      "directionalAxes": [
+        "rep",
+        "eco",
+        "con"
+      ],
+      "sourceCount": 3,
+      "sourceUrls": [
+        "https://stars.library.ucf.edu/prism/363/",
+        "https://www.marxists.org/history/cuba/archive/castro/1953/10/16.htm",
+        "https://www.granma.cu/hasta-la-victoria-siempre-fidel/2016-11-26/hasta-la-victoria-siempre-26-11-2016-04-11-55?page=4"
+      ]
+    },
+    {
+      "id": "mustafa-kemal-ataturk",
+      "name": "Mustafa Kemal Atatürk",
+      "aliases": [
+        "Ataturk",
+        "Mustafa Kemal"
+      ],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "Definição autoral de estatismo, data original não indicada na reprodução oficial",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "eco"
+      ],
+      "directionalAxes": [
+        "eco"
+      ],
+      "sourceCount": 5,
+      "sourceUrls": [
+        "https://atam.gov.tr/cumhuriyetcilik/",
+        "https://atam.gov.tr/devletcilik/",
+        "https://atam.gov.tr/laiklik/",
+        "https://atam.gov.tr/milliyetcilik/",
+        "https://www.anitkabir.tsk.tr/20_ingilizce/02_insaasi/anitkabir_dusuncesi.html"
+      ]
+    },
+    {
+      "id": "sukarno-1945-pancasila",
+      "name": "Sukarno",
+      "aliases": [
+        "Soekarno",
+        "Bung Karno"
+      ],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "Abertura da Conferência de Bandung, 18 de abril de 1955",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "imi",
+        "dip"
+      ],
+      "directionalAxes": [
+        "imi",
+        "dip"
+      ],
+      "sourceCount": 4,
+      "sourceUrls": [
+        "https://jdih.bpip.go.id/common/dokumen/arsiplangka-pidatosoekarno1juni1945sumberanri.pdf",
+        "https://worldjpn.net/documents/texts/docs/19550418.S1E.html",
+        "https://catalog.hathitrust.org/Record/000003706",
+        "https://mkaa.kemlu.go.id/halaman/KAA-1955"
+      ]
+    },
+    {
+      "id": "mohammad-hatta",
+      "name": "Mohammad Hatta",
+      "aliases": [
+        "Bung Hatta"
+      ],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "Artigo autoral sobre cooperativas, junho de 1956",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "eco",
+        "con"
+      ],
+      "directionalAxes": [
+        "eco",
+        "con"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.theatlantic.com/magazine/archive/1956/06/facets-of-indonesias-economy-the-special-place-of-co-operatives/640603/",
+        "https://jdih.kpu.go.id/blog/read/24985/jejak-perjuangan-dan-pemikiran-drs-mohammad-hatta-dalam-membangun-negara-hukum"
+      ]
+    },
+    {
+      "id": "vladimir-lenin",
+      "name": "Vladimir Lenin",
+      "aliases": [
+        "Vladimir Ilyich Ulyanov",
+        "V. I. Lenin"
+      ],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "State and Revolution, capítulo V, transição socialista proposta em agosto–setembro de 1917",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "rep",
+        "pod",
+        "eco",
+        "con"
+      ],
+      "directionalAxes": [
+        "rep",
+        "pod",
+        "eco",
+        "con"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.marxists.org/archive/lenin/works/1917/staterev/ch05.htm",
+        "https://archive.org/details/arbayerunfrayhay00leni"
+      ]
+    },
+    {
+      "id": "leon-trotsky",
+      "name": "Leon Trotsky",
+      "aliases": [
+        "Lev Davidovich Bronstein"
+      ],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "The Permanent Revolution, conclusões da edição de 1931",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "rep"
+      ],
+      "directionalAxes": [
+        "rep"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.marxists.org/archive/trotsky/1931/tpr/pr10.htm",
+        "https://archive.org/details/novyietap01trot"
+      ]
+    },
+    {
+      "id": "clr-james",
+      "name": "C. L. R. James",
+      "aliases": [
+        "Cyril Lionel Robert James",
+        "CLR James"
+      ],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "Every Cook Can Govern, junho de1956",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "rep",
+        "pod"
+      ],
+      "directionalAxes": [
+        "rep",
+        "pod"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.marxists.org/archive/james-clr/works/1956/06/every-cook.htm",
+        "https://archive.org/details/youdontplaywithr0000jame"
+      ]
+    },
+    {
+      "id": "jose-carlos-mariategui",
+      "name": "José Carlos Mariátegui",
+      "aliases": [
+        "El Amauta"
+      ],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "Seven Interpretative Essays, ensaios2–3,1928",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "imi",
+        "eco",
+        "mor"
+      ],
+      "directionalAxes": [
+        "imi",
+        "eco",
+        "mor"
+      ],
+      "sourceCount": 3,
+      "sourceUrls": [
+        "https://www.marxists.org/archive/mariateg/works/7-interpretive-essays/essay02.htm",
+        "https://www.cervantesvirtual.com/obras/autor/mariategui-jose-carlos-1894-1930-10223",
+        "https://www.marxists.org/archive/mariateg/works/7-interpretive-essays/essay03.htm"
+      ]
+    },
+    {
+      "id": "harriet-taylor-mill",
+      "name": "Harriet Taylor Mill",
+      "aliases": [
+        "Harriet Hardy Taylor Mill"
+      ],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "Enfranchisement of Women, julho de1851, reimpressão de1868",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "rep",
+        "pod",
+        "mor"
+      ],
+      "directionalAxes": [
+        "rep",
+        "pod",
+        "mor"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.gutenberg.org/cache/epub/73404/pg73404-images.html",
+        "https://www.gutenberg.org/ebooks/73404"
+      ]
+    },
+    {
+      "id": "ellen-johnson-sirleaf",
+      "name": "Ellen Johnson Sirleaf",
+      "aliases": [],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "2025-08-10; data de publicação no índice do próprio centro; dia do evento não certificado",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "eco",
+        "mor",
+        "tec"
+      ],
+      "directionalAxes": [
+        "eco",
+        "mor",
+        "tec"
+      ],
+      "sourceCount": 3,
+      "sourceUrls": [
+        "https://digitallibrary.un.org/record/583259/files/A_61_PV.11-EN.pdf",
+        "https://ejscenter.org/ejs-center-founders-closing-remarks-at-the-africa-health-sovereignty-summit/",
+        "https://ejscenter.org/former-president-ellen-johnson-sirleafs-nine-powers-of-leadership-set-a-blueprint-for-amujae-leaders-at-the-2026-amujae-leadership-forum-in-monrovia/"
+      ]
+    },
+    {
+      "id": "leymah-gbowee",
+      "name": "Leymah Gbowee",
+      "aliases": [],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "2020-02-11",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "imi",
+        "mor"
+      ],
+      "directionalAxes": [
+        "imi",
+        "mor"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.nelsonmandela.org/uploads/files/Speech-Lemayah-Gbowee.pdf",
+        "https://www.moys.gov.lr/index.php/media/press-releases/mys-gbowee-peace-foundation-explore-collaboration-youth-peace-and-security"
+      ]
+    },
+    {
+      "id": "kailash-satyarthi",
+      "name": "Kailash Satyarthi",
+      "aliases": [],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "2014-12-10; PDF hospedado pelo gabinete em diretório 2025/03 não atualiza o discurso",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "mor"
+      ],
+      "directionalAxes": [
+        "mor"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.kailashsatyarthi.net/wp-content/uploads/2025/03/Nobel1.pdf",
+        "https://satyarthimovement.org/sss/"
+      ]
+    },
+    {
+      "id": "jose-ramos-horta",
+      "name": "José Ramos-Horta",
+      "aliases": [
+        "José Manuel Ramos-Horta",
+        "Jose Ramos Horta"
+      ],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "1997-08-23; versão de artigo hospedada no International Journal of Peace Studies; dia editorial não indicado",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "rep",
+        "pod",
+        "imi",
+        "dip",
+        "eco"
+      ],
+      "directionalAxes": [
+        "rep",
+        "pod",
+        "imi",
+        "dip",
+        "eco"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www3.gmu.edu/programs/icar/ijps/vol4_1/ramos_ho.htm",
+        "https://en.tatoli.tl/2026/09/24/remarks-by-president-ramos-horta-at-the-81st-session-united-nations-general-assembly/12/"
+      ]
+    },
+    {
+      "id": "anthony-albanese",
+      "name": "Anthony Albanese",
+      "aliases": [],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "2026-06-05",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "eco",
+        "con",
+        "com",
+        "tec"
+      ],
+      "directionalAxes": [
+        "eco",
+        "con",
+        "com",
+        "tec"
+      ],
+      "sourceCount": 1,
+      "sourceUrls": [
+        "https://www.pm.gov.au/media/australias-economic-outlook-2026"
+      ]
+    },
+    {
+      "id": "christopher-luxon",
+      "name": "Christopher Luxon",
+      "aliases": [],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "2025-04-10 e 2026-09-27; cada eixo usa seu próprio documento",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "pod",
+        "con",
+        "com"
+      ],
+      "directionalAxes": [
+        "pod",
+        "con",
+        "com"
+      ],
+      "sourceCount": 3,
+      "sourceUrls": [
+        "https://www.beehive.govt.nz/speech/speech-foreign-affairs-and-trade",
+        "https://www.national.org.nz/news/260927-christopherluxon",
+        "https://www.national.org.nz/news/260927-christopherluxon"
+      ]
+    },
+    {
+      "id": "keir-starmer",
+      "name": "Keir Starmer",
+      "aliases": [],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "2026-06-08",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "con",
+        "tec"
+      ],
+      "directionalAxes": [
+        "con",
+        "tec"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.gov.uk/government/speeches/prime-ministers-speech-at-london-tech-week-2026",
+        "https://www.gov.uk/government/speeches/keir-starmers-final-speech-as-prime-minister-20-july-2026"
+      ]
+    },
+    {
+      "id": "bassirou-diomaye-faye",
+      "name": "Bassirou Diomaye Faye",
+      "aliases": [],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "2026-07-21",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "con",
+        "tec"
+      ],
+      "directionalAxes": [
+        "con",
+        "tec"
+      ],
+      "sourceCount": 1,
+      "sourceUrls": [
+        "https://www.presidence.sn/fr/actualites/souverainete-alimentaire-le-president-bassirou-diomaye-faye-appelle-a-un-pacte-national-fonde-sur-la-science-et-linnovation/"
+      ]
+    },
+    {
+      "id": "john-mahama",
+      "name": "John Mahama",
+      "aliases": [
+        "John Dramani Mahama"
+      ],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "2026-10-03",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "eco",
+        "con",
+        "com"
+      ],
+      "directionalAxes": [
+        "eco",
+        "con",
+        "com"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://presidency.gov.gh/president-mahama-inaugurates-independent-fiscal-council-to-drive-transparency-and-economic-discipline/",
+        "https://presidency.gov.gh/speech-alamein-africa-forum-keynote-address-on-investing-in-health-manufacturing-and-regional-value-chain/"
+      ]
+    },
+    {
+      "id": "bola-ahmed-tinubu",
+      "name": "Bola Ahmed Tinubu",
+      "aliases": [
+        "Bola Tinubu"
+      ],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "2026-10-01",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "eco",
+        "con",
+        "tec"
+      ],
+      "directionalAxes": [
+        "eco",
+        "con",
+        "tec"
+      ],
+      "sourceCount": 1,
+      "sourceUrls": [
+        "https://statehouse.gov.ng/from-reform-to-prosperity-independence-day-address-to-the-nation-by-his-excellency-president-bola-ahmed-tinubu-gcfr-1st-october-2026/"
       ]
     },
     {
