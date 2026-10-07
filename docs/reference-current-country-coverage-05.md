@@ -1,0 +1,40 @@
+# Ampliação de cobertura de oito países existentes — lote 05
+
+Revisão de 7/10/2026. Oito eixos adicionais em oito identidades existentes, sem novos países. Cada perfil passa de cinco para seis eixos documentados **após a reconciliação 04**, respeitando a cobertura parcial de cada construto. Isso permite elegibilidade estrutural; não significa perfil completo, medição percentual ou verificação de todas as políticas. Revisão independente concluída com o alcance abaixo e integração aceita pelo Root na árvore de trabalho local; sem publicação.
+
+| ID | Novo eixo | Fonte e recorte |
+|---|---|---|
+| united-states | eco60 | VA, provisão médica direta, declaração 2/6/2026 |
+| japan | com40 | MOFA, promoção de EPA/FTA, declaração 10/4/2026 |
+| south-africa | imi40 | direitos culturais/linguísticos, edição constitucional até 2012 |
+| france | com40 | união aduaneira da UE, explicação institucional consultada em 2026 |
+| malta-current-2025 | com40 | mesmo regime, pertencimento confirmado separadamente |
+| indonesia | com40 | melhoria bilateral de acesso a mercados, notas de 26/6/2026 |
+| turkey | com40 | liberalização industrial UE–Türkiye; exceções setoriais explícitas |
+| andorra-current-2025 | com40 | regime descrito em 2021 e autorização de acordo em julho de 2026 |
+
+## Evidências efetivamente abertas
+
+- [VA, About VHA](https://department.va.gov/vha/about-us/): identifica operador federal, centros/clínicas, profissionais próprios e serviços. Atualização de 2/6/2026. Veteranos são um recorte específico, não toda a saúde ou propriedade da economia americana; nenhuma proporção nacional foi inferida.
+- [MOFA, EPA/FTA](https://www.mofa.go.jp/policy/economy/fta/index.html): promoção explícita de liberalização de comércio/investimento. Atualização de 10/4/2026. Listas distinguem assinados/vigentes, negociação e suspensão; não se considera cada acordo da primeira lista executado.
+- [África do Sul, PDF oficial](https://www.justice.gov.za/constitution/SAConstitution-web-eng.pdf): artigos 30–31, página 16 do PDF, reabertos. Edição até 2012 explicitamente histórica; uso da língua, cultura e associações próprias, limitado pelo Bill of Rights. Não certifica vigência pós-2012, prática ou abertura migratória.
+- [UE, funcionamento aduaneiro](https://european-union.europa.eu/priorities-and-actions/actions-topic/customs_en): primeiros três parágrafos identificam ausência de direitos internos e tarifa externa comum. [França](https://european-union.europa.eu/principles-countries-history/eu-countries/france_en) e [Malta](https://european-union.europa.eu/principles-countries-history/eu-countries/malta_en): pertencimento confirmado nos respectivos perfis. Páginas sem data editorial consultadas em 2026; barreiras externas e regimes territoriais não desaparecem. A união europeia não é inferida como política nacional em dimensões alheias ao regime comum. TFUE integral retornou timeout; esse acesso falho não é apresentado como leitura bem-sucedida.
+- [MOFA, notas Japão–Indonésia](https://www.mofa.go.jp/press/release/pressite_000001_02465.html): parágrafo inicial e item 1, 26/6/2026, melhor acesso a mercados e entrada anunciada para 1/8/2026. Não certifica execução posterior ou toda política mundial de comércio. [Declaração conjunta de 2023](https://www.mofa.go.jp/files/100595763.pdf) e [índice atualizado em agosto de 2026](https://www.mofa.go.jp/policy/economy/fta/indonesia.html) também abertos, como contexto.
+- [Comissão Europeia, Türkiye](https://policy.trade.ec.europa.eu/eu-trade-relationships-country-and-region/countries-and-regions/turkiye_en): regime industrial, concessões agrícolas e extensão ainda proposta a serviços/compras públicas. Página sem data editorial, com dados de 2025, consultada em 2026. Estatísticas não viram scores; defesa comercial e limites do acordo permanecem contraevidência.
+- [EEAS, Andorra](https://www.eeas.europa.eu/topic-page/european-union-and-principality-andorra_en): relações comerciais documentadas em 24/11/2021, escopo industrial e entrada agrícola na UE. [Conselho, 16/7/2026](https://www.consilium.europa.eu/en/press/press-releases/2026/07/16/council-greenlights-eu-deal-with-andorra-and-san-marino/): autoriza assinatura/aplicação provisória, descreve mercado ampliado e condições financeiras; **Next steps** prevê atos posteriores. Não comprova assinatura, ratificação ou início da aplicação. Artigos 28/32 da [Constituição oferecida pelo Parlamento](https://www.consellgeneral.ad/fitxers/documents/constitucio/const-en) foram relidos, mas con continua desconhecido: empresa privada e permissão genérica de intervenção não provam predominância operacional.
+
+## Preservação e validação
+
+`currentCountryCoverage05OriginalBefore` guarda objetos originais: bloco literal base para seis registros e objetos gerados do lote 03 antes da preparação para Andorra/Malta. `currentCountryCoverage05LiveBefore` guarda os oito objetos realmente integrados na captura; Indonésia/Turquia ainda carregavam a camada anterior à reconciliação 04. `currentCountryCoverage05ExpectedAfterPriorRepair04` é uma projeção declarada, separada do LIVE real. Nenhuma camada é rebatizada para sugerir que uma integração futura ocorreu.
+
+`extendCurrentCountryCoverage05` foi integrada **depois de `reconcileCurrentCountry04`**. A função preserva fontes, vetores e codificações já auditadas e acrescenta apenas o eixo novo. Recusa avanço quando o registro ainda contém evidência sem codificação ordinal, para que ordem errada não gere um perfil parcialmente auditado. Desconhecidos continuam 50 sem evidência; nenhum eixo existente é substituído.
+
+TypeScript sem emissão passou. Check Bun passou: oito IDs e três camadas de origem, preservação de objetos de fontes e codificações anteriores, oito novos eixos, desconhecidos sem evidência, recusa de aplicação sobre baselines não auditadas e composição após a reconciliação 04. Sem Git, push, merge, publicação ou deploy pelo pesquisador.
+
+## Revisão independente delimitada
+
+Em 7/10/2026, o revisor independente examinou as oito alegações, construtos, datas, ressalvas e três camadas de preservação. Reabriu e leu efetivamente VA (provisão e profissionais, atualização 2/6/2026), MOFA EPA/FTA (10/4/2026), MOFA notas Japão–Indonésia (26/6/2026), união aduaneira e perfis França/Malta, Comissão Europeia Türkiye (liberalização industrial e limites setoriais) e Conselho Andorra/San Marino (autorização, condições e etapas futuras, julho de 2026). O PDF sul-africano abriu com a capa que explicita emendas até 2012, mas a releitura dos artigos 30–31 falhou por timeout; a captura não produziu imagem inspecionável e a tentativa local recebeu HTTP 403. A página EEAS Andorra de 2021 não abriu nessa releitura (erro interno/HTTP 429). Esses dois trechos foram avaliados quanto ao construto e ao registro da leitura anterior pelo autor, sem alegar segunda leitura independente bem-sucedida. O Root informou sua leitura efetiva separada de EEAS 2021.
+
+A composição sobre o catálogo após a reconciliação 04 foi verificada no Bun: oito perfis de cinco para seis eixos, sem perda de fontes anteriores, substituição de codificações ou desconhecidos pontuados. A repetição inicialmente duplicava período/ressalvas; o reparo retorna o perfil já coberto sem reanexar metadados. O teste de regressão verifica igualdade integral na repetição, preservação e recusa de baseline não auditada. Corrigiu-se também a ressalva de Malta que copiava indevidamente referência a territórios franceses. O limiar de seis eixos com evidência média/alta, fonte mapeada e razão permaneceu inalterado; elegibilidade estrutural não é prova de perfil completo ou política realizada.
+
+Após integrar este lote e a recodificação de três figuras históricas, o Root informou 611 registros e 76 elegíveis (13 países atuais, zero países históricos, 18 figuras públicas, 20 figuras históricas e 25 ideologias), auditoria sem eixos legados não fundamentados ou erros estruturais e suite de 31 testes passando, zero falhas, 66.479 asserções. Contagens de checkpoint parcial local, não conclusão da meta de 675 perfis selecionados.

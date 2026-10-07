@@ -31,6 +31,8 @@ import { reconcileCurrentCountry04 } from './reference-current-country-reconcili
 import { reconcileHistoricalCountry04 } from './reference-historical-country-reconciliation-04';
 import { publicFigureBatch04 } from './reference-public-figure-batch-04';
 import { historicalFigureBatch04 } from './reference-historical-figure-batch-04';
+import { extendCurrentCountryCoverage05 } from './reference-current-country-coverage-05';
+import { historicalLegacyRecoding } from './reference-historical-legacy-recoding';
 
 export const AXIS_KEYS = ['est', 'rep', 'pod', 'imi', 'dip', 'int', 'eco', 'con', 'com', 'rel', 'mor', 'tec'] as const;
 export type AxisKey = (typeof AXIS_KEYS)[number];
@@ -547,4 +549,5 @@ export const referenceExpansionEntries: ReferenceEntry[] = [
 export const referenceEntries: ReferenceEntry[] = [
   ...correctedBaseReferenceEntries,
   ...referenceExpansionEntries,
-].map(reconcileHistoricalCountry03).map(reconcileCurrentCountry04).map(reconcileHistoricalCountry04).map(reconcileSoros).map(withIdentityAliases);
+].map(reconcileHistoricalCountry03).map(reconcileCurrentCountry04).map(extendCurrentCountryCoverage05).map(reconcileHistoricalCountry04).map(reconcileSoros)
+  .map(entry => historicalLegacyRecoding.find(replacement => replacement.id === entry.id) ?? entry).map(withIdentityAliases);
