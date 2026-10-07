@@ -34,8 +34,8 @@
     ],
     "provenance": "Executed before local data corrections in this recovery checkpoint; not recomputed from unavailable prior Library checkpoint."
   },
-  "headCommitAtAudit": "bb746ca3698b7d3e805caa788e2b2544895f9ce2",
-  "integratedCatalogSha256": "2af167e16cefe348bf0186b8a7065b64a29bba6a939117718fc05489ad254744",
+  "headCommitAtAudit": "8bf4e2a3a9b78ad7a91c468b4bb84d564f8dd7c9",
+  "integratedCatalogSha256": "4b4362fc74622cfbd59cfa3f501f5ffed70177ddccbf8179f06d10527eff744e",
   "scope": "Integrated working-tree catalog after preparation; fixed remote baseline and current HEAD are provenance, not immutable copies of modified files.",
   "evidenceGate": {
     "minimumAxes": 6,
@@ -109,10 +109,6 @@
     }
   ],
   "structuralProblems": [
-    {
-      "id": "christian-democracy",
-      "issue": "unsupported-direction:pod"
-    },
     {
       "id": "friedrich-hayek",
       "issue": "unsupported-direction:rep"
@@ -901,7 +897,7 @@
       "aliases": [],
       "kind": "ideology",
       "category": "ideology",
-      "period": "Princípios da Internacional Socialista, 1989",
+      "period": "Declaração de Estocolmo, junho de 1989",
       "structurallyEligible": true,
       "documentedAxes": [
         "rep",
@@ -910,8 +906,7 @@
         "dip",
         "eco",
         "con",
-        "mor",
-        "tec"
+        "mor"
       ],
       "directionalAxes": [
         "rep",
@@ -920,12 +915,12 @@
         "dip",
         "eco",
         "con",
-        "mor",
-        "tec"
+        "mor"
       ],
-      "sourceCount": 1,
+      "sourceCount": 2,
       "sourceUrls": [
-        "https://www.socialistinternational.org/about-us/declaration-of-principles/"
+        "https://www.socialistinternational.org/about-us/declaration-of-principles/",
+        "https://www.socialistinternational.org/our-meetings/congresses/xviii-stockholm/declaration-of-principles-of-the-socialist-international/"
       ]
     },
     {
@@ -934,7 +929,7 @@
       "aliases": [],
       "kind": "ideology",
       "category": "ideology",
-      "period": "Princípios da Internacional Socialista, 1951–1989",
+      "period": "Declaração de Frankfurt, 30/06–03/07/1951",
       "structurallyEligible": true,
       "documentedAxes": [
         "rep",
@@ -943,8 +938,7 @@
         "dip",
         "eco",
         "con",
-        "mor",
-        "tec"
+        "mor"
       ],
       "directionalAxes": [
         "rep",
@@ -953,13 +947,13 @@
         "dip",
         "eco",
         "con",
-        "mor",
-        "tec"
+        "mor"
       ],
-      "sourceCount": 2,
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.socialistinternational.org/our-meetings/congresses/i-frankfurt/",
-        "https://www.socialistinternational.org/about-us/declaration-of-principles/"
+        "https://www.socialistinternational.org/about-us/declaration-of-principles/",
+        "https://www.socialistinternational.org/our-meetings/congresses/i-frankfurt/"
       ]
     },
     {
@@ -968,15 +962,14 @@
       "aliases": [],
       "kind": "ideology",
       "category": "ideology",
-      "period": "Manifesto Liberal de Andorra, 2017",
+      "period": "Manifesto de Andorra, 20/05/2017",
       "structurallyEligible": true,
       "documentedAxes": [
         "rep",
         "pod",
         "imi",
-        "eco",
-        "con",
         "com",
+        "rel",
         "mor",
         "tec"
       ],
@@ -984,15 +977,15 @@
         "rep",
         "pod",
         "imi",
-        "eco",
-        "con",
         "com",
+        "rel",
         "mor",
         "tec"
       ],
-      "sourceCount": 1,
+      "sourceCount": 2,
       "sourceUrls": [
-        "https://liberal-international.org/who-we-are/our-mission/landmark-documents/political-manifestos/liberal-manifesto-2017/"
+        "https://liberal-international.org/who-we-are/our-mission/landmark-documents/political-manifestos/liberal-manifesto-2017/",
+        "https://liberal-international.org/wp-content/uploads/2018/03/Andorra-Liberal-Manifesto-2017-FINAL.pdf"
       ]
     },
     {
@@ -1001,7 +994,7 @@
       "aliases": [],
       "kind": "ideology",
       "category": "ideology",
-      "period": "Plataforma do Libertarian Party, edição consultada em 2026",
+      "period": "Plataforma do Libertarian Party, página consultada em 07/10/2026",
       "structurallyEligible": true,
       "documentedAxes": [
         "rep",
@@ -1010,7 +1003,9 @@
         "int",
         "eco",
         "con",
-        "com"
+        "com",
+        "rel",
+        "mor"
       ],
       "directionalAxes": [
         "rep",
@@ -1019,10 +1014,13 @@
         "int",
         "eco",
         "con",
-        "com"
+        "com",
+        "rel",
+        "mor"
       ],
-      "sourceCount": 1,
+      "sourceCount": 2,
       "sourceUrls": [
+        "https://lp.org/platform-page/",
         "https://lp.org/platform-page/"
       ]
     },
@@ -1032,13 +1030,15 @@
       "aliases": [],
       "kind": "ideology",
       "category": "ideology",
-      "period": "Carta Global Greens, 2023",
+      "period": "Carta Global Greens, atualização da Coreia, 2023",
       "structurallyEligible": true,
       "documentedAxes": [
         "est",
         "rep",
+        "pod",
         "imi",
         "dip",
+        "eco",
         "con",
         "mor",
         "tec"
@@ -1046,8 +1046,10 @@
       "directionalAxes": [
         "est",
         "rep",
+        "pod",
         "imi",
         "dip",
+        "eco",
         "con",
         "mor",
         "tec"
@@ -1067,21 +1069,18 @@
       "structurallyEligible": true,
       "documentedAxes": [
         "rep",
+        "pod",
         "dip",
-        "eco",
+        "int",
         "com",
-        "rel",
-        "mor",
         "tec"
       ],
       "directionalAxes": [
         "rep",
         "pod",
         "dip",
-        "eco",
+        "int",
         "com",
-        "rel",
-        "mor",
         "tec"
       ],
       "sourceCount": 1,

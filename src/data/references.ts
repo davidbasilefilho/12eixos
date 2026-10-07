@@ -11,6 +11,7 @@ import { historicalCountriesAdditionalExpansion } from './reference-countries-ad
 import { legacyReferenceCorrections } from './reference-legacy-corrections';
 import { currentCountryBatch, currentCountryBatchCoding } from './reference-current-country-batch';
 import { reconcileCurrentCountry } from './reference-current-country-reconciliation';
+import { reconcileLegacy02 } from './reference-legacy-reconciliation-02';
 import { publicFigureBatch } from './reference-public-figure-batch';
 import { historicalFigureBatch } from './reference-historical-figure-batch';
 import { historicalCountryBatch } from './reference-historical-country-batch';
@@ -467,7 +468,7 @@ const correctedBaseReferenceEntries = baseReferenceEntries.map((entry) => {
     evidence: { ...entry.evidence, ...correction.evidence },
     axisEvidence: { ...entry.axisEvidence, ...correction.axisEvidence },
   };
-}).map(reconcileCurrentCountry);
+}).map(reconcileCurrentCountry).map(reconcileLegacy02);
 
 const identityAliasesById: Partial<Record<string, string[]>> = {
   'nelson-mandela': ['Rolihlahla Mandela'],
