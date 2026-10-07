@@ -6,10 +6,10 @@ export const ideologySelectionSnapshot = {
   "catalogCount": 206,
   "intendedSubsetCount": 75,
   "readyForDefaultUse": false,
-  "boundedReviewedReferents": 22,
+  "boundedReviewedReferents": 28,
   "referentCountScope": "Unique selected IDs reviewed in the ontology sequence; prior LP reading was additionally reopened for §§2.1/2.4. Combahee remains an additionally reviewed alternative; modern Leopold explanation alone is excluded from the primary-referent count.",
   "independent75Verified": false,
-  "boundedTwoSidedContrasts": 13
+  "boundedTwoSidedContrasts": 17
 } as const;
 
 export const ideologyInclusionDefinition = {
@@ -977,6 +977,54 @@ export const ideologySelectionSources = [
     "locator": "Chapter XIII; Chapter I §§1–3 companion https://www.marxists.org/subject/left-wing/gik/1930/01.htm",
     "supports": "Autoadministração por conselhos produtivos em lugar do Estado administrador; propriedade social, fim dos mercados e disciplina contábil comum. O texto admite coerção econômica sobre estabelecimentos não associados; não é ausência de autoridade coletiva.",
     "readAt": "2026-10-07"
+  },
+  {
+    "id": "kropotkin-bread-ontology",
+    "title": "The Conquest of Bread — 1892 French work, 1926 English edition digitized",
+    "url": "https://www.marxists.org/reference/archive/kropotkin-peter/1892/bread.htm",
+    "locator": "Chapter 3 §§3.1–3.2; Chapter 13 §§13.1–13.3; 1913 preface excluded from1892 attribution",
+    "supports": "Meios produtivos comuns e distribuição segundo necessidades, sem salário, articulados à associação sem governo. A crítica a coletivistas estatais não é automaticamente atribuída ao programa de Bakunin.",
+    "readAt": "2026-10-07"
+  },
+  {
+    "id": "proudhon-property-conclusion",
+    "title": "What Is Property? — Proudhon 1840, translated primary text",
+    "url": "https://www.marxists.org/reference/subject/economics/proudhon/property/ch05.htm",
+    "locator": "Chapter V final conclusion propositions I,VI–X; footnote 4 scope limitation",
+    "supports": "Posse individual, equivalência de produtos trocados e associação livre com igualdade normativa. Contrasta com distribuição sem equivalência individual salarial em Kropotkin. A exclusão sexista na nota 4 impede generalização emancipatória para todos os grupos.",
+    "readAt": "2026-10-07"
+  },
+  {
+    "id": "tucker-competitive-capital",
+    "title": "Instead of a Book — Tucker 1893 collection, second edition 1897 transcription",
+    "url": "https://theanarchistlibrary.org/library/benjamin-tucker-instead-of-a-book",
+    "locator": "Opening State Socialism and Anarchism essay: voluntary association, capital competition, four monopolies and occupancy/cultivation paragraphs",
+    "supports": "Indivíduos/associações voluntárias, concorrência bancária e posse baseada em ocupação; rejeição de socialização obrigatória do capital. O próprio texto reivindica Proudhon: não provar independência Tucker/mutualismo por autoria.",
+    "readAt": "2026-10-07"
+  },
+  {
+    "id": "bakunin-catechism-ontology",
+    "title": "Revolutionary Catechism — Bakunin 1866 translated selections",
+    "url": "https://www.marxists.org/reference/archive/bakunin/works/1866/catechism.htm",
+    "locator": "IX.N7–10 federation/militias/defense; X.A,G–L social organization; bracketed editorial gloss excluded",
+    "supports": "Federação autônoma e igualdade material com trabalho associado; milícia e guerra defensiva admissíveis. Não importar a crítica kropotkiniana ao Estado coletivista como descrição automática deste texto.",
+    "readAt": "2026-10-07"
+  },
+  {
+    "id": "tolstoy-nonresistance-ontology",
+    "title": "The Kingdom of God Is Within You — Tolstoy 1894, Constance Garnett translation",
+    "url": "https://www.gutenberg.org/cache/epub/4602/pg4602-images.html",
+    "locator": "Chapter II five clerical responses, especially force for protection of others; Chapter VII universal conscription contradiction",
+    "supports": "Não resistência rejeita a exceção de força para proteger outra pessoa; dever cristão é incompatível com coerção militar/estatal. O prefácio e os excertos de autores citados foram distinguidos da voz argumentativa de Tolstói.",
+    "readAt": "2026-10-07"
+  },
+  {
+    "id": "iwa-statutes-2023-ontology",
+    "title": "Statutes of the International Workers Association — updated 10 February 2023",
+    "url": "https://www.iwa-ait.org/content/statutes",
+    "locator": "Introduction; II Principles1–11, especially7,9,10",
+    "supports": "Organização sindical revolucionária como via ao comunismo libertário; ação direta, milícias e violência defensiva limitada. Atualização 2023 não é cópia imutável da resolução 1922, cuja nova leitura falhou.",
+    "readAt": "2026-10-07"
   }
 ] as const;
 
@@ -1301,60 +1349,66 @@ export const intendedIdeologySelection = [
     "name": "Anarcocomunismo",
     "family": "anarchist",
     "selectionRationale": "Comunismo sem Estado e ajuda mútua",
-    "reviewStatus": "provisional",
+    "reviewStatus": "referent-and-bounded-neighbor-contrast-reviewed",
     "documentedAxisCountAtSnapshot": 0,
-    "ontologyStatus": "provisional-normative-referent",
-    "contrastStatus": "not-independently-verified"
+    "ontologyStatus": "bounded-normative-referent-reviewed",
+    "contrastStatus": "bounded-primary-neighbor-contrast",
+    "ontologyLimit": "Contrastes localizados sobre troca/distribuição ou legitimidade da força defensiva. Relação Tucker/Proudhon e anarcossindicalismo/comunismo permanece aninhada ou aberta; as edições lidas não equivalem a toda história da corrente."
   },
   {
     "id": "ideology-anarcho-syndicalism",
     "name": "Anarcossindicalismo",
     "family": "anarchist",
     "selectionRationale": "Sindicatos e ação direta como organização social",
-    "reviewStatus": "provisional",
+    "reviewStatus": "referent-and-bounded-neighbor-contrast-reviewed",
     "documentedAxisCountAtSnapshot": 0,
-    "ontologyStatus": "provisional-normative-referent",
-    "contrastStatus": "not-independently-verified"
+    "ontologyStatus": "bounded-normative-referent-reviewed",
+    "contrastStatus": "bounded-primary-neighbor-contrast",
+    "ontologyLimit": "Contrastes localizados sobre troca/distribuição ou legitimidade da força defensiva. Relação Tucker/Proudhon e anarcossindicalismo/comunismo permanece aninhada ou aberta; as edições lidas não equivalem a toda história da corrente."
   },
   {
     "id": "ideology-mutualism",
     "name": "Mutualismo",
     "family": "anarchist",
     "selectionRationale": "Reciprocidade econômica e crítica aos privilégios",
-    "reviewStatus": "provisional",
+    "reviewStatus": "referent-and-bounded-neighbor-contrast-reviewed",
     "documentedAxisCountAtSnapshot": 0,
-    "ontologyStatus": "provisional-normative-referent",
-    "contrastStatus": "not-independently-verified"
+    "ontologyStatus": "bounded-normative-referent-reviewed",
+    "contrastStatus": "bounded-primary-neighbor-contrast",
+    "ontologyLimit": "Contrastes localizados sobre troca/distribuição ou legitimidade da força defensiva. Relação Tucker/Proudhon e anarcossindicalismo/comunismo permanece aninhada ou aberta; as edições lidas não equivalem a toda história da corrente."
   },
   {
     "id": "ideology-pacifist-anarchism",
     "name": "Anarquismo pacifista",
     "family": "anarchist",
     "selectionRationale": "Não violência religiosa contra coerção",
-    "reviewStatus": "provisional",
+    "reviewStatus": "referent-and-bounded-neighbor-contrast-reviewed",
     "documentedAxisCountAtSnapshot": 0,
-    "ontologyStatus": "provisional-normative-referent",
-    "contrastStatus": "not-independently-verified"
+    "ontologyStatus": "bounded-normative-referent-reviewed",
+    "contrastStatus": "bounded-primary-neighbor-contrast",
+    "ontologyLimit": "Contrastes localizados sobre troca/distribuição ou legitimidade da força defensiva. Relação Tucker/Proudhon e anarcossindicalismo/comunismo permanece aninhada ou aberta; as edições lidas não equivalem a toda história da corrente."
   },
   {
     "id": "ideology-left-anarcho-collectivism",
     "name": "Anarquismo coletivista",
     "family": "anarchist",
     "selectionRationale": "Federação coletivista de comunas",
-    "reviewStatus": "provisional",
+    "reviewStatus": "referent-and-bounded-neighbor-contrast-reviewed",
     "documentedAxisCountAtSnapshot": 8,
-    "ontologyStatus": "provisional-normative-referent",
-    "contrastStatus": "not-independently-verified"
+    "ontologyStatus": "bounded-normative-referent-reviewed",
+    "contrastStatus": "bounded-primary-neighbor-contrast",
+    "ontologyLimit": "Contrastes localizados sobre troca/distribuição ou legitimidade da força defensiva. Relação Tucker/Proudhon e anarcossindicalismo/comunismo permanece aninhada ou aberta; as edições lidas não equivalem a toda história da corrente."
   },
   {
     "id": "ideology-left-individualist-anarchism",
     "name": "Anarquismo individualista",
     "family": "anarchist",
     "selectionRationale": "Associação individual e oposição a monopólios",
-    "reviewStatus": "provisional",
+    "reviewStatus": "referent-and-bounded-neighbor-contrast-reviewed",
     "documentedAxisCountAtSnapshot": 6,
-    "ontologyStatus": "provisional-normative-referent",
-    "contrastStatus": "not-independently-verified"
+    "ontologyStatus": "bounded-normative-referent-reviewed",
+    "contrastStatus": "bounded-primary-neighbor-contrast",
+    "ontologyLimit": "Contrastes localizados sobre troca/distribuição ou legitimidade da força defensiva. Relação Tucker/Proudhon e anarcossindicalismo/comunismo permanece aninhada ou aberta; as edições lidas não equivalem a toda história da corrente."
   },
   {
     "id": "ideology-left-anarcho-primitivism",
@@ -2008,6 +2062,55 @@ export const ideologyOverlapChecks = [
     "relation": "council-production-versus-state-administered-transition",
     "rationale": "GIC 1930 I/XIII rejeita Estado administrador da produção e institui conselhos, propriedade social e contabilidade coerciva comum; Fabian 1889 legitima organização política democrática e transferências econômicas ao Estado. Não se presume que comunismo de conselhos dispense coerção ou que todos fabianos defendam burocracia idêntica.",
     "status": "bounded-primary-contrast"
+  },
+  {
+    "a": "ideology-mutualism",
+    "b": "ideology-anarcho-communism",
+    "relation": "equivalent-product-exchange-versus-needs-distribution",
+    "rationale": "Proudhon 1840 conclusão VI–IX exige equivalência na troca e posse; Kropotkin3.1/13 rejeita salário e troca do produto por contribuição individual em favor de necessidades. Comparação do desenho distributivo, não equiparar posse proudhoniana a propriedade capitalista.",
+    "status": "bounded-primary-contrast"
+  },
+  {
+    "a": "ideology-left-individualist-anarchism",
+    "b": "ideology-anarcho-communism",
+    "relation": "competitive-capital-use-versus-common-means-without-wages",
+    "rationale": "Tucker ensaio inicial propõe capital a custo pela concorrência livre e não socialização de sua titularidade; Kropotkin3.1 põe meios em comum e abandona salários. A controvérsia dos autores não prova que todo comunismo voluntário seria coercivo.",
+    "status": "bounded-primary-contrast"
+  },
+  {
+    "a": "ideology-pacifist-anarchism",
+    "b": "ideology-left-anarcho-collectivism",
+    "relation": "nonresistance-versus-defensive-federated-militia",
+    "rationale": "TolstóiII rejeita exceção de força para defender terceiros; Bakunin IX.N7–10 admite armas para defender liberdade e guerras defensivas federadas. Não se atribui militarismo estatal a Bakunin.",
+    "status": "bounded-primary-contrast"
+  },
+  {
+    "a": "ideology-pacifist-anarchism",
+    "b": "ideology-anarcho-syndicalism",
+    "relation": "nonresistance-versus-revolutionary-defensive-force",
+    "rationale": "TolstóiII/VII rejeita coerção militar; IWA 2023 II.7/10 admite milícias e violência defensiva sob organizações econômicas de trabalhadores. Registra conflito normativo delimitado, não toda estratégia de todo sindicato desde 1922.",
+    "status": "bounded-primary-contrast"
+  },
+  {
+    "a": "ideology-mutualism",
+    "b": "ideology-left-individualist-anarchism",
+    "relation": "nested-or-specific-distribution-contrast-unresolved",
+    "rationale": "Tucker reivindica Warren/Proudhon e competição/posse; nenhum compromisso político adicional exclusivamente tuckeriano foi demonstrado nesta leitura. Relação pode ser subtradição, não duas doutrinas disjuntas.",
+    "status": "both-primary-referents-read-contrast-unresolved"
+  },
+  {
+    "a": "ideology-anarcho-syndicalism",
+    "b": "ideology-anarcho-communism",
+    "relation": "nested-or-specific-distribution-contrast-unresolved",
+    "rationale": "IWA especifica organização sindical e ação direta como transição ao comunismo libertário; Kropotkin também discute associações operárias. Adição estratégica localizada, fronteira doutrinal exclusiva não provada.",
+    "status": "both-primary-referents-read-contrast-unresolved"
+  },
+  {
+    "a": "ideology-left-anarcho-collectivism",
+    "b": "ideology-anarcho-communism",
+    "relation": "nested-or-specific-distribution-contrast-unresolved",
+    "rationale": "Bakunin 1866 admite desigualdades por energia/aptidão e propriedade usada pelo produtor, mas esta leitura não demonstra integral sistema de remuneração coletivista. Kropotkin13 critica também coletivismo estatal; não atribuir alvo inteiro a Bakunin.",
+    "status": "both-primary-referents-read-contrast-unresolved"
   }
 ] as const;
 
@@ -3854,6 +3957,28 @@ export const ideologyOntologyReviewGroups = [
       "luxemburg-conquest-1900",
       "fabian-transition-1889",
       "gic-production-1930"
+    ],
+    "reviewedOn": "2026-10-07"
+  },
+  {
+    "id": "anarchist-exchange-and-defensive-force",
+    "selectedIds": [
+      "ideology-anarcho-communism",
+      "ideology-mutualism",
+      "ideology-left-individualist-anarchism",
+      "ideology-left-anarcho-collectivism",
+      "ideology-pacifist-anarchism",
+      "ideology-anarcho-syndicalism"
+    ],
+    "status": "four-bounded-two-sided-primary-contrasts",
+    "scope": "Equivalent exchange/competitive capital versus needs distribution; nonresistance versus defensive armed force. Mutualism/Tucker and syndicalist/communist nesting unresolved; IWA 2023 and Tucker 1897 editions explicitly distinguished.",
+    "sourceIds": [
+      "kropotkin-bread-ontology",
+      "proudhon-property-conclusion",
+      "tucker-competitive-capital",
+      "bakunin-catechism-ontology",
+      "tolstoy-nonresistance-ontology",
+      "iwa-statutes-2023-ontology"
     ],
     "reviewedOn": "2026-10-07"
   }
