@@ -4,7 +4,7 @@ Reviewed on 2026-10-07. The catalog still preserves all 206 ideology records. Th
 
 An included object should be an identifiable **political normative doctrine or tradition** addressing legitimate authority, collective social/economic order and action, with a located referent and a material contrast to retained neighbors. A framework, institutional device or policy instrument alone is insufficient. State-authored normative doctrines can qualify; government authorship alone is neither acceptance nor rejection. Subtraditions may be retained when their extra commitments are identified; they must not be presented as mutually exclusive families.
 
-Four weakly scoped slots were replaced with existing records. The original entries remain among 131 alternatives; the selected plus alternative IDs still cover all 206 exactly. Fifty-two selected IDs have located primary normative referents and scoped review. Thirty-seven two-sided contrasts are recorded across libertarian strategy, ecological programs and liberal authority/property programs. Full nearest-neighbor comparisons remain incomplete. See `docs/reference-ideology-ontology-audit.md` for locators, edition limitations and what was actually verified.
+Four weakly scoped slots were replaced with existing records. The original entries remain among 131 alternatives; the selected plus alternative IDs still cover all 206 exactly. Fifty-four selected IDs have located primary normative referents and scoped review. Thirty-eight two-sided contrasts are recorded across libertarian strategy, ecological programs and liberal authority/property programs. Full nearest-neighbor comparisons remain incomplete. See `docs/reference-ideology-ontology-audit.md` for locators, edition limitations and what was actually verified.
 
 | Deferred slot | Selected existing record | Reason |
 | --- | --- | --- |
@@ -23,7 +23,7 @@ The overall selection remains provisional. Individually grounded bounded contras
 | --- | --- | --- | --- | --- |
 | `social-liberalism` | Liberalismo social | liberal | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | `ideology-classical-liberalism` | Liberalismo clássico | liberal | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
-| `ideology-ordoliberalism` | Ordoliberalismo | liberal | provisional-normative-referent | not-independently-verified |
+| `ideology-ordoliberalism` | Ordoliberalismo: ordem competitiva de Eucken, 1949 | liberal | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | `libertarianism` | Libertarianismo | liberal | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | `ideology-right-minarchism` | Minarquismo | liberal | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | `ideology-right-anarcho-capitalism` | Anarcocapitalismo | liberal | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
@@ -82,7 +82,7 @@ The overall selection remains provisional. Individually grounded bounded contras
 | `ideology-republicanism` | Republicanismo cívico | democratic | provisional-normative-referent | not-independently-verified |
 | `civic-participatory-democracy` | Democracia participativa: Port Huron, 1962 | democratic | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | `civic-direct-democracy` | Soberania legislativa direta: Rousseau, 1762 | democratic | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
-| `civic-deliberative-democracy` | Democracia deliberativa | democratic | provisional-normative-referent | not-independently-verified |
+| `civic-deliberative-democracy` | Democracia deliberativa: modelo procedimental de Habermas | democratic | bounded-normative-referent-reviewed | nearest-neighbor-overlap-unresolved |
 | `civic-consociational-democracy` | Democracia consociativa | democratic | institutional-model | not-independently-verified |
 | `civic-federal-republicanism` | Federalismo republicano: Madison, 1787–1788 | democratic | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | `civic-world-federalism` | Federalismo mundial: declaração de Montreux, 1947 | democratic | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |

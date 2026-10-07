@@ -6,10 +6,10 @@ export const ideologySelectionSnapshot = {
   "catalogCount": 206,
   "intendedSubsetCount": 75,
   "readyForDefaultUse": false,
-  "boundedReviewedReferents": 52,
+  "boundedReviewedReferents": 54,
   "referentCountScope": "Unique selected IDs reviewed in the ontology sequence; prior LP reading was additionally reopened for §§2.1/2.4. Combahee remains an additionally reviewed alternative; modern Leopold explanation alone is excluded from the primary-referent count.",
   "independent75Verified": false,
-  "boundedTwoSidedContrasts": 37
+  "boundedTwoSidedContrasts": 38
 } as const;
 
 export const ideologyInclusionDefinition = {
@@ -1251,6 +1251,22 @@ export const ideologySelectionSources = [
     "readAt": "2026-10-07",
     "alternateUrl": "https://www.crmvet.org/info/620615_sds_huron-stmt.pdf",
     "accessLimit": "Participant-host PDF body read by ontology researcher; root and method reviewer encountered 403 there. Root independently reopened CRMvet identical 41-page primary reprint: publication note, Values p4 and Towards American Democracy pp30–31. No whole-document verification claim."
+  },
+  {
+    "id": "eucken-competitive-order-1949",
+    "title": "Competitive Order and Its Implementation — Eucken 1949, abridged English CPI 2006",
+    "url": "https://competitionpolicyinternational.com/assets/0d358061e11f2708ad9d62634c6c40ad/Eucken%20%28Nov.%202006%29.pdf",
+    "locator": "PDF p2 original 1949/Ahlborn–Grave translation 2006/omissions metadata; pp13–14 positive competitive framework and rejection of general price stop; pp23–26 independent monopoly office, compulsory contracts and specific monopoly price controls",
+    "supports": "Ordem econômica e jurídica positiva que preserva liberdades limitadas reciprocamente; autoridade antimonopólio independente impõe contratação e preços em condições de monopólio. Rejeita congelamento geral de preços (p14) e nacionalização de monopólios (pp23–24); são intervenções específicas, não substituição geral dos mercados. Prognósticos e relatos históricos não verificados; não são todos os princípios 1952.",
+    "readAt": "2026-10-07"
+  },
+  {
+    "id": "habermas-procedural-model-1995",
+    "title": "Três modelos normativos de democracia — Habermas, Lua Nova 36, Portuguese 1995 edition",
+    "url": "https://www.scielo.br/j/ln/a/tcSTz3QGHghmfzbvL6m6wcK/?lang=pt",
+    "locator": "Article author body web 109–185, especially own alternative 147–158 and institutional program 175–185; metadata 79–84",
+    "supports": "Legitimidade procedimental pela formação institucionalizada da opinião/vontade, parlamentos e espaços públicos; direitos e regras comunicativas, permitindo negociação entre interesses. Não exige unanimidade nem extingue eleições. Citações anteriores de Michelman não são falas próprias de Habermas. Nota editorial web 188 situa a conferência 1991, tradução via edição venezuelana e adaptações; essa nota não é programa normativo do autor.",
+    "readAt": "2026-10-07"
   }
 ] as const;
 
@@ -1279,13 +1295,14 @@ export const intendedIdeologySelection = [
   },
   {
     "id": "ideology-ordoliberalism",
-    "name": "Ordoliberalismo",
+    "name": "Ordoliberalismo: ordem competitiva de Eucken, 1949",
     "family": "liberal",
     "selectionRationale": "Concorrência sustentada por regras públicas",
-    "reviewStatus": "provisional",
+    "reviewStatus": "referent-and-bounded-neighbor-contrast-reviewed",
     "documentedAxisCountAtSnapshot": 2,
-    "ontologyStatus": "provisional-normative-referent",
-    "contrastStatus": "not-independently-verified"
+    "ontologyStatus": "bounded-normative-referent-reviewed",
+    "contrastStatus": "bounded-primary-neighbor-contrast",
+    "ontologyLimit": "Ordem competitiva construída por autoridade jurídica, com controle de monopólios, não rejeição do mercado. Contraste localizado com LP não resolve proximidade ao neoliberalismo do Colóquio Walter Lippmann. Tradução inglesa 2006 Ahlborn/Grave abreviada (***) do artigo 1949; sem recodificar o catálogo."
   },
   {
     "id": "libertarianism",
@@ -1913,13 +1930,14 @@ export const intendedIdeologySelection = [
   },
   {
     "id": "civic-deliberative-democracy",
-    "name": "Democracia deliberativa",
+    "name": "Democracia deliberativa: modelo procedimental de Habermas",
     "family": "democratic",
     "selectionRationale": "Deliberação informada como fundamento",
-    "reviewStatus": "provisional",
+    "reviewStatus": "primary-referent-and-nearest-overlap-reviewed",
     "documentedAxisCountAtSnapshot": 1,
-    "ontologyStatus": "provisional-normative-referent",
-    "contrastStatus": "not-independently-verified"
+    "ontologyStatus": "bounded-normative-referent-reviewed",
+    "contrastStatus": "nearest-neighbor-overlap-unresolved",
+    "ontologyLimit": "Artigo em português Lua Nova 1995 define legitimidade, Estado, sociedade e ação política além de um processo consultivo. Comunicação distribuída e deliberação não contradizem automaticamente ratificação popular direta; proximidade a participação/republicanismo permanece. Fontes e números do catálogo não mudam."
   },
   {
     "id": "civic-consociational-democracy",
@@ -2501,6 +2519,20 @@ export const ideologyOverlapChecks = [
     "relation": "democratic-economic-participation-and-public-regulation-versus-unrestricted-private-enterprise",
     "rationale": "Port Huron Values p4 e programa p31 exigem participação laboral, regulação independente e combinações de propriedade pública; LP §§2.1/2.8 rejeita limites governamentais de propriedade/uso e participação pública em empresas. Port Huron ainda usa partidos/representação; o contraste econômico não estabelece exclusividade frente a democracia direta ou deliberativa.",
     "status": "bounded-primary-contrast"
+  },
+  {
+    "a": "ideology-ordoliberalism",
+    "b": "libertarianism",
+    "relation": "state-monopoly-price-and-contract-supervision-versus-voluntary-trade-and-no-state-price-controls",
+    "rationale": "Eucken 1949 tradução 2006 pp24–26 prescreve órgão estatal independente, obrigação de contratar e controle de preços de monopólio; LP §2.1 web 102–103 rejeita controles governamentais de preços e exige condições voluntárias. Ambos valorizam mercado e direitos; não afirmar incompatibilidade com toda política concorrencial nem independência do Colóquio 1938.",
+    "status": "bounded-primary-contrast"
+  },
+  {
+    "a": "civic-deliberative-democracy",
+    "b": "civic-direct-democracy",
+    "relation": "institutionalized-communicative-legitimacy-and-personal-ratification-can-coexist",
+    "rationale": "Habermas Lua Nova 1995 web 147–185 especifica formação comunicativa e institucionalização parlamentar/pública; Rousseau II.1/III.15 exige vontade soberana e ratificação pessoal de leis. Deliberação, negociação e formação distribuída podem coexistir com ratificação direta. Não há oposição normativa explícita suficiente para contar duas doutrinas independentes; comparação registrada sem novo contraste resolvido.",
+    "status": "primary-nearest-overlap-unresolved"
   }
 ] as const;
 
@@ -4493,6 +4525,22 @@ export const ideologyOntologyReviewGroups = [
       "port-huron-program-1962",
       "natcon-principles-2022",
       "lp-ontology-finance"
+    ],
+    "reviewedOn": "2026-10-07"
+  },
+  {
+    "id": "competitive-authority-and-deliberative-legitimacy",
+    "selectedIds": [
+      "ideology-ordoliberalism",
+      "civic-deliberative-democracy"
+    ],
+    "status": "one-bounded-two-sided-contrast-plus-unresolved-nearest-overlap",
+    "scope": "Eucken/LP monopoly authority contrasted; Habermas political normative referent recovered beyond consultative instrument, with direct-legislation compatibility unresolved. Explicit editions and abridgment, no catalog recoding.",
+    "sourceIds": [
+      "eucken-competitive-order-1949",
+      "lp-ontology-finance",
+      "habermas-procedural-model-1995",
+      "rousseau-direct-legislation-1762"
     ],
     "reviewedOn": "2026-10-07"
   }
