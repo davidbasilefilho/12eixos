@@ -1,4 +1,4 @@
-import type { CSSProperties } from 'react'
+import { useState, type CSSProperties } from 'react'
 import { portraitAssets } from '../data/portrait-assets'
 import type { ReferenceEntry } from '../data/references'
 
@@ -15,8 +15,8 @@ const countryFlagAspectRatios: Record<string, number> = {
 
 export function referenceImage(reference: Pick<ReferenceEntry, 'id' | 'kind'>): { src: string; alt: string; width: number; height: number } | null {
   if (reference.kind === 'person') {
-    const asset = portraitById.get(reference.id)
-    return asset ? { src: asset.src, alt: '', width: asset.width, height: asset.height } : null
+    const asset = portraitById.get(reference.id) ?? portraitById.get(reference.id.replace(/^(?:na|eu|as|af)-/, ''))
+    return asset ? { src: asset.src, alt: '', width: 40, height: 48 } : null
   }
   if (reference.kind === 'country') {
     const width = 36
@@ -36,16 +36,18 @@ export function ReferenceThumbnail({ reference, style = {}, className, loading =
   loading?: 'eager' | 'lazy'
 }) {
   const image = referenceImage(reference)
-  if (!image) return null
+  const [failedSource, setFailedSource] = useState<string | null>(null)
+  if (!image || image.src === failedSource) return null
   return <img
     className={className ?? `reference-thumbnail reference-thumbnail-${reference.kind}`}
     src={image.src}
+    onError={() => setFailedSource(image.src)}
     alt={image.alt}
     aria-hidden="true"
     loading={loading}
     decoding="async"
     width={image.width}
     height={image.height}
-    style={{ objectFit: 'contain', border: '1px solid var(--border)', flex: '0 0 auto', ...style }}
+    style={{ width: image.width, height: image.height, objectFit: 'contain', border: '1px solid var(--border)', flex: '0 0 auto', ...style }}
   />
 }

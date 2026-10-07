@@ -3,6 +3,7 @@ import { flushSync } from 'react-dom'
 import { Link, Outlet, useLocation, useNavigate } from '@tanstack/react-router'
 import { Menu } from '@base-ui/react/menu'
 import { ActionLink, Button, Callout, controlClassName } from './primitives'
+import { ReferenceThumbnail, referenceImage, countryFlagDisplaySize } from './reference-media'
 import {
   IconArrowLeft,
   IconArrowRight,
@@ -31,7 +32,7 @@ import {
 import { Radar } from 'react-chartjs-2'
 import { Chart as ChartJS, RadialLinearScale, PointElement, LineElement, Filler, Tooltip } from 'chart.js'
 import { AXES, ANSWER_OPTIONS, axisIntensity, parseResultSearch, scoreAnswers, type AnswerValue, type AxisScores } from '../lib/scoring'
-import { countDocumentedEvidenceAxes, matchReferences, partitionMatchReferences, type ReferenceMatch } from '../lib/matching'
+import { countDocumentedEvidenceAxes, documentedEvidenceAxes, matchReferences, partitionMatchReferences, type ReferenceMatch } from '../lib/matching'
 import { downloadShareImage } from '../lib/share-image'
 import { questions, questionIds36, questionIds60 } from '../data/questions'
 import { referenceEntries, type ReferenceCategory, type ReferenceEntry } from '../data/references'
@@ -48,38 +49,6 @@ const referenceCounts: Record<ReferenceCategory, number> = referenceEntries.redu
   counts[entry.category] += 1
   return counts
 }, { ideology: 0, 'public-figure': 0, 'historical-figure': 0, country: 0, 'historical-country': 0 })
-const countryFlagAspectRatios: Record<string, number> = {
-  uruguay: 3 / 2,
-  denmark: 37 / 28,
-  'united-states': 1235 / 650,
-  singapore: 3 / 2,
-  germany: 5 / 3,
-  'new-zealand': 2,
-  brazil: 10 / 7,
-  japan: 3 / 2,
-  india: 3 / 2,
-  'south-africa': 3 / 2,
-  indonesia: 3 / 2,
-  mexico: 7 / 4,
-  turkey: 3 / 2,
-  'saudi-arabia': 3 / 2,
-  france: 3 / 2,
-  'paris-commune-1871': 3 / 2,
-  'us-new-deal-1933': 361 / 190,
-  'brazil-estado-novo-1937': 10 / 7,
-  'imperial-japan-1931': 3 / 2,
-  'prc-mao-1949': 3 / 2,
-  'cuba-revolutionary-1959': 2,
-  'portugal-estado-novo-1933': 3 / 2,
-  'chile-pinochet-1973': 3 / 2,
-  'roc-taiwan-1949': 3 / 2,
-  'france-de-gaulle-1958': 3 / 2,
-  'chile-up-1970': 3 / 2,
-  'uk-attlee-1945': 5 / 3,
-  'weimar-republic': 3 / 2,
-  'yugoslavia-1974': 2,
-  'ussr-1977': 2,
-}
 const questionById = new Map(questions.map(question => [question.id, question]))
 const formatPercent = (value: number) => new Intl.NumberFormat('pt-BR', { maximumFractionDigits: 1 }).format(Math.round(value * 10) / 10)
 type ThemePreference = 'system' | 'light' | 'dark'
@@ -409,34 +378,6 @@ export function LandingPage() {
   </>
 }
 
-function referenceImage(reference: Pick<ReferenceEntry, 'id' | 'kind'>): { src: string; alt: string; width: number; height: number } | null {
-  if (reference.kind === 'person') return { src: `/assets/portraits/${reference.id}.jpg`, alt: '', width: 40, height: 48 }
-  if (reference.kind === 'country') {
-    const width = 36
-    return { src: `/assets/flags/${reference.id}.svg`, alt: '', width, height: width / (countryFlagAspectRatios[reference.id] ?? 3 / 2) }
-  }
-  return null
-}
-
-function countryFlagDisplaySize(id: string, width: string): Pick<CSSProperties, 'width' | 'height' | 'aspectRatio' | 'background'> {
-  const ratio = countryFlagAspectRatios[id] ?? 3 / 2
-  return { width, height: 'auto', aspectRatio: `${ratio}`, background: 'var(--surface-2)' }
-}
-
-function ReferenceThumbnail({ reference, style = {}, className }: { reference: Pick<ReferenceEntry, 'id' | 'kind'>; style?: CSSProperties; className?: string }) {
-  const image = referenceImage(reference)
-  if (!image) return null
-  return <img
-    className={className ?? `reference-thumbnail reference-thumbnail-${reference.kind}`}
-    src={image.src}
-    alt={image.alt}
-    aria-hidden="true"
-    loading="eager"
-    decoding="async"
-    style={{ width: image.width, height: image.height, objectFit: 'contain', border: '1px solid var(--border)', flex: '0 0 auto', ...style }}
-  />
-}
-
 function getVariant(raw: string): QuizVariant | null {
   return raw === '36' || raw === '60' || raw === '240' ? Number(raw) as QuizVariant : null
 }
@@ -665,7 +606,7 @@ function MatchSection({ category, matches, insufficient }: { category: Reference
   const title = referenceCategoryLabels[category]
   const proximity = category === 'country' || category === 'historical-country' ? 'próximos' : 'próximas'
   return <section className="match-section scroll-reveal">
-    <div className="section-heading"><h2>{title} mais {proximity}</h2><p>Índice ponderado entre doze posições com cobertura documental suficiente. Não é probabilidade, apoio ou concordância pessoal.</p></div>
+    <div className="section-heading"><h2>{title} mais {proximity}</h2><p>Índice calculado somente nos eixos documentados de cada referência (mínimo de seis). Coberturas diferentes limitam a comparação entre percentuais. Não é probabilidade, apoio ou concordância pessoal.</p></div>
     {matches.length > 0 ? <MatchRows matches={matches}/> : <p className="match-empty" role="status">Nenhuma referência desta categoria tem cobertura suficiente para um índice ordenado.</p>}
     {insufficient.length > 0 && <UnrankedReferences references={insufficient}/>}
   </section>
@@ -756,7 +697,7 @@ function ShareCard({ scores, matches }: { scores: AxisScores; matches: Reference
     </div>
     <div className="share-card-lower">
       <section className="share-radar"><h3>FORMA DO VETOR</h3><RadarProfile scores={scores} compact/><p>Os eixos têm escalas independentes; o gráfico não reduz o perfil a uma nota única.</p></section>
-      <section className="share-country-groups"><div className="share-countries"><h3>PAÍSES ATUAIS</h3>{countries.map(item => <p key={item.reference.id}><span><ReferenceThumbnail reference={item.reference}/><span><b>{item.reference.name}</b><small>{item.reference.period}</small></span></span><strong>{formatPercent(item.similarity)}%</strong></p>)}</div><div className="share-countries"><h3>PAÍSES HISTÓRICOS</h3>{historicalCountries.map(item => <p key={item.reference.id}><span><ReferenceThumbnail reference={item.reference}/><span><b>{item.reference.name}</b><small>{item.reference.period}</small></span></span><strong>{formatPercent(item.similarity)}%</strong></p>)}</div></section>
+      <section className="share-country-groups"><div className="share-countries"><h3>PAÍSES ATUAIS</h3>{countries.length === 0 && <p>Sem cobertura suficiente para ordenar.</p>}{countries.map(item => <p key={item.reference.id}><span><ReferenceThumbnail reference={item.reference}/><span><b>{item.reference.name}</b><small>{item.reference.period}</small></span></span><strong>{formatPercent(item.similarity)}%</strong></p>)}</div><div className="share-countries"><h3>PAÍSES HISTÓRICOS</h3>{historicalCountries.length === 0 && <p>Sem cobertura suficiente para ordenar.</p>}{historicalCountries.map(item => <p key={item.reference.id}><span><ReferenceThumbnail reference={item.reference}/><span><b>{item.reference.name}</b><small>{item.reference.period}</small></span></span><strong>{formatPercent(item.similarity)}%</strong></p>)}</div></section>
       <aside className="share-callout"><h3>Proximidade não é endosso.</h3><p>Os vetores resumem fontes e períodos específicos. Países representam instituições e políticas, não opiniões de seus habitantes.</p></aside>
     </div>
   </div>
@@ -826,7 +767,7 @@ export function ResultsPage() {
           <div className="result-axis-title"><span>{String(index + 1).padStart(2, '0')}</span><h3>{axisPoleName(axis)}</h3><strong>{score}%</strong></div>
           <div className="result-axis-track" role="img" aria-label={`${formatPercent(score)}% ${axis.left}, ${formatPercent(100 - score)}% ${axis.right}`}><span style={{ width: `${score}%` }}/><i style={{ left: `${score}%` }}/></div>
           <div className="result-axis-poles"><span>{axis.left}</span><span>{axis.right}</span></div>
-          <p><b>{axisIntensity(score)} para {pole.toLowerCase()} ({formatPercent(strength)}%).</b> {axisDetails[axis.key]} <ActionLink to="/eixos/$axis" params={{ axis: axis.key }} variant="ghost" color="accent" size="sm">Entenda este eixo <IconArrowRight size={14}/></ActionLink></p>
+          <p><b>{axisIntensity(score)} para {pole.toLowerCase()} ({formatPercent(strength)}%).</b> {axisDetails[axis.key]} <Link to="/eixos/$axis" params={{ axis: axis.key }} className={controlClassName({ variant: 'ghost', color: 'accent', size: 'sm' })}>Entenda este eixo <IconArrowRight size={14}/></Link></p>
         </article>
       })}</div><aside className="results-radar"><h3>MAPA DOS DOZE VALORES</h3><RadarProfile scores={scores}/><p>Cada ponto preserva o percentual na direção do primeiro polo listado; o gráfico não transforma os eixos numa única escala.</p><div className="results-radar-note"><h4>Relação entre eixos</h4><p>O cálculo pontua cada eixo de forma independente e não presume que uma posição cause outra. As perguntas podem tratar de temas relacionados; leia os resultados em conjunto sem inferir causalidade a partir do gráfico.</p></div></aside></div>
     </section>
@@ -838,11 +779,13 @@ export function ResultsPage() {
 
 function AxisReferenceValues({ axisKey }: { axisKey: (typeof AXES)[number]['key'] }) {
   const axis = AXES.find(item => item.key === axisKey)!
+  const documented = referenceEntries.filter(entry => documentedEvidenceAxes(entry).includes(axisKey))
+  const documentedIds = new Set(documented.map(entry => entry.id))
   const groups = {
-    left: referenceEntries.filter(entry => (entry.evidence[axisKey] === 'high' || entry.evidence[axisKey] === 'medium') && entry.vec[axisKey] >= 60).sort((a, b) => b.vec[axisKey] - a.vec[axisKey]),
-    center: referenceEntries.filter(entry => (entry.evidence[axisKey] === 'high' || entry.evidence[axisKey] === 'medium') && entry.vec[axisKey] >= 41 && entry.vec[axisKey] <= 59).sort((a, b) => Math.abs(a.vec[axisKey] - 50) - Math.abs(b.vec[axisKey] - 50)),
-    right: referenceEntries.filter(entry => (entry.evidence[axisKey] === 'high' || entry.evidence[axisKey] === 'medium') && entry.vec[axisKey] <= 40).sort((a, b) => a.vec[axisKey] - b.vec[axisKey]),
-    unknown: referenceEntries.filter(entry => entry.evidence[axisKey] !== 'high' && entry.evidence[axisKey] !== 'medium'),
+    left: documented.filter(entry => entry.vec[axisKey] >= 60).sort((a, b) => b.vec[axisKey] - a.vec[axisKey]),
+    center: documented.filter(entry => entry.vec[axisKey] > 40 && entry.vec[axisKey] < 60).sort((a, b) => Math.abs(a.vec[axisKey] - 50) - Math.abs(b.vec[axisKey] - 50)),
+    right: documented.filter(entry => entry.vec[axisKey] <= 40).sort((a, b) => a.vec[axisKey] - b.vec[axisKey]),
+    unknown: referenceEntries.filter(entry => !documentedIds.has(entry.id)),
   }
   return <section className="axis-reference-values scroll-reveal"><div className="section-heading"><h2>Exemplos neste eixo</h2><p>Valores documentados para este eixo. Cada comparação exibe as fontes e o período usados; entradas sem evidência suficiente ficam separadas e não são tratadas como neutras.</p></div>
     <div className="reference-value-groups">{referenceCategories.map(({ id: category }) => {
@@ -937,7 +880,7 @@ const methodologySections = [
   { number: '03', title: 'Construção dos subconjuntos', text: 'A versão 36 seleciona três itens por eixo; a versão 60 seleciona cinco por eixo e inclui os 36. Ambas representam os polos e limitam repetição temática. A versão 240 usa o catálogo completo. A ordem é sorteada ao iniciar e guardada com o progresso, para manter as mesmas perguntas após uma pausa. Versões curtas têm maior incerteza, apesar de usarem a mesma escala.' },
   { number: '04', title: 'Pesos e direção', text: 'Cada item traz seu eixo, peso e o polo favorecido pela concordância. Os pesos recuperados são 1. As cinco respostas recebem valores 1, 0,75, 0,5, 0,25 e 0; discordar inverte a contribuição em relação ao polo favorecido.' },
   { number: '05', title: 'Cálculo e normalização', text: 'Em cada eixo, calculamos a média ponderada das respostas na direção do primeiro polo e multiplicamos por 100. O intervalo vai de 0 a 100; 100 aponta ao primeiro polo, 0 ao segundo e 50 ao centro. O resultado é arredondado a uma casa decimal.' },
-  { number: '06', title: 'Similaridade descritiva', text: 'O índice combina quatro componentes: 42% de proximidade eixo a eixo, com penalidade quando as posições fortes ficam em lados opostos; 33% de direção do vetor completo; 18% de semelhança na intensidade média; e 7% de penalidade pela maior diferença entre eixos. A porcentagem não é uma probabilidade nem a fração de opiniões iguais.' },
+  { number: '06', title: 'Similaridade descritiva', text: 'Uma referência só entra na ordenação com pelo menos seis eixos documentados: evidência média ou alta, justificativa específica e fonte citada que corresponda exatamente a uma fonte da ficha. Todos os quatro componentes usam somente esses eixos: 42% de proximidade eixo a eixo, com penalidade para posições fortes em lados opostos; 33% de direção do vetor documentado; 18% de semelhança na intensidade média; e 7% de penalidade pela maior diferença. Eixos desconhecidos ficam fora do cálculo; 50 não comprova neutralidade. Percentuais baseados em conjuntos diferentes de eixos não são plenamente comparáveis. A porcentagem não é uma probabilidade nem a fração de opiniões iguais.' },
   { number: '07', title: 'Vetores de referência', text: 'Ideologias usam declarações de organizações; figuras usam obras, discursos ou propostas; países usam instituições e políticas de períodos indicados. Pontuações são estimativas editoriais, não pesquisas aplicadas às entidades. Cada ficha mostra suas fontes, razões, ressalvas e evidência por eixo.' },
   { number: '08', title: 'Privacidade e reprodução', text: 'Respostas e progresso permanecem no armazenamento local. O scoring, as comparações e a imagem rodam no cliente. A URL contém os doze scores, reconstrói o resultado em qualquer navegador e não revela as respostas individuais.' },
   { number: '09', title: 'Limites', text: 'Perguntas simplificam debates, vetores representam famílias heterogêneas e políticas mudam com o tempo. Fontes sustentam direções gerais, não cada ponto exato. Uma proximidade não é recomendação, validação de identidade nem substituto para examinar divergências.' },
