@@ -34,8 +34,8 @@
     ],
     "provenance": "Executed before local data corrections in this recovery checkpoint; not recomputed from unavailable prior Library checkpoint."
   },
-  "headCommitAtAudit": "eae7f1f3a53af6a70ee5168ce20b576a49355e5c",
-  "integratedCatalogSha256": "6ab01d2cbde485c01382049364aa4f64a05be7f61c1ab0627eeece8968e9a433",
+  "headCommitAtAudit": "9db08071e7145b768c6a28005999c39c507860c5",
+  "integratedCatalogSha256": "dcec1455425ead5b8ed767a46361e5851fc8619117a7bb4fb407c9ad7423f052",
   "scope": "Integrated working-tree catalog after preparation; fixed remote baseline and current HEAD are provenance, not immutable copies of modified files.",
   "evidenceGate": {
     "minimumAxes": 6,
@@ -52,18 +52,18 @@
     "Expansion preparation has already centered and removed unsupported axes; this inventory does not recover discarded raw estimates."
   ],
   "totalTarget": 675,
-  "totalRecords": 494,
+  "totalRecords": 500,
   "structurallyEligible": 59,
-  "insufficientEvidence": 435,
-  "summedCategoryIdentityGap": 312,
+  "insufficientEvidence": 441,
+  "summedCategoryIdentityGap": 306,
   "categories": [
     {
       "category": "country",
       "target": 150,
-      "records": 124,
+      "records": 130,
       "structurallyEligible": 0,
-      "insufficientEvidence": 124,
-      "missingIdentitiesBeforeSemanticReview": 26,
+      "insufficientEvidence": 130,
+      "missingIdentitiesBeforeSemanticReview": 20,
       "preservedExcess": 0,
       "missingEligibleToTarget": 150
     },
@@ -12510,6 +12510,150 @@
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Cote_DIvoire_1960",
         "https://history.state.gov/countries/cote-divoire"
+      ]
+    },
+    {
+      "id": "cabo-verde-current-2025",
+      "name": "Cabo Verde",
+      "aliases": [
+        "Cape Verde"
+      ],
+      "kind": "country",
+      "category": "country",
+      "period": "Instituições e prática em 2024; documentação de 2025",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "rep"
+      ],
+      "directionalAxes": [
+        "rep"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.constituteproject.org/constitution/Cape_Verde_1992?lang=en",
+        "https://freedomhouse.org/country/cabo-verde/freedom-world/2025"
+      ]
+    },
+    {
+      "id": "sao-tome-and-principe-current-2025",
+      "name": "São Tomé e Príncipe",
+      "aliases": [
+        "Sao Tome and Principe"
+      ],
+      "kind": "country",
+      "category": "country",
+      "period": "Instituições e prática em 2024; documentação de 2025",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "est",
+        "rep",
+        "rel"
+      ],
+      "directionalAxes": [
+        "est",
+        "rep",
+        "rel"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.constituteproject.org/constitution/Sao_Tome_and_Principe_2003?lang=en",
+        "https://freedomhouse.org/country/sao-tome-and-principe/freedom-world/2025"
+      ]
+    },
+    {
+      "id": "seychelles-current-2025",
+      "name": "Seychelles",
+      "aliases": [
+        "Seicheles"
+      ],
+      "kind": "country",
+      "category": "country",
+      "period": "Instituições e prática em 2024; documentação de 2025",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "rep"
+      ],
+      "directionalAxes": [
+        "rep"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.constituteproject.org/constitution/Seychelles_2017?lang=en",
+        "https://freedomhouse.org/country/seychelles/freedom-world/2025"
+      ]
+    },
+    {
+      "id": "comoros-current-2025",
+      "name": "Comores",
+      "aliases": [
+        "Comoros",
+        "União das Comores"
+      ],
+      "kind": "country",
+      "category": "country",
+      "period": "Instituições e prática em 2024; documentação de 2025",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "est",
+        "rep",
+        "rel"
+      ],
+      "directionalAxes": [
+        "est",
+        "rep",
+        "rel"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.constituteproject.org/constitution/Comoros_2018?lang=en",
+        "https://freedomhouse.org/country/comoros/freedom-world/2025"
+      ]
+    },
+    {
+      "id": "djibouti-current-2025",
+      "name": "Djibouti",
+      "aliases": [
+        "Jibuti"
+      ],
+      "kind": "country",
+      "category": "country",
+      "period": "Instituições e prática em 2024; documentação de 2025",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "rep"
+      ],
+      "directionalAxes": [
+        "rep"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.constituteproject.org/constitution/Djibouti_2010?lang=en",
+        "https://freedomhouse.org/country/djibouti/freedom-world/2025"
+      ]
+    },
+    {
+      "id": "eswatini-current-2025",
+      "name": "Eswatini",
+      "aliases": [
+        "Suazilândia",
+        "Swaziland"
+      ],
+      "kind": "country",
+      "category": "country",
+      "period": "Instituições e prática em 2024; documentação de 2025",
+      "structurallyEligible": false,
+      "documentedAxes": [
+        "est",
+        "rep"
+      ],
+      "directionalAxes": [
+        "est",
+        "rep"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.constituteproject.org/constitution/Swaziland_2005?lang=en",
+        "https://freedomhouse.org/country/eswatini/freedom-world/2025"
       ]
     }
   ]

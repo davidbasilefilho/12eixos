@@ -1,4 +1,5 @@
 /** Editorial reference profiles. Scores are estimates, not survey observations. */
+import type { AuditableAxisCoding } from '../lib/reference-coding';
 import { ideologyExpansion } from './reference-ideologies';
 import { ideologiesLeftExpansion } from './reference-ideologies-left';
 import { ideologiesCivicExpansion } from './reference-ideologies-civic';
@@ -8,6 +9,7 @@ import { countryExpansion, historicalCountryExpansion } from './reference-countr
 import { countriesAdditionalExpansion } from './reference-countries-additional';
 import { historicalCountriesAdditionalExpansion } from './reference-countries-additional';
 import { legacyReferenceCorrections } from './reference-legacy-corrections';
+import { currentCountryBatch, currentCountryBatchCoding } from './reference-current-country-batch';
 
 export const AXIS_KEYS = ['est', 'rep', 'pod', 'imi', 'dip', 'int', 'eco', 'con', 'com', 'rel', 'mor', 'tec'] as const;
 export type AxisKey = (typeof AXIS_KEYS)[number];
@@ -31,6 +33,8 @@ export interface ReferenceEntry {
   evidence: Partial<Record<AxisKey, 'high' | 'medium' | 'low'>>;
   /** New profiles cite the specific source(s) and reasoning behind every non-center axis. */
   axisEvidence?: Partial<Record<AxisKey, { sourceTitles: string[]; rationale: string }>>;
+  /** Versioned editorial claims and anchors; metadata alone does not certify documentary review. */
+  coding?: Partial<Record<AxisKey, AuditableAxisCoding>>;
 }
 
 // Axis order: federalism, democracy, security, assimilation, militarism,
@@ -502,6 +506,7 @@ export const referenceExpansionEntries: ReferenceEntry[] = [
   ...historicalCountryExpansion,
   ...countriesAdditionalExpansion,
   ...historicalCountriesAdditionalExpansion,
+  ...currentCountryBatch.map(entry => ({ ...entry, coding: currentCountryBatchCoding[entry.id] })),
 ].map(prepareExpansionEntry);
 
 export const referenceEntries: ReferenceEntry[] = [
