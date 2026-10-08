@@ -1,6 +1,6 @@
 # Identidade pública2026 — refinamento01 de dezenove registros existentes
 
-Aceita por Root08/10/2026 após revisão independente; integração ativa não confirmada. Nenhum novo ID; não modifica period/rationale/vec/evidence/axisEvidence/coding/category. Somente união de fontes completas e acréscimo de limitação temporal em caveats. Full-original818 e full-before95 (`75af08d`, com description01 aceito já aplicado) preservados no JSON e módulo. Depende da reconciliação description01 anterior; guardas recusam outro objeto inteiro. Nenhuma renovação de todas as posições antigas nem classificação automática por cargo.
+Aceita por Root08/10/2026 após revisão independente; integração ativa confirmada no commit `35ca22b69c740d9b43ca16ae3a78daef2c06cf71` (inventory818-02). Nenhum novo ID; não modifica period/rationale/vec/evidence/axisEvidence/coding/category. Somente união de fontes completas e acréscimo de limitação temporal em caveats. Full-original818 e full-before95 (`75af08d`, com description01 aceito já aplicado) preservados no JSON e módulo. Depende da reconciliação description01 anterior; guardas recusam outro objeto inteiro. Nenhuma renovação de todas as posições antigas nem classificação automática por cargo.
 
 ## `denis-mukwege`
 
@@ -80,7 +80,7 @@ Aceita por Root08/10/2026 após revisão independente; integração ativa não c
 
 ## Verificação isolada
 
-Guardas objeto inteiro/exato pós-estado idempotente; fonte anterior mantida integralmente. Preservação de vetores, códigos e períodos obrigatória. Nenhuma contagem de ranking muda e nenhuma norma de outros participantes é transferida. Evidência compartilhada Elders13/05 para seis nomes e Omar23/07 para dois permanece dependente; não oito observações independentes. Os relatos Soros/Lagos/Brahimi são contemporâneos e delimitados, com limites de origem/evento precisos; não corpo primário novo de posições. Sem imports/Git.
+Guardas objeto inteiro/exato pós-estado idempotente; fonte anterior mantida integralmente. Preservação de vetores, códigos e períodos obrigatória. Nenhuma contagem de ranking muda e nenhuma norma de outros participantes é transferida. Evidência compartilhada Elders13/05 para seis nomes e Omar23/07 para dois permanece dependente; não oito observações independentes. Os relatos Soros/Lagos/Brahimi são contemporâneos e delimitados, com limites de origem/evento precisos; não corpo primário novo de posições. Imports realizados pelo agente de reparo e commit pelo Root; nenhuma operação Git pelo autor.
 
 ## Revisão independente efetivamente realizada
 

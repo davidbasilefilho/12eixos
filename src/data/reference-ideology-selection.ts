@@ -6,14 +6,15 @@ export const ideologySelectionSnapshot = {
   "catalogCount": 218,
   "intendedSubsetCount": 75,
   "readyForDefaultUse": false,
-  "boundedReviewedReferents": 68,
-  "referentCountScope": "Integrated68 located referents after accepted same-ID08/09 overlays; no75 independence proof.",
-  "boundedTwoSidedContrasts": 53,
+  "boundedReviewedReferents": 73,
+  "referentCountScope": "Integrated working-tree818-03 after definitions11/12/13 and existingBPP substitution:73 located normative referents/59 bounded comparisons. No75 distinctness certificate or matching-gate implication.",
+  "boundedTwoSidedContrasts": 59,
   "preservedOriginalCatalogCount": 206,
   "partitionCountScope": "Same218=75selected+143alternatives; all original206 and original75 identities preserved. No raw catalog growth.",
   "pendingCatalogIds": [],
   "independent75Verified": false,
-  "pendingDefinitionOverlayIds": []
+  "pendingDefinitionOverlayIds": [],
+  "pendingSelectionReplacements": []
 } as const;
 
 export const ideologyInclusionDefinition = {
@@ -639,7 +640,7 @@ export const ideologySelectionFamilies = [
   {
     "id": "liberal",
     "label": "Liberdade, propriedade e mercados",
-    "count": 12
+    "count": 11
   },
   {
     "id": "conservative",
@@ -659,7 +660,7 @@ export const ideologySelectionFamilies = [
   {
     "id": "decolonial",
     "label": "Emancipação, comunidade e autodeterminação",
-    "count": 7
+    "count": 8
   },
   {
     "id": "religious",
@@ -1507,6 +1508,60 @@ export const ideologySelectionSources = [
     "locator": "Páginas impressas 123/124/134 completas pelo índice efetivamente lidas por autor e revisor independente.123–124 defende bem-estar/distribuição, consumo e ocupação livres, com comparabilidade de utilidade;134 transição abrangente condicionada aos fins do governo e exceções de compensação/técnicos. PDF direto21 páginassem texto extraído; alternativa Clemson timeout. Não artigo completo nem validação causal.",
     "supports": "Endosso normativo de bem-estar/propriedade social com autoridade e escolhas localizadas; nenhuma eficácia causal ou pontuação inferida.",
     "readAt": "2026-10-08"
+  },
+  {
+    "id": "ideology-right-objectivism-nearest-function-2026-10-08",
+    "title": "Patents and Copyrights — Ayn Rand, authorized ARI excerpts",
+    "url": "https://courses.aynrand.org/lexicon/patents-and-copyrights/",
+    "locator": "Own36–58; independent36–58; first-patent independent-inventor exclusion46–47; finite duration41 and discovery exclusion55.",
+    "supports": "Bounded constitutive political or economic prescription; not measured practice.",
+    "limits": "The page reproduces selected excerpts, not the complete essay or all Objectivist political writing.",
+    "reviewedOn": "2026-10-08"
+  },
+  {
+    "id": "ideology-right-minarchism-nearest-function-2026-10-08",
+    "title": "Anarchy, State and Utopia — Nozick, The Proviso, primary excerpt",
+    "url": "https://cyber.harvard.edu/IPCoop/74nozi.html",
+    "locator": "Author actual whole excerpt4–27 and notes30–39; patent paragraphs22–24. Independent complete indexed Ch7 patent paragraph and proviso from Ted K Archive.",
+    "supports": "Bounded constitutive political or economic prescription; not measured practice.",
+    "limits": "Harvard transcription contains typographical errors; no facsimile collation. Independent indexed excerpt was read, not the entire book.",
+    "reviewedOn": "2026-10-08"
+  },
+  {
+    "id": "ideology-mutualism-nearest-function-2026-10-08",
+    "title": "What is Property? — Proudhon, ChapterV",
+    "url": "https://www.marxists.org/reference/subject/economics/proudhon/property/ch05.htm",
+    "locator": "Independent actual328–386, including380–381 equal wages despite unequal capacities. Author prior ChV propositions scope, no new remuneration reread.",
+    "supports": "Bounded constitutive political or economic prescription; not measured practice.",
+    "limits": "Actual remuneration passage attested by the independent reader; author prior whole-conclusion reading is separately recorded.",
+    "reviewedOn": "2026-10-08"
+  },
+  {
+    "id": "ideology-left-individualist-anarchism-nearest-function-2026-10-08",
+    "title": "Instead of a Book — Benjamin Tucker",
+    "url": "https://theanarchistlibrary.org/library/benjamin-tucker-instead-of-a-book",
+    "locator": "Independent actual441–471;463–464 possible continuing soil/site and ability economic rents accepted. Author prior competitive-capital essay read separately.",
+    "supports": "Bounded constitutive political or economic prescription; not measured practice.",
+    "limits": "Collection-specific normative statement; not proof every historical individualist anarchist endorsed all rents.",
+    "reviewedOn": "2026-10-08"
+  },
+  {
+    "id": "black-panther-constitutional-programme-1966",
+    "title": "What We Want, What We Believe: The Black Panther Party Platform and Program",
+    "url": "https://www.marxists.org/history/usa/workers/black-panthers/1966/10/15.htm",
+    "locator": "Full programme9–54; source/correction57–61; §§2/4 conditional federal duty, §9 State constitutional peer jury.",
+    "supports": "Affirmative collective authority and socioeconomic programme; State legal jurisdiction accepted conditionally in demand for fair community juries.",
+    "limits": "1966 text via Newton1980, corrected MIA2001 transcription; no original facsimile. §10 fabricated UN plebiscite explicitly removed. No empirical/legal correctness certification.",
+    "reviewedOn": "2026-10-08"
+  },
+  {
+    "id": "cole-guild-1920-remuneration-allocation",
+    "title": "Guild Socialism Re-stated — Cole1920 original-text OCR",
+    "url": "https://www.scribd.com/document/1060234038/g-d-h-Cole-guild-Socialism-Re-stated",
+    "locator": "Printed68–76 (especially72–73 remuneration) and139–148 (Commune adjudication/credit). Author2060–2345/4325–4619; peer shifted offsets2060–2358/4342–4557.",
+    "supports": "Defended GuildCongress transitional salaries/eventual income independent of particular service; Commune final arbitration and budgets.",
+    "limits": "Hosted OCR not visual collation; inequalities allowed transition; detailed work normally functional bodies. Source prescriptions not implementation.",
+    "reviewedOn": "2026-10-08"
   }
 ] as const;
 
@@ -1557,14 +1612,14 @@ export const intendedIdeologySelection = [
   },
   {
     "id": "ideology-right-minarchism",
-    "name": "Minarquismo",
+    "name": "Estado mínimo e direitos de invenção em Nozick, 1974",
     "family": "liberal",
     "selectionRationale": "Estado mínimo, preservado em contraste com abolição",
     "reviewStatus": "referent-and-bounded-neighbor-contrast-reviewed",
-    "documentedAxisCountAtSnapshot": 2,
+    "documentedAxisCountAtSnapshot": 0,
     "ontologyStatus": "bounded-normative-referent-reviewed",
     "contrastStatus": "bounded-primary-neighbor-contrast",
-    "ontologyLimit": "Contraste específico de autoridade ou programa fundiário/fiscal localizado; fundamentos entre correntes próximas e relação com subtradições ainda não certificam independência global."
+    "ontologyLimit": "Both accept intellectual property, limited protective government and finite duration. Nozick allows a burden of proving independence; Rand excludes natural discoveries. No all-school independence or measured legal implementation claim. Other closest neighbors still require explicit review."
   },
   {
     "id": "ideology-right-anarcho-capitalism",
@@ -1590,14 +1645,14 @@ export const intendedIdeologySelection = [
   },
   {
     "id": "ideology-right-objectivism",
-    "name": "Objetivismo político",
+    "name": "Objetivismo político: direitos e patentes em Rand, 1963–1966",
     "family": "liberal",
     "selectionRationale": "Justificação filosófica objetivista do laissez-faire",
     "reviewStatus": "referent-and-bounded-neighbor-contrast-reviewed",
-    "documentedAxisCountAtSnapshot": 3,
+    "documentedAxisCountAtSnapshot": 0,
     "ontologyStatus": "bounded-normative-referent-reviewed",
     "contrastStatus": "bounded-primary-neighbor-contrast",
-    "ontologyLimit": "Contraste específico de autoridade ou programa fundiário/fiscal localizado; fundamentos entre correntes próximas e relação com subtradições ainda não certificam independência global."
+    "ontologyLimit": "Both accept intellectual property, limited protective government and finite duration. Nozick allows a burden of proving independence; Rand excludes natural discoveries. No all-school independence or measured legal implementation claim. Other closest neighbors still require explicit review."
   },
   {
     "id": "ideology-right-technolibertarianism",
@@ -1611,14 +1666,15 @@ export const intendedIdeologySelection = [
     "ontologyLimit": "Programas institucionais de ação social/economia ou jurisdição digital localizados. As duas declarações SI continuam no mesmo campo democrático socialista: diferença de edição não prova doutrinas independentes. Barlow limita autonomia ao ciberespaço e admite governo dos corpos."
   },
   {
-    "id": "ideology-neoliberalism",
-    "name": "Neoliberalismo inicial (Colóquio Walter Lippmann)",
-    "family": "liberal",
-    "selectionRationale": "Renovação liberal de 1938, recorte historicamente delimitado",
-    "reviewStatus": "provisional",
+    "id": "ideology-left-black-panther-platform",
+    "name": "Programa constitucional e comunitário Black Panther, 1966",
+    "family": "decolonial",
+    "selectionRationale": "Programa1966: autodeterminação comunitária, deveres federais condicionais de emprego/moradia e júri constitucional da própria comunidade.",
+    "reviewStatus": "referent-and-bounded-neighbor-contrast-reviewed",
     "documentedAxisCountAtSnapshot": 0,
-    "ontologyStatus": "provisional-normative-referent",
-    "contrastStatus": "not-independently-verified"
+    "ontologyStatus": "bounded-normative-referent-reviewed",
+    "contrastStatus": "bounded-primary-neighbor-contrast",
+    "ontologyLimit": "Constitutional court legitimacy differs from Ervin liberated-zone jurisdiction; both demand State aid. Not blanket final-State endorsement, racial-label distinction or all nearest socialist/decolonial-family certification."
   },
   {
     "id": "ideology-conservatism",
@@ -1798,13 +1854,14 @@ export const intendedIdeologySelection = [
   },
   {
     "id": "ideology-eurocommunism",
-    "name": "Eurocomunismo",
+    "name": "Eurocomunismo: declaração democrática de Berlinguer, 1977",
     "family": "socialist",
     "selectionRationale": "Via comunista pluralista e parlamentar",
-    "reviewStatus": "provisional",
+    "reviewStatus": "referent-reviewed-nearest-unresolved",
     "documentedAxisCountAtSnapshot": 0,
-    "ontologyStatus": "provisional-normative-referent",
-    "contrastStatus": "not-independently-verified"
+    "ontologyStatus": "bounded-normative-referent-reviewed",
+    "contrastStatus": "unresolved-primary-nearest-overlap",
+    "ontologyLimit": "Affirmative dated primary body reviewed and same-ID alignment accepted. Nearest material distinction still unresolved; author/year/religious label not sufficient; zero coded axes."
   },
   {
     "id": "ideology-council-communism",
@@ -1863,14 +1920,14 @@ export const intendedIdeologySelection = [
   },
   {
     "id": "ideology-mutualism",
-    "name": "Mutualismo",
+    "name": "Mutualismo: posse e igualdade de remuneração em Proudhon, 1840",
     "family": "anarchist",
     "selectionRationale": "Reciprocidade econômica e crítica aos privilégios",
     "reviewStatus": "referent-and-bounded-neighbor-contrast-reviewed",
     "documentedAxisCountAtSnapshot": 0,
     "ontologyStatus": "bounded-normative-referent-reviewed",
     "contrastStatus": "bounded-primary-neighbor-contrast",
-    "ontologyLimit": "Contrastes localizados sobre troca/distribuição ou legitimidade da força defensiva. Relação Tucker/Proudhon e anarcossindicalismo/comunismo permanece aninhada ou aberta; as edições lidas não equivalem a toda história da corrente."
+    "ontologyLimit": "Shared possession, competition and explicit Proudhon lineage remain; this does not separate every mutualist and individualist variant or validate causal wage/rent predictions. Other closest neighbors still require explicit review."
   },
   {
     "id": "ideology-pacifist-anarchism",
@@ -1896,14 +1953,14 @@ export const intendedIdeologySelection = [
   },
   {
     "id": "ideology-left-individualist-anarchism",
-    "name": "Anarquismo individualista",
+    "name": "Anarquismo individualista: programa de Tucker, edição 1897",
     "family": "anarchist",
     "selectionRationale": "Associação individual e oposição a monopólios",
     "reviewStatus": "referent-and-bounded-neighbor-contrast-reviewed",
-    "documentedAxisCountAtSnapshot": 6,
+    "documentedAxisCountAtSnapshot": 0,
     "ontologyStatus": "bounded-normative-referent-reviewed",
     "contrastStatus": "bounded-primary-neighbor-contrast",
-    "ontologyLimit": "Contrastes localizados sobre troca/distribuição ou legitimidade da força defensiva. Relação Tucker/Proudhon e anarcossindicalismo/comunismo permanece aninhada ou aberta; as edições lidas não equivalem a toda história da corrente."
+    "ontologyLimit": "Shared possession, competition and explicit Proudhon lineage remain; this does not separate every mutualist and individualist variant or validate causal wage/rent predictions. Other closest neighbors still require explicit review."
   },
   {
     "id": "ideology-program-anarcho-primitivism-zerzan-1994-2016",
@@ -1972,23 +2029,25 @@ export const intendedIdeologySelection = [
   },
   {
     "id": "ideology-left-nasserism",
-    "name": "Nasserismo",
+    "name": "Nasserismo: diretrizes da Carta Nacional, 1962",
     "family": "decolonial",
     "selectionRationale": "Desenvolvimento estatal e nacionalismo egípcio",
-    "reviewStatus": "provisional",
-    "documentedAxisCountAtSnapshot": 3,
-    "ontologyStatus": "provisional-normative-referent",
-    "contrastStatus": "not-independently-verified"
+    "reviewStatus": "referent-reviewed-nearest-unresolved",
+    "documentedAxisCountAtSnapshot": 0,
+    "ontologyStatus": "bounded-normative-referent-reviewed",
+    "contrastStatus": "unresolved-primary-nearest-overlap",
+    "ontologyLimit": "Affirmative dated primary body reviewed and same-ID alignment accepted. Nearest material distinction still unresolved; author/year/religious label not sufficient; zero coded axes."
   },
   {
     "id": "ideology-left-baathism",
-    "name": "Baathismo",
+    "name": "Baathismo: programa da constituição partidária, 1947",
     "family": "decolonial",
     "selectionRationale": "Unidade árabe como programa partidário",
-    "reviewStatus": "provisional",
-    "documentedAxisCountAtSnapshot": 5,
-    "ontologyStatus": "provisional-normative-referent",
-    "contrastStatus": "not-independently-verified"
+    "reviewStatus": "referent-reviewed-nearest-unresolved",
+    "documentedAxisCountAtSnapshot": 0,
+    "ontologyStatus": "bounded-normative-referent-reviewed",
+    "contrastStatus": "unresolved-primary-nearest-overlap",
+    "ontologyLimit": "Affirmative dated primary body reviewed and same-ID alignment accepted. Nearest material distinction still unresolved; author/year/religious label not sufficient; zero coded axes."
   },
   {
     "id": "ideology-left-ujamaa",
@@ -2058,13 +2117,14 @@ export const intendedIdeologySelection = [
   },
   {
     "id": "ideology-islamic-democracy",
-    "name": "Democracia muçulmana",
+    "name": "Democracia de valores islâmicos: programa de Ghannouchi, 2016",
     "family": "religious",
     "selectionRationale": "Pluralismo civil no recorte democrático muçulmano",
-    "reviewStatus": "provisional",
+    "reviewStatus": "referent-reviewed-nearest-unresolved",
     "documentedAxisCountAtSnapshot": 0,
-    "ontologyStatus": "provisional-normative-referent",
-    "contrastStatus": "not-independently-verified"
+    "ontologyStatus": "bounded-normative-referent-reviewed",
+    "contrastStatus": "unresolved-primary-nearest-overlap",
+    "ontologyLimit": "Affirmative dated primary body reviewed and same-ID alignment accepted. Nearest material distinction still unresolved; author/year/religious label not sufficient; zero coded axes."
   },
   {
     "id": "green-politics",
@@ -2244,13 +2304,13 @@ export const intendedIdeologySelection = [
   },
   {
     "id": "ideology-left-guild-socialism",
-    "name": "Socialismo de guildas",
+    "name": "Socialismo de guildas: programa de Cole, 1920",
     "family": "socialist",
     "selectionRationale": "Autogoverno industrial e político por associações de produtores, consumidores e comunas; Cole fornece um programa de reconstrução social.",
     "reviewStatus": "referent-reviewed-contrast-provisional",
-    "documentedAxisCountAtSnapshot": 4,
+    "documentedAxisCountAtSnapshot": 0,
     "ontologyStatus": "bounded-normative-referent-reviewed",
-    "contrastStatus": "not-independently-verified"
+    "contrastStatus": "bounded-primary-neighbor-contrast"
   },
   {
     "id": "ideology-left-black-anarchism",
@@ -2270,7 +2330,7 @@ export const intendedIdeologySelection = [
     "reviewStatus": "referent-reviewed-nearest-overlap-open",
     "documentedAxisCountAtSnapshot": 6,
     "ontologyStatus": "bounded-normative-referent-reviewed",
-    "contrastStatus": "nearest-neighbor-unresolved",
+    "contrastStatus": "bounded-primary-neighbor-contrast",
     "ontologyLimit": "Único exemplar tecnocrático qualificado desta seleção. Edição eletrônica 1.1/2004 efetivamente lida e independentemente reaberta; direção continental autoseletiva e organização produtiva afirmadas. Veblen permanece registro extra, não segunda doutrina independente. Proximidade a outras formas de planejamento/autoridade exige contraste; nenhuma previsão científica ou prática validada."
   },
   {
@@ -2281,7 +2341,7 @@ export const intendedIdeologySelection = [
     "reviewStatus": "referent-reviewed-nearest-overlap-open",
     "documentedAxisCountAtSnapshot": 3,
     "ontologyStatus": "bounded-normative-referent-reviewed",
-    "contrastStatus": "nearest-neighbor-unresolved",
+    "contrastStatus": "bounded-primary-neighbor-contrast",
     "ontologyLimit": "Programa explícito de acesso amplo, escolha e redução de riscos com democracia e Estado de direito internacional, não mera previsão tecnológica. Proximidade com ecomodernismo, liberalismo social e outras tradições exige exame material; nenhuma nova comparação automaticamente resolvida. Catálogo separado, fonte Humanity+ declara adoção em 2009, não revisão 2012."
   },
   {
@@ -2550,9 +2610,9 @@ export const ideologyOverlapChecks = [
   {
     "a": "ideology-right-objectivism",
     "b": "ideology-right-minarchism",
-    "relation": "shared-minimal-government-different-justification-unreviewed",
-    "rationale": "Fontes lidas convergem em governo protetor de direitos; autoria e sistema filosófico diferente não bastam para provar doutrinas políticas independentes. Necessária comparação localizada dos fundamentos.",
-    "status": "both-primary-referents-read-contrast-unresolved"
+    "relation": "state-enforced-independent-inventor-exclusion",
+    "rationale": "Rand requires the independently inventing loser to accept the first patent monopoly; Nozick permits a proven independent inventor to use and sell the invention. This changes enforceable property exclusion within a shared limited-State endpoint. Both accept intellectual property, limited protective government and finite duration. Nozick allows a burden of proving independence; Rand excludes natural discoveries. No all-school independence or measured legal implementation claim.",
+    "status": "bounded-primary-contrast"
   },
   {
     "a": "ideology-maoism",
@@ -2606,9 +2666,9 @@ export const ideologyOverlapChecks = [
   {
     "a": "ideology-mutualism",
     "b": "ideology-left-individualist-anarchism",
-    "relation": "nested-or-specific-distribution-contrast-unresolved",
-    "rationale": "Tucker reivindica Warren/Proudhon e competição/posse; nenhum compromisso político adicional exclusivamente tuckeriano foi demonstrado nesta leitura. Relação pode ser subtradição, não duas doutrinas disjuntas.",
-    "status": "both-primary-referents-read-contrast-unresolved"
+    "relation": "capacity-wage-equality-versus-permitted-ability-rent",
+    "rationale": "Proudhon1840 rejects unequal wages justified by unequal capacities; Tucker1897 expressly tolerates continuing economic rent of ability and site. This is a scoped remuneration rule, not different author labels. Shared possession, competition and explicit Proudhon lineage remain; this does not separate every mutualist and individualist variant or validate causal wage/rent predictions.",
+    "status": "bounded-primary-contrast"
   },
   {
     "a": "ideology-program-anarcho-syndicalism-iwa-2022",
@@ -2908,6 +2968,34 @@ export const ideologyOverlapChecks = [
     "rationale": "LangeI62 impõe regras de planta/indústria pelo CPB e mantém mercados de consumo/trabalho; Hahnel chapter1 conselhos propõem/aprovam suas atividades, IFB sem discricionariedade no reply123. Ambos têm preços iterativos, propriedade social e escolhas. Aprovações coletivas e constraints Hahnel mantidas; não ausência de board/iteração.",
     "status": "bounded-primary-contrast",
     "remaining": "Contraste dos exemplares, não todas variantes do socialismo de mercado nem global75."
+  },
+  {
+    "a": "ideology-left-black-panther-platform",
+    "b": "ideology-left-black-anarchism",
+    "relation": "constitutional-community-jury-versus-no-state-jurisdiction",
+    "rationale": "Panther1966§9 demands State constitutional community peer juries. Ervin1993§357 denies State courts jurisdiction in liberated zones;244 rejects progressive government role. Both demand State aid and Ervin357 prosecution, so not aid-versus-no-aid. Bounded judicial legitimacy, not ethnicity or all socialist-family opposition.",
+    "status": "bounded-primary-contrast"
+  },
+  {
+    "a": "ideology-left-guild-socialism",
+    "b": "ideology-program-participatory-economics-hahnel-2014",
+    "relation": "eventual-income-independent-of-particular-service-versus-effort-based-consumption-right",
+    "rationale": "Cole1920 printed72–73 defends eventual income irrespective particular work/service (not exemption from all labour obligations), while admitting transitional pay inequality and GuildCongress review. Hahnel2014 own chapter1 effort/sacrifice remains ongoing consumption-right criterion, with own special-need allowances. Same remuneration authority, shared democratic production and humane exceptions; no all-stage or all-tradition incompatibility.",
+    "status": "bounded-primary-contrast"
+  },
+  {
+    "a": "ideology-left-guild-socialism",
+    "b": "ideology-council-communism",
+    "relation": "communal-budget-arbitration-versus-factory-self-administration-common-accounting",
+    "rationale": "Cole1920 printed142–148 grants Commune final disputed-price/credit/resource allocation authority; detailed functional work normally remains autonomous. GIC1930 XIII direct factory self-administration is constrained by compulsory common accounting; VI rejects discretionary allocation by accounting offices. Bounded adjudication/allocation authority, not State versus unconstrained production.",
+    "status": "bounded-primary-contrast"
+  },
+  {
+    "a": "ideology-program-technocracy-inc-2004",
+    "b": "civic-transhumanism",
+    "relation": "autoselecting-functional-control-versus-democratic-international-rule-of-law",
+    "rationale": "Inc electronic1.1/2004 Lesson22 director selected by functional Control with internal two-thirds veto/recall and explicit non-democratic design. Bostrom2005 endorses public debate and international rule of law/democracy. Shared technological prosperity does not establish difference; same public-authority legitimacy function differs in these programmes, not all transhumanism or other nearest models.",
+    "status": "bounded-primary-contrast"
   }
 ] as const;
 
@@ -3532,19 +3620,6 @@ export const preservedIdeologyAlternatives = [
     "catalogRationale": "A plataforma fundadora do partido iraniano reúne liberdades democráticas, independência nacional e reformas sociais em um contexto de ocupação e monarquia.",
     "catalogSourceTitles": [
       "Brief History of the Tudeh Party of Iran — Tudeh Party of Iran"
-    ],
-    "documentedAxisCountAtSnapshot": 0,
-    "reviewStatus": "provisional"
-  },
-  {
-    "id": "ideology-left-black-panther-platform",
-    "name": "Programa do Black Panther Party",
-    "reasonCode": "regional-or-subtradition",
-    "compareWith": null,
-    "decisionRationale": "Recorte regional, escola, movimento ou estratégia dentro de tradições já representadas; seleção limitada preserva este contraste como alternativa, sem afirmar sinonímia.",
-    "catalogRationale": "A plataforma do partido articula autodefesa e autodeterminação negra com emprego, moradia, educação e controle comunitário.",
-    "catalogSourceTitles": [
-      "What We Want, What We Believe: The Black Panther Party Platform and Program"
     ],
     "documentedAxisCountAtSnapshot": 0,
     "reviewStatus": "provisional"
@@ -4768,6 +4843,19 @@ export const preservedIdeologyAlternatives = [
     ],
     "documentedAxisCountAtSnapshot": 0,
     "reviewStatus": "preserved-original-not-newly-validated"
+  },
+  {
+    "id": "ideology-neoliberalism",
+    "name": "Neoliberalismo inicial (Colóquio Walter Lippmann)",
+    "reasonCode": "primary-definition-and-distinctness-unresolved",
+    "compareWith": "ideology-ordoliberalism",
+    "decisionRationale": "CWL actual agenda not recovered and umbrella overlap unresolved; preserved complete catalog record, replaced selected slot by existing primary-normative BPP programme.",
+    "catalogRationale": "O encontro documenta uma tentativa explícita de renovar o liberalismo e registra propostas divergentes sobre suas bases políticas e econômicas.",
+    "catalogSourceTitles": [
+      "The Walter Lippmann Colloquium: The Birth of Neo-Liberalism — atas traduzidas do encontro de 1938"
+    ],
+    "documentedAxisCountAtSnapshot": 0,
+    "reviewStatus": "provisional"
   }
 ] as const;
 
@@ -4882,6 +4970,14 @@ export const ideologyOntologySubstitutions = [
     "selectedId": "ideology-program-conservative-constitution-disraeli-1872",
     "reason": "Exemplar selecionado usa discurso político próprio, com contraste institucional e contratual material localizado; fonte literária original não apagada. Não distingue pela autoria/ano.",
     "status": "bounded-provisional-substitution-new-explicit-program",
+    "catalogRecordsDeleted": false
+  },
+  {
+    "removedId": "ideology-neoliberalism",
+    "selectedId": "ideology-left-black-panther-platform",
+    "reason": "Root accepted existing alternative1966 affirmative programme and bounded constitutional-jurisdiction contrast; unrecovered CWL preserved extra. No raw growth or scores.",
+    "reviewedOn": "2026-10-08",
+    "status": "accepted-proposed-substitution-existing-catalog",
     "catalogRecordsDeleted": false
   }
 ] as const;
@@ -5345,5 +5441,96 @@ export const ideologyOntologyReviewGroups = [
       "lange-normative-part-ii"
     ],
     "reviewedOn": "2026-10-08"
+  },
+  {
+    "id": "state-enforced-independent-inventor-exclusion",
+    "selectedIds": [
+      "ideology-right-objectivism",
+      "ideology-right-minarchism"
+    ],
+    "status": "one-bounded-two-sided-primary-contrast",
+    "scope": "Rand requires the independently inventing loser to accept the first patent monopoly; Nozick permits a proven independent inventor to use and sell the invention. This changes enforceable property exclusion within a shared limited-State endpoint. Both accept intellectual property, limited protective government and finite duration. Nozick allows a burden of proving independence; Rand excludes natural discoveries. No all-school independence or measured legal implementation claim.",
+    "sourceIds": [
+      "ideology-right-objectivism-nearest-function-2026-10-08",
+      "ideology-right-minarchism-nearest-function-2026-10-08"
+    ],
+    "reviewedOn": "2026-10-08"
+  },
+  {
+    "id": "capacity-wage-equality-versus-permitted-ability-rent",
+    "selectedIds": [
+      "ideology-mutualism",
+      "ideology-left-individualist-anarchism"
+    ],
+    "status": "one-bounded-two-sided-primary-contrast",
+    "scope": "Proudhon1840 rejects unequal wages justified by unequal capacities; Tucker1897 expressly tolerates continuing economic rent of ability and site. This is a scoped remuneration rule, not different author labels. Shared possession, competition and explicit Proudhon lineage remain; this does not separate every mutualist and individualist variant or validate causal wage/rent predictions.",
+    "sourceIds": [
+      "ideology-mutualism-nearest-function-2026-10-08",
+      "ideology-left-individualist-anarchism-nearest-function-2026-10-08"
+    ],
+    "reviewedOn": "2026-10-08"
+  },
+  {
+    "id": "constitutional-community-jury-versus-no-state-jurisdiction",
+    "selectedIds": [
+      "ideology-left-black-panther-platform",
+      "ideology-left-black-anarchism"
+    ],
+    "status": "one-bounded-two-sided-primary-contrast",
+    "scope": "One selected primary referent replaces unreviewedCWL without raw growth; conditional constitutional juries vs no State jurisdiction, State aid/prosecution shared counters. No numeric axes.",
+    "sourceIds": [
+      "black-panther-constitutional-programme-1966",
+      "ervin-1993"
+    ],
+    "reviewedOn": "2026-10-08"
+  },
+  {
+    "id": "eventual-income-independent-of-particular-service-versus-effort-based-consumption-right",
+    "selectedIds": [
+      "ideology-left-guild-socialism",
+      "ideology-program-participatory-economics-hahnel-2014"
+    ],
+    "status": "one-bounded-two-sided-primary-contrast",
+    "scope": "Cole1920 printed72–73 defends eventual income irrespective particular work/service (not exemption from all labour obligations), while admitting transitional pay inequality and GuildCongress review. Hahnel2014 own chapter1 effort/sacrifice remains ongoing consumption-right criterion, with own special-need allowances. Same remuneration authority, shared democratic production and humane exceptions; no all-stage or all-tradition incompatibility.",
+    "sourceIds": [
+      "cole-guild-1920-remuneration-allocation",
+      "hahnel-economic-governance-2014",
+      "gic-production-1930",
+      "gic-remuneration-rule-1930"
+    ],
+    "reviewedOn": "2026-10-08",
+    "rootDecision": "accepted-bounded-2026-10-08"
+  },
+  {
+    "id": "communal-budget-arbitration-versus-factory-self-administration-common-accounting",
+    "selectedIds": [
+      "ideology-left-guild-socialism",
+      "ideology-council-communism"
+    ],
+    "status": "one-bounded-two-sided-primary-contrast",
+    "scope": "Cole1920 printed142–148 grants Commune final disputed-price/credit/resource allocation authority; detailed functional work normally remains autonomous. GIC1930 XIII direct factory self-administration is constrained by compulsory common accounting; VI rejects discretionary allocation by accounting offices. Bounded adjudication/allocation authority, not State versus unconstrained production.",
+    "sourceIds": [
+      "cole-guild-1920-remuneration-allocation",
+      "hahnel-economic-governance-2014",
+      "gic-production-1930",
+      "gic-remuneration-rule-1930"
+    ],
+    "reviewedOn": "2026-10-08",
+    "rootDecision": "accepted-bounded-2026-10-08"
+  },
+  {
+    "id": "autoselecting-functional-control-versus-democratic-international-rule-of-law",
+    "selectedIds": [
+      "ideology-program-technocracy-inc-2004",
+      "civic-transhumanism"
+    ],
+    "status": "one-bounded-two-sided-primary-contrast",
+    "scope": "Inc electronic1.1/2004 Lesson22 director selected by functional Control with internal two-thirds veto/recall and explicit non-democratic design. Bostrom2005 endorses public debate and international rule of law/democracy. Shared technological prosperity does not establish difference; same public-authority legitimacy function differs in these programmes, not all transhumanism or other nearest models.",
+    "sourceIds": [
+      "technocracy-functional-design-2004",
+      "bostrom-transhumanist-values-2005"
+    ],
+    "reviewedOn": "2026-10-08",
+    "rootDecision": "accepted-bounded-2026-10-08"
   }
 ] as const;

@@ -1,8 +1,8 @@
 # Ideology ontology: bounded source audit
 
-Definition overlays08/09 are integrated on the same existing IDs, with zero coded axes and no raw catalog growth. Current ideology ledger is218 =75 selected +143 alternatives,68 located normative referents/53 bounded comparisons. These counts do not certify75 independent doctrines.
+Definition overlays 08–13 and the existing BPP/CWL selected-slot substitution are integrated in the inventory818-03 working tree, with zero new coded axes and no raw catalog growth. Current ideology ledger is 218 =75 selected +143 alternatives,73 located normative referents/59 bounded comparisons. These counts do not certify75 independent doctrines.
 
-Current accepted review: **2026-10-08**, **218 integrated ideology identities =75 selected +143 preserved alternatives**, **68 located normative primary referents /53 bounded two-sided comparisons**. All206 original identities and original75 snapshot are preserved. No programme ID is pending import; full75 independence/default-use remain false. Partial1–5 and zero-axis normative definitions remain unranked under the unchanged six-axis matching gate. Historical checkpoint sections below retain their original scope.
+Current accepted review: **2026-10-08**, **218 integrated ideology identities =75 selected +143 preserved alternatives**, **73 located normative primary referents /59 bounded two-sided comparisons**. All206 original identities and original75 snapshot are preserved. No programme ID is pending import; full75 independence/default-use remain false. Partial1–5 and zero-axis normative definitions remain unranked under the unchanged six-axis matching gate. Historical checkpoint sections below retain their original scope.
 
 Historical review chronology begins below: the original7October index-level screening of75 and first substitutions are preserved as dated earlier scope; subsequent groups extend that work without retroactively validating old scores.
 
@@ -325,3 +325,7 @@ Narodnaya Volya1881 replaces the unresolved Mariateguismo selected slot, retaini
 ## Current same-ID definition repairs, 8 October 2026
 
 Prebisch and Lange are integrated through guarded overlays08/09 on their original IDs. The current ideology partition remains 218 =75 selected +143 alternatives. Documentary scope is 68 located normative primary referents and53 bounded two-sided comparisons; global75 distinctness remains unresolved. Both definitions have zero located axes and remain unranked. The complete prior LIVE records and every original source object are preserved. Lange’s unsupported legacy ECO79/CON67 are archived and centered to unknown50, with no replacement scores. [Detailed source scope and preservation checks](reference-existing-ideology-definition-08-09.md) distinguish indexed original-page recovery from full-article reading.
+
+## Current integrated inventory818-03 scope
+
+Current documentary scope is73 located normative referents/59 bounded comparisons,218 ideology records=75 selected+143 preserved alternatives. BPP1966 is selected in the old CWL slot; all original75 identities/trace and the full unrecovered CWL record remain preserved. Definitions11–13 are integrated with full prior archives/source-object unions and zero new numerical codes. Nasser/Baath, Berlinguer and Ghannouchi have positive located programme bodies but unresolved nearest comparisons. Exact Rand/Nozick, Tucker/Proudhon, Cole/Hahnel, Cole/GIC and Inc/Bostrom comparisons retain shared commitments/counters. Generic all-history-family uncertainty does not negate an accepted exact dated programme distinction, but no75-wide certificate is implied. Future Bandung14 and Kropotkin/Bakunin15 source work is not included in these counts.

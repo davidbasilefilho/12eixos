@@ -34,8 +34,8 @@
     ],
     "provenance": "Executed before local data corrections in this recovery checkpoint; not recomputed from unavailable prior Library checkpoint."
   },
-  "headCommitAtAudit": "75af08d7593226d8892e55986d1ef496825d4519",
-  "integratedCatalogSha256": "fab86664d02786b5c4a06113e050fe2b56c0eb97569f7b01ec565ef6d37454cc",
+  "headCommitAtAudit": "35ca22b69c740d9b43ca16ae3a78daef2c06cf71",
+  "integratedCatalogSha256": "d589fc0f9144177fc7ec05dd4f3b2cbb642c3a514ec652f27a3520d55953976e",
   "scope": "Integrated working-tree catalog after preparation; fixed remote baseline and current HEAD are provenance, not immutable copies of modified files.",
   "evidenceGate": {
     "minimumAxes": 6,
@@ -56,10 +56,10 @@
   ],
   "totalTarget": 675,
   "totalRecords": 818,
-  "structurallyEligible": 82,
+  "structurallyEligible": 74,
   "documentaryEligible": 56,
   "insufficientEvidence": 762,
-  "unreviewedDirectionCount": 948,
+  "unreviewedDirectionCount": 828,
   "summedCategoryIdentityGap": 0,
   "categories": [
     {
@@ -99,7 +99,7 @@
       "category": "historical-figure",
       "target": 150,
       "records": 150,
-      "structurallyEligible": 29,
+      "structurallyEligible": 22,
       "documentaryEligible": 22,
       "insufficientEvidence": 128,
       "missingIdentitiesBeforeSemanticReview": 0,
@@ -110,7 +110,7 @@
       "category": "ideology",
       "target": 75,
       "records": 218,
-      "structurallyEligible": 28,
+      "structurallyEligible": 27,
       "documentaryEligible": 9,
       "insufficientEvidence": 209,
       "missingIdentitiesBeforeSemanticReview": 0,
@@ -2366,11 +2366,11 @@
     },
     {
       "id": "ideology-eurocommunism",
-      "name": "Eurocomunismo",
+      "name": "Eurocomunismo: declaração democrática de Berlinguer, 1977",
       "aliases": [],
       "kind": "ideology",
       "category": "ideology",
-      "period": "Declaração de Berlinguer sobre democracia e socialismo, 1977",
+      "period": "Intervenção de Berlinguer em Moscou, novembro de 1977; republicação registra 3 de novembro, cronologiaGramsci 2 de novembro",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
@@ -2378,9 +2378,10 @@
       "mappedAxes": [],
       "documentedAxes": [],
       "directionalAxes": [],
-      "sourceCount": 1,
+      "sourceCount": 2,
       "sourceUrls": [
-        "https://www.marxists.org/reference/archive/berlinguer/1977/11/09.htm"
+        "https://www.marxists.org/reference/archive/berlinguer/1977/11/09.htm",
+        "https://www.enricoberlinguer.it/enrico/scritti/la-democrazia-valore-universale/"
       ]
     },
     {
@@ -2442,11 +2443,11 @@
     },
     {
       "id": "ideology-mutualism",
-      "name": "Mutualismo",
+      "name": "Mutualismo: posse e igualdade de remuneração em Proudhon, 1840",
       "aliases": [],
       "kind": "ideology",
       "category": "ideology",
-      "period": "Textos de Proudhon, 1840–1851",
+      "period": "What Is Property?1840, capítuloV e proposições de posse/igualdade; tradução arquivada sem colação francesa",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
@@ -2454,9 +2455,10 @@
       "mappedAxes": [],
       "documentedAxes": [],
       "directionalAxes": [],
-      "sourceCount": 1,
+      "sourceCount": 2,
       "sourceUrls": [
-        "https://www.marxists.org/reference/subject/economics/proudhon/property/"
+        "https://www.marxists.org/reference/subject/economics/proudhon/property/",
+        "https://www.marxists.org/reference/subject/economics/proudhon/property/ch05.htm"
       ]
     },
     {
@@ -2717,11 +2719,11 @@
     },
     {
       "id": "ideology-islamic-democracy",
-      "name": "Democracia muçulmana",
+      "name": "Democracia de valores islâmicos: programa de Ghannouchi, 2016",
       "aliases": [],
       "kind": "ideology",
       "category": "ideology",
-      "period": "Documento fundador do Partido Ennahda, Tunísia, 2016",
+      "period": "Discurso de 20 de maio de 2016 no 10º Congresso Ennahda; transcrição inglesa de participanteCSID, não documento fundador integral",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
@@ -2729,9 +2731,10 @@
       "mappedAxes": [],
       "documentedAxes": [],
       "directionalAxes": [],
-      "sourceCount": 1,
+      "sourceCount": 2,
       "sourceUrls": [
-        "https://carnegieendowment.org/2016/07/15/ennahda-s-10th-congress-founding-document-pub-64108"
+        "https://carnegieendowment.org/2016/07/15/ennahda-s-10th-congress-founding-document-pub-64108",
+        "https://myemail-api.constantcontact.com/R--Ghannouchi---Carving-a-Path-for-Democracy-and-Islam-to-Co-exist-in-Tunisia---May-20th--2016.html?aid=giWrk7DgTro&soid=1102084408196"
       ]
     },
     {
@@ -3013,70 +3016,42 @@
     },
     {
       "id": "ideology-left-nasserism",
-      "name": "Nasserismo",
+      "name": "Nasserismo: diretrizes da Carta Nacional, 1962",
       "aliases": [],
       "kind": "ideology",
       "category": "ideology",
-      "period": "Carta Nacional do Egito, aprovada em 1962",
+      "period": "Carta apresentada em 21 de maio de 1962; excertos em tradução nova e abreviada, Blandford Press 1971; Harper & Row, Barnes & Noble Import Division, EUA 1972",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "int",
-        "eco",
-        "con"
-      ],
-      "mappedAxes": [
-        "int",
-        "eco",
-        "con"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "int",
-        "eco",
-        "con"
-      ],
-      "sourceCount": 1,
+      "directionalAxes": [],
+      "sourceCount": 2,
       "sourceUrls": [
-        "https://lawcat.berkeley.edu/record/525285"
+        "https://lawcat.berkeley.edu/record/525285",
+        "https://dokumen.pub/arab-socialism-0064960692-9780064960694.html"
       ]
     },
     {
       "id": "ideology-left-baathism",
-      "name": "Baathismo",
+      "name": "Baathismo: programa da constituição partidária, 1947",
       "aliases": [],
       "kind": "ideology",
       "category": "ideology",
-      "period": "Constituição do Partido Baath Árabe Socialista, 1947",
+      "period": "Constituição adotada em abril de 1947; tradução Haim 1962 reimpressa com permissão em Devlin 1976, Apêndice D, pp 345–352",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "rep",
-        "int",
-        "eco",
-        "con",
-        "mor"
-      ],
-      "mappedAxes": [
-        "rep",
-        "int",
-        "eco",
-        "con",
-        "mor"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "rep",
-        "int",
-        "eco",
-        "con",
-        "mor"
-      ],
-      "sourceCount": 1,
+      "directionalAxes": [],
+      "sourceCount": 2,
       "sourceUrls": [
-        "https://acervohc.uff.br/baath/"
+        "https://acervohc.uff.br/baath/",
+        "https://www.scribd.com/document/556751769/John-F-Devlin-The-Ba%25CA%25BBth-Party-A-History-From-Its-Origins-to-1966-Hoover-Institution-Press-1976"
       ]
     },
     {
@@ -3833,36 +3808,23 @@
     },
     {
       "id": "ideology-left-guild-socialism",
-      "name": "Socialismo de guildas",
+      "name": "Socialismo de guildas: programa de Cole, 1920",
       "aliases": [],
       "kind": "ideology",
       "category": "ideology",
-      "period": "Guild Socialism Restated, 1920",
+      "period": "Guild Socialism Re-stated1920: capítulos de remuneração e Comuna, pp68–76 e139–148 em OCR",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep",
-        "eco",
-        "con"
-      ],
-      "mappedAxes": [
-        "est",
-        "rep",
-        "eco",
-        "con"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "est",
-        "rep",
-        "eco",
-        "con"
-      ],
-      "sourceCount": 1,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
-        "https://archive.org/details/guildsocialismre00coleuoft/page/n8"
+        "https://archive.org/details/guildsocialismre00coleuoft/page/n8",
+        "https://www.scribd.com/document/1060234038/g-d-h-Cole-guild-Socialism-Re-stated",
+        "https://upload.wikimedia.org/wikipedia/commons/5/57/Guild_socialism_re-stated_(IA_guildsocialismre00coleiala).pdf"
       ]
     },
     {
@@ -4198,42 +4160,22 @@
     },
     {
       "id": "ideology-left-individualist-anarchism",
-      "name": "Anarquismo individualista",
+      "name": "Anarquismo individualista: programa de Tucker, edição 1897",
       "aliases": [],
       "kind": "ideology",
       "category": "ideology",
-      "period": "Instead of a Book, 1893",
-      "structurallyEligible": true,
+      "period": "Instead of a Book: transcrição da segunda edição1897; primeira edição1893 preservada no arquivo anterior",
+      "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep",
-        "pod",
-        "eco",
-        "con",
-        "rel"
-      ],
-      "mappedAxes": [
-        "est",
-        "rep",
-        "pod",
-        "eco",
-        "con",
-        "rel"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "est",
-        "rep",
-        "pod",
-        "eco",
-        "con",
-        "rel"
-      ],
-      "sourceCount": 1,
+      "directionalAxes": [],
+      "sourceCount": 2,
       "sourceUrls": [
-        "https://www.panarchy.org/tucker/book.html"
+        "https://www.panarchy.org/tucker/book.html",
+        "https://theanarchistlibrary.org/library/benjamin-tucker-instead-of-a-book"
       ]
     },
     {
@@ -4606,11 +4548,11 @@
     },
     {
       "id": "ideology-left-black-panther-platform",
-      "name": "Programa do Black Panther Party",
+      "name": "Programa constitucional e comunitário Black Panther, 1966",
       "aliases": [],
       "kind": "ideology",
       "category": "ideology",
-      "period": "What We Want, What We Believe, edição de 1966",
+      "period": "Plataforma de 15 outubro 1966; transcrição corrigida MIA 2001 a partir da fonte Newton 1980, sem colação original",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
@@ -4618,8 +4560,9 @@
       "mappedAxes": [],
       "documentedAxes": [],
       "directionalAxes": [],
-      "sourceCount": 1,
+      "sourceCount": 2,
       "sourceUrls": [
+        "https://www.marxists.org/history/usa/workers/black-panthers/1966/10/15.htm",
         "https://www.marxists.org/history/usa/workers/black-panthers/1966/10/15.htm"
       ]
     },
@@ -6651,30 +6594,23 @@
     },
     {
       "id": "ideology-right-minarchism",
-      "name": "Minarquismo",
+      "name": "Estado mínimo e direitos de invenção em Nozick, 1974",
       "aliases": [],
       "kind": "ideology",
       "category": "ideology",
-      "period": "Anarchy, State, and Utopia, Robert Nozick, 1974",
+      "period": "Anarchy, State, and Utopia1974: passagens de Estado mínimo e capítulo7 pp178–182 reproduzidas; não livro integral",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "eco",
-        "con"
-      ],
-      "mappedAxes": [
-        "eco",
-        "con"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "eco",
-        "con"
-      ],
-      "sourceCount": 1,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
-        "https://www.hup.harvard.edu/books/9780465051007"
+        "https://www.hup.harvard.edu/books/9780465051007",
+        "https://cyber.harvard.edu/IPCoop/74nozi.html",
+        "https://www.thetedkarchive.com/library/robert-nozick-anarchy-state-and-utopia"
       ]
     },
     {
@@ -6707,33 +6643,23 @@
     },
     {
       "id": "ideology-right-objectivism",
-      "name": "Objetivismo político",
+      "name": "Objetivismo político: direitos e patentes em Rand, 1963–1966",
       "aliases": [],
       "kind": "ideology",
       "category": "ideology",
-      "period": "Capitalism: The Unknown Ideal, Ayn Rand, 1966",
+      "period": "The Nature of Government1963 e excertos autorizados Patents and Copyrights1966; não livro integral",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "eco",
-        "con",
-        "com"
-      ],
-      "mappedAxes": [
-        "eco",
-        "con",
-        "com"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "eco",
-        "con",
-        "com"
-      ],
-      "sourceCount": 1,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
-        "https://aynrand.org/ideas/overview/"
+        "https://aynrand.org/ideas/overview/",
+        "https://courses.aynrand.org/lexicon/patents-and-copyrights/",
+        "https://courses.aynrand.org/works/the-nature-of-government/"
       ]
     },
     {
@@ -8775,31 +8701,18 @@
       "aliases": [],
       "kind": "person",
       "category": "historical-figure",
-      "period": "Presidência mexicana e expropriação do petróleo, 1934–1940",
+      "period": "Discurso/decreto de expropriação petrolífera,18/3/1938",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "rep",
-        "eco",
-        "con",
-        "com"
-      ],
-      "mappedAxes": [
-        "rep",
-        "eco",
-        "con",
-        "com"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "rep",
-        "eco",
-        "con",
-        "com"
-      ],
-      "sourceCount": 1,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
+        "https://www.memoriapoliticademexico.org/Textos/6Revolucion/1938MEP.html",
+        "https://bnah.inah.gob.mx/bnah_lazaro_cardenas/publico/semblanza.php",
         "https://www.memoriapoliticademexico.org/Textos/6Revolucion/1938DPE.html"
       ]
     },
@@ -8958,37 +8871,18 @@
       "aliases": [],
       "kind": "person",
       "category": "historical-figure",
-      "period": "Discursos sobre negritude e socialismo africano, 1945–1980",
-      "structurallyEligible": true,
+      "period": "Négritudeetcivilisationgréco-latine, publicação março1966, p.100",
+      "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep",
-        "int",
-        "eco",
-        "com",
-        "rel"
-      ],
-      "mappedAxes": [
-        "est",
-        "rep",
-        "int",
-        "eco",
-        "com",
-        "rel"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "est",
-        "rep",
-        "int",
-        "eco",
-        "com",
-        "rel"
-      ],
-      "sourceCount": 1,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
+        "https://www.persee.fr/doc/bude_0004-5527_1966_num_1_1_4665",
+        "https://www.academie-francaise.fr/les-immortels/leopold-sedar-senghor",
         "https://unesdoc.unesco.org/ark:/48223/pf0000015521"
       ]
     },
@@ -9040,31 +8934,18 @@
       "aliases": [],
       "kind": "person",
       "category": "historical-figure",
-      "period": "Three Principles of the People e revolução chinesa, 1905–1925",
+      "period": "ThePrincipleofDemocracy,1924; seleção inglesaColumbia2000",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep",
-        "eco",
-        "con"
-      ],
-      "mappedAxes": [
-        "est",
-        "rep",
-        "eco",
-        "con"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "est",
-        "rep",
-        "eco",
-        "con"
-      ],
-      "sourceCount": 1,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
+        "https://afe.easia.columbia.edu/main_pop/ps/ps_china-sun-yatsen-democracy.htm",
+        "https://onlinebooks.library.upenn.edu/webbin/book/lookupname?key=Sun%2C+Yat-sen%2C+1866-1925",
         "https://www.marxists.org/reference/archive/sun-yat-sen/1924/08/03.htm"
       ]
     },
@@ -9074,31 +8955,18 @@
       "aliases": [],
       "kind": "person",
       "category": "historical-figure",
-      "period": "Annihilation of Caste e Constituição da Índia, 1936–1956",
+      "period": "Annihilation of Caste,1936; edição didáticaColumbia2004",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "rep",
-        "imi",
-        "rel",
-        "mor"
-      ],
-      "mappedAxes": [
-        "rep",
-        "imi",
-        "rel",
-        "mor"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "rep",
-        "imi",
-        "rel",
-        "mor"
-      ],
-      "sourceCount": 1,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
+        "https://ccnmtl.columbia.edu/projects/mmt/ambedkar/web/readings/aoc_print_2004.pdf",
+        "https://www.lse.ac.uk/alumni-friends-and-partners/LSE-alumni-shaping-the-world/World-leaders-and-politicians/Dr-Bhimrao-Ramji-Ambedkar",
         "https://www.columbia.edu/itc/mealac/pritchett/00ambedkar/txt_ambedkar_annihilation.html"
       ]
     },
@@ -9134,37 +9002,18 @@
       "aliases": [],
       "kind": "person",
       "category": "historical-figure",
-      "period": "Tryst with Destiny e governos da Índia, 1947–1964",
-      "structurallyEligible": true,
+      "period": "Discurso naAssembleiaConstituinte,14–15/8/1947",
+      "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep",
-        "int",
-        "eco",
-        "con",
-        "rel"
-      ],
-      "mappedAxes": [
-        "est",
-        "rep",
-        "int",
-        "eco",
-        "con",
-        "rel"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "est",
-        "rep",
-        "int",
-        "eco",
-        "con",
-        "rel"
-      ],
-      "sourceCount": 1,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
+        "https://nehruarchive.in/documents/a-tryst-with-destiny-aug-14-15-1947-j9le4z",
+        "https://nehruportal.nic.in/family-tree-details",
         "https://www.nationalarchives.gov.in/archives-national-speeches-jawaharlal-nehru"
       ]
     },
@@ -9174,37 +9023,18 @@
       "aliases": [],
       "kind": "person",
       "category": "historical-figure",
-      "period": "Nationalism e ensaios políticos, 1917–1941",
-      "structurallyEligible": true,
+      "period": "NationalisminIndia, primeiraedição1917/reimpressão1918; Gutenberg atualizado2024",
+      "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep",
-        "dip",
-        "int",
-        "com",
-        "tec"
-      ],
-      "mappedAxes": [
-        "est",
-        "rep",
-        "dip",
-        "int",
-        "com",
-        "tec"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "est",
-        "rep",
-        "dip",
-        "int",
-        "com",
-        "tec"
-      ],
-      "sourceCount": 1,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
+        "https://www.gutenberg.org/cache/epub/40766/pg40766-images.html",
+        "https://www.gutenberg.org/ebooks/40766",
         "https://www.gutenberg.org/ebooks/40766"
       ]
     },
@@ -9214,40 +9044,18 @@
       "aliases": [],
       "kind": "person",
       "category": "historical-figure",
-      "period": "Discursos e governos de Singapura, 1959–1990",
-      "structurallyEligible": true,
+      "period": "ProclamationofSingapore,9/8/1965; transcriçãoNAS/PMOffice",
+      "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "rep",
-        "pod",
-        "imi",
-        "dip",
-        "eco",
-        "com",
-        "tec"
-      ],
-      "mappedAxes": [
-        "rep",
-        "pod",
-        "imi",
-        "dip",
-        "eco",
-        "com",
-        "tec"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "rep",
-        "pod",
-        "imi",
-        "dip",
-        "eco",
-        "com",
-        "tec"
-      ],
-      "sourceCount": 1,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
+        "https://www.nas.gov.sg/archivesonline/data/pdfdoc/lky19650809a.pdf",
+        "https://www.pmo.gov.sg/about-us/past-prime-ministers/mr-lee-kuan-yew/",
         "https://www.nas.gov.sg/archivesonline/speeches"
       ]
     },
@@ -9257,32 +9065,18 @@
       "aliases": [],
       "kind": "person",
       "category": "historical-figure",
-      "period": "Declaração de independência e escritos, 1945–1969",
+      "period": "Declaração de independência vietnamita,2/9/1945; traduçãoSelectedWorks1960–1962",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "rep",
-        "int",
-        "eco",
-        "con"
-      ],
-      "mappedAxes": [
-        "rep",
-        "int",
-        "eco",
-        "con"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "rep",
-        "int",
-        "eco",
-        "con"
-      ],
-      "sourceCount": 1,
+      "directionalAxes": [],
+      "sourceCount": 2,
       "sourceUrls": [
-        "https://history.state.gov/historicaldocuments/frus1945v06/d371"
+        "https://www.marxists.org/reference/archive/ho-chi-minh/works/1945/declaration-independence.htm",
+        "https://chinhphu.vn/default.aspx?catname=chu-tich-ho-chi-minh-68380"
       ]
     },
     {
@@ -9291,25 +9085,18 @@
       "aliases": [],
       "kind": "person",
       "category": "historical-figure",
-      "period": "Panglong Agreement e independência birmanesa, 1946–1947",
+      "period": "AcordoAungSan–Attlee,27/1/1947; reprodução inglesa",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep"
-      ],
-      "mappedAxes": [
-        "est",
-        "rep"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "est",
-        "rep"
-      ],
-      "sourceCount": 1,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
+        "https://www.cprmyanmar.org/wp-content/uploads/2021/01/AUNG-SAN-%E2%80%93-ATLEE-AGREEMENT.pdf",
+        "https://www.britishmuseum.org/collection/term/AUTH239766",
         "https://www.mmpeacemonitor.org/1662/panglong-agreement/"
       ]
     },
@@ -9427,34 +9214,18 @@
       "aliases": [],
       "kind": "person",
       "category": "historical-figure",
-      "period": "Cadernos do Cárcere e escritos políticos, 1916–1935",
+      "period": "Workers’Democracy, L’OrdineNuovo21/6/1919; traduçãoMichaelCarley",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep",
-        "eco",
-        "con",
-        "mor"
-      ],
-      "mappedAxes": [
-        "est",
-        "rep",
-        "eco",
-        "con",
-        "mor"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "est",
-        "rep",
-        "eco",
-        "con",
-        "mor"
-      ],
-      "sourceCount": 1,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
+        "https://www.marxists.org/archive/gramsci/1919/06/workers-democracy.htm",
+        "https://fondazionegramsci.org/pagina-biografie-antonio-gramsci/",
         "https://www.marxists.org/archive/gramsci/prison_notebooks/"
       ]
     },
@@ -9464,34 +9235,18 @@
       "aliases": [],
       "kind": "person",
       "category": "historical-figure",
-      "period": "Discursos parlamentares e governos britânicos, 1900–1955",
+      "period": "TheSinewsofPeace,5/3/1946; reproduçãoChartwellTrust",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "rep",
-        "pod",
-        "dip",
-        "int",
-        "com"
-      ],
-      "mappedAxes": [
-        "rep",
-        "pod",
-        "dip",
-        "int",
-        "com"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "rep",
-        "pod",
-        "dip",
-        "int",
-        "com"
-      ],
-      "sourceCount": 1,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
+        "https://winstonchurchill.org/resources/speeches/1946-1963-elder-statesman/the-sinews-of-peace/",
+        "https://www.nobelprize.org/prizes/literature/1953/churchill/biographical/?related=1",
         "https://winstonchurchill.org/resources/speeches/1946-1963-elder-statesman/the-sinews-of-peace/"
       ]
     },
@@ -9501,37 +9256,18 @@
       "aliases": [],
       "kind": "person",
       "category": "historical-figure",
-      "period": "Discursos e presidências francesas, 1940–1969",
-      "structurallyEligible": true,
+      "period": "Texto canônico do apelo18/6/1940, reproduçãoÉlysée",
+      "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "rep",
-        "pod",
-        "dip",
-        "int",
-        "eco",
-        "tec"
-      ],
-      "mappedAxes": [
-        "rep",
-        "pod",
-        "dip",
-        "int",
-        "eco",
-        "tec"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "rep",
-        "pod",
-        "dip",
-        "int",
-        "eco",
-        "tec"
-      ],
-      "sourceCount": 1,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
+        "https://www.elysee.fr/front/pdf/elysee-module-3453-fr.pdf",
+        "https://www.elysee.fr/charles-de-gaulle",
         "https://www.charles-de-gaulle.org/lhomme/dossiers-thematiques/18-juin-1940-lappel-a-la-resistance/"
       ]
     },
@@ -9541,40 +9277,18 @@
       "aliases": [],
       "kind": "person",
       "category": "historical-figure",
-      "period": "The Open Society and Its Enemies, 1945",
-      "structurallyEligible": true,
+      "period": "KarlPopperondemocracy, artigo23/4/1988; reprintEconomist2016",
+      "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep",
-        "dip",
-        "eco",
-        "con",
-        "mor",
-        "tec"
-      ],
-      "mappedAxes": [
-        "est",
-        "rep",
-        "dip",
-        "eco",
-        "con",
-        "mor",
-        "tec"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "est",
-        "rep",
-        "dip",
-        "eco",
-        "con",
-        "mor",
-        "tec"
-      ],
-      "sourceCount": 1,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
+        "https://www.lampadia.com/assets/uploads_documentos/9baee-karl-popper-on-democracy.pdf",
+        "https://www.lse.ac.uk/philosophy/research/sir-karl-popper",
         "https://archive.org/details/opensocietyitsen0000popp"
       ]
     },
@@ -9584,28 +9298,19 @@
       "aliases": [],
       "kind": "person",
       "category": "historical-figure",
-      "period": "Le Deuxième Sexe e ensaios políticos, 1949–1970",
+      "period": "Introdução deTheSecondSex,1949; traduçãoParshley/Penguin1972",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "rep",
-        "rel",
-        "mor"
-      ],
-      "mappedAxes": [
-        "rep",
-        "rel",
-        "mor"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "rep",
-        "rel",
-        "mor"
-      ],
-      "sourceCount": 1,
+      "directionalAxes": [],
+      "sourceCount": 4,
       "sourceUrls": [
+        "https://www.marxists.org/reference/subject/ethics/de-beauvoir/2nd-sex/introduction.htm",
+        "https://www.marxists.org/reference/subject/ethics/de-beauvoir/2nd-sex/index.htm",
+        "https://catalogue.bnf.fr/ark:/12148/cb11890854p",
         "https://archive.org/details/secondsex00beau"
       ]
     },
@@ -9752,37 +9457,18 @@
       "aliases": [],
       "kind": "person",
       "category": "historical-figure",
-      "period": "Discursos e evolução política, 1952–1965",
-      "structurallyEligible": true,
+      "period": "TheBallotortheBullet, Detroit12/4/1964; transcriçãoRadioWorks reproduzida2018",
+      "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "rep",
-        "imi",
-        "int",
-        "eco",
-        "rel",
-        "mor"
-      ],
-      "mappedAxes": [
-        "rep",
-        "imi",
-        "int",
-        "eco",
-        "rel",
-        "mor"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "rep",
-        "imi",
-        "int",
-        "eco",
-        "rel",
-        "mor"
-      ],
-      "sourceCount": 1,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
+        "https://atribeofthemiddlepassage.voices.wooster.edu/wp-content/uploads/sites/213/2019/04/Malcolm-X-The-Ballot-or-the-Bullet.pdf",
+        "https://www.nps.gov/places/malcolm-x-house-site.htm",
         "https://www.malcolmx.com/speeches/the-ballot-or-the-bullet/"
       ]
     },
@@ -10052,27 +9738,19 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas vigentes, 2024–2025",
+      "period": "Norma institucional: texto publicado10/01/1995, reformas até1994; consulta08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep"
-      ],
-      "mappedAxes": [
-        "est",
-        "rep"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "est",
-        "rep"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Argentina_1994",
-        "https://freedomhouse.org/country/argentina/freedom-world/2025"
+        "https://freedomhouse.org/country/argentina/freedom-world/2025",
+        "https://www.argentina.gob.ar/normativa/nacional/ley-24430-804/texto"
       ]
     },
     {
@@ -10955,27 +10633,19 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas vigentes, 2024–2025",
+      "period": "Norma institucional: Decreto100 de17/09/2005, consolidação oferecida na consulta; consulta08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep"
-      ],
-      "mappedAxes": [
-        "est",
-        "rep"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "est",
-        "rep"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Chile_1980",
-        "https://freedomhouse.org/country/chile/freedom-world/2025"
+        "https://freedomhouse.org/country/chile/freedom-world/2025",
+        "https://www.bcn.cl/leychile/navegar?idNorma=242302"
       ]
     },
     {
@@ -10984,27 +10654,19 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas vigentes, 2024–2025",
+      "period": "Norma institucional: republicação institucional da Constituição1991; data editorial não identificada; consulta08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep"
-      ],
-      "mappedAxes": [
-        "est",
-        "rep"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "est",
-        "rep"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Colombia_2015",
-        "https://freedomhouse.org/country/colombia/freedom-world/2025"
+        "https://freedomhouse.org/country/colombia/freedom-world/2025",
+        "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php/norma.php?232=&i=4125"
       ]
     },
     {
@@ -11013,24 +10675,19 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas vigentes, 2024–2025",
+      "period": "Norma institucional: republicação parlamentar; arquivo identificado27/04/2015, data editorial do corpo não comprovada; consulta08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "rep"
-      ],
-      "mappedAxes": [
-        "rep"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "rep"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Peru_1993",
-        "https://freedomhouse.org/country/peru/freedom-world/2025"
+        "https://freedomhouse.org/country/peru/freedom-world/2025",
+        "https://www.congreso.gob.pe/Docs/files/constitucionpolitica-27-04-2015.pdf"
       ]
     },
     {
@@ -11039,27 +10696,19 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas vigentes, 2024–2025",
+      "period": "Norma institucional: republicação institucional; data editorial não comprovada; consulta08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep"
-      ],
-      "mappedAxes": [
-        "est",
-        "rep"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "est",
-        "rep"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Bolivia_2009",
-        "https://freedomhouse.org/country/bolivia/freedom-world/2025"
+        "https://freedomhouse.org/country/bolivia/freedom-world/2025",
+        "https://www.vicepresidencia.gob.bo/IMG/pdf/nueva_constitucion_politica_del_estado.pdf"
       ]
     },
     {
@@ -11068,24 +10717,19 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas vigentes, 2024–2025",
+      "period": "Norma institucional: versão31/05/1968 da norma07/11/1949; consulta08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "rep"
-      ],
-      "mappedAxes": [
-        "rep"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "rep"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Costa_Rica_1949",
-        "https://freedomhouse.org/country/costa-rica/freedom-world/2025"
+        "https://freedomhouse.org/country/costa-rica/freedom-world/2025",
+        "https://pgrweb.go.cr/scij/Busqueda/Normativa/Normas/nrm_texto_completo.aspx?nValor1=1&nValor2=871&nValor3=141450&param1=NRTC&strTipM=TC"
       ]
     },
     {
@@ -13615,30 +13259,19 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas avaliadas, 2024–2025",
+      "period": "Norma institucional: Constituição1985 com disposições relativas às reformas1993; data editorial não identificada; consulta08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "mappedAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Guatemala_1985?lang=en",
-        "https://freedomhouse.org/country/guatemala/freedom-world/2025"
+        "https://freedomhouse.org/country/guatemala/freedom-world/2025",
+        "https://www.congreso.gob.gt/assets/uploads/congreso/marco_legal/b376c-cprg.pdf"
       ]
     },
     {
@@ -13647,30 +13280,19 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas avaliadas, 2024–2025",
+      "period": "Norma institucional: Constituição11/01/1982, reformas até2004; consulta08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "mappedAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Honduras_1982?lang=en",
-        "https://freedomhouse.org/country/honduras/freedom-world/2025"
+        "https://freedomhouse.org/country/honduras/freedom-world/2025",
+        "https://www.tsc.gob.hn/web/leyes/Constitucion_de_la_republica.pdf"
       ]
     },
     {
@@ -13743,30 +13365,20 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas avaliadas, 2024–2025",
+      "period": "Norma institucional: compilação parlamentar; data editorial não comprovada; consulta08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "mappedAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 4,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Panama_1972?lang=en",
-        "https://freedomhouse.org/country/panama/freedom-world/2025"
+        "https://freedomhouse.org/country/panama/freedom-world/2025",
+        "https://www.asamblea.gob.pa/Uploads/Transparencia/Articulos/Terciario/262/articulo_262_0.pdf",
+        "https://www.asamblea.gob.pa/Uploads/DocumentosCompartidos/137/Documento_Constitucion_1972.pdf"
       ]
     },
     {
@@ -13775,30 +13387,19 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas avaliadas, 2024–2025",
+      "period": "Norma institucional: carta20/06/1992, republicação institucional09/06/2021; consulta08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "mappedAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Paraguay_1992?lang=en",
-        "https://freedomhouse.org/country/paraguay/freedom-world/2025"
+        "https://freedomhouse.org/country/paraguay/freedom-world/2025",
+        "https://www.bacn.gov.py/leyesparaguayas/9580/constitucion-nacional-"
       ]
     },
     {
@@ -24934,7 +24535,7 @@
       ],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e prática em 2024; documentação de 2025",
+      "period": "Prática institucional relatada2024/edição2025; normas constitucionais1975, revisão2003, arts5/8/137; revisão documental08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
@@ -24997,7 +24598,7 @@
       ],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e prática em 2024; documentação de 2025",
+      "period": "Prática institucional relatada2024/edição2025; normas constitucionais2018, arts1/97–104; revisão documental08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",

@@ -74,3 +74,5 @@ LumumbaAfricaMuseum0–36 completo confirma datas14/16/19; fontes indexadas secu
 Sem imports/Git/publicação. Verificações técnicas delimitadas não substituem revisão documental ou aprovação.
 
 Status: Root aceitou as cinco normas qualitativas0 após revisão independente; congeladas para818-02, import cabe ao repair. Escopo próprio independente method_review: MartíBCN1571–1634 efetivamente reaberto, escopo autoral1528–1800 distinto;Lumumba20–70;Nyerere selecionados32–75/117–128/195–214, não corpo inteiro;Maathai367–426/531–608/609–662 selecionados, não intervalo integral;Palme0–85/93–220 selecionados no texto preparado, sem certificação de áudio/entrega. Identidades autorais reutilizadas separadamente, não novos acessos do revisor.
+
+Integração confirmada no checkpoint35ca22b: objeto atual de cada um dos cinco IDs comparado literalmente com a transformação guardada aceita; todos exatamente iguais,zero códigos por perfil. Prova externa `selected675-audit/historical09-10-integrated-proof.json`; snapshot75af08d e original818 preservados separadamente. Status final integrado substitui menções anteriores de congelamento pendente.

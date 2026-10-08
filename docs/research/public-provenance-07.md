@@ -1,6 +1,6 @@
 # Proveniência pública07 — quatro registros existentes
 
-Aceita por Root08/10/2026; integração ativa não confirmada. Quatro IDs já existentes; nenhum novo ID/código. Full-before integral de committed818 `95c3e705eb2583b80abc0673b573782cde2c41b9` preserva vetores, grades e fontes. Sem imports.
+Aceita por Root08/10/2026; integração ativa confirmada no commit `35ca22b69c740d9b43ca16ae3a78daef2c06cf71` (inventory818-02). Quatro IDs já existentes; nenhum novo ID/código. Full-before integral de committed818 `95c3e705eb2583b80abc0673b573782cde2c41b9` preserva vetores, grades e fontes. Imports realizados pelo agente de reparo; nenhuma importação pelo autor.
 
 ## `ron-desantis`
 
