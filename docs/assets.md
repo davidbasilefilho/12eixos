@@ -102,3 +102,40 @@ The subsequent accepted data batches add eight figures and ten country identitie
 `public/assets/editorial/hero-globe.png` is a second ImageGen decorative asset using the same accepted landing reference and internet-first fallback. It restores the reference's orange/blue faceted cartographic globe and fine orbit tracings without the former broad white/blue disk. Original: `/workspace/generated_images/exec-83985f0c-47ed-4a97-a2e0-25fce8dc7192.png`. The unmodified illustration appears only behind the landing hero. It is decoration, not a geographical or historical source.
 
 The illustration sheet is also used in the result footer triptych, following the approved result's book/globe/atlas foreground illustrations. This exception is limited to standalone decorative foreground artwork requested in the approved result composition; the large map/globe background remains restricted to the landing page. No cartographic background was added to results, axes, methodology, quiz, or exported shares.
+
+## Malta — complemento do identificador visual
+
+- Arquivo: `public/assets/flags/malta-current-2025.svg`; cópia byte a byte de `package/3x2/MT.svg` do pacote `country-flag-icons` versão 1.6.20, sem redesenho manual.
+- Origem real: [repositório primário](https://github.com/catamphetamine/country-flag-icons), [pacote exato no npm](https://registry.npmjs.org/country-flag-icons/-/country-flag-icons-1.6.20.tgz), baixado em 08/10/2026. Autoria: @catamphetamine, copyright 2020.
+- Licença: MIT, reproduzida abaixo; [licença no repositório](https://github.com/catamphetamine/country-flag-icons/blob/master/LICENSE). Símbolos nacionais podem ter regras de uso independentes do copyright.
+- Dimensões: `viewBox="0 0 513 342"`, proporção 3:2, preservada pelo mapeamento existente.
+- SHA-256 do SVG empacotado: `9849e5e7bf315dfc544dd245a0d7f109124982912aa2b8f01c699240f9f7ad49`.
+- Alternativa de origem: a página [Flag of Malta.svg no Commons](https://commons.wikimedia.org/wiki/File:Flag_of_Malta.svg) foi consultada, mas o download retornou HTTP 403; tentativa pelo navegador falhou com erro de DNS. Este asset contém bytes do pacote licenciado, não do Commons.
+- Escopo: apenas identificação visual de Malta. Nenhum registro, fonte política, vetor, evidência ou regra de elegibilidade foi alterado.
+
+### Licença do asset de Malta
+
+```text
+(The MIT License)
+
+Copyright (c) 2020 @catamphetamine <purecatamphetamine@gmail.com>
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+'Software'), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+```

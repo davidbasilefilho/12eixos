@@ -106,6 +106,7 @@ export const flagAssets: readonly string[] = [
   "/assets/flags/malawi-current-2025.svg",
   "/assets/flags/malaysia-current-2025.svg",
   "/assets/flags/mali-current-2025.svg",
+  "/assets/flags/malta-current-2025.svg",
   "/assets/flags/mauritania-current-2025.svg",
   "/assets/flags/mauritius-current-2025.svg",
   "/assets/flags/mexico-pri-hegemony.svg",
