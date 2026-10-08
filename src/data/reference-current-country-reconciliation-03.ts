@@ -1112,6 +1112,17 @@ export const currentCountryReconciliation03Repairs: Record<string, CountryRepair
         "url": "https://www.niti.gov.in/about-us/objectives-and-features",
         "note": "Página primária sem data editorial: mandato de estratégias econômicas, planos locais, coordenação setorial e monitoramento; consulta 07/10/2026."
       }
+,
+      {
+        "title": "Kendriya Vidyalayas — Ministry of Education / PIB, 06/12/2024",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2081686&lang=2&reg=48",
+        "note": "Corpo primário datado efetivamente lido:1256KVs funcionais e rede CentralSchools criada como unidade ministerial. Aprovação de85novas para2025–26 não é execução contada."
+      },
+      {
+        "title": "Reimbursements under Right to Education — Rajya Sabha, 22/03/2023",
+        "url": "https://sansad.in/getFile/annex/259/AU2435.pdf?source=pqars",
+        "note": "Resposta ministerial primária,p.1: reembolso a escolas privadas não subsidiadas comprova contraponto de provedores privados; não medimos participação nacional."
+      }
     ],
     "coding": [
       {
@@ -1166,24 +1177,6 @@ export const currentCountryReconciliation03Repairs: Record<string, CountryRepair
         ],
         "rationale": "Coerção e restrições efetivas sustentam direção autoritária moderada neste recorte.",
         "uncertainty": "Não transforma violência privada em posição estatal; garantias normativas e variação regional permanecem.",
-        "reviewedOn": "2026-10-07"
-      },
-      {
-        "axis": "eco",
-        "position": "moderate-first",
-        "confidence": "medium",
-        "claims": [
-          {
-            "sourceTitle": "Constituição da Índia — edição oficial em 01/05/2024",
-            "locator": "Artigo 21A",
-            "statement": "Estado fornece educação gratuita obrigatória entre seis e catorze anos.",
-            "basis": "norm",
-            "publishedDate": "Edição 2024-05-01",
-            "accessedDate": "2026-10-07"
-          }
-        ],
-        "rationale": "Obrigação de provisão educacional sustenta direção pública parcial.",
-        "uncertainty": "Sem inferir propriedade estatal de toda a economia ou execução universal.",
         "reviewedOn": "2026-10-07"
       },
       {
@@ -1375,6 +1368,7 @@ export function reconcileCurrentCountry03(entry: ReferenceEntry): ReferenceEntry
     result.vec[input.axis] = coded.value; result.evidence[input.axis] = coded.evidence;
     result.axisEvidence![input.axis] = coded.axisEvidence; result.coding![input.axis] = coded.coding;
   }
+  if(entry.id==='india')Object.assign(result,{unknownAxisReasons:{eco:'Direito21A, rede escolarKVS e reembolso privadoRTE são fatos setoriais; sem evidência suficiente da orientação de toda economia. 50 desconhecido, sem evidência.'},educationResearch:indiaEducationResearch03});
   return result;
 }
 
@@ -1386,3 +1380,29 @@ export const currentCountryCodingAudit03 = Object.entries(currentCountryReconcil
   supportedAxes: repair.coding.map(input => input.axis), sources: repair.sources,
   coding: repair.coding.map(input => codeReferenceAxis(input,repair.sources).coding),
 }));
+
+/** Sector facts retained as research; explicitly excluded from whole-economy axis. */
+export const indiaEducationResearch03 = {
+  "status": "quarantined-sector-scope",
+  "reviewedOn": "2026-10-07",
+  "independentDocumentaryRead": "PIB corpo17–27 independentemente relido; aceitação dos fatos não valida orientação econômica nacional.",
+  "reason": "Rede pública KVS e direito21A não estabelecem composição ou orientação de toda economia. Eco50 desconhecido sem evidência/codificação.",
+  "sourceClaims": [
+    {
+      "sourceTitle": "Kendriya Vidyalayas — Ministry of Education / PIB, 06/12/2024",
+      "locator": "Corpo, parágrafos1–7: CentralSectorScheme, KVs funcionais, organização ministerial e operação Sangathan",
+      "statement": "Comunicado ministerial de dezembro2024 registra1256KVs funcionais e rede CentralSchools criada como unidade do Ministério, com normas Sangathan para operação; ampliação aprovada é futura.",
+      "basis": "practice",
+      "publishedDate": "2024-12-06",
+      "accessedDate": "2026-10-07"
+    },
+    {
+      "sourceTitle": "Reimbursements under Right to Education — Rajya Sabha, 22/03/2023",
+      "locator": "Página1, resposta(a)–(b), Section12(2) e12(1)(c)",
+      "statement": "Ministério descreve reembolso público a escolas privadas não subsidiadas por vagasRTE, distinguindo financiamento público de provedor estatal.",
+      "basis": "practice",
+      "publishedDate": "2023-03-22",
+      "accessedDate": "2026-10-07"
+    }
+  ]
+} as const;
