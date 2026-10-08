@@ -34,8 +34,8 @@
     ],
     "provenance": "Executed before local data corrections in this recovery checkpoint; not recomputed from unavailable prior Library checkpoint."
   },
-  "headCommitAtAudit": "daae6ecef44354fab67af6b49950b8b136762ebb",
-  "integratedCatalogSha256": "cbc49fa429d9d49720cadea912c50cafa1ac706968d074555b9bbbf65f280723",
+  "headCommitAtAudit": "1f489de27057184b6e63184a47d6e4fe9c59be6e",
+  "integratedCatalogSha256": "f989c8d317a758f6d65af689c2bca07d560d65be000b15f0dc794ecda9d1420e",
   "scope": "Integrated working-tree catalog after preparation; fixed remote baseline and current HEAD are provenance, not immutable copies of modified files.",
   "evidenceGate": {
     "minimumAxes": 6,
@@ -56,14 +56,25 @@
   ],
   "totalTarget": 675,
   "totalRecords": 818,
-  "structurallyEligible": 102,
-  "documentaryEligible": 88,
-  "insufficientEvidence": 730,
+  "structurallyEligible": 107,
+  "documentaryEligible": 93,
+  "insufficientEvidence": 725,
   "unreviewedDirectionCount": 563,
   "summedCategoryIdentityGap": 0,
   "categories": [
     {
       "category": "country",
+      "target": 150,
+      "records": 150,
+      "structurallyEligible": 19,
+      "documentaryEligible": 19,
+      "insufficientEvidence": 131,
+      "missingIdentitiesBeforeSemanticReview": 0,
+      "preservedExcess": 0,
+      "missingEligibleToTarget": 131
+    },
+    {
+      "category": "historical-country",
       "target": 150,
       "records": 150,
       "structurallyEligible": 18,
@@ -74,7 +85,7 @@
       "missingEligibleToTarget": 132
     },
     {
-      "category": "historical-country",
+      "category": "public-figure",
       "target": 150,
       "records": 150,
       "structurallyEligible": 17,
@@ -85,26 +96,15 @@
       "missingEligibleToTarget": 133
     },
     {
-      "category": "public-figure",
-      "target": 150,
-      "records": 150,
-      "structurallyEligible": 15,
-      "documentaryEligible": 15,
-      "insufficientEvidence": 135,
-      "missingIdentitiesBeforeSemanticReview": 0,
-      "preservedExcess": 0,
-      "missingEligibleToTarget": 135
-    },
-    {
       "category": "historical-figure",
       "target": 150,
       "records": 150,
-      "structurallyEligible": 23,
-      "documentaryEligible": 23,
-      "insufficientEvidence": 127,
+      "structurallyEligible": 24,
+      "documentaryEligible": 24,
+      "insufficientEvidence": 126,
       "missingIdentitiesBeforeSemanticReview": 0,
       "preservedExcess": 0,
-      "missingEligibleToTarget": 127
+      "missingEligibleToTarget": 126
     },
     {
       "category": "ideology",
@@ -1470,12 +1470,13 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Lei Básica de 02/03/1992 com emendas de 2006/2017 na tradução oferecida; narrativa FH2025 sobre 2024; estratégia PIF para 2026–2030",
-      "structurallyEligible": false,
-      "documentaryEligible": false,
-      "reviewStatus": "insufficient-located-coding",
+      "period": "Normas de 02/03/1992: Lei Básica com apêndice de 2006/2017 e Lei das Províncias, tradução sem horizonte completo de emendas; prática e políticas relatadas em 2024 por FH 2025 e IMF 24/280. Estratégia PIF 2026–2030 é declaração futura.",
+      "structurallyEligible": true,
+      "documentaryEligible": true,
+      "reviewStatus": "located-coding-present-not-truth-certified",
       "unreviewedDirectionalAxes": [],
       "mappedAxes": [
+        "est",
         "rep",
         "pod",
         "con",
@@ -1483,6 +1484,7 @@
         "mor"
       ],
       "documentedAxes": [
+        "est",
         "rep",
         "pod",
         "con",
@@ -1490,19 +1492,26 @@
         "mor"
       ],
       "directionalAxes": [
+        "est",
         "rep",
         "pod",
         "con",
         "rel",
         "mor"
       ],
-      "sourceCount": 5,
+      "sourceCount": 11,
       "sourceUrls": [
         "https://freedomhouse.org/country/saudi-arabia/freedom-world/2025",
         "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/16a2e5f8-68c3-4a3d-9a9a-a9a700f2a2d6/1",
         "https://freedomhouse.org/country/saudi-arabia/freedom-world/2025",
         "https://www.refworld.org/sites/default/files/2025-05/alnzam_alasasy_llhkm_1.pdf",
-        "https://www.pif.gov.sa/en/strategy-and-impact/our-strategy/"
+        "https://www.pif.gov.sa/en/strategy-and-impact/our-strategy/",
+        "https://www.refworld.org/sites/default/files/2025-05/alnzam_alasasy_llhkm_1.pdf",
+        "https://freedomhouse.org/country/saudi-arabia/freedom-world/2025",
+        "https://www.pif.gov.sa/en/strategy-and-impact/our-strategy/",
+        "https://www.imf.org/-/media/files/publications/cr/2024/english/1sauea2024001-print-pdf.pdf",
+        "https://ncar.gov.sa/api/index.php/resource/eyJpdiI6ImF0MFhMQk9TNWk5SnI1L1VDbHdDenc9PSIsInZhbHVlIjoiL2xoMUFTY3BjekRnYmMwTXZmajhnZz09IiwibWFjIjoiNzE0ODQwNDk5ZGViZjUxMjBkY2E2NjQ4MzdiNDlhNWUyZWExYTIxNTY5NDM3MzE1NWIyMjg0MDUxMjc5OTllMCIsInRhZyI6IiJ9/Documents/TranslatedAttachPath",
+        "https://www.spa.gov.sa/en/N2075025"
       ]
     },
     {
@@ -2398,20 +2407,23 @@
       "mappedAxes": [
         "rep",
         "pod",
-        "dip",
-        "eco"
+        "eco",
+        "rel",
+        "mor"
       ],
       "documentedAxes": [
         "rep",
         "pod",
-        "dip",
-        "eco"
+        "eco",
+        "rel",
+        "mor"
       ],
       "directionalAxes": [
         "rep",
         "pod",
-        "dip",
-        "eco"
+        "eco",
+        "rel",
+        "mor"
       ],
       "sourceCount": 4,
       "sourceUrls": [
@@ -5181,17 +5193,23 @@
       "unreviewedDirectionalAxes": [],
       "mappedAxes": [
         "rep",
+        "pod",
         "dip",
+        "mor",
         "tec"
       ],
       "documentedAxes": [
         "rep",
+        "pod",
         "dip",
+        "mor",
         "tec"
       ],
       "directionalAxes": [
         "rep",
+        "pod",
         "dip",
+        "mor",
         "tec"
       ],
       "sourceCount": 2,
@@ -9441,34 +9459,35 @@
       "aliases": [],
       "kind": "person",
       "category": "public-figure",
-      "period": "Agenda publicada pelo gabinete: Justice for All Act de 2023 e página Ending Poverty sem data; consulta em 7 de outubro de 2026.",
+      "period": "Agenda do gabinete: Justice for All de 2023 e página Ending Poverty sem data; declarações e propostas distintas de 11/01,27/07 e14/12/2023 acrescentadas; atividade nominal2026 apenas identidade.",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
       "unreviewedDirectionalAxes": [],
       "mappedAxes": [
-        "rep",
         "pod",
-        "imi",
+        "dip",
         "mor"
       ],
       "documentedAxes": [
-        "rep",
         "pod",
-        "imi",
+        "dip",
         "mor"
       ],
       "directionalAxes": [
-        "rep",
         "pod",
-        "imi",
+        "dip",
         "mor"
       ],
-      "sourceCount": 3,
+      "sourceCount": 7,
       "sourceUrls": [
         "https://tlaib.house.gov/resources/justice",
         "https://tlaib.house.gov/resources/ending-poverty",
-        "https://omar.house.gov/media/press-releases"
+        "https://omar.house.gov/media/press-releases",
+        "https://d12t4t5x3vyizu.cloudfront.net/tlaib.house.gov/uploads/2023/02/TLAIB_009_xml.pdf",
+        "https://tlaib.house.gov/posts/tlaib-joins-bush-in-introducing-historic-bill-to-end-solitary-confinement",
+        "https://tlaib.house.gov/posts/tlaib-statement-on-republicans-extreme-anti-abortion-care-agenda",
+        "https://tlaib.house.gov/posts/tlaib-opposes-more-funding-for-weapons-never-enough-to-feed-the-poor"
       ]
     },
     {
@@ -14579,28 +14598,37 @@
       ],
       "kind": "country",
       "category": "country",
-      "period": "Prática eleitoral relatada2024/edição2025; arquitetura federal na norma1983, seções103/106/107/113 eSchedule5; revisão documental08/10/2026",
+      "period": "Norma constitucional de 1983 em reprodução inglesa, sem histórico completo de emendas; prática relatada em 2024 por FH 2025 e comunicados de julho/setembro de 2024. Página governamental sem data conserva referência histórica a ElizabethII.",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
       "unreviewedDirectionalAxes": [],
       "mappedAxes": [
         "est",
-        "rep"
+        "rep",
+        "pod"
       ],
       "documentedAxes": [
         "est",
-        "rep"
+        "rep",
+        "pod"
       ],
       "directionalAxes": [
         "est",
-        "rep"
+        "rep",
+        "pod"
       ],
-      "sourceCount": 3,
+      "sourceCount": 9,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/St_Kitts_and_Nevis_1983?lang=en",
         "https://freedomhouse.org/country/st-kitts-and-nevis/freedom-world/2025",
-        "https://www.gov.kn/the-constitution/"
+        "https://www.gov.kn/the-constitution/",
+        "https://www.constituteproject.org/constitution/St_Kitts_and_Nevis_1983?lang=en",
+        "https://www.gov.kn/the-constitution/",
+        "https://freedomhouse.org/country/st-kitts-and-nevis/freedom-world/2025",
+        "https://www.sknis.gov.kn/2024/07/05/st-kitts-and-nevis-enhances-transparency-with-passage-of-freedom-of-information-amendment-bill-2024/",
+        "https://www.sknis.gov.kn/2024/09/18/national-assembly-approves-judge-alone-trials-bill-2024-to-modernise-criminal-justice-system/",
+        "https://www.imf.org/en/news/articles/2024/03/01/cs30124-st-kitts-and-nevis-concluding-statement-of-the-2024-article-iv-mission"
       ]
     },
     {
@@ -15747,27 +15775,38 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Prática em 2024; norma: Consolidação oficial em 31/12/2023",
+      "period": "Constituição de 1960 e Village Fono Act 1990, consolidados em 31/12/2023; prática relatada em 2024 por FH 2025 e observação OIT adotada em 2024. Exclui alteração constitucional de 2025.",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
       "unreviewedDirectionalAxes": [],
       "mappedAxes": [
+        "est",
         "rep",
+        "pod",
         "rel"
       ],
       "documentedAxes": [
+        "est",
         "rep",
+        "pod",
         "rel"
       ],
       "directionalAxes": [
+        "est",
         "rep",
+        "pod",
         "rel"
       ],
-      "sourceCount": 2,
+      "sourceCount": 7,
       "sourceUrls": [
         "https://www.ag.gov.ws/wp-content/uploads/2024/02/Constitution-of-the-Independent-State-of-Samoa-1960.pdf",
-        "https://freedomhouse.org/country/samoa/freedom-world/2025"
+        "https://freedomhouse.org/country/samoa/freedom-world/2025",
+        "https://www.ag.gov.ws/wp-content/uploads/2024/02/Constitution-of-the-Independent-State-of-Samoa-1960.pdf",
+        "https://freedomhouse.org/country/samoa/freedom-world/2025",
+        "https://www.ag.gov.ws/wp-content/uploads/2024/02/Village-Fono-Act-1990.pdf",
+        "https://www.imf.org/-/media/files/publications/cr/2025/english/1wsmea2025001-print-pdf.pdf",
+        "https://normlex.ilo.org/dyn/nrmlx_en/f?p=1000%3A13100%3A0%3A%3ANO%3A13100%3AP13100_COMMENT_ID%2CP13100_COUNTRY_ID%3A4402417%2C103295"
       ]
     },
     {
@@ -19614,18 +19653,21 @@
         "est",
         "rep",
         "pod",
+        "dip",
         "rel"
       ],
       "documentedAxes": [
         "est",
         "rep",
         "pod",
+        "dip",
         "rel"
       ],
       "directionalAxes": [
         "est",
         "rep",
         "pod",
+        "dip",
         "rel"
       ],
       "sourceCount": 3,
@@ -20107,28 +20149,34 @@
       "reviewStatus": "insufficient-located-coding",
       "unreviewedDirectionalAxes": [],
       "mappedAxes": [
+        "est",
         "rep",
         "pod",
-        "imi",
+        "dip",
         "rel"
       ],
       "documentedAxes": [
+        "est",
         "rep",
         "pod",
-        "imi",
+        "dip",
         "rel"
       ],
       "directionalAxes": [
+        "est",
         "rep",
         "pod",
-        "imi",
+        "dip",
         "rel"
       ],
-      "sourceCount": 3,
+      "sourceCount": 6,
       "sourceUrls": [
         "https://biblioteca.parlamento.gub.uy/File/biblioteca/Constituciones/1917/1917%20Constitucion%20-%20OCR.pdf",
         "https://www.cervantesvirtual.com/obra-visor/constitucion-de-1918/html/ede0ff47-9171-4208-988f-ff320585a241_2.html",
-        "https://www.gub.uy/corte-electoral/comunicacion/publicaciones/1933-golpe-estado-intervencion-corte-electoral"
+        "https://www.gub.uy/corte-electoral/comunicacion/publicaciones/1933-golpe-estado-intervencion-corte-electoral",
+        "https://www.impo.com.uy/bases/leyes-originales/8868-1932",
+        "https://treaties.un.org/doc/Publication/UNTS/LON/Volume%20108/v108.pdf",
+        "https://www.impo.com.uy/bases/leyes-originales/8927-1932"
       ]
     },
     {
@@ -23268,16 +23316,17 @@
       ],
       "kind": "country",
       "category": "historical-country",
-      "period": "31/01/1946–ruptura política de31/03/1964; recorte normativo original de18/09/1946",
-      "structurallyEligible": false,
-      "documentaryEligible": false,
-      "reviewStatus": "insufficient-located-coding",
+      "period": "31/01/1946–ruptura política de31/03/1964; recorte normativo original de18/09/1946; coordenação econômica documentada em 1951–1960",
+      "structurallyEligible": true,
+      "documentaryEligible": true,
+      "reviewStatus": "located-coding-present-not-truth-certified",
       "unreviewedDirectionalAxes": [],
       "mappedAxes": [
         "est",
         "rep",
         "pod",
         "dip",
+        "con",
         "rel"
       ],
       "documentedAxes": [
@@ -23285,6 +23334,7 @@
         "rep",
         "pod",
         "dip",
+        "con",
         "rel"
       ],
       "directionalAxes": [
@@ -23292,13 +23342,16 @@
         "rep",
         "pod",
         "dip",
+        "con",
         "rel"
       ],
-      "sourceCount": 3,
+      "sourceCount": 5,
       "sourceUrls": [
         "https://www2.camara.leg.br/legin/fed/consti/1940-1949/constituicao-1946-18-julho-1946-365199-republicacao-1-pl.html",
         "https://www12.senado.leg.br/senado200anos/passado",
-        "https://www2.camara.leg.br/legin/fed/atoins/1960-1969/atoinstitucional-1-9-abril-1964-364977-publicacaooriginal-1-csr.html"
+        "https://www2.camara.leg.br/legin/fed/atoins/1960-1969/atoinstitucional-1-9-abril-1964-364977-publicacaooriginal-1-csr.html",
+        "https://blogdodesenvolvimento.bndes.gov.br/categoria/economia-e-desenvolvimento/Apoio-a-infraestrutura-nas-origens-do-Banco/",
+        "https://www.tse.jus.br/jurisprudencia/julgados-historicos/cancelamento-de-registro-do-partido-comunista-brasileiro"
       ]
     },
     {
@@ -23535,38 +23588,46 @@
       ],
       "kind": "person",
       "category": "historical-figure",
-      "period": "Politics, livrosI/II/VII, séculoIVa.C.; tradução Benjamin Jowett",
-      "structurallyEligible": false,
-      "documentaryEligible": false,
-      "reviewStatus": "insufficient-located-coding",
+      "period": "Politics, livros I, II, VII (incluindo XVII) e VIII.I–II, século IV a.C.; tradução de Benjamin Jowett, sem data exata de composição ou edição da tradução certificada.",
+      "structurallyEligible": true,
+      "documentaryEligible": true,
+      "reviewStatus": "located-coding-present-not-truth-certified",
       "unreviewedDirectionalAxes": [],
       "mappedAxes": [
-        "rep",
+        "pod",
+        "dip",
+        "int",
         "eco",
         "com",
         "rel",
         "mor"
       ],
       "documentedAxes": [
-        "rep",
+        "pod",
+        "dip",
+        "int",
         "eco",
         "com",
         "rel",
         "mor"
       ],
       "directionalAxes": [
-        "rep",
+        "pod",
+        "dip",
+        "int",
         "eco",
         "com",
         "rel",
         "mor"
       ],
-      "sourceCount": 4,
+      "sourceCount": 6,
       "sourceUrls": [
         "https://classics.mit.edu/Aristotle/politics.1.one.html",
         "https://classics.mit.edu/Aristotle/politics.2.two.html",
         "https://classics.mit.edu/Aristotle/politics.7.seven.html",
-        "https://plato.stanford.edu/entries/aristotle/"
+        "https://plato.stanford.edu/entries/aristotle/",
+        "https://classics.mit.edu/Aristotle/politics.7.seven.html",
+        "https://classics.mit.edu/Aristotle/politics.8.eight.html"
       ]
     },
     {
@@ -23847,33 +23908,40 @@
       "kind": "person",
       "category": "public-figure",
       "period": "Lineamientos próprios endossados, agosto2025; identidade/atividade01/09/2026",
-      "structurallyEligible": false,
-      "documentaryEligible": false,
-      "reviewStatus": "insufficient-located-coding",
+      "structurallyEligible": true,
+      "documentaryEligible": true,
+      "reviewStatus": "located-coding-present-not-truth-certified",
       "unreviewedDirectionalAxes": [],
       "mappedAxes": [
         "rep",
         "pod",
+        "eco",
+        "con",
         "com",
         "tec"
       ],
       "documentedAxes": [
         "rep",
         "pod",
+        "eco",
+        "con",
         "com",
         "tec"
       ],
       "directionalAxes": [
         "rep",
         "pod",
+        "eco",
+        "con",
         "com",
         "tec"
       ],
-      "sourceCount": 3,
+      "sourceCount": 4,
       "sourceUrls": [
         "https://centrocompetencia.com/wp-content/uploads/2025/09/Programa_Jeannette_Jara_2025.pdf",
         "https://pcchile.cl/2025/08/18/lineamientos-programaticos-jeannette-jara-2025/",
-        "https://www.biobiochile.cl/noticias/nacional/chile/2026/09/01/jeannette-jara-celebra-alza-de-la-pgu-y-acusa-a-republicanos-de-celebrar-hoy-lo-que-antes-rechazaron.shtml"
+        "https://www.biobiochile.cl/noticias/nacional/chile/2026/09/01/jeannette-jara-celebra-alza-de-la-pgu-y-acusa-a-republicanos-de-celebrar-hoy-lo-que-antes-rechazaron.shtml",
+        "https://centrocompetencia.com/wp-content/uploads/2025/09/Programa_Jeannette_Jara_2025.pdf"
       ]
     },
     {
@@ -24057,13 +24125,14 @@
       "kind": "person",
       "category": "public-figure",
       "period": "Declarações próprias de campanha2024; atividade reportada18/08/2026",
-      "structurallyEligible": false,
-      "documentaryEligible": false,
-      "reviewStatus": "insufficient-located-coding",
+      "structurallyEligible": true,
+      "documentaryEligible": true,
+      "reviewStatus": "located-coding-present-not-truth-certified",
       "unreviewedDirectionalAxes": [],
       "mappedAxes": [
         "rep",
         "pod",
+        "imi",
         "dip",
         "eco",
         "mor"
@@ -24071,6 +24140,7 @@
       "documentedAxes": [
         "rep",
         "pod",
+        "imi",
         "dip",
         "eco",
         "mor"
@@ -24078,11 +24148,12 @@
       "directionalAxes": [
         "rep",
         "pod",
+        "imi",
         "dip",
         "eco",
         "mor"
       ],
-      "sourceCount": 7,
+      "sourceCount": 9,
       "sourceUrls": [
         "https://vigarchive.sos.ca.gov/2024/primary/candidates/president/president-green-cand-statements.htm",
         "https://www.vote411.org/node/15061",
@@ -24090,7 +24161,9 @@
         "https://independentpoliticalreport.com/2026/08/former-green-nominee-jill-stein-ordered-to-appear-in-person-in-missouri-misdemeanor-case/",
         "https://www.jillstein2024.com/democracy",
         "https://www.politicalemails.org/messages/1444477",
-        "https://politicalemails.org/messages/1606639"
+        "https://politicalemails.org/messages/1606639",
+        "https://www.vote411.org/node/15061",
+        "https://www.politicalemails.org/messages/1451324"
       ]
     },
     {
