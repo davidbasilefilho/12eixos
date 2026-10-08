@@ -34,8 +34,8 @@
     ],
     "provenance": "Executed before local data corrections in this recovery checkpoint; not recomputed from unavailable prior Library checkpoint."
   },
-  "headCommitAtAudit": "2bba8f3d3ddcb28b896aedefbd9382f2e1b97263",
-  "integratedCatalogSha256": "24475437b65701425b551b95eae5e1af290a444731d52eaca4872151ace03312",
+  "headCommitAtAudit": "31d1e58d248e9107fd67e900d6f081678abdc8df",
+  "integratedCatalogSha256": "b5bc0c963d05312305fa336f1c3e8aa8fd664783645fc3d021e364af5880a03b",
   "scope": "Integrated working-tree catalog after preparation; fixed remote baseline and current HEAD are provenance, not immutable copies of modified files.",
   "evidenceGate": {
     "minimumAxes": 6,
@@ -56,9 +56,9 @@
   ],
   "totalTarget": 675,
   "totalRecords": 818,
-  "structurallyEligible": 88,
-  "documentaryEligible": 74,
-  "insufficientEvidence": 744,
+  "structurallyEligible": 94,
+  "documentaryEligible": 80,
+  "insufficientEvidence": 738,
   "unreviewedDirectionCount": 563,
   "summedCategoryIdentityGap": 0,
   "categories": [
@@ -66,12 +66,12 @@
       "category": "country",
       "target": 150,
       "records": 150,
-      "structurallyEligible": 14,
-      "documentaryEligible": 14,
-      "insufficientEvidence": 136,
+      "structurallyEligible": 17,
+      "documentaryEligible": 17,
+      "insufficientEvidence": 133,
       "missingIdentitiesBeforeSemanticReview": 0,
       "preservedExcess": 0,
-      "missingEligibleToTarget": 136
+      "missingEligibleToTarget": 133
     },
     {
       "category": "historical-country",
@@ -88,12 +88,12 @@
       "category": "public-figure",
       "target": 150,
       "records": 150,
-      "structurallyEligible": 12,
-      "documentaryEligible": 12,
-      "insufficientEvidence": 138,
+      "structurallyEligible": 15,
+      "documentaryEligible": 15,
+      "insufficientEvidence": 135,
       "missingIdentitiesBeforeSemanticReview": 0,
       "preservedExcess": 0,
-      "missingEligibleToTarget": 138
+      "missingEligibleToTarget": 135
     },
     {
       "category": "historical-figure",
@@ -942,15 +942,16 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Normas constitucionais de 1787/1791 em texto do Senado; narrativa FH2025 sobre 2024",
-      "structurallyEligible": false,
-      "documentaryEligible": false,
-      "reviewStatus": "insufficient-located-coding",
+      "period": "Normas constitucionais de 1787/1791 em texto do Senado; narrativa FH2025 sobre 2024; regras concorrenciais na edição2024, reconhecimento conjugal2022 e igualdade civil-laboral em textos datados",
+      "structurallyEligible": true,
+      "documentaryEligible": true,
+      "reviewStatus": "located-coding-present-not-truth-certified",
       "unreviewedDirectionalAxes": [],
       "mappedAxes": [
         "est",
         "rep",
         "pod",
+        "con",
         "rel",
         "mor"
       ],
@@ -958,6 +959,7 @@
         "est",
         "rep",
         "pod",
+        "con",
         "rel",
         "mor"
       ],
@@ -965,16 +967,23 @@
         "est",
         "rep",
         "pod",
+        "con",
         "rel",
         "mor"
       ],
-      "sourceCount": 5,
+      "sourceCount": 11,
       "sourceUrls": [
         "https://freedomhouse.org/country/united-states/freedom-world/2025",
         "https://www.senate.gov/about/origins-foundations/senate-and-constitution/constitution.htm",
         "https://freedomhouse.org/country/united-states/freedom-world/2025",
         "https://www.senate.gov/about/origins-foundations/senate-and-constitution/constitution.htm",
-        "https://department.va.gov/vha/about-us/"
+        "https://department.va.gov/vha/about-us/",
+        "https://www.govinfo.gov/content/pkg/USCODE-2024-title15/html/USCODE-2024-title15-chap1-sec1.htm",
+        "https://www.govinfo.gov/content/pkg/USCODE-2024-title15/html/USCODE-2024-title15-chap1-sec2.htm",
+        "https://www.ftc.gov/advice-guidance/competition-guidance/guide-antitrust-laws/antitrust-laws?cq_net=g",
+        "https://www.govinfo.gov/content/pkg/PLAW-117publ228/html/PLAW-117publ228.htm",
+        "https://www.eeoc.gov/statutes/title-vii-civil-rights-act-1964",
+        "https://www.govinfo.gov/content/pkg/USCODE-2024-title15/html/USCODE-2024-title15-chap41-subchapIV-sec1691.htm"
       ]
     },
     {
@@ -983,36 +992,49 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Narrativa FH2025 sobre 2024; declarações MHA de 29/09/2026 e Singapore Customs de 09/03/2026",
-      "structurallyEligible": false,
-      "documentaryEligible": false,
-      "reviewStatus": "insufficient-located-coding",
+      "period": "Narrativa FH2025 sobre 2024; declarações MHA de 29/09/2026 e Singapore Customs de 09/03/2026; direitos culturais no texto constitucional indexadoSetembro2026, liberdade religiosa2021 e concorrência normativa com quadro2025",
+      "structurallyEligible": true,
+      "documentaryEligible": true,
+      "reviewStatus": "located-coding-present-not-truth-certified",
       "unreviewedDirectionalAxes": [],
       "mappedAxes": [
         "rep",
         "pod",
+        "imi",
+        "con",
         "com",
         "rel"
       ],
       "documentedAxes": [
         "rep",
         "pod",
+        "imi",
+        "con",
         "com",
         "rel"
       ],
       "directionalAxes": [
         "rep",
         "pod",
+        "imi",
+        "con",
         "com",
         "rel"
       ],
-      "sourceCount": 5,
+      "sourceCount": 12,
       "sourceUrls": [
         "https://freedomhouse.org/country/singapore/freedom-world/2025",
         "https://www.wto.org/english/tratop_e/tpr_e/s413_e.pdf",
         "https://freedomhouse.org/country/singapore/freedom-world/2025",
         "https://www.mha.gov.sg/what-we-do/managing-security-threats/maintaining-racial-and-religious-harmony/",
-        "https://www.customs.gov.sg/doing-business/valuation-duties-and-fees/duties-and-dutiable-goods/duties-and-dutiable-goods-overview/"
+        "https://www.customs.gov.sg/doing-business/valuation-duties-and-fees/duties-and-dutiable-goods/duties-and-dutiable-goods-overview/",
+        "https://sso.agc.gov.sg/Act/CA2004?ProvIds=P13-",
+        "https://www.ccs.gov.sg/resources/faqs/competition/agreements-between-undertakings/",
+        "https://www.elitigation.sg/gdviewer/s/2010_SGHC_97",
+        "https://sso.agc.gov.sg/act/cons1963?ProvIds=P113-",
+        "https://sso.agc.gov.sg/Act-Rev/CONS1963/Published?DocDate=20211231&ProvIds=pr15-",
+        "https://freedomhouse.org/country/singapore/freedom-world/2024",
+        "https://www.meti.gov.sg/trade-international-economic-relations/regional-and-international-platforms/world-trade-organization-wto/"
       ]
     },
     {
@@ -1071,30 +1093,36 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Descrição institucional da Constituição de 1986 sem data editorial; declaração Justiça atualizada em 24/04/2024; acordo comercial vigente em 01/05/2024; narrativa FH2025",
-      "structurallyEligible": false,
-      "documentaryEligible": false,
-      "reviewStatus": "insufficient-located-coding",
+      "period": "Descrição institucional da Constituição de 1986 no ensaio de Kenneth Keith de 1990, atualizado em 2008, 2017 e 2023; declaração Justiça atualizada em 24/04/2024; acordo comercial vigente em 01/05/2024; narrativa FH2025; garantias gerais e culturais na versão2022, relações patrimoniais2023 e regras concorrenciais2024–2025",
+      "structurallyEligible": true,
+      "documentaryEligible": true,
+      "reviewStatus": "located-coding-present-not-truth-certified",
       "unreviewedDirectionalAxes": [],
       "mappedAxes": [
         "rep",
         "pod",
+        "imi",
+        "con",
         "com",
         "mor"
       ],
       "documentedAxes": [
         "rep",
         "pod",
+        "imi",
+        "con",
         "com",
         "mor"
       ],
       "directionalAxes": [
         "rep",
         "pod",
+        "imi",
+        "con",
         "com",
         "mor"
       ],
-      "sourceCount": 7,
+      "sourceCount": 14,
       "sourceUrls": [
         "https://freedomhouse.org/country/new-zealand/freedom-world/2025",
         "https://www.oecd.org/en/publications/government-at-a-glance-2025_0efd0bcd-en.html",
@@ -1102,7 +1130,14 @@
         "https://gg.govt.nz/office-governor-general/roles-and-functions-governor-general/constitutional-role/constitution",
         "https://www.justice.govt.nz/justice-sector-policy/constitutional-issues-and-human-rights/human-rights/international-human-rights/international-covenant-on-civil-and-political-rights/",
         "https://www.mfat.govt.nz/assets/Trade-agreements/EU-NZ-FTA/Chapters/2.-National-Treatment-and-Market-Access-for-Goods.pdf",
-        "https://www.govt.nz/browse/family-and-whanau/getting-married/"
+        "https://www.govt.nz/browse/family-and-whanau/getting-married/",
+        "https://legislation.govt.nz/act/public/1990/109/en/2022-08-30.pdf",
+        "https://www.legislation.govt.nz/act/public/1976/166/en/2023-10-06.pdf",
+        "https://www.legislation.govt.nz/act/public/1976/166/en/latest/sections/DLM440945/DLM441904",
+        "https://www.legislation.govt.nz/act/public/1986/0005/latest/LMS485454.html",
+        "https://www.mfat.govt.nz/en/trade/nz-trade-policy",
+        "https://www.mfat.govt.nz/en/trade/free-trade-agreements/free-trade-agreements-in-force/cptpp/common-questions",
+        "https://gg.govt.nz/office-governor-general/roles-and-functions-governor-general/constitutional-role/constitution"
       ]
     },
     {
@@ -16915,25 +16950,42 @@
       "aliases": [],
       "kind": "person",
       "category": "public-figure",
-      "period": "2022-01-10; assinatura individual; moção apresentada 6/1/2022",
-      "structurallyEligible": false,
-      "documentaryEligible": false,
-      "reviewStatus": "insufficient-located-coding",
+      "period": "Manifesto2019 pessoalmente apresentado21/11/2019; moção energética2022 preservada no arquivo; atividade2026 apenas identidade",
+      "structurallyEligible": true,
+      "documentaryEligible": true,
+      "reviewStatus": "located-coding-present-not-truth-certified",
       "unreviewedDirectionalAxes": [],
       "mappedAxes": [
-        "eco"
+        "rep",
+        "pod",
+        "eco",
+        "con",
+        "mor",
+        "tec"
       ],
       "documentedAxes": [
-        "eco"
+        "rep",
+        "pod",
+        "eco",
+        "con",
+        "mor",
+        "tec"
       ],
       "directionalAxes": [
-        "eco"
+        "rep",
+        "pod",
+        "eco",
+        "con",
+        "mor",
+        "tec"
       ],
-      "sourceCount": 3,
+      "sourceCount": 5,
       "sourceUrls": [
         "https://edm.parliament.uk/early-day-motion/59318/energy-prices",
         "https://members.parliament.uk/member/185/contact",
-        "https://hansard.parliament.uk/Commons/2026-09-15/debates/4eb35084-7104-4c1e-8d3f-c7a2a3a1e2df/WestminsterHall"
+        "https://hansard.parliament.uk/Commons/2026-09-15/debates/4eb35084-7104-4c1e-8d3f-c7a2a3a1e2df/WestminsterHall",
+        "https://www.labourinternational.net/wp-content/uploads/sites/70/2020/09/Real-Change-Labour-Manifesto-2019.pdf",
+        "https://labourlist.org/2019/11/labours-manifesto-launch-its-time-for-real-change/"
       ]
     },
     {
@@ -18081,27 +18133,40 @@
       "aliases": [],
       "kind": "person",
       "category": "public-figure",
-      "period": "2026-06-08",
-      "structurallyEligible": false,
-      "documentaryEligible": false,
-      "reviewStatus": "insufficient-located-coding",
+      "period": "Manifesto2024 com prefácio próprio; fontes2026 preservadas como declarações separadas e identidade, sem renovação integral",
+      "structurallyEligible": true,
+      "documentaryEligible": true,
+      "reviewStatus": "located-coding-present-not-truth-certified",
       "unreviewedDirectionalAxes": [],
       "mappedAxes": [
-        "con",
+        "rep",
+        "dip",
+        "eco",
+        "com",
+        "mor",
         "tec"
       ],
       "documentedAxes": [
-        "con",
+        "rep",
+        "dip",
+        "eco",
+        "com",
+        "mor",
         "tec"
       ],
       "directionalAxes": [
-        "con",
+        "rep",
+        "dip",
+        "eco",
+        "com",
+        "mor",
         "tec"
       ],
-      "sourceCount": 2,
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.gov.uk/government/speeches/prime-ministers-speech-at-london-tech-week-2026",
-        "https://www.gov.uk/government/speeches/keir-starmers-final-speech-as-prime-minister-20-july-2026"
+        "https://www.gov.uk/government/speeches/keir-starmers-final-speech-as-prime-minister-20-july-2026",
+        "https://labour.org.uk/wp-content/uploads/2024/06/Change-Labour-manifesto-2024-screen-reader.pdf"
       ]
     },
     {
@@ -19504,32 +19569,45 @@
       ],
       "kind": "person",
       "category": "public-figure",
-      "period": "Programa eleitoral2023 endossado pessoalmente; atividade publicada21/08/2026, sem atualizar automaticamente posições",
-      "structurallyEligible": false,
-      "documentaryEligible": false,
-      "reviewStatus": "insufficient-located-coding",
+      "period": "Programa eleitoral2023 endossado pessoalmente; atividade21/08/2026 apenas identidade, sem atualizar a plataforma",
+      "structurallyEligible": true,
+      "documentaryEligible": true,
+      "reviewStatus": "located-coding-present-not-truth-certified",
       "unreviewedDirectionalAxes": [],
       "mappedAxes": [
         "est",
         "rep",
+        "imi",
+        "dip",
+        "int",
+        "com",
         "tec"
       ],
       "documentedAxes": [
         "est",
         "rep",
+        "imi",
+        "dip",
+        "int",
+        "com",
         "tec"
       ],
       "directionalAxes": [
         "est",
         "rep",
+        "imi",
+        "dip",
+        "int",
+        "com",
         "tec"
       ],
-      "sourceCount": 4,
+      "sourceCount": 5,
       "sourceUrls": [
         "https://elections.civichive.org/wp-content/uploads/2022/12/Peter-Obi-2023-Presidential-Manifesto.pdf",
         "https://www.linkedin.com/posts/peterobigregory_my-address-to-mark-the-commencement-of-the-activity-7496525769259544576-Tbdw",
         "https://www.cfr.org/articles/the-political-education-of-peter-obi",
-        "https://www.linkedin.com/posts/peterobigregory_nigeria-is-bleeding-from-within-it-is-deeply-share-7451264087566594048-dQBO/"
+        "https://www.linkedin.com/posts/peterobigregory_nigeria-is-bleeding-from-within-it-is-deeply-share-7451264087566594048-dQBO/",
+        "https://elections.civichive.org/wp-content/uploads/2022/12/Peter-Obi-2023-Presidential-Manifesto.pdf"
       ]
     },
     {

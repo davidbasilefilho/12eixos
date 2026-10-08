@@ -3491,7 +3491,7 @@ body:has(.quiz-page)::before { @apply hidden; }
 .share-capture-source .share-person-card strong { @apply text-[11px]; }
 .share-capture-source .share-person-card small { @apply block text-[7px] mt-[3px]; }
 .share-capture-source .share-card-lower { @apply grid-cols-[.95fr_1fr_1fr] grid-rows-1 gap-[8px]; }
-.share-capture-source .share-country-groups { @apply flex flex-col gap-[7px] border border-border p-[9px]; }
+.share-capture-source .share-country-groups { @apply flex flex-col gap-[5px] border border-border p-[9px]; }
 .share-capture-source .share-countries { @apply p-0 border-0; }
 .share-capture-source .share-countries > p { @apply min-h-0 mb-[10px] text-[9px] leading-[1.35]; }
 .share-capture-source .share-countries > p > span { @apply flex items-center gap-[6px]; }
@@ -3545,7 +3545,7 @@ body:has(.quiz-page)::before { @apply hidden; }
  .atlas-shell .plan-tile { @apply grid-cols-1; }
  .atlas-shell .plan-tile svg { @apply hidden; }
 }
-.share-capture-source .share-countries > p:has(small) { @apply py-[1px] mb-[1px] gap-y-[2px]; }
+.share-capture-source .share-countries > p:has(small) { @apply py-[1px] mb-0 gap-y-[2px]; }
 .share-capture-source .share-countries > p small { @apply text-[6.5px] leading-[1.25]; }
 .share-capture-source .share-countries img { width:24px !important; height:14px !important; }
 .share-capture-source .share-country-groups .share-countries { @apply shrink-0 overflow-visible; }
