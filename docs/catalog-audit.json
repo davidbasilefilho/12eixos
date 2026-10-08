@@ -34,8 +34,8 @@
     ],
     "provenance": "Executed before local data corrections in this recovery checkpoint; not recomputed from unavailable prior Library checkpoint."
   },
-  "headCommitAtAudit": "1af4af1dadcc344e2f82cb32bc1bceb5e1a0f422",
-  "integratedCatalogSha256": "6631fde1cb800a1bf185936abd3f8ad3608201ad9d18ae97fd338e0b324f7abf",
+  "headCommitAtAudit": "2bba8f3d3ddcb28b896aedefbd9382f2e1b97263",
+  "integratedCatalogSha256": "24475437b65701425b551b95eae5e1af290a444731d52eaca4872151ace03312",
   "scope": "Integrated working-tree catalog after preparation; fixed remote baseline and current HEAD are provenance, not immutable copies of modified files.",
   "evidenceGate": {
     "minimumAxes": 6,
@@ -56,9 +56,9 @@
   ],
   "totalTarget": 675,
   "totalRecords": 818,
-  "structurallyEligible": 81,
-  "documentaryEligible": 67,
-  "insufficientEvidence": 751,
+  "structurallyEligible": 88,
+  "documentaryEligible": 74,
+  "insufficientEvidence": 744,
   "unreviewedDirectionCount": 563,
   "summedCategoryIdentityGap": 0,
   "categories": [
@@ -66,12 +66,12 @@
       "category": "country",
       "target": 150,
       "records": 150,
-      "structurallyEligible": 8,
-      "documentaryEligible": 8,
-      "insufficientEvidence": 142,
+      "structurallyEligible": 14,
+      "documentaryEligible": 14,
+      "insufficientEvidence": 136,
       "missingIdentitiesBeforeSemanticReview": 0,
       "preservedExcess": 0,
-      "missingEligibleToTarget": 142
+      "missingEligibleToTarget": 136
     },
     {
       "category": "historical-country",
@@ -99,12 +99,12 @@
       "category": "historical-figure",
       "target": 150,
       "records": 150,
-      "structurallyEligible": 21,
-      "documentaryEligible": 21,
-      "insufficientEvidence": 129,
+      "structurallyEligible": 22,
+      "documentaryEligible": 22,
+      "insufficientEvidence": 128,
       "missingIdentitiesBeforeSemanticReview": 0,
       "preservedExcess": 0,
-      "missingEligibleToTarget": 129
+      "missingEligibleToTarget": 128
     },
     {
       "category": "ideology",
@@ -466,7 +466,7 @@
       "aliases": [],
       "kind": "person",
       "category": "historical-figure",
-      "period": "Textos autorais de 1945 e 1960; recodificação documental delimitada",
+      "period": "Textos autorais de1944,1945 e1960; excertos e versões identificados",
       "structurallyEligible": true,
       "documentaryEligible": true,
       "reviewStatus": "located-coding-present-not-truth-certified",
@@ -495,12 +495,14 @@
         "con",
         "rel"
       ],
-      "sourceCount": 4,
+      "sourceCount": 6,
       "sourceUrls": [
         "https://press.uchicago.edu/books/excerpt/2011/hayek_constitution.html",
         "https://www.laits.utexas.edu/~mbs31415/HayekUseOfKnowledgeInSociety.pdf",
         "https://www.nobelprize.org/prizes/economic-sciences/1974/hayek/lecture/",
-        "https://plato.stanford.edu/entries/friedrich-hayek/"
+        "https://plato.stanford.edu/entries/friedrich-hayek/",
+        "https://assets-us-01.kc-usercontent.com/c7bb3f89-eb78-007e-971a-d5864cf7a236/cae9286a-de3d-40a3-8a08-b623e6ace439/Hayek%2C%20The%20Road%20to%20Serfdom%20excerpt.pdf",
+        "https://www.kropfpolisci.com/democracy.capitalism.hayek.pdf"
       ]
     },
     {
@@ -696,15 +698,16 @@
       "aliases": [],
       "kind": "person",
       "category": "historical-figure",
-      "period": "Rights of Man, 1791–1792; The Age of Reason I, 1794; Agrarian Justice, 1797",
-      "structurallyEligible": false,
-      "documentaryEligible": false,
-      "reviewStatus": "insufficient-located-coding",
+      "period": "Normas selecionadas de Rights of Man I/II (1791–1792) e The Age of Reason I (1794), reproduções Conway",
+      "structurallyEligible": true,
+      "documentaryEligible": true,
+      "reviewStatus": "located-coding-present-not-truth-certified",
       "unreviewedDirectionalAxes": [],
       "mappedAxes": [
         "est",
         "rep",
         "pod",
+        "dip",
         "com",
         "rel"
       ],
@@ -712,6 +715,7 @@
         "est",
         "rep",
         "pod",
+        "dip",
         "com",
         "rel"
       ],
@@ -719,16 +723,19 @@
         "est",
         "rep",
         "pod",
+        "dip",
         "com",
         "rel"
       ],
-      "sourceCount": 5,
+      "sourceCount": 7,
       "sourceUrls": [
         "https://www.gutenberg.org/cache/epub/3742/pg3742-images.html",
         "https://www.gutenberg.org/cache/epub/31271/pg31271-images.html",
         "https://www.gutenberg.org/cache/epub/3743/pg3743-images.html",
         "https://www.gutenberg.org/ebooks/31271",
-        "https://www.archives.gov/milestone-documents/thomas-paines-common-sense"
+        "https://www.archives.gov/milestone-documents/thomas-paines-common-sense",
+        "https://www.gutenberg.org/cache/epub/3742/pg3742-images.html",
+        "https://www.gutenberg.org/cache/epub/3743/pg3743-images.html"
       ]
     },
     {
@@ -887,36 +894,46 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Texto constitucional de 1953, edição republicada de 1992 arquivada em 2023; narrativa FH2025 sobre 2024; tratado europeu de 2016",
-      "structurallyEligible": false,
-      "documentaryEligible": false,
-      "reviewStatus": "insufficient-located-coding",
+      "period": "Texto constitucional de 1953, edição republicada de 1992 arquivada em 2023; narrativa FH2025 sobre 2024; tratado europeu de 2016; alocação concorrencial na tradução2024, autonomia conjugal na norma2019 e casamento/divórcio na normaJulho2026",
+      "structurallyEligible": true,
+      "documentaryEligible": true,
+      "reviewStatus": "located-coding-present-not-truth-certified",
       "unreviewedDirectionalAxes": [],
       "mappedAxes": [
         "rep",
         "pod",
+        "con",
         "com",
-        "rel"
+        "rel",
+        "mor"
       ],
       "documentedAxes": [
         "rep",
         "pod",
+        "con",
         "com",
-        "rel"
+        "rel",
+        "mor"
       ],
       "directionalAxes": [
         "rep",
         "pod",
+        "con",
         "com",
-        "rel"
+        "rel",
+        "mor"
       ],
-      "sourceCount": 5,
+      "sourceCount": 9,
       "sourceUrls": [
         "https://freedomhouse.org/country/denmark/freedom-world/2025",
         "https://www.oecd.org/en/publications/government-at-a-glance-2025_0efd0bcd-en.html",
         "https://freedomhouse.org/country/denmark/freedom-world/2025",
         "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:12016E/TXT",
-        "https://hrlibrary.umn.edu/research/denmark-constitution.html"
+        "https://hrlibrary.umn.edu/research/denmark-constitution.html",
+        "https://en.kfst.dk/media/s4ybfdap/the-danish-competition-act-1150-af-03112024.pdf",
+        "https://www.retsinformation.dk/api/pdf/209786",
+        "https://www.retsinformation.dk/eli/lta/2026/663/pdf",
+        "https://european-union.europa.eu/principles-countries-history/eu-countries/denmark_en"
       ]
     },
     {
@@ -1183,15 +1200,16 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Constituição oficial atualizada em 01/05/2024; mandato NITI sem data editorial consultado em 2026; narrativa FH2025 sobre 2024, exceto Caxemira administrada pela Índia",
-      "structurallyEligible": false,
-      "documentaryEligible": false,
-      "reviewStatus": "insufficient-located-coding",
+      "period": "Constituição oficial atualizada em 01/05/2024; mandato NITI sem data editorial consultado em 2026; narrativa FH2025 sobre 2024, exceto Caxemira administrada pela Índia; pluralidade cultural/línguas na edição2024 e competição na compilaçãoCCI com corte editorial não indicado e dispositivos da reforma2023 efetivamente cotejados",
+      "structurallyEligible": true,
+      "documentaryEligible": true,
+      "reviewStatus": "located-coding-present-not-truth-certified",
       "unreviewedDirectionalAxes": [],
       "mappedAxes": [
         "est",
         "rep",
         "pod",
+        "imi",
         "con",
         "rel"
       ],
@@ -1199,6 +1217,7 @@
         "est",
         "rep",
         "pod",
+        "imi",
         "con",
         "rel"
       ],
@@ -1206,10 +1225,11 @@
         "est",
         "rep",
         "pod",
+        "imi",
         "con",
         "rel"
       ],
-      "sourceCount": 7,
+      "sourceCount": 10,
       "sourceUrls": [
         "https://freedomhouse.org/country/india/freedom-world/2025",
         "https://legislative.gov.in/constitution-of-india/",
@@ -1217,7 +1237,10 @@
         "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf",
         "https://www.niti.gov.in/about-us/objectives-and-features",
         "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2081686&lang=2&reg=48",
-        "https://sansad.in/getFile/annex/259/AU2435.pdf?source=pqars"
+        "https://sansad.in/getFile/annex/259/AU2435.pdf?source=pqars",
+        "https://www.cci.gov.in/images/legalframeworkact/en/the-competition-act-20021652103427.pdf",
+        "https://nclat.nic.in/sites/default/files/2023-05/Competition%20(amendment)%20Act,%202023.pdf",
+        "https://nclat.nic.in/sites/default/files/2023-05/Appointed%20day%20of%20Competition%20(Amendment)%20Act,%202023_1.pdf"
       ]
     },
     {
@@ -1274,39 +1297,45 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Tradução constitucional oferecida pela Corte em 2026, sem data editorial comprovada; narrativa FH2025 sobre 2024",
-      "structurallyEligible": false,
-      "documentaryEligible": false,
-      "reviewStatus": "insufficient-located-coding",
+      "period": "Tradução constitucional oferecida pela Corte em 2026, sem data editorial comprovada; narrativa FH2025 sobre 2024; ordem civil-familiar na UU1/1974 e alteração de idade na UU16/2019",
+      "structurallyEligible": true,
+      "documentaryEligible": true,
+      "reviewStatus": "located-coding-present-not-truth-certified",
       "unreviewedDirectionalAxes": [],
       "mappedAxes": [
         "est",
         "rep",
         "pod",
         "imi",
-        "rel"
+        "rel",
+        "mor"
       ],
       "documentedAxes": [
         "est",
         "rep",
         "pod",
         "imi",
-        "rel"
+        "rel",
+        "mor"
       ],
       "directionalAxes": [
         "est",
         "rep",
         "pod",
         "imi",
-        "rel"
+        "rel",
+        "mor"
       ],
-      "sourceCount": 5,
+      "sourceCount": 8,
       "sourceUrls": [
         "https://freedomhouse.org/country/indonesia/freedom-world/2025",
         "https://en.mkri.id/public/content/constitution/constitution_english.pdf",
         "https://freedomhouse.org/country/indonesia/freedom-world/2025",
         "https://en.mkri.id/download/constitution/constitution_1_1625426222_4c1e13f466840d7ed721.pdf",
-        "https://www.mofa.go.jp/press/release/pressite_000001_02465.html"
+        "https://www.mofa.go.jp/press/release/pressite_000001_02465.html",
+        "https://peraturan.bpk.go.id/Home/Download/36382/UU%20Nomor%201%20Tahun%201974.pdf",
+        "https://peraturan.go.id/files/uu16-2019bt.pdf",
+        "https://peraturan.bpk.go.id/Details/47406/uu-no-1-tahun-1974"
       ]
     },
     {
@@ -1361,39 +1390,43 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Constituição revista em 2017, camada histórica; narrativa FH2025 sobre 2024; declarações posteriores sem data editorial segura",
-      "structurallyEligible": false,
-      "documentaryEligible": false,
-      "reviewStatus": "insufficient-located-coding",
+      "period": "Constituição revista em 2017, camada histórica; narrativa FH2025 sobre 2024; declarações posteriores sem data editorial segura; laicidade formal e planejamento/mercados na edição2017, com contrapontos religiosos de prática2024",
+      "structurallyEligible": true,
+      "documentaryEligible": true,
+      "reviewStatus": "located-coding-present-not-truth-certified",
       "unreviewedDirectionalAxes": [],
       "mappedAxes": [
         "est",
         "rep",
         "pod",
         "con",
-        "com"
+        "com",
+        "rel"
       ],
       "documentedAxes": [
         "est",
         "rep",
         "pod",
         "con",
-        "com"
+        "com",
+        "rel"
       ],
       "directionalAxes": [
         "est",
         "rep",
         "pod",
         "con",
-        "com"
+        "com",
+        "rel"
       ],
-      "sourceCount": 5,
+      "sourceCount": 6,
       "sourceUrls": [
         "https://freedomhouse.org/country/turkey/freedom-world/2025",
         "https://www.anayasa.gov.tr/en/legislation/turkish-constitution/",
         "https://freedomhouse.org/country/turkey/freedom-world/2025",
         "https://www.constituteproject.org/constitution/Turkey_2017?lang=en",
-        "https://policy.trade.ec.europa.eu/eu-trade-relationships-country-and-region/countries-and-regions/turkiye_en"
+        "https://policy.trade.ec.europa.eu/eu-trade-relationships-country-and-region/countries-and-regions/turkiye_en",
+        "https://www.constituteproject.org/constitution/Turkey_2017?lang=en"
       ]
     },
     {
@@ -15314,38 +15347,42 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Constituição de 1993 oferecida pelo Parlamento em 2026; narrativa FH2025 sobre 2024; descrição aduaneira de 24/11/2021 e autorização de 16/07/2026",
-      "structurallyEligible": false,
-      "documentaryEligible": false,
-      "reviewStatus": "insufficient-located-coding",
+      "period": "Constituição de 1993 oferecida pelo Parlamento em 2026; narrativa FH2025 sobre 2024; descrição aduaneira de 24/11/2021 e autorização de 16/07/2026; família na Llei30/2022 republicada com alterações12/2023 e anotações2026",
+      "structurallyEligible": true,
+      "documentaryEligible": true,
+      "reviewStatus": "located-coding-present-not-truth-certified",
       "unreviewedDirectionalAxes": [],
       "mappedAxes": [
         "est",
         "rep",
         "pod",
         "com",
-        "rel"
+        "rel",
+        "mor"
       ],
       "documentedAxes": [
         "est",
         "rep",
         "pod",
         "com",
-        "rel"
+        "rel",
+        "mor"
       ],
       "directionalAxes": [
         "est",
         "rep",
         "pod",
         "com",
-        "rel"
+        "rel",
+        "mor"
       ],
-      "sourceCount": 4,
+      "sourceCount": 5,
       "sourceUrls": [
         "https://www.consellgeneral.ad/fitxers/documents/constitucio/const-en",
         "https://freedomhouse.org/country/andorra/freedom-world/2025",
         "https://www.eeas.europa.eu/topic-page/european-union-and-principality-andorra_en",
-        "https://www.consilium.europa.eu/en/press/press-releases/2026/07/16/council-greenlights-eu-deal-with-andorra-and-san-marino/"
+        "https://www.consilium.europa.eu/en/press/press-releases/2026/07/16/council-greenlights-eu-deal-with-andorra-and-san-marino/",
+        "https://www.portaljuridicandorra.ad/L2022030"
       ]
     },
     {
@@ -15437,13 +15474,14 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Constituição consolidada com Atos IX e XVI de 2026, consultada em 07/10/2026; narrativa FH2025 sobre 2024; descrição aduaneira institucional sem data",
-      "structurallyEligible": false,
-      "documentaryEligible": false,
-      "reviewStatus": "insufficient-located-coding",
+      "period": "Constituição consolidada com Atos IX e XVI de 2026, consultada em 07/10/2026; narrativa FH2025 sobre 2024; descrição aduaneira institucional sem data; garantias gerais de processo/vida privada e Código Civil em consolidações oferecidas2026; lei de igualdade conjugal assentida2017",
+      "structurallyEligible": true,
+      "documentaryEligible": true,
+      "reviewStatus": "located-coding-present-not-truth-certified",
       "unreviewedDirectionalAxes": [],
       "mappedAxes": [
         "rep",
+        "pod",
         "dip",
         "com",
         "rel",
@@ -15451,6 +15489,7 @@
       ],
       "documentedAxes": [
         "rep",
+        "pod",
         "dip",
         "com",
         "rel",
@@ -15458,17 +15497,20 @@
       ],
       "directionalAxes": [
         "rep",
+        "pod",
         "dip",
         "com",
         "rel",
         "mor"
       ],
-      "sourceCount": 4,
+      "sourceCount": 6,
       "sourceUrls": [
         "https://legislation.mt/eli/const/eng/pdf",
         "https://freedomhouse.org/country/malta/freedom-world/2025",
         "https://european-union.europa.eu/priorities-and-actions/actions-topic/customs_en",
-        "https://european-union.europa.eu/principles-countries-history/eu-countries/malta_en"
+        "https://european-union.europa.eu/principles-countries-history/eu-countries/malta_en",
+        "https://legislation.mt/eli/cap/16/eng/pdf",
+        "https://legislation.mt/eli/act/2017/23/eng/pdf"
       ]
     },
     {
@@ -15714,7 +15756,7 @@
       "aliases": [],
       "kind": "person",
       "category": "historical-figure",
-      "period": "On the Duties of Man, seções Country (1859) e Liberty (1860), edição acadêmica de 2009",
+      "period": "Programa selecionado: Country/Liberty (1859) e Social Question/Conclusion (1860), edição Recchia/Urbinati2009",
       "structurallyEligible": true,
       "documentaryEligible": true,
       "reviewStatus": "located-coding-present-not-truth-certified",
@@ -15724,6 +15766,7 @@
         "rep",
         "pod",
         "int",
+        "eco",
         "rel",
         "mor"
       ],
@@ -15732,6 +15775,7 @@
         "rep",
         "pod",
         "int",
+        "eco",
         "rel",
         "mor"
       ],
@@ -15740,6 +15784,7 @@
         "rep",
         "pod",
         "int",
+        "eco",
         "rel",
         "mor"
       ],

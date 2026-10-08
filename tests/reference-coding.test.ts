@@ -1,3 +1,4 @@
+import { ranking675Country04Before } from '../src/data/ranking675-country04';
 import { describe, expect, test } from 'bun:test';
 import { codeReferenceAxis, EDITORIAL_ANCHORS, REFERENCE_CODING_VERSION, type ReferenceAxisCoding } from '../src/lib/reference-coding';
 import { AXIS_KEYS, referenceEntries } from '../src/data/references';
@@ -71,10 +72,15 @@ describe('auditable reference coding', () => {
     expect(encoded.evidence.rel).toBeUndefined();
     expect(encoded.axisEvidence?.rel).toBeUndefined();
     expect(encoded.coding?.rel).toBeUndefined();
-    const denmark = referenceEntries.find(entry => entry.id === 'denmark')!;
+    const denmark = ranking675Country04Before.find(entry => entry.id === 'denmark')!;
     expect(denmark.vec.mor).toBe(50);
     expect(denmark.evidence.mor).toBeUndefined();
     expect(denmark.coding?.mor).toBeUndefined();
+    const reviewedDenmark = referenceEntries.find(entry => entry.id === 'denmark')!;
+    expect(reviewedDenmark.vec.mor).toBe(60);
+    expect(documentedEvidenceAxes(reviewedDenmark)).toContain('mor');
+    expect(reviewedDenmark.coding?.mor?.claims.length).toBeGreaterThan(0);
+    expect(reviewedDenmark.sources.slice(0, denmark.sources.length)).toEqual(denmark.sources);
     for (const audit of currentCountryCodingAudit) {
       expect(audit.baseline).toBe('9db0807');
       expect(audit.legacyVector).toEqual(currentCountryLegacyVectors[audit.id]);
