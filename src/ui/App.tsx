@@ -673,7 +673,7 @@ function sharePeriodDates(period: string) {
   const dates = period.match(/\d{2}\/\d{2}\/\d{4}|\d{4}-\d{2}-\d{2}|\b(?:1[5-9]|20)\d{2}\b/g)
   if (!dates) return period
   const unique = [...new Set(dates.map(date => /^\d{4}-/.test(date) ? date.split('-').reverse().join('/') : date))]
-  return `Datas do recorte: ${unique.join(' · ')}`
+  return `Datas citadas: ${unique.join(' · ')}`
 }
 
 function ShareCard({ scores, matches }: { scores: AxisScores; matches: ReferenceMatch<ReferenceEntry>[] }) {

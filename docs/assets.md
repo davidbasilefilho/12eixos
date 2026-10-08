@@ -139,3 +139,11 @@ CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
 TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```
+
+## São Tomé e Príncipe — identificador visual local
+
+- Arquivo: `public/assets/flags/sao-tome-and-principe-current-2025.svg`; cópia byte a byte de `package/3x2/ST.svg` do pacote `country-flag-icons` 1.6.20, sem redesenho ou alteração do SVG.
+- Origem: [pacote exato no npm](https://registry.npmjs.org/country-flag-icons/-/country-flag-icons-1.6.20.tgz), reutilizado do arquivo licenciado obtido no reparo de Malta. Em 08/10/2026, os [metadados oficiais dessa versão](https://registry.npmjs.org/country-flag-icons/1.6.20) foram consultados e a integridade SHA-512 do arquivo em cache foi conferida com o registro.
+- Autoria e licença: @catamphetamine, copyright 2020; [MIT](https://github.com/catamphetamine/country-flag-icons/blob/master/LICENSE), com o aviso integral já reproduzido acima no registro de Malta e presente no pacote original.
+- `viewBox="0 85.333 512 341.333"`; proporção nominal 3:2 do pacote, preservada pelo componente. SHA-256 do asset: `f495bdd55ee1383e8688d289b7d97fef773e0c06b2bdfebbe0746339c5772c4c`.
+- Escopo: identificação visual compacta do país atual; nenhum vetor, fonte política, evidência, período ou regra de elegibilidade foi alterado pelo reparo de imagem.

@@ -34,8 +34,8 @@
     ],
     "provenance": "Executed before local data corrections in this recovery checkpoint; not recomputed from unavailable prior Library checkpoint."
   },
-  "headCommitAtAudit": "cc0d505bba0dcf550d2b51857e2c0a9daf475eac",
-  "integratedCatalogSha256": "134ab6f53e9c681de5ab2f622183bfad7ff6e45b53f45cfbe404026153ab1766",
+  "headCommitAtAudit": "daae6ecef44354fab67af6b49950b8b136762ebb",
+  "integratedCatalogSha256": "cbc49fa429d9d49720cadea912c50cafa1ac706968d074555b9bbbf65f280723",
   "scope": "Integrated working-tree catalog after preparation; fixed remote baseline and current HEAD are provenance, not immutable copies of modified files.",
   "evidenceGate": {
     "minimumAxes": 6,
@@ -56,14 +56,25 @@
   ],
   "totalTarget": 675,
   "totalRecords": 818,
-  "structurallyEligible": 96,
-  "documentaryEligible": 82,
-  "insufficientEvidence": 736,
+  "structurallyEligible": 102,
+  "documentaryEligible": 88,
+  "insufficientEvidence": 730,
   "unreviewedDirectionCount": 563,
   "summedCategoryIdentityGap": 0,
   "categories": [
     {
       "category": "country",
+      "target": 150,
+      "records": 150,
+      "structurallyEligible": 18,
+      "documentaryEligible": 18,
+      "insufficientEvidence": 132,
+      "missingIdentitiesBeforeSemanticReview": 0,
+      "preservedExcess": 0,
+      "missingEligibleToTarget": 132
+    },
+    {
+      "category": "historical-country",
       "target": 150,
       "records": 150,
       "structurallyEligible": 17,
@@ -72,17 +83,6 @@
       "missingIdentitiesBeforeSemanticReview": 0,
       "preservedExcess": 0,
       "missingEligibleToTarget": 133
-    },
-    {
-      "category": "historical-country",
-      "target": 150,
-      "records": 150,
-      "structurallyEligible": 14,
-      "documentaryEligible": 14,
-      "insufficientEvidence": 136,
-      "missingIdentitiesBeforeSemanticReview": 0,
-      "preservedExcess": 0,
-      "missingEligibleToTarget": 136
     },
     {
       "category": "public-figure",
@@ -99,23 +99,23 @@
       "category": "historical-figure",
       "target": 150,
       "records": 150,
-      "structurallyEligible": 22,
-      "documentaryEligible": 22,
-      "insufficientEvidence": 128,
+      "structurallyEligible": 23,
+      "documentaryEligible": 23,
+      "insufficientEvidence": 127,
       "missingIdentitiesBeforeSemanticReview": 0,
       "preservedExcess": 0,
-      "missingEligibleToTarget": 128
+      "missingEligibleToTarget": 127
     },
     {
       "category": "ideology",
       "target": 75,
       "records": 218,
-      "structurallyEligible": 28,
-      "documentaryEligible": 14,
-      "insufficientEvidence": 204,
+      "structurallyEligible": 29,
+      "documentaryEligible": 15,
+      "insufficientEvidence": 203,
       "missingIdentitiesBeforeSemanticReview": 0,
       "preservedExcess": 143,
-      "missingEligibleToTarget": 61
+      "missingEligibleToTarget": 60
     }
   ],
   "structuralProblems": [],
@@ -665,23 +665,23 @@
       "mappedAxes": [
         "rep",
         "pod",
-        "eco",
         "rel",
-        "mor"
+        "mor",
+        "tec"
       ],
       "documentedAxes": [
         "rep",
         "pod",
-        "eco",
         "rel",
-        "mor"
+        "mor",
+        "tec"
       ],
       "directionalAxes": [
         "rep",
         "pod",
-        "eco",
         "rel",
-        "mor"
+        "mor",
+        "tec"
       ],
       "sourceCount": 5,
       "sourceUrls": [
@@ -1621,36 +1621,45 @@
       "aliases": [],
       "kind": "country",
       "category": "historical-country",
-      "period": "Estado Novo sob Vargas, 10/11/1937–29/10/1945; recorte normativo: carta original de 1937 e disposições transitórias.",
-      "structurallyEligible": false,
-      "documentaryEligible": false,
-      "reviewStatus": "insufficient-located-coding",
+      "period": "Estado Novo sob Vargas, 10/11/1937–29/10/1945; recortes normativos separados: carta original de 1937, adaptação nacional de 1939 e organização familiar de 1941.",
+      "structurallyEligible": true,
+      "documentaryEligible": true,
+      "reviewStatus": "located-coding-present-not-truth-certified",
       "unreviewedDirectionalAxes": [],
       "mappedAxes": [
         "est",
         "rep",
         "pod",
-        "rel"
+        "imi",
+        "rel",
+        "mor"
       ],
       "documentedAxes": [
         "est",
         "rep",
         "pod",
-        "rel"
+        "imi",
+        "rel",
+        "mor"
       ],
       "directionalAxes": [
         "est",
         "rep",
         "pod",
-        "rel"
+        "imi",
+        "rel",
+        "mor"
       ],
-      "sourceCount": 5,
+      "sourceCount": 8,
       "sourceUrls": [
         "https://cpdoc.fgv.br/biografias/getulio-vargas",
         "https://cpdoc.fgv.br/sites/default/files/brasilia/dhbb/Get%C3%BAlio%20Vargas.pdf",
         "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao37.htm",
         "https://www2.camara.leg.br/legin/fed/consti/1930-1939/constituicao-35093-10-novembro-1937-532849-publicacaooriginal-15246-pl.html",
-        "https://www.gov.br/secretariageral/pt-br/centrais-de-conteudo/biblioteca-da-pr/galeria-dos-ex-presidentes/Vargas/biografia-completa"
+        "https://www.gov.br/secretariageral/pt-br/centrais-de-conteudo/biblioteca-da-pr/galeria-dos-ex-presidentes/Vargas/biografia-completa",
+        "https://www2.camara.leg.br/legin/fed/declei/1930-1939/decreto-lei-1545-25-agosto-1939-411654-publicacaooriginal-1-pe.html",
+        "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3200-19-abril-1941-413239-publicacaooriginal-1-pe.html",
+        "https://www2.camara.leg.br/legin/fed/consti/1930-1939/constituicao-35093-10-novembro-1937-532849-publicacaooriginal-15246-pl.html"
       ]
     },
     {
@@ -9392,33 +9401,38 @@
       "aliases": [],
       "kind": "person",
       "category": "public-figure",
-      "period": "Posições legislativas autodeclaradas na página Issues consultada em 7 de outubro de 2026; página sem data de publicação.",
+      "period": "Posições legislativas autodeclaradas na página Issues consultada em 7 de outubro de 2026; página sem data de publicação. Ensaio próprio de 21/01/2021 acrescentado como recorte datado separado, sem renovação integral em 2026.",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
       "unreviewedDirectionalAxes": [],
       "mappedAxes": [
+        "rep",
+        "pod",
         "imi",
-        "dip",
-        "eco",
-        "con"
+        "dip"
       ],
       "documentedAxes": [
+        "rep",
+        "pod",
         "imi",
-        "dip",
-        "eco",
-        "con"
+        "dip"
       ],
       "directionalAxes": [
+        "rep",
+        "pod",
         "imi",
-        "dip",
-        "eco",
-        "con"
+        "dip"
       ],
-      "sourceCount": 2,
+      "sourceCount": 7,
       "sourceUrls": [
         "https://omar.house.gov/issues",
-        "https://omar.house.gov/media/press-releases"
+        "https://omar.house.gov/media/press-releases",
+        "https://omar.house.gov/issues",
+        "https://omar.house.gov/issues/immigration",
+        "https://omar.house.gov/issues/education",
+        "https://omar.house.gov/issues/healthcare",
+        "https://omar.house.gov/media/in-the-news/rep-omar-essay-atlantic-protecting-our-democracy"
       ]
     },
     {
@@ -9463,39 +9477,50 @@
       "aliases": [],
       "kind": "person",
       "category": "public-figure",
-      "period": "Plataforma de campanha publicada sem datas; consulta em 7 de outubro de 2026. O texto econômico menciona recuperação da crise de COVID-19 e não deve ser tratado como proposta recém-lançada.",
+      "period": "Plataforma de campanha publicada sem datas; consulta em 7 de outubro de 2026. O texto econômico menciona recuperação da crise de COVID-19 e não deve ser tratado como proposta recém-lançada. Declarações próprias de 12/06/2024 e de 23/05/2025 analisadas separadamente, sem renovação integral em 2026.",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
       "unreviewedDirectionalAxes": [],
       "mappedAxes": [
+        "rep",
+        "pod",
         "imi",
         "dip",
-        "eco",
-        "con",
         "mor"
       ],
       "documentedAxes": [
+        "rep",
+        "pod",
         "imi",
         "dip",
-        "eco",
-        "con",
         "mor"
       ],
       "directionalAxes": [
+        "rep",
+        "pod",
         "imi",
         "dip",
-        "eco",
-        "con",
         "mor"
       ],
-      "sourceCount": 5,
+      "sourceCount": 16,
       "sourceUrls": [
         "https://ayannapressley.com/issues/jobguarantee/",
         "https://ayannapressley.com/issues/lgbtq/",
         "https://ayannapressley.com/issues/protecting-the-rights-of-cisgender-and-transgender-women-and-girls/",
         "https://ayannapressley.com/issues/immigration/",
-        "https://pressley.house.gov/2026/10/07/rep-pressley-statement-marking-three-year-somber-anniversary-of-october-7th-attack/"
+        "https://pressley.house.gov/2026/10/07/rep-pressley-statement-marking-three-year-somber-anniversary-of-october-7th-attack/",
+        "https://ayannapressley.com/issues/jobguarantee/",
+        "https://ayannapressley.com/issues/lgbtq/",
+        "https://ayannapressley.com/issues/protecting-the-rights-of-cisgender-and-transgender-women-and-girls/",
+        "https://ayannapressley.com/issues/immigration/",
+        "https://ayannapressley.com/issues/economy/",
+        "https://ayannapressley.com/issues/foreign-policy/",
+        "https://ayannapressley.com/issues/climate-crisis/",
+        "https://ayannapressley.com/issues/transportation/",
+        "https://ayannapressley.com/issues/housing/",
+        "https://pressley.house.gov/2024/06/12/pressley-applauds-boston-city-councils-ranked-choice-voting-home-rule-petition/",
+        "https://pressley.house.gov/2025/05/23/ahead-of-george-floyd-anniversary-pressley-reintroduces-suite-of-bills-to-transform-criminal-legal-system-improve-police-accountability/"
       ]
     },
     {
@@ -15680,30 +15705,40 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Prática em 2024; norma: 2013, texto inglês disponibilizado pelo governo em abril de 2026",
+      "period": "Normas 2013, texto inglês disponibilizado oficialmente em abril 2026; prática política/civil 2024 em relatos 2025; participação pública multissetorial 2023 relatada pelo IMF 2024",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
       "unreviewedDirectionalAxes": [],
       "mappedAxes": [
         "rep",
-        "rel",
-        "mor"
+        "pod",
+        "eco",
+        "rel"
       ],
       "documentedAxes": [
         "rep",
-        "rel",
-        "mor"
+        "pod",
+        "eco",
+        "rel"
       ],
       "directionalAxes": [
         "rep",
-        "rel",
-        "mor"
+        "pod",
+        "eco",
+        "rel"
       ],
-      "sourceCount": 2,
+      "sourceCount": 9,
       "sourceUrls": [
         "https://www.fiji.gov.fj/wp-content/uploads/2026/04/Fiji-Constitution-English-2013.pdf",
-        "https://freedomhouse.org/country/fiji/freedom-world/2025"
+        "https://freedomhouse.org/country/fiji/freedom-world/2025",
+        "https://www.fiji.gov.fj/wp-content/uploads/2026/04/Fiji-Constitution-English-2013.pdf",
+        "https://freedomhouse.org/country/fiji/freedom-world/2025",
+        "https://www.imf.org/-/media/files/publications/cr/2024/english/1fjiea2024001.pdf",
+        "https://parliament.gov.fj/wp-content/uploads/2026/03/8Fijian-Competition-and-Consumer-Commission-Annual-Report-2023-2024-1-1.pdf",
+        "https://ttd.wto.org/en/profiles/fiji",
+        "https://www.fiji.gov.fj/minister-hon-maciu-nalumisas-response-to-his-excellencys-address-at-the-opening-of-the-parliament-session-2024/",
+        "https://www.ecoi.net/en/document/2140688.html"
       ]
     },
     {
@@ -15741,7 +15776,7 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Prática em 2024; norma: 1875, rev. 2025; tradução primária Constitute, cotejada com emenda oficial de julho de 2025",
+      "period": "Prática política 2024 relatada em 2025; Constituição 1875 em republicação inglesa indicada rev 2025, sem certificação integral de consolidação; governança local na edição 2020, emenda 2023 não lida; Act 24 aprovado 28/7 e assentido 28/8/2025, distinto do Act 2 assentido 22/5/2025",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
@@ -15749,22 +15784,34 @@
       "mappedAxes": [
         "est",
         "rep",
+        "pod",
         "rel"
       ],
       "documentedAxes": [
         "est",
         "rep",
+        "pod",
         "rel"
       ],
       "directionalAxes": [
         "est",
         "rep",
+        "pod",
         "rel"
       ],
-      "sourceCount": 2,
+      "sourceCount": 11,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Tonga_2025?lang=en",
-        "https://freedomhouse.org/country/tonga/freedom-world/2025"
+        "https://freedomhouse.org/country/tonga/freedom-world/2025",
+        "https://www.constituteproject.org/constitution/Tonga_2025",
+        "https://ago.gov.to/cms/images/LEGISLATION/PRINCIPAL/1988/1988-0002/ConstitutionofTonga.pdf_3.pdf",
+        "https://ago.gov.to/cms/images/LEGISLATION/AMENDING/2025/2025-0018/ConstitutionofTongaAmendmentAct2025.pdf",
+        "https://ago.gov.to/cms/images/LEGISLATION/AMENDING/2025/2025-0031/ConstitutionofTongaAmendmentNo.1Act2025.pdf",
+        "https://ago.gov.to/cms/images/LEGISLATION/PRINCIPAL/1930/1930-0009/DistrictandTownOfficersAct_3.pdf",
+        "https://freedomhouse.org/country/tonga/freedom-world/2025",
+        "https://finance.gov.to/sites/default/files/2024-07/Budget%20Statement%202024-2025%20English.pdf",
+        "https://ttd.wto.org/en/profiles/tonga",
+        "https://www.imf.org/-/media/files/publications/cr/2024/english/1tonea2024001-print-pdf.pdf"
       ]
     },
     {
@@ -15967,14 +16014,15 @@
       "aliases": [],
       "kind": "person",
       "category": "historical-figure",
-      "period": "Discurso individual à ONU, 4 de dezembro de 1972; excertos traduzidos",
-      "structurallyEligible": false,
-      "documentaryEligible": false,
-      "reviewStatus": "insufficient-located-coding",
+      "period": "Discurso individual à ONU, 4 de dezembro de 1972; excertos ingleses e trechos de transcrições posteriores",
+      "structurallyEligible": true,
+      "documentaryEligible": true,
+      "reviewStatus": "located-coding-present-not-truth-certified",
       "unreviewedDirectionalAxes": [],
       "mappedAxes": [
         "rep",
         "pod",
+        "dip",
         "int",
         "eco",
         "con"
@@ -15982,6 +16030,7 @@
       "documentedAxes": [
         "rep",
         "pod",
+        "dip",
         "int",
         "eco",
         "con"
@@ -15989,14 +16038,17 @@
       "directionalAxes": [
         "rep",
         "pod",
+        "dip",
         "int",
         "eco",
         "con"
       ],
-      "sourceCount": 2,
+      "sourceCount": 4,
       "sourceUrls": [
         "https://www.marxists.org/archive/allende/1972/december/04.htm",
-        "https://www.memoriachilena.gob.cl/602/w3-article-18383.html"
+        "https://www.memoriachilena.gob.cl/602/w3-article-18383.html",
+        "https://www.marxists.org/espanol/allende/1972/diciembre04.htm",
+        "https://discursos.fundacionsalvadorallende.cl/wp-content/uploads/2024/10/CLFSAFD11972120401-2.pdf"
       ]
     },
     {
@@ -17263,23 +17315,17 @@
       "mappedAxes": [
         "rep",
         "pod",
-        "imi",
-        "dip",
-        "mor"
+        "imi"
       ],
       "documentedAxes": [
         "rep",
         "pod",
-        "imi",
-        "dip",
-        "mor"
+        "imi"
       ],
       "directionalAxes": [
         "rep",
         "pod",
-        "imi",
-        "dip",
-        "mor"
+        "imi"
       ],
       "sourceCount": 2,
       "sourceUrls": [
@@ -19487,30 +19533,31 @@
       "unreviewedDirectionalAxes": [],
       "mappedAxes": [
         "est",
+        "rep",
         "pod",
-        "imi",
         "rel"
       ],
       "documentedAxes": [
         "est",
+        "rep",
         "pod",
-        "imi",
         "rel"
       ],
       "directionalAxes": [
         "est",
+        "rep",
         "pod",
-        "imi",
         "rel"
       ],
-      "sourceCount": 6,
+      "sourceCount": 7,
       "sourceUrls": [
         "https://es.wikisource.org/wiki/Constituci%C3%B3n_Federal_para_los_Estados_de_Venezuela_(1811)/Preliminar",
         "https://es.wikisource.org/wiki/Constituci%C3%B3n_Federal_para_los_Estados_de_Venezuela_(1811)/I",
         "https://es.wikisource.org/wiki/Constituci%C3%B3n_Federal_para_los_Estados_de_Venezuela_(1811)/VIII",
         "https://cervantesvirtual.com/obra-visor/acta-de-independencia-5-de-julio-1811-0/html/84c4bf1a-ca2c-49bd-9364-df0e6daf94aa_2.html",
         "https://mppre.gob.ve/index.php/publicacion/1439-0",
-        "https://bibliofep.fundacionempresaspolar.org/dhv/entradas/c/capitulacion-de-san-mateo/"
+        "https://bibliofep.fundacionempresaspolar.org/dhv/entradas/c/capitulacion-de-san-mateo/",
+        "https://www.cervantesvirtual.com/portales/constituciones_hispanoamericanas/obra-visor/constitucion-federal-de-los-estados-de-venezuela-21-de-diciembre-1811/html/86de8dbc-4b14-4131-a616-9a65e65e856a_2.html"
       ]
     },
     {
@@ -19894,10 +19941,11 @@
         "con",
         "tec"
       ],
-      "sourceCount": 2,
+      "sourceCount": 3,
       "sourceUrls": [
         "https://elections.civichive.org/wp-content/uploads/2022/10/Atikus-5-Point-Development-Agenda-Abridged.pdf",
-        "https://www.thecable.ng/nobody-was-defeated-atiku-calls-for-unity-after-winning-adc-presidential-primary/"
+        "https://www.thecable.ng/nobody-was-defeated-atiku-calls-for-unity-after-winning-adc-presidential-primary/",
+        "https://elections.civichive.org/wp-content/uploads/2022/10/Atikus-5-Point-Development-Agenda-Abridged.pdf"
       ]
     },
     {
@@ -20139,19 +20187,22 @@
         "est",
         "dip",
         "eco",
-        "con"
+        "con",
+        "tec"
       ],
       "documentedAxes": [
         "est",
         "dip",
         "eco",
-        "con"
+        "con",
+        "tec"
       ],
       "directionalAxes": [
         "est",
         "dip",
         "eco",
-        "con"
+        "con",
+        "tec"
       ],
       "sourceCount": 1,
       "sourceUrls": [
@@ -20753,32 +20804,38 @@
       "kind": "ideology",
       "category": "ideology",
       "period": "Leis revolucionárias dezembro 1993, Terceira Declaração janeiro 1995 e programa assinado 15 fevereiro 1996",
-      "structurallyEligible": false,
-      "documentaryEligible": false,
-      "reviewStatus": "insufficient-located-coding",
+      "structurallyEligible": true,
+      "documentaryEligible": true,
+      "reviewStatus": "located-coding-present-not-truth-certified",
       "unreviewedDirectionalAxes": [],
       "mappedAxes": [
         "est",
         "rep",
         "imi",
+        "eco",
         "con",
+        "rel",
         "mor"
       ],
       "documentedAxes": [
         "est",
         "rep",
         "imi",
+        "eco",
         "con",
+        "rel",
         "mor"
       ],
       "directionalAxes": [
         "est",
         "rep",
         "imi",
+        "eco",
         "con",
+        "rel",
         "mor"
       ],
-      "sourceCount": 10,
+      "sourceCount": 11,
       "sourceUrls": [
         "https://enlacezapatista.ezln.org.mx/1996/02/15/el-dialogo-de-san-andres-y-los-derechos-y-cultura-indigena-punto-y-seguido/",
         "https://enlacezapatista.ezln.org.mx/1995/01/01/tercera-declaracion-de-la-selva-lacandona/",
@@ -20789,7 +20846,8 @@
         "https://enlacezapatista.ezln.org.mx/1993/12/31/ley-del-trabajo/",
         "https://enlacezapatista.ezln.org.mx/1993/12/31/ley-de-industria-y-comercio/",
         "https://enlacezapatista.ezln.org.mx/1993/12/31/ley-de-reforma-urbana/",
-        "https://enlacezapatista.ezln.org.mx/1993/12/31/ley-agraria-revolucionaria/"
+        "https://enlacezapatista.ezln.org.mx/1993/12/31/ley-agraria-revolucionaria/",
+        "https://www.diputados.gob.mx/LeyesBiblio/ref/cpeum/CPEUM_orig_05feb1917.pdf"
       ]
     },
     {
@@ -21225,12 +21283,13 @@
       ],
       "kind": "country",
       "category": "historical-country",
-      "period": "15/08/1948–resignação formal27/04/1960; recorte Constituição original17/07/1948",
-      "structurallyEligible": false,
-      "documentaryEligible": false,
-      "reviewStatus": "insufficient-located-coding",
+      "period": "15/08/1948–resignação formal27/04/1960; recorte Constituição original17/07/1948 Autonomia local delimitada pelos arts. 96–97 de 1948; mudança econômica de 1954 é contraponto posterior, sem recodificação retroativa.",
+      "structurallyEligible": true,
+      "documentaryEligible": true,
+      "reviewStatus": "located-coding-present-not-truth-certified",
       "unreviewedDirectionalAxes": [],
       "mappedAxes": [
+        "est",
         "rep",
         "pod",
         "dip",
@@ -21238,6 +21297,7 @@
         "rel"
       ],
       "documentedAxes": [
+        "est",
         "rep",
         "pod",
         "dip",
@@ -21245,18 +21305,22 @@
         "rel"
       ],
       "directionalAxes": [
+        "est",
         "rep",
         "pod",
         "dip",
         "eco",
         "rel"
       ],
-      "sourceCount": 4,
+      "sourceCount": 7,
       "sourceUrls": [
         "https://archives.nanet.go.kr/upload/namo/files/000003/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD%ED%97%8C%EB%B2%95(%ED%97%8C%EB%B2%95%EC%A0%9C1%ED%98%B8).pdf",
         "https://history.state.gov/historicaldocuments/frus1948v06/d860",
         "https://history.state.gov/historicaldocuments/frus1948v06/d870",
-        "https://history.state.gov/historicaldocuments/frus1958-60v18/d310"
+        "https://history.state.gov/historicaldocuments/frus1958-60v18/d310",
+        "https://contents.history.go.kr/front/hm/view.do?levelId=hm_145_0060",
+        "https://www.law.go.kr/LSW/lsInfoP.do?ancNo=00001&ancYd=19480717&chrClsCd=010202&efGubun=Y&efYd=19480717&lsiSeq=53081&nwJoYnInfo=N",
+        "https://contents.history.go.kr/front/hm/view.do?levelId=hm_145_0070"
       ]
     },
     {
@@ -23246,38 +23310,42 @@
       ],
       "kind": "country",
       "category": "historical-country",
-      "period": "15/11/1889–ruptura política de24/10/1930; recorte normativo original de24/02/1891",
-      "structurallyEligible": false,
-      "documentaryEligible": false,
-      "reviewStatus": "insufficient-located-coding",
+      "period": "15/11/1889–ruptura política de 24/10/1930; recortes normativos separados: Constituição original de 24/02/1891 e disposições familiares do Código Civil na vigência inicial de 1/1/1917.",
+      "structurallyEligible": true,
+      "documentaryEligible": true,
+      "reviewStatus": "located-coding-present-not-truth-certified",
       "unreviewedDirectionalAxes": [],
       "mappedAxes": [
         "est",
         "rep",
         "pod",
         "dip",
-        "rel"
+        "rel",
+        "mor"
       ],
       "documentedAxes": [
         "est",
         "rep",
         "pod",
         "dip",
-        "rel"
+        "rel",
+        "mor"
       ],
       "directionalAxes": [
         "est",
         "rep",
         "pod",
         "dip",
-        "rel"
+        "rel",
+        "mor"
       ],
-      "sourceCount": 4,
+      "sourceCount": 5,
       "sourceUrls": [
         "https://www2.camara.leg.br/legin/fed/consti/1824-1899/constituicao-35081-24-fevereiro-1891-532699-publicacaooriginal-15017-pl.html",
         "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao91.htm",
         "https://www2.camara.leg.br/a-camara/conheca/historia/a1republica.html/",
-        "https://www2.camara.leg.br/legin/fed/decret/1930-1939/decreto-19398-11-novembro-1930-517605-publicacaooriginal-1-pe.html"
+        "https://www2.camara.leg.br/legin/fed/decret/1930-1939/decreto-19398-11-novembro-1930-517605-publicacaooriginal-1-pe.html",
+        "https://www2.camara.leg.br/legin/fed/lei/1910-1919/lei-3071-1-janeiro-1916-397989-publicacaooriginal-1-pl.html"
       ]
     },
     {
@@ -24111,30 +24179,46 @@
       ],
       "kind": "country",
       "category": "country",
-      "period": "Prática institucional relatada2024/edição2025; normas constitucionais1975, revisão2003, arts5/8/137; revisão documental08/10/2026",
-      "structurallyEligible": false,
-      "documentaryEligible": false,
-      "reviewStatus": "insufficient-located-coding",
+      "period": "Norma constitucional promulgada 25/1 e publicada 29/1/2003; prática política/civil e declarações diplomáticas 2024 em relatos 2025; carteira pública 2023 descrita em relatório 2025, sem levantamento atual 2026",
+      "structurallyEligible": true,
+      "documentaryEligible": true,
+      "reviewStatus": "located-coding-present-not-truth-certified",
       "unreviewedDirectionalAxes": [],
       "mappedAxes": [
         "est",
         "rep",
+        "pod",
+        "dip",
+        "eco",
         "rel"
       ],
       "documentedAxes": [
         "est",
         "rep",
+        "pod",
+        "dip",
+        "eco",
         "rel"
       ],
       "directionalAxes": [
         "est",
         "rep",
+        "pod",
+        "dip",
+        "eco",
         "rel"
       ],
-      "sourceCount": 2,
+      "sourceCount": 9,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Sao_Tome_and_Principe_2003?lang=en",
-        "https://freedomhouse.org/country/sao-tome-and-principe/freedom-world/2025"
+        "https://freedomhouse.org/country/sao-tome-and-principe/freedom-world/2025",
+        "https://faolex.fao.org/docs/pdf/sao117335POR.pdf",
+        "https://freedomhouse.org/country/sao-tome-and-principe/freedom-world/2025",
+        "https://documents1.worldbank.org/curated/en/099080625083098089/pdf/P508059-54b2a5ca-76bb-497e-b765-46d816bb8cd9.pdf",
+        "https://2021-2025.state.gov/reports/2024-investment-climate-statements/sao-tome-and-principe/",
+        "https://www.theadvocatesforhumanrights.org/res/USDOS%2BHuman%2BRights%2BReport%2BSao%2BTome%2Band%2BPrincipe%2B2024.pdf",
+        "https://digitallibrary.un.org/record/4097204/files/A_79_PV.11-EN.pdf",
+        "https://interfax.com/newsroom/top-stories/102026/"
       ]
     },
     {
@@ -24174,7 +24258,7 @@
       ],
       "kind": "country",
       "category": "country",
-      "period": "Prática institucional relatada2024/edição2025; normas constitucionais2018, arts1/97–104; revisão documental08/10/2026",
+      "period": "Norma constitucional revisada 2018 em reprodução francesa sem data editorial própria; prática política/civil 2024 relatada em 2025; normas de adesão OMC 2024 com ingresso 21/8/2024 e prazos de transição posteriores",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
@@ -24182,22 +24266,36 @@
       "mappedAxes": [
         "est",
         "rep",
+        "pod",
+        "dip",
         "rel"
       ],
       "documentedAxes": [
         "est",
         "rep",
+        "pod",
+        "dip",
         "rel"
       ],
       "directionalAxes": [
         "est",
         "rep",
+        "pod",
+        "dip",
         "rel"
       ],
-      "sourceCount": 2,
+      "sourceCount": 10,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Comoros_2018?lang=en",
-        "https://freedomhouse.org/country/comoros/freedom-world/2025"
+        "https://freedomhouse.org/country/comoros/freedom-world/2025",
+        "https://natlex.ilo.org/dyn/natlex2/natlex2/files/download/72696/COM-72696%20(CONSOLID).pdf",
+        "https://freedomhouse.org/country/comoros/freedom-world/2025",
+        "https://www.ecoi.net/en/document/2128482.html",
+        "https://www.imf.org/-/media/files/publications/cr/2024/english/1comea2024004-print-pdf.pdf",
+        "https://www.wto.org/english/news_e/news24_e/acc_26feb24_com_e.pdf",
+        "https://ttd.wto.org/en/profiles/comoros",
+        "https://blogs.worldbank.org/en/africacan/a-bold-reform-in-comoros-opening-up-the-rice-market-to-increase-food-security-and-catalyze-private-sector-growth-afe-0125",
+        "https://press.un.org/fr/2024/ag12635.doc.htm"
       ]
     },
     {

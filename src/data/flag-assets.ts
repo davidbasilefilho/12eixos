@@ -207,5 +207,6 @@ export const flagAssets: readonly string[] = [
   "/assets/flags/zambia-current-2025.svg",
   "/assets/flags/zambia-unip-one-party-1973.svg",
   "/assets/flags/zimbabwe-current-2025.svg",
-  "/assets/flags/zimbabwe-mugabe-early-1980.svg"
+  "/assets/flags/zimbabwe-mugabe-early-1980.svg",
+  "/assets/flags/sao-tome-and-principe-current-2025.svg",
 ];
