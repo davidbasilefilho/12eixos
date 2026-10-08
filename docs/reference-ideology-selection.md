@@ -4,7 +4,7 @@ Reviewed on 2026-10-07. The catalog still preserves all 206 ideology records. Th
 
 An included object should be an identifiable **political normative doctrine or tradition** addressing legitimate authority, collective social/economic order and action, with a located referent and a material contrast to retained neighbors. A framework, institutional device or policy instrument alone is insufficient. State-authored normative doctrines can qualify; government authorship alone is neither acceptance nor rejection. Subtraditions may be retained when their extra commitments are identified; they must not be presented as mutually exclusive families.
 
-Four weakly scoped slots were replaced with existing records. The original entries remain among 131 alternatives; the selected plus alternative IDs still cover all 206 exactly. Fifty-four selected IDs have located primary normative referents and scoped review. Thirty-eight two-sided contrasts are recorded across libertarian strategy, ecological programs and liberal authority/property programs. Full nearest-neighbor comparisons remain incomplete. See `docs/reference-ideology-ontology-audit.md` for locators, edition limitations and what was actually verified.
+Four weakly scoped slots were replaced with existing records. The original entries remain among 131 alternatives; the selected plus alternative IDs still cover all 206 exactly. Fifty-six selected IDs have located primary normative referents and scoped review. Thirty-nine two-sided contrasts are recorded across libertarian strategy, ecological programs and liberal authority/property programs. Full nearest-neighbor comparisons remain incomplete. See `docs/reference-ideology-ontology-audit.md` for locators, edition limitations and what was actually verified.
 
 | Deferred slot | Selected existing record | Reason |
 | --- | --- | --- |
@@ -36,9 +36,9 @@ The overall selection remains provisional. Individually grounded bounded contras
 | `ideology-national-conservatism` | Conservadorismo nacional | conservative | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | `ideology-right-one-nation-conservatism` | Conservadorismo de uma nação | conservative | provisional-normative-referent | not-independently-verified |
 | `ideology-right-neoconservatism` | Neoconservadorismo | conservative | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
-| `ideology-right-constitutional-monarchism` | Monarquismo constitucional | conservative | provisional-normative-referent | not-independently-verified |
+| `ideology-right-constitutional-monarchism` | Monarquismo constitucional: poder neutro de Constant, 1815 | conservative | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | `ideology-right-absolute-monarchy` | Soberania indivisível de Hobbes, 1651 | conservative | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
-| `ideology-right-bonapartism` | Bonapartismo | conservative | provisional-normative-referent | not-independently-verified |
+| `ideology-right-bonapartism` | Bonapartismo: programa de ideias napoleônicas, 1839 | conservative | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | `social-democracy` | Social-democracia | socialist | overlapping-umbrella-primary-referent-reviewed | bounded-primary-neighbor-contrast |
 | `democratic-socialism` | Socialismo democrático | socialist | overlapping-umbrella-primary-referent-reviewed | bounded-primary-neighbor-contrast |
 | `ideology-market-socialism` | Socialismo de mercado | socialist | provisional-normative-referent | not-independently-verified |

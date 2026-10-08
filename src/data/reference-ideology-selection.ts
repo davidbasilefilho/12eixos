@@ -6,10 +6,10 @@ export const ideologySelectionSnapshot = {
   "catalogCount": 206,
   "intendedSubsetCount": 75,
   "readyForDefaultUse": false,
-  "boundedReviewedReferents": 54,
+  "boundedReviewedReferents": 56,
   "referentCountScope": "Unique selected IDs reviewed in the ontology sequence; prior LP reading was additionally reopened for §§2.1/2.4. Combahee remains an additionally reviewed alternative; modern Leopold explanation alone is excluded from the primary-referent count.",
-  "independent75Verified": false,
-  "boundedTwoSidedContrasts": 38
+  "independent 75Verified": false,
+  "boundedTwoSidedContrasts": 39
 } as const;
 
 export const ideologyInclusionDefinition = {
@@ -1267,6 +1267,23 @@ export const ideologySelectionSources = [
     "locator": "Article author body web 109–185, especially own alternative 147–158 and institutional program 175–185; metadata 79–84",
     "supports": "Legitimidade procedimental pela formação institucionalizada da opinião/vontade, parlamentos e espaços públicos; direitos e regras comunicativas, permitindo negociação entre interesses. Não exige unanimidade nem extingue eleições. Citações anteriores de Michelman não são falas próprias de Habermas. Nota editorial web 188 situa a conferência 1991, tradução via edição venezuelana e adaptações; essa nota não é programa normativo do autor.",
     "readAt": "2026-10-07"
+  },
+  {
+    "id": "constant-neutral-authority-1815",
+    "title": "Principes de politique, 1815 — Constant, Institut Coppet 2025 reprint",
+    "url": "https://editions.institutcoppet.org/EL/Constant-Principes.pdf",
+    "alternateUrl": "https://fr.wikisource.org/wiki/%C5%92uvres_politiques_(Constant)/Du_pouvoir_royal_dans_les_monarchies_constitutionnelles",
+    "locator": "Primary chapter II printed pp34–39 (PDF zero-based 33–38), web 1033–1235; 1874 collected chapter author body 123–198, especially 134–141/183–198",
+    "supports": "Programa de separação entre cabeça neutra e executivo ministerial responsável; legislação repartida entre câmara hereditária e eletiva. Prerrogativas reais amplas não autorizam agir em lugar das outras funções. Introdução 2025 e notas do editor 1874 não são norma do autor. Exemplos históricos e benefícios previstos não verificados.",
+    "readAt": "2026-10-07"
+  },
+  {
+    "id": "bonaparte-napoleonic-program-1839",
+    "title": "Napoleonic Ideas, Louis-Napoléon 1839 — James A. Dorr English translation 1859",
+    "url": "https://commons.wikimedia.org/wiki/File:Napoleonic_ideas._Des_id%C3%A9es_napol%C3%A9oniennes,_par_le_prince_Napol%C3%A9on-Louis_Bonaparte._Brussels-_1839_(IA_napoleonicideasd00napoiala).pdf",
+    "locator": "Original PDF link 39; title PDF p7; author preface pp17–18; author Political Organisation printed pp85–99 (PDF zero-based 90–104), especially 90–94/97; web 1347–1605",
+    "supports": "Programa apologético politicamente normativo: imperador primeiro representante nacional, apenas trono hereditário, Senado não hereditário, eleição por colégios com qualificação tributária. Nota de p91 rejeita câmara hereditária francesa. O prefácio de Dorr não é voz do autor; direitos/liberdades e êxitos imperiais narrados não são comprovação de prática.",
+    "readAt": "2026-10-07"
   }
 ] as const;
 
@@ -1436,13 +1453,14 @@ export const intendedIdeologySelection = [
   },
   {
     "id": "ideology-right-constitutional-monarchism",
-    "name": "Monarquismo constitucional",
+    "name": "Monarquismo constitucional: poder neutro de Constant, 1815",
     "family": "conservative",
     "selectionRationale": "Coroa limitada por instituições parlamentares",
-    "reviewStatus": "provisional",
+    "reviewStatus": "referent-and-bounded-neighbor-contrast-reviewed",
     "documentedAxisCountAtSnapshot": 1,
-    "ontologyStatus": "provisional-normative-referent",
-    "contrastStatus": "not-independently-verified"
+    "ontologyStatus": "bounded-normative-referent-reviewed",
+    "contrastStatus": "bounded-primary-neighbor-contrast",
+    "ontologyLimit": "Monarca neutro separado da execução ministerial responsável, com prerrogativas de nomear/demitir ministros, veto e dissolução; não figura apenas cerimonial. Câmara hereditária integra o programa, contrastando com Bonaparte 1839. Recorte de Constant, não todo monarquismo atual; prática e diagnósticos históricos não validados."
   },
   {
     "id": "ideology-right-absolute-monarchy",
@@ -1457,13 +1475,14 @@ export const intendedIdeologySelection = [
   },
   {
     "id": "ideology-right-bonapartism",
-    "name": "Bonapartismo",
+    "name": "Bonapartismo: programa de ideias napoleônicas, 1839",
     "family": "conservative",
     "selectionRationale": "Legitimação plebiscitária com executivo concentrado",
-    "reviewStatus": "provisional",
+    "reviewStatus": "referent-and-bounded-neighbor-contrast-reviewed",
     "documentedAxisCountAtSnapshot": 2,
-    "ontologyStatus": "provisional-normative-referent",
-    "contrastStatus": "not-independently-verified"
+    "ontologyStatus": "bounded-normative-referent-reviewed",
+    "contrastStatus": "bounded-primary-neighbor-contrast",
+    "ontologyLimit": "Texto político apologético de Louis-Napoléon, tradução Dorr 1859, não inferência automática de um regime. Apenas poder imperial hereditário e Senado não hereditário contrastam com Constant. Soberano como primeiro representante nacional não elimina legislatura; colégios tributariamente qualificados impedem supor franquia universal. Alegações sobre direitos/prática imperial não verificadas."
   },
   {
     "id": "social-democracy",
@@ -2533,6 +2552,13 @@ export const ideologyOverlapChecks = [
     "relation": "institutionalized-communicative-legitimacy-and-personal-ratification-can-coexist",
     "rationale": "Habermas Lua Nova 1995 web 147–185 especifica formação comunicativa e institucionalização parlamentar/pública; Rousseau II.1/III.15 exige vontade soberana e ratificação pessoal de leis. Deliberação, negociação e formação distribuída podem coexistir com ratificação direta. Não há oposição normativa explícita suficiente para contar duas doutrinas independentes; comparação registrada sem novo contraste resolvido.",
     "status": "primary-nearest-overlap-unresolved"
+  },
+  {
+    "a": "ideology-right-constitutional-monarchism",
+    "b": "ideology-right-bonapartism",
+    "relation": "hereditary-legislative-duration-chamber-versus-only-hereditary-imperial-power",
+    "rationale": "Constant 1815 II exige câmara hereditária como um dos poderes legislativos, distinta da eletiva; Bonaparte 1839 printed 90–94 reserva hereditariedade ao poder imperial e defende Senado não hereditário, explicitamente rejeitando câmara hereditária para França (p91 nota). Ambos conservam monarquia e representação restrita. Divergência concreta na autoridade legislativa, não prova de exclusão entre todos os monarquismos ou de franquia universal.",
+    "status": "bounded-primary-contrast"
   }
 ] as const;
 
@@ -4541,6 +4567,20 @@ export const ideologyOntologyReviewGroups = [
       "lp-ontology-finance",
       "habermas-procedural-model-1995",
       "rousseau-direct-legislation-1762"
+    ],
+    "reviewedOn": "2026-10-07"
+  },
+  {
+    "id": "monarchical-executive-and-legislative-authority",
+    "selectedIds": [
+      "ideology-right-constitutional-monarchism",
+      "ideology-right-bonapartism"
+    ],
+    "status": "bounded-two-sided-primary-contrast",
+    "scope": "Constant 1815 and Louis-Napoléon 1839 political programs: legislative inheritance contrasted, neutral-head/active-executive distinction documented with substantive royal powers and imperial legislature as counterevidence. Historical apologetics not practice verification; catalog unchanged.",
+    "sourceIds": [
+      "constant-neutral-authority-1815",
+      "bonaparte-napoleonic-program-1839"
     ],
     "reviewedOn": "2026-10-07"
   }
