@@ -34,8 +34,8 @@
     ],
     "provenance": "Executed before local data corrections in this recovery checkpoint; not recomputed from unavailable prior Library checkpoint."
   },
-  "headCommitAtAudit": "8d8510f9a18c4e822a8ce1b71b22ec7caf4122f4",
-  "integratedCatalogSha256": "270ed8ec0da16f85c9ac3412c43d3b55417483ae105ef05f717d3de30e2aad6b",
+  "headCommitAtAudit": "a943305196056040f8c04019ebf52ec3f25ddafb",
+  "integratedCatalogSha256": "a01030e841ec2e4d8acf35cd7d717f05dd14d4e7c8cd079b7c2970f85f5c3bbd",
   "scope": "Integrated working-tree catalog after preparation; fixed remote baseline and current HEAD are provenance, not immutable copies of modified files.",
   "evidenceGate": {
     "minimumAxes": 6,
@@ -224,6 +224,8 @@
         "rep",
         "pod",
         "imi",
+        "dip",
+        "int",
         "com",
         "rel",
         "mor",
@@ -233,6 +235,8 @@
         "rep",
         "pod",
         "imi",
+        "dip",
+        "int",
         "com",
         "rel",
         "mor",
@@ -242,13 +246,16 @@
         "rep",
         "pod",
         "imi",
+        "dip",
+        "int",
         "com",
         "rel",
         "mor",
         "tec"
       ],
-      "sourceCount": 2,
+      "sourceCount": 3,
       "sourceUrls": [
+        "https://liberal-international.org/wp-content/uploads/2018/03/Andorra-Liberal-Manifesto-2017-FINAL.pdf",
         "https://liberal-international.org/who-we-are/our-mission/landmark-documents/political-manifestos/liberal-manifesto-2017/",
         "https://liberal-international.org/wp-content/uploads/2018/03/Andorra-Liberal-Manifesto-2017-FINAL.pdf"
       ]
@@ -321,8 +328,9 @@
         "pod",
         "imi",
         "dip",
-        "eco",
+        "int",
         "con",
+        "rel",
         "mor",
         "tec"
       ],
@@ -332,8 +340,9 @@
         "pod",
         "imi",
         "dip",
-        "eco",
+        "int",
         "con",
+        "rel",
         "mor",
         "tec"
       ],
@@ -343,13 +352,15 @@
         "pod",
         "imi",
         "dip",
-        "eco",
+        "int",
         "con",
+        "rel",
         "mor",
         "tec"
       ],
-      "sourceCount": 1,
+      "sourceCount": 2,
       "sourceUrls": [
+        "https://globalgreens.org/wp-content/uploads/2023/07/GlobalGreens_Charter_2023.pdf",
         "https://globalgreens.org/wp-content/uploads/2023/07/GlobalGreens_Charter_2023.pdf"
       ]
     },
@@ -388,8 +399,9 @@
         "com",
         "tec"
       ],
-      "sourceCount": 1,
+      "sourceCount": 2,
       "sourceUrls": [
+        "https://www.epp.eu/papers/epp-manifesto-2024",
         "https://www.epp.eu/papers/epp-manifesto-2024"
       ]
     },
@@ -2005,7 +2017,7 @@
         "con",
         "rel"
       ],
-      "sourceCount": 7,
+      "sourceCount": 8,
       "sourceUrls": [
         "https://www.marxists.org/history/ussr/government/constitution/1977/constitution-ussr-1977.pdf",
         "https://tile.loc.gov/storage-services/master/frd/frdcstdy/so/sovietunioncount00zick/sovietunioncount00zick.pdf",
@@ -2013,7 +2025,8 @@
         "https://constitution.garant.ru/history/ussr-rsfsr/1977/red_1977/5478732/",
         "https://www.departments.bucknell.edu/Russian/const/77cons02.html",
         "https://constitution.garant.ru/history/ussr-rsfsr/1977/red_1977/5478732/",
-        "https://history.state.gov/historicaldocuments/frus1981-88v04/d71"
+        "https://history.state.gov/historicaldocuments/frus1981-88v04/d71",
+        "https://constitution.garant.ru/history/ussr-rsfsr/1977/red_1977/5478732/"
       ]
     },
     {
@@ -18706,35 +18719,36 @@
       "aliases": [],
       "kind": "person",
       "category": "public-figure",
-      "period": "2026-01-22",
+      "period": "Declarações próprias23/09/2025 e22/01,28/06,20/07,14/08/2026; não auditoria de execução",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
       "unreviewedDirectionalAxes": [],
       "mappedAxes": [
-        "dip",
+        "int",
         "eco",
-        "con",
         "com",
         "tec"
       ],
       "documentedAxes": [
-        "dip",
+        "int",
         "eco",
-        "con",
         "com",
         "tec"
       ],
       "directionalAxes": [
-        "dip",
+        "int",
         "eco",
-        "con",
         "com",
         "tec"
       ],
-      "sourceCount": 1,
+      "sourceCount": 5,
       "sourceUrls": [
-        "https://www.weforum.org/stories/forum-institutional/davos-2026-special-address-prabowo-subianto-indonesia/"
+        "https://www.weforum.org/stories/forum-institutional/davos-2026-special-address-prabowo-subianto-indonesia/",
+        "https://setkab.go.id/en/briefing-of-the-president-of-the-republic-of-indonesia-at-the-plenary-cabinet-meeting-at-the-state-palace-jakarta-july-20-2026/",
+        "https://setkab.go.id/pidato-kenegaraan-pada-sidang-tahunan-mpr-ri-dan-sidang-bersama-dpr-dan-dpd-ri-dalam-rangka-hut-ke-81-kemerdekaan-republik-indonesia/",
+        "https://presidenri.go.id/siaran-pers/presiden-prabowo-tekankan-peran-teknologi-dalam-percepatan-penyelesaian-persoalan-nasional/amp/",
+        "https://www.un.org/unispal/document/indonesia-remarks-at-the-unga80-23sep25/"
       ]
     },
     {
@@ -19932,8 +19946,9 @@
         "con",
         "tec"
       ],
-      "sourceCount": 1,
+      "sourceCount": 2,
       "sourceUrls": [
+        "https://www.technate.org/pdf/Technocracy%20study%20guide.pdf",
         "https://www.technate.org/pdf/Technocracy%20study%20guide.pdf"
       ]
     },
