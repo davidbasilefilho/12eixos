@@ -1,6 +1,8 @@
 # Ideology ontology: bounded source audit
 
-Current accepted review: **2026-10-08**, **216 integrated ideology identities =75 selected +141 preserved alternatives**, **64 located normative primary referents /46 bounded two-sided comparisons**. All206 original identities and original75 snapshot are preserved. No programme ID is pending import; full75 independence/default-use remain false. Partial1–5 and zero-axis normative definitions remain unranked under the unchanged six-axis matching gate. Historical checkpoint sections below retain their original scope.
+Programme07 is integrated: two qualitative definitions, zero coded axes and24 unknowns. Current ideology ledger is218 =75 selected +143 alternatives,66 located normative referents/50 bounded comparisons. These counts do not certify75 independent doctrines.
+
+Current accepted review: **2026-10-08**, **218 integrated ideology identities =75 selected +143 preserved alternatives**, **66 located normative primary referents /50 bounded two-sided comparisons**. All206 original identities and original75 snapshot are preserved. No programme ID is pending import; full75 independence/default-use remain false. Partial1–5 and zero-axis normative definitions remain unranked under the unchanged six-axis matching gate. Historical checkpoint sections below retain their original scope.
 
 Historical review chronology begins below: the original7October index-level screening of75 and first substitutions are preserved as dated earlier scope; subsequent groups extend that work without retroactively validating old scores.
 
@@ -313,3 +315,9 @@ Author fullspeech12–192 and two independent reviewers' bounded actual reopens 
 
 
 Both selected substitutions preserve their previous complete LIVE objects. See `reference-ideology-program-batch-06` module/report for exact archives, primary locators and independent reading scope. No numeric axes or ranked eligibility are asserted.
+
+## 8 October: programme07 integrated
+
+Narodnaya Volya1881 replaces the unresolved Mariateguismo selected slot, retaining complete original Mariátegui and generic Narod records/sources. Universal constituent authority differs from ICP1920 class exclusion; all-factory worker transfer differs from SPD1959 conditional private productive-property protection, with public exceptions retained. Disraeli1872 replaces the Sybil-only slot, preserving its complete literary source. Imperial institutional remit differs from NatCon nontransfer; positive factory-condition regulation differs from Burke1795 ordinary labour-contract presumption. Wage-setting and hours differ; existing laws, public exceptions, colonial selfgovernment and shared conservative nesting remain.
+
+[Programme07 detailed source report](reference-ideology-program-batch-07.md) records exact actual locators, edition limits and independent reads. Two imported programmes have24 unknown axes and zero numeric codes. Counts66/50 are computed from individual normative/contrast statuses, not assumed from IDs. All206 originals and original75 trace remain, with global independence/default-use false. Meyer remains a separate unresolved external proposal.

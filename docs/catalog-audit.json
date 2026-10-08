@@ -34,8 +34,8 @@
     ],
     "provenance": "Executed before local data corrections in this recovery checkpoint; not recomputed from unavailable prior Library checkpoint."
   },
-  "headCommitAtAudit": "53f5b437113a36cd89d89e7bcea323a7bb1781c1",
-  "integratedCatalogSha256": "5d09f4a1c25b52e9efa04c70635050881c34bccc7506fdcf9f28db172f4847c4",
+  "headCommitAtAudit": "eff0055cb0075579f64a71e322d388e74274015c",
+  "integratedCatalogSha256": "019462b966c8e1d6c1e7c50e31f37146e126e33fdb737bc6494dcccb77330b29",
   "scope": "Integrated working-tree catalog after preparation; fixed remote baseline and current HEAD are provenance, not immutable copies of modified files.",
   "evidenceGate": {
     "minimumAxes": 6,
@@ -55,12 +55,12 @@
     "Unreviewed directional axes are preserved archival estimates, excluded from ranking; absent located coding does not establish that their direction is false. Prior snapshots preserve available original estimates."
   ],
   "totalTarget": 675,
-  "totalRecords": 762,
+  "totalRecords": 818,
   "structurallyEligible": 103,
   "documentaryEligible": 56,
-  "insufficientEvidence": 706,
-  "unreviewedDirectionCount": 1275,
-  "summedCategoryIdentityGap": 54,
+  "insufficientEvidence": 762,
+  "unreviewedDirectionCount": 1255,
+  "summedCategoryIdentityGap": 0,
   "categories": [
     {
       "category": "country",
@@ -76,45 +76,45 @@
     {
       "category": "historical-country",
       "target": 150,
-      "records": 143,
+      "records": 150,
       "structurallyEligible": 11,
       "documentaryEligible": 11,
-      "insufficientEvidence": 132,
-      "missingIdentitiesBeforeSemanticReview": 7,
+      "insufficientEvidence": 139,
+      "missingIdentitiesBeforeSemanticReview": 0,
       "preservedExcess": 0,
       "missingEligibleToTarget": 139
     },
     {
       "category": "public-figure",
       "target": 150,
-      "records": 116,
+      "records": 150,
       "structurallyEligible": 25,
       "documentaryEligible": 9,
-      "insufficientEvidence": 107,
-      "missingIdentitiesBeforeSemanticReview": 34,
+      "insufficientEvidence": 141,
+      "missingIdentitiesBeforeSemanticReview": 0,
       "preservedExcess": 0,
       "missingEligibleToTarget": 141
     },
     {
       "category": "historical-figure",
       "target": 150,
-      "records": 137,
+      "records": 150,
       "structurallyEligible": 34,
       "documentaryEligible": 22,
-      "insufficientEvidence": 115,
-      "missingIdentitiesBeforeSemanticReview": 13,
+      "insufficientEvidence": 128,
+      "missingIdentitiesBeforeSemanticReview": 0,
       "preservedExcess": 0,
       "missingEligibleToTarget": 128
     },
     {
       "category": "ideology",
       "target": 75,
-      "records": 216,
+      "records": 218,
       "structurallyEligible": 28,
       "documentaryEligible": 9,
-      "insufficientEvidence": 207,
+      "insufficientEvidence": 209,
       "missingIdentitiesBeforeSemanticReview": 0,
-      "preservedExcess": 141,
+      "preservedExcess": 143,
       "missingEligibleToTarget": 66
     }
   ],
@@ -435,32 +435,30 @@
       ],
       "kind": "person",
       "category": "historical-figure",
-      "period": "Transição democrática sul-africana, 1990–1994",
+      "period": "Declaração de CapeTown,9/5/1994; programa constitucional de transição",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "rep",
-        "pod",
-        "imi",
-        "mor"
-      ],
+      "unreviewedDirectionalAxes": [],
       "mappedAxes": [
         "rep",
         "pod",
-        "imi",
         "mor"
       ],
-      "documentedAxes": [],
+      "documentedAxes": [
+        "rep",
+        "pod",
+        "mor"
+      ],
       "directionalAxes": [
         "rep",
         "pod",
-        "imi",
         "mor"
       ],
-      "sourceCount": 2,
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.gov.za/news/speeches/president-nelson-mandela-1994-presidential-inauguration-10-may-1994",
+        "https://tpy.nelsonmandela.org/footnotes/35",
         "https://tpy.nelsonmandela.org/footnotes/35"
       ]
     },
@@ -516,31 +514,23 @@
       ],
       "kind": "person",
       "category": "historical-figure",
-      "period": "Hind Swaraj e movimento de independência, 1909–1947",
+      "period": "IndianHomeRule,capítuloXIX e prefácios; quintaedição1922, resposta26/1/1921",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "dip",
-        "com",
-        "tec"
-      ],
+      "unreviewedDirectionalAxes": [],
       "mappedAxes": [
-        "est",
-        "dip",
-        "com",
         "tec"
       ],
-      "documentedAxes": [],
+      "documentedAxes": [
+        "tec"
+      ],
       "directionalAxes": [
-        "est",
-        "dip",
-        "com",
         "tec"
       ],
-      "sourceCount": 1,
+      "sourceCount": 2,
       "sourceUrls": [
+        "https://www.gutenberg.org/files/40461/40461-h/40461-h.htm",
         "https://www.gutenberg.org/files/40461/40461-h/40461-h.htm"
       ]
     },
@@ -550,22 +540,23 @@
       "aliases": [],
       "kind": "person",
       "category": "historical-figure",
-      "period": "On Liberty e escritos políticos, 1859–1869",
+      "period": "OnLiberty,1859; capítuloI, seleção normativa",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "pod"
-      ],
+      "unreviewedDirectionalAxes": [],
       "mappedAxes": [
         "pod"
       ],
-      "documentedAxes": [],
+      "documentedAxes": [
+        "pod"
+      ],
       "directionalAxes": [
         "pod"
       ],
-      "sourceCount": 1,
+      "sourceCount": 2,
       "sourceUrls": [
+        "https://www.gutenberg.org/files/34901/34901-h/34901-h.htm",
         "https://www.gutenberg.org/files/34901/34901-h/34901-h.htm"
       ]
     },
@@ -11763,24 +11754,25 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas vigentes, 2024–2025",
+      "period": "Eventos de prática originalmente indicados2024–2025 não recertificados; norma religiosa da carta22/01/2001 na versão anotada do Conselho consultada08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "rep"
-      ],
+      "unreviewedDirectionalAxes": [],
       "mappedAxes": [
-        "rep"
+        "rel"
       ],
-      "documentedAxes": [],
+      "documentedAxes": [
+        "rel"
+      ],
       "directionalAxes": [
-        "rep"
+        "rel"
       ],
-      "sourceCount": 2,
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Senegal_2001",
-        "https://freedomhouse.org/country/senegal/freedom-world/2025"
+        "https://freedomhouse.org/country/senegal/freedom-world/2025",
+        "https://conseilconstitutionnel.sn/la-constitution/"
       ]
     },
     {
@@ -13483,30 +13475,25 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas avaliadas, 2024–2025",
+      "period": "Interpretação constitucionalDCC25-220 de17/07/2025; não certificação integral após reforma17/12/2025 ou prática2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
+      "unreviewedDirectionalAxes": [],
       "mappedAxes": [
-        "est",
-        "rep",
         "rel"
       ],
-      "documentedAxes": [],
+      "documentedAxes": [
+        "rel"
+      ],
       "directionalAxes": [
-        "est",
-        "rep",
         "rel"
       ],
-      "sourceCount": 2,
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Benin_1990?lang=en",
-        "https://freedomhouse.org/country/benin/freedom-world/2025"
+        "https://freedomhouse.org/country/benin/freedom-world/2025",
+        "https://courconstitutionnelle.bj/files/decisions/DCC25-220_17_juillet_2025.pdf"
       ]
     },
     {
@@ -13547,24 +13534,19 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas avaliadas, 2024–2025",
+      "period": "Recomposição parlamentar relatada31/07/2026; não consolidação integral da carta2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "rep"
-      ],
-      "mappedAxes": [
-        "rep"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "rep"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Burkina_Faso_2015?lang=en",
-        "https://freedomhouse.org/country/burkina-faso/freedom-world/2025"
+        "https://freedomhouse.org/country/burkina-faso/freedom-world/2025",
+        "https://www.an.bf/826"
       ]
     },
     {
@@ -13573,30 +13555,26 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas avaliadas, 2024–2025",
+      "period": "Norma constitucional religiosa na republicação atualizada14/04/2026; sem média de prática2024–2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
+      "unreviewedDirectionalAxes": [],
       "mappedAxes": [
-        "est",
-        "rep",
         "rel"
       ],
-      "documentedAxes": [],
+      "documentedAxes": [
+        "rel"
+      ],
       "directionalAxes": [
-        "est",
-        "rep",
         "rel"
       ],
-      "sourceCount": 2,
+      "sourceCount": 4,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Cameroon_1972?lang=en",
-        "https://freedomhouse.org/country/cameroon/freedom-world/2025"
+        "https://freedomhouse.org/country/cameroon/freedom-world/2025",
+        "https://mjp.univ-perp.fr/constit/cm2008.htm",
+        "https://www.prc.cm/files/46/ed/95/3a411d638294c6467ca56bd0423c61fd.pdf"
       ]
     },
     {
@@ -13913,30 +13891,20 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas avaliadas, 2024–2025",
+      "period": "Decisões institucionais14/10/2025 e26/02/2026; execução posterior não auditada",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "mappedAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 4,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Madagascar_2010?lang=en",
-        "https://freedomhouse.org/country/madagascar/freedom-world/2025"
+        "https://freedomhouse.org/country/madagascar/freedom-world/2025",
+        "https://www.hcc.gov.mg/?p=9647",
+        "https://www.hcc.gov.mg/?p=9838"
       ]
     },
     {
@@ -23525,6 +23493,1459 @@
       "sourceUrls": [
         "https://mjp.univ-perp.fr/constit/sn1963.htm",
         "https://www.presidence.sn/en/presidence/leopold-sedar-senghor/"
+      ]
+    },
+    {
+      "id": "mali-sovereign-federation-1960",
+      "name": "Federação do Mali — união soberana Senegal–Sudão",
+      "aliases": [
+        "Federação independente do Mali1960"
+      ],
+      "kind": "country",
+      "category": "historical-country",
+      "period": "20/06/1960–desagregação agosto–setembro1960; recorte publicado25/06/1960",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "est",
+        "rel"
+      ],
+      "documentedAxes": [
+        "est",
+        "rel"
+      ],
+      "directionalAxes": [
+        "est",
+        "rel"
+      ],
+      "sourceCount": 4,
+      "sourceUrls": [
+        "https://mjp.univ-perp.fr/constit/mali1960.htm",
+        "https://mjp.univ-perp.fr/constit/mali1960ind.htm",
+        "https://www.archives.sn/docs/journal-officiel/JO-3304-du-24-aout-1960",
+        "https://mjp.univ-perp.fr/constit/ml1960ind.htm"
+      ]
+    },
+    {
+      "id": "dahomey-founding-civil-republic-1960",
+      "name": "Dahomey — república civil fundadora",
+      "aliases": [
+        "Dahomey — primeira administração independenteMaga1960–1963"
+      ],
+      "kind": "country",
+      "category": "historical-country",
+      "period": "01/08/1960–28/10/1963; norma26/11/1960",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "rel"
+      ],
+      "documentedAxes": [
+        "rel"
+      ],
+      "directionalAxes": [
+        "rel"
+      ],
+      "sourceCount": 3,
+      "sourceUrls": [
+        "https://digitallibrary.un.org/record/860969/files/1960-F.pdf",
+        "https://www.gouv.bj/pages/histoire/",
+        "https://sgg.gouv.bj/doc/ordonnance-1963-1/download"
+      ]
+    },
+    {
+      "id": "upper-volta-first-independent-republic-1960",
+      "name": "Alta Volta — primeira república independente",
+      "aliases": [
+        "HauteVolta — ordemYaméogo1960–1966"
+      ],
+      "kind": "country",
+      "category": "historical-country",
+      "period": "05/08/1960–03/01/1966; norma promulgada30/11/1960",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "rel"
+      ],
+      "documentedAxes": [
+        "rel"
+      ],
+      "directionalAxes": [
+        "rel"
+      ],
+      "sourceCount": 3,
+      "sourceUrls": [
+        "https://digitallibrary.un.org/record/860969/files/1960-F.pdf",
+        "https://history.state.gov/countries/burkina-faso",
+        "https://history.state.gov/historicaldocuments/frus1964-68v24/d207"
+      ]
+    },
+    {
+      "id": "madagascar-tsiranana-founding-government-1960",
+      "name": "Madagascar — administração fundadora de Tsiranana",
+      "aliases": [
+        "Madagascar — primeira administração independente1960–1972"
+      ],
+      "kind": "country",
+      "category": "historical-country",
+      "period": "26/06/1960–ruptura governamental18/05/1972; cargo presidencial formal continua atétransiçãooutubro1972; norma29/04/1959",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "rel"
+      ],
+      "documentedAxes": [
+        "rel"
+      ],
+      "directionalAxes": [
+        "rel"
+      ],
+      "sourceCount": 4,
+      "sourceUrls": [
+        "https://mjp.univ-perp.fr/constit/mg1959.htm",
+        "https://history.state.gov/historicaldocuments/frus1958-60v14/d60",
+        "https://archives.assemblee-nationale.fr/4/cri/1972-1973-ordinaire1/079.pdf",
+        "https://www.lemonde.fr/archives/article/1972/05/19/le-president-tsiranana-nomme-le-chef-d-etat-major-premier-ministre-avec-les-pleins-pouvoirs_2383294_1819218.html"
+      ]
+    },
+    {
+      "id": "congo-brazzaville-youlou-founding-order-1960",
+      "name": "Congo-Brazzaville — ordem fundadora de Youlou",
+      "aliases": [
+        "Congo ex-francês — primeira ordem independente1960–1963"
+      ],
+      "kind": "country",
+      "category": "historical-country",
+      "period": "15/08/1960–ruptura13–15/08/1963; norma02/03/1961",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
+      "documentedAxes": [],
+      "directionalAxes": [],
+      "sourceCount": 3,
+      "sourceUrls": [
+        "https://mjp.univ-perp.fr/constit/cg1961.htm",
+        "https://history.state.gov/historicaldocuments/frus1958-60v14/d70",
+        "https://presidence.cg/une-histoire-chargee-de-symboles/"
+      ]
+    },
+    {
+      "id": "cameroon-federal-reunification-order-1961",
+      "name": "Camarões — federação da reunificação",
+      "aliases": [
+        "República Federal dos Camarões1961–1972"
+      ],
+      "kind": "country",
+      "category": "historical-country",
+      "period": "01/10/1961–transição referendo20/05/promulgação02/06/1972; norma consolidada04/05/1970",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "rel"
+      ],
+      "documentedAxes": [
+        "rel"
+      ],
+      "directionalAxes": [
+        "rel"
+      ],
+      "sourceCount": 3,
+      "sourceUrls": [
+        "https://mjp.univ-perp.fr/constit/cm1961.htm",
+        "https://www.prc.cm/files/13/5a/7b/62e5904d72cace17d867b8a5cd52e031.pdf",
+        "https://mjp.univ-perp.fr/constit/cm1972.htm"
+      ]
+    },
+    {
+      "id": "burundi-independent-kingdom-1962",
+      "name": "Burundi — reino independente",
+      "aliases": [
+        "Royaume du Burundi1962–1966"
+      ],
+      "kind": "country",
+      "category": "historical-country",
+      "period": "01/07/1962–golpe republicano28/11/1966; norma promulgada16/10/1962 com vigência declarada retroativa01/07",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "pod"
+      ],
+      "documentedAxes": [
+        "pod"
+      ],
+      "directionalAxes": [
+        "pod"
+      ],
+      "sourceCount": 3,
+      "sourceUrls": [
+        "https://mjp.univ-perp.fr/constit/bi1962.htm",
+        "https://history.state.gov/countries/burundi",
+        "https://www.presidence.gov.bi/wp-content/uploads/2017/04/strategie-nationale-de-securite.pdf"
+      ]
+    },
+    {
+      "id": "anna-julia-cooper",
+      "name": "Anna Julia Cooper",
+      "aliases": [],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "A Voice from the South,1892; capítulos selecionados",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "mor"
+      ],
+      "documentedAxes": [
+        "mor"
+      ],
+      "directionalAxes": [
+        "mor"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.gutenberg.org/cache/epub/61741/pg61741-images.html",
+        "https://www.nps.gov/people/dr-anna-julia-cooper-1859-1964.htm"
+      ]
+    },
+    {
+      "id": "mary-church-terrell",
+      "name": "Mary Church Terrell",
+      "aliases": [],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "What It Means to Be Colored in the Capital of the United States,10/10/1906; transcrição parcial",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
+      "documentedAxes": [],
+      "directionalAxes": [],
+      "sourceCount": 3,
+      "sourceUrls": [
+        "https://www.emersonkent.com/speeches/what_it_means_to_be_colored_in_the_capital_of_the_united_states.htm",
+        "https://www.archives.gov/research/african-americans/individuals/mary-church-terrell",
+        "https://storyoftheweek.loa.org/2011/01/what-it-means-to-be-colored-in-capital.html"
+      ]
+    },
+    {
+      "id": "elizabeth-cady-stanton",
+      "name": "Elizabeth Cady Stanton",
+      "aliases": [],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "Solitude of Self,18/1/1892; reimpressãoGPO1915",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "mor"
+      ],
+      "documentedAxes": [
+        "mor"
+      ],
+      "directionalAxes": [
+        "mor"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.nps.gov/wori/learn/historyculture/solitude-of-self.htm",
+        "https://www.nps.gov/wori/learn/historyculture/solitude-of-self.htm"
+      ]
+    },
+    {
+      "id": "lucretia-coffin-mott",
+      "name": "Lucretia Coffin Mott",
+      "aliases": [],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "Discourse on Woman,17/12/1849; reprodução acadêmica",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "mor"
+      ],
+      "documentedAxes": [
+        "mor"
+      ],
+      "directionalAxes": [
+        "mor"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://openbooks.library.umass.edu/giftsofspeech/chapter/lucretia-mott-discourse-on-woman-december-17-1849/",
+        "https://www.nps.gov/wori/learn/historyculture/lucretia-mott.htm"
+      ]
+    },
+    {
+      "id": "millicent-garrett-fawcett",
+      "name": "Millicent Garrett Fawcett",
+      "aliases": [],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "Women’s Suffrage,capítuloI; s.d., texto menciona1911",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "mor"
+      ],
+      "documentedAxes": [
+        "mor"
+      ],
+      "directionalAxes": [
+        "mor"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.gutenberg.org/cache/epub/48614/pg48614-images.html",
+        "https://www.parliament.uk/about/living-heritage/transformingsociety/electionsvoting/womenvote/case-studies-women-parliament/millicent-garrett-fawcett/millicent-garrett-fawcett/"
+      ]
+    },
+    {
+      "id": "pandita-ramabai",
+      "name": "Pandita Ramabai Sarasvati",
+      "aliases": [],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "The High-Caste Hindu Woman,1887; VI/VII selecionados",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "mor"
+      ],
+      "documentedAxes": [
+        "mor"
+      ],
+      "directionalAxes": [
+        "mor"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://scalar.lehigh.edu/literature-of-colonial-south-asia/pandita-ramabai-the-high-caste-hindu-woman-1887-full-text",
+        "https://www.bu.edu/missiology/ramabai-dongre-medhavi/"
+      ]
+    },
+    {
+      "id": "marcus-mosiah-garvey",
+      "name": "Marcus Mosiah Garvey",
+      "aliases": [],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "Cartas editoriais,NegroWorld11/9/1920; reproduçãoUCLA",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
+      "documentedAxes": [],
+      "directionalAxes": [],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.international.ucla.edu/africa/mgpp/sample03",
+        "https://www.archives.gov/nhprc/projects/catalog/marcus-garvey"
+      ]
+    },
+    {
+      "id": "julia-ward-howe",
+      "name": "Julia Ward Howe",
+      "aliases": [],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "Appeal to Womanhood Throughout the World,setembro1870",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "dip"
+      ],
+      "documentedAxes": [
+        "dip"
+      ],
+      "directionalAxes": [
+        "dip"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://tile.loc.gov/storage-services/service/rbc/rbpe/rbpe07/rbpe074/07400300/07400300.pdf",
+        "https://www.nps.gov/people/julia-ward-howe.htm"
+      ]
+    },
+    {
+      "id": "ernestine-louise-rose",
+      "name": "Ernestine Louise Rose",
+      "aliases": [],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "A Lecture on Women’s Rights,19/10/1851; edição1886 selecionada",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "mor"
+      ],
+      "documentedAxes": [
+        "mor"
+      ],
+      "directionalAxes": [
+        "mor"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://womhist.binghamton.edu/awrm/doc14.htm",
+        "https://www.loc.gov/static/research-centers/rare-book-and-special-collections/documents/AnthonyBib.pdf"
+      ]
+    },
+    {
+      "id": "frances-ellen-watkins-harper",
+      "name": "Frances Ellen Watkins Harper",
+      "aliases": [],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "Enlightened Motherhood,15/11/1892; abertura selecionada",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
+      "documentedAxes": [],
+      "directionalAxes": [],
+      "sourceCount": 3,
+      "sourceUrls": [
+        "https://awpc.cattcenter.iastate.edu/2017/03/21/enlightened-motherhood-nov-15-1892/",
+        "https://www.nps.gov/places/frances-ellen-watkins-harper-house.htm",
+        "https://www.loc.gov/resource/lcrbmrp.t1906/?st=brief"
+      ]
+    },
+    {
+      "id": "john-dewey",
+      "name": "John Dewey",
+      "aliases": [],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "Democracy and Education,1916; capítuloVII, seleção",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "rep"
+      ],
+      "documentedAxes": [
+        "rep"
+      ],
+      "directionalAxes": [
+        "rep"
+      ],
+      "sourceCount": 3,
+      "sourceUrls": [
+        "https://www.gutenberg.org/files/852/852-h/852-h.htm",
+        "https://c250.columbia.edu/c250_celebrates/remarkable_columbians/john_dewey.html",
+        "https://cup.columbia.edu/book/democracy-and-education/9780231558273/"
+      ]
+    },
+    {
+      "id": "william-james",
+      "name": "William James",
+      "aliases": [],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "The Moral Equivalent of War,1910; declaração selecionada",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "dip"
+      ],
+      "documentedAxes": [
+        "dip"
+      ],
+      "directionalAxes": [
+        "dip"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://pressbooks.pub/writingtextbook/chapter/the-moral-equivalent-of-war-by-william-james/",
+        "https://psychology.fas.harvard.edu/people/william-james"
+      ]
+    },
+    {
+      "id": "leonard-trelawny-hobhouse",
+      "name": "Leonard Trelawny Hobhouse",
+      "aliases": [],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "Liberalism,1911; capítuloII, §§1–3 selecionados",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "pod"
+      ],
+      "documentedAxes": [
+        "pod"
+      ],
+      "directionalAxes": [
+        "pod"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.gutenberg.org/files/28278/28278-h/28278-h.htm",
+        "https://onlinebooks.library.upenn.edu/webbin/book/lookupname?c=x&key=Hobhouse%2C+L.+T.+%28Leonard+Trelawny%29%2C+1864-1929"
+      ]
+    },
+    {
+      "id": "hakainde-hichilema",
+      "name": "Hakainde Hichilema",
+      "aliases": [],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "Discurso constitucional próprio20/02/2026",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "rep"
+      ],
+      "documentedAxes": [
+        "rep"
+      ],
+      "directionalAxes": [
+        "rep"
+      ],
+      "sourceCount": 1,
+      "sourceUrls": [
+        "https://www.pdu.gov.zm/blog/president-hichilemas-state-of-the-nation-address-2026"
+      ]
+    },
+    {
+      "id": "kamla-persad-bissessar",
+      "name": "Kamla Persad-Bissessar",
+      "aliases": [
+        "Kamla Susheila Persad-Bissessar"
+      ],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "Intervenção parlamentar própria10/06/2026; atividade22/09/2026",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "pod"
+      ],
+      "documentedAxes": [
+        "pod"
+      ],
+      "directionalAxes": [
+        "pod"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.ttparliament.org/wp-content/uploads/2026/06/hh20260610u.pdf",
+        "https://www.planning.gov.tt/newsite/watch/pm-kamla-persad-bissessars-feature-address-81st-session-of-the-united-nations-general-assembly/"
+      ]
+    },
+    {
+      "id": "irfaan-ali",
+      "name": "Irfaan Ali",
+      "aliases": [
+        "Mohamed Irfaan Ali",
+        "Mohammed Irfaan Ali"
+      ],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "Discurso próprio à ONU publicado24/09/2026; dia da fala não certificado separadamente",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "dip",
+        "tec"
+      ],
+      "documentedAxes": [
+        "dip",
+        "tec"
+      ],
+      "directionalAxes": [
+        "dip",
+        "tec"
+      ],
+      "sourceCount": 1,
+      "sourceUrls": [
+        "https://op.gov.gy/address-by-his-excellency-dr-mohamed-irfaan-ali-president-of-the-co-operative-republic-of-guyana-at-the-81st-session-of-the-general-assembly-of-the-united-nations/"
+      ]
+    },
+    {
+      "id": "antonio-jose-seguro",
+      "name": "António José Seguro",
+      "aliases": [
+        "António José Martins Seguro",
+        "Antonio Jose Seguro"
+      ],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "Declarações próprias de posse reproduzidas09/03/2026",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "rep"
+      ],
+      "documentedAxes": [
+        "rep"
+      ],
+      "directionalAxes": [
+        "rep"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.rtp.pt/noticias/politica/antonio-jose-seguro-quer-estabilidade-montenegro-espera-cooperacao-institucional_e1724492",
+        "https://www.presidencia.pt/en-en/news-agenda/all-news/2026/03/tomada-de-posse-de-antonio-jose-seguro-como-xxi-presidente-da-republica/"
+      ]
+    },
+    {
+      "id": "maryam-nawaz",
+      "name": "Maryam Nawaz",
+      "aliases": [
+        "Maryam Nawaz Sharif"
+      ],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "Declaração própria de IA reproduzida27/01/2026; atividade23/08/2026",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
+      "documentedAxes": [],
+      "directionalAxes": [],
+      "sourceCount": 3,
+      "sourceUrls": [
+        "https://dunyanews.tv/en/Pakistan/931959-maryam-nawaz-sharif-mandates-ai-use-in-punjab-schools",
+        "https://radio.gov.pk/23-08-2026/punjab-enters-new-era-of-development-technology-cm",
+        "https://techvalley.pk/accelerating-vision-2026-tech-valley-and-google-experts-empower-punjab-cabinet-with-ai-driven-governance-tools-in-lahore/"
+      ]
+    },
+    {
+      "id": "muhammad-yunus",
+      "name": "Muhammad Yunus",
+      "aliases": [
+        "Mohammad Yunus",
+        "Professor Muhammad Yunus"
+      ],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "Declarações próprias de despedida reproduzidas16/02/2026",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "rep",
+        "dip"
+      ],
+      "documentedAxes": [
+        "rep",
+        "dip"
+      ],
+      "directionalAxes": [
+        "rep",
+        "dip"
+      ],
+      "sourceCount": 1,
+      "sourceUrls": [
+        "https://www.bssnews.net/news-flash/361630"
+      ]
+    },
+    {
+      "id": "kaja-kallas",
+      "name": "Kaja Kallas",
+      "aliases": [],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "Discurso próprio europeu de defesa28/01/2026",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "dip"
+      ],
+      "documentedAxes": [
+        "dip"
+      ],
+      "directionalAxes": [
+        "dip"
+      ],
+      "sourceCount": 1,
+      "sourceUrls": [
+        "https://www.eeas.europa.eu/eeas/hrvp-kaja-kallas-keynote-speech-european-defence-agency-annual-conference-2026_en"
+      ]
+    },
+    {
+      "id": "roberta-metsola",
+      "name": "Roberta Metsola",
+      "aliases": [],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "Discurso próprio em Rimini26/08/2026",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "tec"
+      ],
+      "documentedAxes": [
+        "tec"
+      ],
+      "directionalAxes": [
+        "tec"
+      ],
+      "sourceCount": 1,
+      "sourceUrls": [
+        "https://the-president.europarl.europa.eu/home/ep-newsroom/pagecontent/actualites/europe-represents-an-opportunity-for-our-children-to-build-a-freer-safer-and-more-prosperous-future-president-metsola-in-rimini.html"
+      ]
+    },
+    {
+      "id": "michelle-obama",
+      "name": "Michelle Obama",
+      "aliases": [
+        "Michelle LaVaughn Robinson Obama"
+      ],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "Discurso próprio20/10/2016; atividade confirmada18–19/06/2026",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "rep",
+        "imi"
+      ],
+      "documentedAxes": [
+        "rep",
+        "imi"
+      ],
+      "directionalAxes": [
+        "rep",
+        "imi"
+      ],
+      "sourceCount": 3,
+      "sourceUrls": [
+        "https://obamawhitehouse.archives.gov/the-press-office/2016/10/20/remarks-first-lady-hfa-rally-phoenix-az",
+        "https://www.obama.org/visit/grand-opening/livestream/",
+        "https://apnews.com/article/obama-presidential-center-chicago-juneteenth-7f655b125d3cc28dcee91e1645842782"
+      ]
+    },
+    {
+      "id": "leni-robredo",
+      "name": "Leni Robredo",
+      "aliases": [
+        "Maria Leonor Gerona Robredo",
+        "Maria Leonor Leni Robredo"
+      ],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "Discurso próprio19/11/2018; atividade confirmada01/05/2026",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "rep",
+        "pod"
+      ],
+      "documentedAxes": [
+        "rep",
+        "pod"
+      ],
+      "directionalAxes": [
+        "rep",
+        "pod"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://cald.org/wp-content/uploads/2018/11/Maria-Leonor-22Leni22-Robredo.pdf",
+        "https://tourism.naga.gov.ph/leni-our-true-charm-goes-beyond-typical-attractions/"
+      ]
+    },
+    {
+      "id": "kemi-badenoch",
+      "name": "Kemi Badenoch",
+      "aliases": [
+        "Olukemi Olufunto Adegoke Badenoch"
+      ],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "Discursos próprios de integração02/03/2026 e economia18/06/2026",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "imi",
+        "con"
+      ],
+      "documentedAxes": [
+        "imi",
+        "con"
+      ],
+      "directionalAxes": [
+        "imi",
+        "con"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.conservatives.com/news/kemis-speech-on-british-integration",
+        "https://www.conservatives.com/news/kemi-delivers-new-economic-revolution-speech"
+      ]
+    },
+    {
+      "id": "droupadi-murmu",
+      "name": "Droupadi Murmu",
+      "aliases": [
+        "Draupadi Murmu",
+        "Durgi Tudu"
+      ],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "Discurso próprio tecnológico06/02/2026",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "tec"
+      ],
+      "documentedAxes": [
+        "tec"
+      ],
+      "directionalAxes": [
+        "tec"
+      ],
+      "sourceCount": 1,
+      "sourceUrls": [
+        "https://www.presidentofindia.gov.in/sites/default/files/2023-06/sp06022026.pdf"
+      ]
+    },
+    {
+      "id": "hun-manet",
+      "name": "Hun Manet",
+      "aliases": [
+        "HUN Manet"
+      ],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "Discurso próprio ASEAN, junho2026; data editorial03/06 diverge do link09/06, dia da fala não certificado",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "dip",
+        "com",
+        "tec"
+      ],
+      "documentedAxes": [
+        "dip",
+        "com",
+        "tec"
+      ],
+      "directionalAxes": [
+        "dip",
+        "com",
+        "tec"
+      ],
+      "sourceCount": 1,
+      "sourceUrls": [
+        "https://pressocm.gov.kh/en/archives/123380"
+      ]
+    },
+    {
+      "id": "tharman-shanmugaratnam",
+      "name": "Tharman Shanmugaratnam",
+      "aliases": [],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "Discurso próprio de desenvolvimento09/06/2026",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "tec"
+      ],
+      "documentedAxes": [
+        "tec"
+      ],
+      "directionalAxes": [
+        "tec"
+      ],
+      "sourceCount": 1,
+      "sourceUrls": [
+        "https://www.istana.gov.sg/newsroom/investing-in-the-drivers-of-inclusive-growth-transcript-of-speech-by-president-tharman-shanmugaratnam-at-the-university-of-dar-es-salaam-the-united-republic-of-tanzania-on-9-june-2026/"
+      ]
+    },
+    {
+      "id": "pita-limjaroenrat",
+      "name": "Pita Limjaroenrat",
+      "aliases": [
+        "Pita Limcharoenrat"
+      ],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "Entrevista própria publicada26/01/2026; atividade concluída04/03/2026",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "rep"
+      ],
+      "documentedAxes": [
+        "rep"
+      ],
+      "directionalAxes": [
+        "rep"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.cna.com.tw/news/aopl/202601260114.aspx",
+        "https://asianpacific.duke.edu/news/looking-back-moving-forward-thai-political-leader-pita-limjaroenrat-speaks-duke"
+      ]
+    },
+    {
+      "id": "faisal-bin-farhan",
+      "name": "Faisal bin Farhan",
+      "aliases": [
+        "Faisal bin Farhan bin Abdullah",
+        "Fayçal ben Farhane"
+      ],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "Fala própria ONU em setembro2026, reprodução publicada30/09; dia da ocasião não certificado",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "dip"
+      ],
+      "documentedAxes": [
+        "dip"
+      ],
+      "directionalAxes": [
+        "dip"
+      ],
+      "sourceCount": 1,
+      "sourceUrls": [
+        "https://www.opinion-internationale.com/2026/09/30/le-regard-de-larabie-saoudite-sur-le-monde-verbatim-du-discours-de-faycal-ben-farhane-ministre-saoudien-des-affaires-etrangeres-devant-lonu_144298.html"
+      ]
+    },
+    {
+      "id": "reem-al-hashimy",
+      "name": "Reem Al Hashimy",
+      "aliases": [
+        "Reem bint Ebrahim Al Hashimy",
+        "Reem bint Ibrahim Al Hashimi"
+      ],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "Declarações próprias atribuídas na visita19/03/2026, publicação20/03",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
+      "documentedAxes": [],
+      "directionalAxes": [],
+      "sourceCount": 1,
+      "sourceUrls": [
+        "https://www.mofa.gov.ae/en/MediaHub/News/2026/3/20/UAE-New-Delhi"
+      ]
+    },
+    {
+      "id": "tamim-bin-hamad-al-thani",
+      "name": "Tamim bin Hamad Al Thani",
+      "aliases": [
+        "Sheikh Tamim bin Hamad Al-Thani",
+        "Tamim bin Hamad Al-Thani"
+      ],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "Discurso próprio ONU22/09/2026",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "dip",
+        "int"
+      ],
+      "documentedAxes": [
+        "dip",
+        "int"
+      ],
+      "directionalAxes": [
+        "dip",
+        "int"
+      ],
+      "sourceCount": 1,
+      "sourceUrls": [
+        "https://www.diwan.gov.qa/en/briefing-room/speeches-and-remarks/2026/september/22/hh-the-amir-speech-at-the-opening-session-of-the-81st-un-general-assembly"
+      ]
+    },
+    {
+      "id": "nawaf-salam",
+      "name": "Nawaf Salam",
+      "aliases": [
+        "Nawaf Salām"
+      ],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "Fala própria ONU reproduzida25/09/2026",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "dip"
+      ],
+      "documentedAxes": [
+        "dip"
+      ],
+      "directionalAxes": [
+        "dip"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://dailybeirut.com/es/noticias-de-libano/el-texto-integro-del-discurso-del-jefe-de-gobierno-nawaf-salam-ante-la-asamblea-/",
+        "https://www.globalissues.org/news/2026/09/25/44174"
+      ]
+    },
+    {
+      "id": "joseph-aoun",
+      "name": "Joseph Aoun",
+      "aliases": [
+        "Joseph Khalil Aoun",
+        "Gen. Joseph Aoun"
+      ],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "Programa de defesa próprio relatado09/01/2025; atividade confirmada16/09/2026",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "dip"
+      ],
+      "documentedAxes": [
+        "dip"
+      ],
+      "directionalAxes": [
+        "dip"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.mtv.com.lb/en/News/Local/1537579/president-joseph-aoun-takes-oath--calls-for-reform-and-unity",
+        "https://rhc.jo/en/news/king-meets-with-lebanon-president-underscores-jordans-support-for-lebanon"
+      ]
+    },
+    {
+      "id": "hilda-heine",
+      "name": "Hilda Heine",
+      "aliases": [
+        "Hilda Cathy Heine",
+        "Hilda C. Heine"
+      ],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "Declarações próprias no encontro03/06/2026, publicação11/06",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
+      "documentedAxes": [],
+      "directionalAxes": [],
+      "sourceCount": 1,
+      "sourceUrls": [
+        "https://rmigov.com/?p=2370"
+      ]
+    },
+    {
+      "id": "sitiveni-rabuka",
+      "name": "Sitiveni Rabuka",
+      "aliases": [
+        "Sitiveni Ligamamada Rabuka",
+        "Sitiveni L. Rabuka"
+      ],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "Discurso próprio de justiça09/02/2026",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
+      "documentedAxes": [],
+      "directionalAxes": [],
+      "sourceCount": 1,
+      "sourceUrls": [
+        "https://thecommonwealth.org/speech/welcome-address-prime-minister-fiji-commonwealth-law-ministers-meeting"
+      ]
+    },
+    {
+      "id": "fiame-naomi-mataafa",
+      "name": "Fiamē Naomi Mataʻafa",
+      "aliases": [
+        "Fiame Naomi Mataafa",
+        "Fiamē Naomi Mata’afa",
+        "Fiame Naomi Mata’afa"
+      ],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "Discurso próprio editado14/04/2026, publicação27/04",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
+      "documentedAxes": [],
+      "directionalAxes": [],
+      "sourceCount": 1,
+      "sourceUrls": [
+        "https://devpolicy.org/people-belonging-and-pacific-futures/"
+      ]
+    },
+    {
+      "id": "feleti-teo",
+      "name": "Feleti Teo",
+      "aliases": [
+        "Feleti Penitala Teo",
+        "Feleti P. Teo"
+      ],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "Declarações próprias relatadas21/09/2026; corpo institucional indexado, acesso direto indisponível",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "tec"
+      ],
+      "documentedAxes": [
+        "tec"
+      ],
+      "directionalAxes": [
+        "tec"
+      ],
+      "sourceCount": 1,
+      "sourceUrls": [
+        "https://www.un.int/tuvalu/fr/news/tuvalu-highlights-power-digital-connectivity-unga81"
+      ]
+    },
+    {
+      "id": "surangel-whipps-jr",
+      "name": "Surangel Whipps Jr.",
+      "aliases": [
+        "Surangel Samuel Whipps Jr.",
+        "Surangel S. Whipps Jr.",
+        "Surangel Whipps Junior"
+      ],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "Declaração própria proferida em nome da AOSIS24/09/2026",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
+      "documentedAxes": [],
+      "directionalAxes": [],
+      "sourceCount": 1,
+      "sourceUrls": [
+        "https://aosis.org/document/statement-at-the-high-level-meeting-on-sea-level-rise/"
+      ]
+    },
+    {
+      "id": "ideology-program-revolutionary-popular-socialism-narodnaya-volya-1881",
+      "name": "Socialismo revolucionário da vontade popular: programa de 1881",
+      "aliases": [],
+      "kind": "ideology",
+      "category": "ideology",
+      "period": "Programa do Comitê Executivo da Narodnaya Volya, terceira edição de 15 de agosto de 1881; transcrição russa",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
+      "documentedAxes": [],
+      "directionalAxes": [],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://narovol.narod.ru/document/progamIK.htm",
+        "https://libcom.org/article/program-executive-committee-peoples-will"
+      ]
+    },
+    {
+      "id": "ideology-program-conservative-constitution-disraeli-1872",
+      "name": "Conservadorismo constitucional e dever social: Disraeli, 1872",
+      "aliases": [],
+      "kind": "ideology",
+      "category": "ideology",
+      "period": "Discurso no Crystal Palace, 24 de junho de 1872; reprodução editada universitária de 2020",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
+      "documentedAxes": [],
+      "directionalAxes": [],
+      "sourceCount": 1,
+      "sourceUrls": [
+        "https://bpb-us-e1.wpmucdn.com/journeys.dartmouth.edu/dist/2/1015/files/2021/03/IJ_Disraeli_Political_Writings.pdf"
+      ]
+    },
+    {
+      "id": "kamala-harris",
+      "name": "Kamala Harris",
+      "aliases": [
+        "Kamala Devi Harris"
+      ],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "Discurso próprio06/11/2024; atividade concluída23/02/2026 somente identidade",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "rep"
+      ],
+      "documentedAxes": [
+        "rep"
+      ],
+      "directionalAxes": [
+        "rep"
+      ],
+      "sourceCount": 3,
+      "sourceUrls": [
+        "https://www.presidency.ucsb.edu/documents/address-conceding-the-2024-presidential-election",
+        "https://www.shankerinstitute.org/event/aftsmlasi-book-club-conversation-kamala-harris",
+        "https://kamalaharris.com/issues/"
+      ]
+    },
+    {
+      "id": "catherine-connolly",
+      "name": "Catherine Connolly",
+      "aliases": [],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "Declaração própria08/03/2026",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "dip"
+      ],
+      "documentedAxes": [
+        "dip"
+      ],
+      "directionalAxes": [
+        "dip"
+      ],
+      "sourceCount": 1,
+      "sourceUrls": [
+        "https://president.ie/en/media-library/news-releases/statement-by-president-connolly-on-international-womens-day-2026"
+      ]
+    },
+    {
+      "id": "judith-suminwa",
+      "name": "Judith Suminwa",
+      "aliases": [
+        "Judith Suminwa Tuluka"
+      ],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "Declarações próprias11/04/2026, publicação14/04",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
+      "documentedAxes": [],
+      "directionalAxes": [],
+      "sourceCount": 1,
+      "sourceUrls": [
+        "https://www.primature.gouv.cd/2026/04/14/cloture-du-mois-des-droits-des-femmes-a-la-primature-sans-les-femmes-letat-navance-pas-judith-suminwa/"
+      ]
+    },
+    {
+      "id": "sanae-takaichi",
+      "name": "Sanae Takaichi",
+      "aliases": [
+        "Takaichi Sanae"
+      ],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "Excerto próprio24/10/2025 reproduzido11/02/2026; atividade07/10/2026 somente identidade",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
+      "documentedAxes": [],
+      "directionalAxes": [],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.fsa.go.jp/common/conference/danwa/20260211_4.pdf",
+        "https://www.clickondetroit.com/news/world/2026/10/07/okinawa-governor-wants-discipline-for-us-military-in-japan-after-murder-linked-to-marine/"
+      ]
+    },
+    {
+      "id": "sara-duterte",
+      "name": "Sara Duterte",
+      "aliases": [
+        "Sara Zimmerman Duterte",
+        "Sara Z. Duterte",
+        "Sara Duterte-Carpio"
+      ],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "Declarações educacionais21/09/2023; atividade18/02/2026 somente identidade",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
+      "documentedAxes": [],
+      "directionalAxes": [],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.deped.gov.ph/2023/09/23/vp-sara-urges-education-ministers-to-reshape-education-embrace-technology-in-geis-2023/",
+        "https://baynews9.com/fl/tampa/ap-top-news/2026/02/18/philippine-vice-president-duterte-will-seek-presidency-in-2028-but-faces-impeachment-bids"
+      ]
+    },
+    {
+      "id": "winston-peters",
+      "name": "Winston Peters",
+      "aliases": [
+        "Winston Raymond Peters"
+      ],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "Intervenções próprias na coletiva ANZMIN17/03/2026, transcript E&OE",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
+      "documentedAxes": [],
+      "directionalAxes": [],
+      "sourceCount": 1,
+      "sourceUrls": [
+        "https://www.foreignminister.gov.au/minister/penny-wong/transcript/press-conference-blue-room-parliament-house"
+      ]
+    },
+    {
+      "id": "penny-wong",
+      "name": "Penny Wong",
+      "aliases": [
+        "Penelope Ying-Yen Wong",
+        "Penelope Wong"
+      ],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "Intervenções próprias na coletiva ANZMIN17/03/2026, transcript E&OE",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
+      "documentedAxes": [],
+      "directionalAxes": [],
+      "sourceCount": 1,
+      "sourceUrls": [
+        "https://www.foreignminister.gov.au/minister/penny-wong/transcript/press-conference-blue-room-parliament-house"
+      ]
+    },
+    {
+      "id": "yvonne-aki-sawyerr",
+      "name": "Yvonne Aki-Sawyerr",
+      "aliases": [
+        "Yvonne Denise Aki-Sawyerr",
+        "Yvonne Aki Sawyerr"
+      ],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "Declarações próprias no encontro14–15/06/2026, relato institucional16/06 indexado",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
+      "documentedAxes": [],
+      "directionalAxes": [],
+      "sourceCount": 1,
+      "sourceUrls": [
+        "https://fcc.gov.sl/mayor-aki-sawyerr-advances-global-south-climate-priorities-at-singapore-summit/"
+      ]
+    },
+    {
+      "id": "ralph-gonsalves",
+      "name": "Ralph Gonsalves",
+      "aliases": [
+        "Ralph Everard Gonsalves"
+      ],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "Declarações próprias no Press Club, publicação12/05/2026; dia do evento não certificado",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
+      "documentedAxes": [],
+      "directionalAxes": [],
+      "sourceCount": 1,
+      "sourceUrls": [
+        "https://www.jamaicaobserver.com/2026/05/12/man-for-the-mission/"
       ]
     },
     {

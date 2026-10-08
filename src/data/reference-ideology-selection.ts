@@ -3,14 +3,14 @@
  */
 export const ideologySelectionSnapshot = {
   "date": "2026-10-08",
-  "catalogCount": 216,
+  "catalogCount": 218,
   "intendedSubsetCount": 75,
   "readyForDefaultUse": false,
-  "boundedReviewedReferents": 64,
-  "referentCountScope": "64 located normative primary referents in integrated ledger. Documentary location is not six-axis qualification or all75 independence.",
-  "boundedTwoSidedContrasts": 46,
+  "boundedReviewedReferents": 66,
+  "referentCountScope": "Integrated selection66 located normative primary referents. No sixaxis/all75 independence implication.",
+  "boundedTwoSidedContrasts": 50,
   "preservedOriginalCatalogCount": 206,
-  "partitionCountScope": "Integrated catalog216 =75 selected +141 alternatives. All206 originals and original75 snapshot preserved.",
+  "partitionCountScope": "Integrated218=75selected+143alternatives. All206 originals and original75 snapshot preserved.",
   "pendingCatalogIds": [],
   "independent75Verified": false
 } as const;
@@ -638,7 +638,7 @@ export const ideologySelectionFamilies = [
   {
     "id": "liberal",
     "label": "Liberdade, propriedade e mercados",
-    "count": 11
+    "count": 12
   },
   {
     "id": "conservative",
@@ -648,7 +648,7 @@ export const ideologySelectionFamilies = [
   {
     "id": "socialist",
     "label": "Socialismo, propriedade e estratégia",
-    "count": 14
+    "count": 15
   },
   {
     "id": "anarchist",
@@ -658,7 +658,7 @@ export const ideologySelectionFamilies = [
   {
     "id": "decolonial",
     "label": "Emancipação, comunidade e autodeterminação",
-    "count": 8
+    "count": 7
   },
   {
     "id": "religious",
@@ -673,7 +673,7 @@ export const ideologySelectionFamilies = [
   {
     "id": "democratic",
     "label": "Participação e desenho institucional",
-    "count": 7
+    "count": 6
   },
   {
     "id": "development",
@@ -1433,6 +1433,47 @@ export const ideologySelectionSources = [
     "locator": "Full21–37;26/30–37",
     "supports": "Administração direta pelos conselhos rejeita administração produtiva estatal; contabilidade compulsória permanece.",
     "readAt": "2026-10-08"
+  },
+  {
+    "id": "narodnaya-programme-1881",
+    "title": "Programme of the Executive Committee of Narodnaya Volya — third edition1881, Russian transcription",
+    "url": "https://narovol.narod.ru/document/progamIK.htm",
+    "locator": "AuthorA7–8/C18–19/D21–28/E48; terror36–37/secretcentral38–45/endsjustifymeans51; thirdedition56–57",
+    "supports": "Ordem socialista afirmativa, assembleia universal e todas fábricas aos trabalhadores. Versão e contrapontos preservados; não resultados históricos nem âncoras numéricas.",
+    "readAt": "2026-10-08"
+  },
+  {
+    "id": "narodnaya-hoare-earlier-version",
+    "title": "Program of the Executive Committee of the People's Will — Quintin Hoare translation of earlier1880 version",
+    "url": "https://libcom.org/article/program-executive-committee-peoples-will",
+    "locator": "Author23–82, universalassembly36–40, property49, freedom51–52, transfer80; translation84",
+    "supports": "Corroboração da versão anterior1880 identificada por tradutor; não edição1881 idêntica nem comentários editoriais.",
+    "readAt": "2026-10-08"
+  },
+  {
+    "id": "icp-constituent-electorate-1920",
+    "title": "Theses of the Communist Abstentionist Fraction — ICP primary reproduction1920",
+    "url": "https://intcp.org/en/texts/7516/theses-of-the-communist-abstentionist-fraction/",
+    "locator": "Author43–142; I.8(56), II.15–16(105–108); earlierpropagandaIII.7(123–126)",
+    "supports": "Exclusão de representação constituinte de todas classes, em contraste com assembleia universal. Uso eleitoral anterior condicional permanece; tradução não identificada.",
+    "readAt": "2026-10-08"
+  },
+  {
+    "id": "disraeli-crystal-palace-1872",
+    "title": "Crystal Palace Speech, 24 June 1872 — Disraeli, edited political writings2020",
+    "url": "https://bpb-us-e1.wpmucdn.com/journeys.dartmouth.edu/dist/2/1015/files/2021/03/IJ_Disraeli_Political_Writings.pdf",
+    "locator": "Fullauthorprinted302–313/PDF343–354/web12844–13272; imperial13101–15, factory13139–80, legislativeaid13210–16",
+    "supports": "Programa afirmativo constitucional/imperial e regulação laboral; sucesso histórico alegado não validado. Edição2020, não facsimile1872 colacionado.",
+    "readAt": "2026-10-08"
+  },
+  {
+    "id": "burke-labour-contract-presumption-1795",
+    "title": "Thoughts and Details on Scarcity — Burke1795, posthumous edited1800 reproduction",
+    "url": "https://www.econlib.org/book-chapters/chapter-vol-4-miscellaneous-writings-thoughts-and-details-on-scarcity/",
+    "alternateUrl": "https://www.gutenberg.org/files/15701/15701-h/15701-h.htm",
+    "locator": "ActualEconlibauthor125–156(150–153contract), editorial65–99 edition; Gutenbergclosing849–875(864exceptions/865publicfunctions)",
+    "supports": "Presunção de contrato laboral mutuamente determinado sem fraude/força; juiz aplica, não regula. Disputa salarial agrícola contextual, exceções permanentes/ocasionais e funções públicas explícitas. Não todos salários/horas nem ausência de toda política social.",
+    "readAt": "2026-10-08"
   }
 ] as const;
 
@@ -1580,14 +1621,15 @@ export const intendedIdeologySelection = [
     "ontologyLimit": "Referentes normativos localizados; comparação delimitada por texto e edição, sem provar independência de todos os vizinhos nem prática implementada."
   },
   {
-    "id": "ideology-right-one-nation-conservatism",
-    "name": "Conservadorismo de uma nação",
+    "id": "ideology-program-conservative-constitution-disraeli-1872",
+    "name": "Conservadorismo constitucional e dever social: Disraeli, 1872",
     "family": "conservative",
-    "selectionRationale": "Dever social paternalista",
-    "reviewStatus": "provisional",
-    "documentedAxisCountAtSnapshot": 2,
-    "ontologyStatus": "provisional-normative-referent",
-    "contrastStatus": "not-independently-verified"
+    "selectionRationale": "Programa constitucional imperial e regulação fabril afirmados: contrastes delimitados com poder nacional independente NatCon e presunção contratual Burke.",
+    "reviewStatus": "referent-and-bounded-neighbor-contrast-reviewed",
+    "documentedAxisCountAtSnapshot": 0,
+    "ontologyStatus": "bounded-normative-programme-referent-reviewed",
+    "contrastStatus": "bounded-primary-neighbor-contrast",
+    "ontologyLimit": "Discurso próprio1872, não palavras de personagens de Sybil. Autogoverno colonial, limites de bem-estar, exceções públicas/leis prévias Burke e diferença salários/horas preservados; zero códigos/sem ranking. Nesting e todas variantes conservadoras não certificados."
   },
   {
     "id": "ideology-right-neoconservatism",
@@ -1926,14 +1968,15 @@ export const intendedIdeologySelection = [
     "ontologyLimit": "Programas normativos localizados em transcrição primária; afirmações históricas dos autores não verificadas como fatos. Variantes e sobreposição entre anticolonialismo, solidariedade continental e socialismo permanecem delimitadas."
   },
   {
-    "id": "ideology-left-mariateguismo",
-    "name": "Mariateguismo",
-    "family": "decolonial",
-    "selectionRationale": "Marxismo andino e questão da terra indígena",
-    "reviewStatus": "provisional",
-    "documentedAxisCountAtSnapshot": 3,
-    "ontologyStatus": "provisional-normative-referent",
-    "contrastStatus": "not-independently-verified"
+    "id": "ideology-program-revolutionary-popular-socialism-narodnaya-volya-1881",
+    "name": "Socialismo revolucionário da vontade popular: programa de 1881",
+    "family": "socialist",
+    "selectionRationale": "Assembleia constituinte universal e todas as fábricas aos trabalhadores; contrapõe exclusão eleitoral ICP e propriedade privada condicional SPD.",
+    "reviewStatus": "referent-and-bounded-neighbor-contrast-reviewed",
+    "documentedAxisCountAtSnapshot": 0,
+    "ontologyStatus": "bounded-normative-programme-referent-reviewed",
+    "contrastStatus": "bounded-primary-neighbor-contrast",
+    "ontologyLimit": "Programa1881 delimitado; terror, centralismo clandestino e versão anterior1880 preservados como contrapontos. Zero eixos, sem elegibilidade; não valida toda tradição narodnik nem independência de todas variantes."
   },
   {
     "id": "ideology-program-zapatista-autonomy-ezln-1993-1996",
@@ -2778,6 +2821,34 @@ export const ideologyOverlapChecks = [
     ],
     "status": "bounded-primary-contrast",
     "remaining": "Independência de todas as variantes e global75 não certificada; zero eixos codificados."
+  },
+  {
+    "a": "ideology-program-revolutionary-popular-socialism-narodnaya-volya-1881",
+    "b": "ideology-left-bordigism",
+    "relation": "universal-versus-class-excluding-constituent-authority",
+    "rationale": "NarodC2/D1/D7/E6 demanda assembleia e representação universal sem barreiras de classe/propriedade; ICP1920I.8/II.15–16 exclui representação constituinte de todas classes. Terror/organização clandestina Narod e uso eleitoral anterior condicional ICP não apagados.",
+    "status": "bounded-primary-contrast"
+  },
+  {
+    "a": "ideology-program-revolutionary-popular-socialism-narodnaya-volya-1881",
+    "b": "ideology-program-social-democracy-spd-1959",
+    "relation": "all-worker-factory-transfer-versus-conditional-private-property-presumption",
+    "rationale": "NarodD5 transfere todas fábricas aos trabalhadores; SPD255–258 protege propriedade produtiva privada e280–289 converte quando controles alternativos insuficientes. Empresas públicas concorrentes/utilidades259–263 e autogestão/descentralização283–289 SPD preservadas. É contraste dos programas, não oposição a toda propriedade pública nem relato empírico.",
+    "status": "bounded-primary-contrast"
+  },
+  {
+    "a": "ideology-program-conservative-constitution-disraeli-1872",
+    "b": "ideology-national-conservatism",
+    "relation": "shared-imperial-constitutional-remit-versus-independent-national-authority",
+    "rationale": "Disraeli13101–15 requer tarifa/código militar/conselho imperial com autogoverno colonial; NatCon§2 rejeita transferência supranacional de autoridade, mantendo cooperação voluntária. Escopo institucional, não geografia ou eficácia colonial.",
+    "status": "bounded-primary-contrast"
+  },
+  {
+    "a": "ideology-program-conservative-constitution-disraeli-1872",
+    "b": "ideology-conservatism",
+    "relation": "ordinary-labour-contract-presumption-versus-positive-factory-condition-regulation",
+    "rationale": "Burke1795Econlib150–153 favorece determinação contratual pelas partes/execução judicial, no caso salarial agrícola; Disraeli1872 legisla redução de horas/inspeção de todos ofícios. Salário e horas distintos; leis prévias153 e exceções permanentes/ocasionais864/funções públicas865 mantidas. Diferença contextual de presunção e programa, não incompatibilidade universal ou todo bem-estar.",
+    "status": "bounded-primary-contrast"
   }
 ] as const;
 
@@ -4612,6 +4683,32 @@ export const preservedIdeologyAlternatives = [
     ],
     "documentedAxisCountAtSnapshot": 0,
     "reviewStatus": "preserved-original-not-newly-validated"
+  },
+  {
+    "id": "ideology-left-mariateguismo",
+    "name": "Mariateguismo",
+    "reasonCode": "preserved-original-nearest-overlap-unresolved",
+    "compareWith": "ideology-program-revolutionary-popular-socialism-narodnaya-volya-1881",
+    "decisionRationale": "Programa próprio de Mariátegui afirmativo, mas adoção explícita ML e contraste independente mais próximo não resolvido. Registro e fontes completos permanecem; substituição seleciona programa com autoridade/propriedade positivamente diferenciadas.",
+    "catalogRationale": "Mariátegui aplica análise marxista à história peruana, com atenção à terra, ao latifúndio e às comunidades indígenas.",
+    "catalogSourceTitles": [
+      "7 ensayos de interpretación de la realidad peruana — Ministerio de Cultura del Perú"
+    ],
+    "documentedAxisCountAtSnapshot": 0,
+    "reviewStatus": "preserved-original-not-newly-validated"
+  },
+  {
+    "id": "ideology-right-one-nation-conservatism",
+    "name": "Conservadorismo de uma nação",
+    "reasonCode": "preserved-original-explicit-program-substitution",
+    "compareWith": "ideology-program-conservative-constitution-disraeli-1872",
+    "decisionRationale": "Romance Sybil não autoriza atribuir fala ficcional ao programa próprio inteiro. Registro e fonte literária integrais preservados; seleciona-se discurso político com programa e contrastes delimitados.",
+    "catalogRationale": "O romance contrapõe elites e trabalhadores e defende coesão social e dever dos governantes; o perfil fica restrito ao conservadorismo paternalista de Disraeli.",
+    "catalogSourceTitles": [
+      "Sybil, or The Two Nations — Benjamin Disraeli"
+    ],
+    "documentedAxisCountAtSnapshot": 0,
+    "reviewStatus": "preserved-original-not-newly-validated"
   }
 ] as const;
 
@@ -4711,6 +4808,20 @@ export const ideologyOntologySubstitutions = [
     "removedId": "ideology-left-yugoslav-self-management",
     "selectedId": "ideology-program-socialist-self-management-tito-1950",
     "reason": "Exemplar normativo primário com contraste material localizado; original completo preservado. Não duplica doutrina por autor/ano nem transfere escores.",
+    "status": "bounded-provisional-substitution-new-explicit-program",
+    "catalogRecordsDeleted": false
+  },
+  {
+    "removedId": "ideology-left-mariateguismo",
+    "selectedId": "ideology-program-revolutionary-popular-socialism-narodnaya-volya-1881",
+    "reason": "Independência ML de Mariateguismo permanece aberta; seleciona-se programa de autoridade popular universal e propriedade fabril dos trabalhadores com contrastes primários explícitos. Não é distinção por país, ano ou autor.",
+    "status": "bounded-provisional-substitution-new-explicit-program",
+    "catalogRecordsDeleted": false
+  },
+  {
+    "removedId": "ideology-right-one-nation-conservatism",
+    "selectedId": "ideology-program-conservative-constitution-disraeli-1872",
+    "reason": "Exemplar selecionado usa discurso político próprio, com contraste institucional e contratual material localizado; fonte literária original não apagada. Não distingue pela autoria/ano.",
     "status": "bounded-provisional-substitution-new-explicit-program",
     "catalogRecordsDeleted": false
   }
@@ -5114,6 +5225,36 @@ export const ideologyOntologyReviewGroups = [
     "sourceIds": [
       "tito-worker-management-1950",
       "gik-direct-productive-administration-1930"
+    ],
+    "reviewedOn": "2026-10-08"
+  },
+  {
+    "id": "narod-universal-authority-and-worker-property",
+    "selectedIds": [
+      "ideology-program-revolutionary-popular-socialism-narodnaya-volya-1881",
+      "ideology-program-social-democracy-spd-1959"
+    ],
+    "status": "two-bounded-two-sided-primary-contrasts",
+    "scope": "Um novo referent normativo selecionado; dois contrastes de mesma função (eleitorado/propriedade fabril). Versões e contrapontos não apagados; zero códigos/sem ranking; todas variantes continuam não certificadas.",
+    "sourceIds": [
+      "narodnaya-programme-1881",
+      "narodnaya-hoare-earlier-version",
+      "icp-constituent-electorate-1920"
+    ],
+    "reviewedOn": "2026-10-08"
+  },
+  {
+    "id": "disraeli-imperial-remit-and-labour-regulation",
+    "selectedIds": [
+      "ideology-program-conservative-constitution-disraeli-1872",
+      "ideology-national-conservatism",
+      "ideology-conservatism"
+    ],
+    "status": "two-bounded-two-sided-primary-contrasts",
+    "scope": "Um novo programa próprio selecionado com dois contrastes delimitados; autogoverno/exceções/nesting não removidos. Zero eixos numéricos, sem elegibilidade; não toda família conservadora.",
+    "sourceIds": [
+      "disraeli-crystal-palace-1872",
+      "burke-labour-contract-presumption-1795"
     ],
     "reviewedOn": "2026-10-08"
   }

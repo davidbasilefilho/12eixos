@@ -1,6 +1,8 @@
 # Planned 75 ideology subset: bounded ontology revision
 
-Reviewed on **2026-10-08**. Current integrated ideology ledger: **216 ideologies =75 selected +141 preserved alternatives**, **64 located normative primary referents /46 bounded two-sided comparisons**. All206 original ideology identities and original75 selection remain preserved. Overall catalog totals move independently. No programme ID is pending import. Full75 independence/default-use flags remain false; documentary location does not certify every selected doctrine.
+Programme07 is integrated: two qualitative definitions, zero coded axes and24 unknowns. Current ideology ledger is218 =75 selected +143 alternatives,66 located normative referents/50 bounded comparisons. These counts do not certify75 independent doctrines.
+
+Reviewed on **2026-10-08**. Current integrated ideology ledger: **218 ideologies =75 selected +143 preserved alternatives**, **66 located normative primary referents /50 bounded two-sided comparisons**. All206 original ideology identities and original75 selection remain preserved. Overall catalog totals move independently. No programme ID is pending import. Full75 independence/default-use flags remain false; documentary location does not certify every selected doctrine.
 
 An included object should be an identifiable **political normative doctrine or tradition** addressing legitimate authority, collective social/economic order and action, with a located referent and a material contrast to retained neighbors. A framework, institutional device or policy instrument alone is insufficient. State-authored normative doctrines can qualify; government authorship alone is neither acceptance nor rejection. Subtraditions may be retained when their extra commitments are identified; they must not be presented as mutually exclusive families.
 
@@ -40,7 +42,7 @@ The overall selection remains provisional. Individually grounded bounded contras
 | ideology-conservatism | Conservadorismo | conservative | bounded-normative-referent-reviewed | nearest-neighbor-unresolved |
 | ideology-social-conservatism | Conservadorismo social | conservative | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | ideology-national-conservatism | Conservadorismo nacional | conservative | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
-| ideology-right-one-nation-conservatism | Conservadorismo de uma nação | conservative | provisional-normative-referent | not-independently-verified |
+| ideology-program-conservative-constitution-disraeli-1872 | Conservadorismo constitucional: programa de Disraeli, 1872 | conservative | bounded-normative-programme-referent-reviewed | bounded-primary-neighbor-contrast |
 | ideology-right-neoconservatism | Neoconservadorismo | conservative | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | ideology-right-constitutional-monarchism | Monarquismo constitucional: poder neutro de Constant, 1815 | conservative | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | ideology-right-absolute-monarchy | Soberania indivisível de Hobbes, 1651 | conservative | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
@@ -72,7 +74,7 @@ The overall selection remains provisional. Individually grounded bounded contras
 | ideology-left-nasserism | Nasserismo | decolonial | provisional-normative-referent | not-independently-verified |
 | ideology-left-baathism | Baathismo | decolonial | provisional-normative-referent | not-independently-verified |
 | ideology-left-ujamaa | Ujamaa | decolonial | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
-| ideology-left-mariateguismo | Mariateguismo | decolonial | provisional-normative-referent | not-independently-verified |
+| ideology-program-revolutionary-popular-socialism-narodnaya-volya-1881 | Socialismo popular revolucionário: programa Narodnaya Volya, 1881 | socialist | bounded-normative-programme-referent-reviewed | bounded-primary-neighbor-contrast |
 | ideology-program-zapatista-autonomy-ezln-1993-1996 | Autonomia zapatista: programa inicial do EZLN, 1993–1996 | decolonial | bounded-normative-programme-referent-reviewed | bounded-primary-neighbor-contrast |
 | christian-democracy | Democracia cristã | religious | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | ideology-christian-socialism | Socialismo cristão | religious | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
@@ -105,7 +107,7 @@ The overall selection remains provisional. Individually grounded bounded contras
 
 ## Remaining blockers
 
-Eleven current selected slots still lack accepted located primary-definitional review. Closest-neighbor independence also remains unresolved for several already-read umbrella/subtradition pairs, including communalism/confederalism and adjacent liberal/anarchist traditions. A remote difference or author/year/geography cannot resolve the closest overlap. Panarchy and Tito are integrated source-defined doctrines; Mariátegui and Berlinguer nearest overlaps remain unresolved. Current64/46 describes documentary scope, not global75 distinctness. Source failures, analytic-only models and unverified translations remain explicit. Partial numeric coding does not repair a missing normative definition.
+Nine current selected slots still lack accepted located primary-definitional review. Closest-neighbor independence also remains unresolved for several already-read umbrella/subtradition pairs, including communalism/confederalism and adjacent liberal/anarchist traditions. A remote difference or author/year/geography cannot resolve the closest overlap. Panarchy and Tito are integrated source-defined doctrines; Mariátegui and Berlinguer nearest overlaps remain unresolved. Current66/50 describes documentary scope, not global75 distinctness. Source failures, analytic-only models and unverified translations remain explicit. Partial numeric coding does not repair a missing normative definition.
 
 ## Group 21: nonindustrial collective order, integrated
 
@@ -136,3 +138,9 @@ Author fullspeech12–192 and two independent reviewers' bounded actual reopens 
 
 
 Both selected substitutions preserve their previous complete LIVE objects. See `reference-ideology-program-batch-06` module/report for exact archives, primary locators and independent reading scope. No numeric axes or ranked eligibility are asserted.
+
+## 8 October: programme07 integrated
+
+Narodnaya Volya1881 replaces the unresolved Mariateguismo selected slot, retaining complete original Mariátegui and generic Narod records/sources. Universal constituent authority differs from ICP1920 class exclusion; all-factory worker transfer differs from SPD1959 conditional private productive-property protection, with public exceptions retained. Disraeli1872 replaces the Sybil-only slot, preserving its complete literary source. Imperial institutional remit differs from NatCon nontransfer; positive factory-condition regulation differs from Burke1795 ordinary labour-contract presumption. Wage-setting and hours differ; existing laws, public exceptions, colonial selfgovernment and shared conservative nesting remain.
+
+[Programme07 detailed source report](reference-ideology-program-batch-07.md) records exact actual locators, edition limits and independent reads. Two imported programmes have24 unknown axes and zero numeric codes. Counts66/50 are computed from individual normative/contrast statuses, not assumed from IDs. All206 originals and original75 trace remain, with global independence/default-use false. Meyer remains a separate unresolved external proposal.
