@@ -3566,3 +3566,11 @@ body:has(.quiz-page)::before { @apply hidden; }
 .share-capture-source .share-countries > p:not(:has(img)) b { @apply col-start-1 col-span-2; }
 /* Two-line secondary names retain their category caption inside the export strip. */
 .share-capture-source .share-person-card > img { height:72px !important; }
+
+/* Keep complete long programme names within the existing fixed capture hero. */
+.share-capture-source .share-card-hero[data-extended-title='true'] .share-card-intro h2 { @apply text-[24px] leading-[1.04]; }
+.share-capture-source .share-card-hero[data-extended-title='true'] .share-ideology-feature h3 { @apply text-[16px] leading-[1.1]; }
+
+.share-capture-source .share-card-hero[data-extended-title='true'] .share-ideology-feature { @apply p-[8px]; }
+.share-capture-source .share-card-hero[data-extended-title='true'] .share-feature-score { @apply text-[28px]; }
+.share-capture-source .share-card-hero[data-extended-title='true'] .share-ideology-feature small { @apply whitespace-normal overflow-visible text-clip; }

@@ -1,0 +1,27 @@
+# Revisão independente documental — qualidade histórica02
+
+Revisor: public_continue. Data:2026-10-08. Documento externo ao módulo do autor; nenhum arquivo de autoria alheia editado. Juízo documental delimitado, não certificação biográfica completa, práticas de governo, estatísticas citadas ou posições privadas. Aceita FDR6, King3 e Sankara7, após os dois reparos que o autor confirmou aplicados. Root informou aceitação FDR/Sankara; King entregue agora para decisão de integração. Total16 códigos,20 desconhecidos; King não passa seis. Gate técnico não substitui este juízo.
+
+## FDR: seis direções aceitas
+
+- [Inaugural1933, Yale](https://avalon.law.yale.edu/20th_century/froos1.asp): corpo18–52 efetivamente reaberto/lido; data17. rep60: Constituição42–46 e mandato50; poder excepcional46 é contraponto. pod60: disciplina39–41, combinado à mobilização1944. con60: planejamento de transporte/comunicação/serviços33, supervisão financeira34. **Reparo aplicado:** não atribuir planejamento de toda produção/distribuição a1933.
+- [Four Freedoms1941, UMD](https://voicesofdemocracy.umd.edu/fdr-the-four-freedoms-speech-text/): parágrafos7–91 efetivamente lidos;33–35/48–55 apoio armado externo sustenta dip60/int40. Contraponto86 redução mundial dos armamentos; guerra contra agressão, não violência irrestrita. §42 ausente na reprodução; nenhuma frase inventada para preencher.
+- [Pronunciamento1944, Miller/National Archives](https://millercenter.org/the-presidency/presidential-speeches/january-11-1944-fireside-chat-28-state-union): corpo40–121 efetivamente lido. rep96–100 voto/legislatura; pod/con75–87 mobilização compulsória geral de capital/trabalho; dip50–56 controle armado da paz. Garantias civis102, compensação83 e duração de guerra81 limitam generalização. Welfare não promove eco.
+- [Mensagem comercial1934, USITC1948](https://www.usitc.gov/sites/default/files/publications/332/otap_1_part_2_optimized.pdf): apêndiceA2652–2739 realmente lido, páginas físicas72–74 (índices71–73), impressas63–66. com40: abertura recíproca geral. Defesa2678–2681, gradualismo2704–2715 e não prejuízo dos produtores são contrapontos. A assinatura2737–2739 fixa2/3/1934; não usar1948 como data da declaração.
+
+Aceitos rep/pod/dip/con60, int/com40; seis desconhecidos. A combinação1933–1944 permanece recorte de crise/guerra explicitamente declarado.
+
+## King: três direções aceitas; nove desconhecidos mantidos
+
+- [Beyond Vietnam1967, Hawaii](https://www.hawaii.edu/mauispeech/html/mlkbeyondvietnam.html): cabeçalho0–22 e corpo32–116 efetivamente lidos. rep57–59/100–102 democracia/eleições; dip73–83/97–100 rejeição geral da guerra; int43–61/77–84/89–101 autodeterminação e crítica multirregional à intervenção. Ajuda/reparação/asilo84, ONU99 e solidariedade101 impedem inferir isolamento. Estatísticas e narrativa histórica do orador não auditadas. Nobel37 tem erro corrigido116; não usado biograficamente. Citação budista68–70 e versos114–115 não codificados como autoria original.
+- [Other America1967, CRMVet](https://www.crmvet.org/docs/otheram.htm): cabeçalho0–3, corpo7–41 e66–100 efetivamente lidos. rep18–24/89 voto e poder partilhado. Renda garantida80 não resolve propriedade/alocação gerais; igualdade racial não estabelece todo pluralismo cultural. Data14/4/1967 deriva do enquadramento editorial2; não confundir variante1968.
+- [Grosse Pointe1968, arquivo histórico](https://gphistorical.org/mlk/mlkspeech/mlk-gp-speech.pdf): cabeçalho/corpo0–51 e179–283 efetivamente lidos; não leitura integral305linhas. dip215–218 pacifismo próprio com **exceção explícita contra Hitler**; intervenção da plateia209–211 excluída. Relato de campanha241–262 não programa econômico geral. Data14/3/1968 no cabeçalho3.
+
+Aceitos rep60/dip40/int60. Nenhum pedido de seis. Verificação isoladaBun: nove eixos desconhecidos em50 sem evidence/axisEvidence/coding; original não mutado, ID e fontes antigas preservados. est/pod/imi/eco/con/com/rel/mor/tec ficam desconhecidos.
+
+## Sankara: sete direções aceitas
+
+- [Programa adotado1983](https://www.thomassankara.net/the-political-orientation-speech-thomas-sankara/?lang=en): enquadramento coletivo34–45 distinguido do orador; corpo52–106/112–283 efetivamente lido. est40/rep40: hierarquia nacional166–182, exclusão124–135/163; eleições/autonomia182 preservadas. Tradução181 contém frase de subordinação malformada, mas poder supremo181 e limites superiores182 sustentam a direção; não alegar edição crítica. pod60: força126 e proibição cultural245; rejeição a burocracia autoritária/vandalismo189–190 contrapõe. con60: programa nacional227–250; não equivale a propriedade estatal geral. dip40/int60: princípios gerais268–272. **Reparo aplicado:** defesa armada203–215, capacidade206/território215 e solidariedade273–277 preservadas; não agressão270 não significa abolir Exército.
+- [Emancipação1987](https://www.thomassankara.net/la-liberation-de-la-femme-une/?lang=en): corpo45–165/186–277 efetivamente lido. mor60: casamento escolhido198–202, igualdade familiar232, dote225 e costumes corporais245; ultrapassa nomeação feminina isolada. Maternidade258–263, crítica à prostituição116–126 e ambivalências193–197 são limites. Sem inferência sobre aborto/LGBT. Tradução memorial, não política implementada certificada.
+
+Aceitos est/rep/dip40, pod/int/con/mor60; cinco desconhecidos. Fontes antigas arquivadas não foram todas reabertas neste parecer. Não recertifica cada código legado nem atribui redação solitária ao programa coletivo.

@@ -35,7 +35,7 @@ import {
 import { Radar } from 'react-chartjs-2'
 import { Chart as ChartJS, RadialLinearScale, PointElement, LineElement, Filler, Tooltip } from 'chart.js'
 import { AXES, ANSWER_OPTIONS, axisIntensity, parseResultSearch, scoreAnswers, type AnswerValue, type AxisScores } from '../lib/scoring'
-import { countDocumentedEvidenceAxes, documentedEvidenceAxes, matchReferences, partitionMatchReferences, type ReferenceMatch } from '../lib/matching'
+import { countDocumentedEvidenceAxes, documentedEvidenceAxes, preferredDocumentarySourceTitle, matchReferences, partitionMatchReferences, type ReferenceMatch } from '../lib/matching'
 import { downloadShareImage } from '../lib/share-image'
 import { questions, questionIds36, questionIds60 } from '../data/questions'
 import { referenceEntries, type ReferenceCategory, type ReferenceEntry } from '../data/references'
@@ -687,13 +687,13 @@ function ShareCard({ scores, matches }: { scores: AxisScores; matches: Reference
     .slice(0, 3)
   return <div className="share-card">
     <div className="share-card-head"><span className="wordmark">12eixos</span><span>SEU RESULTADO · 12 DIMENSÕES</span></div>
-    <section className="share-card-hero">
+    <section className="share-card-hero" data-extended-title={!isBalanced && (topIdeology?.reference.name.length ?? 0) > 55}>
       <div className="share-card-intro" data-long-title={(topIdeology?.reference.name.length ?? 0) > 22}><h2>{isBalanced ? <>Um perfil próximo<br/><em>do centro.</em></> : <>Seu perfil se aproxima<br/>principalmente de<br/><em>{topIdeology?.reference.name ?? 'doze dimensões'}.</em></>}</h2><p>{isBalanced ? 'Suas respostas ficaram próximas ao centro nos doze eixos. Isso descreve um vetor equilibrado, não um rótulo político.' : <>Os polos mais marcados nas suas respostas: {signatureAxes.map(({ axis, score, intensity }) => `${axisPoleName(axis)} (${formatPercent(intensity)}% ${score >= 50 ? axis.left : axis.right})`).join(' · ')}.</>}</p></div>
-      {isBalanced ? <aside className="share-ideology-feature share-neutral-feature"><p>PERFIL EQUILIBRADO</p><h3>Respostas próximas ao centro</h3><p>As comparações abaixo aproximam vetores documentados; não definem sua identidade política.</p></aside> : topIdeology && <aside className="share-ideology-feature"><p>IDEOLOGIA MAIS PRÓXIMA</p><strong className="share-feature-score">{formatPercent(topIdeology.similarity)}%</strong><h3>{topIdeology.reference.name}</h3><p>{topIdeology.reference.rationale}</p><small>{topIdeology.reference.period}</small><small>Fonte · {topIdeology.reference.sources[0]?.title}</small></aside>}
+      {isBalanced ? <aside className="share-ideology-feature share-neutral-feature"><p>PERFIL EQUILIBRADO</p><h3>Respostas próximas ao centro</h3><p>As comparações abaixo aproximam vetores documentados; não definem sua identidade política.</p></aside> : topIdeology && <aside className="share-ideology-feature"><p>IDEOLOGIA MAIS PRÓXIMA</p><strong className="share-feature-score">{formatPercent(topIdeology.similarity)}%</strong><h3>{topIdeology.reference.name}</h3><p>{topIdeology.reference.rationale}</p><small>{topIdeology.reference.period}</small><small>Fonte · {preferredDocumentarySourceTitle(topIdeology.reference)}</small></aside>}
     </section>
     <div className="share-card-body">
       <section className="share-axes"><h3>SEUS 12 EIXOS</h3><AxisBars scores={scores} compact/></section>
-      {topPerson && <section className="share-person-feature"><p className="eyebrow">FIGURA MAIS PRÓXIMA</p><ReferenceThumbnail reference={topPerson.reference} style={{ width: '100%', height: 126, objectFit: 'contain' }}/><div className="share-person-heading"><h3>{topPerson.reference.name}</h3><strong>{formatPercent(topPerson.similarity)}%</strong></div><small>{topPerson.reference.period}</small><p>{topPerson.reference.rationale}</p><small>Comparação documental · {topPerson.reference.sources[0]?.title}</small></section>}
+      {topPerson && <section className="share-person-feature"><p className="eyebrow">FIGURA MAIS PRÓXIMA</p><ReferenceThumbnail reference={topPerson.reference} style={{ width: '100%', height: 126, objectFit: 'contain' }}/><div className="share-person-heading"><h3>{topPerson.reference.name}</h3><strong>{formatPercent(topPerson.similarity)}%</strong></div><small>{topPerson.reference.period}</small><p>{topPerson.reference.rationale}</p><small>Comparação documental · {preferredDocumentarySourceTitle(topPerson.reference)}</small></section>}
     </div>
     <div className="share-people-groups"><section className="share-people-strip"><h3>OUTRAS FIGURAS PRÓXIMAS</h3><div className="share-people-grid">{people.filter(item => item.reference.id !== topPerson?.reference.id).slice(0, 3).map(item => <article className="share-person-card" key={item.reference.id}><ReferenceThumbnail reference={item.reference}/><div><h4>{item.reference.name}</h4><strong>{formatPercent(item.similarity)}%</strong></div><small>{item.reference.category === 'public-figure' ? 'Figura pública' : 'Figura histórica'}</small></article>)}</div></section></div>
     <div className="share-card-lower">

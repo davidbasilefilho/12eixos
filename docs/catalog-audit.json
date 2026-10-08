@@ -34,8 +34,8 @@
     ],
     "provenance": "Executed before local data corrections in this recovery checkpoint; not recomputed from unavailable prior Library checkpoint."
   },
-  "headCommitAtAudit": "04ade7ac8f7ed173902346275e68fe2995d188e8",
-  "integratedCatalogSha256": "f21b07d5b00f73daae5217faab195c16749cf99d8111e3214d7de7aabf363c1c",
+  "headCommitAtAudit": "c220acc9d7c58b803cf18a049e45d9fe8f345067",
+  "integratedCatalogSha256": "0c3a78e5ab3b99be6af7abc05b0cf776809d7134355eeccec2653c0f39ecd534",
   "scope": "Integrated working-tree catalog after preparation; fixed remote baseline and current HEAD are provenance, not immutable copies of modified files.",
   "evidenceGate": {
     "minimumAxes": 6,
@@ -55,12 +55,12 @@
     "Unreviewed directional axes are preserved archival estimates, excluded from ranking; absent located coding does not establish that their direction is false. Prior snapshots preserve available original estimates."
   ],
   "totalTarget": 675,
-  "totalRecords": 690,
-  "structurallyEligible": 71,
-  "documentaryEligible": 21,
-  "insufficientEvidence": 669,
-  "unreviewedDirectionCount": 1330,
-  "summedCategoryIdentityGap": 117,
+  "totalRecords": 696,
+  "structurallyEligible": 76,
+  "documentaryEligible": 29,
+  "insufficientEvidence": 667,
+  "unreviewedDirectionCount": 1298,
+  "summedCategoryIdentityGap": 114,
   "categories": [
     {
       "category": "country",
@@ -77,44 +77,44 @@
       "category": "historical-country",
       "target": 150,
       "records": 128,
-      "structurallyEligible": 3,
-      "documentaryEligible": 3,
-      "insufficientEvidence": 125,
-      "missingIdentitiesBeforeSemanticReview": 22,
-      "preservedExcess": 0,
-      "missingEligibleToTarget": 147
-    },
-    {
-      "category": "public-figure",
-      "target": 150,
-      "records": 99,
-      "structurallyEligible": 18,
-      "documentaryEligible": 2,
-      "insufficientEvidence": 97,
-      "missingIdentitiesBeforeSemanticReview": 51,
-      "preservedExcess": 0,
-      "missingEligibleToTarget": 148
-    },
-    {
-      "category": "historical-figure",
-      "target": 150,
-      "records": 106,
-      "structurallyEligible": 21,
+      "structurallyEligible": 6,
       "documentaryEligible": 6,
-      "insufficientEvidence": 100,
-      "missingIdentitiesBeforeSemanticReview": 44,
+      "insufficientEvidence": 122,
+      "missingIdentitiesBeforeSemanticReview": 22,
       "preservedExcess": 0,
       "missingEligibleToTarget": 144
     },
     {
+      "category": "public-figure",
+      "target": 150,
+      "records": 100,
+      "structurallyEligible": 19,
+      "documentaryEligible": 3,
+      "insufficientEvidence": 97,
+      "missingIdentitiesBeforeSemanticReview": 50,
+      "preservedExcess": 0,
+      "missingEligibleToTarget": 147
+    },
+    {
+      "category": "historical-figure",
+      "target": 150,
+      "records": 108,
+      "structurallyEligible": 22,
+      "documentaryEligible": 10,
+      "insufficientEvidence": 98,
+      "missingIdentitiesBeforeSemanticReview": 42,
+      "preservedExcess": 0,
+      "missingEligibleToTarget": 140
+    },
+    {
       "category": "ideology",
       "target": 75,
-      "records": 207,
+      "records": 210,
       "structurallyEligible": 26,
       "documentaryEligible": 7,
-      "insufficientEvidence": 200,
+      "insufficientEvidence": 203,
       "missingIdentitiesBeforeSemanticReview": 0,
-      "preservedExcess": 132,
+      "preservedExcess": 135,
       "missingEligibleToTarget": 68
     }
   ],
@@ -1481,7 +1481,7 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Prática institucional em 2024; artigos constitucionais nas redações de 2003, 2008 e 10/03/2024 oferecidas pelo Legifrance; Regime aduaneiro descrito institucionalmente em páginas sem data consultadas em 2026-10-07",
+      "period": "Prática institucional em 2024; normas constitucionais e de família de 1946–2024, versões oficiais consultadas em 08/10/2026; regime aduaneiro sem data consultado em 07/10/2026",
       "structurallyEligible": true,
       "documentaryEligible": true,
       "reviewStatus": "located-coding-present-not-truth-certified",
@@ -1510,7 +1510,7 @@
         "rel",
         "mor"
       ],
-      "sourceCount": 9,
+      "sourceCount": 12,
       "sourceUrls": [
         "https://freedomhouse.org/country/france/freedom-world/2025",
         "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000019240997/2022-01-22",
@@ -1520,7 +1520,10 @@
         "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000006527579",
         "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000049255019",
         "https://european-union.europa.eu/priorities-and-actions/actions-topic/customs_en",
-        "https://european-union.europa.eu/principles-countries-history/eu-countries/france_en"
+        "https://european-union.europa.eu/principles-countries-history/eu-countries/france_en",
+        "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000006527445",
+        "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000006527447",
+        "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027431993/2026-04-07"
       ]
     },
     {
@@ -1888,27 +1891,38 @@
       "kind": "country",
       "category": "historical-country",
       "period": "Constituição de 1919, 1919–1933; recorte codificado: Texto fundador de 1919; duração da República 1919–1933 não é prática inalterada.",
-      "structurallyEligible": false,
-      "documentaryEligible": false,
-      "reviewStatus": "insufficient-located-coding",
+      "structurallyEligible": true,
+      "documentaryEligible": true,
+      "reviewStatus": "located-coding-present-not-truth-certified",
       "unreviewedDirectionalAxes": [],
       "mappedAxes": [
         "est",
         "rep",
-        "rel"
+        "pod",
+        "imi",
+        "rel",
+        "mor"
       ],
       "documentedAxes": [
         "est",
         "rep",
-        "rel"
+        "pod",
+        "imi",
+        "rel",
+        "mor"
       ],
       "directionalAxes": [
         "est",
         "rep",
-        "rel"
+        "pod",
+        "imi",
+        "rel",
+        "mor"
       ],
-      "sourceCount": 1,
+      "sourceCount": 3,
       "sourceUrls": [
+        "https://germanhistorydocs.org/en/weimar-germany-1918-1933/the-weimar-constitution-august-11-1919",
+        "https://www.verfassungen.de/de19-33/verf19.htm",
         "https://germanhistorydocs.org/en/weimar-germany-1918-1933/the-weimar-constitution-august-11-1919"
       ]
     },
@@ -9527,38 +9541,43 @@
       "aliases": [],
       "kind": "person",
       "category": "historical-figure",
-      "period": "Discursos e governo de Burkina Faso, 1983–1987",
+      "period": "Programa revolucionário adotado, outubro1983; emancipação das mulheres, março1987",
       "structurallyEligible": true,
-      "documentaryEligible": false,
-      "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep",
-        "int",
-        "eco",
-        "con",
-        "mor"
-      ],
+      "documentaryEligible": true,
+      "reviewStatus": "located-coding-present-not-truth-certified",
+      "unreviewedDirectionalAxes": [],
       "mappedAxes": [
         "est",
         "rep",
+        "pod",
+        "dip",
         "int",
-        "eco",
         "con",
         "mor"
       ],
-      "documentedAxes": [],
+      "documentedAxes": [
+        "est",
+        "rep",
+        "pod",
+        "dip",
+        "int",
+        "con",
+        "mor"
+      ],
       "directionalAxes": [
         "est",
         "rep",
+        "pod",
+        "dip",
         "int",
-        "eco",
         "con",
         "mor"
       ],
-      "sourceCount": 1,
+      "sourceCount": 3,
       "sourceUrls": [
-        "https://www.marxists.org/archive/sankara/1987/07/29.htm"
+        "https://www.marxists.org/archive/sankara/1987/07/29.htm",
+        "https://www.thomassankara.net/the-political-orientation-speech-thomas-sankara/?lang=en",
+        "https://www.thomassankara.net/la-liberation-de-la-femme-une/?lang=en"
       ]
     },
     {
@@ -10426,38 +10445,42 @@
       "aliases": [],
       "kind": "person",
       "category": "historical-figure",
-      "period": "New Deal e presidência dos EUA, 1933–1945",
+      "period": "Declarações presidenciais sobre crise, comércio e guerra, 1933–1944",
       "structurallyEligible": true,
-      "documentaryEligible": false,
-      "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "rep",
-        "pod",
-        "dip",
-        "int",
-        "eco",
-        "con"
-      ],
+      "documentaryEligible": true,
+      "reviewStatus": "located-coding-present-not-truth-certified",
+      "unreviewedDirectionalAxes": [],
       "mappedAxes": [
         "rep",
         "pod",
         "dip",
         "int",
-        "eco",
-        "con"
+        "con",
+        "com"
       ],
-      "documentedAxes": [],
+      "documentedAxes": [
+        "rep",
+        "pod",
+        "dip",
+        "int",
+        "con",
+        "com"
+      ],
       "directionalAxes": [
         "rep",
         "pod",
         "dip",
         "int",
-        "eco",
-        "con"
+        "con",
+        "com"
       ],
-      "sourceCount": 1,
+      "sourceCount": 5,
       "sourceUrls": [
-        "https://www.fdrlibrary.org/address1944"
+        "https://www.fdrlibrary.org/address1944",
+        "https://avalon.law.yale.edu/20th_century/froos1.asp",
+        "https://voicesofdemocracy.umd.edu/fdr-the-four-freedoms-speech-text/",
+        "https://millercenter.org/the-presidency/presidential-speeches/january-11-1944-fireside-chat-28-state-union",
+        "https://www.usitc.gov/sites/default/files/publications/332/otap_1_part_2_optimized.pdf"
       ]
     },
     {
@@ -10468,41 +10491,32 @@
       ],
       "kind": "person",
       "category": "historical-figure",
-      "period": "Discursos por direitos civis e justiça social, 1955–1968",
-      "structurallyEligible": true,
+      "period": "Discursos sobre democracia, pobreza e guerra, abril1967–março1968",
+      "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "rep",
-        "imi",
-        "dip",
-        "int",
-        "eco",
-        "con",
-        "mor"
-      ],
+      "unreviewedDirectionalAxes": [],
       "mappedAxes": [
         "rep",
-        "imi",
         "dip",
-        "int",
-        "eco",
-        "con",
-        "mor"
+        "int"
       ],
-      "documentedAxes": [],
+      "documentedAxes": [
+        "rep",
+        "dip",
+        "int"
+      ],
       "directionalAxes": [
         "rep",
-        "imi",
         "dip",
-        "int",
-        "eco",
-        "con",
-        "mor"
+        "int"
       ],
-      "sourceCount": 1,
+      "sourceCount": 4,
       "sourceUrls": [
-        "https://kinginstitute.stanford.edu/king-papers/documents/beyond-vietnam"
+        "https://kinginstitute.stanford.edu/king-papers/documents/beyond-vietnam",
+        "https://www.hawaii.edu/mauispeech/html/mlkbeyondvietnam.html",
+        "https://www.crmvet.org/docs/otheram.htm",
+        "https://gphistorical.org/mlk/mlkspeech/mlk-gp-speech.pdf"
       ]
     },
     {
@@ -12451,30 +12465,40 @@
       "aliases": [],
       "kind": "country",
       "category": "historical-country",
-      "period": "República Democrática Alemã, 1949–1990",
-      "structurallyEligible": false,
-      "documentaryEligible": false,
-      "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "rep",
-        "eco",
-        "con"
-      ],
+      "period": "República Democrática Alemã, 1949–1990; recorte codificado exclusivamente texto original de 09/04/1968, anterior à revisão de 1974.",
+      "structurallyEligible": true,
+      "documentaryEligible": true,
+      "reviewStatus": "located-coding-present-not-truth-certified",
+      "unreviewedDirectionalAxes": [],
       "mappedAxes": [
+        "est",
         "rep",
+        "dip",
         "eco",
-        "con"
+        "con",
+        "mor"
       ],
-      "documentedAxes": [],
+      "documentedAxes": [
+        "est",
+        "rep",
+        "dip",
+        "eco",
+        "con",
+        "mor"
+      ],
       "directionalAxes": [
+        "est",
         "rep",
+        "dip",
         "eco",
-        "con"
+        "con",
+        "mor"
       ],
-      "sourceCount": 2,
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.documentarchiv.de/ddr/verfddr.html",
-        "https://www.bundesstiftung-aufarbeitung.de/de/recherche/dossiers/deutsche-teilung-deutsche-einheit"
+        "https://www.bundesstiftung-aufarbeitung.de/de/recherche/dossiers/deutsche-teilung-deutsche-einheit",
+        "https://www.verfassungen.de/ddr/verf68.htm"
       ]
     },
     {
@@ -13019,36 +13043,38 @@
       "aliases": [],
       "kind": "country",
       "category": "historical-country",
-      "period": "República Popular, 1948–1994",
+      "period": "República Popular, 1948–1994; recorte codificado exclusivamente texto original27dezembro1972; não revisões1992–2009.",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "rep",
-        "eco",
-        "con",
-        "rel",
-        "mor"
-      ],
+      "unreviewedDirectionalAxes": [],
       "mappedAxes": [
-        "rep",
+        "est",
         "eco",
         "con",
-        "rel",
+        "com",
         "mor"
       ],
-      "documentedAxes": [],
+      "documentedAxes": [
+        "est",
+        "eco",
+        "con",
+        "com",
+        "mor"
+      ],
       "directionalAxes": [
-        "rep",
+        "est",
         "eco",
         "con",
-        "rel",
+        "com",
         "mor"
       ],
-      "sourceCount": 2,
+      "sourceCount": 4,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Peoples_Republic_of_Korea_1972",
-        "https://history.state.gov/countries/korea-north"
+        "https://history.state.gov/countries/korea-north",
+        "https://en.wikisource.org/wiki/Socialist_Constitution_of_the_Democratic_People%27s_Republic_of_Korea_(1972)",
+        "https://ko.wikisource.org/wiki/조선민주주의인민공화국_사회주의헌법_(제7호)"
       ]
     },
     {
@@ -13147,36 +13173,41 @@
       "aliases": [],
       "kind": "country",
       "category": "historical-country",
-      "period": "Reforma e abertura, 1978–1992",
-      "structurallyEligible": false,
-      "documentaryEligible": false,
-      "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "rep",
-        "eco",
-        "con",
-        "rel",
-        "mor"
-      ],
+      "period": "Reforma e abertura, 1978–1992; recorte codificado exclusivamente texto original de 04/12/1982, anterior às emendas de 1988 e 1993.",
+      "structurallyEligible": true,
+      "documentaryEligible": true,
+      "reviewStatus": "located-coding-present-not-truth-certified",
+      "unreviewedDirectionalAxes": [],
       "mappedAxes": [
+        "est",
         "rep",
+        "imi",
         "eco",
         "con",
-        "rel",
         "mor"
       ],
-      "documentedAxes": [],
+      "documentedAxes": [
+        "est",
+        "rep",
+        "imi",
+        "eco",
+        "con",
+        "mor"
+      ],
       "directionalAxes": [
+        "est",
         "rep",
+        "imi",
         "eco",
         "con",
-        "rel",
         "mor"
       ],
-      "sourceCount": 2,
+      "sourceCount": 4,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/China_1982",
-        "https://history.state.gov/milestones/1969-1976/rapprochement-china"
+        "https://history.state.gov/milestones/1969-1976/rapprochement-china",
+        "https://www.ifes.org/sites/default/files/migrate/con00014.pdf",
+        "https://en.wikisource.org/wiki/Constitution_of_the_People%27s_Republic_of_China_(1982)"
       ]
     },
     {
@@ -17000,28 +17031,29 @@
       "mappedAxes": [
         "est",
         "rep",
-        "imi",
         "eco",
-        "con"
+        "con",
+        "mor"
       ],
       "documentedAxes": [
         "est",
         "rep",
-        "imi",
         "eco",
-        "con"
+        "con",
+        "mor"
       ],
       "directionalAxes": [
         "est",
         "rep",
-        "imi",
         "eco",
-        "con"
+        "con",
+        "mor"
       ],
-      "sourceCount": 2,
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.psp.cz/docs/texts/constitution_1960.html",
-        "https://www.psp.cz/docs/texts/constitution_1968.html"
+        "https://www.psp.cz/docs/texts/constitution_1968.html",
+        "https://www.psp.cz/docs/texts/constitution_1960.html"
       ]
     },
     {
@@ -21451,6 +21483,91 @@
       ]
     },
     {
+      "id": "na-james-madison",
+      "name": "James Madison",
+      "aliases": [],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "Programa inaugural de4/3/1809; contraponto posterior explícito de4/3/1813",
+      "structurallyEligible": true,
+      "documentaryEligible": true,
+      "reviewStatus": "located-coding-present-not-truth-certified",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "est",
+        "rep",
+        "pod",
+        "dip",
+        "int",
+        "rel"
+      ],
+      "documentedAxes": [
+        "est",
+        "rep",
+        "pod",
+        "dip",
+        "int",
+        "rel"
+      ],
+      "directionalAxes": [
+        "est",
+        "rep",
+        "pod",
+        "dip",
+        "int",
+        "rel"
+      ],
+      "sourceCount": 4,
+      "sourceUrls": [
+        "https://avalon.law.yale.edu/subject_menus/fed.asp",
+        "https://avalon.law.yale.edu/19th_century/madison1.asp",
+        "https://avalon.law.yale.edu/19th_century/madison2.asp",
+        "https://www.montpelier.org/learn/the-life-of-james-madison/"
+      ]
+    },
+    {
+      "id": "na-james-monroe",
+      "name": "James Monroe",
+      "aliases": [],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "Programa inaugural presidencial de4/3/1817",
+      "structurallyEligible": true,
+      "documentaryEligible": true,
+      "reviewStatus": "located-coding-present-not-truth-certified",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "est",
+        "rep",
+        "pod",
+        "dip",
+        "int",
+        "com"
+      ],
+      "documentedAxes": [
+        "est",
+        "rep",
+        "pod",
+        "dip",
+        "int",
+        "com"
+      ],
+      "directionalAxes": [
+        "est",
+        "rep",
+        "pod",
+        "dip",
+        "int",
+        "com"
+      ],
+      "sourceCount": 3,
+      "sourceUrls": [
+        "https://www.presidency.ucsb.edu/documents/inaugural-address-23",
+        "https://avalon.law.yale.edu/19th_century/monroe1.asp",
+        "https://highland.org/discover-monroe/"
+      ]
+    },
+    {
       "id": "atiku-abubakar",
       "name": "Atiku Abubakar",
       "aliases": [
@@ -21522,6 +21639,52 @@
       "sourceUrls": [
         "https://vlada.gov.cz/cz/vlada/programove-prohlaseni/programove-prohlaseni-vlady-224629/",
         "https://vlada.gov.cz/cz/media-centrum/tiskove-konference/tiskova-konference-po-jednani-vlady--5--ledna-2026-224664/"
+      ]
+    },
+    {
+      "id": "na-hillary-clinton",
+      "name": "Hillary Clinton",
+      "aliases": [
+        "Hillary Rodham Clinton",
+        "Hillary Clinton",
+        "hillary-clinton"
+      ],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "Discurso próprio28/07/2016 e plataforma coletiva endossada; atividade verificada22/09/2026",
+      "structurallyEligible": true,
+      "documentaryEligible": true,
+      "reviewStatus": "located-coding-present-not-truth-certified",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "rep",
+        "pod",
+        "imi",
+        "dip",
+        "int",
+        "mor"
+      ],
+      "documentedAxes": [
+        "rep",
+        "pod",
+        "imi",
+        "dip",
+        "int",
+        "mor"
+      ],
+      "directionalAxes": [
+        "rep",
+        "pod",
+        "imi",
+        "dip",
+        "int",
+        "mor"
+      ],
+      "sourceCount": 3,
+      "sourceUrls": [
+        "https://www.presidency.ucsb.edu/documents/2016-democratic-party-platform",
+        "https://www.presidency.ucsb.edu/documents/address-accepting-the-presidential-nomination-the-democratic-national-convention",
+        "https://www.reutersconnect.com/item/former-united-states-secretary-of-state-hillary-clinton-speaks-during-the-clinton-global-initiative-2026-annual-meeting-in-new-york-city/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1JDMkRPTkExNzZHSg"
       ]
     },
     {
@@ -21665,6 +21828,88 @@
       "sourceCount": 1,
       "sourceUrls": [
         "https://www.technate.org/pdf/Technocracy%20study%20guide.pdf"
+      ]
+    },
+    {
+      "id": "ideology-program-anarcho-syndicalism-iwa-2022",
+      "name": "Anarcossindicalismo: programa da AIT/IWA, 2022",
+      "aliases": [],
+      "kind": "ideology",
+      "category": "ideology",
+      "period": "Estatutos aprovados 9–10 dezembro 2022; página atualizada 10 fevereiro 2023",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "est",
+        "dip",
+        "eco",
+        "con"
+      ],
+      "documentedAxes": [
+        "est",
+        "dip",
+        "eco",
+        "con"
+      ],
+      "directionalAxes": [
+        "est",
+        "dip",
+        "eco",
+        "con"
+      ],
+      "sourceCount": 1,
+      "sourceUrls": [
+        "https://www.iwa-ait.org/content/statutes"
+      ]
+    },
+    {
+      "id": "ideology-program-insurrectionary-anarchism-bonanno-1999",
+      "name": "Anarquismo insurrecional: projeto organizativo de Bonanno, 1999",
+      "aliases": [],
+      "kind": "ideology",
+      "category": "ideology",
+      "period": "Texto original 1999; introdução datada 21 novembro 1998; tradução inglesa 2009",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
+      "documentedAxes": [],
+      "directionalAxes": [],
+      "sourceCount": 1,
+      "sourceUrls": [
+        "https://theanarchistlibrary.org/library/alfredo-m-bonanno-insurrectionalist-anarchism"
+      ]
+    },
+    {
+      "id": "ideology-program-participatory-economics-hahnel-2014",
+      "name": "Economia participativa: governança econômica de Hahnel, 2014",
+      "aliases": [],
+      "kind": "ideology",
+      "category": "ideology",
+      "period": "The Case for Participatory Economics; manuscrito New Left Project 2014",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "eco",
+        "con"
+      ],
+      "documentedAxes": [
+        "eco",
+        "con"
+      ],
+      "directionalAxes": [
+        "eco",
+        "con"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.sscc.wisc.edu/soc/faculty/pages/wright/Published%20writing/Alternatives%20to%20Capitalism.pdf",
+        "https://www.sscc.wisc.edu/soc/faculty/pages/wright/selected-published-writings.htm"
       ]
     },
     {

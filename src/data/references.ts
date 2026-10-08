@@ -46,9 +46,19 @@ import { reviewCurrentCountryEconomicScope } from './reference-current-country-s
 import { historicalCountryBatch08 } from './reference-historical-country-batch-08';
 import { publicFigureBatch07 } from './reference-public-figure-batch-07';
 import { historicalFigureBatch07 } from './reference-historical-figure-batch-07';
+import { historicalFigureBatch08 } from './reference-historical-figure-batch-08';
+import { clarifyCurrentCountryQuality06 } from './reference-current-country-quality-06';
+import { extendHistoricalCountryCoverage10 } from './reference-historical-country-coverage-10';
+import { extendHistoricalCountryCoverage11 } from './reference-historical-country-coverage-11';
+import { extendHistoricalCountryCoverage13 } from './reference-historical-country-coverage-13';
+import { extendHistoricalCountryCoverage12 } from './reference-historical-country-coverage-12';
+import { extendHistoricalCountryCoverage14 } from './reference-historical-country-coverage-14';
+import { reconcileLegacyHistoricalQuality02 } from './reference-legacy-historical-quality-02';
+import { ideologyProgramBatch02 } from './reference-ideology-program-batch-02';
 import { extendHistoricalCountryCoverage08 } from './reference-historical-country-coverage-08';
 import { publicFigureBatch08 } from './reference-public-figure-batch-08';
 import { publicFigureBatch09 } from './reference-public-figure-batch-09';
+import { publicFigureBatch11 } from './reference-public-figure-batch-11';
 import { historicalCountryBatch09 } from './reference-historical-country-batch-09';
 import { historicalCountryBatch10 } from './reference-historical-country-batch-10';
 import { ideologyProgramBatch01 } from './reference-ideology-program-batch-01';
@@ -576,11 +586,14 @@ export const referenceExpansionEntries: ReferenceEntry[] = [
   ...historicalCountryBatch08,
   ...publicFigureBatch07,
   ...historicalFigureBatch07,
+  ...historicalFigureBatch08,
   ...publicFigureBatch08,
   ...publicFigureBatch09,
+  ...publicFigureBatch11,
   ...historicalCountryBatch09,
   ...historicalCountryBatch10,
   ...ideologyProgramBatch01,
+  ...ideologyProgramBatch02,
   ...currentCountryBatch.map(entry => ({ ...entry, coding: currentCountryBatchCoding[entry.id] })),
 ].map(prepareExpansionEntry);
 
@@ -588,4 +601,4 @@ export const referenceEntries: ReferenceEntry[] = [
   ...correctedBaseReferenceEntries,
   ...referenceExpansionEntries,
 ].map(reconcileHistoricalCountry03).map(reconcileCurrentCountry04).map(extendCurrentCountryCoverage05).map(reconcileHistoricalCountry04).map(reconcileSoros)
-  .map(entry => historicalLegacyRecoding.find(replacement => replacement.id === entry.id) ?? entry).map(withIdentityAliases).map(reconcileLegacyPublicQuality01).map(reconcileLegacyHistoricalQuality01).map(reviewCurrentCountryEconomicScope).map(extendHistoricalCountryCoverage08).map(reconcileExistingIdeology01).map(extendHistoricalCountryCoverage09).map(reconcileLegacyPublicQuality02).map(reviewCurrentCountryScope02);
+  .map(entry => historicalLegacyRecoding.find(replacement => replacement.id === entry.id) ?? entry).map(withIdentityAliases).map(reconcileLegacyPublicQuality01).map(reconcileLegacyHistoricalQuality01).map(reviewCurrentCountryEconomicScope).map(extendHistoricalCountryCoverage08).map(reconcileExistingIdeology01).map(extendHistoricalCountryCoverage09).map(reconcileLegacyPublicQuality02).map(reviewCurrentCountryScope02).map(clarifyCurrentCountryQuality06).map(extendHistoricalCountryCoverage10).map(extendHistoricalCountryCoverage11).map(extendHistoricalCountryCoverage13).map(extendHistoricalCountryCoverage12).map(extendHistoricalCountryCoverage14).map(reconcileLegacyHistoricalQuality02);

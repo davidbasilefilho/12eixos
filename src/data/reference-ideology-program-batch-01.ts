@@ -54,7 +54,7 @@ const entry: ReferenceEntry = {
   period:'Programa do Study Course, edição eletrônica 1.1, 2004',
   sources:[source],vec:Object.fromEntries(axes.map(axis=>[axis,50])) as Record<AxisKey,number>,
   evidence:{},axisEvidence:{},coding:{},
-  rationale:'Programa político explicitamente afirmado pela organização: autoridade funcional continental e produção/distribuição comuns. Âncoras ordinais editoriais, não porcentagens medidas.',
+  rationale:'Propõe autoridade funcional continental e produção e distribuição comuns. Valores são âncoras editoriais, não medidas.',
   caveats:'Exemplar único de tecnocracia para a seleção, não doutrina adicional independente de um Veblen supostamente endossado. Veblen é outro registro histórico preservado, com projeto condicional não qualificado. Não valida abundância, previsão de colapso, viabilidade ou realização do programa. Seis eixos não verificam independência de todas as tradições; religião, migração, diplomacia, nacionalismo, comércio e moral permanecem desconhecidos.',
 };
 for(const input of inputs){

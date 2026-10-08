@@ -74,6 +74,25 @@ export function documentedEvidenceAxes(reference: MatchableReference): AxisKey[]
   });
 }
 
+/** Representative caption source: most distinct valid coded axes; ties follow bibliography order.
+ * Preserves the complete bibliography and makes no claim of sole-source attribution.
+ */
+export function preferredDocumentarySourceTitle(reference: MatchableReference): string | undefined {
+  const counts = new Map<string, number>();
+  for (const axis of documentedEvidenceAxes(reference)) {
+    for (const title of new Set(reference.coding![axis]!.claims.map(claim => claim.sourceTitle))) {
+      counts.set(title, (counts.get(title) ?? 0) + 1);
+    }
+  }
+  let selected: string | undefined;
+  let greatest = 0;
+  for (const source of reference.sources ?? []) {
+    const count = counts.get(source.title) ?? 0;
+    if (count > greatest) { selected = source.title; greatest = count; }
+  }
+  return selected;
+}
+
 export function countDocumentedEvidenceAxes(reference: MatchableReference): number {
   return documentedEvidenceAxes(reference).length;
 }

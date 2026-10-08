@@ -3,14 +3,14 @@
  */
 export const ideologySelectionSnapshot = {
   "date": "2026-10-08",
-  "catalogCount": 207,
+  "catalogCount": 210,
   "intendedSubsetCount": 75,
   "readyForDefaultUse": false,
-  "boundedReviewedReferents": 58,
-  "referentCountScope": "Unique selected IDs reviewed in the ontology sequence; prior LP reading was additionally reopened for §§2.1/2.4. Combahee remains an additionally reviewed alternative; modern Leopold explanation alone is excluded from the primary-referent count.",
-  "boundedTwoSidedContrasts": 39,
+  "boundedReviewedReferents": 60,
+  "referentCountScope": "Unique current selected programme IDs, including two newly reviewed normative referents Bonanno/Hahnel. IWA 2022 replaces already-reviewed generic IWA without increasing count. Full 75 independence remains unverified.",
+  "boundedTwoSidedContrasts": 41,
   "preservedOriginalCatalogCount": 206,
-  "partitionCountScope": "Integrated catalog identity ledger including one explicit Inc 2004 program. All 206 original identities retained; 75selected and132alternatives, without global distinctness certification.",
+  "partitionCountScope": "Integrated ledger 210 = 75 selected + 135 alternatives; all 206 original identities retained. Three explicit dated programmes integrated after bounded source and axis review; no global distinctness certification.",
   "pendingCatalogIds": [],
   "independent75Verified": false
 } as const;
@@ -648,12 +648,12 @@ export const ideologySelectionFamilies = [
   {
     "id": "socialist",
     "label": "Socialismo, propriedade e estratégia",
-    "count": 13
+    "count": 14
   },
   {
     "id": "anarchist",
     "label": "Antiautoritarismo e autogoverno",
-    "count": 10
+    "count": 11
   },
   {
     "id": "decolonial",
@@ -673,12 +673,12 @@ export const ideologySelectionFamilies = [
   {
     "id": "democratic",
     "label": "Participação e desenho institucional",
-    "count": 8
+    "count": 7
   },
   {
     "id": "development",
     "label": "Desenvolvimento e coordenação econômica",
-    "count": 2
+    "count": 1
   },
   {
     "id": "technical",
@@ -1321,6 +1321,38 @@ export const ideologySelectionSources = [
     "supports": "Programa continental afirmado pela organização com autoridade autoseletiva, polícia, provisão e alocação geral. Edição explicitada; fonte não atribuída a Veblen. Pesquisa e automação reais no programa, não prova de eficiência ou ciência.",
     "readAt": "2026-10-08",
     "accessLimit": "Organizational-host alternative 404; primary Technate actual body read. Separate 1945 scan metadata only, not corroborating body."
+  },
+  {
+    "id": "bonanno-affinity-program-1999",
+    "title": "Insurrectionalist Anarchism — Bonanno 1999 / English 2009",
+    "url": "https://theanarchistlibrary.org/library/alfredo-m-bonanno-insurrectionalist-anarchism",
+    "locator": "First introduction, actual 120–178/190–208; author date 21 November 1998 at 226; original/translation metadata",
+    "supports": "Antiestado/propriedade e auto-organização social; núcleos terminam com objetivo, rejeitando organização congressual permanente. Projeto normativo, não futuro sistema constitucional completo.",
+    "readAt": "2026-10-08"
+  },
+  {
+    "id": "hahnel-economic-governance-2014",
+    "title": "The Case for Participatory Economics — Hahnel, New Left Project manuscript 2014",
+    "url": "https://www.sscc.wisc.edu/soc/faculty/pages/wright/Published%20writing/Alternatives%20to%20Capitalism.pdf",
+    "locator": "Author chapter 1 printed 2–8/PDF 12–19, especially 117–149/175–189/220–243; chapter 5 note55 at PDF107",
+    "supports": "Instituições econômicas democraticamente justificadas, tarefas equilibradas e esforço julgado pelos pares; explicitamente não estratégia/programa político completo134–135.",
+    "readAt": "2026-10-08"
+  },
+  {
+    "id": "hahnel-manuscript-edition-inventory",
+    "title": "Erik Olin Wright author inventory — New Left Project2014 manuscript",
+    "url": "https://www.sscc.wisc.edu/soc/faculty/pages/wright/selected-published-writings.htm",
+    "locator": "365–366, New Left Project2014 direct PDF link; separately 33 lists Verso 2016",
+    "supports": "Metadado autoral vincula exatoPDF145p à edição2014, não presume equivalência à impressão2016. Não fonte de posição de eixo.",
+    "readAt": "2026-10-08"
+  },
+  {
+    "id": "gic-remuneration-rule-1930",
+    "title": "GIC Fundamental Principles, ChapterVI — original 1930 / edited translation 1990",
+    "url": "https://www.marxists.org/subject/left-wing/gik/1930/06.htm",
+    "locator": "III actual 83–111; IV 114–131; translation metadata",
+    "supports": "Remuneração inicial por horas×FIC comum; rejeita agência de alocação subjetiva. Distribuição segundo necessidades se expande para serviços; FIC local pode variar.",
+    "readAt": "2026-10-08"
   }
 ] as const;
 
@@ -1663,15 +1695,15 @@ export const intendedIdeologySelection = [
     "ontologyLimit": "Contrastes localizados sobre troca/distribuição ou legitimidade da força defensiva. Relação Tucker/Proudhon e anarcossindicalismo/comunismo permanece aninhada ou aberta; as edições lidas não equivalem a toda história da corrente."
   },
   {
-    "id": "ideology-anarcho-syndicalism",
-    "name": "Anarcossindicalismo",
+    "id": "ideology-program-anarcho-syndicalism-iwa-2022",
+    "name": "Anarcossindicalismo: programa da AIT/IWA, 2022",
     "family": "anarchist",
-    "selectionRationale": "Sindicatos e ação direta como organização social",
+    "selectionRationale": "Organização revolucionária durável de congressos, conselhos produtores e federalismo social; exemplar normativo datado substitui atribuição indevida à fundação genérica de 1922.",
     "reviewStatus": "referent-and-bounded-neighbor-contrast-reviewed",
-    "documentedAxisCountAtSnapshot": 0,
+    "documentedAxisCountAtSnapshot": 4,
     "ontologyStatus": "bounded-normative-referent-reviewed",
     "contrastStatus": "bounded-primary-neighbor-contrast",
-    "ontologyLimit": "Contrastes localizados sobre troca/distribuição ou legitimidade da força defensiva. Relação Tucker/Proudhon e anarcossindicalismo/comunismo permanece aninhada ou aberta; as edições lidas não equivalem a toda história da corrente."
+    "ontologyLimit": "Uma única seleção anarcossindicalista. Programa aprovado em 2022, página 2023; direitos políticos gerais e poder civil desconhecidos na codificação inicial. Relação com comunismo libertário continua aninhada, sem certificação de todas as doutrinas."
   },
   {
     "id": "ideology-mutualism",
@@ -1953,14 +1985,15 @@ export const intendedIdeologySelection = [
     "ontologyLimit": "Contraste específico com Manifesto Ecomodernista 2015 localizado; relações entre demais correntes ecológicas permanecem abertas e não são mutuamente exclusivas."
   },
   {
-    "id": "ideology-republicanism",
-    "name": "Republicanismo cívico",
-    "family": "democratic",
-    "selectionRationale": "Cidadania, leis e participação republicana",
-    "reviewStatus": "provisional",
+    "id": "ideology-program-insurrectionary-anarchism-bonanno-1999",
+    "name": "Anarquismo insurrecional: projeto organizativo de Bonanno, 1999",
+    "family": "anarchist",
+    "selectionRationale": "Autonomia de afinidades e núcleos temporários, recusando congressos e programa organizativo permanente; oposição constitutiva ao modelo durável da IWA.",
+    "reviewStatus": "referent-and-bounded-neighbor-contrast-reviewed",
     "documentedAxisCountAtSnapshot": 0,
-    "ontologyStatus": "provisional-normative-referent",
-    "contrastStatus": "not-independently-verified"
+    "ontologyStatus": "bounded-normative-referent-reviewed",
+    "contrastStatus": "bounded-primary-neighbor-contrast",
+    "ontologyLimit": "Projeto/método político normativo, não constituição completa. Não inferir diferença só por autor ou edição; a oposição normativa é organização temporária versus durável. Nenhum eixo amplo codificado neste grupo."
   },
   {
     "id": "civic-participatory-democracy",
@@ -2039,15 +2072,15 @@ export const intendedIdeologySelection = [
     "contrastStatus": "not-independently-verified"
   },
   {
-    "id": "ideology-dependency-theory",
-    "name": "Teoria da dependência",
-    "family": "development",
-    "selectionRationale": "Dependência estrutural internacional",
-    "reviewStatus": "provisional",
-    "documentedAxisCountAtSnapshot": 0,
-    "ontologyStatus": "explanatory-framework",
-    "contrastStatus": "not-independently-verified",
-    "ontologyLimit": "Teoria explicativa de desenvolvimento; agenda normativa e contraste perante desenvolvimentismo ainda precisam de prova."
+    "id": "ideology-program-participatory-economics-hahnel-2014",
+    "name": "Economia participativa: governança econômica de Hahnel, 2014",
+    "family": "socialist",
+    "selectionRationale": "Autoridade econômica justa: poder proporcional ao impacto, tarefas equilibradas e remuneração por esforço julgado por colegas; contraste localizado com regra de horas de GIC.",
+    "reviewStatus": "referent-and-bounded-neighbor-contrast-reviewed",
+    "documentedAxisCountAtSnapshot": 2,
+    "ontologyStatus": "bounded-normative-referent-reviewed",
+    "contrastStatus": "bounded-primary-neighbor-contrast",
+    "ontologyLimit": "Hahnel declara que o modelo não é estratégia de transição nem programa político completo. Endosso normativo das instituições econômicas é explícito; não universalizar a toda constituição. Contraste é remuneração inicial e autoridade de julgamento, preservando evolução de GIC para necessidades e sobreposição em conselhos."
   },
   {
     "id": "ideology-left-guild-socialism",
@@ -2180,7 +2213,7 @@ export const ideologyOverlapChecks = [
     "status": "provisional-local-metadata-check"
   },
   {
-    "a": "ideology-anarcho-syndicalism",
+    "a": "ideology-program-anarcho-syndicalism-iwa-2022",
     "b": "ideology-left-revolutionary-syndicalism",
     "relation": "overlapping-traditions",
     "rationale": "Anarcossindicalismo e sindicalismo revolucionário têm sobreposição organizacional; nesta seleção prefere-se a doutrina explicitamente antiestatal.",
@@ -2405,7 +2438,7 @@ export const ideologyOverlapChecks = [
   },
   {
     "a": "ideology-pacifist-anarchism",
-    "b": "ideology-anarcho-syndicalism",
+    "b": "ideology-program-anarcho-syndicalism-iwa-2022",
     "relation": "nonresistance-versus-revolutionary-defensive-force",
     "rationale": "TolstóiII/VII rejeita coerção militar; IWA 2023 II.7/10 admite milícias e violência defensiva sob organizações econômicas de trabalhadores. Registra conflito normativo delimitado, não toda estratégia de todo sindicato desde 1922.",
     "status": "bounded-primary-contrast"
@@ -2418,7 +2451,7 @@ export const ideologyOverlapChecks = [
     "status": "both-primary-referents-read-contrast-unresolved"
   },
   {
-    "a": "ideology-anarcho-syndicalism",
+    "a": "ideology-program-anarcho-syndicalism-iwa-2022",
     "b": "ideology-anarcho-communism",
     "relation": "nested-or-specific-distribution-contrast-unresolved",
     "rationale": "IWA especifica organização sindical e ação direta como transição ao comunismo libertário; Kropotkin também discute associações operárias. Adição estratégica localizada, fronteira doutrinal exclusiva não provada.",
@@ -2597,6 +2630,20 @@ export const ideologyOverlapChecks = [
     "b": "ideology-right-bonapartism",
     "relation": "hereditary-legislative-duration-chamber-versus-only-hereditary-imperial-power",
     "rationale": "Constant 1815 II exige câmara hereditária como um dos poderes legislativos, distinta da eletiva; Bonaparte 1839 printed 90–94 reserva hereditariedade ao poder imperial e defende Senado não hereditário, explicitamente rejeitando câmara hereditária para França (p91 nota). Ambos conservam monarquia e representação restrita. Divergência concreta na autoridade legislativa, não prova de exclusão entre todos os monarquismos ou de franquia universal.",
+    "status": "bounded-primary-contrast"
+  },
+  {
+    "a": "ideology-program-anarcho-syndicalism-iwa-2022",
+    "b": "ideology-program-insurrectionary-anarchism-bonanno-1999",
+    "relation": "durable-congress-organizing-versus-goal-limited-affinity-nuclei",
+    "rationale": "IWA VI mantém congressos e decisões vinculantes qualificadas por rejeição nacional/referendo; Bonanno rejeita estrutura/programa permanente e dissolve núcleos após objetivo. Ambos defendem auto-organização revolucionária: contraste não é violência versus não violência.",
+    "status": "bounded-primary-contrast"
+  },
+  {
+    "a": "ideology-program-participatory-economics-hahnel-2014",
+    "b": "ideology-council-communism",
+    "relation": "peer-effort-judging-versus-common-labour-hour-rule-in-initial-distribution",
+    "rationale": "Hahnel pp2–4 remunera esforço por julgamento dos colegas e tarefas equilibradas; GICVI83–111 usa horas×FIC, rejeitando distribuição subjetiva por agência. GICIV expande serviços por necessidades; não oposição entre todos os conselhos ou todas as fases.",
     "status": "bounded-primary-contrast"
   }
 ] as const;
@@ -4317,6 +4364,39 @@ export const preservedIdeologyAlternatives = [
     ],
     "documentedAxisCountAtSnapshot": 0,
     "reviewStatus": "preserved-not-selected"
+  },
+  {
+    "id": "ideology-anarcho-syndicalism",
+    "name": "Anarcossindicalismo",
+    "reasonCode": "preserved-scope-or-overlap-review",
+    "compareWith": "ideology-program-anarcho-syndicalism-iwa-2022",
+    "decisionRationale": "Registro genérico original preservado: exemplar datado 2022 possui identidade própria e não é atribuído inalterado à fundação de 1922.",
+    "catalogRationale": "Sindicatos e ação direta como organização social",
+    "catalogSourceTitles": [],
+    "documentedAxisCountAtSnapshot": 0,
+    "reviewStatus": "preserved-original-record-not-deleted"
+  },
+  {
+    "id": "ideology-republicanism",
+    "name": "Republicanismo cívico",
+    "reasonCode": "preserved-scope-or-overlap-review",
+    "compareWith": "ideology-program-insurrectionary-anarchism-bonanno-1999",
+    "decisionRationale": "Rótulo amplo sem contraste adicional estabelecido frente a Madison/republicanismo federal já selecionado; preservado, não declaração de que toda tradição republicana é sinônimo.",
+    "catalogRationale": "Cidadania, leis e participação republicana",
+    "catalogSourceTitles": [],
+    "documentedAxisCountAtSnapshot": 0,
+    "reviewStatus": "preserved-original-record-not-deleted"
+  },
+  {
+    "id": "ideology-dependency-theory",
+    "name": "Teoria da dependência",
+    "reasonCode": "preserved-scope-or-overlap-review",
+    "compareWith": "ideology-program-participatory-economics-hahnel-2014",
+    "decisionRationale": "Perfil explicativo não estabelece aqui programa de autoridade e ação coletiva; aplicações normativas mais amplas da teoria não são negadas.",
+    "catalogRationale": "Dependência estrutural internacional",
+    "catalogSourceTitles": [],
+    "documentedAxisCountAtSnapshot": 0,
+    "reviewStatus": "preserved-original-record-not-deleted"
   }
 ] as const;
 
@@ -4353,6 +4433,27 @@ export const ideologyOntologySubstitutions = [
     "removedId": "ideology-technocracy",
     "selectedId": "ideology-program-technocracy-inc-2004",
     "reason": "Modelo hipotético sem endosso não qualifica doutrina afirmada; programa institucional explícito substitui o único slot tecnocrático, mantendo o antigo registro.",
+    "status": "bounded-provisional-substitution-new-explicit-program",
+    "catalogRecordsDeleted": false
+  },
+  {
+    "removedId": "ideology-anarcho-syndicalism",
+    "selectedId": "ideology-program-anarcho-syndicalism-iwa-2022",
+    "reason": "Registro genérico original preservado: exemplar datado 2022 possui identidade própria e não é atribuído inalterado à fundação de 1922.",
+    "status": "bounded-provisional-substitution-new-explicit-program",
+    "catalogRecordsDeleted": false
+  },
+  {
+    "removedId": "ideology-republicanism",
+    "selectedId": "ideology-program-insurrectionary-anarchism-bonanno-1999",
+    "reason": "Rótulo amplo sem contraste adicional estabelecido frente a Madison/republicanismo federal já selecionado; preservado, não declaração de que toda tradição republicana é sinônimo.",
+    "status": "bounded-provisional-substitution-new-explicit-program",
+    "catalogRecordsDeleted": false
+  },
+  {
+    "removedId": "ideology-dependency-theory",
+    "selectedId": "ideology-program-participatory-economics-hahnel-2014",
+    "reason": "Perfil explicativo não estabelece aqui programa de autoridade e ação coletiva; aplicações normativas mais amplas da teoria não são negadas.",
     "status": "bounded-provisional-substitution-new-explicit-program",
     "catalogRecordsDeleted": false
   }
@@ -4475,7 +4576,7 @@ export const ideologyOntologyReviewGroups = [
       "ideology-left-individualist-anarchism",
       "ideology-left-anarcho-collectivism",
       "ideology-pacifist-anarchism",
-      "ideology-anarcho-syndicalism"
+      "ideology-program-anarcho-syndicalism-iwa-2022"
     ],
     "status": "four-bounded-two-sided-primary-contrasts",
     "scope": "Equivalent exchange/competitive capital versus needs distribution; nonresistance versus defensive armed force. Mutualism/Tucker and syndicalist/communist nesting unresolved; IWA 2023 and Tucker 1897 editions explicitly distinguished.",
@@ -4667,6 +4768,24 @@ export const ideologyOntologyReviewGroups = [
     "sourceIds": [
       "technocracy-functional-design-2004",
       "veblen-conditional-industrial-design-1921"
+    ],
+    "reviewedOn": "2026-10-08"
+  },
+  {
+    "id": "durable-affinity-and-equitable-economic-authority",
+    "selectedIds": [
+      "ideology-program-anarcho-syndicalism-iwa-2022",
+      "ideology-program-insurrectionary-anarchism-bonanno-1999",
+      "ideology-program-participatory-economics-hahnel-2014"
+    ],
+    "status": "two-bounded-two-sided-primary-contrasts",
+    "scope": "Three explicitly dated programme identities, preserving generic originals. IWA replaces an already-reviewed selected referent without increasing count; Bonanno and Hahnel add two. Worker organization and initial remuneration-authority contrasts, not all-anarchist/socialist independence.",
+    "sourceIds": [
+      "iwa-statutes-2023-ontology",
+      "bonanno-affinity-program-1999",
+      "hahnel-economic-governance-2014",
+      "hahnel-manuscript-edition-inventory",
+      "gic-remuneration-rule-1930"
     ],
     "reviewedOn": "2026-10-08"
   }

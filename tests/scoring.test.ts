@@ -2,7 +2,7 @@ import { codeReferenceAxis } from '../src/lib/reference-coding';
 import { describe, expect, test } from 'bun:test';
 import { questions, questionIds36, questionIds60 } from '../src/data/questions';
 import { AXES, parseResultSearch, resultSearch, scoreAnswers, type AnswerValue } from '../src/lib/scoring';
-import { calculateSimilarity12full, countDocumentedEvidenceAxes, documentedEvidenceAxes, hasEnoughEvidenceForRankedMatch, matchReferences, MIN_EVIDENCE_AXES_FOR_RANKED_MATCH, partitionMatchReferences, type MatchableReference } from '../src/lib/matching';
+import { calculateSimilarity12full, countDocumentedEvidenceAxes, documentedEvidenceAxes, preferredDocumentarySourceTitle, hasEnoughEvidenceForRankedMatch, matchReferences, MIN_EVIDENCE_AXES_FOR_RANKED_MATCH, partitionMatchReferences, type MatchableReference } from '../src/lib/matching';
 import { referenceEntries } from '../src/data/references';
 
 describe('question sets', () => {
@@ -154,6 +154,25 @@ describe('evidence eligibility for match rankings', () => {
     }
     return reference;
   };
+
+  test('caption source ignores archive-first bibliography and counts distinct valid axes', () => {
+    const reference = mappedReference();
+    const source = { title: 'Cited source', url: 'https://example.org/fixture' };
+    const secondary = { title: 'Second coded source', url: 'https://example.org/secondary' };
+    reference.sources = [{ title: 'Unused archived source' }, secondary, source];
+    const axis = AXES[0].key;
+    const coded = codeReferenceAxis({ ...reference.coding![axis]!, claims: Array.from({ length: 8 }, (_, index) => ({
+      ...reference.coding![axis]!.claims[0], sourceTitle: secondary.title, locator: `Repeated passage ${index}, same axis`,
+    })) }, [source, secondary]);
+    reference.coding![axis] = coded.coding;
+    reference.axisEvidence![axis] = coded.axisEvidence;
+    expect(preferredDocumentarySourceTitle(reference)).toBe(source.title);
+    for (const key of AXES.slice(1, 6).map(axis => axis.key)) reference.coding![key]!.reviewedOn = 'invalid';
+    expect(preferredDocumentarySourceTitle(reference)).toBe(secondary.title);
+    reference.coding![axis]!.reviewedOn = 'invalid';
+    expect(preferredDocumentarySourceTitle(reference)).toBeUndefined();
+    expect(reference.sources[0].title).toBe('Unused archived source');
+  });
 
   test('does not change the raw similarity score for an eligible exact vector match', () => {
     const reference = mappedReference({}, 12);

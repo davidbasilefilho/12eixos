@@ -1,18 +1,21 @@
 # Planned 75 ideology subset: bounded ontology revision
 
-Reviewed on 2026-10-08. All 206 original ideology records are preserved. The integrated identity ledger additionally includes one explicit Technocracy Inc. program, giving 207 preserved identities. This file defines a **provisional planning subset**, not an activated default, 75 independently verified doctrines or 75 evidence-eligible profiles. No vectors, grades or catalog identities changed. The previous 75-label list is preserved in `ideologySelectionPreviousSnapshot`.
+Reviewed on 2026-10-08. All 206 original ideology records are preserved. The integrated identity ledger additionally includes four explicit programmes, giving 210 preserved identities. This file defines a **provisional planning subset**, not an activated default, 75 independently verified doctrines or 75 evidence-eligible profiles. No vectors, grades or catalog identities changed. The previous 75-label list is preserved in `ideologySelectionPreviousSnapshot`.
 
 An included object should be an identifiable **political normative doctrine or tradition** addressing legitimate authority, collective social/economic order and action, with a located referent and a material contrast to retained neighbors. A framework, institutional device or policy instrument alone is insufficient. State-authored normative doctrines can qualify; government authorship alone is neither acceptance nor rejection. Subtraditions may be retained when their extra commitments are identified; they must not be presented as mutually exclusive families.
 
-The first four weakly scoped slots were replaced with existing records. A fifth substitution adds the explicit Inc. program candidate and preserves Veblen as an alternative. The integrated planning partition is 75 selected plus 132 alternatives, covering all 206 original identities and one candidate exactly. Fifty-eight selected IDs have located primary normative referents and scoped review. Thirty-nine two-sided contrasts are recorded across libertarian strategy, ecological programs and liberal authority/property programs. Full nearest-neighbor comparisons remain incomplete. See `docs/reference-ideology-ontology-audit.md` for locators, edition limitations and what was actually verified.
+The first four weakly scoped slots were replaced with existing records. A fifth substitution adds the explicit Inc. program candidate and preserves Veblen as an alternative. The integrated planning partition is 75 selected plus 135 alternatives, covering all 206 original identities and four explicit programmes. Sixty current selected referents have located primary normative scope; IWA 2022 replaces its already-reviewed generic exemplar without increasing that count. Forty-one bounded two-sided contrasts are recorded. The parent integrated the three latest candidates after independent source/axis review; actual runtime verification found 695 records / 210 ideologies. Full nearest-neighbor comparisons remain incomplete. See `docs/reference-ideology-ontology-audit.md` for locators, edition limitations and what was actually verified.
 
-| Deferred slot | Selected existing record | Reason |
+| Deferred slot | Selected referent | Reason |
 | --- | --- | --- |
 | `civic-capability-approach` | `ideology-left-black-anarchism` | Estrutura avaliativa não identifica aqui uma doutrina política distinta; substituição de escopo, não crítica à teoria. |
 | `civic-keynesian-policy` | `ideology-left-guild-socialism` | Perfil restrito à estabilização; a filosofia política mais ampla de Keynes não foi representada por este rótulo. |
 | `civic-cybernetic-governance` | `ideology-right-agorism` | Projeto de gestão Cybersyn não equivale por si a tradição normativa independente. |
 | `ideology-right-francoism` | `ideology-left-anarcha-feminism` | Contraste doutrinal independente frente ao fascismo não foi demonstrado; lei de regime não basta sem exame de referentes. |
 | `ideology-technocracy` | `ideology-program-technocracy-inc-2004` | Desenho condicional de Veblen não demonstra endosso normativo; programa afirmado Inc. tem identidade própria, sem deletar o registro original. |
+| `ideology-anarcho-syndicalism` | `ideology-program-anarcho-syndicalism-iwa-2022` | Programa efetivamente lido é de 2022, não fundação de 1922; só um exemplar anarcossindicalista selecionado, antigo preservado. |
+| `ideology-republicanism` | `ideology-program-insurrectionary-anarchism-bonanno-1999` | Contraste adicional do rótulo republicano amplo frente a Madison não provado; projeto temporário de afinidades tem contraste organizativo material. |
+| `ideology-dependency-theory` | `ideology-program-participatory-economics-hahnel-2014` | Perfil explicativo cede slot ao programa normativo de governança econômica; aplicações normativas mais amplas da dependência não são negadas. |
 
 Kokutai is retained under the explicit label **Doutrina imperial do kokutai, 1937**: the inspected source contains a normative imperial polity, not merely a regime name. Its broad distinctness against fascism and absolute monarchy is still provisional. The narrow Keynesian stabilization ID is deferred without denying that Keynes wrote wider social philosophy.
 
@@ -53,7 +56,7 @@ The overall selection remains provisional. Individually grounded bounded contras
 | `ideology-fabianism` | Fabianismo | socialist | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | `ideology-left-yugoslav-self-management` | Socialismo autogestionário iugoslavo | socialist | doctrine-referent-source-mismatch | not-independently-verified |
 | `ideology-anarcho-communism` | Anarcocomunismo | anarchist | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
-| `ideology-anarcho-syndicalism` | Anarcossindicalismo | anarchist | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
+| `ideology-program-anarcho-syndicalism-iwa-2022` | Anarcossindicalismo: programa da AIT/IWA, 2022 | anarchist | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | `ideology-mutualism` | Mutualismo | anarchist | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | `ideology-pacifist-anarchism` | Anarquismo pacifista | anarchist | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | `ideology-left-anarcho-collectivism` | Anarquismo coletivista | anarchist | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
@@ -80,7 +83,7 @@ The overall selection remains provisional. Individually grounded bounded contras
 | `civic-bioregionalism` | Biorregionalismo | ecological | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | `civic-earth-stewardship` | Ética da terra e conservação | ecological | ethical-framework | not-independently-verified |
 | `civic-environmental-justice` | Justiça ambiental | ecological | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
-| `ideology-republicanism` | Republicanismo cívico | democratic | provisional-normative-referent | not-independently-verified |
+| `ideology-program-insurrectionary-anarchism-bonanno-1999` | Anarquismo insurrecional: projeto organizativo de Bonanno, 1999 | anarchist | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | `civic-participatory-democracy` | Democracia participativa: Port Huron, 1962 | democratic | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | `civic-direct-democracy` | Soberania legislativa direta: Rousseau, 1762 | democratic | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | `civic-deliberative-democracy` | Democracia deliberativa: modelo procedimental de Habermas | democratic | bounded-normative-referent-reviewed | nearest-neighbor-overlap-unresolved |
@@ -88,7 +91,7 @@ The overall selection remains provisional. Individually grounded bounded contras
 | `civic-federal-republicanism` | Federalismo republicano: Madison, 1787–1788 | democratic | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | `civic-world-federalism` | Federalismo mundial: declaração de Montreux, 1947 | democratic | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | `ideology-developmentalism` | Desenvolvimentismo | development | provisional-normative-referent | not-independently-verified |
-| `ideology-dependency-theory` | Teoria da dependência | development | explanatory-framework | not-independently-verified |
+| `ideology-program-participatory-economics-hahnel-2014` | Economia participativa: governança econômica de Hahnel, 2014 | socialist | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | `ideology-left-guild-socialism` | Socialismo de guildas | socialist | bounded-normative-referent-reviewed | not-independently-verified |
 | `ideology-left-black-anarchism` | Anarquismo negro | anarchist | bounded-normative-referent-reviewed | not-independently-verified |
 | `ideology-program-technocracy-inc-2004` | Tecnocracia: governo funcional continental de Technocracy Inc. | technical | bounded-normative-referent-reviewed | nearest-neighbor-unresolved |
@@ -103,3 +106,5 @@ The overall selection remains provisional. Individually grounded bounded contras
 Dependency theory, land ethics, direct/consociational democracy and federal republicanism need a demonstrated normative political referent beyond framework or mechanism. The PRC constitutional snapshot does not establish all Marxism-Leninism; Yugoslav institutional practice needs doctrine separation. Social-democracy/democratic-socialism and communalism/confederalism have unresolved overlaps. Most other contrasts have not been independently inspected. This is **not** a claim of 75 fully distinct validated ideologies.
 
 The ordered machine-readable index, sources, family counts, overlap checks, substitutions and 131 preserved alternatives reside in `src/data/reference-ideology-selection.ts`. No default-use flag was enabled and no catalog entry was removed.
+
+Integrated group 19: the dated IWA programme replaces the generic 1922 exemplar; Bonanno replaces the broad republican slot whose additional contrast against Madison is unproved; Hahnel replaces the explanatory dependency profile without denying broader normative uses of dependency theory. All three old selected records remain extras. Current-family planning counts change to anarchist 11, socialist 14, democratic 7 and development 1; their sum remains 75. Located axis counts in the separate integrated programme module are 4/0/2, all unranked. Full 75 independence remains false.
