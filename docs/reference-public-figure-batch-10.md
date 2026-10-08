@@ -1,0 +1,17 @@
+# Figuras públicas — lote10
+
+Proposta isolada08/10/2026: Marine Le Pen, identidade nova, cinco códigos médios (rep/pod/imi/dip/com60), sete eixos desconhecidos50 sem evidência; zero elegíveis pelo gate. Não importado. Revisão documental independente e Root aceitaram as cinco direções; cinco códigos não representam recertificação integral da pessoa ou conclusão dos150.
+
+[Programa próprio22mesures2022](https://mlafrance.fr/pdfs/22-mesures-pour-2022.pdf), PDF8 páginas físicas: texto0–211 realmente lido. Cabeçalhos atribuídos à candidata, corroborados pelo [espelho oficial](https://rassemblementnational.fr/22-mesures)100–198. Edição2022; dia editorial não certificado. O espelho reproduz o documento, não é confirmação independente. Referendo/proporcionalidade, assimilação, coerção policial, defesa e proteção comercial têm locadores explícitos. Renacionalizar uma infraestrutura e privatizar outra não estabelece direção geral de propriedade econômica. Benefícios familiares não resolvem orientação moral geral.
+
+[Imigração](https://rassemblementnational.fr/documents/projet/projet-controle-de-limmigration.pdf), PDF46p: leituras24–31/449–590; idioma, costumes e comunidade nacional sustentam imi além de restrição fronteiriça. Primazia constitucional/judicial integra contraponto de rep. Não afirmar leitura integral, legalidade das propostas ou verificação demográfica.
+
+[Segurança](https://rassemblementnational.fr/documents/projet/projet-la-securite.pdf), PDF24p: realmente lido0–459/470–613/637–740. Força policial, restrição de publicações e drogas sustentam pod. Reinserção, proporcionalidade e culpa comprovada permanecem contrapontos; estatísticas/resultados alegados não certificados.
+
+[Ecologia](https://rassemblementnational.fr/documents/projet/projet-lecologie.pdf), PDF18p: realmente lido0–562. Pesquisa tecnológica ainda não codificada: inovação multissetorial155–169, nuclear/hidrogênio231–238, dessalinização277–279, veículos elétricos343–349 e bigdata426–430 coexistem com moratória eólica/solar222–227, limites pesticidas239–244, natureza/escolas467–473 e controle político técnico525–540. [Livreto digital](https://rassemblementnational.fr/documents/projet/projet-le-numerique.pdf) falhou11,6MB e [manifesto amplo](https://mlafrance.fr/pdfs/manifeste-m-la-france-programme-presidentiel.pdf) falhou27,8MB: corpos não lidos, nenhuma codificação por snippets.
+
+[Carta própria21/09/2026](https://rassemblementnational.fr/post/lettre-ouverte-de-marine-le-pen-aux-professionnels-de-limmobilier): autoria/data100–105 e corpo107–146 realmente lidos; confirma atividade contemporânea, não atualiza as declarações2022. Não atribuir intenção2027 a todas as posições históricas.
+
+Preservação: nenhum registro principal sobrescrito, nenhum snapshot efbd alegadamente recuperado. Verificação normalizada main494/catálogo atual/raw regionais/propostas anteriores será registrada após check local. est/int/eco/con/rel/mor/tec permanecem desconhecidos; cargos, família, soberania ou laicidade seletiva não os resolvem automaticamente. O gate valida plumbing; amplitude substantiva depende da revisão documental.
+
+Escopo independente efetivamente reaberto: 22mesures0–211; segurança76–97/211–227/256–284/411–423/528–531/605–734; imigração462–562/577–601; ecologia155–169/469–599; carta própria setembro2026,100–125. Root aceitou rep60 considerando iniciativa cidadã nacional/proporcionalidade e contrapontos judiciais/ideológicos já registrados. Cinco códigos, não seis; disponibilidade das demais URLs não certificada por essa revisão.

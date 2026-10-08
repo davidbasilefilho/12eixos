@@ -34,8 +34,8 @@
     ],
     "provenance": "Executed before local data corrections in this recovery checkpoint; not recomputed from unavailable prior Library checkpoint."
   },
-  "headCommitAtAudit": "c220acc9d7c58b803cf18a049e45d9fe8f345067",
-  "integratedCatalogSha256": "0c3a78e5ab3b99be6af7abc05b0cf776809d7134355eeccec2653c0f39ecd534",
+  "headCommitAtAudit": "b2d5ee4ccda9c8b030777492bcb659a24c9f7341",
+  "integratedCatalogSha256": "142b8479c5c7efc339af7a273848edf3a0ad9508862e97290eff641e81d9a07d",
   "scope": "Integrated working-tree catalog after preparation; fixed remote baseline and current HEAD are provenance, not immutable copies of modified files.",
   "evidenceGate": {
     "minimumAxes": 6,
@@ -55,67 +55,67 @@
     "Unreviewed directional axes are preserved archival estimates, excluded from ranking; absent located coding does not establish that their direction is false. Prior snapshots preserve available original estimates."
   ],
   "totalTarget": 675,
-  "totalRecords": 696,
-  "structurallyEligible": 76,
-  "documentaryEligible": 29,
-  "insufficientEvidence": 667,
-  "unreviewedDirectionCount": 1298,
-  "summedCategoryIdentityGap": 114,
+  "totalRecords": 711,
+  "structurallyEligible": 85,
+  "documentaryEligible": 38,
+  "insufficientEvidence": 673,
+  "unreviewedDirectionCount": 1288,
+  "summedCategoryIdentityGap": 101,
   "categories": [
     {
       "category": "country",
       "target": 150,
       "records": 150,
-      "structurallyEligible": 3,
-      "documentaryEligible": 3,
-      "insufficientEvidence": 147,
+      "structurallyEligible": 4,
+      "documentaryEligible": 4,
+      "insufficientEvidence": 146,
       "missingIdentitiesBeforeSemanticReview": 0,
       "preservedExcess": 0,
-      "missingEligibleToTarget": 147
+      "missingEligibleToTarget": 146
     },
     {
       "category": "historical-country",
       "target": 150,
       "records": 128,
-      "structurallyEligible": 6,
-      "documentaryEligible": 6,
-      "insufficientEvidence": 122,
+      "structurallyEligible": 7,
+      "documentaryEligible": 7,
+      "insufficientEvidence": 121,
       "missingIdentitiesBeforeSemanticReview": 22,
       "preservedExcess": 0,
-      "missingEligibleToTarget": 144
+      "missingEligibleToTarget": 143
     },
     {
       "category": "public-figure",
       "target": 150,
-      "records": 100,
-      "structurallyEligible": 19,
-      "documentaryEligible": 3,
-      "insufficientEvidence": 97,
-      "missingIdentitiesBeforeSemanticReview": 50,
+      "records": 107,
+      "structurallyEligible": 20,
+      "documentaryEligible": 4,
+      "insufficientEvidence": 103,
+      "missingIdentitiesBeforeSemanticReview": 43,
       "preservedExcess": 0,
-      "missingEligibleToTarget": 147
+      "missingEligibleToTarget": 146
     },
     {
       "category": "historical-figure",
       "target": 150,
-      "records": 108,
-      "structurallyEligible": 22,
-      "documentaryEligible": 10,
-      "insufficientEvidence": 98,
-      "missingIdentitiesBeforeSemanticReview": 42,
+      "records": 114,
+      "structurallyEligible": 26,
+      "documentaryEligible": 14,
+      "insufficientEvidence": 100,
+      "missingIdentitiesBeforeSemanticReview": 36,
       "preservedExcess": 0,
-      "missingEligibleToTarget": 140
+      "missingEligibleToTarget": 136
     },
     {
       "category": "ideology",
       "target": 75,
-      "records": 210,
-      "structurallyEligible": 26,
-      "documentaryEligible": 7,
+      "records": 212,
+      "structurallyEligible": 28,
+      "documentaryEligible": 9,
       "insufficientEvidence": 203,
       "missingIdentitiesBeforeSemanticReview": 0,
-      "preservedExcess": 135,
-      "missingEligibleToTarget": 68
+      "preservedExcess": 137,
+      "missingEligibleToTarget": 66
     }
   ],
   "structuralProblems": [],
@@ -267,7 +267,7 @@
       "mappedAxes": [
         "rep",
         "pod",
-        "imi",
+        "dip",
         "int",
         "eco",
         "con",
@@ -278,7 +278,7 @@
       "documentedAxes": [
         "rep",
         "pod",
-        "imi",
+        "dip",
         "int",
         "eco",
         "con",
@@ -289,7 +289,7 @@
       "directionalAxes": [
         "rep",
         "pod",
-        "imi",
+        "dip",
         "int",
         "eco",
         "con",
@@ -297,8 +297,9 @@
         "rel",
         "mor"
       ],
-      "sourceCount": 2,
+      "sourceCount": 3,
       "sourceUrls": [
+        "https://lp.org/platform-page/",
         "https://lp.org/platform-page/",
         "https://lp.org/platform-page/"
       ]
@@ -1739,28 +1740,41 @@
       "aliases": [],
       "kind": "country",
       "category": "historical-country",
-      "period": "Regime militar, 1973–1990; recorte codificado: Primeiro período transitório1981–1989 da carta1980; não toda ditadura1973–1990 nem transição posterior.",
-      "structurallyEligible": false,
-      "documentaryEligible": false,
-      "reviewStatus": "insufficient-located-coding",
+      "period": "Regime militar, 1973–1990; recorte codificado: Primeiro período transitório1981–1989 da carta1980; não toda ditadura1973–1990 nem transição posterior.; eco/con/imi: programa de 11/03/1974; est: texto original de 24/10/1980, vigência inicial 1981.",
+      "structurallyEligible": true,
+      "documentaryEligible": true,
+      "reviewStatus": "located-coding-present-not-truth-certified",
       "unreviewedDirectionalAxes": [],
       "mappedAxes": [
+        "est",
         "rep",
-        "pod"
+        "pod",
+        "imi",
+        "eco",
+        "con"
       ],
       "documentedAxes": [
+        "est",
         "rep",
-        "pod"
+        "pod",
+        "imi",
+        "eco",
+        "con"
       ],
       "directionalAxes": [
+        "est",
         "rep",
-        "pod"
+        "pod",
+        "imi",
+        "eco",
+        "con"
       ],
-      "sourceCount": 3,
+      "sourceCount": 4,
       "sourceUrls": [
         "https://www.memoriachilena.gob.cl/602/w3-article-31395.html",
         "https://www.memoriachilena.gob.cl/602/w3-article-92415.html",
-        "https://www.bcn.cl/leychile/navegar?idNorma=17039"
+        "https://www.bcn.cl/leychile/navegar?idNorma=17039",
+        "https://archivochile.com/Dictadura_militar/doc_jm_gob_pino8/DMdocjm0005.pdf"
       ]
     },
     {
@@ -10411,32 +10425,34 @@
       "aliases": [],
       "kind": "person",
       "category": "historical-figure",
-      "period": "Discursos e presidência dos Estados Unidos, 1858–1865",
+      "period": "Declarações1861/1862/1864/1865: constituição, emergência e guerra civil",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "rep",
-        "pod",
-        "dip",
-        "mor"
-      ],
+      "unreviewedDirectionalAxes": [],
       "mappedAxes": [
+        "est",
         "rep",
-        "pod",
-        "dip",
-        "mor"
+        "pod"
       ],
-      "documentedAxes": [],
+      "documentedAxes": [
+        "est",
+        "rep",
+        "pod"
+      ],
       "directionalAxes": [
+        "est",
         "rep",
-        "pod",
-        "dip",
-        "mor"
+        "pod"
       ],
-      "sourceCount": 1,
+      "sourceCount": 6,
       "sourceUrls": [
-        "https://www.archives.gov/milestone-documents/gettysburg-address"
+        "https://www.archives.gov/milestone-documents/gettysburg-address",
+        "https://avalon.law.yale.edu/19th_century/lincoln1.asp",
+        "https://avalon.law.yale.edu/19th_century/lincoln2.asp",
+        "https://millercenter.org/the-presidency/presidential-speeches/december-6-1864-fourth-annual-message",
+        "https://www.govinfo.gov/content/pkg/STATUTE-13/pdf/STATUTE-13-Pg730.pdf",
+        "https://millercenter.org/president/lincoln"
       ]
     },
     {
@@ -10850,27 +10866,45 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas vigentes, 2024–2025",
-      "structurallyEligible": false,
-      "documentaryEligible": false,
-      "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep"
-      ],
+      "period": "Normas constitucionais e leis civis/culturais em versões oficiais consultadas em 08/10/2026; precedente de neutralidade de 2015. Não certifica prática de 2025.",
+      "structurallyEligible": true,
+      "documentaryEligible": true,
+      "reviewStatus": "located-coding-present-not-truth-certified",
+      "unreviewedDirectionalAxes": [],
       "mappedAxes": [
         "est",
-        "rep"
+        "rep",
+        "pod",
+        "imi",
+        "rel",
+        "mor"
       ],
-      "documentedAxes": [],
+      "documentedAxes": [
+        "est",
+        "rep",
+        "pod",
+        "imi",
+        "rel",
+        "mor"
+      ],
       "directionalAxes": [
         "est",
-        "rep"
+        "rep",
+        "pod",
+        "imi",
+        "rel",
+        "mor"
       ],
-      "sourceCount": 2,
+      "sourceCount": 8,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Canada_2011",
-        "https://freedomhouse.org/country/canada/freedom-world/2025"
+        "https://freedomhouse.org/country/canada/freedom-world/2025",
+        "https://laws-lois.justice.gc.ca/eng/const/page-3.html",
+        "https://laws-lois.justice.gc.ca/eng/const/page-1.html",
+        "https://laws-lois.justice.gc.ca/eng/const/page-12.html",
+        "https://laws-lois.justice.gc.ca/eng/acts/C-18.7/FullText.html",
+        "https://lois-laws.justice.gc.ca/eng/acts/C-31.5/FullText.html",
+        "https://decisions.scc-csc.ca/scc-csc/scc-csc/en/item/15288/index.do?iframe=true"
       ]
     },
     {
@@ -12813,33 +12847,38 @@
       "aliases": [],
       "kind": "country",
       "category": "historical-country",
-      "period": "República federal e planejamento, 1947–1964",
+      "period": "República federal e planejamento, 1947–1964; recorte normativo: texto fundador adotado em 26/11/1949, vigência geral em 26/01/1950.",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep",
-        "eco",
-        "con"
-      ],
+      "unreviewedDirectionalAxes": [],
       "mappedAxes": [
         "est",
         "rep",
-        "eco",
-        "con"
+        "pod",
+        "imi",
+        "rel"
       ],
-      "documentedAxes": [],
+      "documentedAxes": [
+        "est",
+        "rep",
+        "pod",
+        "imi",
+        "rel"
+      ],
       "directionalAxes": [
         "est",
         "rep",
-        "eco",
-        "con"
+        "pod",
+        "imi",
+        "rel"
       ],
-      "sourceCount": 2,
+      "sourceCount": 4,
       "sourceUrls": [
         "https://legislative.gov.in/constitution-of-india/",
-        "https://sansad.in/ls/about/prime-minister/jawaharlal-nehru"
+        "https://sansad.in/ls/about/prime-minister/jawaharlal-nehru",
+        "https://egazette.gov.in/WriteReadData/1949/E-2358-1949-0000-109779.pdf",
+        "https://en.wikisource.org/wiki/Index:The_Constitution_of_India_1949_(Gazette_Notification_Version).djvu"
       ]
     },
     {
@@ -21910,6 +21949,639 @@
       "sourceUrls": [
         "https://www.sscc.wisc.edu/soc/faculty/pages/wright/Published%20writing/Alternatives%20to%20Capitalism.pdf",
         "https://www.sscc.wisc.edu/soc/faculty/pages/wright/selected-published-writings.htm"
+      ]
+    },
+    {
+      "id": "ideology-program-democratic-socialism-dsa-2026",
+      "name": "Socialismo democrático: programa DSA, 2026",
+      "aliases": [],
+      "kind": "ideology",
+      "category": "ideology",
+      "period": "Workers Deserve More; redação abril–junho 2026, aprovação NPC descrita sem dia",
+      "structurallyEligible": true,
+      "documentaryEligible": true,
+      "reviewStatus": "located-coding-present-not-truth-certified",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "rep",
+        "pod",
+        "dip",
+        "int",
+        "eco",
+        "con",
+        "mor"
+      ],
+      "documentedAxes": [
+        "rep",
+        "pod",
+        "dip",
+        "int",
+        "eco",
+        "con",
+        "mor"
+      ],
+      "directionalAxes": [
+        "rep",
+        "pod",
+        "dip",
+        "int",
+        "eco",
+        "con",
+        "mor"
+      ],
+      "sourceCount": 1,
+      "sourceUrls": [
+        "https://program.dsausa.org/"
+      ]
+    },
+    {
+      "id": "ideology-program-social-democracy-spd-1959",
+      "name": "Social-democracia: programa de Godesberg, SPD 1959",
+      "aliases": [],
+      "kind": "ideology",
+      "category": "ideology",
+      "period": "Aprovado 13–15 novembro 1959; transcrição digital sem data",
+      "structurallyEligible": true,
+      "documentaryEligible": true,
+      "reviewStatus": "located-coding-present-not-truth-certified",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "est",
+        "rep",
+        "pod",
+        "dip",
+        "int",
+        "eco",
+        "con",
+        "com"
+      ],
+      "documentedAxes": [
+        "est",
+        "rep",
+        "pod",
+        "dip",
+        "int",
+        "eco",
+        "con",
+        "com"
+      ],
+      "directionalAxes": [
+        "est",
+        "rep",
+        "pod",
+        "dip",
+        "int",
+        "eco",
+        "con",
+        "com"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.spd.de/fileadmin/Dokumente/Beschluesse/Grundsatzprogramme/godesberger_programm.pdf",
+        "https://germanhistorydocs.org/en/occupation-and-the-emergence-of-two-states-1945-1961/godesberg-program-of-the-spd-november-1959"
+      ]
+    },
+    {
+      "id": "aristotle",
+      "name": "Aristóteles",
+      "aliases": [
+        "Aristotle"
+      ],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "Politics, livrosI/II/VII, séculoIVa.C.; tradução Benjamin Jowett",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "rep",
+        "eco",
+        "com",
+        "rel",
+        "mor"
+      ],
+      "documentedAxes": [
+        "rep",
+        "eco",
+        "com",
+        "rel",
+        "mor"
+      ],
+      "directionalAxes": [
+        "rep",
+        "eco",
+        "com",
+        "rel",
+        "mor"
+      ],
+      "sourceCount": 4,
+      "sourceUrls": [
+        "https://classics.mit.edu/Aristotle/politics.1.one.html",
+        "https://classics.mit.edu/Aristotle/politics.2.two.html",
+        "https://classics.mit.edu/Aristotle/politics.7.seven.html",
+        "https://plato.stanford.edu/entries/aristotle/"
+      ]
+    },
+    {
+      "id": "na-john-adams",
+      "name": "John Adams",
+      "aliases": [],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "Programa inaugural4/3/1797; contraponto legal1798 explícito",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "est",
+        "rep",
+        "dip",
+        "int",
+        "rel"
+      ],
+      "documentedAxes": [
+        "est",
+        "rep",
+        "dip",
+        "int",
+        "rel"
+      ],
+      "directionalAxes": [
+        "est",
+        "rep",
+        "dip",
+        "int",
+        "rel"
+      ],
+      "sourceCount": 5,
+      "sourceUrls": [
+        "https://www.presidency.ucsb.edu/documents/inaugural-address-21",
+        "https://avalon.law.yale.edu/18th_century/adams.asp",
+        "https://oll-resources.s3.us-east-2.amazonaws.com/oll3/store/titles/2102/Adams_1431-04_EBk_v6.0.pdf",
+        "https://www.archives.gov/milestone-documents/alien-and-sedition-acts",
+        "https://www.archives.gov/founding-docs/signers-factsheet"
+      ]
+    },
+    {
+      "id": "calvin-coolidge",
+      "name": "Calvin Coolidge",
+      "aliases": [],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "Programas presidenciais3/12/1924 e4/3/1925",
+      "structurallyEligible": true,
+      "documentaryEligible": true,
+      "reviewStatus": "located-coding-present-not-truth-certified",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "est",
+        "rep",
+        "dip",
+        "int",
+        "eco",
+        "con",
+        "com"
+      ],
+      "documentedAxes": [
+        "est",
+        "rep",
+        "dip",
+        "int",
+        "eco",
+        "con",
+        "com"
+      ],
+      "directionalAxes": [
+        "est",
+        "rep",
+        "dip",
+        "int",
+        "eco",
+        "con",
+        "com"
+      ],
+      "sourceCount": 3,
+      "sourceUrls": [
+        "https://millercenter.org/the-presidency/presidential-speeches/march-4-1925-inaugural-address",
+        "https://millercenter.org/the-presidency/presidential-speeches/december-3-1924-second-annual-message",
+        "https://millercenter.org/president/coolidge"
+      ]
+    },
+    {
+      "id": "clement-attlee",
+      "name": "Clement Attlee",
+      "aliases": [],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "Declarações programáticas16/8/1945 e10/1/1946",
+      "structurallyEligible": true,
+      "documentaryEligible": true,
+      "reviewStatus": "located-coding-present-not-truth-certified",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "rep",
+        "pod",
+        "dip",
+        "int",
+        "eco",
+        "con"
+      ],
+      "documentedAxes": [
+        "rep",
+        "pod",
+        "dip",
+        "int",
+        "eco",
+        "con"
+      ],
+      "directionalAxes": [
+        "rep",
+        "pod",
+        "dip",
+        "int",
+        "eco",
+        "con"
+      ],
+      "sourceCount": 4,
+      "sourceUrls": [
+        "https://www.gov.uk/government/history/past-prime-ministers/clement-attlee",
+        "https://hansard.parliament.uk/commons/1945-08-16/debates/abb06368-c553-467a-85be-9e83ecbb4105/DebateOnTheAddress",
+        "https://documents.un.org/doc/undoc/gen/nl4/614/45/pdf/nl461445.pdf",
+        "https://www.gov.uk/government/history/past-prime-ministers/clement-attlee"
+      ]
+    },
+    {
+      "id": "na-herbert-hoover",
+      "name": "Herbert Hoover",
+      "aliases": [],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "Programa inaugural4/3/1929, anterior à Depressão",
+      "structurallyEligible": true,
+      "documentaryEligible": true,
+      "reviewStatus": "located-coding-present-not-truth-certified",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "est",
+        "rep",
+        "dip",
+        "int",
+        "eco",
+        "con"
+      ],
+      "documentedAxes": [
+        "est",
+        "rep",
+        "dip",
+        "int",
+        "eco",
+        "con"
+      ],
+      "directionalAxes": [
+        "est",
+        "rep",
+        "dip",
+        "int",
+        "eco",
+        "con"
+      ],
+      "sourceCount": 3,
+      "sourceUrls": [
+        "https://www.presidency.ucsb.edu/documents/presidential-documents-archive-guidebook/inaugural-addresses",
+        "https://millercenter.org/the-presidency/presidential-speeches/march-4-1929-inaugural-address",
+        "https://millercenter.org/president/herbert-hoover"
+      ]
+    },
+    {
+      "id": "mikhail-bakunin",
+      "name": "Mikhail Bakunin",
+      "aliases": [],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "Programa Revolutionary Catechism, 1866, tradução inglesa selecionada",
+      "structurallyEligible": true,
+      "documentaryEligible": true,
+      "reviewStatus": "located-coding-present-not-truth-certified",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "est",
+        "rep",
+        "pod",
+        "eco",
+        "con",
+        "com",
+        "rel",
+        "mor"
+      ],
+      "documentedAxes": [
+        "est",
+        "rep",
+        "pod",
+        "eco",
+        "con",
+        "com",
+        "rel",
+        "mor"
+      ],
+      "directionalAxes": [
+        "est",
+        "rep",
+        "pod",
+        "eco",
+        "con",
+        "com",
+        "rel",
+        "mor"
+      ],
+      "sourceCount": 4,
+      "sourceUrls": [
+        "https://www.marxists.org/reference/archive/bakunin/works/godstate/",
+        "https://pzacad.pitzer.edu/anarchist_archives/bakunin/catechism.html",
+        "https://pzacad.pitzer.edu/anarchist_archives/bakunin/bakunintimeline.html",
+        "https://www.marxists.org/reference/archive/bakunin/works/1866/catechism.htm"
+      ]
+    },
+    {
+      "id": "marine-le-pen",
+      "name": "Marine Le Pen",
+      "aliases": [
+        "Marine Lepen"
+      ],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "Programa presidencial próprio2022; identidade/atividade verificada21/09/2026",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "rep",
+        "pod",
+        "imi",
+        "dip",
+        "com"
+      ],
+      "documentedAxes": [
+        "rep",
+        "pod",
+        "imi",
+        "dip",
+        "com"
+      ],
+      "directionalAxes": [
+        "rep",
+        "pod",
+        "imi",
+        "dip",
+        "com"
+      ],
+      "sourceCount": 6,
+      "sourceUrls": [
+        "https://mlafrance.fr/pdfs/22-mesures-pour-2022.pdf",
+        "https://rassemblementnational.fr/22-mesures",
+        "https://rassemblementnational.fr/documents/projet/projet-controle-de-limmigration.pdf",
+        "https://rassemblementnational.fr/documents/projet/projet-la-securite.pdf",
+        "https://rassemblementnational.fr/documents/projet/projet-lecologie.pdf",
+        "https://rassemblementnational.fr/post/lettre-ouverte-de-marine-le-pen-aux-professionnels-de-limmobilier"
+      ]
+    },
+    {
+      "id": "jeannette-jara",
+      "name": "Jeannette Jara",
+      "aliases": [
+        "Jeannette Jara Román",
+        "Jeannette Jara Roman"
+      ],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "Lineamientos próprios endossados, agosto2025; identidade/atividade01/09/2026",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "rep",
+        "pod",
+        "com",
+        "tec"
+      ],
+      "documentedAxes": [
+        "rep",
+        "pod",
+        "com",
+        "tec"
+      ],
+      "directionalAxes": [
+        "rep",
+        "pod",
+        "com",
+        "tec"
+      ],
+      "sourceCount": 3,
+      "sourceUrls": [
+        "https://centrocompetencia.com/wp-content/uploads/2025/09/Programa_Jeannette_Jara_2025.pdf",
+        "https://pcchile.cl/2025/08/18/lineamientos-programaticos-jeannette-jara-2025/",
+        "https://www.biobiochile.cl/noticias/nacional/chile/2026/09/01/jeannette-jara-celebra-alza-de-la-pgu-y-acusa-a-republicanos-de-celebrar-hoy-lo-que-antes-rechazaron.shtml"
+      ]
+    },
+    {
+      "id": "michelle-bachelet",
+      "name": "Michelle Bachelet",
+      "aliases": [
+        "Michelle Bachelet Jeria"
+      ],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "Programa pessoalmente assinado18/10/2005 para2006–2010; atividade30/09/2026",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "rep",
+        "imi",
+        "int",
+        "com",
+        "mor"
+      ],
+      "documentedAxes": [
+        "rep",
+        "imi",
+        "int",
+        "com",
+        "mor"
+      ],
+      "directionalAxes": [
+        "rep",
+        "imi",
+        "int",
+        "com",
+        "mor"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.bcn.cl/obtienearchivo?id=documentos/10221.1/13433/1/2005_programa-MB.pdf",
+        "https://elpais.com/chile/2026-10-01/bachelet-en-un-homenaje-tras-retirar-su-candidatura-a-la-onu-quienes-pensaban-que-me-iba-a-ir-para-la-casa-les-tengo-una-mala-noticia.html"
+      ]
+    },
+    {
+      "id": "dilma-rousseff",
+      "name": "Dilma Rousseff",
+      "aliases": [
+        "Dilma Vana Rousseff"
+      ],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "Discurso próprio01/01/2015; atividade institucional12/09/2026",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "rep",
+        "int",
+        "tec"
+      ],
+      "documentedAxes": [
+        "rep",
+        "int",
+        "tec"
+      ],
+      "directionalAxes": [
+        "rep",
+        "int",
+        "tec"
+      ],
+      "sourceCount": 4,
+      "sourceUrls": [
+        "https://www.camara.leg.br/noticias/448217-integra-do-discurso-de-posse-da-presidente-dilma-rousseff-no-congresso/",
+        "https://www.ndb.int/event/ndb-at-the-18th-brics-summit/",
+        "https://www.ndb.int/insights/address-by-ndb-president-dilma-rousseff-at-the-18th-brics-summit-open-plenary-session/",
+        "https://abmes.org.br/arquivos/documentos/prog-de-governo-dilma-2014-internet1.pdf"
+      ]
+    },
+    {
+      "id": "luisa-gonzalez",
+      "name": "Luisa González",
+      "aliases": [
+        "Luisa Magdalena González Alcívar",
+        "Luisa Gonzalez"
+      ],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "Programa coletivamente endossado27/09/2024 para2025–2029; atividade12/09/2026",
+      "structurallyEligible": true,
+      "documentaryEligible": true,
+      "reviewStatus": "located-coding-present-not-truth-certified",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "rep",
+        "imi",
+        "int",
+        "eco",
+        "con",
+        "mor",
+        "tec"
+      ],
+      "documentedAxes": [
+        "rep",
+        "imi",
+        "int",
+        "eco",
+        "con",
+        "mor",
+        "tec"
+      ],
+      "directionalAxes": [
+        "rep",
+        "imi",
+        "int",
+        "eco",
+        "con",
+        "mor",
+        "tec"
+      ],
+      "sourceCount": 3,
+      "sourceUrls": [
+        "https://es.slideshare.net/slideshow/plan-de-trabajo-de-luisa-gonzalez-de-revolucion-ciudadana/273104796",
+        "https://www.cne.gob.ec/download/plan-de-trabajo-rc-reto/",
+        "https://www.ecuavisa.com/politica/tce-niega-recurso-luisa-gonzalez-prefectura-manabi-20260912-0031.html"
+      ]
+    },
+    {
+      "id": "myriam-bregman",
+      "name": "Myriam Bregman",
+      "aliases": [
+        "Myriam Teresa Bregman"
+      ],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "Programa pessoal sem data editorial, consultado08/10/2026; atividade legislativa02/10/2026",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "rep",
+        "eco",
+        "con"
+      ],
+      "documentedAxes": [
+        "rep",
+        "eco",
+        "con"
+      ],
+      "directionalAxes": [
+        "rep",
+        "eco",
+        "con"
+      ],
+      "sourceCount": 3,
+      "sourceUrls": [
+        "https://www.myriambregman.com.ar/programa.php",
+        "https://www.myriambregman.com.ar/",
+        "https://www.hcdn.gob.ar/diputados/mbregman/listado-proyectos.html"
+      ]
+    },
+    {
+      "id": "jill-stein",
+      "name": "Jill Stein",
+      "aliases": [
+        "Jill Ellen Stein"
+      ],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "Declarações próprias de campanha2024; atividade reportada18/08/2026",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "rep",
+        "dip",
+        "eco",
+        "con"
+      ],
+      "documentedAxes": [
+        "rep",
+        "dip",
+        "eco",
+        "con"
+      ],
+      "directionalAxes": [
+        "rep",
+        "dip",
+        "eco",
+        "con"
+      ],
+      "sourceCount": 4,
+      "sourceUrls": [
+        "https://vigarchive.sos.ca.gov/2024/primary/candidates/president/president-green-cand-statements.htm",
+        "https://www.vote411.org/node/15061",
+        "https://www.gp.org/we_do_not_consent_to_war",
+        "https://independentpoliticalreport.com/2026/08/former-green-nominee-jill-stein-ordered-to-appear-in-person-in-missouri-misdemeanor-case/"
       ]
     },
     {

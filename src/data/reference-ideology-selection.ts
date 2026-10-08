@@ -3,14 +3,14 @@
  */
 export const ideologySelectionSnapshot = {
   "date": "2026-10-08",
-  "catalogCount": 210,
+  "catalogCount": 212,
   "intendedSubsetCount": 75,
   "readyForDefaultUse": false,
   "boundedReviewedReferents": 60,
-  "referentCountScope": "Unique current selected programme IDs, including two newly reviewed normative referents Bonanno/Hahnel. IWA 2022 replaces already-reviewed generic IWA without increasing count. Full 75 independence remains unverified.",
-  "boundedTwoSidedContrasts": 41,
+  "referentCountScope": "Sixty unique current selected qualified referents; SPD/DSA replace two already-reviewed SI umbrella referents without adding to60. One additional bounded property comparison, not year-defined doctrines.",
+  "boundedTwoSidedContrasts": 42,
   "preservedOriginalCatalogCount": 206,
-  "partitionCountScope": "Integrated ledger 210 = 75 selected + 135 alternatives; all 206 original identities retained. Three explicit dated programmes integrated after bounded source and axis review; no global distinctness certification.",
+  "partitionCountScope": "Integrated ledger 212 = 75 selected + 137 alternatives; both explicit SPD/DSA programmes imported after actual source/axis review. All 206 originals retained. No full 75 independence certification.",
   "pendingCatalogIds": [],
   "independent75Verified": false
 } as const;
@@ -1353,6 +1353,22 @@ export const ideologySelectionSources = [
     "locator": "III actual 83–111; IV 114–131; translation metadata",
     "supports": "Remuneração inicial por horas×FIC comum; rejeita agência de alocação subjetiva. Distribuição segundo necessidades se expande para serviços; FIC local pode variar.",
     "readAt": "2026-10-08"
+  },
+  {
+    "id": "spd-godesberg-original-1959",
+    "title": "Godesberger Programm — SPD original German 1959",
+    "url": "https://www.spd.de/fileadmin/Dokumente/Beschluesse/Grundsatzprogramme/godesberger_programm.pdf",
+    "locator": "20-page party PDF; adoption p0; property pp8–9 / 255–289; private farmland p10 / 314; original German paraphrased editorially",
+    "supports": "Propriedade privada protegida salvo obstrução de justiça; empresas públicas necessárias e propriedade comum se outros controles não bastarem; autogestão descentralizada.",
+    "readAt": "2026-10-08"
+  },
+  {
+    "id": "dsa-workers-deserve-more-2026",
+    "title": "Workers Deserve More — DSA programme drafted April–June 2026",
+    "url": "https://program.dsausa.org/",
+    "locator": "Actual author body 25–169; property 34/55–57/156; constitutional counter 146; authors note 167–168",
+    "supports": "Programa afirmativo de república socialista democrática com propriedade pública dos maiores grupos/indústrias essenciais; não toda propriedade. Nota distingue redação 2026 de rascunhos antigos.",
+    "readAt": "2026-10-08"
   }
 ] as const;
 
@@ -1554,26 +1570,26 @@ export const intendedIdeologySelection = [
     "ontologyLimit": "Texto político apologético de Louis-Napoléon, tradução Dorr 1859, não inferência automática de um regime. Apenas poder imperial hereditário e Senado não hereditário contrastam com Constant. Soberano como primeiro representante nacional não elimina legislatura; colégios tributariamente qualificados impedem supor franquia universal. Alegações sobre direitos/prática imperial não verificadas."
   },
   {
-    "id": "social-democracy",
-    "name": "Social-democracia",
+    "id": "ideology-program-social-democracy-spd-1959",
+    "name": "Social-democracia: programa de Godesberg, SPD 1959",
     "family": "socialist",
-    "selectionRationale": "Proteção social na economia mista",
+    "selectionRationale": "Proteção de propriedade produtiva privada, empresas públicas necessárias e conversão comum quando controles alternativos forem insuficientes.",
     "reviewStatus": "referent-and-bounded-neighbor-contrast-reviewed",
     "documentedAxisCountAtSnapshot": 8,
-    "ontologyStatus": "overlapping-umbrella-primary-referent-reviewed",
+    "ontologyStatus": "bounded-normative-programme-referent-reviewed",
     "contrastStatus": "bounded-primary-neighbor-contrast",
-    "ontologyLimit": "Programas institucionais de ação social/economia ou jurisdição digital localizados. As duas declarações SI continuam no mesmo campo democrático socialista: diferença de edição não prova doutrinas independentes. Barlow limita autonomia ao ciberespaço e admite governo dos corpos."
+    "ontologyLimit": "Exemplar partidário específico de 1959, não toda social-democracia. Empresas públicas concorrentes, monopólios naturais e autogestão descentralizada são contrapontos explícitos. Contraste de propriedade com DSA, não intensidade derivada do ano."
   },
   {
-    "id": "democratic-socialism",
-    "name": "Socialismo democrático",
+    "id": "ideology-program-democratic-socialism-dsa-2026",
+    "name": "Socialismo democrático: programa DSA, 2026",
     "family": "socialist",
-    "selectionRationale": "Democratização da propriedade e da produção",
+    "selectionRationale": "Propriedade pública dos maiores grupos e indústrias essenciais como norma geral, com provisão comum das necessidades centrais.",
     "reviewStatus": "referent-and-bounded-neighbor-contrast-reviewed",
-    "documentedAxisCountAtSnapshot": 8,
-    "ontologyStatus": "overlapping-umbrella-primary-referent-reviewed",
+    "documentedAxisCountAtSnapshot": 7,
+    "ontologyStatus": "bounded-normative-programme-referent-reviewed",
     "contrastStatus": "bounded-primary-neighbor-contrast",
-    "ontologyLimit": "Programas institucionais de ação social/economia ou jurisdição digital localizados. As duas declarações SI continuam no mesmo campo democrático socialista: diferença de edição não prova doutrinas independentes. Barlow limita autonomia ao ciberespaço e admite governo dos corpos."
+    "ontologyLimit": "Exemplar específico Workers Deserve More, redigido abril–junho 2026 e aprovado pelo NPC sem dia exato. Não nacionaliza toda propriedade. Pluralismo eleitoral coexiste com subordinação judicial/executiva ao Congresso; IMI/REL/TEC permanecem desconhecidos. Não certificar todas as escolas por este exemplar."
   },
   {
     "id": "ideology-market-socialism",
@@ -2644,6 +2660,13 @@ export const ideologyOverlapChecks = [
     "b": "ideology-council-communism",
     "relation": "peer-effort-judging-versus-common-labour-hour-rule-in-initial-distribution",
     "rationale": "Hahnel pp2–4 remunera esforço por julgamento dos colegas e tarefas equilibradas; GICVI83–111 usa horas×FIC, rejeitando distribuição subjetiva por agência. GICIV expande serviços por necessidades; não oposição entre todos os conselhos ou todas as fases.",
+    "status": "bounded-primary-contrast"
+  },
+  {
+    "a": "ideology-program-social-democracy-spd-1959",
+    "b": "ideology-program-democratic-socialism-dsa-2026",
+    "relation": "conditional-common-property-versus-mandated-public-largest-essential-industries",
+    "rationale": "SPD 255–258 protege propriedade privada; 259–263 exige funções públicas, 280–282 converte quando controles insuficientes e 283–289 descentraliza gestão. DSA 156 manda propriedade pública dos maiores grupos/indústrias essenciais, sem socializar todos os bens. Contraste institucional do mesmo objeto, não ano/autor nem oposição entre todas as escolas.",
     "status": "bounded-primary-contrast"
   }
 ] as const;
@@ -4397,6 +4420,35 @@ export const preservedIdeologyAlternatives = [
     "catalogSourceTitles": [],
     "documentedAxisCountAtSnapshot": 0,
     "reviewStatus": "preserved-original-record-not-deleted"
+  },
+  {
+    "id": "social-democracy",
+    "name": "Social-democracia",
+    "reasonCode": "preserved-overlapping-umbrella-referent",
+    "compareWith": "ideology-program-social-democracy-spd-1959",
+    "decisionRationale": "Programa SI original preservado integralmente. SI 1951/1989 compartilham economia mista; datas não demonstram doutrinas independentes. Seleção usa exemplar próprio com diferença normativa de propriedade explicitamente localizada.",
+    "catalogRationale": "Proteção social na economia mista",
+    "catalogSourceTitles": [
+      "Declaração de princípios da Internacional Socialista",
+      "SI — Declaração de Estocolmo 1989"
+    ],
+    "documentedAxisCountAtSnapshot": 8,
+    "reviewStatus": "preserved-original-record-not-deleted"
+  },
+  {
+    "id": "democratic-socialism",
+    "name": "Socialismo democrático",
+    "reasonCode": "preserved-overlapping-umbrella-referent",
+    "compareWith": "ideology-program-democratic-socialism-dsa-2026",
+    "decisionRationale": "Programa SI original preservado integralmente. SI 1951/1989 compartilham economia mista; datas não demonstram doutrinas independentes. Seleção usa exemplar próprio com diferença normativa de propriedade explicitamente localizada.",
+    "catalogRationale": "Democratização da propriedade e da produção",
+    "catalogSourceTitles": [
+      "Declaração de Frankfurt",
+      "Declaração de princípios",
+      "SI — Declaração de Frankfurt 1951"
+    ],
+    "documentedAxisCountAtSnapshot": 8,
+    "reviewStatus": "preserved-original-record-not-deleted"
   }
 ] as const;
 
@@ -4454,6 +4506,20 @@ export const ideologyOntologySubstitutions = [
     "removedId": "ideology-dependency-theory",
     "selectedId": "ideology-program-participatory-economics-hahnel-2014",
     "reason": "Perfil explicativo não estabelece aqui programa de autoridade e ação coletiva; aplicações normativas mais amplas da teoria não são negadas.",
+    "status": "bounded-provisional-substitution-new-explicit-program",
+    "catalogRecordsDeleted": false
+  },
+  {
+    "removedId": "social-democracy",
+    "selectedId": "ideology-program-social-democracy-spd-1959",
+    "reason": "Exemplar próprio substitui seleção de programas SI sobrepostos, preservados como alternativas integrais. Contraste de propriedade localizado e limitado às duas versões.",
+    "status": "bounded-provisional-substitution-new-explicit-program",
+    "catalogRecordsDeleted": false
+  },
+  {
+    "removedId": "democratic-socialism",
+    "selectedId": "ideology-program-democratic-socialism-dsa-2026",
+    "reason": "Exemplar próprio substitui seleção de programas SI sobrepostos, preservados como alternativas integrais. Contraste de propriedade localizado e limitado às duas versões.",
     "status": "bounded-provisional-substitution-new-explicit-program",
     "catalogRecordsDeleted": false
   }
@@ -4786,6 +4852,20 @@ export const ideologyOntologyReviewGroups = [
       "hahnel-economic-governance-2014",
       "hahnel-manuscript-edition-inventory",
       "gic-remuneration-rule-1930"
+    ],
+    "reviewedOn": "2026-10-08"
+  },
+  {
+    "id": "productive-property-defaults-in-explicit-party-programmes",
+    "selectedIds": [
+      "ideology-program-social-democracy-spd-1959",
+      "ideology-program-democratic-socialism-dsa-2026"
+    ],
+    "status": "one-bounded-two-sided-primary-contrast",
+    "scope": "Two explicit party programmes replace two already-reviewed SI umbrella referents: qualified selected count remains60. Property authority compared with all public/private exceptions. Historical SI reviews remain valid for preserved alternatives; not retroactively attributed to the new programmes.",
+    "sourceIds": [
+      "spd-godesberg-original-1959",
+      "dsa-workers-deserve-more-2026"
     ],
     "reviewedOn": "2026-10-08"
   }
