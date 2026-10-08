@@ -3545,7 +3545,7 @@ body:has(.quiz-page)::before { @apply hidden; }
  .atlas-shell .plan-tile { @apply grid-cols-1; }
  .atlas-shell .plan-tile svg { @apply hidden; }
 }
-.share-capture-source .share-countries > p:has(small) { @apply py-[1px] mb-[2px] gap-y-[2px]; }
+.share-capture-source .share-countries > p:has(small) { @apply py-[1px] mb-[1px] gap-y-[2px]; }
 .share-capture-source .share-countries > p small { @apply text-[6.5px] leading-[1.25]; }
 .share-capture-source .share-countries img { width:24px !important; height:14px !important; }
 .share-capture-source .share-country-groups .share-countries { @apply shrink-0 overflow-visible; }

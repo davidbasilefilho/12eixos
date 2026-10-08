@@ -34,8 +34,8 @@
     ],
     "provenance": "Executed before local data corrections in this recovery checkpoint; not recomputed from unavailable prior Library checkpoint."
   },
-  "headCommitAtAudit": "9395730ea8ea6b650701f7df3c0474f98a041a05",
-  "integratedCatalogSha256": "b982d8cb49c80b8b4b309788e61914403895deca17970c676b27be50baf193a3",
+  "headCommitAtAudit": "8d8510f9a18c4e822a8ce1b71b22ec7caf4122f4",
+  "integratedCatalogSha256": "270ed8ec0da16f85c9ac3412c43d3b55417483ae105ef05f717d3de30e2aad6b",
   "scope": "Integrated working-tree catalog after preparation; fixed remote baseline and current HEAD are provenance, not immutable copies of modified files.",
   "evidenceGate": {
     "minimumAxes": 6,
@@ -56,9 +56,9 @@
   ],
   "totalTarget": 675,
   "totalRecords": 818,
-  "structurallyEligible": 81,
-  "documentaryEligible": 67,
-  "insufficientEvidence": 751,
+  "structurallyEligible": 82,
+  "documentaryEligible": 68,
+  "insufficientEvidence": 750,
   "unreviewedDirectionCount": 563,
   "summedCategoryIdentityGap": 0,
   "categories": [
@@ -77,12 +77,12 @@
       "category": "historical-country",
       "target": 150,
       "records": 150,
-      "structurallyEligible": 13,
-      "documentaryEligible": 13,
-      "insufficientEvidence": 137,
+      "structurallyEligible": 14,
+      "documentaryEligible": 14,
+      "insufficientEvidence": 136,
       "missingIdentitiesBeforeSemanticReview": 0,
       "preservedExcess": 0,
-      "missingEligibleToTarget": 137
+      "missingEligibleToTarget": 136
     },
     {
       "category": "public-figure",
@@ -11373,16 +11373,17 @@
       "aliases": [],
       "kind": "country",
       "category": "historical-country",
-      "period": "Primeiros governos de Nehru, 15/08/1947–27/05/1964; norma republicana adotada em 26/11/1949, vigência geral em 26/01/1950.",
-      "structurallyEligible": false,
-      "documentaryEligible": false,
-      "reviewStatus": "insufficient-located-coding",
+      "period": "Primeiros governos de Nehru, 15/08/1947–27/05/1964; norma republicana adotada em 26/11/1949, vigência geral em 26/01/1950.; desenho nacional declarado do Segundo Plano na reunião de06/01/1956",
+      "structurallyEligible": true,
+      "documentaryEligible": true,
+      "reviewStatus": "located-coding-present-not-truth-certified",
       "unreviewedDirectionalAxes": [],
       "mappedAxes": [
         "est",
         "rep",
         "pod",
         "imi",
+        "con",
         "rel"
       ],
       "documentedAxes": [
@@ -11390,6 +11391,7 @@
         "rep",
         "pod",
         "imi",
+        "con",
         "rel"
       ],
       "directionalAxes": [
@@ -11397,16 +11399,18 @@
         "rep",
         "pod",
         "imi",
+        "con",
         "rel"
       ],
-      "sourceCount": 6,
+      "sourceCount": 7,
       "sourceUrls": [
         "https://legislative.gov.in/constitution-of-india/",
         "https://sansad.in/ls/about/prime-minister/jawaharlal-nehru",
         "https://egazette.gov.in/WriteReadData/1949/E-2358-1949-0000-109779.pdf",
         "https://en.wikisource.org/wiki/Index:The_Constitution_of_India_1949_(Gazette_Notification_Version).djvu",
         "https://en.wikisource.org/wiki/Index:The_Constitution_of_India_1949_(Gazette_Notification_Version).djvu",
-        "https://www.pmindia.gov.in/en/former_pm/shri-jawaharlal-nehru/"
+        "https://www.pmindia.gov.in/en/former_pm/shri-jawaharlal-nehru/",
+        "https://nehruarchive.in/documents/the-second-plan-scope-and-resources-6-january-1956-pgd5ej"
       ]
     },
     {
