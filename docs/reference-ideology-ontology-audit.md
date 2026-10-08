@@ -1,8 +1,8 @@
 # Ideology ontology: bounded source audit
 
-Definition overlays 08–13 and the existing BPP/CWL selected-slot substitution are integrated in the inventory818-03 working tree, with zero new coded axes and no raw catalog growth. Current ideology ledger is 218 =75 selected +143 alternatives,73 located normative referents/59 bounded comparisons. These counts do not certify75 independent doctrines.
+Definition overlays 08–16 and both existing-record selection substitutions are integrated in the inventory818-04 working tree: CWL → Black Panther and Leopold → cosmopolitan democracy. Current ideology ledger is 218 =75 selected +143 preserved alternatives, 75 located normative referents/62 bounded comparisons. These counts do not certify75 independently distinct definitions or matching eligibility.
 
-Current accepted review: **2026-10-08**, **218 integrated ideology identities =75 selected +143 preserved alternatives**, **73 located normative primary referents /59 bounded two-sided comparisons**. All206 original identities and original75 snapshot are preserved. No programme ID is pending import; full75 independence/default-use remain false. Partial1–5 and zero-axis normative definitions remain unranked under the unchanged six-axis matching gate. Historical checkpoint sections below retain their original scope.
+Reviewed on **2026-10-08**. Actual working-tree ledger: **218 ideology identities =75 selected +143 preserved alternatives**, **75 located normative primary referents /62 bounded two-sided comparisons**. All206 original identities and the full original75 snapshot are preserved; excluded CWL and Leopold remain unchanged alternatives. No accepted definition overlay or selection substitution is pending import. Full75 distinctness/default-use flags remain false; partial and zero-axis normative definitions remain unranked under the unchanged six-axis matching gate. Historical checkpoint sections below retain their original scope.
 
 Historical review chronology begins below: the original7October index-level screening of75 and first substitutions are preserved as dated earlier scope; subsequent groups extend that work without retroactively validating old scores.
 
@@ -329,3 +329,8 @@ Prebisch and Lange are integrated through guarded overlays08/09 on their origina
 ## Current integrated inventory818-03 scope
 
 Current documentary scope is73 located normative referents/59 bounded comparisons,218 ideology records=75 selected+143 preserved alternatives. BPP1966 is selected in the old CWL slot; all original75 identities/trace and the full unrecovered CWL record remain preserved. Definitions11–13 are integrated with full prior archives/source-object unions and zero new numerical codes. Nasser/Baath, Berlinguer and Ghannouchi have positive located programme bodies but unresolved nearest comparisons. Exact Rand/Nozick, Tucker/Proudhon, Cole/Hahnel, Cole/GIC and Inc/Bostrom comparisons retain shared commitments/counters. Generic all-history-family uncertainty does not negate an accepted exact dated programme distinction, but no75-wide certificate is implied. Future Bandung14 and Kropotkin/Bakunin15 source work is not included in these counts.
+
+
+## Integrated818-04 status
+
+The accepted working-tree repairs add the dated Bandung1955 sovereign-cooperation definition, Kropotkin/Bakunin entitlement comparison and Archibugi2000 coercive-authority definition. The exact second selected-slot substitution uses existing `civic-cosmopolitan-democracy` in place of `civic-earth-stewardship`; the prior CWL/BPP substitution remains intact. Full excluded records/source objects and original75 trace survive. Actual partition remains218 =75+143. The75 located definitions and62 bounded comparison rows are source coverage, not a completed nearest-neighbor certificate.

@@ -1,16 +1,14 @@
-/** Editorial planning only: no catalog deletion, scores or default UI activation.
- * Bounded referent review is separate from distinctness and axis validation.
- */
+/** Integrated bounded editorial selection; no default product activation or global independence certificate. */
 export const ideologySelectionSnapshot = {
   "date": "2026-10-08",
   "catalogCount": 218,
   "intendedSubsetCount": 75,
   "readyForDefaultUse": false,
-  "boundedReviewedReferents": 73,
-  "referentCountScope": "Integrated working-tree818-03 after definitions11/12/13 and existingBPP substitution:73 located normative referents/59 bounded comparisons. No75 distinctness certificate or matching-gate implication.",
-  "boundedTwoSidedContrasts": 59,
+  "boundedReviewedReferents": 75,
+  "referentCountScope": "Integrated working-tree818-04 after exact14/15/16 accepted definition repairs and existingCosmo substitution:75 located normative referents/62 bounded comparisons. Not a75 nearest-distinctness certificate.",
+  "boundedTwoSidedContrasts": 62,
   "preservedOriginalCatalogCount": 206,
-  "partitionCountScope": "Same218=75selected+143alternatives; all original206 and original75 identities preserved. No raw catalog growth.",
+  "partitionCountScope": "Integrated same218=75selected+143alternatives, all original206/original75 preserved; no raw growth; all authorized same-ID overlays applied.",
   "pendingCatalogIds": [],
   "independent75Verified": false,
   "pendingDefinitionOverlayIds": [],
@@ -670,12 +668,12 @@ export const ideologySelectionFamilies = [
   {
     "id": "ecological",
     "label": "Ecologia e limites do desenvolvimento",
-    "count": 7
+    "count": 6
   },
   {
     "id": "democratic",
     "label": "Participação e desenho institucional",
-    "count": 6
+    "count": 7
   },
   {
     "id": "development",
@@ -1562,6 +1560,46 @@ export const ideologySelectionSources = [
     "supports": "Defended GuildCongress transitional salaries/eventual income independent of particular service; Commune final arbitration and budgets.",
     "limits": "Hosted OCR not visual collation; inequalities allowed transition; detailed work normally functional bodies. Source prescriptions not implementation.",
     "reviewedOn": "2026-10-08"
+  },
+  {
+    "id": "bandung-final-1955",
+    "title": "Final Communiqué,24 April1955 — MFA1955/World and Japan",
+    "url": "https://worldjpn.net/documents/texts/docs/19550424.D1E.html",
+    "locator": "Full17–173; A11–12/B6 national consultation/liaison; sourcepp161–169",
+    "supports": "Affirmative sovereign cooperative political authority remit, not ban all future unions.",
+    "readAt": "2026-10-08"
+  },
+  {
+    "id": "nkrumah-oau-union-1963",
+    "title": "Nkrumah OAU summit1963 — AU primary speeches compilation",
+    "url": "https://au.int/sites/default/files/speeches/38523-sp-oau_summit_may_1963_speeches.pdf",
+    "locator": "1914–19 and2013–2103, compilationpp49–53",
+    "supports": "Constitutional UnionGovernment common currency/diplomacy/defense/citizenship; consent retained.",
+    "readAt": "2026-10-08"
+  },
+  {
+    "id": "kropotkin-entitlement-1892-1926",
+    "title": "Conquest of Bread — Kropotkin1892, English1926 digitization",
+    "url": "https://www.marxists.org/reference/archive/kropotkin-peter/1892/bread.htm",
+    "locator": "Ch13 complete1118–1225; own1186/1188–1203; participantcounter1203",
+    "supports": "Needs-based entitlement rejects individual wage/labournote measure; no allcollectivists attribution.",
+    "readAt": "2026-10-08"
+  },
+  {
+    "id": "bakunin-earnings-1866-dolgoff1971",
+    "title": "Revolutionary Catechism — attributed1866/Dolgoff1971 selected translation",
+    "url": "https://www.marxists.org/reference/archive/bakunin/works/1866/catechism.htm",
+    "locator": "X.A/G/H/K and children/support54/56; misleading Written1851 notproof",
+    "supports": "Residual unequal individual earnings allowed; social support and collective production retained.",
+    "readAt": "2026-10-08"
+  },
+  {
+    "id": "archibugi-force-authority-2000",
+    "title": "Cosmopolitical Democracy — Archibugi,NLR4 July–August2000",
+    "url": "https://www.danielearchibugi.org/downloads/papers/2017/11/Cosmopolitical_democracy.pdf",
+    "locator": "Author full14pp137–150; peer175–216/223–243/285–353/362–388; force341–347",
+    "supports": "Noncoercive global force-legitimacy institutions with State military monopoly.",
+    "readAt": "2026-10-08"
   }
 ] as const;
 
@@ -1905,7 +1943,7 @@ export const intendedIdeologySelection = [
     "documentedAxisCountAtSnapshot": 0,
     "ontologyStatus": "bounded-normative-referent-reviewed",
     "contrastStatus": "bounded-primary-neighbor-contrast",
-    "ontologyLimit": "Contrastes localizados sobre troca/distribuição ou legitimidade da força defensiva. Relação Tucker/Proudhon e anarcossindicalismo/comunismo permanece aninhada ou aberta; as edições lidas não equivalem a toda história da corrente."
+    "ontologyLimit": "Exemplares1892/1926 e1866/Dolgoff1971: direitos de consumo versus remuneração residual por contribuição. Apoio social e participação produtiva compartilhados; não generaliza todas as variantes."
   },
   {
     "id": "ideology-program-anarcho-syndicalism-iwa-2022",
@@ -1946,10 +1984,10 @@ export const intendedIdeologySelection = [
     "family": "anarchist",
     "selectionRationale": "Federação coletivista de comunas",
     "reviewStatus": "referent-and-bounded-neighbor-contrast-reviewed",
-    "documentedAxisCountAtSnapshot": 8,
+    "documentedAxisCountAtSnapshot": 0,
     "ontologyStatus": "bounded-normative-referent-reviewed",
     "contrastStatus": "bounded-primary-neighbor-contrast",
-    "ontologyLimit": "Contrastes localizados sobre troca/distribuição ou legitimidade da força defensiva. Relação Tucker/Proudhon e anarcossindicalismo/comunismo permanece aninhada ou aberta; as edições lidas não equivalem a toda história da corrente."
+    "ontologyLimit": "Exemplares1892/1926 e1866/Dolgoff1971: direitos de consumo versus remuneração residual por contribuição. Apoio social e participação produtiva compartilhados; não generaliza todas as variantes."
   },
   {
     "id": "ideology-left-individualist-anarchism",
@@ -2008,13 +2046,14 @@ export const intendedIdeologySelection = [
   },
   {
     "id": "ideology-anticolonial-nationalism",
-    "name": "Nacionalismo anticolonial",
+    "name": "Anticolonialismo e cooperação soberana: Bandung, 1955",
     "family": "decolonial",
     "selectionRationale": "Autodeterminação e soberania pós-colonial",
-    "reviewStatus": "provisional",
+    "reviewStatus": "referent-and-bounded-neighbor-contrast-reviewed",
     "documentedAxisCountAtSnapshot": 0,
-    "ontologyStatus": "provisional-normative-referent",
-    "contrastStatus": "not-independently-verified"
+    "ontologyStatus": "bounded-normative-referent-reviewed",
+    "contrastStatus": "bounded-primary-neighbor-contrast",
+    "ontologyLimit": "Consulta e cooperação por estruturas nacionais versus União constitucional Nkrumah1963; soberania/consentimento/defesa coletiva compartilhados. Não proíbe futuras uniões."
   },
   {
     "id": "ideology-pan-africanism",
@@ -2182,15 +2221,15 @@ export const intendedIdeologySelection = [
     "ontologyLimit": "Contraste específico com Manifesto Ecomodernista 2015 localizado; relações entre demais correntes ecológicas permanecem abertas e não são mutuamente exclusivas."
   },
   {
-    "id": "civic-earth-stewardship",
-    "name": "Ética da terra e conservação",
-    "family": "ecological",
-    "selectionRationale": "Comunidade moral incluindo seres e sistemas naturais",
-    "reviewStatus": "provisional",
-    "documentedAxisCountAtSnapshot": 2,
-    "ontologyStatus": "ethical-framework",
-    "contrastStatus": "not-independently-verified",
-    "ontologyLimit": "Ética ambiental precisa de transição demonstrada a uma doutrina política, além do fundamento moral."
+    "id": "civic-cosmopolitan-democracy",
+    "name": "Democracia cosmopolita: proposta de Archibugi, 2000",
+    "family": "democratic",
+    "selectionRationale": "Legitimação global do uso da força por instituições sem coerção, mantendo os meios militares dos Estados.",
+    "reviewStatus": "referent-and-bounded-neighbor-contrast-reviewed",
+    "documentedAxisCountAtSnapshot": 0,
+    "ontologyStatus": "bounded-normative-referent-reviewed",
+    "contrastStatus": "bounded-primary-neighbor-contrast",
+    "ontologyLimit": "Contraste datado de autoridade coerciva com Montreux1947, não oposição a todo governo global nem certificado de todas as variantes."
   },
   {
     "id": "civic-environmental-justice",
@@ -2996,6 +3035,33 @@ export const ideologyOverlapChecks = [
     "relation": "autoselecting-functional-control-versus-democratic-international-rule-of-law",
     "rationale": "Inc electronic1.1/2004 Lesson22 director selected by functional Control with internal two-thirds veto/recall and explicit non-democratic design. Bostrom2005 endorses public debate and international rule of law/democracy. Shared technological prosperity does not establish difference; same public-authority legitimacy function differs in these programmes, not all transhumanism or other nearest models.",
     "status": "bounded-primary-contrast"
+  },
+  {
+    "a": "ideology-anticolonial-nationalism",
+    "b": "ideology-pan-africanism",
+    "relation": "sovereign-consultation-versus-constitutional-union-authority",
+    "rationale": "BandungA11–12/B6 mantém consulta/ligação nacionais e acordos; Nkrumah1963 pp49–53 propõe governo da União com moeda/diplomacia/defesa/cidadania.",
+    "status": "bounded-primary-contrast",
+    "reviewedOn": "2026-10-08",
+    "counterevidence": "Consentimento, soberania e políticas/defesa coletivas compartilhados; não proibição de toda futura união."
+  },
+  {
+    "a": "ideology-anarcho-communism",
+    "b": "ideology-left-anarcho-collectivism",
+    "relation": "need-entitlement-versus-residual-individual-earnings",
+    "rationale": "KropotkinCh13 rejeita notas laborais e medida individual; BakuninX.A/G/H/K permite rendimentos residuais por habilidade/energia/economia.",
+    "status": "bounded-primary-contrast",
+    "reviewedOn": "2026-10-08",
+    "counterevidence": "Apoio a crianças/idleness voluntária/participação produtiva preservados. Fórmula de horas polemizada por Kropotkin não atribuída a Bakunin."
+  },
+  {
+    "a": "civic-cosmopolitan-democracy",
+    "b": "civic-world-federalism",
+    "relation": "noncoercive-global-legitimacy-versus-supranational-armed-enforcement",
+    "rationale": "Archibugi2000 own341–347 conserva monopólio militar estatal sob decisões de legitimidade sem coerção; Montreux1947 own37–39 supranacionaliza forças e desarma membros para policiamento interno.",
+    "status": "bounded-primary-contrast",
+    "reviewedOn": "2026-10-08",
+    "counterevidence": "Direitos globais, reformaONU, Estados domésticos e autorização coletiva compartilhados. Não atribuir dissolução de Estados a Montreux."
   }
 ] as const;
 
@@ -3661,19 +3727,6 @@ export const preservedIdeologyAlternatives = [
       "Treaty on European Union — EUR-Lex"
     ],
     "documentedAxisCountAtSnapshot": 4,
-    "reviewStatus": "provisional"
-  },
-  {
-    "id": "civic-cosmopolitan-democracy",
-    "name": "Democracia cosmopolita",
-    "reasonCode": "ontology-review",
-    "compareWith": null,
-    "decisionRationale": "Perfil institucional, princípio ou política setorial: validar se constitui ideologia autônoma antes de aumentar sua representação no subconjunto.",
-    "catalogRationale": "Estende representação, prestação de contas e direitos democráticos a instituições internacionais para tratar problemas transfronteiriços.",
-    "catalogSourceTitles": [
-      "Cosmopolitical Democracy — Daniele Archibugi"
-    ],
-    "documentedAxisCountAtSnapshot": 5,
     "reviewStatus": "provisional"
   },
   {
@@ -4856,6 +4909,19 @@ export const preservedIdeologyAlternatives = [
     ],
     "documentedAxisCountAtSnapshot": 0,
     "reviewStatus": "provisional"
+  },
+  {
+    "id": "civic-earth-stewardship",
+    "name": "Ética da terra e conservação",
+    "reasonCode": "preserved-original-ethical-framework-substitution",
+    "compareWith": "civic-cosmopolitan-democracy",
+    "decisionRationale": "Leopold é fundamento ético ambiental sem programa político próprio demonstrado neste perfil; registro completo permanece. Exemplar cosmopolita existente possui norma de autoridade e contraste institucional positivo.",
+    "catalogRationale": "A ética da terra amplia a comunidade moral para solos, águas, plantas e animais.",
+    "catalogSourceTitles": [
+      "A Sand County Almanac — Aldo Leopold Foundation"
+    ],
+    "documentedAxisCountAtSnapshot": 2,
+    "reviewStatus": "preserved-original-record-not-deleted"
   }
 ] as const;
 
@@ -4976,6 +5042,14 @@ export const ideologyOntologySubstitutions = [
     "removedId": "ideology-neoliberalism",
     "selectedId": "ideology-left-black-panther-platform",
     "reason": "Root accepted existing alternative1966 affirmative programme and bounded constitutional-jurisdiction contrast; unrecovered CWL preserved extra. No raw growth or scores.",
+    "reviewedOn": "2026-10-08",
+    "status": "accepted-proposed-substitution-existing-catalog",
+    "catalogRecordsDeleted": false
+  },
+  {
+    "removedId": "civic-earth-stewardship",
+    "selectedId": "civic-cosmopolitan-democracy",
+    "reason": "Root accepted scoped existing normative alternative and material same-function coercive-authority contrast; fullLeopold remains extra, original75 trace unchanged.",
     "reviewedOn": "2026-10-08",
     "status": "accepted-proposed-substitution-existing-catalog",
     "catalogRecordsDeleted": false
@@ -5532,5 +5606,48 @@ export const ideologyOntologyReviewGroups = [
     ],
     "reviewedOn": "2026-10-08",
     "rootDecision": "accepted-bounded-2026-10-08"
+  },
+  {
+    "id": "bandung-nkrumah-joint-authority",
+    "selectedIds": [
+      "ideology-anticolonial-nationalism",
+      "ideology-pan-africanism"
+    ],
+    "status": "one-bounded-two-sided-primary-contrast",
+    "sourceIds": [
+      "bandung-final-1955",
+      "nkrumah-oau-union-1963"
+    ],
+    "scope": "Sovereign liaison/consultation versus constitutionalUnionGovernment; shared consent/collective defense retained.",
+    "reviewedOn": "2026-10-08"
+  },
+  {
+    "id": "kropotkin-bakunin-entitlement",
+    "selectedIds": [
+      "ideology-anarcho-communism",
+      "ideology-left-anarcho-collectivism"
+    ],
+    "status": "one-bounded-two-sided-primary-contrast",
+    "sourceIds": [
+      "kropotkin-entitlement-1892-1926",
+      "bakunin-earnings-1866-dolgoff1971"
+    ],
+    "scope": "Needs entitlement versus residual contributionearnings, shared support/participation retained.",
+    "reviewedOn": "2026-10-08"
+  },
+  {
+    "id": "archibugi-montreux-coercive-authority",
+    "selectedIds": [
+      "civic-cosmopolitan-democracy",
+      "civic-world-federalism"
+    ],
+    "status": "one-bounded-two-sided-primary-contrast",
+    "sourceIds": [
+      "archibugi-force-authority-2000"
+    ],
+    "additionalPrimaryUrl": "https://www.cvce.eu/content/publication/1999/1/1/adf279f7-80a4-4855-9215-48a5184328aa/publishable_en.pdf",
+    "additionalLocator": "Metadata0–14/fullown15–65, armedauthority37–39",
+    "scope": "Noncoercive global forcelegitimacy versus supranationalarmed enforcement; rights/UN/domesticStates shared.",
+    "reviewedOn": "2026-10-08"
   }
 ] as const;

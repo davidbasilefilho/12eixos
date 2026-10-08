@@ -34,8 +34,8 @@
     ],
     "provenance": "Executed before local data corrections in this recovery checkpoint; not recomputed from unavailable prior Library checkpoint."
   },
-  "headCommitAtAudit": "35ca22b69c740d9b43ca16ae3a78daef2c06cf71",
-  "integratedCatalogSha256": "d589fc0f9144177fc7ec05dd4f3b2cbb642c3a514ec652f27a3520d55953976e",
+  "headCommitAtAudit": "47c8c6bf86209908c5d5edb980bf37cc13d03a48",
+  "integratedCatalogSha256": "86842c14ea1fa651f515194690c44debc7c26e65a8d25c32704c9dfdbe3f255b",
   "scope": "Integrated working-tree catalog after preparation; fixed remote baseline and current HEAD are provenance, not immutable copies of modified files.",
   "evidenceGate": {
     "minimumAxes": 6,
@@ -56,10 +56,10 @@
   ],
   "totalTarget": 675,
   "totalRecords": 818,
-  "structurallyEligible": 74,
+  "structurallyEligible": 73,
   "documentaryEligible": 56,
   "insufficientEvidence": 762,
-  "unreviewedDirectionCount": 828,
+  "unreviewedDirectionCount": 656,
   "summedCategoryIdentityGap": 0,
   "categories": [
     {
@@ -110,7 +110,7 @@
       "category": "ideology",
       "target": 75,
       "records": 218,
-      "structurallyEligible": 27,
+      "structurallyEligible": 26,
       "documentaryEligible": 9,
       "insufficientEvidence": 209,
       "missingIdentitiesBeforeSemanticReview": 0,
@@ -828,7 +828,7 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e prática relatada, 2024–2025; revisão documental em 07/10/2026",
+      "period": "Normas constitucionais de 1967, artigo 230 revisto em 1996, direito matrimonial revisto em 2013; narrativa FH2025 sobre 2024",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
@@ -873,7 +873,7 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e prática relatada, 2024–2025; revisão documental em 07/10/2026",
+      "period": "Texto constitucional de 1953, edição republicada de 1992 arquivada em 2023; narrativa FH2025 sobre 2024; tratado europeu de 2016",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
@@ -911,7 +911,7 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Prática institucional em 2024; Constituição e emendas de 1791 no texto oferecido pelo Senado em 2026; Página atualizada em 2026-06-02",
+      "period": "Normas constitucionais de 1787/1791 em texto do Senado; narrativa FH2025 sobre 2024",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
@@ -952,7 +952,7 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Prática institucional em 2024; declarações oficiais do MHA de 29/09/2026 e Singapore Customs de 09/03/2026",
+      "period": "Narrativa FH2025 sobre 2024; declarações MHA de 29/09/2026 e Singapore Customs de 09/03/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
@@ -990,7 +990,7 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e prática relatada, 2024–2025; revisão documental em 07/10/2026",
+      "period": "Normas dos artigos 20 e 30 da Lei Fundamental em páginas oficiais sem data editorial comprovada; tratado europeu de 2016; narrativa FH2025 sobre 2024",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
@@ -1033,7 +1033,7 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e prática relatada, 2024–2025; revisão documental em 07/10/2026",
+      "period": "Descrição institucional da Constituição de 1986 sem data editorial; declaração Justiça atualizada em 24/04/2024; acordo comercial vigente em 01/05/2024; narrativa FH2025",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
@@ -1073,7 +1073,7 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Prática institucional em 2024; norma constitucional no texto consolidado que inclui emendas até 2025, consultado em 07/10/2026",
+      "period": "Constituição consolidada consultada em 07/10/2026, edição integral não certificada; narrativa FH2025 sobre 2024",
       "structurallyEligible": true,
       "documentaryEligible": true,
       "reviewStatus": "located-coding-present-not-truth-certified",
@@ -1116,7 +1116,7 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Prática institucional em 2024; Constituição de 1946 oferecida pela Câmara em 2026 e interpretação oficial de defesa posterior à decisão de 01/07/2014; provisão escolar pública declarada pelo MEXT em página sem data consultada em 2026; 2026-04-10",
+      "period": "Constituição de 1946 oferecida pela Câmara; interpretação oficial de defesa posterior a 01/07/2014; narrativa FH2025 sobre 2024; declaração MEXT consultada em 2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
@@ -1159,7 +1159,7 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Prática institucional em 2024, exceto Caxemira administrada pela Índia; norma constitucional em 01/05/2024 e mandato NITI consultado em 2026",
+      "period": "Constituição oficial atualizada em 01/05/2024; mandato NITI sem data editorial consultado em 2026; narrativa FH2025 sobre 2024, exceto Caxemira administrada pela Índia",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
@@ -1202,7 +1202,7 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Prática institucional em 2024; normas da edição constitucional oficial com emendas até 2012, sem certificação de consolidação em 2024–2026; Camada normativa da edição com emendas até 2012; consultada em 2026-10-07",
+      "period": "Camada constitucional com emendas até 2012 e cláusulas paralelas oficiais indexadas; normas familiares de 1998/2021 e 2006, julgados de 1997/2005; narrativa FH2025 sobre 2024",
       "structurallyEligible": true,
       "documentaryEligible": true,
       "reviewStatus": "located-coding-present-not-truth-certified",
@@ -1250,7 +1250,7 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Prática institucional em 2024; camada normativa da tradução constitucional oferecida pela Corte em 2026, sem data editorial ou certificação independente de consolidação contemporânea; 2026-06-26",
+      "period": "Tradução constitucional oferecida pela Corte em 2026, sem data editorial comprovada; narrativa FH2025 sobre 2024",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
@@ -1291,7 +1291,7 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Prática institucional em 2024; Constituição oficial consolidada com últimas reformas DOF de 02/06/2026",
+      "period": "Constituição oficial consolidada com reformas DOF de 02/06/2026; narrativa FH2025 sobre 2024",
       "structurallyEligible": true,
       "documentaryEligible": true,
       "reviewStatus": "located-coding-present-not-truth-certified",
@@ -1337,7 +1337,7 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Prática institucional em 2024; camada normativa histórica da Constituição revista em 2017, sem certificação de consolidação em 2024–2026; Página sem data editorial, contém dados de2025; consultada em2026-10-07",
+      "period": "Constituição revista em 2017, camada histórica; narrativa FH2025 sobre 2024; declarações posteriores sem data editorial segura",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
@@ -1378,7 +1378,7 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Prática institucional em 2024; Lei Básica na edição com emendas de 2006/2017, sem certificação contemporânea; estratégia PIF declarada para 2026–2030",
+      "period": "Lei Básica de 02/03/1992 com emendas de 2006/2017 na tradução oferecida; narrativa FH2025 sobre 2024; estratégia PIF para 2026–2030",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
@@ -1419,7 +1419,7 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Prática institucional em 2024; normas constitucionais e de família de 1946–2024, versões oficiais consultadas em 08/10/2026; regime aduaneiro sem data consultado em 07/10/2026",
+      "period": "Normas constitucionais nas redações de 2003/2008/2024; leis familiares e outras versões oficiais datadas separadamente; narrativa FH2025 sobre 2024",
       "structurallyEligible": true,
       "documentaryEligible": true,
       "reviewStatus": "located-coding-present-not-truth-certified",
@@ -2405,11 +2405,11 @@
     },
     {
       "id": "ideology-anarcho-communism",
-      "name": "Anarcocomunismo",
+      "name": "Comunismo anarquista: necessidades e livre acordo em Kropotkin, 1892",
       "aliases": [],
       "kind": "ideology",
       "category": "ideology",
-      "period": "A Conquista do Pão, 1892",
+      "period": "The Conquest of Bread, obra francesa 1892; versão inglesa Vanguard Press 1926 digitalizada, capítulo 13; prefácio 1913 excluído",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
@@ -2417,8 +2417,9 @@
       "mappedAxes": [],
       "documentedAxes": [],
       "directionalAxes": [],
-      "sourceCount": 1,
+      "sourceCount": 2,
       "sourceUrls": [
+        "https://www.marxists.org/reference/archive/kropotkin-peter/1892/bread.htm",
         "https://www.marxists.org/reference/archive/kropotkin-peter/1892/bread.htm"
       ]
     },
@@ -2577,11 +2578,11 @@
     },
     {
       "id": "ideology-anticolonial-nationalism",
-      "name": "Nacionalismo anticolonial",
+      "name": "Anticolonialismo e cooperação soberana: Bandung, 1955",
       "aliases": [],
       "kind": "ideology",
       "category": "ideology",
-      "period": "Conferência de Bandung, 1955",
+      "period": "Comunicado final adotado em 24 abril 1955; transcrição World and Japan da edição Ministério das Relações Exteriores da Indonésia 1955, pp 161–169",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
@@ -2589,9 +2590,10 @@
       "mappedAxes": [],
       "documentedAxes": [],
       "directionalAxes": [],
-      "sourceCount": 1,
+      "sourceCount": 2,
       "sourceUrls": [
-        "https://digitallibrary.un.org/record/81959"
+        "https://digitallibrary.un.org/record/81959",
+        "https://worldjpn.net/documents/texts/docs/19550424.D1E.html"
       ]
     },
     {
@@ -3941,47 +3943,21 @@
     },
     {
       "id": "ideology-left-anarcho-collectivism",
-      "name": "Anarquismo coletivista",
+      "name": "Coletivismo federativo: programa de Bakunin, 1866",
       "aliases": [],
       "kind": "ideology",
       "category": "ideology",
-      "period": "Catecismo revolucionário, 1866",
-      "structurallyEligible": true,
+      "period": "Revolutionary Catechism, programa atribuído a 1866; seleções traduzidas e editadas por Sam Dolgoff, fonte rotulada 1971",
+      "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep",
-        "pod",
-        "eco",
-        "con",
-        "com",
-        "rel",
-        "mor"
-      ],
-      "mappedAxes": [
-        "est",
-        "rep",
-        "pod",
-        "eco",
-        "con",
-        "com",
-        "rel",
-        "mor"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "est",
-        "rep",
-        "pod",
-        "eco",
-        "con",
-        "com",
-        "rel",
-        "mor"
-      ],
-      "sourceCount": 1,
+      "directionalAxes": [],
+      "sourceCount": 2,
       "sourceUrls": [
+        "https://www.marxists.org/reference/archive/bakunin/works/1866/catechism.htm",
         "https://www.marxists.org/reference/archive/bakunin/works/1866/catechism.htm"
       ]
     },
@@ -4835,39 +4811,22 @@
     },
     {
       "id": "civic-cosmopolitan-democracy",
-      "name": "Democracia cosmopolita",
+      "name": "Democracia cosmopolita: proposta de Archibugi, 2000",
       "aliases": [],
       "kind": "ideology",
       "category": "ideology",
-      "period": "Archibugi, Cosmopolitical Democracy, 2000",
+      "period": "Cosmopolitical Democracy, New Left Review 4, julho–agosto de 2000, pp 137–150; PDF republicado no arquivo do autor",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep",
-        "imi",
-        "int",
-        "com"
-      ],
-      "mappedAxes": [
-        "est",
-        "rep",
-        "imi",
-        "int",
-        "com"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "est",
-        "rep",
-        "imi",
-        "int",
-        "com"
-      ],
-      "sourceCount": 1,
+      "directionalAxes": [],
+      "sourceCount": 2,
       "sourceUrls": [
-        "https://newleftreview.org/issues/ii4/articles/daniele-archibugi-cosmopolitical-democracy.pdf"
+        "https://newleftreview.org/issues/ii4/articles/daniele-archibugi-cosmopolitical-democracy.pdf",
+        "https://www.danielearchibugi.org/downloads/papers/2017/11/Cosmopolitical_democracy.pdf"
       ]
     },
     {
@@ -9759,7 +9718,7 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Normas constitucionais e leis civis/culturais em versões oficiais consultadas em 08/10/2026; precedente de neutralidade de 2015. Não certifica prática de 2025.",
+      "period": "Constitution Acts de 1867/1982, versões oficiais consultadas em 08/10/2026; leis civis e culturais em edições próprias; precedente de neutralidade de 2015",
       "structurallyEligible": true,
       "documentaryEligible": true,
       "reviewStatus": "located-coding-present-not-truth-certified",
@@ -9806,27 +9765,19 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas vigentes, 2024–2025",
+      "period": "Texto constitucional de 29/07/1977; compilação eletrônica sem data editorial comprovada; consulta em 08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep"
-      ],
-      "mappedAxes": [
-        "est",
-        "rep"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "est",
-        "rep"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Australia_1986",
-        "https://freedomhouse.org/country/australia/freedom-world/2025"
+        "https://freedomhouse.org/country/australia/freedom-world/2025",
+        "https://www.legislation.gov.au/C2004Q00685/1977-07-29/1977-07-29/text/1/epub/OEBPS/document_1/document_1.html"
       ]
     },
     {
@@ -9835,24 +9786,20 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas vigentes, 2024–2025",
+      "period": "Manual do Gabinete, primeira edição de outubro de 2011; consulta em 08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "rep"
-      ],
-      "mappedAxes": [
-        "rep"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "rep"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 4,
       "sourceUrls": [
         "https://www.parliament.uk/about/how/role/relations-with-other-institutions/parliament-crown/",
-        "https://freedomhouse.org/country/united-kingdom/freedom-world/2025"
+        "https://freedomhouse.org/country/united-kingdom/freedom-world/2025",
+        "https://assets.publishing.service.gov.uk/media/5a79d5d7e5274a18ba50f2b6/cabinet-manual.pdf",
+        "https://www.gov.uk/government/news/new-cabinet-manual-to-be-ultimate-user-s-guide-to-government"
       ]
     },
     {
@@ -9861,24 +9808,20 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas vigentes, 2024–2025",
+      "period": "Artigo 1 constitucional, republicação institucional sem data editorial; consulta em 08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "rep"
-      ],
-      "mappedAxes": [
-        "rep"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "rep"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 4,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Italy_2020",
-        "https://freedomhouse.org/country/italy/freedom-world/2025"
+        "https://freedomhouse.org/country/italy/freedom-world/2025",
+        "https://www.senato.it/istituzione/la-costituzione/principi-fondamentali",
+        "https://www.senato.it/en/constitution"
       ]
     },
     {
@@ -9887,27 +9830,19 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas vigentes, 2024–2025",
+      "period": "Constituição de 1978, redação consolidada publicada em 20/05/2026; consulta em 08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep"
-      ],
-      "mappedAxes": [
-        "est",
-        "rep"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "est",
-        "rep"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
         "https://boe.es/buscar/act.php?id=BOE-A-1978-31229&p=20240217&tn=0",
-        "https://freedomhouse.org/country/spain/freedom-world/2025"
+        "https://freedomhouse.org/country/spain/freedom-world/2025",
+        "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&lang=es&p=20260520&tn=1"
       ]
     },
     {
@@ -9916,27 +9851,19 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas vigentes, 2024–2025",
+      "period": "Constituição de 1976, VII revisão de 2005; consulta em 08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep"
-      ],
-      "mappedAxes": [
-        "est",
-        "rep"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "est",
-        "rep"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Portugal_2005",
-        "https://freedomhouse.org/country/portugal/freedom-world/2025"
+        "https://freedomhouse.org/country/portugal/freedom-world/2025",
+        "https://www.parlamento.pt/Legislacao/Paginas/ConstituicaoRepublicaPortuguesa.aspx"
       ]
     },
     {
@@ -9945,24 +9872,20 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas vigentes, 2024–2025",
+      "period": "Constituição, edição de 2023; consulta em 08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "rep"
-      ],
-      "mappedAxes": [
-        "rep"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "rep"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 4,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Netherlands_2008",
-        "https://freedomhouse.org/country/netherlands/freedom-world/2025"
+        "https://freedomhouse.org/country/netherlands/freedom-world/2025",
+        "https://open.overheid.nl/documenten/ronl-faa96875fef77af167a9133bd3625c0e9b45fa89/pdf",
+        "https://www.rijksoverheid.nl/documenten/2023/04/26/grondwet-voor-het-koninkrijk-der-nederlanden"
       ]
     },
     {
@@ -10014,24 +9937,19 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas vigentes, 2024–2025",
+      "period": "Constituição de 02/04/1997; tradução sem data de revisão comprovada; consulta em 08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "rep"
-      ],
-      "mappedAxes": [
-        "rep"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "rep"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Poland_1997",
-        "https://freedomhouse.org/country/poland/freedom-world/2025"
+        "https://freedomhouse.org/country/poland/freedom-world/2025",
+        "https://www.sejm.gov.pl/prawo/konst/angielski/konse.htm"
       ]
     },
     {
@@ -10040,24 +9958,19 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas vigentes, 2024–2025",
+      "period": "Constituição adotada em 16/12/1992; emendas listadas até 2013; consulta em 08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "rep"
-      ],
-      "mappedAxes": [
-        "rep"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "rep"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Czech_Republic_2013",
-        "https://freedomhouse.org/country/czechia/freedom-world/2025"
+        "https://freedomhouse.org/country/czechia/freedom-world/2025",
+        "https://pspen.psp.cz/chamber-members/legal-framework/"
       ]
     },
     {
@@ -10066,24 +9979,19 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas vigentes, 2024–2025",
+      "period": "Lei Fundamental, texto em vigor em 23/12/2020; consulta em 08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "rep"
-      ],
-      "mappedAxes": [
-        "rep"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "rep"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Hungary_2011",
-        "https://freedomhouse.org/country/hungary/freedom-world/2025"
+        "https://freedomhouse.org/country/hungary/freedom-world/2025",
+        "https://www.parlament.hu/documents/125505/138409/Fundamental%2Blaw/73811993-c377-428d-9808-ee03d6fb8178"
       ]
     },
     {
@@ -10092,7 +10000,7 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas vigentes, 2024–2025",
+      "period": "Constituição de 1996, revisão indicada até 03/09/2019; consulta em 08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
@@ -10100,10 +10008,11 @@
       "mappedAxes": [],
       "documentedAxes": [],
       "directionalAxes": [],
-      "sourceCount": 2,
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Ukraine_2019",
-        "https://freedomhouse.org/country/ukraine/freedom-world/2025"
+        "https://freedomhouse.org/country/ukraine/freedom-world/2025",
+        "https://zakonst.rada.gov.ua/docs/en/constitution.pdf"
       ]
     },
     {
@@ -10112,24 +10021,19 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas vigentes, 2024–2025",
+      "period": "Constituição, tradução do Supremo revista em 21/07/2014; consulta em 08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "rep"
-      ],
-      "mappedAxes": [
-        "rep"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "rep"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Russia_2020",
-        "https://freedomhouse.org/country/russia/freedom-world/2025"
+        "https://freedomhouse.org/country/russia/freedom-world/2025",
+        "https://www.vsrf.ru/en/documents/constitution/"
       ]
     },
     {
@@ -10138,24 +10042,19 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas vigentes, 2024–2025",
+      "period": "Constituição de 1982, redação atualizada em 11/03/2018; consulta em 08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "rep"
-      ],
-      "mappedAxes": [
-        "rep"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "rep"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/China_2018",
-        "https://freedomhouse.org/country/china/freedom-world/2025"
+        "https://freedomhouse.org/country/china/freedom-world/2025",
+        "https://en.npc.gov.cn.cdurl.cn/2018-03/11/c_1145393.htm"
       ]
     },
     {
@@ -10164,24 +10063,20 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas vigentes, 2024–2025",
+      "period": "Norma institucional: emenda29/10/1987, vigência25/02/1988; consulta08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "rep"
-      ],
-      "mappedAxes": [
-        "rep"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "rep"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 4,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/South_Korea_1987",
-        "https://freedomhouse.org/country/south-korea/freedom-world/2025"
+        "https://freedomhouse.org/country/south-korea/freedom-world/2025",
+        "https://law.go.kr/LSW/lsInfoP.do?lsiSeq=61603&urlMode=engLs&viewCls=engLsInfoR",
+        "https://www.law.go.kr/LSW/eng/engLsInfoR.do?lsiSeq=61603"
       ]
     },
     {
@@ -10190,24 +10085,21 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas vigentes, 2024–2025",
+      "period": "Norma institucional: artigos adicionais após revisão10/06/2005; republicação sem data editorial; consulta08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "rep"
-      ],
-      "mappedAxes": [
-        "rep"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "rep"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 5,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Taiwan_1947",
-        "https://freedomhouse.org/country/taiwan/freedom-world/2025"
+        "https://freedomhouse.org/country/taiwan/freedom-world/2025",
+        "https://english.president.gov.tw/Page/95",
+        "https://english.president.gov.tw/Page/7",
+        "https://english.president.gov.tw/page/94"
       ]
     },
     {
@@ -10216,24 +10108,19 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas vigentes, 2024–2025",
+      "period": "Norma institucional: Constituição1987, republicação textual sem data editorial; consulta08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "rep"
-      ],
-      "mappedAxes": [
-        "rep"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "rep"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Philippines_1987",
-        "https://freedomhouse.org/country/philippines/freedom-world/2025"
+        "https://freedomhouse.org/country/philippines/freedom-world/2025",
+        "https://www.constituteproject.org/constitution/Philippines_1987?lang=en"
       ]
     },
     {
@@ -10242,24 +10129,19 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas vigentes, 2024–2025",
+      "period": "Norma institucional: promulgação06/04/2017, tradução nãooficial institucional; consulta08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "rep"
-      ],
-      "mappedAxes": [
-        "rep"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "rep"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Thailand_2017",
-        "https://freedomhouse.org/country/thailand/freedom-world/2025"
+        "https://freedomhouse.org/country/thailand/freedom-world/2025",
+        "https://www.constituteproject.org/constitution/Thailand_2017"
       ]
     },
     {
@@ -10268,24 +10150,19 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas vigentes, 2024–2025",
+      "period": "Norma institucional: 1957, revisão2007 republicada; emendas posteriores não auditadas; consulta08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "rep"
-      ],
-      "mappedAxes": [
-        "rep"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "rep"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Malaysia_2007",
-        "https://freedomhouse.org/country/malaysia/freedom-world/2025"
+        "https://freedomhouse.org/country/malaysia/freedom-world/2025",
+        "https://www.constituteproject.org/constitution/Malaysia_2007?lang=en"
       ]
     },
     {
@@ -10294,24 +10171,19 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas vigentes, 2024–2025",
+      "period": "Norma institucional: Constituição1992, revisão2013 republicada; consulta08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "rep"
-      ],
-      "mappedAxes": [
-        "rep"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "rep"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Vietnam_2013",
-        "https://freedomhouse.org/country/vietnam/freedom-world/2025"
+        "https://freedomhouse.org/country/vietnam/freedom-world/2025",
+        "https://www.constituteproject.org/constitution/Socialist_Republic_of_Vietnam_2013"
       ]
     },
     {
@@ -10320,24 +10192,19 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas vigentes, 2024–2025",
+      "period": "Norma institucional: 1973, reinstalada2002, revisão2018 republicada; consulta08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "rep"
-      ],
-      "mappedAxes": [
-        "rep"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "rep"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Pakistan_2018",
-        "https://freedomhouse.org/country/pakistan/freedom-world/2025"
+        "https://freedomhouse.org/country/pakistan/freedom-world/2025",
+        "https://www.constituteproject.org/constitution/Pakistan_2018?lang=en"
       ]
     },
     {
@@ -10346,24 +10213,20 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas vigentes, 2024–2025",
+      "period": "Norma institucional: norma adotada04/11/1972, texto anotado com emendas; edição editorial não comprovada; consulta08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "rep"
-      ],
-      "mappedAxes": [
-        "rep"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "rep"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 4,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Bangladesh_2014",
-        "https://freedomhouse.org/country/bangladesh/freedom-world/2025"
+        "https://freedomhouse.org/country/bangladesh/freedom-world/2025",
+        "https://bdlaws.minlaw.gov.bd/act-print-367.html",
+        "https://bdlaws.minlaw.gov.bd/act-print-367/section-print-24555.html"
       ]
     },
     {
@@ -10372,24 +10235,19 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas vigentes, 2024–2025",
+      "period": "Lei Básica do Estado-Nação de 19/07/2018, tradução não oficial; consulta em 08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "rep"
-      ],
-      "mappedAxes": [
-        "rep"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "rep"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Israel_1958",
-        "https://freedomhouse.org/country/israel/freedom-world/2025"
+        "https://freedomhouse.org/country/israel/freedom-world/2025",
+        "https://main.knesset.gov.il/EN/News/PressReleases/Pages/Pr13978_pg.aspx"
       ]
     },
     {
@@ -10398,24 +10256,20 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas vigentes, 2024–2025",
+      "period": "Constituição, reprodução inglesa institucional publicada em 02/06/2021; consulta em 08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "rep"
-      ],
-      "mappedAxes": [
-        "rep"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "rep"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 4,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Iran_1989",
-        "https://freedomhouse.org/country/iran/freedom-world/2025"
+        "https://freedomhouse.org/country/iran/freedom-world/2025",
+        "https://www.shora-gc.ir/en/news/87/constitution-of-the-islamic-republic-of-iran-full-text",
+        "https://www.wipo.int/wipolex/en/legislation/details/7697"
       ]
     },
     {
@@ -10424,24 +10278,19 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas vigentes, 2024–2025",
+      "period": "Texto constitucional eletrônico oficial sem corte de emendas comprovado; consulta em 08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "rep"
-      ],
-      "mappedAxes": [
-        "rep"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "rep"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/United_Arab_Emirates_2004",
-        "https://freedomhouse.org/country/united-arab-emirates/freedom-world/2025"
+        "https://freedomhouse.org/country/united-arab-emirates/freedom-world/2025",
+        "https://uaelegislation.gov.ae/en/constitution?ya_src=serp300"
       ]
     },
     {
@@ -10450,24 +10299,20 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas vigentes, 2024–2025",
+      "period": "Constituição de 2014, cópia institucional sem corte de emendas comprovado; consulta em 08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "rep"
-      ],
-      "mappedAxes": [
-        "rep"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "rep"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 4,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Egypt_2014",
-        "https://freedomhouse.org/country/egypt/freedom-world/2025"
+        "https://freedomhouse.org/country/egypt/freedom-world/2025",
+        "https://hrightsstudies.sis.gov.eg/media/4918/dustor-eng-1.pdf",
+        "https://sis.gov.eg/en/egypt/society/citizenship/citizenship-in-egypt/"
       ]
     },
     {
@@ -10476,24 +10321,19 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas vigentes, 2024–2025",
+      "period": "Constituição de 2011, republicação francesa institucional; consulta em 08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "rep"
-      ],
-      "mappedAxes": [
-        "rep"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "rep"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Morocco_2011",
-        "https://freedomhouse.org/country/morocco/freedom-world/2025"
+        "https://freedomhouse.org/country/morocco/freedom-world/2025",
+        "https://www.sgg.gov.ma/Portals/0/constitution/constitution_2011_Fr.pdf"
       ]
     },
     {
@@ -10780,27 +10620,19 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas vigentes, 2024–2025",
+      "period": "Constituição de 1999, estado do texto em 01/01/2016; consulta em 08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep"
-      ],
-      "mappedAxes": [
-        "est",
-        "rep"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "est",
-        "rep"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Switzerland_1999",
-        "https://freedomhouse.org/country/switzerland/freedom-world/2025"
+        "https://freedomhouse.org/country/switzerland/freedom-world/2025",
+        "https://www.parlament.ch/centers/documents/_layouts/15/DocIdRedir.aspx%3FID=DOCID-4-237"
       ]
     },
     {
@@ -10830,27 +10662,19 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas vigentes, 2024–2025",
+      "period": "Constituição de 1975, revisão de 25/11/2019; publicação inglesa de 2022; consulta em 08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep"
-      ],
-      "mappedAxes": [
-        "est",
-        "rep"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "est",
-        "rep"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Greece_2008",
-        "https://freedomhouse.org/country/greece/freedom-world/2025"
+        "https://freedomhouse.org/country/greece/freedom-world/2025",
+        "https://www.hellenicparliament.gr/UserFiles/f3c70a23-7696-49db-9148-f24dce6a27c8/2019_SYDAGMA_EN_2022_WEB.pdf"
       ]
     },
     {
@@ -12214,30 +12038,19 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas avaliadas, 2024–2025",
+      "period": "Constituição, texto oficial francês publicado em 30/12/2020; consulta em 08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "mappedAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Algeria_2020?lang=en",
-        "https://freedomhouse.org/country/algeria/freedom-world/2025"
+        "https://freedomhouse.org/country/algeria/freedom-world/2025",
+        "https://joradp.dz/TRV/FConsti.pdf"
       ]
     },
     {
@@ -12370,30 +12183,19 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas avaliadas, 2024–2025",
+      "period": "Constituição de 18/02/2006, reproduzida em coleção; revisão de 2011 não certificada; consulta em 08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "mappedAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Democratic_Republic_of_the_Congo_2011?lang=en",
-        "https://freedomhouse.org/country/democratic-republic-congo/freedom-world/2025"
+        "https://freedomhouse.org/country/democratic-republic-congo/freedom-world/2025",
+        "https://www.presidence.cd/uploads/files/Constitution%20de%20la%203me%20Republique.%2018%20Fev%202006.pdf"
       ]
     },
     {
@@ -12402,30 +12204,19 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas avaliadas, 2024–2025",
+      "period": "Constituição de 2015; página indica revisão do artigo 157 em 07/01/2022; consulta em 08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "mappedAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Congo_2015?lang=en",
-        "https://freedomhouse.org/country/republic-congo/freedom-world/2025"
+        "https://freedomhouse.org/country/republic-congo/freedom-world/2025",
+        "https://sgg.cg/droit-congolais/constitution.html"
       ]
     },
     {
@@ -12434,30 +12225,20 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas avaliadas, 2024–2025",
+      "period": "Constituição de 2016, republicação institucional sem dia editorial comprovado; consulta em 08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "mappedAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 4,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Cote_DIvoire_2016?lang=en",
-        "https://freedomhouse.org/country/cote-divoire/freedom-world/2025"
+        "https://freedomhouse.org/country/cote-divoire/freedom-world/2025",
+        "https://www.conseil-constitutionnel.ci/sites/default/files/constitution_2016.pdf",
+        "https://www.presidence.ci/wp-content/uploads/2018/07/CONSTITUTION-2016.pdf"
       ]
     },
     {
@@ -12466,24 +12247,19 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas avaliadas, 2024–2025",
+      "period": "Constituição de 19/12/2024, com condições transitórias; consulta em 08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "rep"
-      ],
-      "mappedAxes": [
-        "rep"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "rep"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Gabon_1991?lang=en",
-        "https://freedomhouse.org/country/gabon/freedom-world/2025"
+        "https://freedomhouse.org/country/gabon/freedom-world/2025",
+        "https://journal-officiel.ga/21489-002-r-2024-/"
       ]
     },
     {
@@ -12514,24 +12290,19 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas avaliadas, 2024–2025",
+      "period": "Constituição oficial publicada em 26/09/2025; consulta em 08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "rep"
-      ],
-      "mappedAxes": [
-        "rep"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "rep"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Guinea_2010?lang=en",
-        "https://freedomhouse.org/country/guinea/freedom-world/2025"
+        "https://freedomhouse.org/country/guinea/freedom-world/2025",
+        "https://www.sgg.gov.gn/document/downloadfile/546"
       ]
     },
     {
@@ -12540,30 +12311,19 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas avaliadas, 2024–2025",
+      "period": "Texto constitucional aprovado em 27/11/1996 e promulgado em 04/12/1996; consulta em 08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "mappedAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Guinea_Bissau_1984?lang=en",
-        "https://freedomhouse.org/country/guinea-bissau/freedom-world/2025"
+        "https://freedomhouse.org/country/guinea-bissau/freedom-world/2025",
+        "https://www.parlamento.gw/leis/constituicao/constituicao-da-republica"
       ]
     },
     {
@@ -12572,30 +12332,21 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas avaliadas, 2024–2025",
+      "period": "Constituição de 1993, cópia institucional sem corte de emendas comprovado; consulta em 08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "mappedAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 5,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Lesotho_1993?lang=en",
-        "https://freedomhouse.org/country/lesotho/freedom-world/2025"
+        "https://freedomhouse.org/country/lesotho/freedom-world/2025",
+        "https://forestry.gov.ls/Documents/Useful%20_documents/Lesotho_Constitution.pdf",
+        "https://www.ilo.org/dyn/natlex/natlex4.detail?p_isn=56764&p_lang=en",
+        "https://iec.org.ls/storage/2025/07/Lesotho_2011-1.pdf"
       ]
     },
     {
@@ -12604,30 +12355,19 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas avaliadas, 2024–2025",
+      "period": "Constituição de 1986; cópia institucional sem data de revisão comprovada; consulta em 08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "mappedAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Liberia_1986?lang=en",
-        "https://freedomhouse.org/country/liberia/freedom-world/2025"
+        "https://freedomhouse.org/country/liberia/freedom-world/2025",
+        "https://mod.gov.lr/wp-content/uploads/2022/06/THE-1986-CONSTITUTION-OF-THE-REPUBLIC-OF-LIBERIA.pdf"
       ]
     },
     {
@@ -12636,30 +12376,20 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas avaliadas, 2024–2025",
+      "period": "Declaração de 03/08/2011, reprodução nominal com emendas até 2014 visíveis; consulta em 08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "mappedAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 4,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Libya_2011?lang=en",
-        "https://freedomhouse.org/country/libya/freedom-world/2025"
+        "https://freedomhouse.org/country/libya/freedom-world/2025",
+        "https://security-legislation.ly/ar/latest-laws/الإعلان-الدستوري-لسنة-2011-مع-تعديلاته/",
+        "https://www.sjc.gov.ly/Laws/Details/f4f161ce-405e-470a-b3a3-c0f90f5911ba"
       ]
     },
     {
@@ -12711,24 +12441,19 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas avaliadas, 2024–2025",
+      "period": "Carta de Transição revisada em 08/07/2025, publicação em 11/07/2025; consulta em 08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "rep"
-      ],
-      "mappedAxes": [
-        "rep"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "rep"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Mali_1992?lang=en",
-        "https://freedomhouse.org/country/mali/freedom-world/2025"
+        "https://freedomhouse.org/country/mali/freedom-world/2025",
+        "https://sgg-mali.ml/JO/2025/mali-jo-2025-08-sp.pdf"
       ]
     },
     {
@@ -12737,30 +12462,19 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas avaliadas, 2024–2025",
+      "period": "Constituição de 20/07/1991, revisão de 2017; consulta em 08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "mappedAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Mauritania_1991?lang=en",
-        "https://freedomhouse.org/country/mauritania/freedom-world/2025"
+        "https://freedomhouse.org/country/mauritania/freedom-world/2025",
+        "https://conseil-constitutionnel.mr/fr/?p=1162"
       ]
     },
     {
@@ -12846,24 +12560,21 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas avaliadas, 2024–2025",
+      "period": "Carta de Refundação de 26/03/2025; reprodução do Diário Oficial de 31/03/2025; consulta em 08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "rep"
-      ],
-      "mappedAxes": [
-        "rep"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "rep"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 5,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Niger_2010?lang=en",
-        "https://freedomhouse.org/country/niger/freedom-world/2025"
+        "https://freedomhouse.org/country/niger/freedom-world/2025",
+        "https://itieniger.ne/wp-content/uploads/2025/04/Charte-de-la-Refondation-2025.pdf",
+        "https://presidence.ne/pages/refondation",
+        "https://droit-et-politique-en-afrique.info/wp-content/uploads/2025/04/Niger-Charte-de-la-refondation-du-26-mars-2025-Ordonnance-de-dissolution-des-partis-politiques-du-26-mars-2025.pdf"
       ]
     },
     {
@@ -12901,30 +12612,19 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas avaliadas, 2024–2025",
+      "period": "Constituição de 1991; upload de 2026 não comprova novas emendas; consulta em 08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "mappedAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Sierra_Leone_1991?lang=en",
-        "https://freedomhouse.org/country/sierra-leone/freedom-world/2025"
+        "https://freedomhouse.org/country/sierra-leone/freedom-world/2025",
+        "https://myconstitution.gov.sl/wp-content/uploads/2026/01/THE-CONSTITUTION-OF-SIERRA-LEONE-1991.pdf"
       ]
     },
     {
@@ -12933,30 +12633,19 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas avaliadas, 2024–2025",
+      "period": "Constituição provisória adotada em 01/08/2012; consulta em 08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "mappedAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Somalia_2012?lang=en",
-        "https://freedomhouse.org/country/somalia/freedom-world/2025"
+        "https://freedomhouse.org/country/somalia/freedom-world/2025",
+        "https://parliament.gov.so/wp-content/uploads/simple-file-list/Nuqulo-Af-Ingiriis/Provisional-Constitution-2012.pdf"
       ]
     },
     {
@@ -12965,30 +12654,19 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas avaliadas, 2024–2025",
+      "period": "Constituição de Transição de 2011, cópia institucional; consulta em 08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "mappedAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/South_Sudan_2011?lang=en",
-        "https://freedomhouse.org/country/south-sudan/freedom-world/2025"
+        "https://freedomhouse.org/country/south-sudan/freedom-world/2025",
+        "https://mop.gov.ss/doc/SS_Transitional_Constitution.pdf"
       ]
     },
     {
@@ -12997,24 +12675,20 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas avaliadas, 2024–2025",
+      "period": "Carta Constitucional de 2019, Diário Oficial de 03/10/2019; texto anterior às rupturas posteriores; consulta em 08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "rep"
-      ],
-      "mappedAxes": [
-        "rep"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "rep"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 4,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Sudan_2005?lang=en",
-        "https://freedomhouse.org/country/sudan/freedom-world/2025"
+        "https://freedomhouse.org/country/sudan/freedom-world/2025",
+        "https://www.refworld.org/sites/default/files/2025-02/constitutional_charter_2019-official_gazzette68.pdf",
+        "https://moj.gov.sd/files/index/28%20"
       ]
     },
     {
@@ -13050,30 +12724,19 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas avaliadas, 2024–2025",
+      "period": "Constituição de 25/07/2022, promulgada em 17/08 e publicada em 18/08/2022; consulta em 08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "mappedAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Tunisia_2022?lang=en",
-        "https://freedomhouse.org/country/tunisia/freedom-world/2025"
+        "https://freedomhouse.org/country/tunisia/freedom-world/2025",
+        "https://investintunisia.tn/wp-content/uploads/2024/01/constitutionrepubliquetunisienne25juillet2022-pdf.pdf"
       ]
     },
     {
@@ -13131,30 +12794,19 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas avaliadas, 2024–2025",
+      "period": "Constituição de 2013, reprodução da Comissão de Desenvolvimento Legislativo; consulta em 08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "mappedAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Zimbabwe_2013?lang=en",
-        "https://freedomhouse.org/country/zimbabwe/freedom-world/2025"
+        "https://freedomhouse.org/country/zimbabwe/freedom-world/2025",
+        "https://wipolex-res.wipo.int/edocs/lexdocs/laws/en/zw/zw038en.html"
       ]
     },
     {
@@ -13163,30 +12815,19 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas avaliadas, 2024–2025",
+      "period": "Constituição de 2019, tradução republicada; consulta em 08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "mappedAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Cuba_2019?lang=en",
-        "https://freedomhouse.org/country/cuba/freedom-world/2025"
+        "https://freedomhouse.org/country/cuba/freedom-world/2025",
+        "https://www.constituteproject.org/constitution/Cuba_2019?lang=en"
       ]
     },
     {
@@ -13195,30 +12836,19 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas avaliadas, 2024–2025",
+      "period": "Constituição de 2015, tradução republicada; consulta em 08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "mappedAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Dominican_Republic_2015?lang=en",
-        "https://freedomhouse.org/country/dominican-republic/freedom-world/2025"
+        "https://freedomhouse.org/country/dominican-republic/freedom-world/2025",
+        "https://www.constituteproject.org/constitution/Dominican_Republic_2015?lang=en"
       ]
     },
     {
@@ -13227,30 +12857,19 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas avaliadas, 2024–2025",
+      "period": "Constituição de 1983, revisão de 2014; consulta em 08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "mappedAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/El_Salvador_1983?lang=en",
-        "https://freedomhouse.org/country/el-salvador/freedom-world/2025"
+        "https://freedomhouse.org/country/el-salvador/freedom-world/2025",
+        "https://www.constituteproject.org/constitution/El_Salvador_2014?lang=en"
       ]
     },
     {
@@ -13301,30 +12920,19 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas avaliadas, 2024–2025",
+      "period": "Constituição de 1962, revisão de 2011; consulta em 08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "mappedAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Jamaica_1962?lang=en",
-        "https://freedomhouse.org/country/jamaica/freedom-world/2025"
+        "https://freedomhouse.org/country/jamaica/freedom-world/2025",
+        "https://www.constituteproject.org/constitution/Jamaica_2011?lang=en"
       ]
     },
     {
@@ -13333,30 +12941,19 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas avaliadas, 2024–2025",
+      "period": "Texto constitucional publicado na Gaceta nº 32 de 18/02/2025; consulta em 08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "mappedAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Nicaragua_1987?lang=en",
-        "https://freedomhouse.org/country/nicaragua/freedom-world/2025"
+        "https://freedomhouse.org/country/nicaragua/freedom-world/2025",
+        "https://legislacion.asamblea.gob.ni/Normaweb.nsf/b92aaea87dac762406257265005d21f7/76aede617857465d06258c360052b2e4"
       ]
     },
     {
@@ -13408,30 +13005,19 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas avaliadas, 2024–2025",
+      "period": "Constituição de 1999, revisão de 2009; consulta em 08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "mappedAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Venezuela_1999?lang=en",
-        "https://freedomhouse.org/country/venezuela/freedom-world/2025"
+        "https://freedomhouse.org/country/venezuela/freedom-world/2025",
+        "https://www.constituteproject.org/constitution/Venezuela_2009"
       ]
     },
     {
@@ -13440,30 +13026,19 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas avaliadas, 2024–2025",
+      "period": "Constituição de 1998, revisão de 2016; consulta em 08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "mappedAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Albania_1998?lang=en",
-        "https://freedomhouse.org/country/albania/freedom-world/2025"
+        "https://freedomhouse.org/country/albania/freedom-world/2025",
+        "https://www.constituteproject.org/constitution/Albania_2016?lang=en"
       ]
     },
     {
@@ -13472,30 +13047,19 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas avaliadas, 2024–2025",
+      "period": "Constituição coordenada em 1994, edição de 2024; consulta em 08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "mappedAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Belgium_1831?lang=en",
-        "https://freedomhouse.org/country/belgium/freedom-world/2025"
+        "https://freedomhouse.org/country/belgium/freedom-world/2025",
+        "https://www.senate.be/doc/20241008_CONSTITUTION.pdf"
       ]
     },
     {
@@ -13504,30 +13068,19 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas avaliadas, 2024–2025",
+      "period": "Constituição de 1991, texto búlgaro com alterações indicadas até 2024; consulta em 08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "mappedAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Bulgaria_1991?lang=en",
-        "https://freedomhouse.org/country/bulgaria/freedom-world/2025"
+        "https://freedomhouse.org/country/bulgaria/freedom-world/2025",
+        "https://www.parliament.bg/bg/const"
       ]
     },
     {
@@ -13536,30 +13089,20 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas avaliadas, 2024–2025",
+      "period": "Constituição, consolidação confirmada em 06/07/2010; consulta em 08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "mappedAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 4,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Croatia_1991?lang=en",
-        "https://freedomhouse.org/country/croatia/freedom-world/2025"
+        "https://freedomhouse.org/country/croatia/freedom-world/2025",
+        "https://www.sabor.hr/sites/default/files/uploads/inline-files/CONSTITUTION_CROATIA.pdf",
+        "https://www.sabor.hr/en/information-access/important-legislation/constitution-republic-croatia-consolidated-text"
       ]
     },
     {
@@ -13568,30 +13111,19 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas avaliadas, 2024–2025",
+      "period": "Constituição de 1992, tradução publicada em 23/04/2025; vigência indicada em 01/03/2026; consulta em 08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "mappedAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Estonia_1992?lang=en",
-        "https://freedomhouse.org/country/estonia/freedom-world/2025"
+        "https://freedomhouse.org/country/estonia/freedom-world/2025",
+        "https://www.riigiteataja.ee/akt/523042025002"
       ]
     },
     {
@@ -13600,30 +13132,19 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas avaliadas, 2024–2025",
+      "period": "Constituição de 1922, reinstalada em 1991, revisão de 2016; consulta em 08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "mappedAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Latvia_1922?lang=en",
-        "https://freedomhouse.org/country/latvia/freedom-world/2025"
+        "https://freedomhouse.org/country/latvia/freedom-world/2025",
+        "https://www.constituteproject.org/constitution/Latvia_2016?lang=en"
       ]
     },
     {
@@ -13632,30 +13153,19 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas avaliadas, 2024–2025",
+      "period": "Constituição de 1992, revisão de 2006; consulta em 08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "mappedAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Lithuania_1992?lang=en",
-        "https://freedomhouse.org/country/lithuania/freedom-world/2025"
+        "https://freedomhouse.org/country/lithuania/freedom-world/2025",
+        "https://www.constituteproject.org/constitution/Lithuania_2006?lang=en"
       ]
     },
     {
@@ -13664,30 +13174,19 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas avaliadas, 2024–2025",
+      "period": "Constituição de 1868, revisão de 2009; tradução de 2012; consulta em 08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "mappedAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Luxembourg_1868?lang=en",
-        "https://freedomhouse.org/country/luxembourg/freedom-world/2025"
+        "https://freedomhouse.org/country/luxembourg/freedom-world/2025",
+        "https://www.constituteproject.org/constitution/Luxembourg_2009?lang=en"
       ]
     },
     {
@@ -13696,30 +13195,19 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas avaliadas, 2024–2025",
+      "period": "Constituição de 1994, revisão de 2016; consulta em 08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "mappedAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Moldova_1994?lang=en",
-        "https://freedomhouse.org/country/moldova/freedom-world/2025"
+        "https://freedomhouse.org/country/moldova/freedom-world/2025",
+        "https://www.constituteproject.org/constitution/Moldova_2016?lang=en"
       ]
     },
     {
@@ -13728,30 +13216,19 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas avaliadas, 2024–2025",
+      "period": "Constituição de 2007, revisão de 2013; consulta em 08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "mappedAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Montenegro_2007?lang=en",
-        "https://freedomhouse.org/country/montenegro/freedom-world/2025"
+        "https://freedomhouse.org/country/montenegro/freedom-world/2025",
+        "https://www.constituteproject.org/constitution/Montenegro_2013?lang=en"
       ]
     },
     {
@@ -13760,30 +13237,19 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas avaliadas, 2024–2025",
+      "period": "Constituição de 1991, revisão de 2011 republicada; consulta em 08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "mappedAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Macedonia_2019?lang=en",
-        "https://freedomhouse.org/country/north-macedonia/freedom-world/2025"
+        "https://freedomhouse.org/country/north-macedonia/freedom-world/2025",
+        "https://www.constituteproject.org/constitution/Macedonia_2011?lang=en"
       ]
     },
     {
@@ -13792,30 +13258,19 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas avaliadas, 2024–2025",
+      "period": "Constituição de 1991, revisão de 2003; consulta em 08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "mappedAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Romania_1991?lang=en",
-        "https://freedomhouse.org/country/romania/freedom-world/2025"
+        "https://freedomhouse.org/country/romania/freedom-world/2025",
+        "https://www.constituteproject.org/constitution/Romania_2003?lang=en"
       ]
     },
     {
@@ -13824,30 +13279,19 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas avaliadas, 2024–2025",
+      "period": "Constituição de 2006, republicação inglesa; consulta em 08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "mappedAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Serbia_2006?lang=en",
-        "https://freedomhouse.org/country/serbia/freedom-world/2025"
+        "https://freedomhouse.org/country/serbia/freedom-world/2025",
+        "https://www.constituteproject.org/constitution/Serbia_2006?lang=en"
       ]
     },
     {
@@ -13856,30 +13300,19 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas avaliadas, 2024–2025",
+      "period": "Constituição de 1992, arquivo institucional identificado como 2023; consulta em 08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "mappedAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Slovakia_1992?lang=en",
-        "https://freedomhouse.org/country/slovakia/freedom-world/2025"
+        "https://freedomhouse.org/country/slovakia/freedom-world/2025",
+        "https://www.nrsr.sk/web/Static/en-US/NRSR/Constitution%20of%20the%20Slovak%20Republic%202023.pdf"
       ]
     },
     {
@@ -13888,30 +13321,19 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas avaliadas, 2024–2025",
+      "period": "Constituição de 1991, edição institucional com revisão indicada até dezembro de 2025; consulta em 08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "mappedAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Slovenia_1991?lang=en",
-        "https://freedomhouse.org/country/slovenia/freedom-world/2025"
+        "https://freedomhouse.org/country/slovenia/freedom-world/2025",
+        "https://www.us-rs.si/en/legal-basis/constitution"
       ]
     },
     {
@@ -13920,30 +13342,19 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas avaliadas, 2024–2025",
+      "period": "Constituição de 1995, revisão de 2015; consulta em 08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "mappedAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Armenia_1995?lang=en",
-        "https://freedomhouse.org/country/armenia/freedom-world/2025"
+        "https://freedomhouse.org/country/armenia/freedom-world/2025",
+        "https://www.constituteproject.org/constitution/Armenia_2015?lang=en"
       ]
     },
     {
@@ -13952,30 +13363,19 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas avaliadas, 2024–2025",
+      "period": "Constituição de 1995, revisão de 2016; consulta em 08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "mappedAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Azerbaijan_1995?lang=en",
-        "https://freedomhouse.org/country/azerbaijan/freedom-world/2025"
+        "https://freedomhouse.org/country/azerbaijan/freedom-world/2025",
+        "https://www.constituteproject.org/constitution/Azerbaijan_2016?lang=en"
       ]
     },
     {
@@ -13984,30 +13384,19 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas avaliadas, 2024–2025",
+      "period": "Constituição de 1995, revisão de 2017, edição histórica; consulta em 08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "mappedAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Kazakhstan_1995?lang=en",
-        "https://freedomhouse.org/country/kazakhstan/freedom-world/2025"
+        "https://freedomhouse.org/country/kazakhstan/freedom-world/2025",
+        "https://www.constituteproject.org/constitution/Kazakhstan_2017?lang=en"
       ]
     },
     {
@@ -14016,30 +13405,19 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas avaliadas, 2024–2025",
+      "period": "Constituição promulgada em 05/05/2021, referendo de 11/04/2021; consulta em 08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "mappedAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Kyrgyzstan_2010?lang=en",
-        "https://freedomhouse.org/country/kyrgyzstan/freedom-world/2025"
+        "https://freedomhouse.org/country/kyrgyzstan/freedom-world/2025",
+        "https://constsot.kg/wp-content/uploads/2022/06/constitution-of-the-kyrgyz-republic.pdf"
       ]
     },
     {
@@ -14048,30 +13426,19 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas avaliadas, 2024–2025",
+      "period": "Norma institucional: 1992, revisão2001; fonte indica emendas posteriores; consulta08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "mappedAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Mongolia_1992?lang=en",
-        "https://freedomhouse.org/country/mongolia/freedom-world/2025"
+        "https://freedomhouse.org/country/mongolia/freedom-world/2025",
+        "https://www.constituteproject.org/constitution/Mongolia_2001?lang=en"
       ]
     },
     {
@@ -14080,30 +13447,19 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas avaliadas, 2024–2025",
+      "period": "Norma institucional: 2015, revisão2016; fonte indica emendas posteriores; consulta08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "mappedAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Nepal_2015?lang=en",
-        "https://freedomhouse.org/country/nepal/freedom-world/2025"
+        "https://freedomhouse.org/country/nepal/freedom-world/2025",
+        "https://www.constituteproject.org/constitution/Nepal_2016"
       ]
     },
     {
@@ -15973,7 +15329,7 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Prática em 2024; norma: 1993, texto oferecido pelo Parlamento em consulta de 2026; sem certificação independente de consolidação; Descrição aduaneira EEAS de24/11/2021 e autorização do Conselho de16/07/2026, sem prova das etapas posteriores",
+      "period": "Constituição de 1993 oferecida pelo Parlamento em 2026; narrativa FH2025 sobre 2024; descrição aduaneira de 24/11/2021 e autorização de 16/07/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
@@ -16096,7 +15452,7 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Prática em 2024; norma: Consolidação oficial consultada em 7/10/2026, incorpora Atos IX e XVI de 2026; Regime aduaneiro descrito institucionalmente em páginas sem data consultadas em 2026-10-07",
+      "period": "Constituição consolidada com Atos IX e XVI de 2026, consultada em 07/10/2026; narrativa FH2025 sobre 2024; descrição aduaneira institucional sem data",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",

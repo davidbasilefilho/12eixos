@@ -1,8 +1,8 @@
 # Planned 75 ideology subset: bounded ontology revision
 
-Definition overlays 08–13 and the existing BPP/CWL selection substitution are integrated in the inventory818-03 working tree. Current ideology ledger is 218 =75 selected +143 alternatives, 73 located normative referents/59 bounded comparisons. These counts do not certify75 independent doctrines.
+Definition overlays 08–16 and both existing-record selection substitutions are integrated in the inventory818-04 working tree: CWL → Black Panther and Leopold → cosmopolitan democracy. Current ideology ledger is 218 =75 selected +143 preserved alternatives, 75 located normative referents/62 bounded comparisons. These counts do not certify75 independently distinct definitions or matching eligibility.
 
-Reviewed on **2026-10-08**. Current integrated ideology ledger: **218 ideologies =75 selected +143 preserved alternatives**, **73 located normative primary referents /59 bounded two-sided comparisons**. All206 original ideology identities and original75 selection remain preserved. Overall catalog totals move independently. No programme ID is pending import. Full75 independence/default-use flags remain false; documentary location does not certify every selected doctrine.
+Reviewed on **2026-10-08**. Actual working-tree ledger: **218 ideology identities =75 selected +143 preserved alternatives**, **75 located normative primary referents /62 bounded two-sided comparisons**. All206 original identities and the full original75 snapshot are preserved; excluded CWL and Leopold remain unchanged alternatives. No accepted definition overlay or selection substitution is pending import. Full75 distinctness/default-use flags remain false; partial and zero-axis normative definitions remain unranked under the unchanged six-axis matching gate. Historical checkpoint sections below retain their original scope.
 
 An included object should be an identifiable **political normative doctrine or tradition** addressing legitimate authority, collective social/economic order and action, with a located referent and a material contrast to retained neighbors. A framework, institutional device or policy instrument alone is insufficient. State-authored normative doctrines can qualify; government authorship alone is neither acceptance nor rejection. Subtraditions may be retained when their extra commitments are identified; they must not be presented as mutually exclusive families.
 
@@ -33,59 +33,59 @@ The overall selection remains provisional. Individually grounded bounded contras
 | ideology-classical-liberalism | Liberalismo clássico | liberal | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | ideology-ordoliberalism | Ordoliberalismo: ordem competitiva de Eucken, 1949 | liberal | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | libertarianism | Libertarianismo | liberal | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
-| ideology-right-minarchism | Minarquismo | liberal | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
+| ideology-right-minarchism | Estado mínimo e direitos de invenção em Nozick, 1974 | liberal | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | ideology-right-anarcho-capitalism | Anarcocapitalismo | liberal | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | ideology-georgism | Georgismo | liberal | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
-| ideology-right-objectivism | Objetivismo político | liberal | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
+| ideology-right-objectivism | Objetivismo político: direitos e patentes em Rand, 1963–1966 | liberal | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | ideology-right-technolibertarianism | Libertarianismo tecnológico | liberal | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
-| ideology-neoliberalism | Neoliberalismo inicial (Colóquio Walter Lippmann) | liberal | provisional-normative-referent | not-independently-verified |
+| ideology-left-black-panther-platform | Programa constitucional e comunitário Black Panther, 1966 | decolonial | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | ideology-conservatism | Conservadorismo | conservative | bounded-normative-referent-reviewed | nearest-neighbor-unresolved |
 | ideology-social-conservatism | Conservadorismo social | conservative | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | ideology-national-conservatism | Conservadorismo nacional | conservative | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
-| ideology-program-conservative-constitution-disraeli-1872 | Conservadorismo constitucional: programa de Disraeli, 1872 | conservative | bounded-normative-programme-referent-reviewed | bounded-primary-neighbor-contrast |
+| ideology-program-conservative-constitution-disraeli-1872 | Conservadorismo constitucional e dever social: Disraeli, 1872 | conservative | bounded-normative-programme-referent-reviewed | bounded-primary-neighbor-contrast |
 | ideology-right-neoconservatism | Neoconservadorismo | conservative | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | ideology-right-constitutional-monarchism | Monarquismo constitucional: poder neutro de Constant, 1815 | conservative | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | ideology-right-absolute-monarchy | Soberania indivisível de Hobbes, 1651 | conservative | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | ideology-right-bonapartism | Bonapartismo: programa de ideias napoleônicas, 1839 | conservative | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | ideology-program-social-democracy-spd-1959 | Social-democracia: programa de Godesberg, SPD 1959 | socialist | bounded-normative-programme-referent-reviewed | bounded-primary-neighbor-contrast |
 | ideology-program-democratic-socialism-dsa-2026 | Socialismo democrático: programa DSA, 2026 | socialist | bounded-normative-programme-referent-reviewed | bounded-primary-neighbor-contrast |
-| ideology-market-socialism | Socialismo de mercado | socialist | provisional-normative-referent | not-independently-verified |
+| ideology-market-socialism | Socialismo de mercado: diretrizes de Lange, 1936–1937 | socialist | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | ideology-revolutionary-socialism | Socialismo revolucionário: Manifesto de 1848 | socialist | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | ideology-marxism-leninism | Marxismo-leninismo: direção partidária de Stalin, 1924 | socialist | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | ideology-maoism | Maoismo: programa da Nova Democracia | socialist | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | ideology-trotskyism | Trotskismo | socialist | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | ideology-luxemburgism | Luxemburguismo | socialist | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
-| ideology-eurocommunism | Eurocomunismo | socialist | provisional-normative-referent | not-independently-verified |
+| ideology-eurocommunism | Eurocomunismo: declaração democrática de Berlinguer, 1977 | socialist | bounded-normative-referent-reviewed | unresolved-primary-nearest-overlap |
 | ideology-council-communism | Comunismo de conselhos | socialist | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | ideology-fabianism | Fabianismo | socialist | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | ideology-program-socialist-self-management-tito-1950 | Autogestão socialista: programa produtivo de Tito, 1950 | socialist | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | ideology-anarcho-communism | Anarcocomunismo | anarchist | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | ideology-program-anarcho-syndicalism-iwa-2022 | Anarcossindicalismo: programa da AIT/IWA, 2022 | anarchist | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
-| ideology-mutualism | Mutualismo | anarchist | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
+| ideology-mutualism | Mutualismo: posse e igualdade de remuneração em Proudhon, 1840 | anarchist | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | ideology-pacifist-anarchism | Anarquismo pacifista | anarchist | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | ideology-left-anarcho-collectivism | Anarquismo coletivista | anarchist | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
-| ideology-left-individualist-anarchism | Anarquismo individualista | anarchist | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
+| ideology-left-individualist-anarchism | Anarquismo individualista: programa de Tucker, edição 1897 | anarchist | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | ideology-program-anarcho-primitivism-zerzan-1994-2016 | Anarcoprimitivismo: crítica da civilização de Zerzan, 1994–2016 | anarchist | bounded-normative-programme-referent-reviewed | bounded-primary-neighbor-contrast |
 | ideology-democratic-confederalism | Confederalismo democrático | anarchist | bounded-normative-referent-reviewed | nearest-neighbor-overlap-unresolved |
 | ideology-communalism | Comunalismo | democratic | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast-with-nearest-overlap-unresolved |
 | ideology-civic-nationalism | Nacionalismo cívico | decolonial | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
-| ideology-anticolonial-nationalism | Nacionalismo anticolonial | decolonial | provisional-normative-referent | not-independently-verified |
+| ideology-anticolonial-nationalism | Anticolonialismo e cooperação soberana: Bandung, 1955 | decolonial | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | ideology-pan-africanism | Pan-africanismo | decolonial | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
-| ideology-left-nasserism | Nasserismo | decolonial | provisional-normative-referent | not-independently-verified |
-| ideology-left-baathism | Baathismo | decolonial | provisional-normative-referent | not-independently-verified |
+| ideology-left-nasserism | Nasserismo: diretrizes da Carta Nacional, 1962 | decolonial | bounded-normative-referent-reviewed | unresolved-primary-nearest-overlap |
+| ideology-left-baathism | Baathismo: programa da constituição partidária, 1947 | decolonial | bounded-normative-referent-reviewed | unresolved-primary-nearest-overlap |
 | ideology-left-ujamaa | Ujamaa | decolonial | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
-| ideology-program-revolutionary-popular-socialism-narodnaya-volya-1881 | Socialismo popular revolucionário: programa Narodnaya Volya, 1881 | socialist | bounded-normative-programme-referent-reviewed | bounded-primary-neighbor-contrast |
+| ideology-program-revolutionary-popular-socialism-narodnaya-volya-1881 | Socialismo revolucionário da vontade popular: programa de 1881 | socialist | bounded-normative-programme-referent-reviewed | bounded-primary-neighbor-contrast |
 | ideology-program-zapatista-autonomy-ezln-1993-1996 | Autonomia zapatista: programa inicial do EZLN, 1993–1996 | decolonial | bounded-normative-programme-referent-reviewed | bounded-primary-neighbor-contrast |
 | christian-democracy | Democracia cristã | religious | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | ideology-christian-socialism | Socialismo cristão | religious | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | ideology-distributism | Distributismo | religious | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
-| ideology-islamic-democracy | Democracia muçulmana | religious | provisional-normative-referent | not-independently-verified |
+| ideology-islamic-democracy | Democracia de valores islâmicos: programa de Ghannouchi, 2016 | religious | bounded-normative-referent-reviewed | unresolved-primary-nearest-overlap |
 | green-politics | Política verde | ecological | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | ideology-eco-socialism | Ecossocialismo | ecological | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | civic-degrowth | Decrescimento | ecological | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | civic-ecomodernism | Ecomodernismo | ecological | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | civic-bioregionalism | Biorregionalismo | ecological | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
-| civic-earth-stewardship | Ética da terra e conservação | ecological | ethical-framework | not-independently-verified |
+| civic-cosmopolitan-democracy | Democracia cosmopolita: proposta de Archibugi, 2000 | democratic | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | civic-environmental-justice | Justiça ambiental | ecological | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | ideology-program-insurrectionary-anarchism-bonanno-1999 | Anarquismo insurrecional: projeto organizativo de Bonanno, 1999 | anarchist | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | civic-participatory-democracy | Democracia participativa: Port Huron, 1962 | democratic | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
@@ -94,12 +94,12 @@ The overall selection remains provisional. Individually grounded bounded contras
 | ideology-program-panarchy-de-puydt-1860 | Panarquia: jurisdições pessoais concorrentes de De Puydt, 1860 | liberal | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | civic-federal-republicanism | Federalismo republicano: Madison, 1787–1788 | democratic | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | civic-world-federalism | Federalismo mundial: declaração de Montreux, 1947 | democratic | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
-| ideology-developmentalism | Desenvolvimentismo | development | provisional-normative-referent | not-independently-verified |
+| ideology-developmentalism | Desenvolvimentismo estruturalista: diretrizes de Prebisch, 1950 | development | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | ideology-program-participatory-economics-hahnel-2014 | Economia participativa: governança econômica de Hahnel, 2014 | socialist | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
-| ideology-left-guild-socialism | Socialismo de guildas | socialist | bounded-normative-referent-reviewed | not-independently-verified |
+| ideology-left-guild-socialism | Socialismo de guildas: programa de Cole, 1920 | socialist | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | ideology-left-black-anarchism | Anarquismo negro | anarchist | bounded-normative-referent-reviewed | not-independently-verified |
-| ideology-program-technocracy-inc-2004 | Tecnocracia: governo funcional continental de Technocracy Inc. | technical | bounded-normative-referent-reviewed | nearest-neighbor-unresolved |
-| civic-transhumanism | Transumanismo: valores políticos de Bostrom, 2005 | technical | bounded-normative-referent-reviewed | nearest-neighbor-unresolved |
+| ideology-program-technocracy-inc-2004 | Tecnocracia: governo funcional continental de Technocracy Inc. | technical | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
+| civic-transhumanism | Transumanismo: valores políticos de Bostrom, 2005 | technical | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | ideology-right-agorism | Agorismo | liberal | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | ideology-fascism | Fascismo: formulação Mussolini/Gentile de 1932 | authoritarian | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | ideology-left-anarcha-feminism | Anarcafeminismo | anarchist | bounded-normative-referent-reviewed | not-independently-verified |
@@ -154,3 +154,8 @@ Prebisch and Lange are integrated through guarded overlays08/09 on their origina
 The working tree now has73 located normative definitions/59 bounded comparisons with218 ideology identities,75 selected and143 alternatives. Four same-ID primary definitions (Nasser, Baath, Berlinguer, Ghannouchi) add located normative referents while their nearest distinctions remain unresolved. Rand/Nozick, Tucker/Proudhon and Cole retain the accepted exact-function comparisons and now have scoped LIVE descriptions/edition notes; unsupported old numeric claims are archived, not replaced with invented scores. BPP1966 replaces the unrecovered CWL selected slot using an existing alternative: the complete CWL record remains unchanged in the catalog and original75 trace. The BPP conditional federal/judicial remit and corrected primary transcription are explicit.
 
 Accepted bounded nearest additions are patent exclusion, remuneration from capacity/particular contribution, communal allocation authority, Inc/Bostrom public-authority legitimacy, and BPP/Ervin judicial jurisdiction. Shared commitments and exceptions are retained; no all-family or all75 independence flag is enabled. Original source objects and complete prior LIVE records are recoverable. This is actual working-tree integration confirmed by the integrator; publication and committed checkpoint status are separate. Future Bandung14 remains outside these counts.
+
+
+## Integrated818-04 status
+
+The accepted working-tree repairs add the dated Bandung1955 sovereign-cooperation definition, Kropotkin/Bakunin entitlement comparison and Archibugi2000 coercive-authority definition. The exact second selected-slot substitution uses existing `civic-cosmopolitan-democracy` in place of `civic-earth-stewardship`; the prior CWL/BPP substitution remains intact. Full excluded records/source objects and original75 trace survive. Actual partition remains218 =75+143. The75 located definitions and62 bounded comparison rows are source coverage, not a completed nearest-neighbor certificate.
