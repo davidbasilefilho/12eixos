@@ -3574,3 +3574,8 @@ body:has(.quiz-page)::before { @apply hidden; }
 .share-capture-source .share-card-hero[data-extended-title='true'] .share-ideology-feature { @apply p-[8px]; }
 .share-capture-source .share-card-hero[data-extended-title='true'] .share-feature-score { @apply text-[28px]; }
 .share-capture-source .share-card-hero[data-extended-title='true'] .share-ideology-feature small { @apply whitespace-normal overflow-visible text-clip; }
+
+/* Fit complete programme summaries and dated source captions in long-title captures. */
+.share-capture-source .share-card-hero[data-extended-title='true'] .share-feature-score { @apply text-[26px]; }
+.share-capture-source .share-card-hero[data-extended-title='true'] .share-ideology-feature > p:not(:first-child) { @apply block text-[9px] leading-[1.5] overflow-visible [-webkit-line-clamp:unset]; }
+.share-capture-source .share-card-hero[data-extended-title='true'] .share-ideology-feature small { @apply text-[6.5px] leading-[1.2]; }

@@ -34,8 +34,8 @@
     ],
     "provenance": "Executed before local data corrections in this recovery checkpoint; not recomputed from unavailable prior Library checkpoint."
   },
-  "headCommitAtAudit": "0f1b67cdad0a9a65708b13620df18536d38e4391",
-  "integratedCatalogSha256": "6aae8f91976c346aacae0417a68b6deee8dfda9503280a9d2125409ddfe006bb",
+  "headCommitAtAudit": "cd6731d9b6b7d643df3eb02cb862767edef8a419",
+  "integratedCatalogSha256": "bc72202f001688f5264c553d280d5987bbcc09af99c360edab97062c8df75358",
   "scope": "Integrated working-tree catalog after preparation; fixed remote baseline and current HEAD are provenance, not immutable copies of modified files.",
   "evidenceGate": {
     "minimumAxes": 6,
@@ -56,9 +56,9 @@
   ],
   "totalTarget": 675,
   "totalRecords": 818,
-  "structurallyEligible": 70,
-  "documentaryEligible": 56,
-  "insufficientEvidence": 762,
+  "structurallyEligible": 76,
+  "documentaryEligible": 62,
+  "insufficientEvidence": 756,
   "unreviewedDirectionCount": 563,
   "summedCategoryIdentityGap": 0,
   "categories": [
@@ -66,34 +66,34 @@
       "category": "country",
       "target": 150,
       "records": 150,
-      "structurallyEligible": 5,
-      "documentaryEligible": 5,
-      "insufficientEvidence": 145,
+      "structurallyEligible": 6,
+      "documentaryEligible": 6,
+      "insufficientEvidence": 144,
       "missingIdentitiesBeforeSemanticReview": 0,
       "preservedExcess": 0,
-      "missingEligibleToTarget": 145
+      "missingEligibleToTarget": 144
     },
     {
       "category": "historical-country",
       "target": 150,
       "records": 150,
-      "structurallyEligible": 11,
-      "documentaryEligible": 11,
-      "insufficientEvidence": 139,
+      "structurallyEligible": 13,
+      "documentaryEligible": 13,
+      "insufficientEvidence": 137,
       "missingIdentitiesBeforeSemanticReview": 0,
       "preservedExcess": 0,
-      "missingEligibleToTarget": 139
+      "missingEligibleToTarget": 137
     },
     {
       "category": "public-figure",
       "target": 150,
       "records": 150,
-      "structurallyEligible": 9,
-      "documentaryEligible": 9,
-      "insufficientEvidence": 141,
+      "structurallyEligible": 10,
+      "documentaryEligible": 10,
+      "insufficientEvidence": 140,
       "missingIdentitiesBeforeSemanticReview": 0,
       "preservedExcess": 0,
-      "missingEligibleToTarget": 141
+      "missingEligibleToTarget": 140
     },
     {
       "category": "historical-figure",
@@ -110,12 +110,12 @@
       "category": "ideology",
       "target": 75,
       "records": 218,
-      "structurallyEligible": 23,
-      "documentaryEligible": 9,
-      "insufficientEvidence": 209,
+      "structurallyEligible": 25,
+      "documentaryEligible": 11,
+      "insufficientEvidence": 207,
       "missingIdentitiesBeforeSemanticReview": 0,
       "preservedExcess": 143,
-      "missingEligibleToTarget": 66
+      "missingEligibleToTarget": 64
     }
   ],
   "structuralProblems": [],
@@ -990,16 +990,17 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Normas dos artigos 20 e 30 da Lei Fundamental em páginas oficiais sem data editorial comprovada; tratado europeu de 2016; narrativa FH2025 sobre 2024",
-      "structurallyEligible": false,
-      "documentaryEligible": false,
-      "reviewStatus": "insufficient-located-coding",
+      "period": "Normas dos artigos 20 e 30 da Lei Fundamental em páginas oficiais sem data editorial comprovada; tratado europeu de 2016; narrativa FH2025 sobre 2024; normas religiosas dos artigos140/7 em páginas oficiais consultadas em08/10/2026, data editorial não comprovada; normas familiares BGB1353/1356/1360,GG6 eStGB218/218a consultadas08/10/2026, edição editorial não comprovada",
+      "structurallyEligible": true,
+      "documentaryEligible": true,
+      "reviewStatus": "located-coding-present-not-truth-certified",
       "unreviewedDirectionalAxes": [],
       "mappedAxes": [
         "est",
         "rep",
         "pod",
         "com",
+        "rel",
         "mor"
       ],
       "documentedAxes": [
@@ -1007,6 +1008,7 @@
         "rep",
         "pod",
         "com",
+        "rel",
         "mor"
       ],
       "directionalAxes": [
@@ -1014,9 +1016,10 @@
         "rep",
         "pod",
         "com",
+        "rel",
         "mor"
       ],
-      "sourceCount": 7,
+      "sourceCount": 11,
       "sourceUrls": [
         "https://freedomhouse.org/country/germany/freedom-world/2025",
         "https://www.oecd.org/en/publications/government-at-a-glance-2025_0efd0bcd-en.html",
@@ -1024,7 +1027,11 @@
         "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:12016E/TXT",
         "https://www.gesetze-im-internet.de/gg/art_30.html",
         "https://www.gesetze-im-internet.de/englisch_gg/englisch_gg.pdf",
-        "https://www.gesetze-im-internet.de/wrv/art_137.html"
+        "https://www.gesetze-im-internet.de/wrv/art_137.html",
+        "https://www.gesetze-im-internet.de/gg/art_140.html",
+        "https://www.gesetze-im-internet.de/bgb/__1356.html",
+        "https://www.gesetze-im-internet.de/gg/art_6.html",
+        "https://www.gesetze-im-internet.de/stgb/__218a.html"
       ]
     },
     {
@@ -2084,16 +2091,47 @@
       "aliases": [],
       "kind": "ideology",
       "category": "ideology",
-      "period": "A Manifesto for Social Conservatism, PDF v6a sem data de adoção identificada; versão consultada em 8 de outubro de 2026",
-      "structurallyEligible": false,
-      "documentaryEligible": false,
-      "reviewStatus": "insufficient-located-coding",
+      "period": "A Manifesto for Social Conservatism, versão v6a; colofão identifica publicação em setembro de 2020 e revisão mais recente em abril de 2024; consultada em 8 de outubro de 2026",
+      "structurallyEligible": true,
+      "documentaryEligible": true,
+      "reviewStatus": "located-coding-present-not-truth-certified",
       "unreviewedDirectionalAxes": [],
-      "mappedAxes": [],
-      "documentedAxes": [],
-      "directionalAxes": [],
-      "sourceCount": 2,
+      "mappedAxes": [
+        "est",
+        "rep",
+        "imi",
+        "dip",
+        "int",
+        "eco",
+        "con",
+        "mor",
+        "tec"
+      ],
+      "documentedAxes": [
+        "est",
+        "rep",
+        "imi",
+        "dip",
+        "int",
+        "eco",
+        "con",
+        "mor",
+        "tec"
+      ],
+      "directionalAxes": [
+        "est",
+        "rep",
+        "imi",
+        "dip",
+        "int",
+        "eco",
+        "con",
+        "mor",
+        "tec"
+      ],
+      "sourceCount": 3,
       "sourceUrls": [
+        "https://heritageparty.org/wp-content/uploads/2024/05/Values-Manifesto-v6a.pdf",
         "https://heritageparty.org/manifesto/",
         "https://heritageparty.org/wp-content/uploads/2024/05/Values-Manifesto-v6a.pdf"
       ]
@@ -2105,15 +2143,43 @@
       "kind": "ideology",
       "category": "ideology",
       "period": "National Conservatism: A Statement of Principles, publicada em 15 de junho de 2022",
-      "structurallyEligible": false,
-      "documentaryEligible": false,
-      "reviewStatus": "insufficient-located-coding",
+      "structurallyEligible": true,
+      "documentaryEligible": true,
+      "reviewStatus": "located-coding-present-not-truth-certified",
       "unreviewedDirectionalAxes": [],
-      "mappedAxes": [],
-      "documentedAxes": [],
-      "directionalAxes": [],
-      "sourceCount": 2,
+      "mappedAxes": [
+        "est",
+        "imi",
+        "dip",
+        "int",
+        "eco",
+        "con",
+        "rel",
+        "mor"
+      ],
+      "documentedAxes": [
+        "est",
+        "imi",
+        "dip",
+        "int",
+        "eco",
+        "con",
+        "rel",
+        "mor"
+      ],
+      "directionalAxes": [
+        "est",
+        "imi",
+        "dip",
+        "int",
+        "eco",
+        "con",
+        "rel",
+        "mor"
+      ],
+      "sourceCount": 3,
       "sourceUrls": [
+        "https://nationalconservatism.org/national-conservatism-a-statement-of-principles/",
         "https://nationalconservatism.org/about/",
         "https://nationalconservatism.org/national-conservatism-a-statement-of-principles/"
       ]
@@ -11524,12 +11590,13 @@
       "kind": "country",
       "category": "historical-country",
       "period": "Coreia do Norte sob Kim Il-sung, 09/09/1948–08/07/1994; norma examinada exclusivamente de 27/12/1972.",
-      "structurallyEligible": false,
-      "documentaryEligible": false,
-      "reviewStatus": "insufficient-located-coding",
+      "structurallyEligible": true,
+      "documentaryEligible": true,
+      "reviewStatus": "located-coding-present-not-truth-certified",
       "unreviewedDirectionalAxes": [],
       "mappedAxes": [
         "est",
+        "dip",
         "eco",
         "con",
         "com",
@@ -11537,6 +11604,7 @@
       ],
       "documentedAxes": [
         "est",
+        "dip",
         "eco",
         "con",
         "com",
@@ -11544,6 +11612,7 @@
       ],
       "directionalAxes": [
         "est",
+        "dip",
         "eco",
         "con",
         "com",
@@ -14959,13 +15028,14 @@
       "kind": "country",
       "category": "historical-country",
       "period": "Carta socialista unitária de11/07/1960 até federalização vigente em01/01/1969; norma examinada exclusivamente de1960.",
-      "structurallyEligible": false,
-      "documentaryEligible": false,
-      "reviewStatus": "insufficient-located-coding",
+      "structurallyEligible": true,
+      "documentaryEligible": true,
+      "reviewStatus": "located-coding-present-not-truth-certified",
       "unreviewedDirectionalAxes": [],
       "mappedAxes": [
         "est",
         "rep",
+        "pod",
         "eco",
         "con",
         "mor"
@@ -14973,6 +15043,7 @@
       "documentedAxes": [
         "est",
         "rep",
+        "pod",
         "eco",
         "con",
         "mor"
@@ -14980,6 +15051,7 @@
       "directionalAxes": [
         "est",
         "rep",
+        "pod",
         "eco",
         "con",
         "mor"
@@ -15704,23 +15776,23 @@
       "mappedAxes": [
         "rep",
         "pod",
+        "int",
         "eco",
-        "con",
-        "mor"
+        "con"
       ],
       "documentedAxes": [
         "rep",
         "pod",
+        "int",
         "eco",
-        "con",
-        "mor"
+        "con"
       ],
       "directionalAxes": [
         "rep",
         "pod",
+        "int",
         "eco",
-        "con",
-        "mor"
+        "con"
       ],
       "sourceCount": 2,
       "sourceUrls": [
@@ -19438,24 +19510,24 @@
       "unreviewedDirectionalAxes": [],
       "mappedAxes": [
         "rep",
+        "pod",
         "dip",
         "int",
-        "com",
-        "rel"
+        "com"
       ],
       "documentedAxes": [
         "rep",
+        "pod",
         "dip",
         "int",
-        "com",
-        "rel"
+        "com"
       ],
       "directionalAxes": [
         "rep",
+        "pod",
         "dip",
         "int",
-        "com",
-        "rel"
+        "com"
       ],
       "sourceCount": 4,
       "sourceUrls": [
@@ -23502,30 +23574,33 @@
       "kind": "person",
       "category": "public-figure",
       "period": "Programa pessoalmente assinado18/10/2005 para2006–2010; atividade30/09/2026",
-      "structurallyEligible": false,
-      "documentaryEligible": false,
-      "reviewStatus": "insufficient-located-coding",
+      "structurallyEligible": true,
+      "documentaryEligible": true,
+      "reviewStatus": "located-coding-present-not-truth-certified",
       "unreviewedDirectionalAxes": [],
       "mappedAxes": [
         "rep",
         "imi",
         "int",
         "com",
-        "mor"
+        "mor",
+        "tec"
       ],
       "documentedAxes": [
         "rep",
         "imi",
         "int",
         "com",
-        "mor"
+        "mor",
+        "tec"
       ],
       "directionalAxes": [
         "rep",
         "imi",
         "int",
         "com",
-        "mor"
+        "mor",
+        "tec"
       ],
       "sourceCount": 2,
       "sourceUrls": [
