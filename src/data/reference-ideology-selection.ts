@@ -3,14 +3,14 @@
  */
 export const ideologySelectionSnapshot = {
   "date": "2026-10-08",
-  "catalogCount": 214,
+  "catalogCount": 216,
   "intendedSubsetCount": 75,
   "readyForDefaultUse": false,
-  "boundedReviewedReferents": 62,
-  "referentCountScope": "62 located normative primary referents in integrated ledger; documentary location is not six-axis qualification or all75 independence.",
-  "boundedTwoSidedContrasts": 44,
+  "boundedReviewedReferents": 64,
+  "referentCountScope": "64 located normative primary referents in integrated ledger. Documentary location is not six-axis qualification or all75 independence.",
+  "boundedTwoSidedContrasts": 46,
   "preservedOriginalCatalogCount": 206,
-  "partitionCountScope": "Integrated catalog214 =75 selected +139 alternatives. All206 originals and original75 snapshot preserved.",
+  "partitionCountScope": "Integrated catalog216 =75 selected +141 alternatives. All206 originals and original75 snapshot preserved.",
   "pendingCatalogIds": [],
   "independent75Verified": false
 } as const;
@@ -1401,6 +1401,38 @@ export const ideologySelectionSources = [
     "locator": "Actual signed author body71–116; §81 part of State; §§83–86 own competences/shared funding; §§91–98 women autonomy.",
     "supports": "Programa afirmativo de autoridade regional incorporada ao Estado. Não verifica implementação nem reivindicações históricas.",
     "readAt": "2026-10-08"
+  },
+  {
+    "id": "de-puydt-panarchie-1860",
+    "title": "Panarchie — De Puydt, French reproduction",
+    "url": "https://www.panarchy.org/depuydt/1860.fr.html",
+    "locator": "Author111–274;191/216/221–223;annual252;minorities188–189",
+    "supports": "Jurisdições pessoalmente escolhidas permitem regimes teocráticos/autocráticos/protetivos; sem resultados empíricos verificados.",
+    "readAt": "2026-10-08"
+  },
+  {
+    "id": "molinari-security-only-1849",
+    "title": "De la production de la sécurité — Molinari",
+    "url": "https://www.panarchy.org/molinari/securite.html",
+    "locator": "II151–161;X349–358",
+    "supports": "Governo somente segurança e liberdade integral restante; escolha/saída e formas monárquicas/republicanas comuns.",
+    "readAt": "2026-10-08"
+  },
+  {
+    "id": "tito-worker-management-1950",
+    "title": "Factories to the Workers — Tito",
+    "url": "https://www.marxists.org/archive/tito/1950/06/26.htm",
+    "locator": "Full author12–192;131–134;176;177–178",
+    "supports": "Autogestão defendida com aprovação por associação superior OU órgão estatal, transição gradual e planos.",
+    "readAt": "2026-10-08"
+  },
+  {
+    "id": "gik-direct-productive-administration-1930",
+    "title": "GIK Fundamental Principles, ChapterXIII",
+    "url": "https://www.marxists.org/subject/left-wing/gik/1930/13.htm",
+    "locator": "Full21–37;26/30–37",
+    "supports": "Administração direta pelos conselhos rejeita administração produtiva estatal; contabilidade compulsória permanece.",
+    "readAt": "2026-10-08"
   }
 ] as const;
 
@@ -1721,15 +1753,15 @@ export const intendedIdeologySelection = [
     "ontologyLimit": "Programas localizados de transição, coalizão de classes e autoridade produtiva; não certificam todas variantes históricas nem a independência de todo vizinho. Nenhum vetor foi validado por esta comparação."
   },
   {
-    "id": "ideology-left-yugoslav-self-management",
-    "name": "Socialismo autogestionário iugoslavo",
+    "id": "ideology-program-socialist-self-management-tito-1950",
+    "name": "Autogestão socialista: programa produtivo de Tito, 1950",
     "family": "socialist",
-    "selectionRationale": "Autogestão operária em socialismo federal",
-    "reviewStatus": "provisional",
-    "documentedAxisCountAtSnapshot": 4,
-    "ontologyStatus": "doctrine-referent-source-mismatch",
-    "contrastStatus": "not-independently-verified",
-    "ontologyLimit": "Autogestão iugoslava requer separar doutrina institucional e prática histórica."
+    "selectionRationale": "Autogoverno produtivo com supervisão por associação superior ou Estado, comparado à administração direta GIK.",
+    "reviewStatus": "referent-and-bounded-neighbor-contrast-reviewed",
+    "documentedAxisCountAtSnapshot": 0,
+    "ontologyStatus": "bounded-normative-referent-reviewed",
+    "contrastStatus": "bounded-primary-neighbor-contrast",
+    "ontologyLimit": "Transferência gradual de funções estatais, planos gerais e orientação partidária preservados. GIK conserva disciplina contábil obrigatória; contraste não significa ausência de planejamento nem igualdade com toda autogestão. Zero eixos codificados; não elegível para ranking."
   },
   {
     "id": "ideology-anarcho-communism",
@@ -2079,15 +2111,15 @@ export const intendedIdeologySelection = [
     "ontologyLimit": "Artigo em português Lua Nova 1995 define legitimidade, Estado, sociedade e ação política além de um processo consultivo. Comunicação distribuída e deliberação não contradizem automaticamente ratificação popular direta; proximidade a participação/republicanismo permanece. Fontes e números do catálogo não mudam."
   },
   {
-    "id": "civic-consociational-democracy",
-    "name": "Democracia consociativa",
-    "family": "democratic",
-    "selectionRationale": "Partilha de poder entre comunidades",
-    "reviewStatus": "provisional",
-    "documentedAxisCountAtSnapshot": 3,
-    "ontologyStatus": "institutional-model",
-    "contrastStatus": "not-independently-verified",
-    "ontologyLimit": "Arranjo de acomodação entre elites/grupos; justificação normativa e tradição próprias por verificar."
+    "id": "ideology-program-panarchy-de-puydt-1860",
+    "name": "Panarquia: jurisdições pessoais concorrentes de De Puydt, 1860",
+    "family": "liberal",
+    "selectionRationale": "Governos pessoalmente escolhidos podem adotar programas internos divergentes, além de segurança concorrente.",
+    "reviewStatus": "referent-and-bounded-neighbor-contrast-reviewed",
+    "documentedAxisCountAtSnapshot": 0,
+    "ontologyStatus": "bounded-normative-referent-reviewed",
+    "contrastStatus": "bounded-primary-neighbor-contrast",
+    "ontologyLimit": "Pluralidade de regimes escolhidos versus função governamental restrita de Molinari; escolhas/saída comuns, contratos anuais e limites orçamentários mantidos. Outros anarcocapitalismos não certificados. Zero eixos codificados; não elegível para ranking."
   },
   {
     "id": "civic-federal-republicanism",
@@ -2722,6 +2754,30 @@ export const ideologyOverlapChecks = [
     "relation": "state-incorporated-autonomy-versus-separate-nonstate-confederation",
     "rationale": "EZLN pronunciamiento assinado de 15 fevereiro 1996 §81 exige órgãos autônomos como parte do Estado; §§83–85 competências e fundos compartilhados. Öcalan 2017 H §§510–526 distingue duas entidades e rejeita assimilação ao Estado. Ambos admitem autonomia/coexistência; não implica guerra imediata nem diferença pela etnia/ano.",
     "status": "bounded-primary-contrast"
+  },
+  {
+    "a": "ideology-program-panarchy-de-puydt-1860",
+    "b": "ideology-right-anarcho-capitalism",
+    "question": "Escopo legítimo das funções dos governos escolhidos.",
+    "finding": "De Puydt permite teocracia/despotismo/proteção/subsídios; Molinari restringe governo à segurança e exige liberdade integral restante. Escolha/saída comuns e limites contratuais/orçamentários mantidos; não representa toda variante anarcocapitalista.",
+    "sourceIds": [
+      "de-puydt-panarchie-1860",
+      "molinari-security-only-1849"
+    ],
+    "status": "bounded-primary-contrast",
+    "remaining": "Independência de todas as variantes e global75 não certificada; zero eixos codificados."
+  },
+  {
+    "a": "ideology-program-socialist-self-management-tito-1950",
+    "b": "ideology-council-communism",
+    "question": "Quem supervisiona a autoridade produtiva coletiva?",
+    "finding": "Tito176 requer aprovação por associação superior OU Estado; GIK26/35–37 rejeita administração produtiva estatal em favor dos conselhos. Ambos mantêm coordenação/planos e GIK contabilidade compulsória.",
+    "sourceIds": [
+      "tito-worker-management-1950",
+      "gik-direct-productive-administration-1930"
+    ],
+    "status": "bounded-primary-contrast",
+    "remaining": "Independência de todas as variantes e global75 não certificada; zero eixos codificados."
   }
 ] as const;
 
@@ -4530,6 +4586,32 @@ export const preservedIdeologyAlternatives = [
     ],
     "documentedAxisCountAtSnapshot": 0,
     "reviewStatus": "preserved-original-not-newly-validated"
+  },
+  {
+    "id": "civic-consociational-democracy",
+    "name": "Democracia consociativa",
+    "reasonCode": "preserved-original-explicit-program-substitution",
+    "compareWith": "ideology-program-panarchy-de-puydt-1860",
+    "decisionRationale": "Registro completo anterior permanece no catálogo e arquivo LIVE; substituição do exemplar selecionado não transfere valores nem apaga a identidade.",
+    "catalogRationale": "Acomodação institucional entre comunidades linguísticas, autonomia regional e partilha de poder limitam a imposição de uma maioria única.",
+    "catalogSourceTitles": [
+      "The Belgian Constitution — Belgian House of Representatives"
+    ],
+    "documentedAxisCountAtSnapshot": 0,
+    "reviewStatus": "preserved-original-not-newly-validated"
+  },
+  {
+    "id": "ideology-left-yugoslav-self-management",
+    "name": "Socialismo autogestionário iugoslavo",
+    "reasonCode": "preserved-original-explicit-program-substitution",
+    "compareWith": "ideology-program-socialist-self-management-tito-1950",
+    "decisionRationale": "Registro completo anterior permanece no catálogo e arquivo LIVE; substituição do exemplar selecionado não transfere valores nem apaga a identidade.",
+    "catalogRationale": "O modelo iugoslavo transferiu decisões econômicas específicas a conselhos de trabalhadores sob um sistema socialista federal.",
+    "catalogSourceTitles": [
+      "Workers Manage Factories in Yugoslavia — Josip Broz Tito"
+    ],
+    "documentedAxisCountAtSnapshot": 0,
+    "reviewStatus": "preserved-original-not-newly-validated"
   }
 ] as const;
 
@@ -4615,6 +4697,20 @@ export const ideologyOntologySubstitutions = [
     "removedId": "ideology-indigenous-autonomy",
     "selectedId": "ideology-program-zapatista-autonomy-ezln-1993-1996",
     "reason": "Programa normativo primário delimitado substitui recorte genérico; original completo permanece alternativa. Não cria duas doutrinas pela data.",
+    "status": "bounded-provisional-substitution-new-explicit-program",
+    "catalogRecordsDeleted": false
+  },
+  {
+    "removedId": "civic-consociational-democracy",
+    "selectedId": "ideology-program-panarchy-de-puydt-1860",
+    "reason": "Exemplar normativo primário com contraste material localizado; original completo preservado. Não duplica doutrina por autor/ano nem transfere escores.",
+    "status": "bounded-provisional-substitution-new-explicit-program",
+    "catalogRecordsDeleted": false
+  },
+  {
+    "removedId": "ideology-left-yugoslav-self-management",
+    "selectedId": "ideology-program-socialist-self-management-tito-1950",
+    "reason": "Exemplar normativo primário com contraste material localizado; original completo preservado. Não duplica doutrina por autor/ano nem transfere escores.",
     "status": "bounded-provisional-substitution-new-explicit-program",
     "catalogRecordsDeleted": false
   }
@@ -4990,6 +5086,34 @@ export const ideologyOntologyReviewGroups = [
     "scope": "Um novo referent localizado; Estado e confederação comparados na mesma função institucional. Autonomia/coexistência compartilhadas permanecem; sem independência universal de todas as variantes. Cinco eixos EZLN, sem elegibilidade.",
     "sourceIds": [
       "ezln-signed-state-autonomy-1996"
+    ],
+    "reviewedOn": "2026-10-08"
+  },
+  {
+    "id": "chosen-regime-scope-versus-security-only",
+    "selectedIds": [
+      "ideology-program-panarchy-de-puydt-1860",
+      "ideology-right-anarcho-capitalism"
+    ],
+    "status": "one-bounded-two-sided-primary-contrast",
+    "scope": "De Puydt permite teocracia/despotismo/proteção/subsídios; Molinari restringe governo à segurança e exige liberdade integral restante. Escolha/saída comuns e limites contratuais/orçamentários mantidos; não representa toda variante anarcocapitalista. Um referent primário novo; zero eixos numéricos e sem elegibilidade.",
+    "sourceIds": [
+      "de-puydt-panarchie-1860",
+      "molinari-security-only-1849"
+    ],
+    "reviewedOn": "2026-10-08"
+  },
+  {
+    "id": "productive-supervisory-authority",
+    "selectedIds": [
+      "ideology-program-socialist-self-management-tito-1950",
+      "ideology-council-communism"
+    ],
+    "status": "one-bounded-two-sided-primary-contrast",
+    "scope": "Tito176 requer aprovação por associação superior OU Estado; GIK26/35–37 rejeita administração produtiva estatal em favor dos conselhos. Ambos mantêm coordenação/planos e GIK contabilidade compulsória. Um referent primário novo; zero eixos numéricos e sem elegibilidade.",
+    "sourceIds": [
+      "tito-worker-management-1950",
+      "gik-direct-productive-administration-1930"
     ],
     "reviewedOn": "2026-10-08"
   }

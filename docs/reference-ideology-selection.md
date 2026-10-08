@@ -1,6 +1,6 @@
 # Planned 75 ideology subset: bounded ontology revision
 
-Reviewed on **2026-10-08**. Current ideology ledger: **214 ideologies**, with **75 selected +139 preserved alternatives**, **62 located normative primary referents** and **44 bounded two-sided comparisons**. All206 original ideology identities and the original75 selection remain preserved. The EZLN ideology-import snapshot contained729 overall entries; the overall catalog total can change independently. No programme ID is pending import. The full75 independence/default-use flags remain false; documentary source coverage does not establish distinctness of every selected doctrine.
+Reviewed on **2026-10-08**. Current integrated ideology ledger: **216 ideologies =75 selected +141 preserved alternatives**, **64 located normative primary referents /46 bounded two-sided comparisons**. All206 original ideology identities and original75 selection remain preserved. Overall catalog totals move independently. No programme ID is pending import. Full75 independence/default-use flags remain false; documentary location does not certify every selected doctrine.
 
 An included object should be an identifiable **political normative doctrine or tradition** addressing legitimate authority, collective social/economic order and action, with a located referent and a material contrast to retained neighbors. A framework, institutional device or policy instrument alone is insufficient. State-authored normative doctrines can qualify; government authorship alone is neither acceptance nor rejection. Subtraditions may be retained when their extra commitments are identified; they must not be presented as mutually exclusive families.
 
@@ -56,7 +56,7 @@ The overall selection remains provisional. Individually grounded bounded contras
 | ideology-eurocommunism | Eurocomunismo | socialist | provisional-normative-referent | not-independently-verified |
 | ideology-council-communism | Comunismo de conselhos | socialist | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | ideology-fabianism | Fabianismo | socialist | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
-| ideology-left-yugoslav-self-management | Socialismo autogestionário iugoslavo | socialist | doctrine-referent-source-mismatch | not-independently-verified |
+| ideology-program-socialist-self-management-tito-1950 | Autogestão socialista: programa produtivo de Tito, 1950 | socialist | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | ideology-anarcho-communism | Anarcocomunismo | anarchist | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | ideology-program-anarcho-syndicalism-iwa-2022 | Anarcossindicalismo: programa da AIT/IWA, 2022 | anarchist | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | ideology-mutualism | Mutualismo | anarchist | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
@@ -89,7 +89,7 @@ The overall selection remains provisional. Individually grounded bounded contras
 | civic-participatory-democracy | Democracia participativa: Port Huron, 1962 | democratic | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | civic-direct-democracy | Soberania legislativa direta: Rousseau, 1762 | democratic | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | civic-deliberative-democracy | Democracia deliberativa: modelo procedimental de Habermas | democratic | bounded-normative-referent-reviewed | nearest-neighbor-overlap-unresolved |
-| civic-consociational-democracy | Democracia consociativa | democratic | institutional-model | not-independently-verified |
+| ideology-program-panarchy-de-puydt-1860 | Panarquia: jurisdições pessoais concorrentes de De Puydt, 1860 | liberal | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | civic-federal-republicanism | Federalismo republicano: Madison, 1787–1788 | democratic | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | civic-world-federalism | Federalismo mundial: declaração de Montreux, 1947 | democratic | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | ideology-developmentalism | Desenvolvimentismo | development | provisional-normative-referent | not-independently-verified |
@@ -105,7 +105,7 @@ The overall selection remains provisional. Individually grounded bounded contras
 
 ## Remaining blockers
 
-Thirteen current selected slots still lack accepted located primary-definitional review. Closest-neighbor independence also remains unresolved for several already-read umbrella/subtradition pairs, including communalism/confederalism and adjacent liberal/anarchist traditions. A remote difference or author/year/geography cannot resolve the closest overlap. Panarchy, Mariátegui, Tito and Berlinguer are next source-review candidates; no external candidate is included in the current62/44 counts. Source failures, analytic-only models and unverified translations remain explicit. Partial numeric coding does not repair a missing normative definition.
+Eleven current selected slots still lack accepted located primary-definitional review. Closest-neighbor independence also remains unresolved for several already-read umbrella/subtradition pairs, including communalism/confederalism and adjacent liberal/anarchist traditions. A remote difference or author/year/geography cannot resolve the closest overlap. Panarchy and Tito are integrated source-defined doctrines; Mariátegui and Berlinguer nearest overlaps remain unresolved. Current64/46 describes documentary scope, not global75 distinctness. Source failures, analytic-only models and unverified translations remain explicit. Partial numeric coding does not repair a missing normative definition.
 
 ## Group 21: nonindustrial collective order, integrated
 
@@ -122,3 +122,17 @@ One scoped zapatista referent replaces the original generic selection; the compl
 The actual signed 15 February 1996 EZLN pronunciamiento §§71–116, especially81–98, proposes communal/municipal/regional authority **as part of the State** (§81), own economy/justice/security competences (§§83–86) and public funding/shared responsibility (§85). Öcalan's fourth revised English edition2017, H §§510–526, especially511–516, requires **two separate entities** and rejects confederal assimilation into the State; IV535–542 specifies a nonstate paradigm. Both permit coexistence and autonomy; long-term State-overcoming is not immediate war. This is a same-function institutional-status distinction, not ethnicity, author or year uniqueness.
 
 Primary URLs: [EZLN signed programme](https://enlacezapatista.ezln.org.mx/1996/02/15/el-dialogo-de-san-andres-y-los-derechos-y-cultura-indigena-punto-y-seguido/) and [Öcalan2017](https://ocalanbooks.com/downloads/EN-brochure_democratic-confederalism_2017.pdf). Author and independent reviewer actually read these bounded passages. Claims, counters, question crosswalks, original-source archive and edition anomalies are detailed in [programme05](reference-ideology-program-batch-05.md). No2005 source transfer, implementation assertion or reduced evidence threshold.
+
+## Integrated group: Panarchy and productive self-management
+
+[De Puydt1860](https://www.panarchy.org/depuydt/1860.fr.html) defends personally selected coexisting jurisdictions168/175/233/264. The menu permits theocracy191, despotism216 and industrial/customs/cultural subsidies221–223, while its author retains market-liberal priors. Annual commitments252, budgets/courts253 and underfunded minorities obliged to select established governments188–189 limit freedom of exit. Chosen autocracy259 is not universal democratic institutions. Rhetorical disclaimers248/270 coexist with affirmative defended registration and legitimacy rules; they are not a refusal to defend the order's merits. Host metadata identifies Revue Trimestrielle July1860; no original facsimile verification.
+
+[Molinari1849 French](https://www.panarchy.org/molinari/securite.html) II151–161 defends competitive security and limits government to that function, requiring absolute liberty of other labour/exchange161. X349–358 retains switching and nonmonopolistic monarchy/republic. The substantive contrast is the legitimate **scope of chosen governmental orders**, not competition itself, territorial relocation, nationality or date. Both share choice/exit and liberal priors. Peace, efficiency and racist/causal historical assertions are unverified. Wider anarchocapitalist variants still need nearest review.
+
+
+[Tito1950](https://www.marxists.org/archive/tito/1950/06/26.htm) defends worker-council productive authority, gradual State-economic-function transfer and collective social ownership. Exact regulations176 need approval by the higher economic association OR competent State body; general plans150/177–178 and Party-led education168 remain. [GIK ChapterXIII](https://www.marxists.org/subject/left-wing/gik/1930/13.htm) rejects productive State administration26 in favor of direct factory-council administration35–37, retaining compulsory accounting30–36 and coordinated planning. The material contrast is productive supervisory authority, not secret-ballot democracy or no planning.
+
+Author fullspeech12–192 and two independent reviewers' bounded actual reopens support the comparison. Second peer report is `docs/reference-peer-review-tito-gik-historical.md`; its source-read limits are separate from the author's full reading. Political and economic historical success claims are unverified author assertions. The text is an English 2006 transcription of a 1950 Belgrade pamphlet, not a collated original-language edition. Both source-defined identities and their selected substitutions are now integrated after coordinated review. No numeric axis is asserted.
+
+
+Both selected substitutions preserve their previous complete LIVE objects. See `reference-ideology-program-batch-06` module/report for exact archives, primary locators and independent reading scope. No numeric axes or ranked eligibility are asserted.

@@ -34,8 +34,8 @@
     ],
     "provenance": "Executed before local data corrections in this recovery checkpoint; not recomputed from unavailable prior Library checkpoint."
   },
-  "headCommitAtAudit": "4eb993b1cd16ec514de1ac8c04ec27c5806812a1",
-  "integratedCatalogSha256": "7ace5448e40d194baa6b80e6e69c1422a0d53a4d36155cb7ae44ec45fce80c5c",
+  "headCommitAtAudit": "53f5b437113a36cd89d89e7bcea323a7bb1781c1",
+  "integratedCatalogSha256": "5d09f4a1c25b52e9efa04c70635050881c34bccc7506fdcf9f28db172f4847c4",
   "scope": "Integrated working-tree catalog after preparation; fixed remote baseline and current HEAD are provenance, not immutable copies of modified files.",
   "evidenceGate": {
     "minimumAxes": 6,
@@ -55,12 +55,12 @@
     "Unreviewed directional axes are preserved archival estimates, excluded from ranking; absent located coding does not establish that their direction is false. Prior snapshots preserve available original estimates."
   ],
   "totalTarget": 675,
-  "totalRecords": 745,
+  "totalRecords": 762,
   "structurallyEligible": 103,
   "documentaryEligible": 56,
-  "insufficientEvidence": 689,
+  "insufficientEvidence": 706,
   "unreviewedDirectionCount": 1275,
-  "summedCategoryIdentityGap": 69,
+  "summedCategoryIdentityGap": 54,
   "categories": [
     {
       "category": "country",
@@ -76,11 +76,11 @@
     {
       "category": "historical-country",
       "target": 150,
-      "records": 138,
+      "records": 143,
       "structurallyEligible": 11,
       "documentaryEligible": 11,
-      "insufficientEvidence": 127,
-      "missingIdentitiesBeforeSemanticReview": 12,
+      "insufficientEvidence": 132,
+      "missingIdentitiesBeforeSemanticReview": 7,
       "preservedExcess": 0,
       "missingEligibleToTarget": 139
     },
@@ -98,23 +98,23 @@
     {
       "category": "historical-figure",
       "target": 150,
-      "records": 127,
+      "records": 137,
       "structurallyEligible": 34,
       "documentaryEligible": 22,
-      "insufficientEvidence": 105,
-      "missingIdentitiesBeforeSemanticReview": 23,
+      "insufficientEvidence": 115,
+      "missingIdentitiesBeforeSemanticReview": 13,
       "preservedExcess": 0,
       "missingEligibleToTarget": 128
     },
     {
       "category": "ideology",
       "target": 75,
-      "records": 214,
+      "records": 216,
       "structurallyEligible": 28,
       "documentaryEligible": 9,
-      "insufficientEvidence": 205,
+      "insufficientEvidence": 207,
       "missingIdentitiesBeforeSemanticReview": 0,
-      "preservedExcess": 139,
+      "preservedExcess": 141,
       "missingEligibleToTarget": 66
     }
   ],
@@ -23042,6 +23042,489 @@
         "https://history.state.gov/historicaldocuments/frus1948v06/d860",
         "https://history.state.gov/historicaldocuments/frus1948v06/d870",
         "https://history.state.gov/historicaldocuments/frus1958-60v18/d310"
+      ]
+    },
+    {
+      "id": "rutherford-b-hayes",
+      "name": "Rutherford B. Hayes",
+      "aliases": [],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "Declaração inaugural1877-03-05",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "est",
+        "rep",
+        "dip",
+        "int"
+      ],
+      "documentedAxes": [
+        "est",
+        "rep",
+        "dip",
+        "int"
+      ],
+      "directionalAxes": [
+        "est",
+        "rep",
+        "dip",
+        "int"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://avalon.law.yale.edu/19th_century/hayes.asp",
+        "https://millercenter.org/president/hayes"
+      ]
+    },
+    {
+      "id": "james-a-garfield",
+      "name": "James A. Garfield",
+      "aliases": [],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "Declaração inaugural1881-03-04",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "est",
+        "rep",
+        "rel"
+      ],
+      "documentedAxes": [
+        "est",
+        "rep",
+        "rel"
+      ],
+      "directionalAxes": [
+        "est",
+        "rep",
+        "rel"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://millercenter.org/the-presidency/presidential-speeches/march-4-1881-inaugural-address",
+        "https://millercenter.org/president/garfield"
+      ]
+    },
+    {
+      "id": "benjamin-harrison",
+      "name": "Benjamin Harrison",
+      "aliases": [],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "Declaração inaugural1889-03-04",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "rep",
+        "dip",
+        "int",
+        "com"
+      ],
+      "documentedAxes": [
+        "rep",
+        "dip",
+        "int",
+        "com"
+      ],
+      "directionalAxes": [
+        "rep",
+        "dip",
+        "int",
+        "com"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://avalon.law.yale.edu/19th_century/harris.asp",
+        "https://millercenter.org/president/bharrison"
+      ]
+    },
+    {
+      "id": "william-mckinley",
+      "name": "William McKinley",
+      "aliases": [],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "Declaração inaugural1897-03-04",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "rep",
+        "pod",
+        "dip",
+        "int",
+        "com"
+      ],
+      "documentedAxes": [
+        "rep",
+        "pod",
+        "dip",
+        "int",
+        "com"
+      ],
+      "directionalAxes": [
+        "rep",
+        "pod",
+        "dip",
+        "int",
+        "com"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://avalon.law.yale.edu/19th_century/mckin1.asp",
+        "https://millercenter.org/president/mckinley"
+      ]
+    },
+    {
+      "id": "zachary-taylor",
+      "name": "Zachary Taylor",
+      "aliases": [],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "Declaração inaugural1849-03-05",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "dip",
+        "int"
+      ],
+      "documentedAxes": [
+        "dip",
+        "int"
+      ],
+      "directionalAxes": [
+        "dip",
+        "int"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://avalon.law.yale.edu/19th_century/taylor.asp",
+        "https://millercenter.org/president/taylor"
+      ]
+    },
+    {
+      "id": "flora-tristan",
+      "name": "Flora Tristan",
+      "aliases": [],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "WorkersUnion1843, seleção traduzidaBeverlyLivingston1983",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "mor"
+      ],
+      "documentedAxes": [
+        "mor"
+      ],
+      "directionalAxes": [
+        "mor"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://cuny.manifoldapp.org/read/women-s-political-and-social-thought/section/a8e49be4-e57b-421d-8623-61d457d1429d",
+        "https://cuny.manifoldapp.org/read/women-s-political-and-social-thought/section/a8e49be4-e57b-421d-8623-61d457d1429d"
+      ]
+    },
+    {
+      "id": "sarah-moore-grimke",
+      "name": "Sarah Moore Grimké",
+      "aliases": [],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "LettersEqualitySexes1837, edição1838; cartasI/II/XII selecionadas",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "mor"
+      ],
+      "documentedAxes": [
+        "mor"
+      ],
+      "directionalAxes": [
+        "mor"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.gutenberg.org/cache/epub/69485/pg69485-images.html",
+        "https://www.nps.gov/wori/learn/historyculture/grimke-sisters.htm"
+      ]
+    },
+    {
+      "id": "angelina-emily-grimke",
+      "name": "Angelina Emily Grimké",
+      "aliases": [],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "LettersCatherineBeecher, cartaXII2/10/1837",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "mor"
+      ],
+      "documentedAxes": [
+        "mor"
+      ],
+      "directionalAxes": [
+        "mor"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.gutenberg.org/files/53852/53852-h/53852-h.htm",
+        "https://www.nps.gov/wori/learn/historyculture/grimke-sisters.htm"
+      ]
+    },
+    {
+      "id": "josephine-butler",
+      "name": "Josephine Butler",
+      "aliases": [],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "NativeRacesandWar1900, trechos própriosI/VIII",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "pod"
+      ],
+      "documentedAxes": [
+        "pod"
+      ],
+      "directionalAxes": [
+        "pod"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.gutenberg.org/cache/epub/14299/pg14299-images.html",
+        "https://www.english-heritage.org.uk/visit/blue-plaques/butler-josephine-butler/"
+      ]
+    },
+    {
+      "id": "jane-addams",
+      "name": "Jane Addams",
+      "aliases": [],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "NewerIdealsofPeace1906, introdução própria selecionada",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "dip"
+      ],
+      "documentedAxes": [
+        "dip"
+      ],
+      "directionalAxes": [
+        "dip"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.gutenberg.org/files/69879/69879-h/69879-h.htm",
+        "https://www.nps.gov/people/jane-addams.htm"
+      ]
+    },
+    {
+      "id": "ideology-program-panarchy-de-puydt-1860",
+      "name": "Panarquia: jurisdições pessoais concorrentes de De Puydt, 1860",
+      "aliases": [],
+      "kind": "ideology",
+      "category": "ideology",
+      "period": "Panarchie, Revue Trimestrielle, julho de 1860; reprodução francesa",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
+      "documentedAxes": [],
+      "directionalAxes": [],
+      "sourceCount": 1,
+      "sourceUrls": [
+        "https://www.panarchy.org/depuydt/1860.fr.html"
+      ]
+    },
+    {
+      "id": "ideology-program-socialist-self-management-tito-1950",
+      "name": "Autogestão socialista: programa produtivo de Tito, 1950",
+      "aliases": [],
+      "kind": "ideology",
+      "category": "ideology",
+      "period": "Discurso à Assembleia Federal, 26 de junho de 1950; panfleto de Belgrado 1950, transcrição inglesa 2006",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
+      "documentedAxes": [],
+      "directionalAxes": [],
+      "sourceCount": 1,
+      "sourceUrls": [
+        "https://www.marxists.org/archive/tito/1950/06/26.htm"
+      ]
+    },
+    {
+      "id": "zambia-first-republic-1964",
+      "name": "Zâmbia — Primeira República",
+      "aliases": [
+        "Zâmbia — ordem fundadora plural1964–1972"
+      ],
+      "kind": "country",
+      "category": "historical-country",
+      "period": "24/10/1964–ruptura partidária13/12/1972; norma fundadora1964",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "pod"
+      ],
+      "documentedAxes": [
+        "pod"
+      ],
+      "directionalAxes": [
+        "pod"
+      ],
+      "sourceCount": 3,
+      "sourceUrls": [
+        "https://www.legislation.gov.uk/uksi/1964/1652/pdfs/uksi_19641652_en.pdf",
+        "https://www.legislation.gov.uk/ukpga/1964/65/pdfs/ukpga_19640065_en.pdf",
+        "https://www.constitution.gov.zm/files/final_report_of_the_constitution_review_commission.pdf"
+      ]
+    },
+    {
+      "id": "uganda-independent-parliamentary-order-1962",
+      "name": "Uganda — ordem parlamentar independente",
+      "aliases": [
+        "Uganda — primeira ordem civil1962–1966"
+      ],
+      "kind": "country",
+      "category": "historical-country",
+      "period": "09/10/1962–crise fevereiro–maio1966; suspensão política22/02/1966; norma consolidada31/12/1963",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "pod"
+      ],
+      "documentedAxes": [
+        "pod"
+      ],
+      "directionalAxes": [
+        "pod"
+      ],
+      "sourceCount": 3,
+      "sourceUrls": [
+        "https://www.worldstatesmen.org/Uganda-const-1962.pdf",
+        "https://abudhabi.mofa.go.ug/uganda/history-and-political-situation",
+        "https://www.parliament.go.ug/page/history-parliament"
+      ]
+    },
+    {
+      "id": "kenya-kenyatta-founding-government-1963",
+      "name": "Quênia — administração fundadora de Kenyatta",
+      "aliases": [
+        "Quênia — Kenyatta1963–1978"
+      ],
+      "kind": "country",
+      "category": "historical-country",
+      "period": "12/12/1963–22/08/1978; norma de independência04/12/1963",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "pod"
+      ],
+      "documentedAxes": [
+        "pod"
+      ],
+      "directionalAxes": [
+        "pod"
+      ],
+      "sourceCount": 4,
+      "sourceUrls": [
+        "https://resources.mwakili.com/resources/legal-docs-plain-text/TheKenyaIndependenceOrderinCouncil1963",
+        "https://www.legislation.gov.uk/uksi/1963/1968/pdfs/uksi_19631968_en.pdf",
+        "https://www.legislation.gov.uk/ukpga/1963/54/pdfs/ukpga_19630054_en.pdf",
+        "https://www.presidentiallibrary.go.ke/blogs/final-chapter-founding-presidency"
+      ]
+    },
+    {
+      "id": "malawi-banda-independent-government-1964",
+      "name": "Malawi — administração independente de Banda",
+      "aliases": [
+        "Malawi — Banda1964–1994"
+      ],
+      "kind": "country",
+      "category": "historical-country",
+      "period": "06/07/1964–24/05/1994; somente norma fundadora23/06/1964",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "pod"
+      ],
+      "documentedAxes": [
+        "pod"
+      ],
+      "directionalAxes": [
+        "pod"
+      ],
+      "sourceCount": 4,
+      "sourceUrls": [
+        "https://www.legislation.gov.uk/uksi/1964/916/pdfs/uksi_19640916_en.pdf",
+        "https://www.legislation.gov.uk/ukpga/1964/46/pdfs/ukpga_19640046_en.pdf",
+        "https://parliament.gov.mw/parliament/history-development/timeline",
+        "https://www.opc.gov.mw/index.php/about-us/history-of-the-republic-of-malawi-presidents"
+      ]
+    },
+    {
+      "id": "senegal-senghor-founding-government-1960",
+      "name": "Senegal — administração fundadora de Senghor",
+      "aliases": [
+        "Senegal — Senghor1960–1980"
+      ],
+      "kind": "country",
+      "category": "historical-country",
+      "period": "eleição05/09/1960–renúncia dezembro1980; norma07/03/1963",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "rel"
+      ],
+      "documentedAxes": [
+        "rel"
+      ],
+      "directionalAxes": [
+        "rel"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://mjp.univ-perp.fr/constit/sn1963.htm",
+        "https://www.presidence.sn/en/presidence/leopold-sedar-senghor/"
       ]
     },
     {

@@ -1,0 +1,21 @@
+# Programme06: two accepted source-defined doctrines
+
+Author and independent reviewer actually read De Puydt's French reproduction, author body111–274. Parent accepted inclusion and a material nearest-Molinari contrast on 8 October 2026. Both accepted definitions are integrated, with no coded axes and no ranked eligibility. The complete prior LIVE Belgian constitutional-case record is archived; its vectors/sources remain unchanged when preserved as an alternative.
+
+[De Puydt1860](https://www.panarchy.org/depuydt/1860.fr.html) defends personally selected coexisting jurisdictions168/175/233/264. The menu permits theocracy191, despotism216 and industrial/customs/cultural subsidies221–223, while its author retains market-liberal priors. Annual commitments252, budgets/courts253 and underfunded minorities obliged to select established governments188–189 limit freedom of exit. Chosen autocracy259 is not universal democratic institutions. Rhetorical disclaimers248/270 coexist with affirmative defended registration and legitimacy rules; they are not a refusal to defend the order's merits. Host metadata identifies Revue Trimestrielle July1860; no original facsimile verification.
+
+[Molinari1849 French](https://www.panarchy.org/molinari/securite.html) II151–161 defends competitive security and limits government to that function, requiring absolute liberty of other labour/exchange161. X349–358 retains switching and nonmonopolistic monarchy/republic. The substantive contrast is the legitimate **scope of chosen governmental orders**, not competition itself, territorial relocation, nationality or date. Both share choice/exit and liberal priors. Peace, efficiency and racist/causal historical assertions are unverified. Wider anarchocapitalist variants still need nearest review.
+
+The integrated selected substitution is `civic-consociational-democracy` → `ideology-program-panarchy-de-puydt-1860`. Belgium's constitutional snapshot remains useful catalog data; it does not become De Puydt's doctrine. All 75 previous selected identities and original 206 catalog identities must remain preserved. No score or matching-gate exception is proposed.
+
+## Second prepared definition: socialist worker self-management
+
+The batch also contains `ideology-program-socialist-self-management-tito-1950`, replacing the selected generic Yugoslav self-management exemplar while preserving its complete prior LIVE record in `ideologyProgramBatch06PreviousTitoSnapshot`. No scores transfer: all 12 axes are unknown and the source-defined programme is unranked. This is one selected self-management definition, not two by author/year.
+
+[Tito1950](https://www.marxists.org/archive/tito/1950/06/26.htm) defends worker-council productive authority, gradual State-economic-function transfer and collective social ownership. Exact regulations176 need approval by the higher economic association OR competent State body; general plans150/177–178 and Party-led education168 remain. [GIK ChapterXIII](https://www.marxists.org/subject/left-wing/gik/1930/13.htm) rejects productive State administration26 in favor of direct factory-council administration35–37, retaining compulsory accounting30–36 and coordinated planning. The material contrast is productive supervisory authority, not secret-ballot democracy or no planning.
+
+Author fullspeech12–192 and two independent reviewers' bounded actual reopens support the comparison. Second peer report is `docs/reference-peer-review-tito-gik-historical.md`; its source-read limits are separate from the author's full reading. Political and economic historical success claims are unverified author assertions. The text is an English 2006 transcription of a 1950 Belgrade pamphlet, not a collated original-language edition. Both identities and their selected substitutions are integrated after coordinated review.
+
+## Integration scope
+
+Parent accepted both normative definitions and bounded contrasts after actual primary-source review. Integrated ideology ledger216 =75 selected +141 alternatives,64 located primary referents/46 bounded comparisons. Overall catalog totals change independently; no programme ID remains pending. Full75 independence/default-use flags stay false. Complete previous LIVE objects and every original source object are archived literally. No original catalog record is removed or rescored.

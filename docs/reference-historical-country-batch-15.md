@@ -1,6 +1,6 @@
 # Cinco identidades históricas: pesquisa parcial do lote15
 
-Este lote não integrado segue a nova prioridade de completar identidades documentadas sem promover artificialmente cada perfil ao gate de seis eixos. São cinco candidatos, nove códigos propostos e51 eixos desconhecidos. Nenhum candidato é elegível. Revisão independente e julgamento do Root ainda pendentes; presença neste arquivo não é aceitação.
+Este lote aceito e integrado no catálogo745 segue a prioridade de completar identidades documentadas sem promover artificialmente cada perfil ao gate de seis eixos. São cinco identidades, nove códigos normativos e51 eixos desconhecidos. Nenhum perfil é elegível; revisão independente e julgamento do Root concluídos nos escopos abaixo.
 
 ## Taxonomia e colisões
 

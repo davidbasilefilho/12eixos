@@ -13,6 +13,10 @@ import { ideologyProgramBatch05 } from './reference-ideology-program-batch-05';
 import { historicalFigureBatch21 } from './reference-historical-figure-batch-21';
 import { publicFigureBatch22 } from './reference-public-figure-batch-22';
 import { historicalCountryBatch15 } from './reference-historical-country-batch-15';
+import { historicalFigureBatch22 } from './reference-historical-figure-batch-22';
+import { historicalFigureBatch23 } from './reference-historical-figure-batch-23';
+import { ideologyProgramBatch06 } from './reference-ideology-program-batch-06';
+import { historicalCountryBatch16 } from './reference-historical-country-batch-16';
 import { publicFigureBatch18 } from './reference-public-figure-batch-18';
 import { ideologyProgramBatch04 } from './reference-ideology-program-batch-04';
 import { historicalCountryBatch11 } from './reference-historical-country-batch-11';
@@ -654,6 +658,10 @@ export const referenceExpansionEntries: ReferenceEntry[] = [
   ...historicalFigureBatch21,
   ...publicFigureBatch22,
   ...historicalCountryBatch15,
+  ...historicalFigureBatch22,
+  ...historicalFigureBatch23,
+  ...ideologyProgramBatch06,
+  ...historicalCountryBatch16,
   ...historicalCountryBatch11,
   ...historicalCountryBatch12,
   ...historicalFigureBatch15,
