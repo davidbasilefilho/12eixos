@@ -9,8 +9,13 @@ const packagedFlags = new Set(flagAssets)
 // the existing asset geometry. Primary transcription provenance is documented externally.
 const historicalFlagAliases: Record<string, string> = {
   'cuba-constitutional-republic-1940': 'cuba-batista-1952',
+  // Compact national identifiers: Portugal original1976 art11(1), Argentina original1944 decree art2–3.
+  // Reusing packaged assets does not certify exact historical dimensions or color specifications.
+  'portugal-revolution-council-1976': 'portugal-first-republic',
+  'argentina-first-peron-administration-1946': 'argentina-current-2025',
 }
 const countryFlagAspectRatios: Record<string, number> = {
+  'portugal-revolution-council-1976': 3 / 2, 'argentina-first-peron-administration-1946': 8 / 5,
   uruguay: 3 / 2, denmark: 37 / 28, 'united-states': 1235 / 650, singapore: 3 / 2, germany: 5 / 3,
   'new-zealand': 2, brazil: 10 / 7, japan: 3 / 2, india: 3 / 2, 'south-africa': 3 / 2, indonesia: 3 / 2,
   mexico: 7 / 4, turkey: 3 / 2, 'saudi-arabia': 3 / 2, france: 3 / 2, 'paris-commune-1871': 3 / 2,

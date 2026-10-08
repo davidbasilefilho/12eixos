@@ -1,0 +1,19 @@
+# Qualidade histórica04 — Nkrumah1963, proposta sem integração
+
+Objeto ativo kwame-nkrumah copiado inteiro em literal, fonte antiga preservada e união de novas fontes. Não cria identidade. Guard exige JSON completo igual ao objeto original: dados úteis posteriores, mesmo sem coding, são preservados e reexecução mantém exato objeto já revisado. Sem import/Git/publicação. Seis propostas não seis aceites ou contagem.
+
+Autor leu realmente fac-símile Praeger1963 https://www.marxists.org/subject/africa/nkrumah/1963/africa-must-unite.pdf título/autoria/publicação0–16; introdução0–196 parcial; XIV4243–4734 completo (impresso118–131/PDF131–144); IX/X2763–3211 parcial (impresso73–86/PDF86–99); XIX6850–7190 parcial (impresso194–204/PDF207–217; abertura6825–6849 ainda não lida); XXI7588–7787 parcial (impresso216–222/PDF229–235, abertura ainda não lida). Abriu adicional XIII4141–4242 e XI3212–3429 incidentalmente, sem depender de corpo não exibido. Primeira abertura focal4260 timeout, reabertura URL completa teve sucesso. Não todo livro244páginas ou capítulos inteiros além deXIV.
+
+EST40 proposto é Gana unitário IX2832–2840, diferente da federação africana futuraXXI7652–7759: esta preserva soberania residual/adesão voluntária. Guardar chefias tradicionaisX3130–3153. REP60 proposta é norma de mudança constitucional por Parlamento/referendoX2964–2969 e maioria eleitoral3073–3078, mas poder presidencial aumentado3084–3098, oposição criticada/restrições liberais2900–2962, sindicatos como alaCPP4582–4585 e liderança partidária4640–4660 são graves contrapontos; independente pode rejeitar direção, sem salvamento por reputação anticolonial. DIP40 proposta programa mundial desarmamento/coexistência6972–7044/7138–7183, defesa continental e luta anticolonial7112–7116/7184–7190/7692–7723 não apagadas. INT40 explícita cessão soberana à União3174–3204 e competências comuns7652–7759, não apenas ONU; adesão voluntária e poderes residuais como limites. ECO60 direção pública ampla4301–4314/4458–4462 e cinco setores4352–4361; CON60 planos nacionais/metas/controle4382–4423, elasticidade4418–4423 e empreendimento privado. POD/IMI/COM/REL/MOR/TEC50 sem metadata; antigo vetor aposentado no overlay mas todo original arquivado.
+
+Identidade institucional Memorial Park governamental https://knmp.gov.gh/new/biography-of-osagyefo-dr-kwame-nkrumah/ corpo38–80 efetivamente lido: nascimento setembro1909 e morte27/4/1972 em40. Nenhum dia de nascimento autenticado ali. Profissão, fé e relatos secundários de governo não códigos declarativos1963. Não presume execução dos programas narrada pelo próprio autor nem eficácia alegada.
+
+Pendente revisão independente de direção/breadth/magnitude e julgamento Root. Validação estrutural não substitui exame real e pode haver menos de seis direções aceitas.
+
+
+Reparo autoral após leitura independente: X2964–2969 sustenta mudança de regulamentos/constituição por Parlamento e referendo, não alternância de governo. A afirmação REP foi estreitada; X3073–3078 ainda declara liderança da maioria eleita. Restrições severas à oposição2868–2962, poder presidencial3084–3098 e liderança decisiva do CPP4582–4585/4640–4660 seguem contraevidência; julgamento REP pendente, sem uso automático de prática1964.
+
+
+## Estado atual: aceito para próxima integração local
+
+Root aceitou seis direções EST40/REP60/DIP40/INT40/ECO60/CON60 após leitura primária independente, com REP reparado para mudança de regulamentos/constituição e liderança parlamentar escolhida, sem alternância garantida. Os contrapontos autoritários, polidades distintas, setores mistos e estratégia armada permanecem. Fonte institucional de identidade foi efetivamente lida pelo autor; o revisor teve falha de abertura direta KNMP e leu overview institucional indexado, sem atribuir acesso direto bem-sucedido. Proposta não importada, congelada para próxima integração após719.

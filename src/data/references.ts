@@ -1,3 +1,13 @@
+import { historicalCountryBatch13 } from './reference-historical-country-batch-13';
+import { historicalCountryBatch14 } from './reference-historical-country-batch-14';
+import { publicFigureBatch19 } from './reference-public-figure-batch-19';
+import { publicFigureBatch20 } from './reference-public-figure-batch-20';
+import { publicFigureBatch21 } from './reference-public-figure-batch-21';
+import { historicalFigureBatch18 } from './reference-historical-figure-batch-18';
+import { historicalFigureBatch19 } from './reference-historical-figure-batch-19';
+import { historicalFigureBatch20 } from './reference-historical-figure-batch-20';
+import { extendHistoricalCountryCoverage18 } from './reference-historical-country-coverage-18';
+import { reconcileLegacyHistoricalQuality04 } from './reference-legacy-historical-quality-04';
 import { publicFigureBatch18 } from './reference-public-figure-batch-18';
 import { ideologyProgramBatch04 } from './reference-ideology-program-batch-04';
 import { historicalCountryBatch11 } from './reference-historical-country-batch-11';
@@ -626,6 +636,14 @@ export const referenceExpansionEntries: ReferenceEntry[] = [
   ...ideologyProgramBatch02,
   ...ideologyProgramBatch03,
   ...ideologyProgramBatch04,
+  ...historicalCountryBatch13,
+  ...historicalCountryBatch14,
+  ...publicFigureBatch19,
+  ...publicFigureBatch20,
+  ...publicFigureBatch21,
+  ...historicalFigureBatch18,
+  ...historicalFigureBatch19,
+  ...historicalFigureBatch20,
   ...historicalCountryBatch11,
   ...historicalCountryBatch12,
   ...historicalFigureBatch15,
@@ -652,4 +670,4 @@ export const referenceEntries: ReferenceEntry[] = [
   ...correctedBaseReferenceEntries,
   ...referenceExpansionEntries,
 ].map(reconcileHistoricalCountry03).map(reconcileCurrentCountry04).map(extendCurrentCountryCoverage05).map(reconcileHistoricalCountry04).map(reconcileSoros)
-  .map(entry => historicalLegacyRecoding.find(replacement => replacement.id === entry.id) ?? entry).map(withIdentityAliases).map(reconcileLegacyPublicQuality01).map(reconcileLegacyHistoricalQuality01).map(reviewCurrentCountryEconomicScope).map(extendHistoricalCountryCoverage08).map(reconcileExistingIdeology01).map(extendHistoricalCountryCoverage09).map(reconcileLegacyPublicQuality02).map(reviewCurrentCountryScope02).map(clarifyCurrentCountryQuality06).map(extendHistoricalCountryCoverage10).map(extendHistoricalCountryCoverage11).map(extendHistoricalCountryCoverage13).map(extendHistoricalCountryCoverage12).map(extendHistoricalCountryCoverage14).map(reconcileLegacyHistoricalQuality02).map(extendCurrentCountryCoverage06).map(extendHistoricalCountryCoverage15).map(extendHistoricalCountryCoverage16).map(reconcileLegacyHistoricalQuality03).map(reconcileHistoricalExistingCoverage01).map(reconcileExistingIdeologyCoverage02).map(extendHistoricalCountryCoverage17).map(extendCurrentCountryCoverage07).map(reconcilePublicFigureCoverage02);
+  .map(entry => historicalLegacyRecoding.find(replacement => replacement.id === entry.id) ?? entry).map(withIdentityAliases).map(reconcileLegacyPublicQuality01).map(reconcileLegacyHistoricalQuality01).map(reviewCurrentCountryEconomicScope).map(extendHistoricalCountryCoverage08).map(reconcileExistingIdeology01).map(extendHistoricalCountryCoverage09).map(reconcileLegacyPublicQuality02).map(reviewCurrentCountryScope02).map(clarifyCurrentCountryQuality06).map(extendHistoricalCountryCoverage10).map(extendHistoricalCountryCoverage11).map(extendHistoricalCountryCoverage13).map(extendHistoricalCountryCoverage12).map(extendHistoricalCountryCoverage14).map(reconcileLegacyHistoricalQuality02).map(extendCurrentCountryCoverage06).map(extendHistoricalCountryCoverage15).map(extendHistoricalCountryCoverage16).map(reconcileLegacyHistoricalQuality03).map(reconcileHistoricalExistingCoverage01).map(reconcileExistingIdeologyCoverage02).map(extendHistoricalCountryCoverage17).map(extendCurrentCountryCoverage07).map(reconcilePublicFigureCoverage02).map(extendHistoricalCountryCoverage18).map(reconcileLegacyHistoricalQuality04);

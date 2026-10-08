@@ -34,8 +34,8 @@
     ],
     "provenance": "Executed before local data corrections in this recovery checkpoint; not recomputed from unavailable prior Library checkpoint."
   },
-  "headCommitAtAudit": "e748b1be1ee92a598dce0504dd8ceaaf890edf19",
-  "integratedCatalogSha256": "bd65cab3cb6da8f866067f717a2728e63e6aeaafa172254eaa3ff8d56a9d734b",
+  "headCommitAtAudit": "1a59b101f56af1ecedf544de0c14bfcdd214bd9c",
+  "integratedCatalogSha256": "eb63feac87b44dd23b425cf58ec6792703451f2becec5e2ffa6643daeeadee94",
   "scope": "Integrated working-tree catalog after preparation; fixed remote baseline and current HEAD are provenance, not immutable copies of modified files.",
   "evidenceGate": {
     "minimumAxes": 6,
@@ -55,12 +55,12 @@
     "Unreviewed directional axes are preserved archival estimates, excluded from ranking; absent located coding does not establish that their direction is false. Prior snapshots preserve available original estimates."
   ],
   "totalTarget": 675,
-  "totalRecords": 719,
-  "structurallyEligible": 92,
-  "documentaryEligible": 45,
-  "insufficientEvidence": 674,
-  "unreviewedDirectionCount": 1284,
-  "summedCategoryIdentityGap": 94,
+  "totalRecords": 727,
+  "structurallyEligible": 102,
+  "documentaryEligible": 55,
+  "insufficientEvidence": 672,
+  "unreviewedDirectionCount": 1275,
+  "summedCategoryIdentityGap": 86,
   "categories": [
     {
       "category": "country",
@@ -76,35 +76,35 @@
     {
       "category": "historical-country",
       "target": 150,
-      "records": 131,
-      "structurallyEligible": 8,
-      "documentaryEligible": 8,
-      "insufficientEvidence": 123,
-      "missingIdentitiesBeforeSemanticReview": 19,
+      "records": 133,
+      "structurallyEligible": 11,
+      "documentaryEligible": 11,
+      "insufficientEvidence": 122,
+      "missingIdentitiesBeforeSemanticReview": 17,
       "preservedExcess": 0,
-      "missingEligibleToTarget": 142
+      "missingEligibleToTarget": 139
     },
     {
       "category": "public-figure",
       "target": 150,
-      "records": 108,
-      "structurallyEligible": 22,
-      "documentaryEligible": 6,
+      "records": 111,
+      "structurallyEligible": 25,
+      "documentaryEligible": 9,
       "insufficientEvidence": 102,
-      "missingIdentitiesBeforeSemanticReview": 42,
+      "missingIdentitiesBeforeSemanticReview": 39,
       "preservedExcess": 0,
-      "missingEligibleToTarget": 144
+      "missingEligibleToTarget": 141
     },
     {
       "category": "historical-figure",
       "target": 150,
-      "records": 117,
-      "structurallyEligible": 29,
-      "documentaryEligible": 17,
-      "insufficientEvidence": 100,
-      "missingIdentitiesBeforeSemanticReview": 33,
+      "records": 120,
+      "structurallyEligible": 33,
+      "documentaryEligible": 21,
+      "insufficientEvidence": 99,
+      "missingIdentitiesBeforeSemanticReview": 30,
       "preservedExcess": 0,
-      "missingEligibleToTarget": 133
+      "missingEligibleToTarget": 129
     },
     {
       "category": "ideology",
@@ -9508,35 +9508,40 @@
       "aliases": [],
       "kind": "person",
       "category": "historical-figure",
-      "period": "Autobiografia, discursos e governo de Gana, 1945–1966",
-      "structurallyEligible": false,
-      "documentaryEligible": false,
-      "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep",
-        "int",
-        "eco",
-        "con"
-      ],
+      "period": "Declarações de Africa Must Unite, 1963: Gana e projeto de União Africana",
+      "structurallyEligible": true,
+      "documentaryEligible": true,
+      "reviewStatus": "located-coding-present-not-truth-certified",
+      "unreviewedDirectionalAxes": [],
       "mappedAxes": [
         "est",
         "rep",
+        "dip",
         "int",
         "eco",
         "con"
       ],
-      "documentedAxes": [],
+      "documentedAxes": [
+        "est",
+        "rep",
+        "dip",
+        "int",
+        "eco",
+        "con"
+      ],
       "directionalAxes": [
         "est",
         "rep",
+        "dip",
         "int",
         "eco",
         "con"
       ],
-      "sourceCount": 1,
+      "sourceCount": 3,
       "sourceUrls": [
-        "https://archive.org/details/africamustunite0000nkrum"
+        "https://archive.org/details/africamustunite0000nkrum",
+        "https://www.marxists.org/subject/africa/nkrumah/1963/africa-must-unite.pdf",
+        "https://knmp.gov.gh/new/biography-of-osagyefo-dr-kwame-nkrumah/"
       ]
     },
     {
@@ -12433,33 +12438,41 @@
       "aliases": [],
       "kind": "country",
       "category": "historical-country",
-      "period": "República parlamentar do pós-guerra, 1948–1992",
-      "structurallyEligible": false,
-      "documentaryEligible": false,
-      "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "rep",
-        "eco",
-        "con",
-        "mor"
-      ],
+      "period": "República parlamentar do pós-guerra1948–1992; recorte codificado: norma original27/12/1947 vigente01/01/1948, não versões posteriores",
+      "structurallyEligible": true,
+      "documentaryEligible": true,
+      "reviewStatus": "located-coding-present-not-truth-certified",
+      "unreviewedDirectionalAxes": [],
       "mappedAxes": [
+        "est",
         "rep",
-        "eco",
-        "con",
+        "pod",
+        "dip",
+        "rel",
         "mor"
       ],
-      "documentedAxes": [],
+      "documentedAxes": [
+        "est",
+        "rep",
+        "pod",
+        "dip",
+        "rel",
+        "mor"
+      ],
       "directionalAxes": [
+        "est",
         "rep",
-        "eco",
-        "con",
+        "pod",
+        "dip",
+        "rel",
         "mor"
       ],
-      "sourceCount": 2,
+      "sourceCount": 4,
       "sourceUrls": [
         "https://www.senato.it/istituzione/la-costituzione",
-        "https://storia.camera.it/istituzione/assemblea-costituente"
+        "https://storia.camera.it/istituzione/assemblea-costituente",
+        "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=047U0001&atto.dataPubblicazioneGazzetta=1947-12-27&tipoSerie=serie_generale&tipoVigenza=originario",
+        "https://press.vatican.va/roman_curia/secretariat_state/archivio/documents/rc_seg-st_19290211_patti-lateranensi_it.html"
       ]
     },
     {
@@ -22093,6 +22106,386 @@
         "https://theanarchistlibrary.org/library/john-zerzan-future-primitive",
         "https://www.johnzerzan.net/articles/disinfo.html",
         "https://johnzerzan.net/books/"
+      ]
+    },
+    {
+      "id": "portugal-revolution-council-1976",
+      "name": "Portugal — ordem constitucional com Conselho da Revolução",
+      "aliases": [
+        "Portugal — transição constitucional militar-civil1976–1982"
+      ],
+      "kind": "country",
+      "category": "historical-country",
+      "period": "25/04/1976–30/10/1982; normas originais aprovadas02/04/1976",
+      "structurallyEligible": true,
+      "documentaryEligible": true,
+      "reviewStatus": "located-coding-present-not-truth-certified",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "est",
+        "rep",
+        "pod",
+        "eco",
+        "con",
+        "rel",
+        "mor"
+      ],
+      "documentedAxes": [
+        "est",
+        "rep",
+        "pod",
+        "eco",
+        "con",
+        "rel",
+        "mor"
+      ],
+      "directionalAxes": [
+        "est",
+        "rep",
+        "pod",
+        "eco",
+        "con",
+        "rel",
+        "mor"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.parlamento.pt/Parlamento/Documents/CRP1976.pdf",
+        "https://diariodarepublica.pt/dr/detalhe/lei-constitucional/1-1982-375254"
+      ]
+    },
+    {
+      "id": "argentina-first-peron-administration-1946",
+      "name": "Argentina — primeira administração peronista1946–1955",
+      "aliases": [
+        "Argentina — primeiro peronismo1946–1955"
+      ],
+      "kind": "country",
+      "category": "historical-country",
+      "period": "04/06/1946–ruptura política19/09/1955; recorte normativo11/03/1949",
+      "structurallyEligible": true,
+      "documentaryEligible": true,
+      "reviewStatus": "located-coding-present-not-truth-certified",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "est",
+        "rep",
+        "pod",
+        "eco",
+        "con",
+        "rel"
+      ],
+      "documentedAxes": [
+        "est",
+        "rep",
+        "pod",
+        "eco",
+        "con",
+        "rel"
+      ],
+      "directionalAxes": [
+        "est",
+        "rep",
+        "pod",
+        "eco",
+        "con",
+        "rel"
+      ],
+      "sourceCount": 3,
+      "sourceUrls": [
+        "https://elhistoriador.com.ar/constitucion-de-la-nacion-argentina-1949/",
+        "https://www.casarosada.gob.ar/la-casa-rosada/bustos-presidenciales/50907-juan-domingo-peron-1895-1974",
+        "https://history.state.gov/historicaldocuments/frus1955-57v07/d192"
+      ]
+    },
+    {
+      "id": "yolanda-diaz",
+      "name": "Yolanda Díaz",
+      "aliases": [
+        "Yolanda Diaz"
+      ],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "Programa coletivo pessoalmente adotado06/07/2023; identidade ativa22/09/2026",
+      "structurallyEligible": true,
+      "documentaryEligible": true,
+      "reviewStatus": "located-coding-present-not-truth-certified",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "rep",
+        "pod",
+        "imi",
+        "eco",
+        "con",
+        "mor",
+        "tec"
+      ],
+      "documentedAxes": [
+        "rep",
+        "pod",
+        "imi",
+        "eco",
+        "con",
+        "mor",
+        "tec"
+      ],
+      "directionalAxes": [
+        "rep",
+        "pod",
+        "imi",
+        "eco",
+        "con",
+        "mor",
+        "tec"
+      ],
+      "sourceCount": 5,
+      "sourceUrls": [
+        "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+        "https://www.noticiastrabajo.es/politica/yolanda-diaz-promete-subir-smi-pensiones-minimas-no-contributivas-encima-inflacion/",
+        "https://beteve.cat/politica/programa-sumar-eleccions-generals-2023/",
+        "https://img.beteve.cat/wp-content/uploads/2023/07/programa-sumar-eleccions-generals-2023-190723.pdf",
+        "https://efe.com/economia/2026-09-22/elecciones-oit-entrevista-candidata-yolanda-diaz/"
+      ]
+    },
+    {
+      "id": "jo-swinson",
+      "name": "Jo Swinson",
+      "aliases": [
+        "Joanne Swinson",
+        "Joanne Kate Swinson"
+      ],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "Manifesto coletivo pessoalmente adotado, novembro2019 versão1.2; atividade23/06/2026",
+      "structurallyEligible": true,
+      "documentaryEligible": true,
+      "reviewStatus": "located-coding-present-not-truth-certified",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "est",
+        "rep",
+        "pod",
+        "dip",
+        "int",
+        "mor",
+        "tec"
+      ],
+      "documentedAxes": [
+        "est",
+        "rep",
+        "pod",
+        "dip",
+        "int",
+        "mor",
+        "tec"
+      ],
+      "directionalAxes": [
+        "est",
+        "rep",
+        "pod",
+        "dip",
+        "int",
+        "mor",
+        "tec"
+      ],
+      "sourceCount": 3,
+      "sourceUrls": [
+        "https://www.libdems.org.uk/fileadmin/groups/2_Federal_Party/Documents/PolicyPapers/2019_General_Election_Manifesto__2019__Stop_Brexit_and_Build_a_Brighter_Future.pdf",
+        "https://p4ne.org/stories/new-economy-summer-drinks/",
+        "https://www.parliament.uk/site-information/freedom-of-information/information-we-already-publish/house-of-commons-publication-scheme/security-and-access/parliamentary-passes-for-former-mps/parliamentary-passes-list-april-2026/"
+      ]
+    },
+    {
+      "id": "marina-silva",
+      "name": "Marina Silva",
+      "aliases": [
+        "Maria Osmarina Marina Silva Vaz de Lima",
+        "Maria Osmarina da Silva"
+      ],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "Programa coletivo pessoalmente apresentado2018; declaração própria16/08/2018; atividade23/03/2026",
+      "structurallyEligible": true,
+      "documentaryEligible": true,
+      "reviewStatus": "located-coding-present-not-truth-certified",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "rep",
+        "imi",
+        "dip",
+        "int",
+        "com",
+        "rel",
+        "mor",
+        "tec"
+      ],
+      "documentedAxes": [
+        "rep",
+        "imi",
+        "dip",
+        "int",
+        "com",
+        "rel",
+        "mor",
+        "tec"
+      ],
+      "directionalAxes": [
+        "rep",
+        "imi",
+        "dip",
+        "int",
+        "com",
+        "rel",
+        "mor",
+        "tec"
+      ],
+      "sourceCount": 3,
+      "sourceUrls": [
+        "https://marinasilva.org.br/wp-content/uploads/2018/08/MS18-Diretrizes-Marina-Edu.pdf",
+        "https://www1.folha.uol.com.br/poder/2018/08/marina-silva-mira-mulheres-e-fala-de-saude-e-igreja-em-estreia-na-rua.shtml",
+        "https://enb.iisd.org/conference-parties-convention-migratory-species-wild-animals-cms-cop15-23mar2026"
+      ]
+    },
+    {
+      "id": "nikolai-bukharin",
+      "name": "Nikolai Bukharin",
+      "aliases": [
+        "Nikolai Ivanovich Bukharin",
+        "Nicolai Bukharin",
+        "Nikolai Boukharine"
+      ],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "Programa próprio de maio1918, tradução inglesa publicada1920",
+      "structurallyEligible": true,
+      "documentaryEligible": true,
+      "reviewStatus": "located-coding-present-not-truth-certified",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "pod",
+        "dip",
+        "int",
+        "eco",
+        "con",
+        "rel"
+      ],
+      "documentedAxes": [
+        "pod",
+        "dip",
+        "int",
+        "eco",
+        "con",
+        "rel"
+      ],
+      "directionalAxes": [
+        "pod",
+        "dip",
+        "int",
+        "eco",
+        "con",
+        "rel"
+      ],
+      "sourceCount": 10,
+      "sourceUrls": [
+        "https://www.marxists.org/archive/bukharin/works/1918/worldrev/index.html",
+        "https://www.marxists.org/archive/bukharin/works/1918/worldrev/ch07.html",
+        "https://www.marxists.org/archive/bukharin/works/1918/worldrev/ch11.html",
+        "https://www.marxists.org/archive/bukharin/works/1918/worldrev/ch13.html",
+        "https://www.marxists.org/archive/bukharin/works/1918/worldrev/ch17.html",
+        "https://www.marxists.org/archive/bukharin/works/1918/worldrev/ch19.html",
+        "https://www.marxists.org/archive/bukharin/works/1918/worldrev/ch18.html",
+        "https://www.marxists.org/archive/bukharin/works/1918/worldrev/ch06.html",
+        "https://www.marxists.org/archive/bukharin/works/1918/worldrev/ch16.html",
+        "https://letopis.msu.ru/peoples/7160"
+      ]
+    },
+    {
+      "id": "warren-g-harding",
+      "name": "Warren G. Harding",
+      "aliases": [
+        "Warren Harding",
+        "Warren Gamaliel Harding"
+      ],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "Programa próprio de posse4/3/1921",
+      "structurallyEligible": true,
+      "documentaryEligible": true,
+      "reviewStatus": "located-coding-present-not-truth-certified",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "rep",
+        "pod",
+        "dip",
+        "int",
+        "eco",
+        "com"
+      ],
+      "documentedAxes": [
+        "rep",
+        "pod",
+        "dip",
+        "int",
+        "eco",
+        "com"
+      ],
+      "directionalAxes": [
+        "rep",
+        "pod",
+        "dip",
+        "int",
+        "eco",
+        "com"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://millercenter.org/the-presidency/presidential-speeches/march-4-1921-inaugural-address",
+        "https://millercenter.org/president/harding"
+      ]
+    },
+    {
+      "id": "august-bebel",
+      "name": "August Bebel",
+      "aliases": [],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "Woman and Socialism, programa futuro na edição revista/tradução1910",
+      "structurallyEligible": true,
+      "documentaryEligible": true,
+      "reviewStatus": "located-coding-present-not-truth-certified",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "rep",
+        "eco",
+        "con",
+        "rel",
+        "mor",
+        "tec"
+      ],
+      "documentedAxes": [
+        "rep",
+        "eco",
+        "con",
+        "rel",
+        "mor",
+        "tec"
+      ],
+      "directionalAxes": [
+        "rep",
+        "eco",
+        "con",
+        "rel",
+        "mor",
+        "tec"
+      ],
+      "sourceCount": 6,
+      "sourceUrls": [
+        "https://www.marxists.org/archive/bebel/1879/woman-socialism/index.htm",
+        "https://www.marxists.org/archive/bebel/1879/woman-socialism/ch21.htm",
+        "https://www.marxists.org/archive/bebel/1879/woman-socialism/ch23.htm",
+        "https://www.marxists.org/archive/bebel/1879/woman-socialism/ch24.htm",
+        "https://www.marxists.org/archive/bebel/1879/woman-socialism/ch28.htm",
+        "https://www.dhm.de/lemo/biografie/august-bebel"
       ]
     },
     {
