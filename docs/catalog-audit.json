@@ -34,8 +34,8 @@
     ],
     "provenance": "Executed before local data corrections in this recovery checkpoint; not recomputed from unavailable prior Library checkpoint."
   },
-  "headCommitAtAudit": "9097b563c045483bba67cb0dd697bde3a3dc9545",
-  "integratedCatalogSha256": "4e0514367c96688c1898f693a41f16f0374093bf5c4233caea973ea8b5175222",
+  "headCommitAtAudit": "1d472472b5136799544f5b61d37293f57e7925be",
+  "integratedCatalogSha256": "c8e2f904b37fd054bb427222b3e08c4302bfaa6c404825b8ee49c1251e3fb904",
   "scope": "Integrated working-tree catalog after preparation; fixed remote baseline and current HEAD are provenance, not immutable copies of modified files.",
   "evidenceGate": {
     "minimumAxes": 6,
@@ -55,12 +55,12 @@
     "Unreviewed directional axes are preserved archival estimates, excluded from ranking; absent located coding does not establish that their direction is false. Prior snapshots preserve available original estimates."
   ],
   "totalTarget": 675,
-  "totalRecords": 677,
-  "structurallyEligible": 67,
-  "documentaryEligible": 16,
-  "insufficientEvidence": 661,
-  "unreviewedDirectionCount": 1345,
-  "summedCategoryIdentityGap": 129,
+  "totalRecords": 684,
+  "structurallyEligible": 71,
+  "documentaryEligible": 20,
+  "insufficientEvidence": 664,
+  "unreviewedDirectionCount": 1340,
+  "summedCategoryIdentityGap": 122,
   "categories": [
     {
       "category": "country",
@@ -76,35 +76,35 @@
     {
       "category": "historical-country",
       "target": 150,
-      "records": 122,
-      "structurallyEligible": 0,
-      "documentaryEligible": 0,
-      "insufficientEvidence": 122,
-      "missingIdentitiesBeforeSemanticReview": 28,
+      "records": 125,
+      "structurallyEligible": 2,
+      "documentaryEligible": 2,
+      "insufficientEvidence": 123,
+      "missingIdentitiesBeforeSemanticReview": 25,
       "preservedExcess": 0,
-      "missingEligibleToTarget": 150
+      "missingEligibleToTarget": 148
     },
     {
       "category": "public-figure",
       "target": 150,
-      "records": 95,
-      "structurallyEligible": 17,
-      "documentaryEligible": 0,
-      "insufficientEvidence": 95,
-      "missingIdentitiesBeforeSemanticReview": 55,
+      "records": 97,
+      "structurallyEligible": 18,
+      "documentaryEligible": 1,
+      "insufficientEvidence": 96,
+      "missingIdentitiesBeforeSemanticReview": 53,
       "preservedExcess": 0,
-      "missingEligibleToTarget": 150
+      "missingEligibleToTarget": 149
     },
     {
       "category": "historical-figure",
       "target": 150,
-      "records": 104,
-      "structurallyEligible": 20,
-      "documentaryEligible": 5,
-      "insufficientEvidence": 99,
-      "missingIdentitiesBeforeSemanticReview": 46,
+      "records": 106,
+      "structurallyEligible": 21,
+      "documentaryEligible": 6,
+      "insufficientEvidence": 100,
+      "missingIdentitiesBeforeSemanticReview": 44,
       "preservedExcess": 0,
-      "missingEligibleToTarget": 145
+      "missingEligibleToTarget": 144
     },
     {
       "category": "ideology",
@@ -1921,28 +1921,34 @@
       "aliases": [],
       "kind": "country",
       "category": "historical-country",
-      "period": "Constituição de 1974 e período Tito, 1974–1980; recorte codificado: Desenho constitucional de 1974 no recorte Tito, 1974–1980.",
-      "structurallyEligible": false,
-      "documentaryEligible": false,
-      "reviewStatus": "insufficient-located-coding",
+      "period": "Constituição de 1974 e período Tito, 1974–1980; recorte codificado: Desenho constitucional de 1974 no recorte Tito, 1974–1980.; recorte adicional: Direitos linguísticos e separação religiosa na carta1974, dentro do recorte Tito1974–1980.",
+      "structurallyEligible": true,
+      "documentaryEligible": true,
+      "reviewStatus": "located-coding-present-not-truth-certified",
       "unreviewedDirectionalAxes": [],
       "mappedAxes": [
         "est",
         "rep",
+        "imi",
         "eco",
-        "con"
+        "con",
+        "rel"
       ],
       "documentedAxes": [
         "est",
         "rep",
+        "imi",
         "eco",
-        "con"
+        "con",
+        "rel"
       ],
       "directionalAxes": [
         "est",
         "rep",
+        "imi",
         "eco",
-        "con"
+        "con",
+        "rel"
       ],
       "sourceCount": 3,
       "sourceUrls": [
@@ -12582,36 +12588,40 @@
       "aliases": [],
       "kind": "country",
       "category": "historical-country",
-      "period": "República, 1931–1939",
-      "structurallyEligible": false,
-      "documentaryEligible": false,
-      "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "rep",
-        "eco",
-        "con",
-        "rel",
-        "mor"
-      ],
+      "period": "República, 1931–1939; recorte adicional: Desenho da carta fundadora1931, antes das alterações e da Guerra Civil; não prática homogênea1931–1939.",
+      "structurallyEligible": true,
+      "documentaryEligible": true,
+      "reviewStatus": "located-coding-present-not-truth-certified",
+      "unreviewedDirectionalAxes": [],
       "mappedAxes": [
+        "est",
         "rep",
-        "eco",
-        "con",
+        "pod",
+        "dip",
         "rel",
         "mor"
       ],
-      "documentedAxes": [],
+      "documentedAxes": [
+        "est",
+        "rep",
+        "pod",
+        "dip",
+        "rel",
+        "mor"
+      ],
       "directionalAxes": [
+        "est",
         "rep",
-        "eco",
-        "con",
+        "pod",
+        "dip",
         "rel",
         "mor"
       ],
-      "sourceCount": 2,
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.boe.es/gazeta/dias/1931/12/09/pdfs/D00001-00014.pdf",
-        "https://www.congreso.es/cem/const1931"
+        "https://www.congreso.es/cem/const1931",
+        "https://www.cervantesvirtual.com/obra-visor/constitucion-de-la-republica-espanola-de-9-de-diciembre-1931/html/eb011790-baf1-4bac-b9bd-b50f042667ad_2.html"
       ]
     },
     {
@@ -16974,7 +16984,7 @@
       ],
       "kind": "country",
       "category": "historical-country",
-      "period": "Carta socialista unitária, 1960–1968; federalização em vigor em 1º de janeiro de 1969",
+      "period": "Carta socialista unitária, 1960–1968; federalização em vigor em 1º de janeiro de 1969; recorte adicional: Educação, cultura e religião na norma original1960, no recorte unitário1960–1968.",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
@@ -16982,18 +16992,21 @@
       "mappedAxes": [
         "est",
         "rep",
+        "imi",
         "eco",
         "con"
       ],
       "documentedAxes": [
         "est",
         "rep",
+        "imi",
         "eco",
         "con"
       ],
       "directionalAxes": [
         "est",
         "rep",
+        "imi",
         "eco",
         "con"
       ],
@@ -21148,6 +21161,288 @@
       "sourceUrls": [
         "https://www.crmvet.org/docs/640720_mfdp_letter.pdf",
         "https://snccdigital.org/people/ella-baker/"
+      ]
+    },
+    {
+      "id": "venezuela-first-republic-1811",
+      "name": "Venezuela — Primeira República federal",
+      "aliases": [
+        "Confederação Americana de Venezuela1811",
+        "Primeira República venezuelana"
+      ],
+      "kind": "country",
+      "category": "historical-country",
+      "period": "Independência5/7/1811–capitulação1812; recorte normativo da carta21/12/1811",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "est",
+        "pod",
+        "imi",
+        "rel"
+      ],
+      "documentedAxes": [
+        "est",
+        "pod",
+        "imi",
+        "rel"
+      ],
+      "directionalAxes": [
+        "est",
+        "pod",
+        "imi",
+        "rel"
+      ],
+      "sourceCount": 6,
+      "sourceUrls": [
+        "https://es.wikisource.org/wiki/Constituci%C3%B3n_Federal_para_los_Estados_de_Venezuela_(1811)/Preliminar",
+        "https://es.wikisource.org/wiki/Constituci%C3%B3n_Federal_para_los_Estados_de_Venezuela_(1811)/I",
+        "https://es.wikisource.org/wiki/Constituci%C3%B3n_Federal_para_los_Estados_de_Venezuela_(1811)/VIII",
+        "https://cervantesvirtual.com/obra-visor/acta-de-independencia-5-de-julio-1811-0/html/84c4bf1a-ca2c-49bd-9364-df0e6daf94aa_2.html",
+        "https://mppre.gob.ve/index.php/publicacion/1439-0",
+        "https://bibliofep.fundacionempresaspolar.org/dhv/entradas/c/capitulacion-de-san-mateo/"
+      ]
+    },
+    {
+      "id": "ecuador-founder-order-1830",
+      "name": "Equador — ordem republicana fundadora",
+      "aliases": [
+        "Estado do Equador1830",
+        "Floreanismo e Rocafuerte1830–1845"
+      ],
+      "kind": "country",
+      "category": "historical-country",
+      "period": "Estado independente1830–ruptura Marcista1845; recorte normativo da carta23/9/1830",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "est",
+        "pod",
+        "rel"
+      ],
+      "documentedAxes": [
+        "est",
+        "pod",
+        "rel"
+      ],
+      "directionalAxes": [
+        "est",
+        "pod",
+        "rel"
+      ],
+      "sourceCount": 3,
+      "sourceUrls": [
+        "https://www.cervantesvirtual.com/portales/constituciones_hispanoamericanas/obra-visor/constitucion-del-estado-de-ecuador-el-23-de-septiembre-1830/html/aa8ba890-5963-4b69-9518-d6e81ff211b7_2.html",
+        "https://www.asambleanacional.gob.ec/es/publicacion/65748-constitucion-del-estado-del-ecuador-1830",
+        "https://guayaquil.gob.ec/simbolo-historia-ecuador-brilla-hilos-dorados-plateados/"
+      ]
+    },
+    {
+      "id": "chile-liberal-order-1828",
+      "name": "Chile — ordem liberal anterior a Lircay",
+      "aliases": [
+        "Chilepipiolo1828",
+        "Carta liberalchilena1828"
+      ],
+      "kind": "country",
+      "category": "historical-country",
+      "period": "Carta8/8/1828–ruptura da guerra civil1829–1830; vigência formal permanece até25/5/1833",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "est",
+        "rep",
+        "pod",
+        "rel"
+      ],
+      "documentedAxes": [
+        "est",
+        "rep",
+        "pod",
+        "rel"
+      ],
+      "directionalAxes": [
+        "est",
+        "rep",
+        "pod",
+        "rel"
+      ],
+      "sourceCount": 3,
+      "sourceUrls": [
+        "https://www.cervantesvirtual.com/obra-visor/constitucion-politica-del-estado-de-chile--promulgada-el-8-de-septiembre-de-1828/html/f0c8b948-9f73-4a3e-8fb4-be39cda67642_2.html",
+        "https://www.bcn.cl/historiapolitica/constituciones/detalle_constitucion?handle=10221.1/18432",
+        "https://www.memoriachilena.gob.cl/602/w3-article-92157.html"
+      ]
+    },
+    {
+      "id": "friedrich-merz",
+      "name": "Friedrich Merz",
+      "aliases": [],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "Declarações próprias14/05/2025 e23/06/2026",
+      "structurallyEligible": true,
+      "documentaryEligible": true,
+      "reviewStatus": "located-coding-present-not-truth-certified",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "rep",
+        "imi",
+        "dip",
+        "con",
+        "com",
+        "tec"
+      ],
+      "documentedAxes": [
+        "rep",
+        "imi",
+        "dip",
+        "con",
+        "com",
+        "tec"
+      ],
+      "directionalAxes": [
+        "rep",
+        "imi",
+        "dip",
+        "con",
+        "com",
+        "tec"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.bundesregierung.de/breg-de/suche/regierungserklaerung-von-bundeskanzler-friedrich-merz-2347888",
+        "https://www.bundesregierung.de/breg-de/aktuelles/kanzler-tag-der-industrie-2444560"
+      ]
+    },
+    {
+      "id": "peter-obi",
+      "name": "Peter Obi",
+      "aliases": [
+        "Peter Gregory Onwubuasi Obi",
+        "Peter Gregory Obi"
+      ],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "Programa eleitoral2023 endossado pessoalmente; atividade publicada21/08/2026, sem atualizar automaticamente posições",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "est",
+        "rep",
+        "tec"
+      ],
+      "documentedAxes": [
+        "est",
+        "rep",
+        "tec"
+      ],
+      "directionalAxes": [
+        "est",
+        "rep",
+        "tec"
+      ],
+      "sourceCount": 4,
+      "sourceUrls": [
+        "https://elections.civichive.org/wp-content/uploads/2022/12/Peter-Obi-2023-Presidential-Manifesto.pdf",
+        "https://www.linkedin.com/posts/peterobigregory_my-address-to-mark-the-commencement-of-the-activity-7496525769259544576-Tbdw",
+        "https://www.cfr.org/articles/the-political-education-of-peter-obi",
+        "https://www.linkedin.com/posts/peterobigregory_nigeria-is-bleeding-from-within-it-is-deeply-share-7451264087566594048-dQBO/"
+      ]
+    },
+    {
+      "id": "na-thomas-jefferson",
+      "name": "Thomas Jefferson",
+      "aliases": [],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "Discursos inaugurais1801/1805 e carta Danbury1802",
+      "structurallyEligible": true,
+      "documentaryEligible": true,
+      "reviewStatus": "located-coding-present-not-truth-certified",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "est",
+        "rep",
+        "pod",
+        "dip",
+        "int",
+        "con",
+        "rel"
+      ],
+      "documentedAxes": [
+        "est",
+        "rep",
+        "pod",
+        "dip",
+        "int",
+        "con",
+        "rel"
+      ],
+      "directionalAxes": [
+        "est",
+        "rep",
+        "pod",
+        "dip",
+        "int",
+        "con",
+        "rel"
+      ],
+      "sourceCount": 5,
+      "sourceUrls": [
+        "https://www.presidency.ucsb.edu/documents/inaugural-address-19",
+        "https://avalon.law.yale.edu/19th_century/jefinau1.asp",
+        "https://avalon.law.yale.edu/19th_century/jefinau2.asp",
+        "https://www.loc.gov/loc/lcib/9806/danpre.html",
+        "https://www.monticello.org/biography-of-jefferson"
+      ]
+    },
+    {
+      "id": "na-george-washington",
+      "name": "George Washington",
+      "aliases": [],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "Farewell Address,1796",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "rep",
+        "dip",
+        "int",
+        "com",
+        "rel"
+      ],
+      "documentedAxes": [
+        "rep",
+        "dip",
+        "int",
+        "com",
+        "rel"
+      ],
+      "directionalAxes": [
+        "rep",
+        "dip",
+        "int",
+        "com",
+        "rel"
+      ],
+      "sourceCount": 4,
+      "sourceUrls": [
+        "https://www.presidency.ucsb.edu/documents/inaugural-address-16",
+        "https://avalon.law.yale.edu/18th_century/washing.asp",
+        "https://www.mountvernon.org/george-washington/biography",
+        "https://www.mountvernon.org/george-washington/death"
       ]
     },
     {

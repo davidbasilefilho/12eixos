@@ -43,6 +43,10 @@ import { historicalFigureBatch06 } from './reference-historical-figure-batch-06'
 import { reconcileLegacyPublicQuality01 } from './reference-legacy-public-quality-01';
 import { reconcileLegacyHistoricalQuality01 } from './reference-legacy-historical-quality-01';
 import { reviewCurrentCountryEconomicScope } from './reference-current-country-scope-review';
+import { historicalCountryBatch08 } from './reference-historical-country-batch-08';
+import { publicFigureBatch07 } from './reference-public-figure-batch-07';
+import { historicalFigureBatch07 } from './reference-historical-figure-batch-07';
+import { extendHistoricalCountryCoverage08 } from './reference-historical-country-coverage-08';
 
 export const AXIS_KEYS = ['est', 'rep', 'pod', 'imi', 'dip', 'int', 'eco', 'con', 'com', 'rel', 'mor', 'tec'] as const;
 export type AxisKey = (typeof AXIS_KEYS)[number];
@@ -560,6 +564,9 @@ export const referenceExpansionEntries: ReferenceEntry[] = [
   ...publicFigureBatch06,
   ...historicalCountryBatch07,
   ...historicalFigureBatch06,
+  ...historicalCountryBatch08,
+  ...publicFigureBatch07,
+  ...historicalFigureBatch07,
   ...currentCountryBatch.map(entry => ({ ...entry, coding: currentCountryBatchCoding[entry.id] })),
 ].map(prepareExpansionEntry);
 
@@ -567,4 +574,4 @@ export const referenceEntries: ReferenceEntry[] = [
   ...correctedBaseReferenceEntries,
   ...referenceExpansionEntries,
 ].map(reconcileHistoricalCountry03).map(reconcileCurrentCountry04).map(extendCurrentCountryCoverage05).map(reconcileHistoricalCountry04).map(reconcileSoros)
-  .map(entry => historicalLegacyRecoding.find(replacement => replacement.id === entry.id) ?? entry).map(withIdentityAliases).map(reconcileLegacyPublicQuality01).map(reconcileLegacyHistoricalQuality01).map(reviewCurrentCountryEconomicScope);
+  .map(entry => historicalLegacyRecoding.find(replacement => replacement.id === entry.id) ?? entry).map(withIdentityAliases).map(reconcileLegacyPublicQuality01).map(reconcileLegacyHistoricalQuality01).map(reviewCurrentCountryEconomicScope).map(extendHistoricalCountryCoverage08);
