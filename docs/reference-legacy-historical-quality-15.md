@@ -1,6 +1,6 @@
 # Historical quality15 — rationale-only correction
 
-Unimported proposal, pending independent literal review and Root judgment. The prior all150 description alignment claim was too broad. Exactly25 named generic blurbs plus John Adams have description gaps; **124 verified/26 pending**, while all150 body and deceased-identity findings remain unchanged. 150−25 is125; no invented further gaps to report120.
+Historical preparation status (superseded by committed integration below): unimported proposal, pending independent literal review and Root judgment. The prior all150 description alignment claim was too broad. Exactly25 named generic blurbs plus John Adams have description gaps; **124 verified/26 pending**, while all150 body and deceased-identity findings remain unchanged. 150−25 is125; no invented further gaps to report120.
 
 The complete26 runtime objects are archived in `legacyHistoricalQuality15OriginalRecords`; the reconciler uses exact whole-object JSON equality and changes only `rationale`. Sources, codes, scores, maps, caveats, periods, aliases, category and IDs remain byte-equivalent in structural serialization. Changed later objects are returned unchanged. No imports, Git or publication.
 
@@ -42,3 +42,8 @@ Independent literal review: `/root/method_review` reviewed all26 proposed summar
 Bounded preservation verification:26 actual runtime baselines,130 checks; only rationale differs; changed whole objects and repeat applications return unchanged; all source/score/date/coding fields preserved. See external validation JSON. No full test/build or browser claims by this author.
 
 Integrated by repair and committed by Root at `bab3e56e151a02a3d83aad813da9c3dc7dd230d5`. Author actual all150 committed runtime comparison passed: exact prior47c8 objects with only the26 accepted rationale replacements;124 unchanged, no other field changes. Repair preservation and Magónrender evidence is separately attributed above. Current description audit150 verified; prior26gap correction stays archived.
+
+
+## Current subsequent checkpoint proof
+
+The26 description repairs remain committed atbab3e56 and unchanged in the accepted99 existing-record workingtree checkpoint based34c92e9. Final99 checks:36 tests pass,0fail,107807 assertions; TypeScript/build pass; preservation3115 checks proves99 accepted changes and719 unchanged fullrecords, raw818 retained. Actual150 historical-figure description closure is separate from the historical-country150 owner adjudication and from six-axis matching. See `/workspace/12eixos-deliverables/validation/inventory818-06-summary.json` and the exact commit allowlist; no further quality15 product edit was introduced.
