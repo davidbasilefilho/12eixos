@@ -3,14 +3,14 @@
  */
 export const ideologySelectionSnapshot = {
   "date": "2026-10-08",
-  "catalogCount": 213,
+  "catalogCount": 214,
   "intendedSubsetCount": 75,
   "readyForDefaultUse": false,
-  "boundedReviewedReferents": 61,
-  "referentCountScope": "61 located normative primary referents after accepted import; source location is not six-axis qualification or all75 independence.",
-  "boundedTwoSidedContrasts": 43,
+  "boundedReviewedReferents": 62,
+  "referentCountScope": "62 located normative primary referents in integrated ledger; documentary location is not six-axis qualification or all75 independence.",
+  "boundedTwoSidedContrasts": 44,
   "preservedOriginalCatalogCount": 206,
-  "partitionCountScope": "Integrated ledger213 =75 selected +138 alternatives. All206 originals and original75 snapshot preserved; full75 independence remains unverified.",
+  "partitionCountScope": "Integrated catalog214 =75 selected +139 alternatives. All206 originals and original75 snapshot preserved.",
   "pendingCatalogIds": [],
   "independent75Verified": false
 } as const;
@@ -1393,6 +1393,14 @@ export const ideologySelectionSources = [
     "locator": "Own books inventory 8–24; Future Primitive 1994 entry 19–20 depending retrieval.",
     "supports": "Confirma publicação da coletânea 1994; não prova equivalência textual com edição 2012 nem sustenta eixo.",
     "readAt": "2026-10-08"
+  },
+  {
+    "id": "ezln-signed-state-autonomy-1996",
+    "title": "EZLN signed regional-autonomy programme, 15 February 1996",
+    "url": "https://enlacezapatista.ezln.org.mx/1996/02/15/el-dialogo-de-san-andres-y-los-derechos-y-cultura-indigena-punto-y-seguido/",
+    "locator": "Actual signed author body71–116; §81 part of State; §§83–86 own competences/shared funding; §§91–98 women autonomy.",
+    "supports": "Programa afirmativo de autoridade regional incorporada ao Estado. Não verifica implementação nem reivindicações históricas.",
+    "readAt": "2026-10-08"
   }
 ] as const;
 
@@ -1896,14 +1904,15 @@ export const intendedIdeologySelection = [
     "contrastStatus": "not-independently-verified"
   },
   {
-    "id": "ideology-indigenous-autonomy",
-    "name": "Autonomismo indígena",
+    "id": "ideology-program-zapatista-autonomy-ezln-1993-1996",
+    "name": "Autonomia zapatista: programa inicial do EZLN, 1993–1996",
     "family": "decolonial",
-    "selectionRationale": "Autonomia indígena no recorte zapatista",
-    "reviewStatus": "provisional",
-    "documentedAxisCountAtSnapshot": 0,
-    "ontologyStatus": "provisional-normative-referent",
-    "contrastStatus": "not-independently-verified"
+    "selectionRationale": "Programa de autonomia comunal, municipal e regional incorporada à estrutura estatal; contraste institucional delimitado com confederação não estatal de Öcalan.",
+    "reviewStatus": "referent-and-bounded-neighbor-contrast-reviewed",
+    "documentedAxisCountAtSnapshot": 5,
+    "ontologyStatus": "bounded-normative-programme-referent-reviewed",
+    "contrastStatus": "bounded-primary-neighbor-contrast",
+    "ontologyLimit": "Cinco eixos aceitos e sete desconhecidos: sem elegibilidade. Estrutura estatal e responsabilidades compartilhadas permanecem; diferença de status institucional não prova oposição entre todas as variantes zapatistas e confederalistas."
   },
   {
     "id": "christian-democracy",
@@ -2706,6 +2715,13 @@ export const ideologyOverlapChecks = [
     ],
     "status": "bounded-primary-contrast",
     "remaining": "Outros vizinhos ecológicos/primitivistas e independência global75 não resolvidos."
+  },
+  {
+    "a": "ideology-program-zapatista-autonomy-ezln-1993-1996",
+    "b": "ideology-democratic-confederalism",
+    "relation": "state-incorporated-autonomy-versus-separate-nonstate-confederation",
+    "rationale": "EZLN pronunciamiento assinado de 15 fevereiro 1996 §81 exige órgãos autônomos como parte do Estado; §§83–85 competências e fundos compartilhados. Öcalan 2017 H §§510–526 distingue duas entidades e rejeita assimilação ao Estado. Ambos admitem autonomia/coexistência; não implica guerra imediata nem diferença pela etnia/ano.",
+    "status": "bounded-primary-contrast"
   }
 ] as const;
 
@@ -4500,6 +4516,20 @@ export const preservedIdeologyAlternatives = [
     ],
     "documentedAxisCountAtSnapshot": 2,
     "reviewStatus": "preserved-original-not-newly-validated"
+  },
+  {
+    "id": "ideology-indigenous-autonomy",
+    "name": "Autonomismo indígena",
+    "reasonCode": "replaced-by-explicit-primary-programme",
+    "compareWith": "ideology-program-zapatista-autonomy-ezln-1993-1996",
+    "decisionRationale": "Original integral preservado; novo exemplar delimita leis e programa de 1993–1996, sem emprestar posições de 2005 nem contar duas doutrinas pelo ano.",
+    "catalogRationale": "Documentos zapatistas articulam autonomia comunitária, direitos indígenas, democracia local e resistência a políticas nacionais homogeneizadoras.",
+    "catalogSourceTitles": [
+      "First Declaration of the Lacandon Jungle — Enlace Zapatista",
+      "Second Declaration of La Realidad — Enlace Zapatista"
+    ],
+    "documentedAxisCountAtSnapshot": 0,
+    "reviewStatus": "preserved-original-not-newly-validated"
   }
 ] as const;
 
@@ -4578,6 +4608,13 @@ export const ideologyOntologySubstitutions = [
     "removedId": "ideology-left-anarcho-primitivism",
     "selectedId": "ideology-program-anarcho-primitivism-zerzan-1994-2016",
     "reason": "Único exemplar anarcoprimitivista explicitamente delimitado por ensaio e confirmação autoral; original preservado como alternativa. Não duplica doutrina por autoria/data nem transfere valores antigos.",
+    "status": "bounded-provisional-substitution-new-explicit-program",
+    "catalogRecordsDeleted": false
+  },
+  {
+    "removedId": "ideology-indigenous-autonomy",
+    "selectedId": "ideology-program-zapatista-autonomy-ezln-1993-1996",
+    "reason": "Programa normativo primário delimitado substitui recorte genérico; original completo permanece alternativa. Não cria duas doutrinas pela data.",
     "status": "bounded-provisional-substitution-new-explicit-program",
     "catalogRecordsDeleted": false
   }
@@ -4940,6 +4977,19 @@ export const ideologyOntologyReviewGroups = [
       "zerzan-own-interview-2016",
       "zerzan-own-bibliography-1994",
       "iwa-statutes-2023-ontology"
+    ],
+    "reviewedOn": "2026-10-08"
+  },
+  {
+    "id": "state-incorporated-autonomy-versus-separate-confederation",
+    "selectedIds": [
+      "ideology-program-zapatista-autonomy-ezln-1993-1996",
+      "ideology-democratic-confederalism"
+    ],
+    "status": "one-bounded-two-sided-primary-contrast",
+    "scope": "Um novo referent localizado; Estado e confederação comparados na mesma função institucional. Autonomia/coexistência compartilhadas permanecem; sem independência universal de todas as variantes. Cinco eixos EZLN, sem elegibilidade.",
+    "sourceIds": [
+      "ezln-signed-state-autonomy-1996"
     ],
     "reviewedOn": "2026-10-08"
   }

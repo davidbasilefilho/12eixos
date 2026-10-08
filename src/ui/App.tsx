@@ -7,6 +7,7 @@ import { displayAxisNames, displayAxisScore } from './axis-display'
 import { EditorialArtwork } from './editorial-artwork'
 import { EditorialSection } from './editorial-section'
 import { ReferenceThumbnail, referenceImage, countryFlagDisplaySize } from './reference-media'
+import { ReferenceEvidenceStatus } from './reference-evidence-status'
 import {
   IconArrowLeft,
   IconArrowRight,
@@ -593,7 +594,7 @@ function UnrankedReferences({ references }: { references: ReferenceEntry[] }) {
     <label className="catalog-search">Buscar nesta categoria<input type="search" value={query} onChange={event => { setQuery(event.currentTarget.value); setVisibleCount(12) }} placeholder="Nome ou período"/></label>
     <div className="unranked-list">{filtered.slice(0, visibleCount).map(reference => <details className="unranked-row" key={reference.id}>
       <summary><span>{reference.name}</span><small>{reference.period}</small><b>Fontes em {countDocumentedEvidenceAxes(reference)}/12 eixos</b><IconChevronDown size={16}/></summary>
-      <div><p>{reference.rationale}</p><p>{reference.caveats}</p><div className="source-list">{reference.sources.map(source => <a key={source.url} href={source.url} target="_blank" rel="noreferrer">{source.title}<IconExternalLink size={14}/><small>{source.note}</small></a>)}</div></div>
+      <div><ReferenceEvidenceStatus reference={reference}/><p>{reference.rationale}</p><p>{reference.caveats}</p><div className="source-list">{reference.sources.map(source => <a key={source.url} href={source.url} target="_blank" rel="noreferrer">{source.title}<IconExternalLink size={14}/><small>{source.note}</small></a>)}</div></div>
     </details>)}</div>
     {visibleCount < filtered.length && <button className="more-matches" type="button" onClick={() => setVisibleCount(count => Math.min(filtered.length, count + 24))}>Mostrar mais ({filtered.length - visibleCount} restantes)</button>}
     {filtered.length === 0 && <p role="status">Nenhuma referência encontrada.</p>}

@@ -34,8 +34,8 @@
     ],
     "provenance": "Executed before local data corrections in this recovery checkpoint; not recomputed from unavailable prior Library checkpoint."
   },
-  "headCommitAtAudit": "1a59b101f56af1ecedf544de0c14bfcdd214bd9c",
-  "integratedCatalogSha256": "eb63feac87b44dd23b425cf58ec6792703451f2becec5e2ffa6643daeeadee94",
+  "headCommitAtAudit": "4eb993b1cd16ec514de1ac8c04ec27c5806812a1",
+  "integratedCatalogSha256": "7ace5448e40d194baa6b80e6e69c1422a0d53a4d36155cb7ae44ec45fce80c5c",
   "scope": "Integrated working-tree catalog after preparation; fixed remote baseline and current HEAD are provenance, not immutable copies of modified files.",
   "evidenceGate": {
     "minimumAxes": 6,
@@ -55,12 +55,12 @@
     "Unreviewed directional axes are preserved archival estimates, excluded from ranking; absent located coding does not establish that their direction is false. Prior snapshots preserve available original estimates."
   ],
   "totalTarget": 675,
-  "totalRecords": 727,
-  "structurallyEligible": 102,
-  "documentaryEligible": 55,
-  "insufficientEvidence": 672,
+  "totalRecords": 745,
+  "structurallyEligible": 103,
+  "documentaryEligible": 56,
+  "insufficientEvidence": 689,
   "unreviewedDirectionCount": 1275,
-  "summedCategoryIdentityGap": 86,
+  "summedCategoryIdentityGap": 69,
   "categories": [
     {
       "category": "country",
@@ -76,45 +76,45 @@
     {
       "category": "historical-country",
       "target": 150,
-      "records": 133,
+      "records": 138,
       "structurallyEligible": 11,
       "documentaryEligible": 11,
-      "insufficientEvidence": 122,
-      "missingIdentitiesBeforeSemanticReview": 17,
+      "insufficientEvidence": 127,
+      "missingIdentitiesBeforeSemanticReview": 12,
       "preservedExcess": 0,
       "missingEligibleToTarget": 139
     },
     {
       "category": "public-figure",
       "target": 150,
-      "records": 111,
+      "records": 116,
       "structurallyEligible": 25,
       "documentaryEligible": 9,
-      "insufficientEvidence": 102,
-      "missingIdentitiesBeforeSemanticReview": 39,
+      "insufficientEvidence": 107,
+      "missingIdentitiesBeforeSemanticReview": 34,
       "preservedExcess": 0,
       "missingEligibleToTarget": 141
     },
     {
       "category": "historical-figure",
       "target": 150,
-      "records": 120,
-      "structurallyEligible": 33,
-      "documentaryEligible": 21,
-      "insufficientEvidence": 99,
-      "missingIdentitiesBeforeSemanticReview": 30,
+      "records": 127,
+      "structurallyEligible": 34,
+      "documentaryEligible": 22,
+      "insufficientEvidence": 105,
+      "missingIdentitiesBeforeSemanticReview": 23,
       "preservedExcess": 0,
-      "missingEligibleToTarget": 129
+      "missingEligibleToTarget": 128
     },
     {
       "category": "ideology",
       "target": 75,
-      "records": 213,
+      "records": 214,
       "structurallyEligible": 28,
       "documentaryEligible": 9,
-      "insufficientEvidence": 204,
+      "insufficientEvidence": 205,
       "missingIdentitiesBeforeSemanticReview": 0,
-      "preservedExcess": 138,
+      "preservedExcess": 139,
       "missingEligibleToTarget": 66
     }
   ],
@@ -22486,6 +22486,562 @@
         "https://www.marxists.org/archive/bebel/1879/woman-socialism/ch24.htm",
         "https://www.marxists.org/archive/bebel/1879/woman-socialism/ch28.htm",
         "https://www.dhm.de/lemo/biografie/august-bebel"
+      ]
+    },
+    {
+      "id": "robert-owen",
+      "name": "Robert Owen",
+      "aliases": [],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "Planos próprios de sociedade racional, Reply1840 e Outline1841",
+      "structurallyEligible": true,
+      "documentaryEligible": true,
+      "reviewStatus": "located-coding-present-not-truth-certified",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "est",
+        "dip",
+        "eco",
+        "con",
+        "mor",
+        "tec"
+      ],
+      "documentedAxes": [
+        "est",
+        "dip",
+        "eco",
+        "con",
+        "mor",
+        "tec"
+      ],
+      "directionalAxes": [
+        "est",
+        "dip",
+        "eco",
+        "con",
+        "mor",
+        "tec"
+      ],
+      "sourceCount": 4,
+      "sourceUrls": [
+        "https://archive.org/details/newviewofsociety00owen",
+        "https://www.marxists.org/reference/subject/economics/owen/1840-49ro/prime-minister.pdf",
+        "https://www.marxists.org/reference/subject/economics/owen/1840-49ro/outline.pdf",
+        "https://www.robertowenmuseum.co.uk/"
+      ]
+    },
+    {
+      "id": "ideology-program-zapatista-autonomy-ezln-1993-1996",
+      "name": "Autonomia zapatista: programa inicial do EZLN, 1993–1996",
+      "aliases": [],
+      "kind": "ideology",
+      "category": "ideology",
+      "period": "Leis revolucionárias dezembro 1993, Terceira Declaração janeiro 1995 e programa assinado 15 fevereiro 1996",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "est",
+        "rep",
+        "imi",
+        "con",
+        "mor"
+      ],
+      "documentedAxes": [
+        "est",
+        "rep",
+        "imi",
+        "con",
+        "mor"
+      ],
+      "directionalAxes": [
+        "est",
+        "rep",
+        "imi",
+        "con",
+        "mor"
+      ],
+      "sourceCount": 10,
+      "sourceUrls": [
+        "https://enlacezapatista.ezln.org.mx/1996/02/15/el-dialogo-de-san-andres-y-los-derechos-y-cultura-indigena-punto-y-seguido/",
+        "https://enlacezapatista.ezln.org.mx/1995/01/01/tercera-declaracion-de-la-selva-lacandona/",
+        "https://enlacezapatista.ezln.org.mx/1996/01/01/cuarta-declaracion-de-la-selva-lacandona/",
+        "https://enlacezapatista.ezln.org.mx/1993/12/31/ley-de-derechos-y-obligaciones-de-los-pueblos-en-lucha/",
+        "https://enlacezapatista.ezln.org.mx/1993/12/31/ley-de-derechos-y-obligaciones-de-las-fuerzas-armadas-revolucionarias/",
+        "https://enlacezapatista.ezln.org.mx/1993/12/31/ley-revolucionaria-de-mujeres/",
+        "https://enlacezapatista.ezln.org.mx/1993/12/31/ley-del-trabajo/",
+        "https://enlacezapatista.ezln.org.mx/1993/12/31/ley-de-industria-y-comercio/",
+        "https://enlacezapatista.ezln.org.mx/1993/12/31/ley-de-reforma-urbana/",
+        "https://enlacezapatista.ezln.org.mx/1993/12/31/ley-agraria-revolucionaria/"
+      ]
+    },
+    {
+      "id": "henry-george",
+      "name": "Henry George",
+      "aliases": [],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "Progress and Poverty, prefácio1880 reafirmando texto1879; edição memorial1898",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "eco",
+        "con",
+        "com"
+      ],
+      "documentedAxes": [
+        "eco",
+        "con",
+        "com"
+      ],
+      "directionalAxes": [
+        "eco",
+        "con",
+        "com"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.gutenberg.org/files/55308/55308-h/55308-h.htm",
+        "https://henrygeorgefoundation.org/about-the-foundation/about-henry-george"
+      ]
+    },
+    {
+      "id": "karl-kautsky",
+      "name": "Karl Kautsky",
+      "aliases": [],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "The Class Struggle, capítuloIV próprio1892; tradução inglesa1910",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "eco"
+      ],
+      "documentedAxes": [
+        "eco"
+      ],
+      "directionalAxes": [
+        "eco"
+      ],
+      "sourceCount": 3,
+      "sourceUrls": [
+        "https://www.marxists.org/archive/kautsky/1892/erfurt/ch04.htm",
+        "https://www.marxists.org/archive/kautsky/1892/erfurt/index.htm",
+        "https://www.deutsche-biographie.de/pnd118560808.html"
+      ]
+    },
+    {
+      "id": "charlotte-perkins-gilman",
+      "name": "Charlotte Perkins Gilman",
+      "aliases": [],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "The Man-Made World, capítulosI–II; versão Gutenberg sem data original impressa",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "mor"
+      ],
+      "documentedAxes": [
+        "mor"
+      ],
+      "directionalAxes": [
+        "mor"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.gutenberg.org/files/3015/3015-h/3015-h.htm",
+        "https://www.unige.ch/vls/bibliography/author-bibliography/gilman-charlotte-perkins-1860-1935"
+      ]
+    },
+    {
+      "id": "edward-bellamy",
+      "name": "Edward Bellamy",
+      "aliases": [],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "The Programme of the Nationalists, declaração própria31/1/1891",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "rep",
+        "eco"
+      ],
+      "documentedAxes": [
+        "rep",
+        "eco"
+      ],
+      "directionalAxes": [
+        "rep",
+        "eco"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.marxists.org/reference/archive/bellamy-ed/works/1891/new-nation.htm",
+        "https://www.unige.ch/vls/bibliography/author-bibliography/bellamy-edward-1850-1898"
+      ]
+    },
+    {
+      "id": "lucy-parsons",
+      "name": "Lucy Parsons",
+      "aliases": [],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "Anarchism, The Liberator3/2/1906",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "pod"
+      ],
+      "documentedAxes": [
+        "pod"
+      ],
+      "directionalAxes": [
+        "pod"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.lucyparsonsproject.com/writings/anarchism.html",
+        "https://www.chicagohistory.org/lucy-parsons/"
+      ]
+    },
+    {
+      "id": "hubert-harrison",
+      "name": "Hubert Harrison",
+      "aliases": [],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "When Africa Awakes, introdução própria15/8/1920",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "rep"
+      ],
+      "documentedAxes": [
+        "rep"
+      ],
+      "directionalAxes": [
+        "rep"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://www.gutenberg.org/files/69712/69712-h/69712-h.htm",
+        "https://library.columbia.edu/about/news/libraries/2005/20051031_harrison.html"
+      ]
+    },
+    {
+      "id": "xochitl-galvez",
+      "name": "Xóchitl Gálvez",
+      "aliases": [
+        "Bertha Xóchitl Gálvez Ruiz",
+        "Bertha Xochitl Galvez Ruiz"
+      ],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "Intervenções próprias na transcrição eleitoral publicada29/04/2024; atividade04/09/2026",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "tec"
+      ],
+      "documentedAxes": [
+        "tec"
+      ],
+      "directionalAxes": [
+        "tec"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://centralelectoral.ine.mx/2024/04/29/version-estenografica-del-segundo-debate-presidencial-federal-2023-2024/",
+        "https://www.tiempo.com.mx/local/alianzas-deben-sacar-perfiles-competitivos-rumbo-al-27-xochitl/"
+      ]
+    },
+    {
+      "id": "anura-kumara-dissanayake",
+      "name": "Anura Kumara Dissanayake",
+      "aliases": [
+        "Anura Kumara Disanayaka",
+        "Anura Kumara Dissanayaka"
+      ],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "Discurso próprio à ONU24/09/2025; atividade13/08/2026",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "dip",
+        "tec"
+      ],
+      "documentedAxes": [
+        "dip",
+        "tec"
+      ],
+      "directionalAxes": [
+        "dip",
+        "tec"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://bangkok.embassy.gov.lk/wp-content/uploads/2025/09/Address-80th-UN-General-Assembly-Eng.pdf",
+        "https://news.lk/current-affairs/the-full-speech-by-president-anura-kumara-dissanayake-at-the-discussion-with-the-bar-association-of-sri-lanka"
+      ]
+    },
+    {
+      "id": "maia-sandu",
+      "name": "Maia Sandu",
+      "aliases": [],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "Declarações próprias em Helsinki02/10/2026",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "dip"
+      ],
+      "documentedAxes": [
+        "dip"
+      ],
+      "directionalAxes": [
+        "dip"
+      ],
+      "sourceCount": 1,
+      "sourceUrls": [
+        "https://presedinte.md/rom/discursuri/declaratiile-de-presa-ale-presedintei-maia-sandu-sustinute-la-helsinki"
+      ]
+    },
+    {
+      "id": "salome-zourabichvili",
+      "name": "Salomé Zourabichvili",
+      "aliases": [
+        "Salome Zourabichvili",
+        "Salome Zurabishvili",
+        "Salomé Zurabishvili"
+      ],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "Discurso próprio ao Seimas25/03/2025; atividade26/09/2026",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "rep",
+        "pod"
+      ],
+      "documentedAxes": [
+        "rep",
+        "pod"
+      ],
+      "directionalAxes": [
+        "rep",
+        "pod"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://1tv.ge/lang/en/news/salome-zourabichvili-addresses-lithuanian-seimas/",
+        "https://www.interpressnews.ge/en/article/149793-salome-zurabishvili-an-authoritarian-regime-supported-from-abroad-can-be-defeated-only-when-the-country-unites-the-current-situation-goes-beyond-party-competition-and-requires-a-united-response-from-the-entire-civil-society"
+      ]
+    },
+    {
+      "id": "samia-suluhu-hassan",
+      "name": "Samia Suluhu Hassan",
+      "aliases": [],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "Declaração própria de reconciliação23/04/2026; pesquisa empresarial05/05/2021 não graduada",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
+      "documentedAxes": [],
+      "directionalAxes": [],
+      "sourceCount": 4,
+      "sourceUrls": [
+        "https://www.ikulu.go.tz/",
+        "https://www.ikulu.go.tz/uploads/speeches/sw-1625033520-BUSINESS%20FORUM%20-%20KENYA_1.%205%20MAY%202021doc.pdf",
+        "https://www.ikulu.go.tz/uploads/speeches/en-1712652890-COMMONWEALTH%20LAW%20MINISTERS%20SPEECH%20(1).pdf",
+        "https://thechanzo.com/2026/04/24/full-text-president-samias-address-upon-receiving-the-commission-report-on-the-events-of-october-29-2025/"
+      ]
+    },
+    {
+      "id": "nigeria-first-civilian-order-1960",
+      "name": "Nigéria — primeira ordem civil independente",
+      "aliases": [
+        "Nigéria — Primeira República e transição do domínio1960–1966"
+      ],
+      "kind": "country",
+      "category": "historical-country",
+      "period": "01/10/1960–ruptura política15/01/1966; recorte normativo1960",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "pod"
+      ],
+      "documentedAxes": [
+        "pod"
+      ],
+      "directionalAxes": [
+        "pod"
+      ],
+      "sourceCount": 5,
+      "sourceUrls": [
+        "https://www.legislation.gov.uk/ukpga/1960/55/pdfs/ukpga_19600055_en.pdf",
+        "https://www.legislation.gov.uk/uksi/1960/1652/pdfs/uksi_19601652_en.pdf",
+        "https://en.wikisource.org/wiki/Constitution_of_the_Federation_of_Nigeria",
+        "https://history.state.gov/historicaldocuments/frus1964-68v24/d361",
+        "https://tile.loc.gov/storage-services/master/frd/copr/Nigeria.pdf"
+      ]
+    },
+    {
+      "id": "nigeria-second-republic-1979",
+      "name": "Nigéria — Segunda República",
+      "aliases": [
+        "Nigéria — restauração civil presidencial1979–1983"
+      ],
+      "kind": "country",
+      "category": "historical-country",
+      "period": "01/10/1979–31/12/1983; recorte normativo Constituição1979",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "rel"
+      ],
+      "documentedAxes": [
+        "rel"
+      ],
+      "directionalAxes": [
+        "rel"
+      ],
+      "sourceCount": 3,
+      "sourceUrls": [
+        "https://constitutionnet.org/sites/default/files/nig_const_79.pdf",
+        "https://tile.loc.gov/storage-services/master/frd/copr/Nigeria.pdf",
+        "https://tile.loc.gov/storage-services/master/frd/frdcstdy/ni/nigeriacountryst00metz_0/nigeriacountryst00metz_0.pdf"
+      ]
+    },
+    {
+      "id": "ghana-first-republic-1960",
+      "name": "Gana — Primeira República",
+      "aliases": [
+        "Gana — república de Nkrumah1960–1966"
+      ],
+      "kind": "country",
+      "category": "historical-country",
+      "period": "01/07/1960–24/02/1966; recorte normativo consolidado31/12/1965",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "rep"
+      ],
+      "documentedAxes": [
+        "rep"
+      ],
+      "directionalAxes": [
+        "rep"
+      ],
+      "sourceCount": 3,
+      "sourceUrls": [
+        "https://ghalii.org/akn/gh/act/1960/constitution/eng@1965-12-31",
+        "https://history.state.gov/historicaldocuments/frus1964-68v24/summary",
+        "https://history.state.gov/historicaldocuments/frus1964-68v24/d258"
+      ]
+    },
+    {
+      "id": "tanganyika-independent-1961",
+      "name": "Tanganyika — Estado independente anterior à União",
+      "aliases": [
+        "Tanganica independente1961–1964"
+      ],
+      "kind": "country",
+      "category": "historical-country",
+      "period": "09/12/1961–26/04/1964; recorte normativo republicano09/12/1962",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "rep"
+      ],
+      "documentedAxes": [
+        "rep"
+      ],
+      "directionalAxes": [
+        "rep"
+      ],
+      "sourceCount": 3,
+      "sourceUrls": [
+        "https://www.legislation.gov.uk/ukpga/1961/1/pdfs/ukpga_19610001_en.pdf",
+        "https://digitallibrary.un.org/record/860971/files/1962-E.pdf",
+        "https://www.tanzania.go.tz/topics/union-matters"
+      ]
+    },
+    {
+      "id": "south-korea-rhee-government-1948",
+      "name": "Coreia do Sul — governo de Syngman Rhee",
+      "aliases": [
+        "Coreia do Sul — primeira administração republicana1948–1960"
+      ],
+      "kind": "country",
+      "category": "historical-country",
+      "period": "15/08/1948–resignação formal27/04/1960; recorte Constituição original17/07/1948",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "rep",
+        "pod",
+        "dip",
+        "eco",
+        "rel"
+      ],
+      "documentedAxes": [
+        "rep",
+        "pod",
+        "dip",
+        "eco",
+        "rel"
+      ],
+      "directionalAxes": [
+        "rep",
+        "pod",
+        "dip",
+        "eco",
+        "rel"
+      ],
+      "sourceCount": 4,
+      "sourceUrls": [
+        "https://archives.nanet.go.kr/upload/namo/files/000003/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD%ED%97%8C%EB%B2%95(%ED%97%8C%EB%B2%95%EC%A0%9C1%ED%98%B8).pdf",
+        "https://history.state.gov/historicaldocuments/frus1948v06/d860",
+        "https://history.state.gov/historicaldocuments/frus1948v06/d870",
+        "https://history.state.gov/historicaldocuments/frus1958-60v18/d310"
       ]
     },
     {

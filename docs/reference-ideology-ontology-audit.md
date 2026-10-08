@@ -1,6 +1,8 @@
 # Ideology ontology: bounded source audit
 
-Review date: **2026-10-07**. All 75 original selected IDs, names, family tags, local scopes and rationales were read before four substitutions. This is an index-level screening of all 75 and an **initial bounded documentary review of five referents, extended below to seven**, not verification of 75 independent doctrines. No catalog vectors or sources were modified here.
+Current accepted review: **2026-10-08**, **214 ideology identities**, **75 selected +139 preserved alternatives**, **62 located normative primary referents /44 bounded two-sided comparisons**. All206 original identities and original75 snapshot are preserved. The ideology-import snapshot had729 overall entries; this is historical scope, not a moving global catalog count. No programme ID is pending import; full75 independence/default-use remain false. Partial1–5 axis definitions stay unranked under the unchanged six-axis matching gate. This audit records actual primary reading and bounded contrasts, not an all75 certification.
+
+Historical review chronology begins below: the original7October index-level screening of75 and first substitutions are preserved as dated earlier scope; subsequent groups extend that work without retroactively validating old scores.
 
 ## Definition and distinctness rule
 
@@ -289,3 +291,11 @@ The primary essay, author-hosted 22 January 2016 interview and author bibliograp
 Zerzan’s affirmative nonindustrial equality and rejection of industrial division of labour contrast with IWA II.3 industrial-branch self-management. Simple tools/fire and IWA’s lack of a duty to industrialize every community limit the comparison. Anthropological and causal scientific assertions are not independently established facts. Other primitivist/ecological neighbors remain unresolved.
 
 The integrated ledger is 213 = 75 selected + 138 alternatives within 718 total catalog entries at the Zerzan import snapshot. Current 61 located primary referents / 43 bounded comparisons describe documentary scope, not six-axis qualification or verification of 75 distinct doctrines. All 206 original identities and original 75 snapshot remain preserved; default-use and independent 75 flags stay false. Exact primary locators, counters and the complete prior object are in `reference-ideology-program-batch-04` module/report.
+
+## Early EZLN programme: accepted integrated group
+
+One scoped zapatista referent replaces the original generic selection; the complete original record remains an alternative. Five axes EST60/REP60/IMI40/CON60/MOR60 are accepted normative orientations, with seven unknown axes and no ranked eligibility. The integrated ledger is 214 = 75 selected + 139 alternatives at the 729-entry snapshot; no new ID remains pending import. Documentary scope becomes 62 located referents / 44 bounded comparisons, not all-75 independence. Original 206 catalog identities and original75 selection snapshot remain preserved.
+
+The actual signed 15 February 1996 EZLN pronunciamiento §§71–116, especially81–98, proposes communal/municipal/regional authority **as part of the State** (§81), own economy/justice/security competences (§§83–86) and public funding/shared responsibility (§85). Öcalan's fourth revised English edition2017, H §§510–526, especially511–516, requires **two separate entities** and rejects confederal assimilation into the State; IV535–542 specifies a nonstate paradigm. Both permit coexistence and autonomy; long-term State-overcoming is not immediate war. This is a same-function institutional-status distinction, not ethnicity, author or year uniqueness.
+
+Primary URLs: [EZLN signed programme](https://enlacezapatista.ezln.org.mx/1996/02/15/el-dialogo-de-san-andres-y-los-derechos-y-cultura-indigena-punto-y-seguido/) and [Öcalan2017](https://ocalanbooks.com/downloads/EN-brochure_democratic-confederalism_2017.pdf). Author and independent reviewer actually read these bounded passages. Claims, counters, question crosswalks, original-source archive and edition anomalies are detailed in [programme05](reference-ideology-program-batch-05.md). No2005 source transfer, implementation assertion or reduced evidence threshold.
