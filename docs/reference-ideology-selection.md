@@ -1,10 +1,10 @@
 # Planned 75 ideology subset: bounded ontology revision
 
-Reviewed on 2026-10-07. The catalog still preserves all 206 ideology records. This file defines a **provisional planning subset**, not an activated default, 75 independently verified doctrines or 75 evidence-eligible profiles. No vectors, grades or catalog identities changed. The previous 75-label list is preserved in `ideologySelectionPreviousSnapshot`.
+Reviewed on 2026-10-08. All 206 original ideology records are preserved. The integrated identity ledger additionally includes one explicit Technocracy Inc. program, giving 207 preserved identities. This file defines a **provisional planning subset**, not an activated default, 75 independently verified doctrines or 75 evidence-eligible profiles. No vectors, grades or catalog identities changed. The previous 75-label list is preserved in `ideologySelectionPreviousSnapshot`.
 
 An included object should be an identifiable **political normative doctrine or tradition** addressing legitimate authority, collective social/economic order and action, with a located referent and a material contrast to retained neighbors. A framework, institutional device or policy instrument alone is insufficient. State-authored normative doctrines can qualify; government authorship alone is neither acceptance nor rejection. Subtraditions may be retained when their extra commitments are identified; they must not be presented as mutually exclusive families.
 
-Four weakly scoped slots were replaced with existing records. The original entries remain among 131 alternatives; the selected plus alternative IDs still cover all 206 exactly. Fifty-six selected IDs have located primary normative referents and scoped review. Thirty-nine two-sided contrasts are recorded across libertarian strategy, ecological programs and liberal authority/property programs. Full nearest-neighbor comparisons remain incomplete. See `docs/reference-ideology-ontology-audit.md` for locators, edition limitations and what was actually verified.
+The first four weakly scoped slots were replaced with existing records. A fifth substitution adds the explicit Inc. program candidate and preserves Veblen as an alternative. The integrated planning partition is 75 selected plus 132 alternatives, covering all 206 original identities and one candidate exactly. Fifty-eight selected IDs have located primary normative referents and scoped review. Thirty-nine two-sided contrasts are recorded across libertarian strategy, ecological programs and liberal authority/property programs. Full nearest-neighbor comparisons remain incomplete. See `docs/reference-ideology-ontology-audit.md` for locators, edition limitations and what was actually verified.
 
 | Deferred slot | Selected existing record | Reason |
 | --- | --- | --- |
@@ -12,6 +12,7 @@ Four weakly scoped slots were replaced with existing records. The original entri
 | `civic-keynesian-policy` | `ideology-left-guild-socialism` | Perfil restrito à estabilização; a filosofia política mais ampla de Keynes não foi representada por este rótulo. |
 | `civic-cybernetic-governance` | `ideology-right-agorism` | Projeto de gestão Cybersyn não equivale por si a tradição normativa independente. |
 | `ideology-right-francoism` | `ideology-left-anarcha-feminism` | Contraste doutrinal independente frente ao fascismo não foi demonstrado; lei de regime não basta sem exame de referentes. |
+| `ideology-technocracy` | `ideology-program-technocracy-inc-2004` | Desenho condicional de Veblen não demonstra endosso normativo; programa afirmado Inc. tem identidade própria, sem deletar o registro original. |
 
 Kokutai is retained under the explicit label **Doutrina imperial do kokutai, 1937**: the inspected source contains a normative imperial polity, not merely a regime name. Its broad distinctness against fascism and absolute monarchy is still provisional. The narrow Keynesian stabilization ID is deferred without denying that Keynes wrote wider social philosophy.
 
@@ -90,8 +91,8 @@ The overall selection remains provisional. Individually grounded bounded contras
 | `ideology-dependency-theory` | Teoria da dependência | development | explanatory-framework | not-independently-verified |
 | `ideology-left-guild-socialism` | Socialismo de guildas | socialist | bounded-normative-referent-reviewed | not-independently-verified |
 | `ideology-left-black-anarchism` | Anarquismo negro | anarchist | bounded-normative-referent-reviewed | not-independently-verified |
-| `ideology-technocracy` | Tecnocracia | technical | provisional-normative-referent | not-independently-verified |
-| `civic-transhumanism` | Transumanismo | technical | provisional-normative-referent | not-independently-verified |
+| `ideology-program-technocracy-inc-2004` | Tecnocracia: governo funcional continental de Technocracy Inc. | technical | bounded-normative-referent-reviewed | nearest-neighbor-unresolved |
+| `civic-transhumanism` | Transumanismo: valores políticos de Bostrom, 2005 | technical | bounded-normative-referent-reviewed | nearest-neighbor-unresolved |
 | `ideology-right-agorism` | Agorismo | liberal | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | `ideology-fascism` | Fascismo: formulação Mussolini/Gentile de 1932 | authoritarian | bounded-normative-referent-reviewed | bounded-primary-neighbor-contrast |
 | `ideology-left-anarcha-feminism` | Anarcafeminismo | anarchist | bounded-normative-referent-reviewed | not-independently-verified |

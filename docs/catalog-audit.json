@@ -34,8 +34,8 @@
     ],
     "provenance": "Executed before local data corrections in this recovery checkpoint; not recomputed from unavailable prior Library checkpoint."
   },
-  "headCommitAtAudit": "1d472472b5136799544f5b61d37293f57e7925be",
-  "integratedCatalogSha256": "c8e2f904b37fd054bb427222b3e08c4302bfaa6c404825b8ee49c1251e3fb904",
+  "headCommitAtAudit": "04ade7ac8f7ed173902346275e68fe2995d188e8",
+  "integratedCatalogSha256": "f21b07d5b00f73daae5217faab195c16749cf99d8111e3214d7de7aabf363c1c",
   "scope": "Integrated working-tree catalog after preparation; fixed remote baseline and current HEAD are provenance, not immutable copies of modified files.",
   "evidenceGate": {
     "minimumAxes": 6,
@@ -55,45 +55,45 @@
     "Unreviewed directional axes are preserved archival estimates, excluded from ranking; absent located coding does not establish that their direction is false. Prior snapshots preserve available original estimates."
   ],
   "totalTarget": 675,
-  "totalRecords": 684,
+  "totalRecords": 690,
   "structurallyEligible": 71,
-  "documentaryEligible": 20,
-  "insufficientEvidence": 664,
-  "unreviewedDirectionCount": 1340,
-  "summedCategoryIdentityGap": 122,
+  "documentaryEligible": 21,
+  "insufficientEvidence": 669,
+  "unreviewedDirectionCount": 1330,
+  "summedCategoryIdentityGap": 117,
   "categories": [
     {
       "category": "country",
       "target": 150,
       "records": 150,
-      "structurallyEligible": 5,
-      "documentaryEligible": 5,
-      "insufficientEvidence": 145,
+      "structurallyEligible": 3,
+      "documentaryEligible": 3,
+      "insufficientEvidence": 147,
       "missingIdentitiesBeforeSemanticReview": 0,
       "preservedExcess": 0,
-      "missingEligibleToTarget": 145
+      "missingEligibleToTarget": 147
     },
     {
       "category": "historical-country",
       "target": 150,
-      "records": 125,
-      "structurallyEligible": 2,
-      "documentaryEligible": 2,
-      "insufficientEvidence": 123,
-      "missingIdentitiesBeforeSemanticReview": 25,
+      "records": 128,
+      "structurallyEligible": 3,
+      "documentaryEligible": 3,
+      "insufficientEvidence": 125,
+      "missingIdentitiesBeforeSemanticReview": 22,
       "preservedExcess": 0,
-      "missingEligibleToTarget": 148
+      "missingEligibleToTarget": 147
     },
     {
       "category": "public-figure",
       "target": 150,
-      "records": 97,
+      "records": 99,
       "structurallyEligible": 18,
-      "documentaryEligible": 1,
-      "insufficientEvidence": 96,
-      "missingIdentitiesBeforeSemanticReview": 53,
+      "documentaryEligible": 2,
+      "insufficientEvidence": 97,
+      "missingIdentitiesBeforeSemanticReview": 51,
       "preservedExcess": 0,
-      "missingEligibleToTarget": 149
+      "missingEligibleToTarget": 148
     },
     {
       "category": "historical-figure",
@@ -109,13 +109,13 @@
     {
       "category": "ideology",
       "target": 75,
-      "records": 206,
-      "structurallyEligible": 25,
-      "documentaryEligible": 6,
+      "records": 207,
+      "structurallyEligible": 26,
+      "documentaryEligible": 7,
       "insufficientEvidence": 200,
       "missingIdentitiesBeforeSemanticReview": 0,
-      "preservedExcess": 131,
-      "missingEligibleToTarget": 69
+      "preservedExcess": 132,
+      "missingEligibleToTarget": 68
     }
   ],
   "structuralProblems": [],
@@ -1313,16 +1313,15 @@
       "kind": "country",
       "category": "country",
       "period": "Prática institucional em 2024; camada normativa da tradução constitucional oferecida pela Corte em 2026, sem data editorial ou certificação independente de consolidação contemporânea; 2026-06-26",
-      "structurallyEligible": true,
-      "documentaryEligible": true,
-      "reviewStatus": "located-coding-present-not-truth-certified",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
       "unreviewedDirectionalAxes": [],
       "mappedAxes": [
         "est",
         "rep",
         "pod",
         "imi",
-        "com",
         "rel"
       ],
       "documentedAxes": [
@@ -1330,7 +1329,6 @@
         "rep",
         "pod",
         "imi",
-        "com",
         "rel"
       ],
       "directionalAxes": [
@@ -1338,7 +1336,6 @@
         "rep",
         "pod",
         "imi",
-        "com",
         "rel"
       ],
       "sourceCount": 5,
@@ -1964,30 +1961,41 @@
       "kind": "country",
       "category": "historical-country",
       "period": "Constituição de 1977 e governo Brejnev, 1977–1982; recorte codificado: Desenho normativo original de 1977 no período Brejnev, 1977–1982.",
-      "structurallyEligible": false,
-      "documentaryEligible": false,
-      "reviewStatus": "insufficient-located-coding",
+      "structurallyEligible": true,
+      "documentaryEligible": true,
+      "reviewStatus": "located-coding-present-not-truth-certified",
       "unreviewedDirectionalAxes": [],
       "mappedAxes": [
+        "est",
         "rep",
+        "imi",
         "eco",
-        "con"
+        "con",
+        "rel"
       ],
       "documentedAxes": [
+        "est",
         "rep",
+        "imi",
         "eco",
-        "con"
+        "con",
+        "rel"
       ],
       "directionalAxes": [
+        "est",
         "rep",
+        "imi",
         "eco",
-        "con"
+        "con",
+        "rel"
       ],
-      "sourceCount": 3,
+      "sourceCount": 5,
       "sourceUrls": [
         "https://www.marxists.org/history/ussr/government/constitution/1977/constitution-ussr-1977.pdf",
         "https://tile.loc.gov/storage-services/master/frd/frdcstdy/so/sovietunioncount00zick/sovietunioncount00zick.pdf",
-        "https://history.state.gov/milestones/1977-1980/soviet-invasion-afghanistan"
+        "https://history.state.gov/milestones/1977-1980/soviet-invasion-afghanistan",
+        "https://constitution.garant.ru/history/ussr-rsfsr/1977/red_1977/5478732/",
+        "https://www.departments.bucknell.edu/Russian/const/77cons02.html"
       ]
     },
     {
@@ -2682,7 +2690,7 @@
       "aliases": [],
       "kind": "ideology",
       "category": "ideology",
-      "period": "The Engineers and the Price System, 1921",
+      "period": "The Engineers and the Price System, 1921; reedição Viking 1933, transcrição CUNY 2023",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
@@ -2692,7 +2700,7 @@
       "directionalAxes": [],
       "sourceCount": 1,
       "sourceUrls": [
-        "https://www.gutenberg.org/ebooks/4355"
+        "https://cuny.manifoldapp.org/read/the-engineers-and-the-price-system/section/28eeaad7-4ea9-4320-9abc-a9705b160870"
       ]
     },
     {
@@ -5247,32 +5255,30 @@
       "aliases": [],
       "kind": "ideology",
       "category": "ideology",
-      "period": "Transhumanist Declaration, revisão de 2012",
+      "period": "Bostrom, 2005; declaração Humanity+ adotada em março de 2009",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "rep",
-        "pod",
-        "mor",
-        "tec"
-      ],
+      "unreviewedDirectionalAxes": [],
       "mappedAxes": [
         "rep",
-        "pod",
-        "mor",
+        "dip",
         "tec"
       ],
-      "documentedAxes": [],
+      "documentedAxes": [
+        "rep",
+        "dip",
+        "tec"
+      ],
       "directionalAxes": [
         "rep",
-        "pod",
-        "mor",
+        "dip",
         "tec"
       ],
-      "sourceCount": 1,
+      "sourceCount": 2,
       "sourceUrls": [
-        "https://www.humanityplus.org/the-transhumanist-declaration"
+        "https://www.humanityplus.org/the-transhumanist-declaration",
+        "https://nickbostrom.com/papers/transhumanist-values/"
       ]
     },
     {
@@ -8409,38 +8415,40 @@
       "aliases": [],
       "kind": "person",
       "category": "public-figure",
-      "period": "Presidência e programa de governo do Chile, 2022–2026",
+      "period": "Manifesto das primárias2021; atividade10/03/2026 sem atualizar automaticamente posições",
       "structurallyEligible": true,
-      "documentaryEligible": false,
-      "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "rep",
-        "int",
-        "eco",
-        "con",
-        "mor",
-        "tec"
-      ],
+      "documentaryEligible": true,
+      "reviewStatus": "located-coding-present-not-truth-certified",
+      "unreviewedDirectionalAxes": [],
       "mappedAxes": [
+        "est",
         "rep",
-        "int",
+        "pod",
         "eco",
         "con",
-        "mor",
-        "tec"
+        "mor"
       ],
-      "documentedAxes": [],
+      "documentedAxes": [
+        "est",
+        "rep",
+        "pod",
+        "eco",
+        "con",
+        "mor"
+      ],
       "directionalAxes": [
+        "est",
         "rep",
-        "int",
+        "pod",
         "eco",
         "con",
-        "mor",
-        "tec"
+        "mor"
       ],
-      "sourceCount": 1,
+      "sourceCount": 3,
       "sourceUrls": [
-        "https://www.servel.cl/elecciones/elecciones-presidenciales-2021/programas-de-candidaturas-presidenciales/"
+        "https://www.servel.cl/elecciones/elecciones-presidenciales-2021/programas-de-candidaturas-presidenciales/",
+        "https://www.servel.cl/wp-content/uploads/2021/06/5_PROGRAMA_GABRIEL_BORIC.pdf",
+        "https://www.cooperativa.cl/noticias/site/artic/20260310/pags-amp/20260310211349.html"
       ]
     },
     {
@@ -17206,33 +17214,30 @@
       "kind": "country",
       "category": "country",
       "period": "Prática em 2024; norma: 1993, texto oferecido pelo Parlamento em consulta de 2026; sem certificação independente de consolidação; Descrição aduaneira EEAS de24/11/2021 e autorização do Conselho de16/07/2026, sem prova das etapas posteriores",
-      "structurallyEligible": true,
-      "documentaryEligible": true,
-      "reviewStatus": "located-coding-present-not-truth-certified",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
       "unreviewedDirectionalAxes": [],
       "mappedAxes": [
         "est",
         "rep",
         "pod",
         "com",
-        "rel",
-        "mor"
+        "rel"
       ],
       "documentedAxes": [
         "est",
         "rep",
         "pod",
         "com",
-        "rel",
-        "mor"
+        "rel"
       ],
       "directionalAxes": [
         "est",
         "rep",
         "pod",
         "com",
-        "rel",
-        "mor"
+        "rel"
       ],
       "sourceCount": 4,
       "sourceUrls": [
@@ -21443,6 +21448,223 @@
         "https://avalon.law.yale.edu/18th_century/washing.asp",
         "https://www.mountvernon.org/george-washington/biography",
         "https://www.mountvernon.org/george-washington/death"
+      ]
+    },
+    {
+      "id": "atiku-abubakar",
+      "name": "Atiku Abubakar",
+      "aliases": [
+        "Alhaji Atiku Abubakar"
+      ],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "Programa da campanha2023; atividade reportada28/05/2026 sem atualizar automaticamente posições",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "est",
+        "rep",
+        "eco",
+        "con",
+        "tec"
+      ],
+      "documentedAxes": [
+        "est",
+        "rep",
+        "eco",
+        "con",
+        "tec"
+      ],
+      "directionalAxes": [
+        "est",
+        "rep",
+        "eco",
+        "con",
+        "tec"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://elections.civichive.org/wp-content/uploads/2022/10/Atikus-5-Point-Development-Agenda-Abridged.pdf",
+        "https://www.thecable.ng/nobody-was-defeated-atiku-calls-for-unity-after-winning-adc-presidential-primary/"
+      ]
+    },
+    {
+      "id": "andrej-babis",
+      "name": "Andrej Babiš",
+      "aliases": [
+        "Andrej Babis"
+      ],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "Programa coletivo explicitamente endossado05/01/2026",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "rep",
+        "dip",
+        "tec"
+      ],
+      "documentedAxes": [
+        "rep",
+        "dip",
+        "tec"
+      ],
+      "directionalAxes": [
+        "rep",
+        "dip",
+        "tec"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://vlada.gov.cz/cz/vlada/programove-prohlaseni/programove-prohlaseni-vlady-224629/",
+        "https://vlada.gov.cz/cz/media-centrum/tiskove-konference/tiskova-konference-po-jednani-vlady--5--ledna-2026-224664/"
+      ]
+    },
+    {
+      "id": "austria-first-republic-parliamentary-1918",
+      "name": "Áustria — Primeira República parlamentar",
+      "aliases": [
+        "Primeira República Austríaca antes de Dollfuß"
+      ],
+      "kind": "country",
+      "category": "historical-country",
+      "period": "República parlamentar12novembro1918–ruptura autoritária março1933; recortes normativos1928 e setembro1929",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "est",
+        "rep"
+      ],
+      "documentedAxes": [
+        "est",
+        "rep"
+      ],
+      "directionalAxes": [
+        "est",
+        "rep"
+      ],
+      "sourceCount": 4,
+      "sourceUrls": [
+        "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&FassungVom=1928-03-06&Gesetzesnummer=10000079",
+        "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&FassungVom=1929-09-10&Gesetzesnummer=10000079",
+        "https://www.parlament.gv.at/verstehen/historisches/1918-1945",
+        "https://www.parlament.gv.at/verstehen/historisches/100-jahre-b-vg"
+      ]
+    },
+    {
+      "id": "turkey-founder-republic-before-coup-1923",
+      "name": "Turquia — república fundadora anterior ao golpe1960",
+      "aliases": [
+        "Türkiye Cumhuriyeti — ordem anterior a27maio1960"
+      ],
+      "kind": "country",
+      "category": "historical-country",
+      "period": "República proclamada29outubro1923–golpe27maio1960; recorte codificado exclusivamente original20abril1924",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "pod",
+        "rel"
+      ],
+      "documentedAxes": [
+        "pod",
+        "rel"
+      ],
+      "directionalAxes": [
+        "pod",
+        "rel"
+      ],
+      "sourceCount": 3,
+      "sourceUrls": [
+        "https://www.anayasa.gov.tr/tr/mevzuat/onceki-anayasalar/1924-anayasasi/",
+        "https://www.tbmm.gov.tr/anayasa/yirmi-dort-teskilati-esasiye-kanunu",
+        "https://www.tbmm.gov.tr/anayasa/altmis-bir-anayasasi"
+      ]
+    },
+    {
+      "id": "uruguay-dual-executive-order-1919",
+      "name": "Uruguai — ordem do Executivo compartilhado",
+      "aliases": [
+        "Uruguai — Conselho Nacional de Administração1919–1933"
+      ],
+      "kind": "country",
+      "category": "historical-country",
+      "period": "1março1919–ruptura31março1933; recorte normativo original plebiscitado25novembro1917",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "rep",
+        "pod",
+        "imi",
+        "rel"
+      ],
+      "documentedAxes": [
+        "rep",
+        "pod",
+        "imi",
+        "rel"
+      ],
+      "directionalAxes": [
+        "rep",
+        "pod",
+        "imi",
+        "rel"
+      ],
+      "sourceCount": 3,
+      "sourceUrls": [
+        "https://biblioteca.parlamento.gub.uy/File/biblioteca/Constituciones/1917/1917%20Constitucion%20-%20OCR.pdf",
+        "https://www.cervantesvirtual.com/obra-visor/constitucion-de-1918/html/ede0ff47-9171-4208-988f-ff320585a241_2.html",
+        "https://www.gub.uy/corte-electoral/comunicacion/publicaciones/1933-golpe-estado-intervencion-corte-electoral"
+      ]
+    },
+    {
+      "id": "ideology-program-technocracy-inc-2004",
+      "name": "Tecnocracia: governo funcional continental de Technocracy Inc.",
+      "aliases": [],
+      "kind": "ideology",
+      "category": "ideology",
+      "period": "Programa do Study Course, edição eletrônica 1.1, 2004",
+      "structurallyEligible": true,
+      "documentaryEligible": true,
+      "reviewStatus": "located-coding-present-not-truth-certified",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "est",
+        "rep",
+        "pod",
+        "eco",
+        "con",
+        "tec"
+      ],
+      "documentedAxes": [
+        "est",
+        "rep",
+        "pod",
+        "eco",
+        "con",
+        "tec"
+      ],
+      "directionalAxes": [
+        "est",
+        "rep",
+        "pod",
+        "eco",
+        "con",
+        "tec"
+      ],
+      "sourceCount": 1,
+      "sourceUrls": [
+        "https://www.technate.org/pdf/Technocracy%20study%20guide.pdf"
       ]
     },
     {

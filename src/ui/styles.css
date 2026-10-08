@@ -3167,7 +3167,7 @@ details[open] > summary svg {
 .share-capture-source .share-card .radar-wrap.compact { @apply [width:115px]; }
 .share-capture-source .share-radar > p { @apply [font-size:8px] [line-height:1.3]; }
 .share-capture-source .share-country-groups { @apply [grid-template-columns:1fr_1fr] [gap:6px]; }
-.share-capture-source .share-countries h3 { @apply [font-size:8px]; }
+.share-capture-source .share-countries h3 { @apply [font-size:8px] mb-[6px]; }
 .share-capture-source .share-callout { @apply [align-self:stretch] [padding:7px_10px] [overflow:hidden]; }
 .share-capture-source .share-callout h3 { @apply [font-size:12px] [margin:0_0_3px]; }
 .share-capture-source .share-callout p { @apply [font-size:8px] [line-height:1.3]; }
@@ -3535,7 +3535,7 @@ body:has(.quiz-page)::before { @apply hidden; }
 .share-capture-source .share-countries > p:has(small) { @apply grid grid-cols-[31px_minmax(0,1fr)_auto] items-center gap-[3px_6px] mb-[5px]; }
 .share-capture-source .share-countries > p > span, .share-capture-source .share-countries > p > span > span { @apply contents; }
 .share-capture-source .share-countries > p small { @apply col-span-3 row-start-2 text-[7px] leading-[1.3]; }
-.share-capture-source .share-countries > p strong { @apply col-start-3 row-start-1; }
+.share-capture-source .share-countries > p strong { @apply col-start-3 row-start-1 leading-[1.2]; }
 .share-capture-source .share-countries { @apply auto-rows-max; }
 /* Let the full questionnaire frame determine page height; its footer never overlaps. */
 .atlas-shell:has(.quiz-page) { @apply h-auto min-h-screen overflow-visible; }
@@ -3545,7 +3545,7 @@ body:has(.quiz-page)::before { @apply hidden; }
  .atlas-shell .plan-tile { @apply grid-cols-1; }
  .atlas-shell .plan-tile svg { @apply hidden; }
 }
-.share-capture-source .share-countries > p:has(small) { @apply py-[2px] mb-[2px] gap-y-[2px]; }
+.share-capture-source .share-countries > p:has(small) { @apply py-[1px] mb-[2px] gap-y-[2px]; }
 .share-capture-source .share-countries > p small { @apply text-[6.5px] leading-[1.25]; }
 .share-capture-source .share-countries img { width:24px !important; height:14px !important; }
 .share-capture-source .share-country-groups .share-countries { @apply shrink-0 overflow-visible; }
@@ -3562,7 +3562,7 @@ body:has(.quiz-page)::before { @apply hidden; }
 .share-capture-source .share-card-intro { @apply relative min-w-0; }
 .share-capture-source .share-ideology-feature { @apply overflow-visible; }
 
-.share-capture-source .share-countries > p b { @apply col-start-2 row-start-1; }
+.share-capture-source .share-countries > p b { @apply col-start-2 row-start-1 leading-[1.2]; }
 .share-capture-source .share-countries > p:not(:has(img)) b { @apply col-start-1 col-span-2; }
 /* Two-line secondary names retain their category caption inside the export strip. */
 .share-capture-source .share-person-card > img { height:72px !important; }

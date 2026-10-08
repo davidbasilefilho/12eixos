@@ -2,14 +2,17 @@
  * Bounded referent review is separate from distinctness and axis validation.
  */
 export const ideologySelectionSnapshot = {
-  "date": "2026-10-07",
-  "catalogCount": 206,
+  "date": "2026-10-08",
+  "catalogCount": 207,
   "intendedSubsetCount": 75,
   "readyForDefaultUse": false,
-  "boundedReviewedReferents": 56,
+  "boundedReviewedReferents": 58,
   "referentCountScope": "Unique selected IDs reviewed in the ontology sequence; prior LP reading was additionally reopened for §§2.1/2.4. Combahee remains an additionally reviewed alternative; modern Leopold explanation alone is excluded from the primary-referent count.",
-  "independent 75Verified": false,
-  "boundedTwoSidedContrasts": 39
+  "boundedTwoSidedContrasts": 39,
+  "preservedOriginalCatalogCount": 206,
+  "partitionCountScope": "Integrated catalog identity ledger including one explicit Inc 2004 program. All 206 original identities retained; 75selected and132alternatives, without global distinctness certification.",
+  "pendingCatalogIds": [],
+  "independent75Verified": false
 } as const;
 
 export const ideologyInclusionDefinition = {
@@ -1284,6 +1287,40 @@ export const ideologySelectionSources = [
     "locator": "Original PDF link 39; title PDF p7; author preface pp17–18; author Political Organisation printed pp85–99 (PDF zero-based 90–104), especially 90–94/97; web 1347–1605",
     "supports": "Programa apologético politicamente normativo: imperador primeiro representante nacional, apenas trono hereditário, Senado não hereditário, eleição por colégios com qualificação tributária. Nota de p91 rejeita câmara hereditária francesa. O prefácio de Dorr não é voz do autor; direitos/liberdades e êxitos imperiais narrados não são comprovação de prática.",
     "readAt": "2026-10-07"
+  },
+  {
+    "id": "bostrom-transhumanist-values-2005",
+    "title": "Transhumanist Values — Nick Bostrom, author primary, 2005",
+    "url": "https://nickbostrom.com/papers/transhumanist-values/",
+    "locator": "Publication metadata web 8; actual author body 13–133, especially policy §§4–5 web 74–105 and summary 112–132",
+    "supports": "Programa de organização coletiva com democracia/Estado de direito internacional e segurança, acesso amplo e escolha responsável de aprimoramentos. Não implica neutralidade religiosa estatal nem toda agenda moral.",
+    "readAt": "2026-10-08"
+  },
+  {
+    "id": "humanityplus-declaration-adoption-2009",
+    "title": "Transhumanist Declaration — Humanity+, adopted March 2009, actual hosted text",
+    "url": "https://www.humanityplus.org/the-transhumanist-declaration",
+    "locator": "Origin/adoption note web 6–7; actual whole eight principles 8–16",
+    "supports": "Princípios de autonomia, pesquisa, riscos e escolha de modificações; adoção efetivamente datada em 2009. Não confirma revisão 2012.",
+    "readAt": "2026-10-08"
+  },
+  {
+    "id": "veblen-conditional-industrial-design-1921",
+    "title": "The Engineers and the Price System — Veblen 1921, CUNY transcription of Viking reprint",
+    "url": "https://cuny.manifoldapp.org/read/the-engineers-and-the-price-system/section/28eeaad7-4ea9-4320-9abc-a9705b160870",
+    "locator": "Whole VI author web 86–194, especially 95–103,148–158,166,173–185; front-matter companion b47e21df-31d1-4b3a-b52f-629e182dca45 author 1921 / publisher January 1933 / transcription 2023",
+    "supports": "Projeto industrial condicional com direção técnica/alocação e cancelamento da propriedade absenteísta; recusa expressa de argumentar legitimidade moral ou outras razões. Pesquisa efetivamente lida, excluída da contagem de doutrinas normativas afirmadas.",
+    "readAt": "2026-10-08",
+    "accessLimit": "URL original https://www.gutenberg.org/ebooks/4355 realmente resolve Abbott, David Crockett: His Life and Adventures. Metadados title/author/book 4355 efetivamente lidos; objeto original arquivado pela reparação separada. Nenhum uso do programa Inc. como voz de Veblen."
+  },
+  {
+    "id": "technocracy-functional-design-2004",
+    "title": "Technocracy Study Course — Technocracy Inc., electronic edition 1.1, 2004",
+    "url": "https://www.technate.org/pdf/Technocracy%20study%20guide.pdf",
+    "locator": "Metadata PDF zero-based 2; organizational preamble 3; Lesson 22 printed 220–233/PDF 225–238; Lesson 23 printed 242/247 automation",
+    "supports": "Programa continental afirmado pela organização com autoridade autoseletiva, polícia, provisão e alocação geral. Edição explicitada; fonte não atribuída a Veblen. Pesquisa e automação reais no programa, não prova de eficiência ou ciência.",
+    "readAt": "2026-10-08",
+    "accessLimit": "Organizational-host alternative 404; primary Technate actual body read. Separate 1945 scan metadata only, not corroborating body."
   }
 ] as const;
 
@@ -2033,24 +2070,26 @@ export const intendedIdeologySelection = [
     "contrastStatus": "not-independently-verified"
   },
   {
-    "id": "ideology-technocracy",
-    "name": "Tecnocracia",
+    "id": "ideology-program-technocracy-inc-2004",
+    "name": "Tecnocracia: governo funcional continental de Technocracy Inc.",
     "family": "technical",
-    "selectionRationale": "Coordenação por competência técnica",
-    "reviewStatus": "provisional",
-    "documentedAxisCountAtSnapshot": 0,
-    "ontologyStatus": "provisional-normative-referent",
-    "contrastStatus": "not-independently-verified"
+    "selectionRationale": "Programa político afirmado de autoridade funcional e ordem produtiva, com identidade distinta do modelo condicional de Veblen.",
+    "reviewStatus": "referent-reviewed-nearest-overlap-open",
+    "documentedAxisCountAtSnapshot": 6,
+    "ontologyStatus": "bounded-normative-referent-reviewed",
+    "contrastStatus": "nearest-neighbor-unresolved",
+    "ontologyLimit": "Único exemplar tecnocrático qualificado desta seleção. Edição eletrônica 1.1/2004 efetivamente lida e independentemente reaberta; direção continental autoseletiva e organização produtiva afirmadas. Veblen permanece registro extra, não segunda doutrina independente. Proximidade a outras formas de planejamento/autoridade exige contraste; nenhuma previsão científica ou prática validada."
   },
   {
     "id": "civic-transhumanism",
-    "name": "Transumanismo",
+    "name": "Transumanismo: valores políticos de Bostrom, 2005",
     "family": "technical",
     "selectionRationale": "Ampliação voluntária de capacidades humanas",
-    "reviewStatus": "provisional",
-    "documentedAxisCountAtSnapshot": 4,
-    "ontologyStatus": "provisional-normative-referent",
-    "contrastStatus": "not-independently-verified"
+    "reviewStatus": "referent-reviewed-nearest-overlap-open",
+    "documentedAxisCountAtSnapshot": 3,
+    "ontologyStatus": "bounded-normative-referent-reviewed",
+    "contrastStatus": "nearest-neighbor-unresolved",
+    "ontologyLimit": "Programa explícito de acesso amplo, escolha e redução de riscos com democracia e Estado de direito internacional, não mera previsão tecnológica. Proximidade com ecomodernismo, liberalismo social e outras tradições exige exame material; nenhuma nova comparação automaticamente resolvida. Catálogo separado, fonte Humanity+ declara adoção em 2009, não revisão 2012."
   },
   {
     "id": "ideology-right-agorism",
@@ -4265,6 +4304,19 @@ export const preservedIdeologyAlternatives = [
     ],
     "documentedAxisCountAtSnapshot": 6,
     "reviewStatus": "preserved-not-selected"
+  },
+  {
+    "id": "ideology-technocracy",
+    "name": "Tecnocracia",
+    "reasonCode": "conditional-model-not-affirmative-doctrine",
+    "compareWith": "ideology-program-technocracy-inc-2004",
+    "decisionRationale": "Veblen VI166/173 expressamente suspende advocacia/legitimidade e trata desenho condicional; fonte recuperada, modelo preservado, não pontuado como posição pessoal. Exemplar normativamente afirmado Inc. possui identidade própria.",
+    "catalogRationale": "Proposta industrial condicional de Veblen 1921; fonte originalmente misatribuída corrigida em overlay separado, objeto original preservado.",
+    "catalogSourceTitles": [
+      "The Engineers and the Price System — Project Gutenberg"
+    ],
+    "documentedAxisCountAtSnapshot": 0,
+    "reviewStatus": "preserved-not-selected"
   }
 ] as const;
 
@@ -4295,6 +4347,13 @@ export const ideologyOntologySubstitutions = [
     "selectedId": "ideology-left-anarcha-feminism",
     "reason": "Contraste doutrinal independente frente ao fascismo não foi demonstrado; lei de regime não basta sem exame de referentes.",
     "status": "bounded-provisional-substitution",
+    "catalogRecordsDeleted": false
+  },
+  {
+    "removedId": "ideology-technocracy",
+    "selectedId": "ideology-program-technocracy-inc-2004",
+    "reason": "Modelo hipotético sem endosso não qualifica doutrina afirmada; programa institucional explícito substitui o único slot tecnocrático, mantendo o antigo registro.",
+    "status": "bounded-provisional-substitution-new-explicit-program",
     "catalogRecordsDeleted": false
   }
 ] as const;
@@ -4583,5 +4642,32 @@ export const ideologyOntologyReviewGroups = [
       "bonaparte-napoleonic-program-1839"
     ],
     "reviewedOn": "2026-10-07"
+  },
+  {
+    "id": "transhumanist-policy-and-conditional-technocracy-scope",
+    "selectedIds": [
+      "civic-transhumanism"
+    ],
+    "status": "one-primary-normative-referent-nearest-contrast-open",
+    "scope": "Bostrom actual political policy program qualifies beyond enhancement ethics; Veblen conditional design separately read but excluded from normative-doctrine count because advocacy/legitimacy bracketed. Inc. program stays separate research, not attributed to this catalog identity. No additional pair or axis score inferred.",
+    "sourceIds": [
+      "bostrom-transhumanist-values-2005",
+      "humanityplus-declaration-adoption-2009",
+      "veblen-conditional-industrial-design-1921"
+    ],
+    "reviewedOn": "2026-10-08"
+  },
+  {
+    "id": "affirmative-technocratic-program-replaces-unqualified-prototype",
+    "selectedIds": [
+      "ideology-program-technocracy-inc-2004"
+    ],
+    "status": "one-primary-normative-referent-nearest-contrast-open",
+    "scope": "Affirmative political authority/social-economic program qualifies Inc 2004; Veblen conditional prototype preserved extra. This is ONE technocracy exemplar, not two independent doctrines. Nearest productive-authority comparisons incomplete; six documentary axes do not prove ontology independence.",
+    "sourceIds": [
+      "technocracy-functional-design-2004",
+      "veblen-conditional-industrial-design-1921"
+    ],
+    "reviewedOn": "2026-10-08"
   }
 ] as const;

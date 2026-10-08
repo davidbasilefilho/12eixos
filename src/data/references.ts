@@ -47,6 +47,15 @@ import { historicalCountryBatch08 } from './reference-historical-country-batch-0
 import { publicFigureBatch07 } from './reference-public-figure-batch-07';
 import { historicalFigureBatch07 } from './reference-historical-figure-batch-07';
 import { extendHistoricalCountryCoverage08 } from './reference-historical-country-coverage-08';
+import { publicFigureBatch08 } from './reference-public-figure-batch-08';
+import { publicFigureBatch09 } from './reference-public-figure-batch-09';
+import { historicalCountryBatch09 } from './reference-historical-country-batch-09';
+import { historicalCountryBatch10 } from './reference-historical-country-batch-10';
+import { ideologyProgramBatch01 } from './reference-ideology-program-batch-01';
+import { reconcileExistingIdeology01 } from './reference-existing-ideology-coverage-01';
+import { extendHistoricalCountryCoverage09 } from './reference-historical-country-coverage-09';
+import { reconcileLegacyPublicQuality02 } from './reference-legacy-public-quality-02';
+import { reviewCurrentCountryScope02 } from './reference-current-country-scope-review-02';
 
 export const AXIS_KEYS = ['est', 'rep', 'pod', 'imi', 'dip', 'int', 'eco', 'con', 'com', 'rel', 'mor', 'tec'] as const;
 export type AxisKey = (typeof AXIS_KEYS)[number];
@@ -567,6 +576,11 @@ export const referenceExpansionEntries: ReferenceEntry[] = [
   ...historicalCountryBatch08,
   ...publicFigureBatch07,
   ...historicalFigureBatch07,
+  ...publicFigureBatch08,
+  ...publicFigureBatch09,
+  ...historicalCountryBatch09,
+  ...historicalCountryBatch10,
+  ...ideologyProgramBatch01,
   ...currentCountryBatch.map(entry => ({ ...entry, coding: currentCountryBatchCoding[entry.id] })),
 ].map(prepareExpansionEntry);
 
@@ -574,4 +588,4 @@ export const referenceEntries: ReferenceEntry[] = [
   ...correctedBaseReferenceEntries,
   ...referenceExpansionEntries,
 ].map(reconcileHistoricalCountry03).map(reconcileCurrentCountry04).map(extendCurrentCountryCoverage05).map(reconcileHistoricalCountry04).map(reconcileSoros)
-  .map(entry => historicalLegacyRecoding.find(replacement => replacement.id === entry.id) ?? entry).map(withIdentityAliases).map(reconcileLegacyPublicQuality01).map(reconcileLegacyHistoricalQuality01).map(reviewCurrentCountryEconomicScope).map(extendHistoricalCountryCoverage08);
+  .map(entry => historicalLegacyRecoding.find(replacement => replacement.id === entry.id) ?? entry).map(withIdentityAliases).map(reconcileLegacyPublicQuality01).map(reconcileLegacyHistoricalQuality01).map(reviewCurrentCountryEconomicScope).map(extendHistoricalCountryCoverage08).map(reconcileExistingIdeology01).map(extendHistoricalCountryCoverage09).map(reconcileLegacyPublicQuality02).map(reviewCurrentCountryScope02);

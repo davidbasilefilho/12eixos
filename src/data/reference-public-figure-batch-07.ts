@@ -161,7 +161,7 @@ export const publicFigureBatch07Specs: PublicFigureBatch07Spec[] = [
         "reviewedOn": "2026-10-08"
       }
     ],
-    "caveats": "Declarações próprias, sem imputação por cargo ou governo. Resultados autodeclarados não certificados. Eixos não codificados desconhecidos; revisão documental independente delimitada aceita; julgamento final e integração pelo Root pendentes.",
+    "caveats": "Declarações próprias, sem imputação por cargo ou governo. Resultados autodeclarados não certificados. Eixos não codificados desconhecidos; revisão documental independente delimitada aceita.",
     "identityReview": "author-current-source-checked"
   },
   {
@@ -262,7 +262,7 @@ export const publicFigureBatch07Specs: PublicFigureBatch07Spec[] = [
         "reviewedOn": "2026-10-08"
       }
     ],
-    "caveats": "Programa conjunto explicitamente endossado; posição da candidatura, não prática nem crença privada. Identidade atual via publicação nominal datada; sem autenticação externa da conta. Eixos não codificados desconhecidos; revisão documental independente delimitada aceita; julgamento final e integração pelo Root pendentes.",
+    "caveats": "Programa conjunto explicitamente endossado; posição da candidatura, não prática nem crença privada. Identidade atual via publicação nominal datada; sem autenticação externa da conta. Eixos não codificados desconhecidos; revisão documental independente delimitada aceita.",
     "identityReview": "author-current-source-checked"
   }
 ];
