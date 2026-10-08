@@ -1,0 +1,29 @@
+# Países atuais — cobertura11 proposta
+
+Cinco IDs atuais existentes, sem expansão: Angola, Moçambique e Namíbia recebem propostasREL60; Maurício/Gâmbia recebem descrições políticas qualitativas sem scores. Três códigos,57 desconhecidos, zero elegíveis. Revisão independente concluída e Root aceitou os cinco perfis limitados. Congelado para próxima integração autorizada, sem importação pelo autor. O pacote preenche lacunas do inventário150, separadamente da elegibilidade por seis eixos.
+
+## Leitura efetiva do autor
+
+Angola: [PDFAssembleia](https://portaladmin.parlamento.ao/storage/dropzone/image/2023_08_01/20230801_134612_CONSTITUI%C3%87%C3%83O%20DA%20REP%C3%9ABLICA%20DE%20ANGOLA%202010%20%28Rep%C3%BAblica%C3%A7%C3%A3o%29.pdf),164p. Capa/ficha/Lei18/21 lidas diretamente mostram republicação2021, apesar do2010noarquivo;1e10(1–3) inteiros indexados lidos. Reabertura/findfalharamInternalError. Separação religiosa geral com reconhecimento/proteção das confissões sob lei/ordem pública. Não164p/prática2026 integral.
+
+Moçambique: [PDFAssembleia](https://www.parlamento.mz/wp-content/uploads/2022/08/Constittuicao_Republica.pdf),144p. Preâmbulo/1–22 e300/311/313/assinaturas diretos efetivamente lidos;12(1–4) inteiro indexado também. Separação acompanha reconhecimento/valorização estatal da atividade religiosa social. Corpo inclui desenho descentralizado e eleições previstas2018–2024; data editorial não comprovada. Campo final promulgação2014 conflita com aprovação2004/assinaturaChissano e permanece erro declarado, sem corrigir por palpite. Upload2022 não prova publicação normativa. Não execução eleitoral2024 ou consolidação2026 inteira.
+
+Namíbia: [MissãoONUcap1](https://www.un.int/namibia/namibia/chapter-1-republic)1(1–6)/2/3 indexados oferecidos inteiros lidos; diretoInternalError. [Cap3](https://www.un.int/namibia/namibia/chapter-3-fundamental-human-rights-and-freedoms) ofereceu5–25 efetivamente lidos,17truncado/alíneas21formatadas não recertificadas.1defineRepúblicasecular e territórioWalvisBay;21religião com limites legais21(2), cultura19condicionada e inderrogabilidade24(3) contrapostos. Data editorial não comprovada, sem certificação das emendas2026. PDFECNannotated2021 diretofalhou, comentários históricos oferecidos não substituem primárias citadas ou versão completa.
+
+Maurício: [NHRCatribuições](https://nhrc.govmu.org/nhrc/human-rights-division/) corpo oferecido inteiro lido: investigação de queixas contra agentes públicos e encaminhamento de novas provas criminais. Não sucesso das queixas ou texto integral das leis1998/2013. [NHRCconstituição](https://nhrc.govmu.org/Documents/Legislation/THE%20CONSTITUTION%201968%20%281%29.pdf)1–3 inteiros indexados lidos: República soberana, supremacia e direitos limitados por interesse público;1anota48/1991. PDFAssembleiaupdated2025 abriu131p/header, corpo não recuperado, não certificação2025. CópiasAttorneyGeneral/Treasury divergiram11(2) e não foram usadas parascoreREL. Sem data de consolidação provada, só descrição qualitativa institucional.
+
+Gâmbia: [PDFAssembleia1997reprinted2002](https://www.assembly.gm/wp-content/uploads/2021/12/CONSTITUTION-OF-THE-GAMBIA-1997.pdf), diretoInternalError. Header/preâmbulo/1(1–2)/2–3 inteiros indexados lidos.1RepúblicaSecular anotada6/2001, não original1997 presumido; invocação divina/endosso1994 no preâmbulo não prova democracia cumprida. [PáginaAssembleia](https://assembly.gm/index.php) corpo oferecido lido identifica legislatura unicameral/República e disponibiliza1997como lei suprema. Calendário com12Outubroinprogress antes dessa data excluído como prova de sessões. Projeto2020/2024 não tratado como norma vigente. Semscoregeral.
+
+## Preservação e validação
+
+`currentCountryCoverage11Before` contém exatamente cinco registros completos capturadosLIVE antes da proposta. Fontes anteriores retidas intactas e na mesma ordem. GuardaJSONinteira protege revisões úteis posteriores, incluindo alterações somente de textos/fontes. Desconhecidos permanecem50 sem evidência/mapa/código e notas visíveis usam linguagem documental simples, sem nomes internos ou números legados. Claims numéricos só onde direção constitucional geral explícita; nenhum sexto eixo forçado. Typecheck passou; teste comportamental registra os mesmos trêsREL/doisqual0 e preservação/idempotência após materialização. Revisão independente pendente.
+
+## Cotejo independente efetivamente realizado — aceitaçãoRoot final
+
+/root/method_review releu Angola Art10(1–3)/11 completos indexados; Namíbia MissãoONU capítulo1 inteiro oferecido1–3 e capítulo3 oferecido5–25, sem certificar17truncado/21malformatado. Moçambique foi cotejado no URLALTERNATIVO https://www.parlamento.mz/wp-content/uploads/2022/08/Legislacao_Basica.pdf: Art12(1–4),13/14/15(1) oferecidos indexados, rodapép16Assembleia. Esse cotejo confirma cláusula religiosa e contrapontos, não a data editorial/equivalência integral ao Constittuicao_Republica.pdf lido pelo autor.
+
+Maurício: pesquisador recuperou o corpo completo NHRC HRD indexado, inclusive agentes públicos, encaminhamento de provas novas e regras/limites do procedimento, após diretoapenasmetadado e timeout. Gâmbia: corpo indexado completo oferecido fim do preâmbulo+1(1–2)anotação6/2001+2+3(1). Cabeçalho reprinted2002 permanece leituraautoral anterior; não nova leitura do revisor. Nem bibliografia, nem declaração do preâmbulo, nem calendário inconsistente provam execução democrática. URL/versão/modo específicos permanecem distintos; Root aceitou os cinco perfis limitados, preservando exatamente estes escopos separados.
+
+## Congelamento final
+
+AceitoRoot: cinco identidades existentes, três códigosREL60, dois perfis qualitativos,57 eixos desconhecidos e zero elegíveis. Snapshotliteral de cada registro anterior e todossourceobjects preservados. Nenhuma prática2026 geral/mesmaediçãoMoçambique/headerGâmbia do revisor acrescentados por inferência. Cotejo12 ainda pendente e separado.

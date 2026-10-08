@@ -1,6 +1,6 @@
 # Proveniência política histórica — qualidade07
 
-Status: aceito pelo Root após revisão independente; isolado e não importado, congelado até liberação explícita após o checkpoint818. Cinco perfis existentes, zero novas identidades. MarxECO/CON60, EinsteinECO/CON60, RousseauREP60, WollstonecraftMOR60; Douglass qualitativo0. Seis códigos moderados/54 desconhecidos, todos abaixo do gate6.
+Status: aceito pelo Root após revisão independente e integrado no checkpoint75af08d7593226d8892e55986d1ef496825d4519; a seleção original818 permanece arquivada. Cinco perfis existentes, zero novas identidades. MarxECO/CON60, EinsteinECO/CON60, RousseauREP60, WollstonecraftMOR60; Douglass qualitativo0. Seis códigos moderados/54 desconhecidos, todos abaixo do gate6.
 
 IDs vivos0coding verificados e reservados:karl-marx,albert-einstein,jean-jacques-rousseau,mary-wollstonecraft,frederick-douglass. Baselines completos emlegacyHistoricalQuality07OriginalRecords, incluindo todas fontes/mapas/valores. GuardJSONliteral deTODOobjeto protege qualquer alteração útilposterior; fonteunion retém notas antigas inteiras. Novosvaloresnão reinterpretam biografias/rótulos. Metadados antigos não revalidados permanecem no arquivo original, desconhecidos novos50 semmetadata. Não disproveopiniões históricas.
 

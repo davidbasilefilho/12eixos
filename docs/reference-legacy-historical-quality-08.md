@@ -1,6 +1,6 @@
 # Proveniência política histórica — qualidade08
 
-Aceito pelo Root após revisão independente, módulo isolado e não importado até liberação explícita. Cinco pessoas existentes: Engels ECO60/CON60, Luxemburg REP60/POD40, Jinnah REL60; Cabral e Fanon qualitativos sem códigos. Cinco códigos moderados,55desconhecidos,zero novos IDs e nenhum perfil elegível. Gate6 inalterado.
+Aceito pelo Root após revisão independente e integrado no checkpoint75af08d7593226d8892e55986d1ef496825d4519; a seleção original818 permanece arquivada. Cinco pessoas existentes: Engels ECO60/CON60, Luxemburg REP60/POD40, Jinnah REL60; Cabral e Fanon qualitativos sem códigos. Cinco códigos moderados,55desconhecidos,zero novos IDs e nenhum perfil elegível. Gate6 inalterado.
 
 Objetos completos vivos sem coding capturados em legacyHistoricalQuality08OriginalRecords. Reconciliador reconcileLegacyHistoricalQuality08 exige igualdade JSON literal de todo objeto; preserva mudanças posteriores e reaplicação. União de fontes conserva todos objetos anteriores, não substitui notas. Valores/metadados legados não revalidados arquivados; novos desconhecidos50 sem evidência. Não inferir opinião da biografia, previsão ou descrição histórica.
 

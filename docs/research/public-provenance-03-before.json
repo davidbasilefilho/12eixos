@@ -1,0 +1,342 @@
+{
+  "capturedOn": "2026-10-08",
+  "scope": "Full actual five existing objects before isolated provenance03 overlay",
+  "entries": [
+    {
+      "id": "claudia-sheinbaum",
+      "kind": "person",
+      "category": "public-figure",
+      "name": "Claudia Sheinbaum",
+      "period": "Presidência do México e informes públicos, 2024–2026",
+      "vec": {
+        "est": 50,
+        "rep": 76,
+        "pod": 50,
+        "imi": 50,
+        "dip": 50,
+        "int": 50,
+        "eco": 70,
+        "con": 69,
+        "com": 50,
+        "rel": 50,
+        "mor": 68,
+        "tec": 71
+      },
+      "rationale": "O informe presidencial apresenta continuidade de políticas sociais, soberania, serviços públicos e inovação energética e científica.",
+      "caveats": "Fonte de autodescrição governamental não mede implementação independente; o período é o mandato em curso em 2026.",
+      "sources": [
+        {
+          "title": "Segundo Informe de Gobierno, 2026",
+          "url": "https://www.gob.mx/presidencia/es/articulos/version-estenografica-segundo-informe-de-gobierno-de-la-presidenta-claudia-sheinbaum-pardo?idiom=es",
+          "note": "Transcrição oficial do informe de 1 de setembro de 2026, pronunciado pela presidente."
+        }
+      ],
+      "evidence": {
+        "rep": "medium",
+        "eco": "medium",
+        "con": "medium",
+        "mor": "medium",
+        "tec": "medium"
+      },
+      "axisEvidence": {
+        "rep": {
+          "sourceTitles": [
+            "Segundo Informe de Gobierno, 2026"
+          ],
+          "rationale": "Transcrição oficial do informe de 1 de setembro de 2026, pronunciado pela presidente. O informe presidencial apresenta continuidade de políticas sociais, soberania, serviços públicos e inovação energética e científica. A direção editorial deste eixo é Democracia, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "eco": {
+          "sourceTitles": [
+            "Segundo Informe de Gobierno, 2026"
+          ],
+          "rationale": "Transcrição oficial do informe de 1 de setembro de 2026, pronunciado pela presidente. O informe presidencial apresenta continuidade de políticas sociais, soberania, serviços públicos e inovação energética e científica. A direção editorial deste eixo é Público, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "con": {
+          "sourceTitles": [
+            "Segundo Informe de Gobierno, 2026"
+          ],
+          "rationale": "Transcrição oficial do informe de 1 de setembro de 2026, pronunciado pela presidente. O informe presidencial apresenta continuidade de políticas sociais, soberania, serviços públicos e inovação energética e científica. A direção editorial deste eixo é Planejamento, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "mor": {
+          "sourceTitles": [
+            "Segundo Informe de Gobierno, 2026"
+          ],
+          "rationale": "Transcrição oficial do informe de 1 de setembro de 2026, pronunciado pela presidente. O informe presidencial apresenta continuidade de políticas sociais, soberania, serviços públicos e inovação energética e científica. A direção editorial deste eixo é Progressista, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "tec": {
+          "sourceTitles": [
+            "Segundo Informe de Gobierno, 2026"
+          ],
+          "rationale": "Transcrição oficial do informe de 1 de setembro de 2026, pronunciado pela presidente. O informe presidencial apresenta continuidade de políticas sociais, soberania, serviços públicos e inovação energética e científica. A direção editorial deste eixo é Tecnologia, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        }
+      }
+    },
+    {
+      "id": "ursula-von-der-leyen",
+      "kind": "person",
+      "category": "public-figure",
+      "name": "Ursula von der Leyen",
+      "period": "Diretrizes da Comissão Europeia, 2024–2029",
+      "vec": {
+        "est": 70,
+        "rep": 85,
+        "pod": 65,
+        "imi": 50,
+        "dip": 64,
+        "int": 36,
+        "eco": 54,
+        "con": 50,
+        "com": 47,
+        "rel": 50,
+        "mor": 50,
+        "tec": 77
+      },
+      "rationale": "As diretrizes combinam fortalecimento democrático europeu, defesa, transição verde, coesão social e soberania tecnológica.",
+      "caveats": "É uma agenda institucional europeia apresentada pela presidente da Comissão, não uma medida de suas preferências individuais.",
+      "sources": [
+        {
+          "title": "Political Guidelines 2024–2029",
+          "url": "https://commission.europa.eu/document/download/e6cd4328-673c-4e7a-8683-f63ffb2cf648_en?filename=Political+Guidelines+2024-2029_EN.pdf",
+          "note": "Documento primário apresentado por von der Leyen ao Parlamento Europeu para o mandato."
+        }
+      ],
+      "evidence": {
+        "est": "medium",
+        "rep": "high",
+        "pod": "medium",
+        "dip": "medium",
+        "int": "medium",
+        "eco": "medium",
+        "com": "medium",
+        "tec": "medium"
+      },
+      "axisEvidence": {
+        "est": {
+          "sourceTitles": [
+            "Political Guidelines 2024–2029"
+          ],
+          "rationale": "Documento primário apresentado por von der Leyen ao Parlamento Europeu para o mandato. As diretrizes combinam fortalecimento democrático europeu, defesa, transição verde, coesão social e soberania tecnológica. A direção editorial deste eixo é Federal, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "rep": {
+          "sourceTitles": [
+            "Political Guidelines 2024–2029"
+          ],
+          "rationale": "Documento primário apresentado por von der Leyen ao Parlamento Europeu para o mandato. As diretrizes combinam fortalecimento democrático europeu, defesa, transição verde, coesão social e soberania tecnológica. A direção editorial deste eixo é Democracia, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "pod": {
+          "sourceTitles": [
+            "Political Guidelines 2024–2029"
+          ],
+          "rationale": "Documento primário apresentado por von der Leyen ao Parlamento Europeu para o mandato. As diretrizes combinam fortalecimento democrático europeu, defesa, transição verde, coesão social e soberania tecnológica. A direção editorial deste eixo é Segurança, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "dip": {
+          "sourceTitles": [
+            "Political Guidelines 2024–2029"
+          ],
+          "rationale": "Documento primário apresentado por von der Leyen ao Parlamento Europeu para o mandato. As diretrizes combinam fortalecimento democrático europeu, defesa, transição verde, coesão social e soberania tecnológica. A direção editorial deste eixo é Militarista, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "int": {
+          "sourceTitles": [
+            "Political Guidelines 2024–2029"
+          ],
+          "rationale": "Documento primário apresentado por von der Leyen ao Parlamento Europeu para o mandato. As diretrizes combinam fortalecimento democrático europeu, defesa, transição verde, coesão social e soberania tecnológica. A direção editorial deste eixo é Nacionalista, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "eco": {
+          "sourceTitles": [
+            "Political Guidelines 2024–2029"
+          ],
+          "rationale": "Documento primário apresentado por von der Leyen ao Parlamento Europeu para o mandato. As diretrizes combinam fortalecimento democrático europeu, defesa, transição verde, coesão social e soberania tecnológica. A direção editorial deste eixo é Público, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "com": {
+          "sourceTitles": [
+            "Political Guidelines 2024–2029"
+          ],
+          "rationale": "Documento primário apresentado por von der Leyen ao Parlamento Europeu para o mandato. As diretrizes combinam fortalecimento democrático europeu, defesa, transição verde, coesão social e soberania tecnológica. A direção editorial deste eixo é Globalismo, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "tec": {
+          "sourceTitles": [
+            "Political Guidelines 2024–2029"
+          ],
+          "rationale": "Documento primário apresentado por von der Leyen ao Parlamento Europeu para o mandato. As diretrizes combinam fortalecimento democrático europeu, defesa, transição verde, coesão social e soberania tecnológica. A direção editorial deste eixo é Tecnologia, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        }
+      }
+    },
+    {
+      "id": "malala-yousafzai",
+      "kind": "person",
+      "category": "public-figure",
+      "name": "Malala Yousafzai",
+      "period": "Discursos e atuação pelo direito à educação, 2013–2026",
+      "vec": {
+        "est": 50,
+        "rep": 50,
+        "pod": 50,
+        "imi": 50,
+        "dip": 50,
+        "int": 50,
+        "eco": 50,
+        "con": 50,
+        "com": 50,
+        "rel": 50,
+        "mor": 50,
+        "tec": 50
+      },
+      "rationale": "Sua defesa documentada da educação de meninas é relevante ao debate público, mas não sustenta inferências nos doze eixos do modelo.",
+      "caveats": "Vetor central por falta de evidência política comparável; não use este perfil como indicador de ideologia, religião ou alinhamento.",
+      "sources": [
+        {
+          "title": "Discurso de aceitação do Nobel da Paz, 2014",
+          "url": "https://www.nobelprize.org/prizes/peace/2014/yousafzai/lecture/",
+          "note": "Discurso primário de Malala sobre educação e direitos, sem programa que permita estimar os demais eixos."
+        }
+      ],
+      "evidence": {},
+      "axisEvidence": {}
+    },
+    {
+      "id": "alexandria-ocasio-cortez",
+      "kind": "person",
+      "category": "public-figure",
+      "name": "Alexandria Ocasio-Cortez",
+      "period": "Atuação parlamentar e plataformas públicas, 2019–2026",
+      "vec": {
+        "est": 50,
+        "rep": 92,
+        "pod": 50,
+        "imi": 50,
+        "dip": 32,
+        "int": 50,
+        "eco": 76,
+        "con": 78,
+        "com": 50,
+        "rel": 50,
+        "mor": 90,
+        "tec": 68
+      },
+      "rationale": "Projetos e propostas públicas ligam justiça climática, direitos do trabalho, saúde universal e participação democrática.",
+      "caveats": "Propostas legislativas representam prioridades defendidas, não leis aprovadas nem visão total de uma pessoa.",
+      "sources": [
+        {
+          "title": "Plataforma legislativa oficial",
+          "url": "https://ocasio-cortez.house.gov/issues",
+          "note": "Página do gabinete no Congresso sobre clima, economia, direitos civis e serviços públicos."
+        }
+      ],
+      "evidence": {
+        "rep": "high",
+        "dip": "medium",
+        "eco": "medium",
+        "con": "medium",
+        "mor": "medium",
+        "tec": "medium"
+      },
+      "axisEvidence": {
+        "rep": {
+          "sourceTitles": [
+            "Plataforma legislativa oficial"
+          ],
+          "rationale": "Página do gabinete no Congresso sobre clima, economia, direitos civis e serviços públicos. Projetos e propostas públicas ligam justiça climática, direitos do trabalho, saúde universal e participação democrática. A direção editorial deste eixo é Democracia, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "dip": {
+          "sourceTitles": [
+            "Plataforma legislativa oficial"
+          ],
+          "rationale": "Página do gabinete no Congresso sobre clima, economia, direitos civis e serviços públicos. Projetos e propostas públicas ligam justiça climática, direitos do trabalho, saúde universal e participação democrática. A direção editorial deste eixo é Pacifista, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "eco": {
+          "sourceTitles": [
+            "Plataforma legislativa oficial"
+          ],
+          "rationale": "Página do gabinete no Congresso sobre clima, economia, direitos civis e serviços públicos. Projetos e propostas públicas ligam justiça climática, direitos do trabalho, saúde universal e participação democrática. A direção editorial deste eixo é Público, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "con": {
+          "sourceTitles": [
+            "Plataforma legislativa oficial"
+          ],
+          "rationale": "Página do gabinete no Congresso sobre clima, economia, direitos civis e serviços públicos. Projetos e propostas públicas ligam justiça climática, direitos do trabalho, saúde universal e participação democrática. A direção editorial deste eixo é Planejamento, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "mor": {
+          "sourceTitles": [
+            "Plataforma legislativa oficial"
+          ],
+          "rationale": "Página do gabinete no Congresso sobre clima, economia, direitos civis e serviços públicos. Projetos e propostas públicas ligam justiça climática, direitos do trabalho, saúde universal e participação democrática. A direção editorial deste eixo é Progressista, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "tec": {
+          "sourceTitles": [
+            "Plataforma legislativa oficial"
+          ],
+          "rationale": "Página do gabinete no Congresso sobre clima, economia, direitos civis e serviços públicos. Projetos e propostas públicas ligam justiça climática, direitos do trabalho, saúde universal e participação democrática. A direção editorial deste eixo é Tecnologia, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        }
+      }
+    },
+    {
+      "id": "elizabeth-warren",
+      "kind": "person",
+      "category": "public-figure",
+      "name": "Elizabeth Warren",
+      "period": "Propostas e atuação no Senado dos EUA, 2013–2026",
+      "vec": {
+        "est": 50,
+        "rep": 88,
+        "pod": 50,
+        "imi": 50,
+        "dip": 50,
+        "int": 50,
+        "eco": 67,
+        "con": 65,
+        "com": 50,
+        "rel": 50,
+        "mor": 78,
+        "tec": 76
+      },
+      "rationale": "Propostas legislativas defendem regulação antimonopólio, proteção do consumidor, serviços sociais e regras para tecnologia.",
+      "caveats": "Uma plataforma legislativa não descreve sua efetividade nem determina posições em todas as dimensões do instrumento.",
+      "sources": [
+        {
+          "title": "Issues and legislation",
+          "url": "https://www.warren.senate.gov/issues",
+          "note": "Página institucional de Warren para suas propostas legislativas e áreas de atuação."
+        }
+      ],
+      "evidence": {
+        "rep": "medium",
+        "eco": "medium",
+        "con": "medium",
+        "mor": "medium",
+        "tec": "medium"
+      },
+      "axisEvidence": {
+        "rep": {
+          "sourceTitles": [
+            "Issues and legislation"
+          ],
+          "rationale": "Página institucional de Warren para suas propostas legislativas e áreas de atuação. Propostas legislativas defendem regulação antimonopólio, proteção do consumidor, serviços sociais e regras para tecnologia. A direção editorial deste eixo é Democracia, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "eco": {
+          "sourceTitles": [
+            "Issues and legislation"
+          ],
+          "rationale": "Página institucional de Warren para suas propostas legislativas e áreas de atuação. Propostas legislativas defendem regulação antimonopólio, proteção do consumidor, serviços sociais e regras para tecnologia. A direção editorial deste eixo é Público, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "con": {
+          "sourceTitles": [
+            "Issues and legislation"
+          ],
+          "rationale": "Página institucional de Warren para suas propostas legislativas e áreas de atuação. Propostas legislativas defendem regulação antimonopólio, proteção do consumidor, serviços sociais e regras para tecnologia. A direção editorial deste eixo é Planejamento, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "mor": {
+          "sourceTitles": [
+            "Issues and legislation"
+          ],
+          "rationale": "Página institucional de Warren para suas propostas legislativas e áreas de atuação. Propostas legislativas defendem regulação antimonopólio, proteção do consumidor, serviços sociais e regras para tecnologia. A direção editorial deste eixo é Progressista, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "tec": {
+          "sourceTitles": [
+            "Issues and legislation"
+          ],
+          "rationale": "Página institucional de Warren para suas propostas legislativas e áreas de atuação. Propostas legislativas defendem regulação antimonopólio, proteção do consumidor, serviços sociais e regras para tecnologia. A direção editorial deste eixo é Tecnologia, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,331 @@
+{
+  "capturedOn": "2026-10-08",
+  "scope": "Full actual five existing records before proposed provenance02 overlay; no active import",
+  "entries": [
+    {
+      "id": "bernie-sanders",
+      "kind": "person",
+      "category": "public-figure",
+      "name": "Bernie Sanders",
+      "period": "Atuação legislativa e propostas públicas, 2019–2025",
+      "vec": {
+        "est": 50,
+        "rep": 50,
+        "pod": 50,
+        "imi": 50,
+        "dip": 50,
+        "int": 50,
+        "eco": 79,
+        "con": 82,
+        "com": 50,
+        "rel": 50,
+        "mor": 91,
+        "tec": 62
+      },
+      "rationale": "Saúde universal, ação climática e fortalecimento do trabalho aproximam perfis favoráveis a serviços públicos e democracia.",
+      "caveats": "Posições pessoais não foram diretamente medidas pelo questionário; eixo a eixo há inferência editorial e temas sem evidência ficam próximos do centro.",
+      "sources": [
+        {
+          "title": "Temas e propostas do senador Sanders",
+          "url": "https://www.sanders.senate.gov/issues/",
+          "note": "Declarações do próprio gabinete sobre saúde, clima, trabalho e direitos."
+        }
+      ],
+      "evidence": {
+        "rep": "medium",
+        "eco": "high",
+        "con": "high",
+        "mor": "high",
+        "tec": "medium"
+      },
+      "axisEvidence": {
+        "eco": {
+          "sourceTitles": [
+            "Temas e propostas do senador Sanders"
+          ],
+          "rationale": "O gabinete propõe seguro de saúde universal, salário mínimo mais alto, seguridade social e serviços públicos, sustentando maior provisão pública."
+        },
+        "con": {
+          "sourceTitles": [
+            "Temas e propostas do senador Sanders"
+          ],
+          "rationale": "A fonte defende regras contra concentração empresarial, negociação coletiva e regulação de setores essenciais, apoiando uma inclinação ao planejamento público."
+        },
+        "mor": {
+          "sourceTitles": [
+            "Temas e propostas do senador Sanders"
+          ],
+          "rationale": "As propostas incluem igualdade racial, direitos trabalhistas, saúde universal e proteção de minorias, sustentando a direção progressista."
+        },
+        "tec": {
+          "sourceTitles": [
+            "Temas e propostas do senador Sanders"
+          ],
+          "rationale": "O senador defende ampliar acesso à banda larga, proteger neutralidade da rede e investir em infraestrutura digital, sustentando uma inclinação tecnológica moderada."
+        }
+      }
+    },
+    {
+      "id": "william-ruto",
+      "kind": "person",
+      "category": "public-figure",
+      "name": "William Ruto",
+      "period": "Presidência do Quênia e agenda pública, 2022–2026",
+      "vec": {
+        "est": 50,
+        "rep": 66,
+        "pod": 50,
+        "imi": 50,
+        "dip": 52,
+        "int": 50,
+        "eco": 48,
+        "con": 50,
+        "com": 50,
+        "rel": 50,
+        "mor": 50,
+        "tec": 64
+      },
+      "rationale": "A agenda de governo combina empreendedorismo, ação climática e segurança econômica; os demais eixos permanecem sem direção forte documentada.",
+      "caveats": "A plataforma presidencial e a prática estatal não são equivalentes; a seleção de políticas não permite inferir opiniões pessoais.",
+      "sources": [
+        {
+          "title": "Discursos e agenda presidencial",
+          "url": "https://www.president.go.ke/speeches/",
+          "note": "Portal oficial da Presidência do Quênia, com declarações e prioridades atribuídas ao presidente."
+        }
+      ],
+      "evidence": {
+        "rep": "medium",
+        "dip": "medium",
+        "eco": "medium",
+        "tec": "medium"
+      },
+      "axisEvidence": {
+        "rep": {
+          "sourceTitles": [
+            "Discursos e agenda presidencial"
+          ],
+          "rationale": "Portal oficial da Presidência do Quênia, com declarações e prioridades atribuídas ao presidente. A agenda de governo combina empreendedorismo, ação climática e segurança econômica; os demais eixos permanecem sem direção forte documentada. A direção editorial deste eixo é Democracia, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "dip": {
+          "sourceTitles": [
+            "Discursos e agenda presidencial"
+          ],
+          "rationale": "Portal oficial da Presidência do Quênia, com declarações e prioridades atribuídas ao presidente. A agenda de governo combina empreendedorismo, ação climática e segurança econômica; os demais eixos permanecem sem direção forte documentada. A direção editorial deste eixo é Militarista, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "eco": {
+          "sourceTitles": [
+            "Discursos e agenda presidencial"
+          ],
+          "rationale": "Portal oficial da Presidência do Quênia, com declarações e prioridades atribuídas ao presidente. A agenda de governo combina empreendedorismo, ação climática e segurança econômica; os demais eixos permanecem sem direção forte documentada. A direção editorial deste eixo é Privado, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "tec": {
+          "sourceTitles": [
+            "Discursos e agenda presidencial"
+          ],
+          "rationale": "Portal oficial da Presidência do Quênia, com declarações e prioridades atribuídas ao presidente. A agenda de governo combina empreendedorismo, ação climática e segurança econômica; os demais eixos permanecem sem direção forte documentada. A direção editorial deste eixo é Tecnologia, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        }
+      }
+    },
+    {
+      "id": "duma-boko",
+      "kind": "person",
+      "category": "public-figure",
+      "name": "Duma Boko",
+      "period": "Presidência e compromissos públicos de Botsuana, 2024–2026",
+      "vec": {
+        "est": 50,
+        "rep": 78,
+        "pod": 50,
+        "imi": 50,
+        "dip": 50,
+        "int": 50,
+        "eco": 58,
+        "con": 50,
+        "com": 50,
+        "rel": 50,
+        "mor": 62,
+        "tec": 50
+      },
+      "rationale": "A plataforma eleitoral e os discursos de posse dão suporte a compromissos de alternância democrática, criação de emprego e inclusão.",
+      "caveats": "Compromissos eleitorais não são resultados de governo; posições sem ligação direta aos documentos citados ficam no centro.",
+      "sources": [
+        {
+          "title": "Discursos e informação presidencial",
+          "url": "https://www.gov.bw/",
+          "note": "Portal oficial do governo de Botsuana, incluindo informação e pronunciamentos presidenciais."
+        }
+      ],
+      "evidence": {
+        "rep": "medium",
+        "eco": "medium",
+        "mor": "medium"
+      },
+      "axisEvidence": {
+        "rep": {
+          "sourceTitles": [
+            "Discursos e informação presidencial"
+          ],
+          "rationale": "Portal oficial do governo de Botsuana, incluindo informação e pronunciamentos presidenciais. A plataforma eleitoral e os discursos de posse dão suporte a compromissos de alternância democrática, criação de emprego e inclusão. A direção editorial deste eixo é Democracia, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "eco": {
+          "sourceTitles": [
+            "Discursos e informação presidencial"
+          ],
+          "rationale": "Portal oficial do governo de Botsuana, incluindo informação e pronunciamentos presidenciais. A plataforma eleitoral e os discursos de posse dão suporte a compromissos de alternância democrática, criação de emprego e inclusão. A direção editorial deste eixo é Público, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "mor": {
+          "sourceTitles": [
+            "Discursos e informação presidencial"
+          ],
+          "rationale": "Portal oficial do governo de Botsuana, incluindo informação e pronunciamentos presidenciais. A plataforma eleitoral e os discursos de posse dão suporte a compromissos de alternância democrática, criação de emprego e inclusão. A direção editorial deste eixo é Progressista, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        }
+      }
+    },
+    {
+      "id": "lai-ching-te",
+      "kind": "person",
+      "category": "public-figure",
+      "name": "Lai Ching-te",
+      "period": "Presidência de Taiwan e plataforma do DPP, 2024–2026",
+      "vec": {
+        "est": 50,
+        "rep": 82,
+        "pod": 50,
+        "imi": 50,
+        "dip": 53,
+        "int": 39,
+        "eco": 50,
+        "con": 50,
+        "com": 50,
+        "rel": 67,
+        "mor": 71,
+        "tec": 69
+      },
+      "rationale": "A plataforma democrática e a defesa da autonomia de Taiwan sustentam democracia, pluralismo e segurança; o restante recebe evidência mais limitada.",
+      "caveats": "A posição internacional é sensível a contexto e não se traduz sem perda ao eixo de não intervenção; descreve discurso e plataforma públicos.",
+      "sources": [
+        {
+          "title": "Discursos presidenciais de Taiwan",
+          "url": "https://english.president.gov.tw/News",
+          "note": "Arquivo oficial com discursos de Lai sobre democracia, segurança, direitos e tecnologia."
+        }
+      ],
+      "evidence": {
+        "rep": "high",
+        "dip": "medium",
+        "int": "medium",
+        "rel": "medium",
+        "mor": "medium",
+        "tec": "medium"
+      },
+      "axisEvidence": {
+        "rep": {
+          "sourceTitles": [
+            "Discursos presidenciais de Taiwan"
+          ],
+          "rationale": "Arquivo oficial com discursos de Lai sobre democracia, segurança, direitos e tecnologia. A plataforma democrática e a defesa da autonomia de Taiwan sustentam democracia, pluralismo e segurança; o restante recebe evidência mais limitada. A direção editorial deste eixo é Democracia, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "dip": {
+          "sourceTitles": [
+            "Discursos presidenciais de Taiwan"
+          ],
+          "rationale": "Arquivo oficial com discursos de Lai sobre democracia, segurança, direitos e tecnologia. A plataforma democrática e a defesa da autonomia de Taiwan sustentam democracia, pluralismo e segurança; o restante recebe evidência mais limitada. A direção editorial deste eixo é Militarista, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "int": {
+          "sourceTitles": [
+            "Discursos presidenciais de Taiwan"
+          ],
+          "rationale": "Arquivo oficial com discursos de Lai sobre democracia, segurança, direitos e tecnologia. A plataforma democrática e a defesa da autonomia de Taiwan sustentam democracia, pluralismo e segurança; o restante recebe evidência mais limitada. A direção editorial deste eixo é Nacionalista, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "rel": {
+          "sourceTitles": [
+            "Discursos presidenciais de Taiwan"
+          ],
+          "rationale": "Arquivo oficial com discursos de Lai sobre democracia, segurança, direitos e tecnologia. A plataforma democrática e a defesa da autonomia de Taiwan sustentam democracia, pluralismo e segurança; o restante recebe evidência mais limitada. A direção editorial deste eixo é Irreligioso, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "mor": {
+          "sourceTitles": [
+            "Discursos presidenciais de Taiwan"
+          ],
+          "rationale": "Arquivo oficial com discursos de Lai sobre democracia, segurança, direitos e tecnologia. A plataforma democrática e a defesa da autonomia de Taiwan sustentam democracia, pluralismo e segurança; o restante recebe evidência mais limitada. A direção editorial deste eixo é Progressista, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "tec": {
+          "sourceTitles": [
+            "Discursos presidenciais de Taiwan"
+          ],
+          "rationale": "Arquivo oficial com discursos de Lai sobre democracia, segurança, direitos e tecnologia. A plataforma democrática e a defesa da autonomia de Taiwan sustentam democracia, pluralismo e segurança; o restante recebe evidência mais limitada. A direção editorial deste eixo é Tecnologia, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        }
+      }
+    },
+    {
+      "id": "anwar-ibrahim",
+      "kind": "person",
+      "category": "public-figure",
+      "name": "Anwar Ibrahim",
+      "period": "Discursos e governo da Malásia, 2022–2026",
+      "vec": {
+        "est": 50,
+        "rep": 73,
+        "pod": 50,
+        "imi": 50,
+        "dip": 50,
+        "int": 50,
+        "eco": 62,
+        "con": 61,
+        "com": 50,
+        "rel": 50,
+        "mor": 57,
+        "tec": 68
+      },
+      "rationale": "A agenda Malaysia MADANI enfatiza compaixão, sustentabilidade, inovação, respeito, confiança e prosperidade compartilhada.",
+      "caveats": "O marco é autodescrito pelo governo; a execução em uma coalizão e em um sistema plural exige análise própria.",
+      "sources": [
+        {
+          "title": "Malaysia MADANI framework",
+          "url": "https://malaysiamadani.gov.my/",
+          "note": "Documento oficial de políticas anunciado pelo governo liderado por Anwar Ibrahim."
+        }
+      ],
+      "evidence": {
+        "rep": "medium",
+        "eco": "medium",
+        "con": "medium",
+        "mor": "medium",
+        "tec": "medium"
+      },
+      "axisEvidence": {
+        "rep": {
+          "sourceTitles": [
+            "Malaysia MADANI framework"
+          ],
+          "rationale": "Documento oficial de políticas anunciado pelo governo liderado por Anwar Ibrahim. A agenda Malaysia MADANI enfatiza compaixão, sustentabilidade, inovação, respeito, confiança e prosperidade compartilhada. A direção editorial deste eixo é Democracia, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "eco": {
+          "sourceTitles": [
+            "Malaysia MADANI framework"
+          ],
+          "rationale": "Documento oficial de políticas anunciado pelo governo liderado por Anwar Ibrahim. A agenda Malaysia MADANI enfatiza compaixão, sustentabilidade, inovação, respeito, confiança e prosperidade compartilhada. A direção editorial deste eixo é Público, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "con": {
+          "sourceTitles": [
+            "Malaysia MADANI framework"
+          ],
+          "rationale": "Documento oficial de políticas anunciado pelo governo liderado por Anwar Ibrahim. A agenda Malaysia MADANI enfatiza compaixão, sustentabilidade, inovação, respeito, confiança e prosperidade compartilhada. A direção editorial deste eixo é Planejamento, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "mor": {
+          "sourceTitles": [
+            "Malaysia MADANI framework"
+          ],
+          "rationale": "Documento oficial de políticas anunciado pelo governo liderado por Anwar Ibrahim. A agenda Malaysia MADANI enfatiza compaixão, sustentabilidade, inovação, respeito, confiança e prosperidade compartilhada. A direção editorial deste eixo é Progressista, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "tec": {
+          "sourceTitles": [
+            "Malaysia MADANI framework"
+          ],
+          "rationale": "Documento oficial de políticas anunciado pelo governo liderado por Anwar Ibrahim. A agenda Malaysia MADANI enfatiza compaixão, sustentabilidade, inovação, respeito, confiança e prosperidade compartilhada. A direção editorial deste eixo é Tecnologia, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        }
+      }
+    }
+  ]
+}
