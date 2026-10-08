@@ -1,0 +1,17 @@
+# Histórico17 — Taft1909/1910, proposta dormente preservada
+
+Status: seis propostas EST60REP60INT40ECO40CON40COM60 e seis desconhecidos, sem revisão independente ou aprovação Root ainda. Registro dormente real `na-william-howard-taft`, nome completo conferido em `peopleNorthAmericaExpansion`; nenhuma pessoa ativa por busca de todos os nomes/aliases do catálogo por Taft. Conserva snapshot inteiro e todas as fontes dormentes. Nenhuma importação, Git ou publicação.
+
+Leituras realmente efetuadas pelo autor:
+
+- [MillerCenter inauguração1909](https://millercenter.org/the-presidency/presidential-speeches/march-4-1909-inaugural-address): corpo37–130 inteiro. EST109–111, contraponto jurisdição federal82–84; REP103–111/119, qualificações excludentes107; INT67–79/100–102, dependências e força expedicionária com arbitragem74; COM50–57/90–92/101. Referência à paz não elimina apoio explícito à capacidade militar para defender interesses externos: DIP desconhecido. Pesquisa agrícola61, segurança ferroviária124 e canal93–99 não geram TEC global. Limites judiciais125–129 não geram coerção geral automaticamente.
+- [MillerCenter mensagem econômica7/1/1910](https://millercenter.org/the-presidency/presidential-speeches/january-7-1910-message-regarding-economic-legislation): corpo37–168 efetivamente lido em duas aberturas; fonte original não especificada29, reprodução institucional atribuída. ECO106–110/141–155 geral: preservar capital/plantas privados e permitir iniciativa individual; CON101–110/138–142/154–155 geral: preços disciplinados por concorrência e entrada. Carta federal/regulação não significa propriedade pública. Trechos43–44 citam a comissão,76 reproduz argumento das companhias,136–139 apresentam uma tese que o orador REJEITA: não atribuir essas vozes automaticamente a Taft. Aceita regulação dos preços ferroviários72/79–80, preserve contraponto sem usar só ferrovia como eixo nacional.
+- [MillerCenter identidade](https://millercenter.org/president/taft):24–30/42–54 lidos, William Howard Taft46;15/9/1857 em50 e8/3/1930 em54. Sem códigos de religião/partido/profissão.
+
+EST não inferido do nome da federação, mas da norma declarada de não interferência nos assuntos domésticos respeitando Constituição. REP pede tolerância/oposição e sufrágio constitucional dentro de um programa regionalmente situado e excludente, não democracia universal. INT trata exercício constante de influência externa e capacidade de impor interesses; não confundir proteção de estrangeiros residentes82–84 com intervenção estrangeira. O revisor deve julgar se amplitude/magnitude bastam para o eixo completo, sem obrigar a sexta direção.
+
+Desconhecidos POD/IMI/DIP/REL/MOR/TEC50 sem metadata. Preserva toda declaração antiga no snapshot, sem carregar descrições genéricas de lei/militarismo como evidência localizada. Numerais moderados são proposta editorial ordinal-v1, não dados históricos quantificados ou fatos automaticamente certificados por código.
+
+Checagem inicial contra ID sem prefixo falhou, antes da revisão/inclusão. Inspeção do ARRAY gerado confirmou ID real `na-william-howard-taft`; prefixo preservado e checagem repetida contra objeto concreto. Não criou identidade paralela.
+
+Atualização vigente: Root aceitou EST60/REP60/INT40/ECO40/CON40/COM60 após leitura independente real inaugural37–130 em trechos sucessivos, mensagem econômica37–137 e86–168, identidade24–30/42–54. Sem reparos numéricos; contrapontos já preservados. Arquivo congelado para próxima integração local validada; DIP e demais cinco desconhecidos. Sem Git ou publicação.

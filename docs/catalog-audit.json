@@ -34,8 +34,8 @@
     ],
     "provenance": "Executed before local data corrections in this recovery checkpoint; not recomputed from unavailable prior Library checkpoint."
   },
-  "headCommitAtAudit": "b2d5ee4ccda9c8b030777492bcb659a24c9f7341",
-  "integratedCatalogSha256": "142b8479c5c7efc339af7a273848edf3a0ad9508862e97290eff641e81d9a07d",
+  "headCommitAtAudit": "e748b1be1ee92a598dce0504dd8ceaaf890edf19",
+  "integratedCatalogSha256": "bd65cab3cb6da8f866067f717a2728e63e6aeaafa172254eaa3ff8d56a9d734b",
   "scope": "Integrated working-tree catalog after preparation; fixed remote baseline and current HEAD are provenance, not immutable copies of modified files.",
   "evidenceGate": {
     "minimumAxes": 6,
@@ -55,66 +55,66 @@
     "Unreviewed directional axes are preserved archival estimates, excluded from ranking; absent located coding does not establish that their direction is false. Prior snapshots preserve available original estimates."
   ],
   "totalTarget": 675,
-  "totalRecords": 711,
-  "structurallyEligible": 85,
-  "documentaryEligible": 38,
-  "insufficientEvidence": 673,
-  "unreviewedDirectionCount": 1288,
-  "summedCategoryIdentityGap": 101,
+  "totalRecords": 719,
+  "structurallyEligible": 92,
+  "documentaryEligible": 45,
+  "insufficientEvidence": 674,
+  "unreviewedDirectionCount": 1284,
+  "summedCategoryIdentityGap": 94,
   "categories": [
     {
       "category": "country",
       "target": 150,
       "records": 150,
-      "structurallyEligible": 4,
-      "documentaryEligible": 4,
-      "insufficientEvidence": 146,
+      "structurallyEligible": 5,
+      "documentaryEligible": 5,
+      "insufficientEvidence": 145,
       "missingIdentitiesBeforeSemanticReview": 0,
       "preservedExcess": 0,
-      "missingEligibleToTarget": 146
+      "missingEligibleToTarget": 145
     },
     {
       "category": "historical-country",
       "target": 150,
-      "records": 128,
-      "structurallyEligible": 7,
-      "documentaryEligible": 7,
-      "insufficientEvidence": 121,
-      "missingIdentitiesBeforeSemanticReview": 22,
+      "records": 131,
+      "structurallyEligible": 8,
+      "documentaryEligible": 8,
+      "insufficientEvidence": 123,
+      "missingIdentitiesBeforeSemanticReview": 19,
       "preservedExcess": 0,
-      "missingEligibleToTarget": 143
+      "missingEligibleToTarget": 142
     },
     {
       "category": "public-figure",
       "target": 150,
-      "records": 107,
-      "structurallyEligible": 20,
-      "documentaryEligible": 4,
-      "insufficientEvidence": 103,
-      "missingIdentitiesBeforeSemanticReview": 43,
+      "records": 108,
+      "structurallyEligible": 22,
+      "documentaryEligible": 6,
+      "insufficientEvidence": 102,
+      "missingIdentitiesBeforeSemanticReview": 42,
       "preservedExcess": 0,
-      "missingEligibleToTarget": 146
+      "missingEligibleToTarget": 144
     },
     {
       "category": "historical-figure",
       "target": 150,
-      "records": 114,
-      "structurallyEligible": 26,
-      "documentaryEligible": 14,
+      "records": 117,
+      "structurallyEligible": 29,
+      "documentaryEligible": 17,
       "insufficientEvidence": 100,
-      "missingIdentitiesBeforeSemanticReview": 36,
+      "missingIdentitiesBeforeSemanticReview": 33,
       "preservedExcess": 0,
-      "missingEligibleToTarget": 136
+      "missingEligibleToTarget": 133
     },
     {
       "category": "ideology",
       "target": 75,
-      "records": 212,
+      "records": 213,
       "structurallyEligible": 28,
       "documentaryEligible": 9,
-      "insufficientEvidence": 203,
+      "insufficientEvidence": 204,
       "missingIdentitiesBeforeSemanticReview": 0,
-      "preservedExcess": 137,
+      "preservedExcess": 138,
       "missingEligibleToTarget": 66
     }
   ],
@@ -1274,15 +1274,16 @@
       "kind": "country",
       "category": "country",
       "period": "Prática institucional em 2024; normas da edição constitucional oficial com emendas até 2012, sem certificação de consolidação em 2024–2026; Camada normativa da edição com emendas até 2012; consultada em 2026-10-07",
-      "structurallyEligible": false,
-      "documentaryEligible": false,
-      "reviewStatus": "insufficient-located-coding",
+      "structurallyEligible": true,
+      "documentaryEligible": true,
+      "reviewStatus": "located-coding-present-not-truth-certified",
       "unreviewedDirectionalAxes": [],
       "mappedAxes": [
         "est",
         "rep",
         "pod",
         "imi",
+        "rel",
         "mor"
       ],
       "documentedAxes": [
@@ -1290,6 +1291,7 @@
         "rep",
         "pod",
         "imi",
+        "rel",
         "mor"
       ],
       "directionalAxes": [
@@ -1297,14 +1299,20 @@
         "rep",
         "pod",
         "imi",
+        "rel",
         "mor"
       ],
-      "sourceCount": 4,
+      "sourceCount": 9,
       "sourceUrls": [
         "https://freedomhouse.org/country/south-africa/freedom-world/2025",
         "https://www.gov.za/documents/constitution-republic-south-africa-1996",
         "https://freedomhouse.org/country/south-africa/freedom-world/2025",
-        "https://www.justice.gov.za/constitution/SAConstitution-web-eng.pdf"
+        "https://www.justice.gov.za/constitution/SAConstitution-web-eng.pdf",
+        "https://www.justice.gov.za/constitution/chp02.html",
+        "https://www.justice.gov.za/legislation/acts/1998-120.pdf",
+        "https://www.gov.za/sites/default/files/a17-06.pdf",
+        "https://www3.saflii.org/za/cases/ZACC/2005/19.html",
+        "https://www.saflii.org/za/cases/ZACC/2005/20.html"
       ]
     },
     {
@@ -1591,28 +1599,35 @@
       "aliases": [],
       "kind": "country",
       "category": "historical-country",
-      "period": "Governo Vargas, 1937–1945; recorte codificado: Cláusulas originais da carta de 1937 e regime transitório declarado; não imputa redações de 1945 a todo1937–1945.",
+      "period": "Governo Vargas, 1937–1945; recorte codificado: Cláusulas originais da carta de 1937 e regime transitório declarado; não imputa redações de 1945 a todo1937–1945.; ampliações: norma original de10/11/1937 e desenho transitório declarado.",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
       "unreviewedDirectionalAxes": [],
       "mappedAxes": [
+        "est",
         "rep",
-        "pod"
+        "pod",
+        "rel"
       ],
       "documentedAxes": [
+        "est",
         "rep",
-        "pod"
+        "pod",
+        "rel"
       ],
       "directionalAxes": [
+        "est",
         "rep",
-        "pod"
+        "pod",
+        "rel"
       ],
-      "sourceCount": 3,
+      "sourceCount": 4,
       "sourceUrls": [
         "https://cpdoc.fgv.br/biografias/getulio-vargas",
         "https://cpdoc.fgv.br/sites/default/files/brasilia/dhbb/Get%C3%BAlio%20Vargas.pdf",
-        "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao37.htm"
+        "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao37.htm",
+        "https://www2.camara.leg.br/legin/fed/consti/1930-1939/constituicao-35093-10-novembro-1937-532849-publicacaooriginal-15246-pl.html"
       ]
     },
     {
@@ -8078,32 +8093,44 @@
       "aliases": [],
       "kind": "person",
       "category": "public-figure",
-      "period": "Manifestos e atuação parlamentar do EFF, 2013–2026",
-      "structurallyEligible": false,
-      "documentaryEligible": false,
-      "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "rep",
-        "eco",
-        "con",
-        "com"
-      ],
+      "period": "Manifesto eleitoral pessoalmente endossado02/02/2019; identidade ativa19/09/2026",
+      "structurallyEligible": true,
+      "documentaryEligible": true,
+      "reviewStatus": "located-coding-present-not-truth-certified",
+      "unreviewedDirectionalAxes": [],
       "mappedAxes": [
+        "est",
         "rep",
         "eco",
         "con",
-        "com"
+        "com",
+        "mor",
+        "tec"
       ],
-      "documentedAxes": [],
+      "documentedAxes": [
+        "est",
+        "rep",
+        "eco",
+        "con",
+        "com",
+        "mor",
+        "tec"
+      ],
       "directionalAxes": [
+        "est",
         "rep",
         "eco",
         "con",
-        "com"
+        "com",
+        "mor",
+        "tec"
       ],
-      "sourceCount": 1,
+      "sourceCount": 4,
       "sourceUrls": [
-        "https://effonline.org/manifesto/"
+        "https://effonline.org/manifesto/",
+        "https://www.citizen.co.za/news/opinion/malema-our-land-and-jobs-now/",
+        "https://www.citizen.co.za/news/south-africa/elections/malema-stop-saying-you-voting-mandela/",
+        "https://sahistory.org.za/archive/eff-2019-election-manifesto"
       ]
     },
     {
@@ -22042,6 +22069,297 @@
       ]
     },
     {
+      "id": "ideology-program-anarcho-primitivism-zerzan-1994-2016",
+      "name": "Anarcoprimitivismo: crítica da civilização de Zerzan, 1994–2016",
+      "aliases": [],
+      "kind": "ideology",
+      "category": "ideology",
+      "period": "Future Primitive, coletânea Autonomedia 1994; confirmação autoral em entrevista 22 janeiro 2016",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "tec"
+      ],
+      "documentedAxes": [
+        "tec"
+      ],
+      "directionalAxes": [
+        "tec"
+      ],
+      "sourceCount": 3,
+      "sourceUrls": [
+        "https://theanarchistlibrary.org/library/john-zerzan-future-primitive",
+        "https://www.johnzerzan.net/articles/disinfo.html",
+        "https://johnzerzan.net/books/"
+      ]
+    },
+    {
+      "id": "brazil-fourth-republic-1946",
+      "name": "Brasil — Quarta República",
+      "aliases": [
+        "Brasil — República Populista1946–1964",
+        "Brasil — ordem constitucional1946"
+      ],
+      "kind": "country",
+      "category": "historical-country",
+      "period": "31/01/1946–ruptura política de31/03/1964; recorte normativo original de18/09/1946",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "est",
+        "rep",
+        "pod",
+        "dip",
+        "rel"
+      ],
+      "documentedAxes": [
+        "est",
+        "rep",
+        "pod",
+        "dip",
+        "rel"
+      ],
+      "directionalAxes": [
+        "est",
+        "rep",
+        "pod",
+        "dip",
+        "rel"
+      ],
+      "sourceCount": 3,
+      "sourceUrls": [
+        "https://www2.camara.leg.br/legin/fed/consti/1940-1949/constituicao-1946-18-julho-1946-365199-republicacao-1-pl.html",
+        "https://www12.senado.leg.br/senado200anos/passado",
+        "https://www2.camara.leg.br/legin/fed/atoins/1960-1969/atoinstitucional-1-9-abril-1964-364977-publicacaooriginal-1-csr.html"
+      ]
+    },
+    {
+      "id": "brazil-first-republic-1889",
+      "name": "Brasil — Primeira República",
+      "aliases": [
+        "Brasil — República Velha",
+        "Brasil — ordem republicana1891"
+      ],
+      "kind": "country",
+      "category": "historical-country",
+      "period": "15/11/1889–ruptura política de24/10/1930; recorte normativo original de24/02/1891",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "est",
+        "rep",
+        "pod",
+        "dip",
+        "rel"
+      ],
+      "documentedAxes": [
+        "est",
+        "rep",
+        "pod",
+        "dip",
+        "rel"
+      ],
+      "directionalAxes": [
+        "est",
+        "rep",
+        "pod",
+        "dip",
+        "rel"
+      ],
+      "sourceCount": 4,
+      "sourceUrls": [
+        "https://www2.camara.leg.br/legin/fed/consti/1824-1899/constituicao-35081-24-fevereiro-1891-532699-publicacaooriginal-15017-pl.html",
+        "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao91.htm",
+        "https://www2.camara.leg.br/a-camara/conheca/historia/a1republica.html/",
+        "https://www2.camara.leg.br/legin/fed/decret/1930-1939/decreto-19398-11-novembro-1930-517605-publicacaooriginal-1-pe.html"
+      ]
+    },
+    {
+      "id": "cuba-constitutional-republic-1940",
+      "name": "Cuba — República constitucional de1940",
+      "aliases": [
+        "Cuba — ordem constitucional1940–1952"
+      ],
+      "kind": "country",
+      "category": "historical-country",
+      "period": "10/10/1940–golpe de10/03/1952; texto promulgado05/07/1940",
+      "structurallyEligible": true,
+      "documentaryEligible": true,
+      "reviewStatus": "located-coding-present-not-truth-certified",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "est",
+        "rep",
+        "pod",
+        "dip",
+        "rel",
+        "mor"
+      ],
+      "documentedAxes": [
+        "est",
+        "rep",
+        "pod",
+        "dip",
+        "rel",
+        "mor"
+      ],
+      "directionalAxes": [
+        "est",
+        "rep",
+        "pod",
+        "dip",
+        "rel",
+        "mor"
+      ],
+      "sourceCount": 3,
+      "sourceUrls": [
+        "https://pdba.georgetown.edu/Constitutions/Cuba/cuba1940.html",
+        "https://history.state.gov/historicaldocuments/frus1952-54v04/d327",
+        "https://movimientoc40.com/constitucion-de-1940/"
+      ]
+    },
+    {
+      "id": "grover-cleveland",
+      "name": "Grover Cleveland",
+      "aliases": [
+        "Stephen Grover Cleveland"
+      ],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "Declarações inaugurais4/3/1885 e4/3/1893, mandatos separados",
+      "structurallyEligible": true,
+      "documentaryEligible": true,
+      "reviewStatus": "located-coding-present-not-truth-certified",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "est",
+        "rep",
+        "dip",
+        "int",
+        "con",
+        "com"
+      ],
+      "documentedAxes": [
+        "est",
+        "rep",
+        "dip",
+        "int",
+        "con",
+        "com"
+      ],
+      "directionalAxes": [
+        "est",
+        "rep",
+        "dip",
+        "int",
+        "con",
+        "com"
+      ],
+      "sourceCount": 3,
+      "sourceUrls": [
+        "https://millercenter.org/the-presidency/presidential-speeches/march-4-1885-first-inaugural-address",
+        "https://millercenter.org/the-presidency/presidential-speeches/march-4-1893-second-inaugural-address",
+        "https://millercenter.org/president/cleveland"
+      ]
+    },
+    {
+      "id": "gerrard-winstanley",
+      "name": "Gerrard Winstanley",
+      "aliases": [
+        "Jerrard Winstanley"
+      ],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "Law of Freedom, programa1652 com dedicatória5/11/1651",
+      "structurallyEligible": true,
+      "documentaryEligible": true,
+      "reviewStatus": "located-coding-present-not-truth-certified",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "est",
+        "rep",
+        "pod",
+        "eco",
+        "con",
+        "tec"
+      ],
+      "documentedAxes": [
+        "est",
+        "rep",
+        "pod",
+        "eco",
+        "con",
+        "tec"
+      ],
+      "directionalAxes": [
+        "est",
+        "rep",
+        "pod",
+        "eco",
+        "con",
+        "tec"
+      ],
+      "sourceCount": 5,
+      "sourceUrls": [
+        "https://www.marxists.org/reference/archive/winstanley/1652/law-freedom/ch04.htm",
+        "https://www.marxists.org/reference/archive/winstanley/1652/law-freedom/ch05.htm",
+        "https://www.marxists.org/reference/archive/winstanley/1652/law-freedom/ch06.htm",
+        "https://www.marxists.org/reference/archive/winstanley/1652/law-freedom/introduction.htm",
+        "https://oajournals.fupress.net/index.php/cromohs/article/download/6887/6885/6764"
+      ]
+    },
+    {
+      "id": "na-william-howard-taft",
+      "name": "William Howard Taft",
+      "aliases": [
+        "William Taft"
+      ],
+      "kind": "person",
+      "category": "historical-figure",
+      "period": "Programas próprios4/3/1909 e7/1/1910",
+      "structurallyEligible": true,
+      "documentaryEligible": true,
+      "reviewStatus": "located-coding-present-not-truth-certified",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "est",
+        "rep",
+        "int",
+        "eco",
+        "con",
+        "com"
+      ],
+      "documentedAxes": [
+        "est",
+        "rep",
+        "int",
+        "eco",
+        "con",
+        "com"
+      ],
+      "directionalAxes": [
+        "est",
+        "rep",
+        "int",
+        "eco",
+        "con",
+        "com"
+      ],
+      "sourceCount": 4,
+      "sourceUrls": [
+        "https://www.presidency.ucsb.edu/documents/presidential-documents-archive-guidebook/inaugural-addresses",
+        "https://millercenter.org/the-presidency/presidential-speeches/march-4-1909-inaugural-address",
+        "https://millercenter.org/the-presidency/presidential-speeches/january-7-1910-message-regarding-economic-legislation",
+        "https://millercenter.org/president/taft"
+      ]
+    },
+    {
       "id": "aristotle",
       "name": "Aristóteles",
       "aliases": [
@@ -22582,6 +22900,56 @@
         "https://www.vote411.org/node/15061",
         "https://www.gp.org/we_do_not_consent_to_war",
         "https://independentpoliticalreport.com/2026/08/former-green-nominee-jill-stein-ordered-to-appear-in-person-in-missouri-misdemeanor-case/"
+      ]
+    },
+    {
+      "id": "jean-luc-melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "aliases": [
+        "Jean Luc Melenchon",
+        "Jean-Luc Melenchon"
+      ],
+      "kind": "person",
+      "category": "public-figure",
+      "period": "Programa eleitoral próprio2022; identidade ativa12/09/2026",
+      "structurallyEligible": true,
+      "documentaryEligible": true,
+      "reviewStatus": "located-coding-present-not-truth-certified",
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
+        "rep",
+        "pod",
+        "int",
+        "eco",
+        "con",
+        "com",
+        "rel",
+        "mor"
+      ],
+      "documentedAxes": [
+        "rep",
+        "pod",
+        "int",
+        "eco",
+        "con",
+        "com",
+        "rel",
+        "mor"
+      ],
+      "directionalAxes": [
+        "rep",
+        "pod",
+        "int",
+        "eco",
+        "con",
+        "com",
+        "rel",
+        "mor"
+      ],
+      "sourceCount": 2,
+      "sourceUrls": [
+        "https://melenchon.fr/wp-content/uploads/2022/04/programme-avenir-en-commun-abrege.pdf",
+        "https://www.lemonde.fr/en/politics/article/2026/09/13/2027-presidential-election-melenchon-pressures-left-wing-rivals-at-fete-de-l-humanite-festival_6757466_5.html"
       ]
     },
     {

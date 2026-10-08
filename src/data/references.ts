@@ -1,3 +1,13 @@
+import { publicFigureBatch18 } from './reference-public-figure-batch-18';
+import { ideologyProgramBatch04 } from './reference-ideology-program-batch-04';
+import { historicalCountryBatch11 } from './reference-historical-country-batch-11';
+import { historicalCountryBatch12 } from './reference-historical-country-batch-12';
+import { extendHistoricalCountryCoverage17 } from './reference-historical-country-coverage-17';
+import { extendCurrentCountryCoverage07 } from './reference-current-country-coverage-07';
+import { reconcilePublicFigureCoverage02 } from './reference-public-figure-coverage-02';
+import { historicalFigureBatch15 } from './reference-historical-figure-batch-15';
+import { historicalFigureBatch16 } from './reference-historical-figure-batch-16';
+import { historicalFigureBatch17 } from './reference-historical-figure-batch-17';
 import { reconcileExistingIdeologyCoverage02 } from './reference-existing-ideology-coverage-02';
 import { reconcileHistoricalExistingCoverage01 } from './reference-historical-country-existing-coverage-01';
 import { ideologyProgramBatch03 } from './reference-ideology-program-batch-03';
@@ -615,6 +625,12 @@ export const referenceExpansionEntries: ReferenceEntry[] = [
   ...ideologyProgramBatch01,
   ...ideologyProgramBatch02,
   ...ideologyProgramBatch03,
+  ...ideologyProgramBatch04,
+  ...historicalCountryBatch11,
+  ...historicalCountryBatch12,
+  ...historicalFigureBatch15,
+  ...historicalFigureBatch16,
+  ...historicalFigureBatch17,
   ...historicalFigureBatch09,
   ...historicalFigureBatch10,
   ...historicalFigureBatch11,
@@ -628,6 +644,7 @@ export const referenceExpansionEntries: ReferenceEntry[] = [
   ...publicFigureBatch15,
   ...publicFigureBatch16,
   ...publicFigureBatch17,
+  ...publicFigureBatch18,
   ...currentCountryBatch.map(entry => ({ ...entry, coding: currentCountryBatchCoding[entry.id] })),
 ].map(prepareExpansionEntry);
 
@@ -635,4 +652,4 @@ export const referenceEntries: ReferenceEntry[] = [
   ...correctedBaseReferenceEntries,
   ...referenceExpansionEntries,
 ].map(reconcileHistoricalCountry03).map(reconcileCurrentCountry04).map(extendCurrentCountryCoverage05).map(reconcileHistoricalCountry04).map(reconcileSoros)
-  .map(entry => historicalLegacyRecoding.find(replacement => replacement.id === entry.id) ?? entry).map(withIdentityAliases).map(reconcileLegacyPublicQuality01).map(reconcileLegacyHistoricalQuality01).map(reviewCurrentCountryEconomicScope).map(extendHistoricalCountryCoverage08).map(reconcileExistingIdeology01).map(extendHistoricalCountryCoverage09).map(reconcileLegacyPublicQuality02).map(reviewCurrentCountryScope02).map(clarifyCurrentCountryQuality06).map(extendHistoricalCountryCoverage10).map(extendHistoricalCountryCoverage11).map(extendHistoricalCountryCoverage13).map(extendHistoricalCountryCoverage12).map(extendHistoricalCountryCoverage14).map(reconcileLegacyHistoricalQuality02).map(extendCurrentCountryCoverage06).map(extendHistoricalCountryCoverage15).map(extendHistoricalCountryCoverage16).map(reconcileLegacyHistoricalQuality03).map(reconcileHistoricalExistingCoverage01).map(reconcileExistingIdeologyCoverage02);
+  .map(entry => historicalLegacyRecoding.find(replacement => replacement.id === entry.id) ?? entry).map(withIdentityAliases).map(reconcileLegacyPublicQuality01).map(reconcileLegacyHistoricalQuality01).map(reviewCurrentCountryEconomicScope).map(extendHistoricalCountryCoverage08).map(reconcileExistingIdeology01).map(extendHistoricalCountryCoverage09).map(reconcileLegacyPublicQuality02).map(reviewCurrentCountryScope02).map(clarifyCurrentCountryQuality06).map(extendHistoricalCountryCoverage10).map(extendHistoricalCountryCoverage11).map(extendHistoricalCountryCoverage13).map(extendHistoricalCountryCoverage12).map(extendHistoricalCountryCoverage14).map(reconcileLegacyHistoricalQuality02).map(extendCurrentCountryCoverage06).map(extendHistoricalCountryCoverage15).map(extendHistoricalCountryCoverage16).map(reconcileLegacyHistoricalQuality03).map(reconcileHistoricalExistingCoverage01).map(reconcileExistingIdeologyCoverage02).map(extendHistoricalCountryCoverage17).map(extendCurrentCountryCoverage07).map(reconcilePublicFigureCoverage02);

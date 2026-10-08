@@ -3,14 +3,14 @@
  */
 export const ideologySelectionSnapshot = {
   "date": "2026-10-08",
-  "catalogCount": 212,
+  "catalogCount": 213,
   "intendedSubsetCount": 75,
   "readyForDefaultUse": false,
-  "boundedReviewedReferents": 60,
-  "referentCountScope": "Sixty unique current selected qualified referents; SPD/DSA replace two already-reviewed SI umbrella referents without adding to60. One additional bounded property comparison, not year-defined doctrines.",
-  "boundedTwoSidedContrasts": 42,
+  "boundedReviewedReferents": 61,
+  "referentCountScope": "61 located normative primary referents after accepted import; source location is not six-axis qualification or all75 independence.",
+  "boundedTwoSidedContrasts": 43,
   "preservedOriginalCatalogCount": 206,
-  "partitionCountScope": "Integrated ledger 212 = 75 selected + 137 alternatives; both explicit SPD/DSA programmes imported after actual source/axis review. All 206 originals retained. No full 75 independence certification.",
+  "partitionCountScope": "Integrated ledger213 =75 selected +138 alternatives. All206 originals and original75 snapshot preserved; full75 independence remains unverified.",
   "pendingCatalogIds": [],
   "independent75Verified": false
 } as const;
@@ -1369,6 +1369,30 @@ export const ideologySelectionSources = [
     "locator": "Actual author body 25–169; property 34/55–57/156; constitutional counter 146; authors note 167–168",
     "supports": "Programa afirmativo de república socialista democrática com propriedade pública dos maiores grupos/indústrias essenciais; não toda propriedade. Nota distingue redação 2026 de rascunhos antigos.",
     "readAt": "2026-10-08"
+  },
+  {
+    "id": "zerzan-future-primitive-norm-1994",
+    "title": "Future Primitive — John Zerzan, 1994 collection / online author text",
+    "url": "https://theanarchistlibrary.org/library/john-zerzan-future-primitive",
+    "locator": "Author body 16–176; tools/fire 48–57; closing 165–176. Printed collection date separately established by author bibliography.",
+    "supports": "Rejeita divisão industrial do trabalho e domesticação; defende vida entre iguais e sem poder. Antropologia, medicina e alegações causais não verificadas. Não rejeita toda ferramenta nem oferece constituição futura detalhada.",
+    "readAt": "2026-10-08"
+  },
+  {
+    "id": "zerzan-own-interview-2016",
+    "title": "If the Future Isn’t Somehow Primitive, There Won’t Be a Future — author-hosted interview",
+    "url": "https://www.johnzerzan.net/articles/disinfo.html",
+    "locator": "Metadata 9 identifies 22 January 2016; own replies 13–14/16–20/22/25, excluding interviewer introduction 10–11.",
+    "supports": "Afirmação autoral de vida comunitária não industrial e crítica constitutiva da modernização/domesticação. Introdução do entrevistador e previsões causais não validadas.",
+    "readAt": "2026-10-08"
+  },
+  {
+    "id": "zerzan-own-bibliography-1994",
+    "title": "John Zerzan bibliography — Future Primitive, Autonomedia 1994",
+    "url": "https://johnzerzan.net/books/",
+    "locator": "Own books inventory 8–24; Future Primitive 1994 entry 19–20 depending retrieval.",
+    "supports": "Confirma publicação da coletânea 1994; não prova equivalência textual com edição 2012 nem sustenta eixo.",
+    "readAt": "2026-10-08"
   }
 ] as const;
 
@@ -1766,14 +1790,15 @@ export const intendedIdeologySelection = [
     "ontologyLimit": "Contrastes localizados sobre troca/distribuição ou legitimidade da força defensiva. Relação Tucker/Proudhon e anarcossindicalismo/comunismo permanece aninhada ou aberta; as edições lidas não equivalem a toda história da corrente."
   },
   {
-    "id": "ideology-left-anarcho-primitivism",
-    "name": "Anarcoprimitivismo",
+    "id": "ideology-program-anarcho-primitivism-zerzan-1994-2016",
+    "name": "Anarcoprimitivismo: crítica da civilização de Zerzan, 1994–2016",
     "family": "anarchist",
-    "selectionRationale": "Crítica radical à civilização industrial",
-    "reviewStatus": "provisional",
-    "documentedAxisCountAtSnapshot": 2,
-    "ontologyStatus": "provisional-normative-referent",
-    "contrastStatus": "not-independently-verified"
+    "selectionRationale": "Programa normativo de vida igualitária não industrial; contrapõe a divisão produtiva por ramos da IWA. Não equivale a ausência de toda ferramenta.",
+    "reviewStatus": "referent-and-bounded-neighbor-contrast-reviewed",
+    "documentedAxisCountAtSnapshot": 1,
+    "ontologyStatus": "bounded-normative-programme-referent-reviewed",
+    "contrastStatus": "bounded-primary-neighbor-contrast",
+    "ontologyLimit": "Um eixo localizado e onze desconhecidos: exemplar sem elegibilidade. Contraste de forma produtiva com IWA delimitado; outros vizinhos primitivistas e ecológicos ainda não resolvidos. Ano e autoria não criam uma segunda doutrina."
   },
   {
     "id": "ideology-democratic-confederalism",
@@ -2668,6 +2693,19 @@ export const ideologyOverlapChecks = [
     "relation": "conditional-common-property-versus-mandated-public-largest-essential-industries",
     "rationale": "SPD 255–258 protege propriedade privada; 259–263 exige funções públicas, 280–282 converte quando controles insuficientes e 283–289 descentraliza gestão. DSA 156 manda propriedade pública dos maiores grupos/indústrias essenciais, sem socializar todos os bens. Contraste institucional do mesmo objeto, não ano/autor nem oposição entre todas as escolas.",
     "status": "bounded-primary-contrast"
+  },
+  {
+    "a": "ideology-program-anarcho-primitivism-zerzan-1994-2016",
+    "b": "ideology-program-anarcho-syndicalism-iwa-2022",
+    "question": "Forma legítima da produção coletiva industrial e divisão por ramos.",
+    "finding": "Zerzan rejeita civilização industrial/divisão produtiva como ordem normativa; IWA II.3 organiza autoadministração industrial por ramos. Ferramentas simples/fogo são contraponto; IWA não exige industrializar cada comunidade.",
+    "sourceIds": [
+      "zerzan-future-primitive-norm-1994",
+      "zerzan-own-interview-2016",
+      "iwa-statutes-2023-ontology"
+    ],
+    "status": "bounded-primary-contrast",
+    "remaining": "Outros vizinhos ecológicos/primitivistas e independência global75 não resolvidos."
   }
 ] as const;
 
@@ -4449,6 +4487,19 @@ export const preservedIdeologyAlternatives = [
     ],
     "documentedAxisCountAtSnapshot": 8,
     "reviewStatus": "preserved-original-record-not-deleted"
+  },
+  {
+    "id": "ideology-left-anarcho-primitivism",
+    "name": "Anarcoprimitivismo",
+    "reasonCode": "replaced-by-explicit-primary-programme",
+    "compareWith": "ideology-program-anarcho-primitivism-zerzan-1994-2016",
+    "decisionRationale": "Exemplar original preservado integralmente; nova seleção delimita texto e afirmação autoral com apenas TEC localizado, sem transferir EST78/TEC3. Não conta duas doutrinas pelo ano.",
+    "catalogRationale": "Zerzan critica a civilização industrial, a tecnologia e instituições de dominação, defendendo formas de vida não industriais.",
+    "catalogSourceTitles": [
+      "Future Primitive — John Zerzan"
+    ],
+    "documentedAxisCountAtSnapshot": 2,
+    "reviewStatus": "preserved-original-not-newly-validated"
   }
 ] as const;
 
@@ -4520,6 +4571,13 @@ export const ideologyOntologySubstitutions = [
     "removedId": "democratic-socialism",
     "selectedId": "ideology-program-democratic-socialism-dsa-2026",
     "reason": "Exemplar próprio substitui seleção de programas SI sobrepostos, preservados como alternativas integrais. Contraste de propriedade localizado e limitado às duas versões.",
+    "status": "bounded-provisional-substitution-new-explicit-program",
+    "catalogRecordsDeleted": false
+  },
+  {
+    "removedId": "ideology-left-anarcho-primitivism",
+    "selectedId": "ideology-program-anarcho-primitivism-zerzan-1994-2016",
+    "reason": "Único exemplar anarcoprimitivista explicitamente delimitado por ensaio e confirmação autoral; original preservado como alternativa. Não duplica doutrina por autoria/data nem transfere valores antigos.",
     "status": "bounded-provisional-substitution-new-explicit-program",
     "catalogRecordsDeleted": false
   }
@@ -4866,6 +4924,22 @@ export const ideologyOntologyReviewGroups = [
     "sourceIds": [
       "spd-godesberg-original-1959",
       "dsa-workers-deserve-more-2026"
+    ],
+    "reviewedOn": "2026-10-08"
+  },
+  {
+    "id": "industrial-self-management-versus-nonindustrial-equality",
+    "selectedIds": [
+      "ideology-program-anarcho-primitivism-zerzan-1994-2016",
+      "ideology-program-anarcho-syndicalism-iwa-2022"
+    ],
+    "status": "one-bounded-two-sided-primary-contrast",
+    "scope": "Um novo referent primário localizado e um contraste de forma produtiva; não ano/autoria únicos. Zerzan um eixo, sem elegibilidade. IWA preservada. Antropologia não verificada e ferramentas simples mantidas como contraponto.",
+    "sourceIds": [
+      "zerzan-future-primitive-norm-1994",
+      "zerzan-own-interview-2016",
+      "zerzan-own-bibliography-1994",
+      "iwa-statutes-2023-ontology"
     ],
     "reviewedOn": "2026-10-08"
   }
