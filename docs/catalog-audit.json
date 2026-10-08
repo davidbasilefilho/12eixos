@@ -34,8 +34,8 @@
     ],
     "provenance": "Executed before local data corrections in this recovery checkpoint; not recomputed from unavailable prior Library checkpoint."
   },
-  "headCommitAtAudit": "cd6731d9b6b7d643df3eb02cb862767edef8a419",
-  "integratedCatalogSha256": "bc72202f001688f5264c553d280d5987bbcc09af99c360edab97062c8df75358",
+  "headCommitAtAudit": "9395730ea8ea6b650701f7df3c0474f98a041a05",
+  "integratedCatalogSha256": "b982d8cb49c80b8b4b309788e61914403895deca17970c676b27be50baf193a3",
   "scope": "Integrated working-tree catalog after preparation; fixed remote baseline and current HEAD are provenance, not immutable copies of modified files.",
   "evidenceGate": {
     "minimumAxes": 6,
@@ -56,9 +56,9 @@
   ],
   "totalTarget": 675,
   "totalRecords": 818,
-  "structurallyEligible": 76,
-  "documentaryEligible": 62,
-  "insufficientEvidence": 756,
+  "structurallyEligible": 81,
+  "documentaryEligible": 67,
+  "insufficientEvidence": 751,
   "unreviewedDirectionCount": 563,
   "summedCategoryIdentityGap": 0,
   "categories": [
@@ -66,12 +66,12 @@
       "category": "country",
       "target": 150,
       "records": 150,
-      "structurallyEligible": 6,
-      "documentaryEligible": 6,
-      "insufficientEvidence": 144,
+      "structurallyEligible": 8,
+      "documentaryEligible": 8,
+      "insufficientEvidence": 142,
       "missingIdentitiesBeforeSemanticReview": 0,
       "preservedExcess": 0,
-      "missingEligibleToTarget": 144
+      "missingEligibleToTarget": 142
     },
     {
       "category": "historical-country",
@@ -88,34 +88,34 @@
       "category": "public-figure",
       "target": 150,
       "records": 150,
-      "structurallyEligible": 10,
-      "documentaryEligible": 10,
-      "insufficientEvidence": 140,
+      "structurallyEligible": 11,
+      "documentaryEligible": 11,
+      "insufficientEvidence": 139,
       "missingIdentitiesBeforeSemanticReview": 0,
       "preservedExcess": 0,
-      "missingEligibleToTarget": 140
+      "missingEligibleToTarget": 139
     },
     {
       "category": "historical-figure",
       "target": 150,
       "records": 150,
-      "structurallyEligible": 22,
-      "documentaryEligible": 22,
-      "insufficientEvidence": 128,
+      "structurallyEligible": 23,
+      "documentaryEligible": 23,
+      "insufficientEvidence": 127,
       "missingIdentitiesBeforeSemanticReview": 0,
       "preservedExcess": 0,
-      "missingEligibleToTarget": 128
+      "missingEligibleToTarget": 127
     },
     {
       "category": "ideology",
       "target": 75,
       "records": 218,
-      "structurallyEligible": 25,
-      "documentaryEligible": 11,
-      "insufficientEvidence": 207,
+      "structurallyEligible": 26,
+      "documentaryEligible": 12,
+      "insufficientEvidence": 206,
       "missingIdentitiesBeforeSemanticReview": 0,
       "preservedExcess": 143,
-      "missingEligibleToTarget": 64
+      "missingEligibleToTarget": 63
     }
   ],
   "structuralProblems": [],
@@ -828,14 +828,15 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Normas constitucionais de 1967, artigo 230 revisto em 1996, direito matrimonial revisto em 2013; narrativa FH2025 sobre 2024",
-      "structurallyEligible": false,
-      "documentaryEligible": false,
-      "reviewStatus": "insufficient-located-coding",
+      "period": "Normas constitucionais de 1967, artigo 230 revisto em 1996, direito matrimonial revisto em 2013; narrativa FH2025 sobre 2024; norma eleitoral77 rev1996 e solução pacífica/guerra nos arts6/168 em texto IMPO atualizado,168revisto1996; igualdade civil-familiar na Lei10783de1946 e concorrência geral na Lei18159de2007 em texto IMPO atualizado, com emendas2019/2023/2025",
+      "structurallyEligible": true,
+      "documentaryEligible": true,
+      "reviewStatus": "located-coding-present-not-truth-certified",
       "unreviewedDirectionalAxes": [],
       "mappedAxes": [
         "rep",
         "pod",
+        "dip",
         "con",
         "rel",
         "mor"
@@ -843,6 +844,7 @@
       "documentedAxes": [
         "rep",
         "pod",
+        "dip",
         "con",
         "rel",
         "mor"
@@ -850,11 +852,12 @@
       "directionalAxes": [
         "rep",
         "pod",
+        "dip",
         "con",
         "rel",
         "mor"
       ],
-      "sourceCount": 9,
+      "sourceCount": 14,
       "sourceUrls": [
         "https://freedomhouse.org/country/uruguay/freedom-world/2025",
         "https://www.elibrary.imf.org/view/journals/002/2024/215/article-A001-en.xml",
@@ -864,7 +867,12 @@
         "https://www.impo.com.uy/bases/constitucion/1967-1967/5",
         "https://www.impo.com.uy/bases/constitucion/1967-1967/71",
         "https://www.impo.com.uy/bases/constitucion/1967-1967/230",
-        "https://www.impo.com.uy/bases/codigo-civil/16603-1994/83"
+        "https://www.impo.com.uy/bases/codigo-civil/16603-1994/83",
+        "https://www.impo.com.uy/bases/constitucion/1967-1967/6",
+        "https://www.impo.com.uy/bases/leyes/10783-1946",
+        "https://www.impo.com.uy/bases/constitucion/1967-1967/40",
+        "https://www.impo.com.uy/bases/leyes/18159-2007",
+        "https://www.impo.com.uy/bases/constitucion/1967-1967/7"
       ]
     },
     {
@@ -1123,31 +1131,34 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Constituição de 1946 oferecida pela Câmara; interpretação oficial de defesa posterior a 01/07/2014; narrativa FH2025 sobre 2024; declaração MEXT consultada em 2026",
-      "structurallyEligible": false,
-      "documentaryEligible": false,
-      "reviewStatus": "insufficient-located-coding",
+      "period": "Constituição de 1946 oferecida pela Câmara; interpretação oficial de defesa posterior a 01/07/2014; narrativa FH2025 sobre 2024; declaração MEXT consultada em 2026; igualdade social e familiar no texto constitucional1946,arts14/24/44; garantias constitucionais de expressão/privacidade/processo,arts19–22/31–40",
+      "structurallyEligible": true,
+      "documentaryEligible": true,
+      "reviewStatus": "located-coding-present-not-truth-certified",
       "unreviewedDirectionalAxes": [],
       "mappedAxes": [
         "rep",
         "pod",
         "dip",
         "com",
-        "rel"
+        "rel",
+        "mor"
       ],
       "documentedAxes": [
         "rep",
         "pod",
         "dip",
         "com",
-        "rel"
+        "rel",
+        "mor"
       ],
       "directionalAxes": [
         "rep",
         "pod",
         "dip",
         "com",
-        "rel"
+        "rel",
+        "mor"
       ],
       "sourceCount": 7,
       "sourceUrls": [
@@ -3907,15 +3918,43 @@
       "kind": "ideology",
       "category": "ideology",
       "period": "Revolutionary Catechism, programa atribuído a 1866; seleções traduzidas e editadas por Sam Dolgoff, fonte rotulada 1971",
-      "structurallyEligible": false,
-      "documentaryEligible": false,
-      "reviewStatus": "insufficient-located-coding",
+      "structurallyEligible": true,
+      "documentaryEligible": true,
+      "reviewStatus": "located-coding-present-not-truth-certified",
       "unreviewedDirectionalAxes": [],
-      "mappedAxes": [],
-      "documentedAxes": [],
-      "directionalAxes": [],
-      "sourceCount": 2,
+      "mappedAxes": [
+        "est",
+        "rep",
+        "pod",
+        "eco",
+        "con",
+        "com",
+        "rel",
+        "mor"
+      ],
+      "documentedAxes": [
+        "est",
+        "rep",
+        "pod",
+        "eco",
+        "con",
+        "com",
+        "rel",
+        "mor"
+      ],
+      "directionalAxes": [
+        "est",
+        "rep",
+        "pod",
+        "eco",
+        "con",
+        "com",
+        "rel",
+        "mor"
+      ],
+      "sourceCount": 3,
       "sourceUrls": [
+        "https://www.marxists.org/reference/archive/bakunin/works/1866/catechism.htm",
         "https://www.marxists.org/reference/archive/bakunin/works/1866/catechism.htm",
         "https://www.marxists.org/reference/archive/bakunin/works/1866/catechism.htm"
       ]
@@ -19503,12 +19542,13 @@
       "aliases": [],
       "kind": "person",
       "category": "historical-figure",
-      "period": "Farewell Address,1796",
-      "structurallyEligible": false,
-      "documentaryEligible": false,
-      "reviewStatus": "insufficient-located-coding",
+      "period": "Endosso coletivo à Constituição,17/9/1787; conselhos individuais no Farewell Address,1796.",
+      "structurallyEligible": true,
+      "documentaryEligible": true,
+      "reviewStatus": "located-coding-present-not-truth-certified",
       "unreviewedDirectionalAxes": [],
       "mappedAxes": [
+        "est",
         "rep",
         "pod",
         "dip",
@@ -19516,6 +19556,7 @@
         "com"
       ],
       "documentedAxes": [
+        "est",
         "rep",
         "pod",
         "dip",
@@ -19523,18 +19564,25 @@
         "com"
       ],
       "directionalAxes": [
+        "est",
         "rep",
         "pod",
         "dip",
         "int",
         "com"
       ],
-      "sourceCount": 4,
+      "sourceCount": 10,
       "sourceUrls": [
         "https://www.presidency.ucsb.edu/documents/inaugural-address-16",
         "https://avalon.law.yale.edu/18th_century/washing.asp",
         "https://www.mountvernon.org/george-washington/biography",
-        "https://www.mountvernon.org/george-washington/death"
+        "https://www.mountvernon.org/george-washington/death",
+        "https://avalon.law.yale.edu/18th_century/translet.asp",
+        "https://avalon.law.yale.edu/18th_century/art1.asp",
+        "https://avalon.law.yale.edu/18th_century/art4.asp",
+        "https://avalon.law.yale.edu/18th_century/art5.asp",
+        "https://avalon.law.yale.edu/18th_century/art6.asp",
+        "https://avalon.law.yale.edu/18th_century/art7.asp"
       ]
     },
     {
@@ -23490,40 +23538,44 @@
       ],
       "kind": "person",
       "category": "public-figure",
-      "period": "Programa presidencial próprio2022; identidade/atividade verificada21/09/2026",
-      "structurallyEligible": false,
-      "documentaryEligible": false,
-      "reviewStatus": "insufficient-located-coding",
+      "period": "Campanha presidencial2021–2022: discurso próprio05/07/2021 e programa2022; atividade pessoal21/09/2026",
+      "structurallyEligible": true,
+      "documentaryEligible": true,
+      "reviewStatus": "located-coding-present-not-truth-certified",
       "unreviewedDirectionalAxes": [],
       "mappedAxes": [
         "rep",
         "pod",
         "imi",
         "dip",
-        "com"
+        "com",
+        "tec"
       ],
       "documentedAxes": [
         "rep",
         "pod",
         "imi",
         "dip",
-        "com"
+        "com",
+        "tec"
       ],
       "directionalAxes": [
         "rep",
         "pod",
         "imi",
         "dip",
-        "com"
+        "com",
+        "tec"
       ],
-      "sourceCount": 6,
+      "sourceCount": 7,
       "sourceUrls": [
         "https://mlafrance.fr/pdfs/22-mesures-pour-2022.pdf",
         "https://rassemblementnational.fr/22-mesures",
         "https://rassemblementnational.fr/documents/projet/projet-controle-de-limmigration.pdf",
         "https://rassemblementnational.fr/documents/projet/projet-la-securite.pdf",
         "https://rassemblementnational.fr/documents/projet/projet-lecologie.pdf",
-        "https://rassemblementnational.fr/post/lettre-ouverte-de-marine-le-pen-aux-professionnels-de-limmobilier"
+        "https://rassemblementnational.fr/post/lettre-ouverte-de-marine-le-pen-aux-professionnels-de-limmobilier",
+        "https://rassemblementnational.fr/discours/congres-de-perpignan-discours-de-marine-le-pen"
       ]
     },
     {
