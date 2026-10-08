@@ -334,3 +334,12 @@ Current documentary scope is73 located normative referents/59 bounded comparison
 ## Integrated818-04 status
 
 The accepted working-tree repairs add the dated Bandung1955 sovereign-cooperation definition, Kropotkin/Bakunin entitlement comparison and Archibugi2000 coercive-authority definition. The exact second selected-slot substitution uses existing `civic-cosmopolitan-democracy` in place of `civic-earth-stewardship`; the prior CWL/BPP substitution remains intact. Full excluded records/source objects and original75 trace survive. Actual partition remains218 =75+143. The75 located definitions and62 bounded comparison rows are source coverage, not a completed nearest-neighbor certificate.
+
+
+## Nine dated alignment repairs in the current working tree
+
+Definitions 17–21 are now actually integrated: Habermas 2006; Chesterton 1927 and the undated ICS programme captured on 8 October 2026; Ervin’s second edition, September 1993; Hobbes 1651, Constant 1815, Louis Napoléon 1839 in Dorr’s 1859 translation and Bookchin 2002; Eucken 1949 in the abridged 2006 translation. Full prior objects and source-object unions remain recoverable. All nine active profiles are qualitative definitions with twelve unknown axes; no numeric calibration or new catalog identities are added. This is working-tree status, not a claim of committed or published completion.
+
+The nine new source notes were made readable in pt_BR without altering their source titles, URLs, clauses, edition limits, prior prefixes or other fields. Exact full runtime equality with the accepted repository poststates and repeat object identity passed for all nine; proof is `selected675-audit/ideology-nine-definition17-21-live-proof.json` in the deliverables. Build and browser evidence remain the integrator’s separate final checks.
+
+Root also accepted the bounded Bookchin 2002/Öcalan 2017 constituent governing-capacity comparison after actual two-sided reading: productive enterprises participate under municipal citizen authority in Bookchin, whereas Öcalan explicitly permits autonomous economic and functional units to constitute political units. Both retain municipal/direct-democratic/confederal coordination. No association ban, missing civic bodies, unanimity veto or unconditional exit is inferred. This source finding does not automatically certify every other nearest relationship or all 75 definitions. Future Locke 22 and conservative-scope 23 proposals remain external and are excluded from current integration counts.

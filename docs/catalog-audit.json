@@ -34,8 +34,8 @@
     ],
     "provenance": "Executed before local data corrections in this recovery checkpoint; not recomputed from unavailable prior Library checkpoint."
   },
-  "headCommitAtAudit": "47c8c6bf86209908c5d5edb980bf37cc13d03a48",
-  "integratedCatalogSha256": "86842c14ea1fa651f515194690c44debc7c26e65a8d25c32704c9dfdbe3f255b",
+  "headCommitAtAudit": "bab3e56e151a02a3d83aad813da9c3dc7dd230d5",
+  "integratedCatalogSha256": "1cecb711f22fe81493e059a907c691e6beb04b1d994321f78936befe973b6082",
   "scope": "Integrated working-tree catalog after preparation; fixed remote baseline and current HEAD are provenance, not immutable copies of modified files.",
   "evidenceGate": {
     "minimumAxes": 6,
@@ -59,7 +59,7 @@
   "structurallyEligible": 73,
   "documentaryEligible": 56,
   "insufficientEvidence": 762,
-  "unreviewedDirectionCount": 656,
+  "unreviewedDirectionCount": 637,
   "summedCategoryIdentityGap": 0,
   "categories": [
     {
@@ -2000,30 +2000,22 @@
     },
     {
       "id": "ideology-ordoliberalism",
-      "name": "Ordoliberalismo",
+      "name": "Ordoliberalismo: ordem competitiva de Eucken, 1949",
       "aliases": [],
       "kind": "ideology",
       "category": "ideology",
-      "period": "Intervenção de Walter Eucken na fundação da Sociedade Mont Pèlerin, 1947",
+      "period": "Competitive Order and Its Implementation, texto original1949; tradução inglesa abreviada Ahlborn–Grave, Competition Policy International2006",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "eco",
-        "con"
-      ],
-      "mappedAxes": [
-        "eco",
-        "con"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "eco",
-        "con"
-      ],
-      "sourceCount": 1,
+      "directionalAxes": [],
+      "sourceCount": 2,
       "sourceUrls": [
-        "https://www.eucken.de/app/uploads/Discussionpaper_2203-1.pdf"
+        "https://www.eucken.de/app/uploads/Discussionpaper_2203-1.pdf",
+        "https://competitionpolicyinternational.com/assets/0d358061e11f2708ad9d62634c6c40ad/Eucken%20%28Nov.%202006%29.pdf"
       ]
     },
     {
@@ -2137,69 +2129,44 @@
     },
     {
       "id": "ideology-christian-socialism",
-      "name": "Socialismo cristão",
+      "name": "Socialismo cristão: programa do Institute for Christian Socialism",
       "aliases": [],
       "kind": "ideology",
       "category": "ideology",
-      "period": "Plataformas cristãs socialistas, 2021–2026",
+      "period": "Socialism of the Gospel, programa institucional sem data de adoção publicada; versão consultada em 8 outubro 2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "rep",
-        "eco",
-        "con",
-        "rel"
-      ],
-      "mappedAxes": [
-        "rep",
-        "eco",
-        "con",
-        "rel"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "rep",
-        "eco",
-        "con",
-        "rel"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
         "https://christiansocialism.com/gospel/",
-        "https://www.christiansontheleft.org.uk/constitution"
+        "https://www.christiansontheleft.org.uk/constitution",
+        "https://christiansocialism.com/gospel/"
       ]
     },
     {
       "id": "ideology-distributism",
-      "name": "Distributismo",
+      "name": "Distributismo: propriedade dispersa de Chesterton, 1927",
       "aliases": [],
       "kind": "ideology",
       "category": "ideology",
-      "period": "Rerum Novarum e Quadragesimo Anno, 1891–1931",
+      "period": "The Outline of Sanity, edição Dodd, Mead & Company, Nova York, 1927; transcrição PDF republicada pela Seton Hall",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "eco",
-        "rel"
-      ],
-      "mappedAxes": [
-        "est",
-        "eco",
-        "rel"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "est",
-        "eco",
-        "rel"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_15051891_rerum-novarum.html",
-        "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_19310515_quadragesimo-anno.html"
+        "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_19310515_quadragesimo-anno.html",
+        "https://www.shu.edu/documents/1927-GK-Chesterton-The-Outline-of-Sanity.pdf"
       ]
     },
     {
@@ -2842,11 +2809,11 @@
     },
     {
       "id": "ideology-communalism",
-      "name": "Comunalismo",
+      "name": "Comunalismo: projeto municipal de Bookchin, 2002",
       "aliases": [],
       "kind": "ideology",
       "category": "ideology",
-      "period": "The Next Revolution, ensaios de Murray Bookchin, 1990–2000",
+      "period": "The Communalist Project, ensaio de novembro de2002; republicação textual TheAnarchistLibrary",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
@@ -2854,9 +2821,10 @@
       "mappedAxes": [],
       "documentedAxes": [],
       "directionalAxes": [],
-      "sourceCount": 1,
+      "sourceCount": 2,
       "sourceUrls": [
-        "https://www.versobooks.com/products/549-the-next-revolution"
+        "https://www.versobooks.com/products/549-the-next-revolution",
+        "https://theanarchistlibrary.org/library/murray-bookchin-the-communalist-project"
       ]
     },
     {
@@ -3963,35 +3931,21 @@
     },
     {
       "id": "ideology-left-black-anarchism",
-      "name": "Anarquismo negro",
+      "name": "Anarquismo negro: programa comunitário de Ervin, 1993",
       "aliases": [],
       "kind": "ideology",
       "category": "ideology",
-      "period": "Anarchism and the Black Revolution, 1979–1983",
+      "period": "Anarchism and the Black Revolution, segunda edição; dedicatória própria de setembro de 1993, republicação textual The Anarchist Library",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep",
-        "eco",
-        "mor"
-      ],
-      "mappedAxes": [
-        "est",
-        "rep",
-        "eco",
-        "mor"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "est",
-        "rep",
-        "eco",
-        "mor"
-      ],
-      "sourceCount": 1,
+      "directionalAxes": [],
+      "sourceCount": 2,
       "sourceUrls": [
+        "https://theanarchistlibrary.org/library/lorenzo-kom-boa-ervin-anarchism-and-the-black-revolution",
         "https://theanarchistlibrary.org/library/lorenzo-kom-boa-ervin-anarchism-and-the-black-revolution"
       ]
     },
@@ -4618,27 +4572,22 @@
     },
     {
       "id": "civic-deliberative-democracy",
-      "name": "Democracia deliberativa",
+      "name": "Democracia deliberativa: modelo de Habermas, 2006",
       "aliases": [],
       "kind": "ideology",
       "category": "ideology",
-      "period": "Recomendações da OCDE sobre processos deliberativos, 2020",
+      "period": "Political Communication in Media Society, Communication Theory 16(4), 2006, pp 411–426; PDF primário republicado pelo MIT",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "rep"
-      ],
-      "mappedAxes": [
-        "rep"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "rep"
-      ],
-      "sourceCount": 1,
+      "directionalAxes": [],
+      "sourceCount": 2,
       "sourceUrls": [
-        "https://www.oecd.org/en/publications/innovative-citizen-participation-and-new-democratic-institutions_339306da-en.html"
+        "https://www.oecd.org/en/publications/innovative-citizen-participation-and-new-democratic-institutions_339306da-en.html",
+        "https://www.mit.edu/~shaslang/mprg/HabermasPCMS.pdf"
       ]
     },
     {
@@ -6856,30 +6805,22 @@
     },
     {
       "id": "ideology-right-absolute-monarchy",
-      "name": "Monarquia absoluta",
+      "name": "Soberania indivisível de Hobbes, 1651",
       "aliases": [],
       "kind": "ideology",
       "category": "ideology",
-      "period": "Leviathan, Thomas Hobbes, 1651",
+      "period": "Leviathan, 1651, capítulos XVIII–XIX; republicação textual Project Gutenberg",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "rep",
-        "pod"
-      ],
-      "mappedAxes": [
-        "rep",
-        "pod"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "rep",
-        "pod"
-      ],
-      "sourceCount": 1,
+      "directionalAxes": [],
+      "sourceCount": 2,
       "sourceUrls": [
-        "https://www.gutenberg.org/ebooks/3207"
+        "https://www.gutenberg.org/ebooks/3207",
+        "https://www.gutenberg.org/files/3207/3207-h/3207-h.htm"
       ]
     },
     {
@@ -6912,27 +6853,22 @@
     },
     {
       "id": "ideology-right-constitutional-monarchism",
-      "name": "Monarquismo constitucional",
+      "name": "Monarquismo constitucional: poder neutro de Constant, 1815",
       "aliases": [],
       "kind": "ideology",
       "category": "ideology",
-      "period": "Bill of Rights, Inglaterra, 1689",
+      "period": "Principes de politique, 1815, capítulo II; reedição Institut Coppet2025 e confronto limitado com coletânea1874",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "rep"
-      ],
-      "mappedAxes": [
-        "rep"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "rep"
-      ],
-      "sourceCount": 1,
+      "directionalAxes": [],
+      "sourceCount": 2,
       "sourceUrls": [
-        "https://www.parliament.uk/about/living-heritage/evolutionofparliament/parliamentaryauthority/revolution/collections1/collections-glorious-revolution/billofrights/"
+        "https://www.parliament.uk/about/living-heritage/evolutionofparliament/parliamentaryauthority/revolution/collections1/collections-glorious-revolution/billofrights/",
+        "https://editions.institutcoppet.org/EL/Constant-Principes.pdf"
       ]
     },
     {
@@ -6987,30 +6923,22 @@
     },
     {
       "id": "ideology-right-bonapartism",
-      "name": "Bonapartismo",
+      "name": "Bonapartismo: programa de ideias napoleônicas, 1839",
       "aliases": [],
       "kind": "ideology",
       "category": "ideology",
-      "period": "Proclamação e Constituição francesa de 1852",
+      "period": "Des idées napoléoniennes, Louis-Napoléon1839; Napoleonic Ideas, tradução inglesa de JamesA.Dorr1859, capítulo PoliticalOrganisation",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "rep",
-        "pod"
-      ],
-      "mappedAxes": [
-        "rep",
-        "pod"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "rep",
-        "pod"
-      ],
-      "sourceCount": 1,
+      "directionalAxes": [],
+      "sourceCount": 2,
       "sourceUrls": [
-        "https://www.conseil-constitutionnel.fr/les-constitutions-dans-l-histoire/constitution-du-14-janvier-1852"
+        "https://www.conseil-constitutionnel.fr/les-constitutions-dans-l-histoire/constitution-du-14-janvier-1852",
+        "https://commons.wikimedia.org/wiki/File:Napoleonic_ideas._Des_id%C3%A9es_napol%C3%A9oniennes,_par_le_prince_Napol%C3%A9on-Louis_Bonaparte._Brussels-_1839_(IA_napoleonicideasd00napoiala).pdf"
       ]
     },
     {
@@ -11284,7 +11212,7 @@
       "aliases": [],
       "kind": "country",
       "category": "historical-country",
-      "period": "Transição pós-soviética, 1991–1999",
+      "period": "Presidência Yeltsin, 1991–1999; recorte normativo: Constituição de 1993, sem certificação de toda a prática.",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
@@ -11301,10 +11229,12 @@
         "rep",
         "con"
       ],
-      "sourceCount": 2,
+      "sourceCount": 4,
       "sourceUrls": [
         "https://www.departments.bucknell.edu/russian/const/constit.html",
-        "https://history.state.gov/milestones/1989-1992/collapse-soviet-union"
+        "https://history.state.gov/milestones/1989-1992/collapse-soviet-union",
+        "https://mjp.univ-perp.fr/constit/ru1993.htm",
+        "https://www.prlib.ru/item/1880687"
       ]
     },
     {
@@ -11355,7 +11285,7 @@
       "aliases": [],
       "kind": "country",
       "category": "historical-country",
-      "period": "Ditadura de Francisco Franco, 1939–1975",
+      "period": "Ditadura de Francisco Franco, 1939–1975; recorte normativo: princípios de 1958 consolidados em abril de 1967.",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
@@ -11375,10 +11305,12 @@
         "rel",
         "mor"
       ],
-      "sourceCount": 2,
+      "sourceCount": 4,
       "sourceUrls": [
         "https://www.boe.es/gazeta/dias/1958/05/19/pdfs/BOE-1958-119.pdf",
-        "https://www.congreso.es/cem/franquismo"
+        "https://www.congreso.es/cem/franquismo",
+        "https://www.boe.es/buscar/doc.php?id=BOE-A-1967-40312&lang=es",
+        "https://www.congreso.es/en/cem/cortesp"
       ]
     },
     {
@@ -11387,7 +11319,7 @@
       "aliases": [],
       "kind": "country",
       "category": "historical-country",
-      "period": "República parlamentar, 1910–1926",
+      "period": "Primeira República, 1910–1926; recorte normativo: Constituição de 21 de agosto de 1911.",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
@@ -11404,10 +11336,13 @@
         "rep",
         "rel"
       ],
-      "sourceCount": 2,
+      "sourceCount": 5,
       "sourceUrls": [
         "https://www.parlamento.pt/Parlamento/Documents/Constituicao1911.pdf",
-        "https://www.parlamento.pt/Parlamento/Paginas/Republica-Primeira.aspx"
+        "https://www.parlamento.pt/Parlamento/Paginas/Republica-Primeira.aspx",
+        "https://www.parlamento.pt/parlamento/documents/crp-1911.pdf",
+        "https://www.parlamento.pt/Parlamento/Paginas/liberdade-religiosa.aspx",
+        "https://ahpweb.parlamento.pt/Detalhe/?id=50513&pesq=pa&q=AND__topic_type_id_9__50513_%3B&t=9"
       ]
     },
     {
@@ -13468,7 +13403,7 @@
       "aliases": [],
       "kind": "country",
       "category": "historical-country",
-      "period": "Regime marxista-leninista, 1975–1990",
+      "period": "República Popular do Benim — declaração governamental de 18/11/1977 na FAO",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
@@ -13488,8 +13423,9 @@
         "eco",
         "con"
       ],
-      "sourceCount": 2,
+      "sourceCount": 3,
       "sourceUrls": [
+        "https://www.fao.org/4/AK656E/ak656E26.htm",
         "https://www.constituteproject.org/constitution/Benin_1977",
         "https://tile.loc.gov/storage-services/master/frd/frdcstdy/be/benincountrystud00dekie/benincountrystud00dekie.pdf"
       ]
@@ -13500,7 +13436,7 @@
       "aliases": [],
       "kind": "country",
       "category": "historical-country",
-      "period": "Revolução democrática e popular, 1983–1987",
+      "period": "Revolução de Sankara — programa do CNR de 2/10/1983; governo de 4/8/1983 a 15/10/1987",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
@@ -13523,8 +13459,9 @@
         "eco",
         "mor"
       ],
-      "sourceCount": 2,
+      "sourceCount": 3,
       "sourceUrls": [
+        "https://www.thomassankara.net/the-political-orientation-speech-thomas-sankara/?lang=en",
         "https://www.thomassankara.net/category/textes-de-thomas-sankara/",
         "https://courier.unesco.org/en/articles/thomas-sankara-african-revolutionary"
       ]
@@ -13535,7 +13472,7 @@
       "aliases": [],
       "kind": "country",
       "category": "historical-country",
-      "period": "República pós-independência de partido único, 1962–1989",
+      "period": "Argélia sob direção da FLN — Constituição de 22/11/1976, versão inicial reproduzida",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
@@ -13558,8 +13495,9 @@
         "eco",
         "con"
       ],
-      "sourceCount": 2,
+      "sourceCount": 3,
       "sourceUrls": [
+        "https://fr.wikisource.org/wiki/Constitution_alg%C3%A9rienne_du_22_novembre_1976_(version_initiale)",
         "https://www.constituteproject.org/constitution/Algeria_1976",
         "https://tile.loc.gov/storage-services/master/frd/frdcstdy/al/algeriacountrystu00hagg/algeriacountrystu00hagg.pdf"
       ]
@@ -13570,7 +13508,7 @@
       "aliases": [],
       "kind": "country",
       "category": "historical-country",
-      "period": "República Popular de Angola, 1975–1991",
+      "period": "República Popular de Angola — declaração governamental de 19/11/1977 na FAO",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
@@ -13593,8 +13531,9 @@
         "eco",
         "con"
       ],
-      "sourceCount": 2,
+      "sourceCount": 3,
       "sourceUrls": [
+        "https://www.fao.org/4/AK656E/ak656e28.htm",
         "https://www.constituteproject.org/constitution/Angola_1975",
         "https://tile.loc.gov/storage-services/master/frd/frdcstdy/an/angolacountrystud00colt/angolacountrystud00colt.pdf"
       ]
@@ -13605,7 +13544,7 @@
       "aliases": [],
       "kind": "country",
       "category": "historical-country",
-      "period": "República Popular, 1975–1990",
+      "period": "República Popular de Moçambique — declaração governamental de 19/11/1977 na FAO",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
@@ -13628,8 +13567,9 @@
         "eco",
         "con"
       ],
-      "sourceCount": 2,
+      "sourceCount": 3,
       "sourceUrls": [
+        "https://www.fao.org/4/AK656E/ak656e28.htm",
         "https://www.constituteproject.org/constitution/Mozambique_1975",
         "https://tile.loc.gov/storage-services/master/frd/frdcstdy/mo/mozambiquecountr00allp/mozambiquecountr00allp.pdf"
       ]
@@ -13640,7 +13580,7 @@
       "aliases": [],
       "kind": "country",
       "category": "historical-country",
-      "period": "Declaração de Arusha e socialismo de autossuficiência, 1967–1985",
+      "period": "Tanzânia — Declaração de Arusha de 5/2/1967, programa da TANU",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
@@ -13660,8 +13600,9 @@
         "eco",
         "con"
       ],
-      "sourceCount": 2,
+      "sourceCount": 3,
       "sourceUrls": [
+        "https://www.marxists.org/subject/africa/nyerere/1967/arusha-declaration.htm",
         "https://www.files.ethz.ch/isn/125524/8004_Arusha_Declaration.pdf",
         "https://www.marxists.org/subject/africa/nyerere/1967/arusha-declaration.htm"
       ]
@@ -13672,7 +13613,7 @@
       "aliases": [],
       "kind": "country",
       "category": "historical-country",
-      "period": "Segunda República, 1973–1991",
+      "period": "Segunda República da Zâmbia — norma partidária de 1973 citada em julho de 1991; reforma de dezembro de 1990",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
@@ -13692,8 +13633,9 @@
         "eco",
         "con"
       ],
-      "sourceCount": 2,
+      "sourceCount": 3,
       "sourceUrls": [
+        "https://media.zambialii.org/media/judgment/31890/attachments/lumina-another-v-attorney-general-1991-zmsc-17-10-july-1991.pdf",
         "https://www.constituteproject.org/constitution/Zambia_1973",
         "https://tile.loc.gov/storage-services/master/frd/frdcstdy/za/zambiacountrystud00mila/zambiacountrystud00mila.pdf"
       ]
@@ -13704,7 +13646,7 @@
       "aliases": [],
       "kind": "country",
       "category": "historical-country",
-      "period": "Regime militar, 1971–1979",
+      "period": "Uganda sob Amin — proclamação com efeito em 25/1/1971, reproduzida em decisão de 2018",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
@@ -13724,8 +13666,9 @@
         "pod",
         "mor"
       ],
-      "sourceCount": 2,
+      "sourceCount": 3,
       "sourceUrls": [
+        "https://ulii.org/en/akn/ug/judgment/ugcc/2018/4/eng%402018-07-26",
         "https://tile.loc.gov/storage-services/master/frd/frdcstdy/ug/ugandacountrystu00byrn_0/ugandacountrystu00byrn_0.pdf",
         "https://www.icj.org/wp-content/uploads/2013/06/Ugandaviolations-of-human-rights-thematic-report-1974-eng.pdf"
       ]
@@ -13736,7 +13679,7 @@
       "aliases": [],
       "kind": "country",
       "category": "historical-country",
-      "period": "República Democrática da Somália, 1969–1991",
+      "period": "República Democrática da Somália — Constituição em vigor desde 16/9/1979",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
@@ -13756,8 +13699,9 @@
         "eco",
         "con"
       ],
-      "sourceCount": 2,
+      "sourceCount": 3,
       "sourceUrls": [
+        "https://www.marxists.org/subject/somalia/somalia-constitution1979.pdf",
         "https://www.constituteproject.org/constitution/Somalia_1979",
         "https://tile.loc.gov/storage-services/master/frd/frdcstdy/so/somaliacountrystud00metz/somaliacountrystud00metz.pdf"
       ]
@@ -13768,7 +13712,7 @@
       "aliases": [],
       "kind": "country",
       "category": "historical-country",
-      "period": "Declaração do Poder Popular, 1977–2011",
+      "period": "Jamahiriya líbia — Declaração do Poder Popular de 2/3/1977",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
@@ -13791,8 +13735,9 @@
         "con",
         "rel"
       ],
-      "sourceCount": 2,
+      "sourceCount": 3,
       "sourceUrls": [
+        "https://www.refworld.org/legal/decreees/natlegbod/1977/14592",
         "https://www.constituteproject.org/constitution/Libya_1977",
         "https://tile.loc.gov/storage-services/master/frd/frdcstdy/ly/libyacountrystud00metz/libyacountrystud00metz.pdf"
       ]
@@ -13803,7 +13748,7 @@
       "aliases": [],
       "kind": "country",
       "category": "historical-country",
-      "period": "Independência e governo parlamentar, 1980–1990",
+      "period": "Zimbábue em transição — programa de Mugabe de 4/3/1980, anterior à independência de 18/4/1980",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
@@ -13820,8 +13765,9 @@
         "rep",
         "mor"
       ],
-      "sourceCount": 2,
+      "sourceCount": 3,
       "sourceUrls": [
+        "https://news.pindula.co.zw/2020/04/18/mugabes-1980-independence-speech-that-captured-the-nations-hope-dreams/",
         "https://www.constituteproject.org/constitution/Zimbabwe_1980",
         "https://tile.loc.gov/storage-services/master/frd/frdcstdy/zi/zimbabwestudy00byrn/zimbabwestudy00byrn.pdf"
       ]
@@ -13832,7 +13778,7 @@
       "aliases": [],
       "kind": "country",
       "category": "historical-country",
-      "period": "Regime autoritário, 1954–1989",
+      "period": "Paraguai sob Stroessner — Constituição de 25/8/1967 e emenda de 25/3/1977",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
@@ -13852,8 +13798,9 @@
         "pod",
         "mor"
       ],
-      "sourceCount": 2,
+      "sourceCount": 3,
       "sourceUrls": [
+        "https://www.derechoparaguayo.com/2016/08/texto-de-la-constitucion-de-la.html",
         "https://www.constituteproject.org/constitution/Paraguay_1967",
         "https://www.verdadyjusticia-dp.gov.py/"
       ]
@@ -13864,7 +13811,7 @@
       "aliases": [],
       "kind": "country",
       "category": "historical-country",
-      "period": "Governos da família Somoza, 1937–1979",
+      "period": "Nicarágua sob os Somoza — Constituição aprovada em 14/3/1974, publicada em 24/4/1974",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
@@ -13884,8 +13831,9 @@
         "pod",
         "mor"
       ],
-      "sourceCount": 2,
+      "sourceCount": 3,
       "sourceUrls": [
+        "https://nicaragua.justia.com/nacionales/constituciones-politicas-de-nicaragua/constitucion-politica-apr-24-1974/gdoc/",
         "https://www.constituteproject.org/constitution/Nicaragua_1950",
         "https://tile.loc.gov/storage-services/master/frd/frdcstdy/ni/nicaraguacountryst00merr/nicaraguacountryst00merr.pdf"
       ]
@@ -13896,7 +13844,7 @@
       "aliases": [],
       "kind": "country",
       "category": "historical-country",
-      "period": "Do golpe de 1954 aos acordos de paz, 1954–1996",
+      "period": "Ordem posterior ao golpe de 1954; recorte normativo: Constituição decretada em 2 de fevereiro de 1956, não todos os governos até 1996.",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
@@ -13916,10 +13864,14 @@
         "pod",
         "mor"
       ],
-      "sourceCount": 2,
+      "sourceCount": 6,
       "sourceUrls": [
         "https://www.undp.org/guatemala/publications/guatemala-memoria-del-silencio",
-        "https://www.constituteproject.org/constitution/Guatemala_1985"
+        "https://www.constituteproject.org/constitution/Guatemala_1985",
+        "https://archivos.juridicas.unam.mx/www/bjv/libros/5/2210/25.pdf",
+        "https://history.state.gov/countries/guatemala",
+        "https://history.state.gov/historicaldocuments/frus1952-54Guat/d256",
+        "https://peacemaker.un.org/sites/default/files/document/files/2024/05/gt961229agreementonfirmandlastingpeace28esp29.pdf"
       ]
     },
     {
@@ -13928,7 +13880,7 @@
       "aliases": [],
       "kind": "country",
       "category": "historical-country",
-      "period": "Governos militares de Rodríguez Lara e Conselho Supremo, 1972–1979",
+      "period": "Equador sob governo militar — declaração governamental de 18/11/1977 na FAO",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
@@ -13948,8 +13900,9 @@
         "eco",
         "con"
       ],
-      "sourceCount": 2,
+      "sourceCount": 3,
       "sourceUrls": [
+        "https://www.fao.org/4/AK656E/ak656e24.htm",
         "https://www.constituteproject.org/constitution/Ecuador_1978",
         "https://tile.loc.gov/storage-services/master/frd/frdcstdy/ec/ecuadorcountryst00hanr/ecuadorcountryst00hanr.pdf"
       ]
@@ -13960,7 +13913,7 @@
       "aliases": [],
       "kind": "country",
       "category": "historical-country",
-      "period": "Predomínio conservador sob a Constituição de 1886, 1886–1930",
+      "period": "Hegemonia conservadora, 1886–1930; recorte normativo: Constituição de 5 de agosto de 1886.",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
@@ -13980,10 +13933,12 @@
         "rep",
         "rel"
       ],
-      "sourceCount": 2,
+      "sourceCount": 4,
       "sourceUrls": [
         "https://www.suin-juriscol.gov.co/viewDocument.asp?id=1826862",
-        "https://www.banrepcultural.org/biblioteca-virtual/credencial-historia/numero-182/la-republica-conservadora-1886-1930"
+        "https://www.banrepcultural.org/biblioteca-virtual/credencial-historia/numero-182/la-republica-conservadora-1886-1930",
+        "https://www1.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=7153",
+        "https://publicaciones.banrepcultural.org/index.php/boletin_cultural/article/view/1134/0"
       ]
     },
     {
@@ -13992,7 +13947,7 @@
       "aliases": [],
       "kind": "country",
       "category": "historical-country",
-      "period": "República parlamentar entre guerras, 1918–1938",
+      "period": "Primeira República, 1918–1938; recorte normativo: Carta Constitucional de 29 de fevereiro de 1920.",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
@@ -14009,19 +13964,21 @@
         "est",
         "rep"
       ],
-      "sourceCount": 2,
+      "sourceCount": 4,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Czechoslovakia_1920",
-        "https://germanhistorydocs.org/en/weimar-germany-1918-1933/czechoslovakia-1918-1938"
+        "https://germanhistorydocs.org/en/weimar-germany-1918-1933/czechoslovakia-1918-1938",
+        "https://www.psp.cz/docs/texts/constitution_1920.html",
+        "https://rapid.psp.cz/arl-par/cs/detail-par_us_cat-0170470-Prvni-republika-19181938/"
       ]
     },
     {
       "id": "albania-hoxha-1946",
-      "name": "Albânia — regime de Enver Hoxha",
+      "name": "Albânia — ordem comunista; fase de Hoxha",
       "aliases": [],
       "kind": "country",
       "category": "historical-country",
-      "period": "República Popular Socialista, 1946–1991",
+      "period": "Ordem comunista, 1946–1991; Hoxha faleceu em 1985; recorte normativo: Constituição socialista de 28 de dezembro de 1976.",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
@@ -14044,10 +14001,12 @@
         "con",
         "rel"
       ],
-      "sourceCount": 2,
+      "sourceCount": 4,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Albania_1976",
-        "https://tile.loc.gov/storage-services/master/frd/frdcstdy/al/albaniacountryst00raym/albaniacountryst00raym.pdf"
+        "https://tile.loc.gov/storage-services/master/frd/frdcstdy/al/albaniacountryst00raym/albaniacountryst00raym.pdf",
+        "https://mjp.univ-perp.fr/constit/al1976.htm",
+        "https://albania.osce.org/sites/default/files/f/documents/d/1/286821.pdf"
       ]
     },
     {
@@ -14056,7 +14015,7 @@
       "aliases": [],
       "kind": "country",
       "category": "historical-country",
-      "period": "Constituição liberal e monarquia, 1923–1940",
+      "period": "Monarquia sob a Constituição de 1923, 1923–1938; carta revogada em 27 de fevereiro de 1938.",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
@@ -14073,10 +14032,13 @@
         "rep",
         "mor"
       ],
-      "sourceCount": 2,
+      "sourceCount": 5,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Romania_1923",
-        "https://www.britannica.com/place/Romania/Romania-since-World-War-II"
+        "https://www.britannica.com/place/Romania/Romania-since-World-War-II",
+        "https://www.senat.ro/pagini/constitutia/1923/constitutiunea_din_1923.htm",
+        "https://legislatie.just.ro/Public/FormaPrintabila/00000G1A9ZO80BUU8OZ1BWAWMJN9X63U",
+        "https://legislatie.just.ro/public/DetaliiDocument/14930"
       ]
     },
     {
@@ -14085,7 +14047,7 @@
       "aliases": [],
       "kind": "country",
       "category": "historical-country",
-      "period": "República de Ngô Đình Diệm e sucessores, 1955–1975",
+      "period": "República do Vietnã, 1955–1975; recorte normativo: carta de 1967, com dia da reprodução ainda incerto.",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
@@ -14105,10 +14067,12 @@
         "pod",
         "dip"
       ],
-      "sourceCount": 2,
+      "sourceCount": 4,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/South_Vietnam_1967",
-        "https://tile.loc.gov/storage-services/master/frd/frdcstdy/vi/vietnamcountryst00cima/vietnamcountryst00cima.pdf"
+        "https://tile.loc.gov/storage-services/master/frd/frdcstdy/vi/vietnamcountryst00cima/vietnamcountryst00cima.pdf",
+        "https://vietnamproject.archives.msu.edu/recordFiles/159-547-19/UA17-95_000284.pdf",
+        "https://history.state.gov/countries/vietnam"
       ]
     },
     {
@@ -14117,7 +14081,7 @@
       "aliases": [],
       "kind": "country",
       "category": "historical-country",
-      "period": "Governo de Norodom Sihanouk, 1955–1970",
+      "period": "Ordem de Sihanouk e Sangkum, 1955–1970; recorte declaratório: carta de 23 de fevereiro de 1959, sem certificar realização das propostas.",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
@@ -14134,10 +14098,14 @@
         "rep",
         "int"
       ],
-      "sourceCount": 2,
+      "sourceCount": 6,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Cambodia_1953",
-        "https://tile.loc.gov/storage-services/master/frd/frdcstdy/ca/cambodiacountryst00ross/cambodiacountryst00ross.pdf"
+        "https://tile.loc.gov/storage-services/master/frd/frdcstdy/ca/cambodiacountryst00ross/cambodiacountryst00ross.pdf",
+        "https://history.state.gov/historicaldocuments/frus1958-60v16/d100",
+        "https://mjp.univ-perp.fr/constit/kh1947.htm",
+        "https://history.state.gov/historicaldocuments/frus1955-57v21/d219",
+        "https://history.state.gov/historicaldocuments/frus1969-76v41/d329"
       ]
     },
     {
@@ -14146,7 +14114,7 @@
       "aliases": [],
       "kind": "country",
       "category": "historical-country",
-      "period": "República Democrática e República do Afeganistão, 1978–1992",
+      "period": "Ordem do PDPA; recorte normativo: carta adotada em novembro de 1987, reproduzida com capa 1988; fases anteriores distintas.",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
@@ -14169,10 +14137,12 @@
         "eco",
         "con"
       ],
-      "sourceCount": 2,
+      "sourceCount": 4,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Afghanistan_1987",
-        "https://tile.loc.gov/storage-services/master/frd/frdcstdy/af/afghanistancountr00rubi/afghanistancountr00rubi.pdf"
+        "https://tile.loc.gov/storage-services/master/frd/frdcstdy/af/afghanistancountr00rubi/afghanistancountr00rubi.pdf",
+        "https://constitutionnet.org/sites/default/files/Afghanistan%20Constitution_1987-1366_ET.pdf",
+        "https://peacemaker.un.org/sites/default/files/document/files/2022/07/aflgafghanistanconstitutionenglish1987.pdf"
       ]
     },
     {
@@ -14181,7 +14151,7 @@
       "aliases": [],
       "kind": "country",
       "category": "historical-country",
-      "period": "Monarquia sem partidos, 1962–1990",
+      "period": "Monarquia Panchayat; recorte normativo: Constituição de 1962 com primeira emenda, incluindo cláusula vigente em 1968.",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
@@ -14201,19 +14171,21 @@
         "rep",
         "rel"
       ],
-      "sourceCount": 2,
+      "sourceCount": 4,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Nepal_1962",
-        "https://tile.loc.gov/storage-services/master/frd/frdcstdy/ne/nepalcountrystud00sava/nepalcountrystud00sava.pdf"
+        "https://tile.loc.gov/storage-services/master/frd/frdcstdy/ne/nepalcountrystud00sava/nepalcountrystud00sava.pdf",
+        "https://constitutionnet.org/sites/default/files/constitution_1962.pdf",
+        "https://na.parliament.gov.np/uploads/attachments/mxgnirmhtqpgdvhw.pdf"
       ]
     },
     {
       "id": "sri-lanka-executive-presidency-1978",
-      "name": "Sri Lanka — período da presidência executiva",
+      "name": "Sri Lanka — presidência durante a guerra civil",
       "aliases": [],
       "kind": "country",
       "category": "historical-country",
-      "period": "Constituição de 1978 e guerra civil, 1978–2009",
+      "period": "Fase da guerra civil, 1983–2009; quadro constitucional de 1978 com emendas; o fim do conflito não encerra a Constituição nem a presidência executiva.",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
@@ -14236,10 +14208,14 @@
         "rel",
         "mor"
       ],
-      "sourceCount": 2,
+      "sourceCount": 6,
       "sourceUrls": [
         "https://www.parliament.lk/files/pdf/constitution.pdf",
-        "https://www.mfa.gov.lk/llrc-report/"
+        "https://www.mfa.gov.lk/llrc-report/",
+        "https://www.parliament.lk/files/pdf/constitution/1978ConstitutionWithoutAmendments.pdf",
+        "https://www.parliament.lk/uploads/documents/paperspresented/1676277008025753.pdf",
+        "https://treaties.un.org/pages/Declarations.aspx?chapter=4&index=Sri+Lanka&lang=_en&treaty=335",
+        "https://www.ohchr.org/sites/default/files/documents/hrbodies/hrcouncil/sri-lanka/report-accountability-enforced-disappearances-sri-lanka-may2024-en.pdf"
       ]
     },
     {
@@ -14248,7 +14224,7 @@
       "aliases": [],
       "kind": "country",
       "category": "historical-country",
-      "period": "República de Houphouët-Boigny, 1960–1990",
+      "period": "Costa do Marfim sob Houphouët-Boigny — declaração governamental de 19/11/1977 na FAO",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
@@ -14265,8 +14241,9 @@
         "rep",
         "eco"
       ],
-      "sourceCount": 2,
+      "sourceCount": 3,
       "sourceUrls": [
+        "https://www.fao.org/4/AK656E/ak656e28.htm",
         "https://www.constituteproject.org/constitution/Cote_DIvoire_1960",
         "https://history.state.gov/countries/cote-divoire"
       ]
@@ -15073,7 +15050,7 @@
       ],
       "kind": "country",
       "category": "historical-country",
-      "period": "Regime da República Popular, 1952–1989; codificação da edição constitucional original de 1952",
+      "period": "República Popular, 1952–1989; recorte normativo: edição original de 22 de julho de 1952, distinta de emendas posteriores.",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
@@ -15093,10 +15070,12 @@
         "rep",
         "con"
       ],
-      "sourceCount": 2,
+      "sourceCount": 4,
       "sourceUrls": [
         "https://api.sejm.gov.pl/eli/acts/DU/1952/232/text.pdf",
-        "https://eng.ipn.gov.pl/en/brief-history-of-poland"
+        "https://eng.ipn.gov.pl/en/brief-history-of-poland",
+        "https://pl.wikisource.org/wiki/Konstytucja_Polskiej_Rzeczypospolitej_Ludowej_(1952)",
+        "https://ipn.gov.pl/pl/historia-z-ipn/235514,Irena-Siwinska-Zeby-Polska-byla-Polska-Nowela-grudniowa-1989-r.html"
       ]
     },
     {
@@ -15148,7 +15127,7 @@
       ],
       "kind": "country",
       "category": "historical-country",
-      "period": "Ordem territorial anterior à ocupação, 1935–1939; desenho original de abril de 1935",
+      "period": "Ordem constitucional anterior à ocupação; recorte normativo: capítulo I da Carta de Abril de 1935.",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
@@ -15162,9 +15141,10 @@
       "directionalAxes": [
         "rep"
       ],
-      "sourceCount": 1,
+      "sourceCount": 2,
       "sourceUrls": [
-        "https://api.sejm.gov.pl/eli/acts/DU/1935/227/text.pdf"
+        "https://api.sejm.gov.pl/eli/acts/DU/1935/227/text.pdf",
+        "https://libr.sejm.gov.pl/tek01/txt/kpol/1935-r1.html"
       ]
     },
     {
