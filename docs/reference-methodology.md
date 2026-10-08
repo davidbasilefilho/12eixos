@@ -1,5 +1,8 @@
 # Metodologia dos perfis de comparação
 
+> Estado da seleção em 8 de outubro de 2026: o produto usa 675 perfis (150 por categoria não ideológica e 75 ideologias pesquisadas). Deles, 86 têm ao menos seis eixos documentados e 589 permanecem parciais. O arquivo completo preserva 868 registros, dos quais 193 estão fora da seleção. A pesquisa de identidade não gera scores. Veja [integração da seleção](reference-ideology75-integration.md) e [auditoria atual](selected-catalog-audit.json); contagens anteriores neste documento são checkpoints históricos.
+
+
 Os perfis em `src/data/references.ts` são **modelos editoriais explícitos**, não medições de opinião dos países, ideologias ou pessoas. Servem para explorar semelhanças entre doze posições. Uma correspondência descritiva não é apoio político, recomendação de voto, identificação pessoal nem avaliação moral.
 
 ## Orientação e codificação

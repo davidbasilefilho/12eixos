@@ -1,0 +1,61 @@
+{
+  "reviewedOn": "2026-10-08",
+  "baseCommit": "df4d4317c04a4977c35e3e23d308e4b440c0505e",
+  "originalCatalog": {
+    "records": 818,
+    "sha256": "f989c8d317a758f6d65af689c2bca07d560d65be000b15f0dc794ecda9d1420e",
+    "unchanged": true,
+    "rawDocumentaryEligible": 93,
+    "priorSelectedEligible": 91
+  },
+  "researchInputSha256": "ef57dcfc83eb3ba6f71a4db2bdc43fc95c69993715253967ed2f1ca3d4761883",
+  "selectedCatalogSha256": "2f89965bd9f2f38e7524a532b3a9268306c079cef455e9ce188a078f7e59f6b8",
+  "fullArchiveRecords": 868,
+  "selectedRecords": 675,
+  "reusedIdeologyReferents": 25,
+  "newResearchOnlyReferents": 50,
+  "archivedOutsideSelection": 193,
+  "documentaryEligible": 86,
+  "insufficientEvidence": 589,
+  "newScores": 0,
+  "gateMinimumAxes": 6,
+  "categories": [
+    {
+      "category": "country",
+      "selected": 150,
+      "documentaryEligible": 19,
+      "pending": 131
+    },
+    {
+      "category": "historical-country",
+      "selected": 150,
+      "documentaryEligible": 18,
+      "pending": 132
+    },
+    {
+      "category": "public-figure",
+      "selected": 150,
+      "documentaryEligible": 17,
+      "pending": 133
+    },
+    {
+      "category": "historical-figure",
+      "selected": 150,
+      "documentaryEligible": 24,
+      "pending": 126
+    },
+    {
+      "category": "ideology",
+      "selected": 75,
+      "documentaryEligible": 8,
+      "pending": 67
+    }
+  ],
+  "limitations": [
+    "Selection research is not source-truth certification or whole-axis coding.",
+    "No new numeric vectors were inferred from research prospects; new profiles remain unknown on all axes.",
+    "Same-referent inherited coding retains the exact prior period, numbers, grades, claims and source objects.",
+    "All 818 former records remain intact; selection and eligibility are separate counts.",
+    "The prior selected675 had 91 eligible; the prior unfiltered product catalog had 93. The current selected675 has 86 because its ideology membership changed."
+  ]
+}

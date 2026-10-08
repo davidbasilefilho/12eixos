@@ -1,0 +1,791 @@
+{
+  "schemaVersion": "12eixos-ideology-candidate-pool-v 1",
+  "researchedOn": "2026-10-08",
+  "selectedCount": 75,
+  "notSelectedCount": 36,
+  "candidateCountIncludingUmbrellaLabels": 111,
+  "methodNote": "A profundidade de pesquisa é declarada. Rótulos guarda-chuva foram triados conceitualmente; não se afirma que todos tenham recebido a mesma leitura primária dos 75 finalistas. Exclusão sob limite editorial não significa inexistência ou irrelevância da tradição.",
+  "selected": [
+    {
+      "id": "ideology-classical-liberalism",
+      "namePT": "Liberalismo clássico constitucional (Constant, 1819)"
+    },
+    {
+      "id": "ideology-social-liberalism",
+      "namePT": "Liberalismo social (Hobhouse, 1911)"
+    },
+    {
+      "id": "ideology-egalitarian-liberalism",
+      "namePT": "Liberalismo igualitário (Rawls, 2001)"
+    },
+    {
+      "id": "ideology-minarchism",
+      "namePT": "Libertarianismo minarquista (Nozick, 1974)"
+    },
+    {
+      "id": "ideology-anarcho-capitalism",
+      "namePT": "Anarcocapitalismo (Rothbard, 1973)"
+    },
+    {
+      "id": "ideology-georgism",
+      "namePT": "Georgismo (George, 1879)"
+    },
+    {
+      "id": "ideology-ordoliberalism",
+      "namePT": "Ordoliberalismo de Freiburg (Eucken)"
+    },
+    {
+      "id": "ideology-civic-republicanism",
+      "namePT": "Republicanismo da não dominação (Pettit, 2012)"
+    },
+    {
+      "id": "ideology-cosmopolitan-democracy",
+      "namePT": "Democracia cosmopolita (Held–Archibugi, 2011)"
+    },
+    {
+      "id": "ideology-communitarianism",
+      "namePT": "Comunitarismo responsivo (plataforma 1991)"
+    },
+    {
+      "id": "ideology-burkean-conservatism",
+      "namePT": "Conservadorismo constitucional burkeano"
+    },
+    {
+      "id": "ideology-national-conservatism",
+      "namePT": "Conservadorismo nacional (manifesto 2022)"
+    },
+    {
+      "id": "ideology-neoconservatism",
+      "namePT": "Neoconservadorismo (Kristol, 2003)"
+    },
+    {
+      "id": "ideology-christian-democracy",
+      "namePT": "Democracia cristã europeia (PPE, 2012)"
+    },
+    {
+      "id": "ideology-distributism",
+      "namePT": "Distributismo (Chesterton, 1926)"
+    },
+    {
+      "id": "ideology-catholic-integralism",
+      "namePT": "Integralismo católico (matriz leonina, 1885–1891)"
+    },
+    {
+      "id": "ideology-jacobin-republicanism",
+      "namePT": "Republicanismo jacobino (Constituição 1793)"
+    },
+    {
+      "id": "ideology-hobbesian-absolutism",
+      "namePT": "Absolutismo contratualista (Hobbes, 1651)"
+    },
+    {
+      "id": "ideology-confucian-constitutionalism-jiang",
+      "namePT": "Constitucionalismo confuciano (Jiang Qing)"
+    },
+    {
+      "id": "ideology-legalism-han-fei",
+      "namePT": "Legalismo chinês (Han Fei)"
+    },
+    {
+      "id": "ideology-mohism",
+      "namePT": "Moísmo (núcleo político do Mozi)"
+    },
+    {
+      "id": "ideology-marxian-communal-communism-1871-1875",
+      "namePT": "Comunismo comunal de Marx (1871–1875)"
+    },
+    {
+      "id": "ideology-luxemburgist-revolutionary-democracy-1918",
+      "namePT": "Luxemburguismo democrático-revolucionário (1918)"
+    },
+    {
+      "id": "ideology-marxism-leninism-stalin-1926",
+      "namePT": "Marxismo-leninismo de Stalin (1926)"
+    },
+    {
+      "id": "ideology-trotskyism-1938",
+      "namePT": "Trotskismo do Programa de Transição"
+    },
+    {
+      "id": "ideology-maoism",
+      "namePT": "Nova Democracia de Mao (1940)"
+    },
+    {
+      "id": "ideology-council-communism-pannekoek",
+      "namePT": "Comunismo de conselhos de Pannekoek"
+    },
+    {
+      "id": "ideology-eurocommunism-berlinguer-1977",
+      "namePT": "Eurocomunismo pluralista de Berlinguer (1977)"
+    },
+    {
+      "id": "ideology-democratic-socialism-dsa-2026",
+      "namePT": "Socialismo democrático da DSA (2026)"
+    },
+    {
+      "id": "ideology-social-democracy-godesberg-1959",
+      "namePT": "Social-democracia de Godesberg (1959)"
+    },
+    {
+      "id": "ideology-guild-socialism-cole",
+      "namePT": "Socialismo de guildas de Cole"
+    },
+    {
+      "id": "ideology-market-socialism-schweickart",
+      "namePT": "Socialismo de mercado de Schweickart"
+    },
+    {
+      "id": "ideology-participatory-economics",
+      "namePT": "Economia participativa de Albert e Hahnel"
+    },
+    {
+      "id": "ideology-ecosocialism-kovel-lowy",
+      "namePT": "Ecossocialismo de Kovel e Löwy"
+    },
+    {
+      "id": "ideology-mutualism-proudhon-1863",
+      "namePT": "Mutualismo federativo de Proudhon"
+    },
+    {
+      "id": "ideology-collectivist-anarchism-bakunin-1866",
+      "namePT": "Anarquismo coletivista de Bakunin"
+    },
+    {
+      "id": "ideology-anarcho-communism-kropotkin",
+      "namePT": "Anarcocomunismo de Kropotkin"
+    },
+    {
+      "id": "ideology-program-anarcho-syndicalism-iwa-2022",
+      "namePT": "Anarcossindicalismo da AIT (2022)"
+    },
+    {
+      "id": "ideology-christian-anarchism-tolstoy",
+      "namePT": "Anarquismo cristão de Tolstói"
+    },
+    {
+      "id": "ideology-communalism-bookchin-2002",
+      "namePT": "Comunalismo de Bookchin"
+    },
+    {
+      "id": "ideology-democratic-confederalism-ocalan-2011",
+      "namePT": "Confederalismo democrático de Öcalan"
+    },
+    {
+      "id": "ideology-program-zapatista-autonomy-ezln-1993-1996",
+      "namePT": "Neozapatismo do EZLN (1993–1996)"
+    },
+    {
+      "id": "ideology-global-green-politics",
+      "namePT": "Ecologismo político (Global Greens, 2023)"
+    },
+    {
+      "id": "ideology-democratic-degrowth",
+      "namePT": "Decrescimento democrático (Kallis / Research & Degrowth, 2015)"
+    },
+    {
+      "id": "ideology-bioregionalism",
+      "namePT": "Biorregionalismo reabitante (Berg–Dasmann)"
+    },
+    {
+      "id": "ideology-anarcho-primitivism",
+      "namePT": "Anarcoprimitivismo (exposição de John Moore)"
+    },
+    {
+      "id": "ideology-democratic-transhumanism-hughes",
+      "namePT": "Transumanismo democrático (Hughes, programa 2.0)"
+    },
+    {
+      "id": "ideology-continental-technocracy",
+      "namePT": "Tecnocracia continental (Technocracy Inc., edição 2004)"
+    },
+    {
+      "id": "ideology-douglas-social-credit",
+      "namePT": "Crédito social (Douglas, 1933)"
+    },
+    {
+      "id": "ideology-socialist-feminism",
+      "namePT": "Feminismo socialista negro (Combahee, 1977)"
+    },
+    {
+      "id": "ideology-radical-feminism",
+      "namePT": "Feminismo radical de Firestone"
+    },
+    {
+      "id": "ideology-black-nationalism",
+      "namePT": "Nacionalismo negro comunitário (Malcolm X, 1964)"
+    },
+    {
+      "id": "ideology-revolutionary-intercommunalism",
+      "namePT": "Intercomunalismo revolucionário (Newton, 1970)"
+    },
+    {
+      "id": "ideology-buen-vivir",
+      "namePT": "Bem viver plurinacional (Acosta, 2010)"
+    },
+    {
+      "id": "ideology-gandhian-swaraj",
+      "namePT": "Swaraj gandhiano (1909–1947)"
+    },
+    {
+      "id": "ideology-ambedkarite-constitutional-socialism",
+      "namePT": "Socialismo constitucional ambedkarista (1947)"
+    },
+    {
+      "id": "ideology-ujamaa",
+      "namePT": "Ujamaa (Arusha, 1967)"
+    },
+    {
+      "id": "ideology-nkrumahism",
+      "namePT": "Pan-africanismo socialista (Nkrumah, 1963–1967)"
+    },
+    {
+      "id": "ideology-three-peoples-principles",
+      "namePT": "Três Princípios do Povo (Sun, 1918–1924)"
+    },
+    {
+      "id": "ideology-kemalism",
+      "namePT": "Kemalismo das seis flechas (CHP, 1935)"
+    },
+    {
+      "id": "ideology-baathism",
+      "namePT": "Socialismo pan-árabe baathista (1947)"
+    },
+    {
+      "id": "ideology-nasserism",
+      "namePT": "Socialismo árabe nasserista (Carta 1962)"
+    },
+    {
+      "id": "ideology-justicialism",
+      "namePT": "Justicialismo da comunidade organizada (1949–1952)"
+    },
+    {
+      "id": "ideology-bolivarian-socialism",
+      "namePT": "Socialismo bolivariano comunal (programa 2012)"
+    },
+    {
+      "id": "ideology-integral-humanism",
+      "namePT": "Humanismo integral de Upadhyaya"
+    },
+    {
+      "id": "ideology-maududi-theodemocracy",
+      "namePT": "Teodemocracia islâmica (Maududi, 1939)"
+    },
+    {
+      "id": "ideology-guardianship-jurist",
+      "namePT": "Governo do jurista (Khomeini, 1970)"
+    },
+    {
+      "id": "ideology-nabhani-caliphate",
+      "namePT": "Califado unitário (an-Nabhani, edição 2002)"
+    },
+    {
+      "id": "ideology-dhammic-socialism",
+      "namePT": "Socialismo dármico (Buddhadasa, coletânea 1986)"
+    },
+    {
+      "id": "ideology-italian-fascism",
+      "namePT": "Fascismo italiano (doutrina 1932)"
+    },
+    {
+      "id": "ideology-national-socialism",
+      "namePT": "Nacional-socialismo (programa 1920)"
+    },
+    {
+      "id": "ideology-narodnik-agrarian-socialism",
+      "namePT": "Socialismo agrário narodnik (programa 1906)"
+    },
+    {
+      "id": "ideology-functional-demarchy-burnheim",
+      "namePT": "Demarquia funcional (Burnheim, 1985)"
+    },
+    {
+      "id": "ideology-agrarian-populism",
+      "namePT": "Populismo agrário (Omaha, 1892)"
+    },
+    {
+      "id": "ideology-owenite-socialism",
+      "namePT": "Socialismo cooperativo owenista (1820–1821)"
+    }
+  ],
+  "notSelected": [
+    {
+      "candidate": "Liberalismo genérico",
+      "decision": "not-selected",
+      "reason": "Guarda-chuva heterogêneo: duplicaria modelos constitucionais, sociais e igualitários já delimitados.",
+      "relatedSelectedIds": [
+        "ideology-classical-liberalism",
+        "ideology-social-liberalism",
+        "ideology-egalitarian-liberalism",
+        "ideology-ordoliberalism"
+      ],
+      "reviewDepth": "triagem conceitual de escopo",
+      "sources": []
+    },
+    {
+      "candidate": "Liberalismo clássico de Mill como perfil separado",
+      "decision": "not-selected",
+      "reason": "Não se tomou Mill como protótipo puro de laissez-faire: sua abertura à cooperação e ao socialismo torna esse contraste enganoso. Constant delimita melhor o perfil clássico selecionado.",
+      "relatedSelectedIds": [
+        "ideology-classical-liberalism",
+        "ideology-social-liberalism"
+      ],
+      "reviewDepth": "comparação bibliográfica e conceitual",
+      "sources": []
+    },
+    {
+      "candidate": "Neoliberalismo genérico",
+      "decision": "not-selected",
+      "reason": "Rótulo cobre escolas e políticas divergentes; ordoliberalismo e libertarianismos oferecem mecanismos identificáveis.",
+      "relatedSelectedIds": [
+        "ideology-minarchism",
+        "ideology-anarcho-capitalism",
+        "ideology-ordoliberalism"
+      ],
+      "reviewDepth": "triagem conceitual de escopo",
+      "sources": []
+    },
+    {
+      "candidate": "Liberal-conservadorismo / conservadorismo liberal",
+      "decision": "not-selected",
+      "reason": "Combinações demasiado abertas sem um programa adicional comprovadamente distinto nesta seleção.",
+      "relatedSelectedIds": [
+        "ideology-classical-liberalism",
+        "ideology-burkean-conservatism",
+        "ideology-national-conservatism"
+      ],
+      "reviewDepth": "triagem conceitual de escopo",
+      "sources": []
+    },
+    {
+      "candidate": "Conservadorismo genérico",
+      "decision": "not-selected",
+      "reason": "Evita contar uma família inteira acima dos recortes burkeano, nacional e neoconservador.",
+      "relatedSelectedIds": [
+        "ideology-burkean-conservatism",
+        "ideology-national-conservatism",
+        "ideology-neoconservatism"
+      ],
+      "reviewDepth": "triagem conceitual de escopo",
+      "sources": []
+    },
+    {
+      "candidate": "Monarquismo / republicanismo como simples forma de governo",
+      "decision": "not-selected",
+      "reason": "Forma do cargo superior não especifica propriedade, direitos, representação ou ordem social. Hobbes e jacobinismo têm programas próprios.",
+      "relatedSelectedIds": [
+        "ideology-jacobin-republicanism",
+        "ideology-hobbesian-absolutism"
+      ],
+      "reviewDepth": "triagem conceitual de escopo",
+      "sources": []
+    },
+    {
+      "candidate": "Democracia genérica",
+      "decision": "not-selected",
+      "reason": "Tipo de legitimação/decisão, não um programa completo único. Não gera entrada extra sobre perfis democráticos concretos.",
+      "relatedSelectedIds": [
+        "ideology-civic-republicanism",
+        "ideology-cosmopolitan-democracy",
+        "ideology-jacobin-republicanism",
+        "ideology-functional-demarchy-burnheim"
+      ],
+      "reviewDepth": "triagem conceitual de escopo",
+      "sources": []
+    },
+    {
+      "candidate": "Federalismo / unitarismo",
+      "decision": "not-selected",
+      "reason": "São configurações institucionais do eixoEST; não foram inflados em ideologias completas.",
+      "relatedSelectedIds": [
+        "ideology-mutualism-proudhon-1863",
+        "ideology-democratic-confederalism-ocalan-2011",
+        "ideology-functional-demarchy-burnheim"
+      ],
+      "reviewDepth": "triagem conceitual de escopo",
+      "sources": []
+    },
+    {
+      "candidate": "Sorteio / sortição isolada",
+      "decision": "not-selected",
+      "reason": "Técnica de seleção apenas. Demarquia foi admitida porque também reorganiza soberania, coordenação e recursos.",
+      "relatedSelectedIds": [
+        "ideology-functional-demarchy-burnheim"
+      ],
+      "reviewDepth": "leitura primária e comparação independente",
+      "sources": []
+    },
+    {
+      "candidate": "Nacionalismo genérico",
+      "decision": "not-selected",
+      "reason": "Não fixa sozinho ordem econômica, cidadania ou regime. Substituído por programas delimitados, sem multiplicar nacionalidades.",
+      "relatedSelectedIds": [
+        "ideology-national-conservatism",
+        "ideology-black-nationalism",
+        "ideology-nkrumahism",
+        "ideology-three-peoples-principles",
+        "ideology-kemalism",
+        "ideology-baathism",
+        "ideology-nasserism"
+      ],
+      "reviewDepth": "triagem conceitual de escopo",
+      "sources": []
+    },
+    {
+      "candidate": "Etnonacionalismo como rótulo isolado",
+      "decision": "not-selected",
+      "reason": "Critério de pertencimento pode atravessar regimes diferentes; não acrescenta um programa institucional autônomo documentado.",
+      "relatedSelectedIds": [
+        "ideology-national-conservatism",
+        "ideology-national-socialism"
+      ],
+      "reviewDepth": "triagem conceitual de escopo",
+      "sources": []
+    },
+    {
+      "candidate": "Pan-africanismo genérico",
+      "decision": "not-selected",
+      "reason": "Nkrumah só foi retido por seu projeto de união política e planejamento continental, não por um rótulo continental.",
+      "relatedSelectedIds": [
+        "ideology-nkrumahism"
+      ],
+      "reviewDepth": "triagem conceitual de escopo",
+      "sources": []
+    },
+    {
+      "candidate": "Socialismo árabe genérico",
+      "decision": "not-selected",
+      "reason": "Seria um terceiro registro guarda-chuva sobre Baath 1947 e Nasser 1962; estes permanecem apenas por desenhos de autoridade diferentes.",
+      "relatedSelectedIds": [
+        "ideology-baathism",
+        "ideology-nasserism"
+      ],
+      "reviewDepth": "triagem conceitual de escopo",
+      "sources": []
+    },
+    {
+      "candidate": "Islamismo genérico",
+      "decision": "not-selected",
+      "reason": "Não uniformiza soberania divina, tutela do jurista e califado unitário, nem representa todo pensamento político muçulmano.",
+      "relatedSelectedIds": [
+        "ideology-maududi-theodemocracy",
+        "ideology-guardianship-jurist",
+        "ideology-nabhani-caliphate"
+      ],
+      "reviewDepth": "triagem conceitual de escopo",
+      "sources": []
+    },
+    {
+      "candidate": "Confucionismo genérico",
+      "decision": "not-selected",
+      "reason": "Tradição ética e política plural; Jiang é proposta constitucional contemporânea delimitada, não retrato de toda a tradição.",
+      "relatedSelectedIds": [
+        "ideology-confucian-constitutionalism-jiang"
+      ],
+      "reviewDepth": "triagem conceitual de escopo",
+      "sources": []
+    },
+    {
+      "candidate": "Feminismo genérico",
+      "decision": "not-selected",
+      "reason": "Guarda-chuva: não transforma uma questão social única em programa total. Os recortes Combahee/Firestone têm mecanismos gerais distintos.",
+      "relatedSelectedIds": [
+        "ideology-socialist-feminism",
+        "ideology-radical-feminism"
+      ],
+      "reviewDepth": "triagem conceitual de escopo",
+      "sources": []
+    },
+    {
+      "candidate": "Feminismo liberal da NOW 1966",
+      "decision": "not-selected",
+      "reason": "Programa multissetorial legítimo, mas a diferença de autonomia familiar, trabalho e direitos em relação a Hobhouse foi a mais fraca. Sob o limite 75, preferiu-se a arquitetura institucional do crédito social, sem negar importância do feminismo liberal.",
+      "relatedSelectedIds": [
+        "ideology-social-liberalism",
+        "ideology-douglas-social-credit",
+        "ideology-socialist-feminism",
+        "ideology-radical-feminism"
+      ],
+      "reviewDepth": "leitura primária e confronto independente",
+      "sources": [
+        {
+          "title": "NOW 1966 Statement of Purpose",
+          "url": "https://now.org/wp-content/uploads/2014/02/Statement-of-Purpose.pdf"
+        },
+        {
+          "title": "Hobhouse, Liberalism, cap.II§6",
+          "url": "https://www.gutenberg.org/cache/epub/28278/pg28278-images.html"
+        }
+      ]
+    },
+    {
+      "candidate": "Socialismo genérico / socialismo libertário genérico",
+      "decision": "not-selected",
+      "reason": "Famílias amplas que duplicariam escolhas sobre mercados, planejamento, conselhos, guildas e propriedade.",
+      "relatedSelectedIds": [
+        "ideology-democratic-socialism-dsa-2026",
+        "ideology-social-democracy-godesberg-1959",
+        "ideology-guild-socialism-cole",
+        "ideology-market-socialism-schweickart",
+        "ideology-participatory-economics",
+        "ideology-anarcho-communism-kropotkin",
+        "ideology-communalism-bookchin-2002"
+      ],
+      "reviewDepth": "triagem conceitual de escopo",
+      "sources": []
+    },
+    {
+      "candidate": "Socialismo democrático de Frankfurt 1951",
+      "decision": "not-selected",
+      "reason": "Sua síntese de democracia e economia mista ficou demasiado próxima do Godesberg selecionado. A DSA 2026 explicita socialização empresarial e refundação constitucional.",
+      "relatedSelectedIds": [
+        "ideology-democratic-socialism-dsa-2026",
+        "ideology-social-democracy-godesberg-1959"
+      ],
+      "reviewDepth": "leitura de documentos e comparação institucional",
+      "sources": [
+        {
+          "title": "Aims and Tasks of Democratic Socialism",
+          "url": "https://www.socialistinternational.org/our-meetings/congresses/i-frankfurt/"
+        }
+      ]
+    },
+    {
+      "candidate": "Marxismo / comunismo genéricos",
+      "decision": "not-selected",
+      "reason": "Evita uma entrada guarda-chuva somada aos descendentes. O registro de Marx é o programa comunal/distributivo 1871–1875, não toda a família.",
+      "relatedSelectedIds": [
+        "ideology-marxian-communal-communism-1871-1875",
+        "ideology-luxemburgist-revolutionary-democracy-1918",
+        "ideology-marxism-leninism-stalin-1926",
+        "ideology-trotskyism-1938",
+        "ideology-council-communism-pannekoek"
+      ],
+      "reviewDepth": "triagem conceitual de escopo",
+      "sources": []
+    },
+    {
+      "candidate": "Leninismo como entrada independente adicional",
+      "decision": "not-selected",
+      "reason": "Sua proximidade com a arquitetura partidária incorporada na codificação de Stalin exigiria diferenças fabricadas ou comparação de estágios incompatíveis. Luxemburg oferece contraste institucional direto. Não se afirma identidade histórica entre Lenin e Stalin.",
+      "relatedSelectedIds": [
+        "ideology-luxemburgist-revolutionary-democracy-1918",
+        "ideology-marxism-leninism-stalin-1926"
+      ],
+      "reviewDepth": "leitura primária e revisão de comparabilidade",
+      "sources": []
+    },
+    {
+      "candidate": "Stalinismo como segunda entrada ao lado do marxismo-leninismo de Stalin",
+      "decision": "not-selected",
+      "reason": "Seria duplicação por alias do mesmo referente 1926 selecionado.",
+      "relatedSelectedIds": [
+        "ideology-marxism-leninism-stalin-1926"
+      ],
+      "reviewDepth": "triagem conceitual de escopo",
+      "sources": []
+    },
+    {
+      "candidate": "Maoismo genérico",
+      "decision": "not-selected",
+      "reason": "O programa de nova democracia 1940 não representa revolução cultural ou toda fase maoista. Essas fases não foram somadas sem pesquisa própria.",
+      "relatedSelectedIds": [
+        "ideology-maoism"
+      ],
+      "reviewDepth": "reutilização explícita de pesquisa primária delimitada",
+      "sources": []
+    },
+    {
+      "candidate": "Hoxhaismo e microvariantes de alinhamento partidário",
+      "decision": "not-selected",
+      "reason": "Não retidos como entradas adicionais sem um mecanismo de ordem política/econômica suficientemente distinto e documentado além da linhagem marxista-leninista.",
+      "relatedSelectedIds": [
+        "ideology-marxism-leninism-stalin-1926"
+      ],
+      "reviewDepth": "triagem de escopo; não negação de toda diferença histórica",
+      "sources": []
+    },
+    {
+      "candidate": "Juche 1982",
+      "decision": "not-selected",
+      "reason": "Agência consciente e independência nas quatro esferas são distintas filosoficamente, mas não demonstraram alternativa institucional bastante diferente do partido/líder e construção nacional já representados. Substituído por demarquia.",
+      "relatedSelectedIds": [
+        "ideology-marxism-leninism-stalin-1926",
+        "ideology-functional-demarchy-burnheim"
+      ],
+      "reviewDepth": "pesquisa primária completa para seleção; exclusão após crítica comparativa",
+      "sources": [
+        {
+          "title": "On the Juche Idea — Kim Jong Il",
+          "url": "https://www.marxists.org/archive/kim-jong-il/works/On-The-Juche-Idea.pdf"
+        }
+      ]
+    },
+    {
+      "candidate": "Anarquismo genérico",
+      "decision": "not-selected",
+      "reason": "Seria um guarda-chuva sobre mecanismos incompatíveis de propriedade, produção, coordenação e violência.",
+      "relatedSelectedIds": [
+        "ideology-mutualism-proudhon-1863",
+        "ideology-collectivist-anarchism-bakunin-1866",
+        "ideology-anarcho-communism-kropotkin",
+        "ideology-program-anarcho-syndicalism-iwa-2022",
+        "ideology-christian-anarchism-tolstoy",
+        "ideology-anarcho-primitivism"
+      ],
+      "reviewDepth": "triagem conceitual de escopo",
+      "sources": []
+    },
+    {
+      "candidate": "Anarquismo individualista de Tucker como adição automática",
+      "decision": "not-selected",
+      "reason": "Não somado ao mutualismo apenas por mudar autor ou tradição nacional; exigiria demonstração adicional de diferença programática.",
+      "relatedSelectedIds": [
+        "ideology-mutualism-proudhon-1863"
+      ],
+      "reviewDepth": "triagem conceitual; não pesquisa completa do corpus",
+      "sources": []
+    },
+    {
+      "candidate": "Pacifismo isolado",
+      "decision": "not-selected",
+      "reason": "Orientação que pode integrar diversas economias e regimes; a não violência só conta em programas sociais completos, como Gandhi e Tolstói.",
+      "relatedSelectedIds": [
+        "ideology-christian-anarchism-tolstoy",
+        "ideology-gandhian-swaraj"
+      ],
+      "reviewDepth": "triagem conceitual de escopo",
+      "sources": []
+    },
+    {
+      "candidate": "Ambientalismo genérico / ecologia profunda como etiqueta única",
+      "decision": "not-selected",
+      "reason": "Não fixa necessariamente instituições ou economia. Retidos apenas programas políticos identificáveis e reconhecida sua sobreposição.",
+      "relatedSelectedIds": [
+        "ideology-ecosocialism-kovel-lowy",
+        "ideology-communalism-bookchin-2002",
+        "ideology-global-green-politics",
+        "ideology-democratic-degrowth",
+        "ideology-bioregionalism",
+        "ideology-anarcho-primitivism",
+        "ideology-buen-vivir"
+      ],
+      "reviewDepth": "triagem conceitual de escopo",
+      "sources": []
+    },
+    {
+      "candidate": "Buen vivir genérico",
+      "decision": "not-selected",
+      "reason": "Não homogeneíza sumak kawsay, suma qamaña e tradições indígenas. Foi retida a formulação plurinacional de Acosta 2010.",
+      "relatedSelectedIds": [
+        "ideology-buen-vivir"
+      ],
+      "reviewDepth": "leitura de corpus delimitado",
+      "sources": []
+    },
+    {
+      "candidate": "Transumanismo cívico Bostrom/Humanity+ como programa político completo",
+      "decision": "not-selected",
+      "reason": "Valores tecnológicos e declaração 2009 não equivalem ao programa democrático de Hughes. Hughes recebeu IDnovo e escopo próprio, sem renomear o registro antigo.",
+      "relatedSelectedIds": [
+        "ideology-democratic-transhumanism-hughes"
+      ],
+      "reviewDepth": "pesquisa primária e reutilização de revisão anterior",
+      "sources": [
+        {
+          "title": "The Transhumanist Declaration",
+          "url": "https://www.humanityplus.org/the-transhumanist-declaration"
+        }
+      ]
+    },
+    {
+      "candidate": "Tecnocracia genérica como governo de especialistas",
+      "decision": "not-selected",
+      "reason": "Expertise dentro de qualquer regime não forma uma ideologia única. A entrada retida é o sistema continental/energético da Technocracy Inc.",
+      "relatedSelectedIds": [
+        "ideology-continental-technocracy"
+      ],
+      "reviewDepth": "triagem conceitual de escopo",
+      "sources": []
+    },
+    {
+      "candidate": "Fascismo genérico",
+      "decision": "not-selected",
+      "reason": "Não contado como guarda-chuva acima do modelo italiano e do nacional-socialismo racial.",
+      "relatedSelectedIds": [
+        "ideology-italian-fascism",
+        "ideology-national-socialism"
+      ],
+      "reviewDepth": "triagem conceitual de escopo",
+      "sources": []
+    },
+    {
+      "candidate": "Falangismo 1934",
+      "decision": "not-selected",
+      "reason": "Apesar de programa histórico identificável, proximidade com fascismo corporativo e variação nacional/religiosa não justificaram uma terceira entrada nesta seleção; preferiu-se socialização agrária comunal narodnik.",
+      "relatedSelectedIds": [
+        "ideology-italian-fascism",
+        "ideology-national-socialism",
+        "ideology-narodnik-agrarian-socialism"
+      ],
+      "reviewDepth": "triagem de programa primário e decisão comparativa",
+      "sources": [
+        {
+          "title": "Los 27 puntos de Falange Española de las JONS",
+          "url": "https://falangefutura.blogspot.com/p/puntos-iniciales-y-normas-programaticas.html?m=1"
+        }
+      ]
+    },
+    {
+      "candidate": "Progressismo / centrismo / populismo genéricos",
+      "decision": "not-selected",
+      "reason": "Posições relativas ou estilos não fixam uma ordem político-econômica única. Populismo agrário foi admitido somente como programa de Omaha 1892.",
+      "relatedSelectedIds": [
+        "ideology-social-liberalism",
+        "ideology-social-democracy-godesberg-1959",
+        "ideology-agrarian-populism"
+      ],
+      "reviewDepth": "triagem conceitual de escopo",
+      "sources": []
+    },
+    {
+      "candidate": "Zionismo genérico",
+      "decision": "not-selected",
+      "reason": "Projeto nacional internamente heterogêneo; não foi transformado em posição única sobre todos os eixos. Ausência nesta lista finita não significa equivalência entre suas correntes nem juízo sobre legitimidade nacional.",
+      "relatedSelectedIds": [],
+      "reviewDepth": "triagem de escopo; sem pesquisa de subprograma para esta versão",
+      "sources": []
+    }
+  ],
+  "documentedChangedSlots": [
+    {
+      "slot": 23,
+      "from": "Leninismo",
+      "to": "ideology-luxemburgist-revolutionary-democracy-1918"
+    },
+    {
+      "slot": 29,
+      "from": "Frankfurt 1951",
+      "to": "ideology-democratic-socialism-dsa-2026"
+    },
+    {
+      "slot": 49,
+      "from": "NOW 1966",
+      "to": "ideology-douglas-social-credit"
+    },
+    {
+      "slot": 53,
+      "from": "Socialismo de libertação negra genérico",
+      "to": "ideology-revolutionary-intercommunalism"
+    },
+    {
+      "slot": 72,
+      "from": "Falangismo",
+      "to": "ideology-narodnik-agrarian-socialism"
+    },
+    {
+      "slot": 73,
+      "from": "Juche",
+      "to": "ideology-functional-demarchy-burnheim"
+    }
+  ]
+}

@@ -36,10 +36,11 @@ import {
 import { Radar } from 'react-chartjs-2'
 import { Chart as ChartJS, RadialLinearScale, PointElement, LineElement, Filler, Tooltip } from 'chart.js'
 import { AXES, ANSWER_OPTIONS, axisIntensity, parseResultSearch, scoreAnswers, type AnswerValue, type AxisScores } from '../lib/scoring'
-import { countDocumentedEvidenceAxes, documentedEvidenceAxes, preferredDocumentarySourceTitle, matchReferences, partitionMatchReferences, type ReferenceMatch } from '../lib/matching'
+import { countDocumentedEvidenceAxes, documentedEvidenceAxes, preferredDocumentarySourceTitle, type ReferenceMatch } from '../lib/matching'
 import { downloadShareImage } from '../lib/share-image'
 import { questions, questionIds36, questionIds60 } from '../data/questions'
-import { referenceEntries, type ReferenceCategory, type ReferenceEntry } from '../data/references'
+import { type ReferenceCategory, type ReferenceEntry } from '../data/references'
+import { selectedReferenceEntries, archivedReferenceEntries, matchSelectedReferences, partitionSelectedReferences, selectedReferenceCoverage } from '../data/reference-selected-catalog'
 import { referenceCategories, referenceCategoryLabels } from '../data/reference-categories'
 import { completeQuizProgress, createQuizProgress, getQuizProgressForRoute, getQuizResumeQuestion, saveQuizProgress, type QuizVariant } from '../state/quiz'
 
@@ -48,8 +49,7 @@ ChartJS.register(RadialLinearScale, PointElement, LineElement, Filler, Tooltip)
 const axisColors = ['#FF5A1F', '#12B8B3', '#D9A20B', '#7C4DFF', '#25A7E8', '#33B875', '#FF4048', '#8A46E8', '#169FDE', '#F06A1A', '#E83E8C', '#5B79E8']
 const axisIcons = [IconBuildingBank, IconUsersGroup, IconLeaf, IconWorld, IconPeace, IconPlant, IconBuildingBank, IconCalendarStats, IconWorld, IconSettings, IconHeart, IconAtom]
 const axisPoleName = (axis: (typeof AXES)[number]) => `${axis.left} ↔ ${axis.right}`
-const referenceById = new Map(referenceEntries.map(entry => [entry.id, entry]))
-const referenceCounts: Record<ReferenceCategory, number> = referenceEntries.reduce((counts, entry) => {
+const referenceCounts: Record<ReferenceCategory, number> = selectedReferenceEntries.reduce((counts, entry) => {
   counts[entry.category] += 1
   return counts
 }, { ideology: 0, 'public-figure': 0, 'historical-figure': 0, country: 0, 'historical-country': 0 })
@@ -338,7 +338,7 @@ function LandingPreview() {
     return [question.id, ANSWER_OPTIONS[question.agreePole === 'LEFT' ? 4 - level : level].value]
   })) as Record<string, AnswerValue>
   const scores = scoreAnswers(exampleQuestions, exampleAnswers)
-  const matches = matchReferences(scores, referenceEntries)
+  const matches = matchSelectedReferences(scores)
   const ideology = matches.find(match => match.reference.category === 'ideology')
   return <aside className="landing-preview" aria-label="Perfil ilustrativo calculado com respostas fictícias">
     <div className="preview-lead"><div><h2>Seu perfil político <small>(exemplo)</small></h2><p>Respostas fictícias mostram como os doze eixos e as comparações aparecem no resultado.</p></div>{ideology && <div className="preview-ideology"><b>{Math.round(ideology.similarity)}%</b><span>IDEOLOGIA MAIS PRÓXIMA</span><strong>{ideology.reference.name}</strong></div>}</div>
@@ -576,7 +576,7 @@ function MatchRows({ matches }: { matches: ReferenceMatch<ReferenceEntry>[] }) {
       <summary><span className="match-number">{String(index + 1).padStart(2, '0')}</span><span className="match-name" style={image ? { gridTemplateColumns: `${isCountry ? flagWidth : `${image.width}px`} minmax(0, 1fr)`, gridTemplateRows: 'auto auto auto', columnGap: 10, alignItems: 'center' } : undefined}><ReferenceThumbnail reference={match.reference} className={isCountry ? 'country-flag-intrinsic' : undefined} style={{ gridColumn: 1, gridRow: '1 / span 3', ...flagSize }}/><b>{match.reference.name}</b><small>{match.reference.period}</small><small className="match-evidence">Documentado em {coverage}/12 eixos</small></span><span className="match-score"><strong>{Math.round(match.similarity)}%</strong><small>{formatPercent(match.distance)} pontos do índice</small></span><IconChevronDown size={19} aria-hidden="true"/></summary>
       <div className="match-detail"><p>{match.reference.rationale}</p><p className="evidence-note">Fontes de evidência média ou alta cobrem {coverage} dos 12 eixos. Os demais valores não têm a mesma sustentação documental e não são interpretados como posições neutras. {match.reference.caveats} O índice de distância é 100 menos a similaridade ponderada exibida; não corresponde à soma simples destas diferenças.</p>
         <div className="match-analysis"><div><h3>Menores diferenças</h3>{match.closestAxes.map(item => <p key={item.key}><b>{axisPoleName(AXES.find(axis => axis.key === item.key)!)}</b><span>{item.distance.toFixed(1)} pontos</span></p>)}</div><div><h3>Maiores diferenças</h3>{match.divergentAxes.map(item => <p key={item.key}><b>{axisPoleName(AXES.find(axis => axis.key === item.key)!)}</b><span>{item.distance.toFixed(1)} pontos</span></p>)}</div></div>
-        <div className="source-list">{match.reference.sources.map(source => <a key={source.url} href={source.url} target="_blank" rel="noreferrer">{source.title} <IconExternalLink size={14}/><small>{source.note}</small></a>)}</div>
+        <div className="source-list">{match.reference.sources.map((source, index) => <a key={`${source.url}:${source.title}:${index}`} href={source.url} target="_blank" rel="noreferrer">{source.title} <IconExternalLink size={14}/><small>{source.note}</small></a>)}</div>
       </div>
     </details>
   })}
@@ -584,17 +584,17 @@ function MatchRows({ matches }: { matches: ReferenceMatch<ReferenceEntry>[] }) {
   </div>
 }
 
-function UnrankedReferences({ references }: { references: ReferenceEntry[] }) {
+export function UnrankedReferences({ references, archived = false }: { references: ReferenceEntry[]; archived?: boolean }) {
   const [query, setQuery] = useState('')
   const [visibleCount, setVisibleCount] = useState(12)
   const filtered = references.filter(reference => `${reference.name} ${reference.period}`.toLocaleLowerCase('pt-BR').includes(query.toLocaleLowerCase('pt-BR')))
   return <details className="unranked-catalog">
-    <summary>Referências sem evidência suficiente para ordenar <span>{references.length}</span><IconChevronDown size={17}/></summary>
-    <p>Estas fichas permanecem consultáveis, mas o modelo não apresenta uma proximidade enquanto há menos de seis eixos com fontes de evidência média ou alta. Valores sem fonte não são tratados como neutralidade.</p>
+    <summary>{archived ? 'Arquivo de referências fora da seleção' : 'Referências sem evidência suficiente para ordenar'} <span>{references.length}</span><IconChevronDown size={17}/></summary>
+    <p>{archived ? 'Estas fichas e suas evidências foram preservadas, mas não integram os 675 perfis selecionados nem seus índices de proximidade.' : 'Estas fichas permanecem consultáveis, mas o modelo não apresenta uma proximidade enquanto há menos de seis eixos com fontes de evidência média ou alta. Valores sem fonte não são tratados como neutralidade.'}</p>
     <label className="catalog-search">Buscar nesta categoria<input type="search" value={query} onChange={event => { setQuery(event.currentTarget.value); setVisibleCount(12) }} placeholder="Nome ou período"/></label>
     <div className="unranked-list">{filtered.slice(0, visibleCount).map(reference => <details className="unranked-row" key={reference.id}>
       <summary><span>{reference.name}</span><small>{reference.period}</small><b>Fontes em {countDocumentedEvidenceAxes(reference)}/12 eixos</b><IconChevronDown size={16}/></summary>
-      <div><ReferenceEvidenceStatus reference={reference}/><p>{reference.rationale}</p><p>{reference.caveats}</p><div className="source-list">{reference.sources.map(source => <a key={source.url} href={source.url} target="_blank" rel="noreferrer">{source.title}<IconExternalLink size={14}/><small>{source.note}</small></a>)}</div></div>
+      <div>{archived ? <p className="evidence-note">{countDocumentedEvidenceAxes(reference)}/12 eixos com codificação documental preservada; fora da seleção atual.</p> : <ReferenceEvidenceStatus reference={reference}/>}<p>{reference.rationale}</p><p>{reference.caveats}</p><div className="source-list">{reference.sources.map((source, index) => <a key={`${source.url}:${source.title}:${index}`} href={source.url} target="_blank" rel="noreferrer">{source.title}<IconExternalLink size={14}/><small>{source.note}</small></a>)}</div></div>
     </details>)}</div>
     {visibleCount < filtered.length && <button className="more-matches" type="button" onClick={() => setVisibleCount(count => Math.min(filtered.length, count + 24))}>Mostrar mais ({filtered.length - visibleCount} restantes)</button>}
     {filtered.length === 0 && <p role="status">Nenhuma referência encontrada.</p>}
@@ -714,8 +714,8 @@ export function ResultsPage() {
   const cardRef = useRef<HTMLDivElement>(null)
   if (!scores) return <section className="route-error"><p className="eyebrow">RESULTADO</p><h1>Link de resultado incompleto</h1><p>A URL precisa conter os doze scores válidos, de 0 a 100. Faça um teste para gerar seu mapa.</p><Link to="/" className="solid-link">Escolher um teste <IconArrowRight/></Link></section>
 
-  const matches = matchReferences(scores, referenceEntries)
-  const allReferenceMatches = partitionMatchReferences(referenceEntries)
+  const matches = matchSelectedReferences(scores)
+  const allReferenceMatches = partitionSelectedReferences()
   const categoryMatches = (category: ReferenceCategory) => matches.filter(item => item.reference.category === category)
   const insufficientByCategory = (category: ReferenceCategory) => allReferenceMatches.insufficientEvidence.filter(reference => reference.category === category)
   const ideology = matches.find(item => item.reference.category === 'ideology')
@@ -765,7 +765,7 @@ export function ResultsPage() {
         </article>
       })}</div></div>
     </section>
-    <details className="result-source-catalog"><summary><h2>Comparações, fontes e divergências</h2><IconChevronDown size={20}/></summary><p>Abra uma categoria para consultar as fichas completas, incluindo os perfis sem cobertura suficiente para ordenação.</p>{referenceCategories.map(({ id: category }) => <details key={category}><summary>{referenceCategoryLabels[category]} <IconChevronDown size={18}/></summary><MatchSection category={category} matches={categoryMatches(category)} insufficient={insufficientByCategory(category)}/></details>)}</details>
+    <details className="result-source-catalog"><summary><h2>Comparações, fontes e divergências</h2><IconChevronDown size={20}/></summary><p>Seleção de {selectedReferenceEntries.length} perfis: {selectedReferenceCoverage.ranked.length} têm ao menos seis eixos documentados; {selectedReferenceCoverage.insufficientEvidence.length} aguardam cobertura suficiente. Pesquisar e selecionar uma ideologia não significa pontuá-la. Abra uma categoria para consultar as fichas e fontes.</p>{referenceCategories.map(({ id: category }) => <details key={category}><summary>{referenceCategoryLabels[category]} <IconChevronDown size={18}/></summary><MatchSection category={category} matches={categoryMatches(category)} insufficient={insufficientByCategory(category)}/></details>)}<UnrankedReferences references={archivedReferenceEntries} archived/></details>
     <section className="result-editorial-panels grid grid-cols-3 gap-7 border-t border-border py-6 max-[760px]:grid-cols-1">
       <article className="min-w-0"><EditorialArtwork variant="books" size="sm"/><h2 className="font-display text-[23px]">Entenda os seus eixos</h2><p className="font-display text-[15px] leading-[1.4]">Leia as interpretações de cada escala e as afirmações que compõem o questionário.</p><ActionLink to="/eixos" variant="ghost" color="accent" size="sm">Explore os 12 eixos <IconArrowRight size={16}/></ActionLink></article>
       <article className="min-w-0 border-l border-border pl-7 max-[760px]:border-l-0 max-[760px]:pl-0"><EditorialArtwork variant="globe" size="sm"/><h2 className="font-display text-[23px]">Compare com contexto</h2><p className="font-display text-[15px] leading-[1.4]">As fichas trazem períodos, cobertura, fontes e divergências. Proximidade não é endosso.</p><ActionLink to="/metodologia" variant="ghost" color="accent" size="sm">Como a similaridade funciona <IconArrowRight size={16}/></ActionLink></article>
@@ -777,13 +777,13 @@ export function ResultsPage() {
 
 function AxisReferenceValues({ axisKey }: { axisKey: (typeof AXES)[number]['key'] }) {
   const axis = AXES.find(item => item.key === axisKey)!
-  const documented = referenceEntries.filter(entry => documentedEvidenceAxes(entry).includes(axisKey))
+  const documented = selectedReferenceEntries.filter(entry => documentedEvidenceAxes(entry).includes(axisKey))
   const documentedIds = new Set(documented.map(entry => entry.id))
   const groups = {
     left: documented.filter(entry => entry.vec[axisKey] >= 60).sort((a, b) => b.vec[axisKey] - a.vec[axisKey]),
     center: documented.filter(entry => entry.vec[axisKey] > 40 && entry.vec[axisKey] < 60).sort((a, b) => Math.abs(a.vec[axisKey] - 50) - Math.abs(b.vec[axisKey] - 50)),
     right: documented.filter(entry => entry.vec[axisKey] <= 40).sort((a, b) => a.vec[axisKey] - b.vec[axisKey]),
-    unknown: referenceEntries.filter(entry => !documentedIds.has(entry.id)),
+    unknown: selectedReferenceEntries.filter(entry => !documentedIds.has(entry.id)),
   }
   return <section className="axis-reference-values scroll-reveal"><div className="section-heading"><h2>Exemplos neste eixo</h2><p>Valores documentados para este eixo. Cada comparação exibe as fontes e o período usados; entradas sem evidência suficiente ficam separadas e não são tratadas como neutras.</p></div>
     <div className="reference-value-groups">{referenceCategories.map(({ id: category }) => {
@@ -901,7 +901,7 @@ export function MethodPage() {
         <div className="grid grid-cols-[1.2fr_1fr_.85fr] gap-7 max-[760px]:grid-cols-1"><div><p>{methodologySections[0].text}</p><div className="mt-6 flex items-center gap-4 text-ink-secondary"><IconBook2 size={64} stroke={1}/><p>O catálogo preserva o texto original, a revisão e os metadados de cada item.</p></div></div><div><h3 className="mb-3 font-sans text-xs font-bold">DISTRIBUIÇÃO REAL DO CATÁLOGO</h3><div className="grid grid-cols-2 gap-x-4 gap-y-2">{AXES.map((axis, index) => <div key={axis.key} className="flex items-center gap-2 text-xs"><span className="h-2 w-2 shrink-0" style={{ backgroundColor: axisColors[index] }}/><span className="flex-1">{axis.label}</span><b>{questions.filter(question => question.axisId === axis.id).length}</b></div>)}</div><p className="mt-4 text-sm">20 afirmações em cada eixo, totalizando 240.</p></div><aside className="border border-border p-4"><h3 className="mb-3 font-sans text-xs font-bold">EXEMPLO DO CATÁLOGO</h3><blockquote className="m-0 font-display text-lg leading-snug">“{questions[0].text}”</blockquote><p className="mt-3 mb-0 text-xs">Cinco respostas, da concordância total à discordância total.</p></aside></div>
       </EditorialSection>
       <EditorialSection number="02" title={methodologySections[1].title} className="col-span-3 max-[900px]:col-span-2 max-[640px]:col-span-1"><div className="grid grid-cols-[1.2fr_1fr_.85fr] gap-7 max-[760px]:grid-cols-1"><p>{methodologySections[1].text}</p><div className="border border-map-blue p-4"><h3 className="mb-2 font-sans text-xs font-bold">CRITÉRIOS DA REVISÃO</h3><ul className="m-0 grid gap-2 pl-5"><li>Preservar o construto e o polo</li><li>Reduzir acusações e linguagem persuasiva</li><li>Manter pt_BR legível e direto</li><li>Documentar original e texto revisado</li></ul></div><p className="border border-border p-4">Não houve teste psicométrico nem amostra de respondentes nesta revisão editorial.</p></div></EditorialSection>
-      {methodologySections.slice(2, 8).map(section => <EditorialSection key={section.number} number={section.number} title={section.title}><p>{section.text}</p>{section.number === '03' && <div className="my-4 flex gap-3">{plans.map(plan => <div key={plan.count} className="flex-1 border border-border p-3"><b className="font-display text-3xl text-accent">{plan.count}</b><span className="block text-xs">perguntas</span></div>)}</div>}{section.number === '04' && <div className="mt-4 border border-border p-3 font-sans text-xs">{ANSWER_OPTIONS.map(option => <div key={option.value} className="flex justify-between py-1"><span>{option.label}</span><b>{option.agreement.toLocaleString('pt-BR')}</b></div>)}</div>}{section.number === '05' && <div className="my-4 border border-border p-5 text-center text-xl">Score = 100 × média ponderada<br/><small className="text-sm">das contribuições ao primeiro polo</small></div>}{section.number === '07' && <p className="border border-border p-3 text-sm">{referenceCounts.ideology} ideologias · {referenceCounts['public-figure']} figuras públicas · {referenceCounts['historical-figure']} figuras históricas · {referenceCounts.country} países atuais · {referenceCounts['historical-country']} experiências históricas.</p>}</EditorialSection>)}
+      {methodologySections.slice(2, 8).map(section => <EditorialSection key={section.number} number={section.number} title={section.title}><p>{section.text}</p>{section.number === '03' && <div className="my-4 flex gap-3">{plans.map(plan => <div key={plan.count} className="flex-1 border border-border p-3"><b className="font-display text-3xl text-accent">{plan.count}</b><span className="block text-xs">perguntas</span></div>)}</div>}{section.number === '04' && <div className="mt-4 border border-border p-3 font-sans text-xs">{ANSWER_OPTIONS.map(option => <div key={option.value} className="flex justify-between py-1"><span>{option.label}</span><b>{option.agreement.toLocaleString('pt-BR')}</b></div>)}</div>}{section.number === '05' && <div className="my-4 border border-border p-5 text-center text-xl">Score = 100 × média ponderada<br/><small className="text-sm">das contribuições ao primeiro polo</small></div>}{section.number === '07' && <p className="border border-border p-3 text-sm">{referenceCounts.ideology} ideologias · {referenceCounts['public-figure']} figuras públicas · {referenceCounts['historical-figure']} figuras históricas · {referenceCounts.country} países atuais · {referenceCounts['historical-country']} experiências históricas. Selecionados: {selectedReferenceEntries.length}. Com pelo menos seis eixos documentados: {selectedReferenceCoverage.ranked.length}; ainda parciais: {selectedReferenceCoverage.insufficientEvidence.length}. Outras {archivedReferenceEntries.length} fichas seguem no arquivo, fora dos índices.</p>}</EditorialSection>)}
       <EditorialSection number="09" title="Fontes, limitações e transparência" className="col-span-3 max-[900px]:col-span-2 max-[640px]:col-span-1"><div className="grid grid-cols-3 gap-7 max-[640px]:grid-cols-1"><p>{methodologySections[8].text}</p><p>Fontes sustentam direções e intervalos editoriais; cada ponto do vetor não é uma observação empírica. Graus de evidência e trechos localizados acompanham os perfis revisados.</p><div><p>Consulte o catálogo por eixo e abra as fichas do resultado para examinar fontes e divergências.</p><ActionLink to="/eixos" variant="ghost" color="accent" size="sm">Conhecer os 12 eixos <IconArrowRight size={16}/></ActionLink></div></div></EditorialSection>
     </div>
   </div>

@@ -1,4 +1,7 @@
-/** Integrated bounded editorial selection; no default product activation or global independence certificate. */
+/** Historical provisional ledger, retained verbatim below for provenance.
+ * The current 75-profile product selection is in reference-selected-catalog.ts.
+ * Counts and intended IDs in this file describe the superseded selection only.
+ */
 export const ideologySelectionSnapshot = {
   "date": "2026-10-08",
   "catalogCount": 218,
