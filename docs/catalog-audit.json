@@ -34,8 +34,8 @@
     ],
     "provenance": "Executed before local data corrections in this recovery checkpoint; not recomputed from unavailable prior Library checkpoint."
   },
-  "headCommitAtAudit": "a943305196056040f8c04019ebf52ec3f25ddafb",
-  "integratedCatalogSha256": "a01030e841ec2e4d8acf35cd7d717f05dd14d4e7c8cd079b7c2970f85f5c3bbd",
+  "headCommitAtAudit": "1af4af1dadcc344e2f82cb32bc1bceb5e1a0f422",
+  "integratedCatalogSha256": "6631fde1cb800a1bf185936abd3f8ad3608201ad9d18ae97fd338e0b324f7abf",
   "scope": "Integrated working-tree catalog after preparation; fixed remote baseline and current HEAD are provenance, not immutable copies of modified files.",
   "evidenceGate": {
     "minimumAxes": 6,
@@ -56,9 +56,9 @@
   ],
   "totalTarget": 675,
   "totalRecords": 818,
-  "structurallyEligible": 82,
-  "documentaryEligible": 68,
-  "insufficientEvidence": 750,
+  "structurallyEligible": 81,
+  "documentaryEligible": 67,
+  "insufficientEvidence": 751,
   "unreviewedDirectionCount": 563,
   "summedCategoryIdentityGap": 0,
   "categories": [
@@ -88,23 +88,23 @@
       "category": "public-figure",
       "target": 150,
       "records": 150,
-      "structurallyEligible": 11,
-      "documentaryEligible": 11,
-      "insufficientEvidence": 139,
+      "structurallyEligible": 12,
+      "documentaryEligible": 12,
+      "insufficientEvidence": 138,
       "missingIdentitiesBeforeSemanticReview": 0,
       "preservedExcess": 0,
-      "missingEligibleToTarget": 139
+      "missingEligibleToTarget": 138
     },
     {
       "category": "historical-figure",
       "target": 150,
       "records": 150,
-      "structurallyEligible": 23,
-      "documentaryEligible": 23,
-      "insufficientEvidence": 127,
+      "structurallyEligible": 21,
+      "documentaryEligible": 21,
+      "insufficientEvidence": 129,
       "missingIdentitiesBeforeSemanticReview": 0,
       "preservedExcess": 0,
-      "missingEligibleToTarget": 127
+      "missingEligibleToTarget": 129
     },
     {
       "category": "ideology",
@@ -697,36 +697,30 @@
       "kind": "person",
       "category": "historical-figure",
       "period": "Rights of Man, 1791–1792; The Age of Reason I, 1794; Agrarian Justice, 1797",
-      "structurallyEligible": true,
-      "documentaryEligible": true,
-      "reviewStatus": "located-coding-present-not-truth-certified",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
       "unreviewedDirectionalAxes": [],
       "mappedAxes": [
         "est",
         "rep",
         "pod",
-        "eco",
         "com",
-        "rel",
-        "mor"
+        "rel"
       ],
       "documentedAxes": [
         "est",
         "rep",
         "pod",
-        "eco",
         "com",
-        "rel",
-        "mor"
+        "rel"
       ],
       "directionalAxes": [
         "est",
         "rep",
         "pod",
-        "eco",
         "com",
-        "rel",
-        "mor"
+        "rel"
       ],
       "sourceCount": 5,
       "sourceUrls": [
@@ -17261,10 +17255,11 @@
         "mor",
         "tec"
       ],
-      "sourceCount": 2,
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.marxists.org/reference/archive/kropotkin-peter/1892/bread.htm",
-        "https://www.gutenberg.org/ebooks/23428"
+        "https://www.gutenberg.org/ebooks/23428",
+        "https://www.gutenberg.org/cache/epub/23428/pg23428-images.html"
       ]
     },
     {
@@ -17520,36 +17515,24 @@
       "kind": "person",
       "category": "historical-figure",
       "period": "Programa coletivo do PLM, assinado em 1º de julho de 1906",
-      "structurallyEligible": true,
-      "documentaryEligible": true,
-      "reviewStatus": "located-coding-present-not-truth-certified",
+      "structurallyEligible": false,
+      "documentaryEligible": false,
+      "reviewStatus": "insufficient-located-coding",
       "unreviewedDirectionalAxes": [],
       "mappedAxes": [
         "rep",
         "pod",
-        "dip",
-        "eco",
-        "con",
-        "rel",
-        "mor"
+        "rel"
       ],
       "documentedAxes": [
         "rep",
         "pod",
-        "dip",
-        "eco",
-        "con",
-        "rel",
-        "mor"
+        "rel"
       ],
       "directionalAxes": [
         "rep",
         "pod",
-        "dip",
-        "eco",
-        "con",
-        "rel",
-        "mor"
+        "rel"
       ],
       "sourceCount": 2,
       "sourceUrls": [
@@ -17960,22 +17943,19 @@
         "rep",
         "pod",
         "imi",
-        "dip",
-        "eco"
+        "dip"
       ],
       "documentedAxes": [
         "rep",
         "pod",
         "imi",
-        "dip",
-        "eco"
+        "dip"
       ],
       "directionalAxes": [
         "rep",
         "pod",
         "imi",
-        "dip",
-        "eco"
+        "dip"
       ],
       "sourceCount": 2,
       "sourceUrls": [
@@ -23771,31 +23751,41 @@
       ],
       "kind": "person",
       "category": "public-figure",
-      "period": "Programa pessoal sem data editorial, consultado08/10/2026; atividade legislativa02/10/2026",
-      "structurallyEligible": false,
-      "documentaryEligible": false,
-      "reviewStatus": "insufficient-located-coding",
+      "period": "Discurso próprio06/10/2018 e programa pessoal sem data editorial, de contexto pandêmico; atividade2026 apenas identidade",
+      "structurallyEligible": true,
+      "documentaryEligible": true,
+      "reviewStatus": "located-coding-present-not-truth-certified",
       "unreviewedDirectionalAxes": [],
       "mappedAxes": [
         "rep",
+        "pod",
         "eco",
-        "con"
+        "con",
+        "rel",
+        "mor"
       ],
       "documentedAxes": [
         "rep",
+        "pod",
         "eco",
-        "con"
+        "con",
+        "rel",
+        "mor"
       ],
       "directionalAxes": [
         "rep",
+        "pod",
         "eco",
-        "con"
+        "con",
+        "rel",
+        "mor"
       ],
-      "sourceCount": 3,
+      "sourceCount": 4,
       "sourceUrls": [
         "https://www.myriambregman.com.ar/programa.php",
         "https://www.myriambregman.com.ar/",
-        "https://www.hcdn.gob.ar/diputados/mbregman/listado-proyectos.html"
+        "https://www.hcdn.gob.ar/diputados/mbregman/listado-proyectos.html",
+        "https://www.laizquierdadiario.com/Myriam-Bregman-Todos-los-partidos-tienen-relacion-con-la-Iglesia-solo-la-izquierda-lucha-consecuente-por-el-derecho-al-aborto"
       ]
     },
     {
@@ -23813,28 +23803,34 @@
       "unreviewedDirectionalAxes": [],
       "mappedAxes": [
         "rep",
+        "pod",
         "dip",
         "eco",
-        "con"
+        "mor"
       ],
       "documentedAxes": [
         "rep",
+        "pod",
         "dip",
         "eco",
-        "con"
+        "mor"
       ],
       "directionalAxes": [
         "rep",
+        "pod",
         "dip",
         "eco",
-        "con"
+        "mor"
       ],
-      "sourceCount": 4,
+      "sourceCount": 7,
       "sourceUrls": [
         "https://vigarchive.sos.ca.gov/2024/primary/candidates/president/president-green-cand-statements.htm",
         "https://www.vote411.org/node/15061",
         "https://www.gp.org/we_do_not_consent_to_war",
-        "https://independentpoliticalreport.com/2026/08/former-green-nominee-jill-stein-ordered-to-appear-in-person-in-missouri-misdemeanor-case/"
+        "https://independentpoliticalreport.com/2026/08/former-green-nominee-jill-stein-ordered-to-appear-in-person-in-missouri-misdemeanor-case/",
+        "https://www.jillstein2024.com/democracy",
+        "https://www.politicalemails.org/messages/1444477",
+        "https://politicalemails.org/messages/1606639"
       ]
     },
     {

@@ -1,0 +1,13 @@
+# Paine: retirada negativa de dois códigos herdados
+
+Proposta local não importada, exclusivamente ECO e MOR. O snapshot completo da captura cd6731d foi cotejado com o runtime atual após recuperação da importação circular pública: igualdade do objeto inteiro confirmada. O guard usa igualdade JSON do objeto inteiro e recusa qualquer revisão posterior. Cinco códigos restantes ficam exatamente como estavam, sem certificação documental implícita. Nenhum nome, período, descrição, caveat, identidade ou fonte é alterado.
+
+Leitura independente original: método, relatório ranking675-audit-cd6731d/peer-paine-inherited-research04.json. Leitura nova separada do autor figures_continue em8/10/2026: [Gutenberg, Writings of Thomas Paine,volumeIII](https://www.gutenberg.org/cache/epub/31271/pg31271-images.html), corpo próprio de Agrarian Justice3554–3632 efetivamente exibido e lido. Excluídos introdução editorial3543–3553 e nota3587–3588. Não se afirma leitura do volume inteiro ou panfleto inteiro. Edição coletada Putnam1895; publicação do panfleto1797 e redação1795–1796 distinguidas, não fac-símile original nem tradução francesa examinada.
+
+ECO60 herdado codificava fundo público, imposto sucessório e pagamentos universais como propriedade produtiva pública. O próprio texto separa propriedade natural comum de propriedade adquirida individual3560–3561 e preserva a melhoria cultivada e a posse privada3598–3608. O fundo3613–3623 compensa direitos naturais sem desorganizar proprietários existentes. Prestação monetária pública não estabelece prevalência de posse produtiva coletiva. Retirada para desconhecido, não imputação da direção privada oposta.
+
+MOR60 herdado codificava a igualdade de homens e mulheres no pagamento do mesmo fundo. O benefício é norma real, mas não estabelece sozinho orientação geral de relações íntimas, família, gênero ou costumes. Retirada para desconhecido, não imputação conservadora nem negação da igualdade do benefício.
+
+As duas retiradas usam50 somente como desconhecido, sem evidence, axisEvidence ou coding ativos nesses eixos. Todo o objeto anterior e as duas alegações originais permanecem em ranking675-historical-figure04-held-research.json e no módulo literal. Sem contar metadados como verdade, o efeito estrutural previsto é7→5 códigos; Paine fica abaixo de seis até revisão efetiva de normas suficientemente amplas.
+
+Validação estrutural concluída:20checks, igualdade integral com o runtime, retirada exata de dois eixos, fontes/outros campos imutáveis, idempotência, ausência de mutação de entrada e proteção contra revisão posterior. Não certifica os cinco códigos restantes.
