@@ -1,0 +1,8595 @@
+import type { ReferenceEntry, ReferenceSource } from './references';
+type PublicDescriptionArchiveEntry = Omit<ReferenceEntry, 'sources'> & { sources: (ReferenceSource & { publishedDate?: string })[] };
+
+/** Full exact committed818 objects; description-only future proposal, no axis/source change. */
+export const publicDescription01Before:PublicDescriptionArchiveEntry[] = [
+  {
+    "id": "javier-milei",
+    "kind": "person",
+    "category": "public-figure",
+    "name": "Javier Milei",
+    "period": "Declarações no discurso de posse, 10/12/2023; leitura documental em07/10/2026",
+    "vec": {
+      "est": 50,
+      "rep": 50,
+      "pod": 50,
+      "imi": 50,
+      "dip": 50,
+      "int": 50,
+      "eco": 40,
+      "con": 40,
+      "com": 50,
+      "rel": 50,
+      "mor": 50,
+      "tec": 50
+    },
+    "rationale": "Revisão localizada de propriedade privada e coordenação de mercado; demais eixos desconhecidos.",
+    "caveats": "A fonte combina plataforma ideológica e atos presidenciais; atitudes pessoais em eixos sem documentação ficam sem direção atribuída. Revisão documental restrita ao discurso de10/12/2023: não certifica posições nem atos de2026. Mapeamentos genéricos anteriores, valores e URL indisponível preservados em legacyPublicQuality01LiveBefore/GeneratedBefore e no vetor bruto; eles não qualificam evidência documental. Sem posição atribuída aos dez eixos restantes.",
+    "sources": [
+      {
+        "title": "Discurso presidencial de posse, 2023",
+        "url": "https://www.casarosada.gob.ar/informacion/discursos/50258-discurso-del-presidente-javier-milei-en-la-asuncion-presidencial",
+        "note": "Discurso original de Milei que apresenta diagnóstico e programa de governo."
+      },
+      {
+        "title": "Casa Rosada — Milei, discurso após posse, 10/12/2023 (URL canônica)",
+        "url": "https://www.casarosada.gob.ar/informacion/discursos/50258-palabras-del-presidente-de-la-nacion-javier-milei-luego-del-acto-de-jura-y-asuncion-presidencial-desde-las-escalinatas-del-honorable-congreso-de-la-nacion",
+        "note": "Texto primário completo efetivamente lido em07/10/2026; declaração de10/12/2023. URL legada indisponível preservada no arquivo e na união de fontes."
+      }
+    ],
+    "evidence": {
+      "eco": "medium",
+      "con": "medium"
+    },
+    "axisEvidence": {
+      "eco": {
+        "sourceTitles": [
+          "Casa Rosada — Milei, discurso após posse, 10/12/2023 (URL canônica)"
+        ],
+        "rationale": "Propriedade privada e eficiência relativa sustentam direção parcial ao polo privado. Codificação editorial moderate-second: âncora 40, faixa 30–45; a fonte não mede esse número. Limites: Não demonstra privatização realizada nem predominância privada de todos os serviços; assistência aos necessitados é ressalvada nas linhas59–60."
+      },
+      "con": {
+        "sourceTitles": [
+          "Casa Rosada — Milei, discurso após posse, 10/12/2023 (URL canônica)"
+        ],
+        "rationale": "Declara preferência por coordenação de mercado. Codificação editorial moderate-second: âncora 40, faixa 30–45; a fonte não mede esse número. Limites: Programa de posse, não prática certificada; ajuste fiscal anunciado não comprova extinção de toda regulação."
+      }
+    },
+    "coding": {
+      "eco": {
+        "axis": "eco",
+        "position": "moderate-second",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Casa Rosada — Milei, discurso após posse, 10/12/2023 (URL canônica)",
+            "locator": "Parágrafos iniciados «En materia de salud», «Ese es el Estado presente» e «Hoy volvemos a abrazar»; linhas48–49/57 da leitura",
+            "statement": "Defende propriedade privada e contrapõe ineficiência estatal à liberdade econômica.",
+            "basis": "declaration",
+            "publishedDate": "2023-12-10",
+            "accessedDate": "2026-10-07"
+          }
+        ],
+        "rationale": "Propriedade privada e eficiência relativa sustentam direção parcial ao polo privado.",
+        "relatedQuestionIds": [
+          "economia_18",
+          "economia_20"
+        ],
+        "uncertainty": "Não demonstra privatização realizada nem predominância privada de todos os serviços; assistência aos necessitados é ressalvada nas linhas59–60.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 40,
+        "range": [
+          30,
+          45
+        ]
+      },
+      "con": {
+        "axis": "con",
+        "position": "moderate-second",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Casa Rosada — Milei, discurso após posse, 10/12/2023 (URL canônica)",
+            "locator": "Parágrafos «A su vez, el cepo cambiario» e «Hoy volvemos a abrazar»; linhas20/57",
+            "statement": "Rejeita controles cambiais e adota mercados livres de intervenção estatal.",
+            "basis": "declaration",
+            "publishedDate": "2023-12-10",
+            "accessedDate": "2026-10-07"
+          }
+        ],
+        "rationale": "Declara preferência por coordenação de mercado.",
+        "relatedQuestionIds": [
+          "controle_02",
+          "controle_17"
+        ],
+        "uncertainty": "Programa de posse, não prática certificada; ajuste fiscal anunciado não comprova extinção de toda regulação.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 40,
+        "range": [
+          30,
+          45
+        ]
+      }
+    }
+  },
+  {
+    "id": "gabriel-boric",
+    "kind": "person",
+    "category": "public-figure",
+    "name": "Gabriel Boric",
+    "period": "Manifesto das primárias2021; atividade10/03/2026 sem atualizar automaticamente posições",
+    "vec": {
+      "est": 60,
+      "rep": 60,
+      "pod": 40,
+      "imi": 50,
+      "dip": 50,
+      "int": 50,
+      "eco": 60,
+      "con": 60,
+      "com": 50,
+      "rel": 50,
+      "mor": 60,
+      "tec": 50
+    },
+    "rationale": "Programa pessoalmente endossado: orientação ampla e contrapontos explícitos.",
+    "caveats": "O período é um governo encerrado em 2026; promessas, coalizão e atos executados divergem e não devem ser confundidos. Revisão restrita ao manifesto das primárias2021, diferente da plataforma final e da prática2022–2026. Valores e mapeamentos genéricos antigos preservados nos snapshots, sem qualificação documental. Seis eixos desconhecidos. Revisão documental independente delimitada; expansão pública/social proposta em economia mista.",
+    "sources": [
+      {
+        "title": "Programa de Governo Apruebo Dignidad",
+        "url": "https://www.servel.cl/elecciones/elecciones-presidenciales-2021/programas-de-candidaturas-presidenciales/",
+        "note": "Repositório eleitoral oficial chileno com o programa presidencial apresentado por Boric."
+      },
+      {
+        "title": "Gabriel Boric — Manifiesto programático, primárias2021, SERVEL, PDF38p",
+        "url": "https://www.servel.cl/wp-content/uploads/2021/06/5_PROGRAMA_GABRIEL_BORIC.pdf",
+        "note": "Programa primário oficial de primárias2021, pessoalmente apresentado/assinado p3 física38–46. PDF38p físicas, páginas impressas em spreads; leitura efetiva dos locadores, não do PDF integral. Hospedagem2021/06 não certifica dia editorial."
+      },
+      {
+        "title": "Cooperativa — atividade pública de Gabriel Boric,10/03/2026",
+        "url": "https://www.cooperativa.cl/noticias/site/artic/20260310/pags-amp/20260310211349.html",
+        "note": "Cabeçalho21 e corpo32–55 realmente lidos para atividade datada. Apenas identidade; realizações e declarações ali resumidas não codificadas."
+      }
+    ],
+    "evidence": {
+      "est": "medium",
+      "rep": "medium",
+      "pod": "medium",
+      "eco": "medium",
+      "con": "medium",
+      "mor": "medium"
+    },
+    "axisEvidence": {
+      "est": {
+        "sourceTitles": [
+          "Gabriel Boric — Manifiesto programático, primárias2021, SERVEL, PDF38p"
+        ],
+        "rationale": "Descentralização territorial ampla. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Mantém articulação nacional569–574."
+      },
+      "rep": {
+        "sourceTitles": [
+          "Gabriel Boric — Manifiesto programático, primárias2021, SERVEL, PDF38p"
+        ],
+        "rationale": "Orientação democrática ampla. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Propostas constitucionais, não prática certificada."
+      },
+      "pod": {
+        "sourceTitles": [
+          "Gabriel Boric — Manifiesto programático, primárias2021, SERVEL, PDF38p"
+        ],
+        "rationale": "Limites civis à coerção estatal. Codificação editorial moderate-second: âncora 40, faixa 30–45; a fonte não mede esse número. Limites: Amplia investigação/inteligência694–699 e restringe armas634–635."
+      },
+      "eco": {
+        "sourceTitles": [
+          "Gabriel Boric — Manifiesto programático, primárias2021, SERVEL, PDF38p"
+        ],
+        "rationale": "Expansão pública/social proposta em economia mista. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Empresas privadas e parcerias1681–1699 preservadas; sem maioria nacional pública ou abolição privada."
+      },
+      "con": {
+        "sourceTitles": [
+          "Gabriel Boric — Manifiesto programático, primárias2021, SERVEL, PDF38p"
+        ],
+        "rationale": "Coordenação estatal multissetorial. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Inovação privada e alianças públicas/privadas permanecem."
+      },
+      "mor": {
+        "sourceTitles": [
+          "Gabriel Boric — Manifiesto programático, primárias2021, SERVEL, PDF38p"
+        ],
+        "rationale": "Orientação progressista em normas familiares e sexuais. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Programa eleitoral, sem certificação de implementação."
+      }
+    },
+    "coding": {
+      "est": {
+        "axis": "est",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Gabriel Boric — Manifiesto programático, primárias2021, SERVEL, PDF38p",
+            "locator": "PDFp11 física325–346; p16,542–595",
+            "statement": "Redistribui competências e decisões financeiras regionais e locais.",
+            "basis": "declaration",
+            "publishedDate": "Primárias2021; hospedagem2021/06, dia editorial não certificado",
+            "accessedDate": "2026-10-08"
+          }
+        ],
+        "rationale": "Descentralização territorial ampla.",
+        "uncertainty": "Mantém articulação nacional569–574.",
+        "relatedQuestionIds": [
+          "estrutura_03",
+          "estrutura_13",
+          "estrutura_19"
+        ],
+        "reviewedOn": "2026-10-08",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      },
+      "rep": {
+        "axis": "rep",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Gabriel Boric — Manifiesto programático, primárias2021, SERVEL, PDF38p",
+            "locator": "PDFp4 física96–129; p13,361–373; p15–16,482–527",
+            "statement": "Defende participação, plebiscitos e controle cidadão dos poderes.",
+            "basis": "declaration",
+            "publishedDate": "Primárias2021; hospedagem2021/06, dia editorial não certificado",
+            "accessedDate": "2026-10-08"
+          }
+        ],
+        "rationale": "Orientação democrática ampla.",
+        "uncertainty": "Propostas constitucionais, não prática certificada.",
+        "relatedQuestionIds": [
+          "representacao_09",
+          "representacao_17"
+        ],
+        "reviewedOn": "2026-10-08",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      },
+      "pod": {
+        "axis": "pod",
+        "position": "moderate-second",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Gabriel Boric — Manifiesto programático, primárias2021, SERVEL, PDF38p",
+            "locator": "PDFp14 física375–405/436–446; p17–18,636–707; p22,973–976",
+            "statement": "Desmilitariza policiamento e protege direitos contra repressão política.",
+            "basis": "declaration",
+            "publishedDate": "Primárias2021; hospedagem2021/06, dia editorial não certificado",
+            "accessedDate": "2026-10-08"
+          }
+        ],
+        "rationale": "Limites civis à coerção estatal.",
+        "uncertainty": "Amplia investigação/inteligência694–699 e restringe armas634–635.",
+        "relatedQuestionIds": [
+          "poder_07",
+          "poder_11",
+          "poder_19"
+        ],
+        "reviewedOn": "2026-10-08",
+        "version": "editorial-ordinal-v1",
+        "value": 40,
+        "range": [
+          30,
+          45
+        ]
+      },
+      "eco": {
+        "axis": "eco",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Gabriel Boric — Manifiesto programático, primárias2021, SERVEL, PDF38p",
+            "locator": "PDFp21 física918–926; p22,991–1003; p24,1112–1128; p32,1680–1700; p34,1826–1833",
+            "statement": "Propõe provisão e administração públicas em múltiplos setores.",
+            "basis": "declaration",
+            "publishedDate": "Primárias2021; hospedagem2021/06, dia editorial não certificado",
+            "accessedDate": "2026-10-08"
+          }
+        ],
+        "rationale": "Expansão pública/social proposta em economia mista.",
+        "uncertainty": "Empresas privadas e parcerias1681–1699 preservadas; sem maioria nacional pública ou abolição privada.",
+        "relatedQuestionIds": [
+          "economia_03",
+          "economia_07",
+          "economia_09"
+        ],
+        "reviewedOn": "2026-10-08",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      },
+      "con": {
+        "axis": "con",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Gabriel Boric — Manifiesto programático, primárias2021, SERVEL, PDF38p",
+            "locator": "PDFp31 física1606–1637; p32,1680–1700; p34–35,1826–1833/1853–1865/1917–1929",
+            "statement": "Planeja setores, investimentos e diversificação produtiva.",
+            "basis": "declaration",
+            "publishedDate": "Primárias2021; hospedagem2021/06, dia editorial não certificado",
+            "accessedDate": "2026-10-08"
+          }
+        ],
+        "rationale": "Coordenação estatal multissetorial.",
+        "uncertainty": "Inovação privada e alianças públicas/privadas permanecem.",
+        "relatedQuestionIds": [
+          "controle_01",
+          "controle_07",
+          "controle_11"
+        ],
+        "reviewedOn": "2026-10-08",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      },
+      "mor": {
+        "axis": "mor",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Gabriel Boric — Manifiesto programático, primárias2021, SERVEL, PDF38p",
+            "locator": "PDFp19–20 físicas752–824; p11,273–294",
+            "statement": "Defende autonomia reprodutiva, igualdade conjugal e direitos trans.",
+            "basis": "declaration",
+            "publishedDate": "Primárias2021; hospedagem2021/06, dia editorial não certificado",
+            "accessedDate": "2026-10-08"
+          }
+        ],
+        "rationale": "Orientação progressista em normas familiares e sexuais.",
+        "uncertainty": "Programa eleitoral, sem certificação de implementação.",
+        "relatedQuestionIds": [
+          "moral_01",
+          "moral_03",
+          "moral_09"
+        ],
+        "reviewedOn": "2026-10-08",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      }
+    }
+  },
+  {
+    "id": "tawakkol-karman",
+    "name": "Tawakkol Karman",
+    "kind": "person",
+    "category": "public-figure",
+    "period": "Nobel Prize Summit, edição indexada em 25 de maio de 2023",
+    "sources": [
+      {
+        "title": "Tawakkol Karman — Nobel Prize Summit, Washington, 25/5/2023",
+        "url": "https://www.tawakkolkarman.net/texts/speeches/4335-tawakkol-karman-speech-at-nobel-prize-summit-washington",
+        "publishedDate": "2023-05-25; data indicada no índice da página inicial do gabinete",
+        "note": "Texto autoral aberto em 7/10/2026; o índice https://www.tawakkolkarman.net/ associa a este título/link a data 05-25-2023. O discurso de Sarajevo fica somente como contexto sem data confirmada."
+      },
+      {
+        "title": "Tawakkol Karman — discurso de Sarajevo sobre democracia",
+        "url": "https://www.tawakkolkarman.net/texts/speeches/5059-tawakkol-karman-speech-on-sarajevo-conference-on-democracy-in-the-arab-world",
+        "publishedDate": "Sem data editorial indicada na página consultada",
+        "note": "Texto autoral no próprio gabinete, aberto em 7/10/2026; data do evento não confirmada. Não atribuir automaticamente o discurso a 2026."
+      },
+      {
+        "title": "Tawakkol Karman — gabinete, atividade pública contemporânea",
+        "url": "https://www.tawakkolkarman.net/",
+        "note": "Página pessoal atual e notícias do próprio gabinete; data exata de todas as atividades não certificada. Aberta em 7/10/2026; identidade contemporânea, sem valores de eixo."
+      }
+    ],
+    "caveats": "Declaração de 2023 sobre expressão digital. Sarajevo permanece contexto sem data confirmada e não gera scores; não certificar implementação.",
+    "rationale": "Recorte de declarações primárias documentadas; demais eixos desconhecidos.",
+    "vec": {
+      "est": 50,
+      "rep": 50,
+      "pod": 40,
+      "imi": 50,
+      "dip": 50,
+      "int": 50,
+      "eco": 50,
+      "con": 50,
+      "com": 50,
+      "rel": 50,
+      "mor": 50,
+      "tec": 50
+    },
+    "evidence": {
+      "pod": "medium"
+    },
+    "axisEvidence": {
+      "pod": {
+        "sourceTitles": [
+          "Tawakkol Karman — Nobel Prize Summit, Washington, 25/5/2023"
+        ],
+        "rationale": "Proteção da expressão limita coerção estatal. Codificação editorial moderate-second: âncora 40, faixa 30–45; a fonte não mede esse número. Limites: Preserva moderação contra danos; não resolve todas as políticas de segurança."
+      }
+    },
+    "coding": {
+      "pod": {
+        "axis": "pod",
+        "position": "moderate-second",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Tawakkol Karman — Nobel Prize Summit, Washington, 25/5/2023",
+            "publishedDate": "2023-05-25; data indicada no índice da página inicial do gabinete",
+            "accessedDate": "2026-10-07",
+            "locator": "Parágrafos Global democracies; Tech companies; They should resist demands for censorship",
+            "statement": "Defende expressão digital protegida contra censura autoritária e manipulação, com remoção de conteúdos causadores de dano real.",
+            "basis": "declaration"
+          }
+        ],
+        "rationale": "Proteção da expressão limita coerção estatal.",
+        "uncertainty": "Preserva moderação contra danos; não resolve todas as políticas de segurança.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 40,
+        "range": [
+          30,
+          45
+        ]
+      }
+    }
+  },
+  {
+    "id": "shirin-ebadi",
+    "name": "Shirin Ebadi",
+    "kind": "person",
+    "category": "public-figure",
+    "period": "Diálogo na JFK Library, 8 de maio de 2005",
+    "sources": [
+      {
+        "title": "Conversation with Shirin Ebadi — JFK Library, 8/5/2005",
+        "url": "https://www.jfklibrary.org/events-and-awards/kennedy-library-forums/browse-all-forums/transcripts/conversation-with-shirin-ebadi",
+        "publishedDate": "2005-05-08",
+        "note": "Transcrição primária do diálogo, aberta em 7/10/2026. Somente respostas identificadas MS. EBADI codificam a autora; tradução e trechos inaudíveis são limitações."
+      },
+      {
+        "title": "Shirin Ebadi — entrevista no Amanpour and Company, 16/1/2026",
+        "url": "https://www.pbs.org/video/january-16-2026-xla3nu/",
+        "note": "Página da emissora e transcrição identificam entrevista com Ebadi nesta data; vídeo indisponível no acesso. Aberta em 7/10/2026; identidade contemporânea, sem valores de eixo."
+      }
+    ],
+    "caveats": "Respostas próprias de 2005. A entrevista de 2026 contém posições distintas sobre ações externas direcionadas e não é misturada neste vetor datado.",
+    "rationale": "Recorte de declarações primárias documentadas; demais eixos desconhecidos.",
+    "vec": {
+      "est": 50,
+      "rep": 60,
+      "pod": 50,
+      "imi": 50,
+      "dip": 40,
+      "int": 50,
+      "eco": 50,
+      "con": 50,
+      "com": 50,
+      "rel": 80,
+      "mor": 50,
+      "tec": 50
+    },
+    "evidence": {
+      "rep": "medium",
+      "rel": "high",
+      "dip": "medium"
+    },
+    "axisEvidence": {
+      "rep": {
+        "sourceTitles": [
+          "Conversation with Shirin Ebadi — JFK Library, 8/5/2005"
+        ],
+        "rationale": "Escolha eleitoral aberta sustenta direção democrática. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Não fornece arquitetura completa de representação."
+      },
+      "rel": {
+        "sourceTitles": [
+          "Conversation with Shirin Ebadi — JFK Library, 8/5/2005"
+        ],
+        "rationale": "Separação institucional explícita sustenta laicidade. Codificação editorial strong-first: âncora 80, faixa 75–90; a fonte não mede esse número. Limites: Não implica irreligião nem rejeição de toda ética religiosa."
+      },
+      "dip": {
+        "sourceTitles": [
+          "Conversation with Shirin Ebadi — JFK Library, 8/5/2005"
+        ],
+        "rationale": "Preferência diplomática pacífica delimitada. Codificação editorial moderate-second: âncora 40, faixa 30–45; a fonte não mede esse número. Limites: Não prova pacifismo absoluto em todos os conflitos."
+      }
+    },
+    "coding": {
+      "rep": {
+        "axis": "rep",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Conversation with Shirin Ebadi — JFK Library, 8/5/2005",
+            "publishedDate": "2005-05-08",
+            "accessedDate": "2026-10-07",
+            "locator": "Respostas sobre governo democrático e filtragem de candidaturas pelo Guardian Council",
+            "statement": "Defende governo democrático e candidaturas livres de veto político prévio.",
+            "basis": "declaration"
+          }
+        ],
+        "rationale": "Escolha eleitoral aberta sustenta direção democrática.",
+        "uncertainty": "Não fornece arquitetura completa de representação.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      },
+      "rel": {
+        "axis": "rel",
+        "position": "strong-first",
+        "confidence": "high",
+        "claims": [
+          {
+            "sourceTitle": "Conversation with Shirin Ebadi — JFK Library, 8/5/2005",
+            "publishedDate": "2005-05-08",
+            "accessedDate": "2026-10-07",
+            "locator": "Resposta My personal belief is that church and state should be separated",
+            "statement": "Defende separar religião e Estado, compatibilizando isso com sua fé islâmica.",
+            "basis": "declaration"
+          }
+        ],
+        "rationale": "Separação institucional explícita sustenta laicidade.",
+        "uncertainty": "Não implica irreligião nem rejeição de toda ética religiosa.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 80,
+        "range": [
+          75,
+          90
+        ]
+      },
+      "dip": {
+        "axis": "dip",
+        "position": "moderate-second",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Conversation with Shirin Ebadi — JFK Library, 8/5/2005",
+            "publishedDate": "2005-05-08",
+            "accessedDate": "2026-10-07",
+            "locator": "Respostas sobre ajuda à democracia iraniana e política externa: military attack; negotiate",
+            "statement": "Rejeita ataque militar como ajuda à democratização e prefere negociação seguida da ONU.",
+            "basis": "declaration"
+          }
+        ],
+        "rationale": "Preferência diplomática pacífica delimitada.",
+        "uncertainty": "Não prova pacifismo absoluto em todos os conflitos.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 40,
+        "range": [
+          30,
+          45
+        ]
+      }
+    }
+  },
+  {
+    "id": "narges-mohammadi",
+    "name": "Narges Mohammadi",
+    "kind": "person",
+    "category": "public-figure",
+    "period": "Discurso sobre discriminação de gênero, 21 de maio de 2025",
+    "sources": [
+      {
+        "title": "Narges Mohammadi — Gender Apartheid must end",
+        "url": "https://www.nobelpeacecenter.org/en/news/gender-apartheid-must-end",
+        "publishedDate": "2025-05-22; discurso de 21/5/2025",
+        "note": "Texto assinado publicado pelo anfitrião, aberto em 7/10/2026; afirmações sobre leis iranianas são enquadramento da autora, não auditoria jurídica independente."
+      },
+      {
+        "title": "Narges Mohammadi — entrevista publicada em 6/10/2026",
+        "url": "https://www.theguardian.com/global-development/2026/oct/06/iranian-nobel-laureate-narges-mohammadi-recounts-prison-beating",
+        "note": "Reportagem com entrevista recente; usada somente para identidade viva/publicamente ativa. Aberta em 7/10/2026; identidade contemporânea, sem valores de eixo."
+      }
+    ],
+    "caveats": "Codifica oposição declarada à subordinação de mulheres; não adota como parecer jurídico as descrições legais do discurso.",
+    "rationale": "Recorte de declarações primárias documentadas; demais eixos desconhecidos.",
+    "vec": {
+      "est": 50,
+      "rep": 50,
+      "pod": 50,
+      "imi": 50,
+      "dip": 50,
+      "int": 50,
+      "eco": 50,
+      "con": 50,
+      "com": 50,
+      "rel": 50,
+      "mor": 60,
+      "tec": 50
+    },
+    "evidence": {
+      "mor": "medium"
+    },
+    "axisEvidence": {
+      "mor": {
+        "sourceTitles": [
+          "Narges Mohammadi — Gender Apartheid must end"
+        ],
+        "rationale": "Emancipação de gênero sustenta direção reformista. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Não cobre todos os costumes ou posições em desigualdade econômica."
+      }
+    },
+    "coding": {
+      "mor": {
+        "axis": "mor",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Narges Mohammadi — Gender Apartheid must end",
+            "publishedDate": "2025-05-22; discurso de 21/5/2025",
+            "accessedDate": "2026-10-07",
+            "locator": "Do parágrafo In 2025, in Iran até This is gender apartheid and it must end",
+            "statement": "Contesta tutela masculina, imposição de vestuário e limitações à participação e autonomia reprodutiva de mulheres.",
+            "basis": "declaration"
+          }
+        ],
+        "rationale": "Emancipação de gênero sustenta direção reformista.",
+        "uncertainty": "Não cobre todos os costumes ou posições em desigualdade econômica.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      }
+    }
+  },
+  {
+    "id": "maria-ressa",
+    "name": "Maria Ressa",
+    "kind": "person",
+    "category": "public-figure",
+    "period": "Discurso preparado para o prêmio CPJ de 2018",
+    "sources": [
+      {
+        "title": "Maria Ressa — discurso preparado para prêmio CPJ de 2018",
+        "url": "https://cpj.org/awards/maria-ressa/",
+        "publishedDate": "2018; dia da publicação não indicado",
+        "note": "O organizador publica o texto preparado para apresentação, aberto em 7/10/2026. Distinguir discurso primário da biografia editorial da página."
+      },
+      {
+        "title": "Maria Ressa — Institute of Global Politics, Columbia",
+        "url": "https://igp.sipa.columbia.edu/distinguished-fellows/maria-ressa",
+        "note": "Perfil institucional atual de atividade pública; sem assumir cargo de governo. Aberta em 7/10/2026; identidade contemporânea, sem valores de eixo."
+      }
+    ],
+    "caveats": "Texto preparado, não transcrição verificada da apresentação; críticas tecnológicas não geram rejeição geral de tecnologia.",
+    "rationale": "Recorte de declarações primárias documentadas; demais eixos desconhecidos.",
+    "vec": {
+      "est": 50,
+      "rep": 50,
+      "pod": 40,
+      "imi": 50,
+      "dip": 50,
+      "int": 50,
+      "eco": 50,
+      "con": 50,
+      "com": 50,
+      "rel": 50,
+      "mor": 50,
+      "tec": 50
+    },
+    "evidence": {
+      "pod": "medium"
+    },
+    "axisEvidence": {
+      "pod": {
+        "sourceTitles": [
+          "Maria Ressa — discurso preparado para prêmio CPJ de 2018"
+        ],
+        "rationale": "Liberdade de imprensa limita coerção estatal. Codificação editorial moderate-second: âncora 40, faixa 30–45; a fonte não mede esse número. Limites: Não resolve todas as políticas de segurança; suas denúncias não são aqui decisões judiciais verificadas."
+      }
+    },
+    "coding": {
+      "pod": {
+        "axis": "pod",
+        "position": "moderate-second",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Maria Ressa — discurso preparado para prêmio CPJ de 2018",
+            "publishedDate": "2018; dia da publicação não indicado",
+            "accessedDate": "2026-10-07",
+            "locator": "Discurso preparado: parágrafo With this announced indictment e lista de seis apelos, itens 1–3",
+            "statement": "Contesta instrumentalização penal contra jornalistas e defende publicar sem medo ou favorecimento.",
+            "basis": "declaration"
+          }
+        ],
+        "rationale": "Liberdade de imprensa limita coerção estatal.",
+        "uncertainty": "Não resolve todas as políticas de segurança; suas denúncias não são aqui decisões judiciais verificadas.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 40,
+        "range": [
+          30,
+          45
+        ]
+      }
+    }
+  },
+  {
+    "id": "denis-mukwege",
+    "name": "Denis Mukwege",
+    "kind": "person",
+    "category": "public-figure",
+    "period": "Artigo assinado de 13 de novembro de 2025",
+    "sources": [
+      {
+        "title": "Denis Mukwege — Without women, there can be no lasting peace",
+        "url": "https://theelders.org/news/without-women-there-can-be-no-lasting-peace",
+        "publishedDate": "2025-11-13",
+        "note": "Artigo assinado, adaptado de boletim pelo próprio organismo do autor; aberto em 7/10/2026. Não atribuir declarações coletivas dos Elders sem adesão pessoal documentada."
+      },
+      {
+        "title": "Denis Mukwege — membro atual dos Elders",
+        "url": "https://theelders.org/profile/denis-mukwege",
+        "note": "Perfil institucional atual, distinto do artigo assinado que sustenta o eixo. Aberta em 7/10/2026; identidade contemporânea, sem valores de eixo."
+      }
+    ],
+    "caveats": "Participação feminina na construção da paz é o subtema lido; prêmio e profissão não geram posições nos demais eixos.",
+    "rationale": "Recorte de declarações primárias documentadas; demais eixos desconhecidos.",
+    "vec": {
+      "est": 50,
+      "rep": 50,
+      "pod": 50,
+      "imi": 50,
+      "dip": 50,
+      "int": 50,
+      "eco": 50,
+      "con": 50,
+      "com": 50,
+      "rel": 50,
+      "mor": 60,
+      "tec": 50
+    },
+    "evidence": {
+      "mor": "medium"
+    },
+    "axisEvidence": {
+      "mor": {
+        "sourceTitles": [
+          "Denis Mukwege — Without women, there can be no lasting peace"
+        ],
+        "rationale": "Igualdade de participação sustenta direção emancipatória. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Não estabelece programa completo sobre família, aborto ou outros costumes."
+      }
+    },
+    "coding": {
+      "mor": {
+        "axis": "mor",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Denis Mukwege — Without women, there can be no lasting peace",
+            "publishedDate": "2025-11-13",
+            "accessedDate": "2026-10-07",
+            "locator": "Parágrafos While women often bear; However; As we mark; The participation of women",
+            "statement": "Defende liderança e participação plena e igual de mulheres nas negociações e construção da paz.",
+            "basis": "declaration"
+          }
+        ],
+        "rationale": "Igualdade de participação sustenta direção emancipatória.",
+        "uncertainty": "Não estabelece programa completo sobre família, aborto ou outros costumes.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      }
+    }
+  },
+  {
+    "id": "mary-robinson",
+    "name": "Mary Robinson",
+    "kind": "person",
+    "category": "public-figure",
+    "period": "Declaração conjunta nominal de 9 de setembro de 2026",
+    "sources": [
+      {
+        "title": "Mary Robinson e Helen Clark — declaração conjunta sobre sanções a assentamentos",
+        "url": "https://theelders.org/news/mary-robinson-and-helen-clark-react-israeli-settlement-trade-ban-uk-and-others",
+        "publishedDate": "2026-09-09",
+        "note": "Declaração atribuída nominalmente às duas autoras, aberta em 7/10/2026; adesão individual explícita, sem imputar posições genéricas da organização."
+      },
+      {
+        "title": "Mary Robinson — membro atual dos Elders",
+        "url": "https://theelders.org/profile/mary-robinson",
+        "note": "Perfil institucional atual identifica membro ativo após deixar a presidência em 2024. Aberta em 7/10/2026; identidade contemporânea, sem valores de eixo."
+      }
+    ],
+    "caveats": "Sanções comerciais dirigidas a assentamentos: não infere intervenção militar, bloqueio geral de Israel ou proteção industrial doméstica.",
+    "rationale": "Recorte de declarações primárias documentadas; demais eixos desconhecidos.",
+    "vec": {
+      "est": 50,
+      "rep": 50,
+      "pod": 50,
+      "imi": 50,
+      "dip": 50,
+      "int": 40,
+      "eco": 50,
+      "con": 50,
+      "com": 50,
+      "rel": 50,
+      "mor": 50,
+      "tec": 50
+    },
+    "evidence": {
+      "int": "medium"
+    },
+    "axisEvidence": {
+      "int": {
+        "sourceTitles": [
+          "Mary Robinson e Helen Clark — declaração conjunta sobre sanções a assentamentos"
+        ],
+        "rationale": "Coerção econômica externa delimitada sustenta direção intervencionista moderada. Codificação editorial moderate-second: âncora 40, faixa 30–45; a fonte não mede esse número. Limites: Não abrange intervenção militar ou eficácia comprovada de sanções; as qualificações jurídicas são argumentos das autoras."
+      }
+    },
+    "coding": {
+      "int": {
+        "axis": "int",
+        "position": "moderate-second",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Mary Robinson e Helen Clark — declaração conjunta sobre sanções a assentamentos",
+            "publishedDate": "2026-09-09",
+            "accessedDate": "2026-10-07",
+            "locator": "Declaração nominal: parágrafos The measures targeting; Those who trade; The EU should now follow suit",
+            "statement": "Apoia medidas econômicas internacionais dirigidas a assentamentos e pede extensão coordenada pela UE.",
+            "basis": "declaration"
+          }
+        ],
+        "rationale": "Coerção econômica externa delimitada sustenta direção intervencionista moderada.",
+        "uncertainty": "Não abrange intervenção militar ou eficácia comprovada de sanções; as qualificações jurídicas são argumentos das autoras.",
+        "reviewedOn": "2026-10-07",
+        "relatedQuestionIds": [
+          "intervencao_15"
+        ],
+        "version": "editorial-ordinal-v1",
+        "value": 40,
+        "range": [
+          30,
+          45
+        ]
+      }
+    }
+  },
+  {
+    "id": "helen-clark",
+    "name": "Helen Clark",
+    "kind": "person",
+    "category": "public-figure",
+    "period": "Declaração conjunta nominal de 9 de setembro de 2026",
+    "sources": [
+      {
+        "title": "Mary Robinson e Helen Clark — declaração conjunta sobre sanções a assentamentos",
+        "url": "https://theelders.org/news/mary-robinson-and-helen-clark-react-israeli-settlement-trade-ban-uk-and-others",
+        "publishedDate": "2026-09-09",
+        "note": "Declaração atribuída nominalmente às duas autoras, aberta em 7/10/2026; adesão individual explícita, sem imputar posições genéricas da organização."
+      },
+      {
+        "title": "Helen Clark — membro atual dos Elders",
+        "url": "https://theelders.org/profile/helen-clark",
+        "note": "Perfil institucional atual identifica atividade pública e vínculo atual. Aberta em 7/10/2026; identidade contemporânea, sem valores de eixo."
+      }
+    ],
+    "caveats": "Sanções comerciais dirigidas a assentamentos: não infere intervenção militar, bloqueio geral de Israel ou proteção industrial doméstica.",
+    "rationale": "Recorte de declarações primárias documentadas; demais eixos desconhecidos.",
+    "vec": {
+      "est": 50,
+      "rep": 50,
+      "pod": 50,
+      "imi": 50,
+      "dip": 50,
+      "int": 40,
+      "eco": 50,
+      "con": 50,
+      "com": 50,
+      "rel": 50,
+      "mor": 50,
+      "tec": 50
+    },
+    "evidence": {
+      "int": "medium"
+    },
+    "axisEvidence": {
+      "int": {
+        "sourceTitles": [
+          "Mary Robinson e Helen Clark — declaração conjunta sobre sanções a assentamentos"
+        ],
+        "rationale": "Coerção econômica externa delimitada sustenta direção intervencionista moderada. Codificação editorial moderate-second: âncora 40, faixa 30–45; a fonte não mede esse número. Limites: Não abrange intervenção militar ou eficácia comprovada de sanções; as qualificações jurídicas são argumentos das autoras."
+      }
+    },
+    "coding": {
+      "int": {
+        "axis": "int",
+        "position": "moderate-second",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Mary Robinson e Helen Clark — declaração conjunta sobre sanções a assentamentos",
+            "publishedDate": "2026-09-09",
+            "accessedDate": "2026-10-07",
+            "locator": "Declaração nominal: parágrafos The measures targeting; Those who trade; The EU should now follow suit",
+            "statement": "Apoia medidas econômicas internacionais dirigidas a assentamentos e pede extensão coordenada pela UE.",
+            "basis": "declaration"
+          }
+        ],
+        "rationale": "Coerção econômica externa delimitada sustenta direção intervencionista moderada.",
+        "uncertainty": "Não abrange intervenção militar ou eficácia comprovada de sanções; as qualificações jurídicas são argumentos das autoras.",
+        "reviewedOn": "2026-10-07",
+        "relatedQuestionIds": [
+          "intervencao_15"
+        ],
+        "version": "editorial-ordinal-v1",
+        "value": 40,
+        "range": [
+          30,
+          45
+        ]
+      }
+    }
+  },
+  {
+    "id": "juan-manuel-santos",
+    "name": "Juan Manuel Santos",
+    "kind": "person",
+    "category": "public-figure",
+    "period": "Declaração nominal de 24 de fevereiro de 2025",
+    "sources": [
+      {
+        "title": "Juan Manuel Santos — negociações inclusivas sobre Ucrânia",
+        "url": "https://theelders.org/news/juan-manuel-santos-urges-inclusive-peace-talks-ukraines-future",
+        "publishedDate": "2025-02-24",
+        "note": "Declaração nominal reproduzida pelo próprio organismo, aberta em 7/10/2026; conteúdo distinto da biografia editorial."
+      },
+      {
+        "title": "Juan Manuel Santos — presidente atual dos Elders",
+        "url": "https://theelders.org/profile/juan-manuel-santos",
+        "note": "Perfil institucional atual identifica presidência da organização, não cargo atual no governo colombiano. Aberta em 7/10/2026; identidade contemporânea, sem valores de eixo."
+      }
+    ],
+    "caveats": "Negociação inclusiva nesse conflito; apoio à segurança ucraniana não equivale a pacifismo absoluto nem prova toda a trajetória.",
+    "rationale": "Recorte de declarações primárias documentadas; demais eixos desconhecidos.",
+    "vec": {
+      "est": 50,
+      "rep": 50,
+      "pod": 50,
+      "imi": 50,
+      "dip": 40,
+      "int": 50,
+      "eco": 50,
+      "con": 50,
+      "com": 50,
+      "rel": 50,
+      "mor": 50,
+      "tec": 50
+    },
+    "evidence": {
+      "dip": "medium"
+    },
+    "axisEvidence": {
+      "dip": {
+        "sourceTitles": [
+          "Juan Manuel Santos — negociações inclusivas sobre Ucrânia"
+        ],
+        "rationale": "Preferência por solução diplomática inclusiva sustenta direção pacífica delimitada. Codificação editorial moderate-second: âncora 40, faixa 30–45; a fonte não mede esse número. Limites: Não rejeita defesa militar ou apoio a aliados; não transforma negociações em neutralidade."
+      }
+    },
+    "coding": {
+      "dip": {
+        "axis": "dip",
+        "position": "moderate-second",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Juan Manuel Santos — negociações inclusivas sobre Ucrânia",
+            "publishedDate": "2025-02-24",
+            "accessedDate": "2026-10-07",
+            "locator": "Declaração nominal: parágrafos The conflict is entering; The whole world will pay",
+            "statement": "Pede negociações de paz com participação direta da Ucrânia e de países europeus, preservando soberania e garantias de segurança.",
+            "basis": "declaration"
+          }
+        ],
+        "rationale": "Preferência por solução diplomática inclusiva sustenta direção pacífica delimitada.",
+        "uncertainty": "Não rejeita defesa militar ou apoio a aliados; não transforma negociações em neutralidade.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 40,
+        "range": [
+          30,
+          45
+        ]
+      }
+    }
+  },
+  {
+    "id": "hina-jilani",
+    "name": "Hina Jilani",
+    "kind": "person",
+    "category": "public-figure",
+    "period": "2022-11-25",
+    "sources": [
+      {
+        "title": "Leaders must tackle root causes of gender-based violence and ensure justice for all",
+        "url": "https://theelders.org/news/leaders-must-tackle-root-causes-gender-based-violence-and-ensure-justice-all",
+        "note": "Declaração primária efetivamente aberta em 7/10/2026; somente autoria nominal ou assinatura individual codificada."
+      },
+      {
+        "title": "Hina Jilani — identidade contemporânea",
+        "url": "https://theelders.org/profile/hina-jilani",
+        "note": "Perfil institucional atual, distinto da declaração nominal. Aberta em 7/10/2026; identidade sem inferência de eixo."
+      }
+    ],
+    "caveats": "Não cobre todos os costumes; não imputa a ela cada parágrafo coletivo da página. Demais eixos desconhecidos. Revisão independente de conteúdo pendente.",
+    "rationale": "Declaração primária delimitada; demais eixos desconhecidos.",
+    "vec": {
+      "est": 50,
+      "rep": 50,
+      "pod": 50,
+      "imi": 50,
+      "dip": 50,
+      "int": 50,
+      "eco": 50,
+      "con": 50,
+      "com": 50,
+      "rel": 50,
+      "mor": 60,
+      "tec": 50
+    },
+    "evidence": {
+      "mor": "medium"
+    },
+    "axisEvidence": {
+      "mor": {
+        "sourceTitles": [
+          "Leaders must tackle root causes of gender-based violence and ensure justice for all"
+        ],
+        "rationale": "Emancipação de gênero estabelece direção reformista delimitada. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Não cobre todos os costumes; não imputa a ela cada parágrafo coletivo da página."
+      }
+    },
+    "coding": {
+      "mor": {
+        "axis": "mor",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Leaders must tackle root causes of gender-based violence and ensure justice for all",
+            "publishedDate": "2022-11-25",
+            "accessedDate": "2026-10-07",
+            "locator": "Citação nominal de Hina Jilani, dois parágrafos após Hina Jilani said",
+            "statement": "Defende autonomia corporal e acesso igual de mulheres à justiça contra discriminação patriarcal.",
+            "basis": "declaration"
+          }
+        ],
+        "rationale": "Emancipação de gênero estabelece direção reformista delimitada.",
+        "uncertainty": "Não cobre todos os costumes; não imputa a ela cada parágrafo coletivo da página.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      }
+    }
+  },
+  {
+    "id": "ernesto-zedillo",
+    "name": "Ernesto Zedillo",
+    "kind": "person",
+    "category": "public-figure",
+    "period": "2025-05-07",
+    "sources": [
+      {
+        "title": "Nuclear weapons pose a terrible danger to us all",
+        "url": "https://theelders.org/news/nuclear-weapons-pose-terrible-danger-us-all",
+        "note": "Declaração primária efetivamente aberta em 7/10/2026; somente autoria nominal ou assinatura individual codificada."
+      },
+      {
+        "title": "Ernesto Zedillo — identidade contemporânea",
+        "url": "https://theelders.org/profile/ernesto-zedillo",
+        "note": "Perfil institucional atual dos Elders. Aberta em 7/10/2026; identidade sem inferência de eixo."
+      }
+    ],
+    "caveats": "Política nuclear não estabelece rejeição de todas as forças armadas ou guerras. Demais eixos desconhecidos. Revisão independente de conteúdo pendente.",
+    "rationale": "Declaração primária delimitada; demais eixos desconhecidos.",
+    "vec": {
+      "est": 50,
+      "rep": 50,
+      "pod": 50,
+      "imi": 50,
+      "dip": 40,
+      "int": 50,
+      "eco": 50,
+      "con": 50,
+      "com": 50,
+      "rel": 50,
+      "mor": 50,
+      "tec": 50
+    },
+    "evidence": {
+      "dip": "medium"
+    },
+    "axisEvidence": {
+      "dip": {
+        "sourceTitles": [
+          "Nuclear weapons pose a terrible danger to us all"
+        ],
+        "rationale": "Negociação e redução de armamentos sustentam direção pacífica nesse domínio. Codificação editorial moderate-second: âncora 40, faixa 30–45; a fonte não mede esse número. Limites: Política nuclear não estabelece rejeição de todas as forças armadas ou guerras."
+      }
+    },
+    "coding": {
+      "dip": {
+        "axis": "dip",
+        "position": "moderate-second",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Nuclear weapons pose a terrible danger to us all",
+            "publishedDate": "2025-05-07",
+            "accessedDate": "2026-10-07",
+            "locator": "Parágrafos No First Use; four Ds; diplomatic efforts; assinatura Ernesto Zedillo",
+            "statement": "Pede redução do risco nuclear, não primeiro uso e esforços diplomáticos para desarmamento.",
+            "basis": "declaration"
+          }
+        ],
+        "rationale": "Negociação e redução de armamentos sustentam direção pacífica nesse domínio.",
+        "uncertainty": "Política nuclear não estabelece rejeição de todas as forças armadas ou guerras.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 40,
+        "range": [
+          30,
+          45
+        ]
+      }
+    }
+  },
+  {
+    "id": "ban-ki-moon",
+    "name": "Ban Ki-moon",
+    "kind": "person",
+    "category": "public-figure",
+    "period": "2025-12-15",
+    "sources": [
+      {
+        "title": "The UN is only as strong as its 193 Member States want it to be",
+        "url": "https://theelders.org/news/un-only-strong-its-193-member-states-want-it-be",
+        "note": "Declaração primária efetivamente aberta em 7/10/2026; somente autoria nominal ou assinatura individual codificada."
+      },
+      {
+        "title": "Ban Ki-moon — identidade contemporânea",
+        "url": "https://theelders.org/profile/ban-ki-moon",
+        "note": "Perfil atual identifica Elder Emeritus; não atribui antiga vice-presidência como atual. Aberta em 7/10/2026; identidade sem inferência de eixo."
+      }
+    ],
+    "caveats": "Termo genérico intervir não especifica meios coercivos e não gera score int. Demais eixos desconhecidos. Revisão independente de conteúdo pendente.",
+    "rationale": "Declaração primária delimitada; demais eixos desconhecidos.",
+    "vec": {
+      "est": 50,
+      "rep": 50,
+      "pod": 50,
+      "imi": 50,
+      "dip": 40,
+      "int": 50,
+      "eco": 50,
+      "con": 50,
+      "com": 50,
+      "rel": 50,
+      "mor": 50,
+      "tec": 50
+    },
+    "evidence": {
+      "dip": "medium"
+    },
+    "axisEvidence": {
+      "dip": {
+        "sourceTitles": [
+          "The UN is only as strong as its 193 Member States want it to be"
+        ],
+        "rationale": "Mediação diplomática é preferência pacífica delimitada. Codificação editorial moderate-second: âncora 40, faixa 30–45; a fonte não mede esse número. Limites: Termo genérico intervir não especifica meios coercivos e não gera score int."
+      }
+    },
+    "coding": {
+      "dip": {
+        "axis": "dip",
+        "position": "moderate-second",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "The UN is only as strong as its 193 Member States want it to be",
+            "publishedDate": "2025-12-15",
+            "accessedDate": "2026-10-07",
+            "locator": "Discurso: parágrafos UN leadership; more confident and active political role; mediating and settling",
+            "statement": "Defende liderança política ativa da ONU na mediação e solução de crises internacionais.",
+            "basis": "declaration"
+          }
+        ],
+        "rationale": "Mediação diplomática é preferência pacífica delimitada.",
+        "uncertainty": "Termo genérico intervir não especifica meios coercivos e não gera score int.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 40,
+        "range": [
+          30,
+          45
+        ]
+      }
+    }
+  },
+  {
+    "id": "zeid-raad-al-hussein",
+    "name": "Zeid Ra’ad Al Hussein",
+    "kind": "person",
+    "category": "public-figure",
+    "period": "2025-10-14",
+    "sources": [
+      {
+        "title": "The UN must take the need for reform seriously",
+        "url": "https://theelders.org/news/un-must-take-need-reform-seriously",
+        "note": "Declaração primária efetivamente aberta em 7/10/2026; somente autoria nominal ou assinatura individual codificada."
+      },
+      {
+        "title": "Zeid Ra’ad Al Hussein — identidade contemporânea",
+        "url": "https://theelders.org/profile/zeid-raad-al-hussein",
+        "note": "Perfil institucional atual. Aberta em 7/10/2026; identidade sem inferência de eixo."
+      }
+    ],
+    "caveats": "Reforma da ONU não equivale a democracia doméstica ou pacifismo absoluto. Demais eixos desconhecidos. Revisão independente de conteúdo pendente.",
+    "rationale": "Declaração primária delimitada; demais eixos desconhecidos.",
+    "vec": {
+      "est": 50,
+      "rep": 50,
+      "pod": 50,
+      "imi": 50,
+      "dip": 40,
+      "int": 50,
+      "eco": 50,
+      "con": 50,
+      "com": 50,
+      "rel": 50,
+      "mor": 50,
+      "tec": 50
+    },
+    "evidence": {
+      "dip": "medium"
+    },
+    "axisEvidence": {
+      "dip": {
+        "sourceTitles": [
+          "The UN must take the need for reform seriously"
+        ],
+        "rationale": "A preferência explícita por mediação sustenta direção diplomática. Codificação editorial moderate-second: âncora 40, faixa 30–45; a fonte não mede esse número. Limites: Reforma da ONU não equivale a democracia doméstica ou pacifismo absoluto."
+      }
+    },
+    "coding": {
+      "dip": {
+        "axis": "dip",
+        "position": "moderate-second",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "The UN must take the need for reform seriously",
+            "publishedDate": "2025-10-14",
+            "accessedDate": "2026-10-07",
+            "locator": "Parágrafo reinstating the Secretary-General as an independent and dynamic international mediator; assinatura",
+            "statement": "Defende restaurar a função independente e dinâmica do secretário-geral como mediador internacional.",
+            "basis": "declaration"
+          }
+        ],
+        "rationale": "A preferência explícita por mediação sustenta direção diplomática.",
+        "uncertainty": "Reforma da ONU não equivale a democracia doméstica ou pacifismo absoluto.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 40,
+        "range": [
+          30,
+          45
+        ]
+      }
+    }
+  },
+  {
+    "id": "lakhdar-brahimi",
+    "name": "Lakhdar Brahimi",
+    "kind": "person",
+    "category": "public-figure",
+    "period": "2021-09-07",
+    "sources": [
+      {
+        "title": "The international community must act responsibly on Afghanistan",
+        "url": "https://theelders.org/news/international-community-must-act-responsibly-afghanistan",
+        "note": "Declaração primária efetivamente aberta em 7/10/2026; somente autoria nominal ou assinatura individual codificada."
+      },
+      {
+        "title": "Lakhdar Brahimi — identidade contemporânea",
+        "url": "https://theelders.org/profile/lakhdar-brahimi",
+        "note": "Perfil atual identifica Elder Emeritus desde agosto de 2021. Aberta em 7/10/2026; identidade sem inferência de eixo."
+      }
+    ],
+    "caveats": "Não endossa o regime nem determina todas as respostas militares possíveis. Demais eixos desconhecidos. Revisão independente de conteúdo pendente.",
+    "rationale": "Declaração primária delimitada; demais eixos desconhecidos.",
+    "vec": {
+      "est": 50,
+      "rep": 50,
+      "pod": 50,
+      "imi": 50,
+      "dip": 40,
+      "int": 50,
+      "eco": 50,
+      "con": 50,
+      "com": 50,
+      "rel": 50,
+      "mor": 50,
+      "tec": 50
+    },
+    "evidence": {
+      "dip": "medium"
+    },
+    "axisEvidence": {
+      "dip": {
+        "sourceTitles": [
+          "The international community must act responsibly on Afghanistan"
+        ],
+        "rationale": "Engajamento negociado sustenta direção pacífica nesse conflito. Codificação editorial moderate-second: âncora 40, faixa 30–45; a fonte não mede esse número. Limites: Não endossa o regime nem determina todas as respostas militares possíveis."
+      }
+    },
+    "coding": {
+      "dip": {
+        "axis": "dip",
+        "position": "moderate-second",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "The international community must act responsibly on Afghanistan",
+            "publishedDate": "2021-09-07",
+            "accessedDate": "2026-10-07",
+            "locator": "Parágrafos sobre representante especial da ONU em Kabul, discussão franca com Taliban e ajuda humanitária",
+            "statement": "Defende diálogo diplomático com o Taliban e programas humanitários sem reconhecimento diplomático imediato.",
+            "basis": "declaration"
+          }
+        ],
+        "rationale": "Engajamento negociado sustenta direção pacífica nesse conflito.",
+        "uncertainty": "Não endossa o regime nem determina todas as respostas militares possíveis.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 40,
+        "range": [
+          30,
+          45
+        ]
+      }
+    }
+  },
+  {
+    "id": "ricardo-lagos",
+    "name": "Ricardo Lagos",
+    "kind": "person",
+    "category": "public-figure",
+    "period": "2022-11-25",
+    "sources": [
+      {
+        "title": "Leaders must tackle root causes of gender-based violence and ensure justice for all",
+        "url": "https://theelders.org/news/leaders-must-tackle-root-causes-gender-based-violence-and-ensure-justice-all",
+        "note": "Declaração primária efetivamente aberta em 7/10/2026; somente autoria nominal ou assinatura individual codificada."
+      },
+      {
+        "title": "Ricardo Lagos — identidade contemporânea",
+        "url": "https://theelders.org/profile/ricardo-lagos",
+        "note": "Perfil atual identifica Elder Emeritus. Aberta em 7/10/2026; identidade sem inferência de eixo."
+      }
+    ],
+    "caveats": "Oposição à violência isolada seria insuficiente; codifica a proposta explícita de reforma sistêmica, sem programa completo de costumes. Demais eixos desconhecidos. Revisão independente de conteúdo pendente.",
+    "rationale": "Declaração primária delimitada; demais eixos desconhecidos.",
+    "vec": {
+      "est": 50,
+      "rep": 50,
+      "pod": 50,
+      "imi": 50,
+      "dip": 50,
+      "int": 50,
+      "eco": 50,
+      "con": 50,
+      "com": 50,
+      "rel": 50,
+      "mor": 60,
+      "tec": 50
+    },
+    "evidence": {
+      "mor": "medium"
+    },
+    "axisEvidence": {
+      "mor": {
+        "sourceTitles": [
+          "Leaders must tackle root causes of gender-based violence and ensure justice for all"
+        ],
+        "rationale": "Reforma institucional contra subordinação de gênero fornece direção emancipatória parcial. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Oposição à violência isolada seria insuficiente; codifica a proposta explícita de reforma sistêmica, sem programa completo de costumes."
+      }
+    },
+    "coding": {
+      "mor": {
+        "axis": "mor",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Leaders must tackle root causes of gender-based violence and ensure justice for all",
+            "publishedDate": "2022-11-25",
+            "accessedDate": "2026-10-07",
+            "locator": "Citação nominal de Ricardo Lagos: segundo parágrafo Everyone in a position of authority",
+            "statement": "Pede enfrentar causas sistêmicas da violência de gênero e tornar a justiça responsiva aos direitos de mulheres.",
+            "basis": "declaration"
+          }
+        ],
+        "rationale": "Reforma institucional contra subordinação de gênero fornece direção emancipatória parcial.",
+        "uncertainty": "Oposição à violência isolada seria insuficiente; codifica a proposta explícita de reforma sistêmica, sem programa completo de costumes.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      }
+    }
+  },
+  {
+    "id": "ziauddin-yousafzai",
+    "name": "Ziauddin Yousafzai",
+    "kind": "person",
+    "category": "public-figure",
+    "period": "2019-06-05",
+    "sources": [
+      {
+        "title": "Ziauddin Yousafzai — Women Deliver Conference",
+        "url": "https://malala.org/news-and-voices/ziauddin-women-deliver-conference",
+        "note": "Declaração primária efetivamente aberta em 7/10/2026; somente autoria nominal ou assinatura individual codificada."
+      },
+      {
+        "title": "Ziauddin Yousafzai — identidade contemporânea",
+        "url": "https://malala.org/board?sc=header",
+        "note": "Página atual identifica membro do conselho U.S. e cofundador; não transfere posições de Malala. Aberta em 7/10/2026; identidade sem inferência de eixo."
+      }
+    ],
+    "caveats": "Declaração de 2019 não certifica execução nem todos os costumes. Demais eixos desconhecidos. Revisão independente de conteúdo pendente.",
+    "rationale": "Declaração primária delimitada; demais eixos desconhecidos.",
+    "vec": {
+      "est": 50,
+      "rep": 50,
+      "pod": 50,
+      "imi": 50,
+      "dip": 50,
+      "int": 50,
+      "eco": 50,
+      "con": 50,
+      "com": 50,
+      "rel": 50,
+      "mor": 60,
+      "tec": 50
+    },
+    "evidence": {
+      "mor": "medium"
+    },
+    "axisEvidence": {
+      "mor": {
+        "sourceTitles": [
+          "Ziauddin Yousafzai — Women Deliver Conference"
+        ],
+        "rationale": "Revisão de normas de gênero sustenta direção emancipatória. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Declaração de 2019 não certifica execução nem todos os costumes."
+      }
+    },
+    "coding": {
+      "mor": {
+        "axis": "mor",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Ziauddin Yousafzai — Women Deliver Conference",
+            "publishedDate": "2019-06-05",
+            "accessedDate": "2026-10-07",
+            "locator": "Discurso: trechos sobre casamento forçado, normas prejudiciais, remuneração igual e participação de mulheres na paz",
+            "statement": "Contesta casamento infantil e forçado e pede igualdade salarial e participação política de mulheres.",
+            "basis": "declaration"
+          }
+        ],
+        "rationale": "Revisão de normas de gênero sustenta direção emancipatória.",
+        "uncertainty": "Declaração de 2019 não certifica execução nem todos os costumes.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      }
+    }
+  },
+  {
+    "id": "jacinda-ardern",
+    "name": "Jacinda Ardern",
+    "kind": "person",
+    "category": "public-figure",
+    "period": "2022-05-27",
+    "sources": [
+      {
+        "title": "Harvard Commencement speech: democracy, disinformation and kindness",
+        "url": "https://www.beehive.govt.nz/speech/harvard-commencement-speech-democracy-disinformation-and-kindness",
+        "note": "Declaração primária efetivamente aberta em 7/10/2026; somente autoria nominal ou assinatura individual codificada."
+      },
+      {
+        "title": "Jacinda Ardern — identidade contemporânea",
+        "url": "https://www.theguardian.com/world/2026/feb/26/jacinda-ardern-living-in-australia-former-nz-new-zealand-pm",
+        "note": "Reportagem contemporânea com porta-voz; somente identidade pública, sem scores. Aberta em 7/10/2026; identidade sem inferência de eixo."
+      }
+    ],
+    "caveats": "Não deriva posições de citações de terceiros nem certifica toda a prática governamental. Demais eixos desconhecidos. Revisão independente de conteúdo pendente.",
+    "rationale": "Declaração primária delimitada; demais eixos desconhecidos.",
+    "vec": {
+      "est": 50,
+      "rep": 60,
+      "pod": 50,
+      "imi": 50,
+      "dip": 50,
+      "int": 50,
+      "eco": 50,
+      "con": 50,
+      "com": 50,
+      "rel": 50,
+      "mor": 50,
+      "tec": 50
+    },
+    "evidence": {
+      "rep": "medium"
+    },
+    "axisEvidence": {
+      "rep": {
+        "sourceTitles": [
+          "Harvard Commencement speech: democracy, disinformation and kindness"
+        ],
+        "rationale": "Representação eleitoral inclusiva sustenta direção democrática. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Não deriva posições de citações de terceiros nem certifica toda a prática governamental."
+      }
+    },
+    "coding": {
+      "rep": {
+        "axis": "rep",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Harvard Commencement speech: democracy, disinformation and kindness",
+            "publishedDate": "2022-05-27",
+            "accessedDate": "2026-10-07",
+            "locator": "Parágrafos próprios democracy gives equal voice; debate and dialogue; mixed member proportional system",
+            "statement": "Defende igualdade de voz, debate democrático e representação parlamentar proporcional.",
+            "basis": "declaration"
+          }
+        ],
+        "rationale": "Representação eleitoral inclusiva sustenta direção democrática.",
+        "uncertainty": "Não deriva posições de citações de terceiros nem certifica toda a prática governamental.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      }
+    }
+  },
+  {
+    "id": "jeremy-corbyn",
+    "name": "Jeremy Corbyn",
+    "kind": "person",
+    "category": "public-figure",
+    "period": "2022-01-10; assinatura individual; moção apresentada 6/1/2022",
+    "sources": [
+      {
+        "title": "Energy prices — EDM 825, assinatura de Jeremy Corbyn",
+        "url": "https://edm.parliament.uk/early-day-motion/59318/energy-prices",
+        "note": "Declaração primária efetivamente aberta em 7/10/2026; somente autoria nominal ou assinatura individual codificada."
+      },
+      {
+        "title": "Jeremy Corbyn — identidade contemporânea",
+        "url": "https://members.parliament.uk/member/185/contact",
+        "note": "Registro parlamentar contemporâneo do próprio membro; não assume filiação partidária antiga. Aberta em 7/10/2026; identidade sem inferência de eixo."
+      }
+    ],
+    "caveats": "Moção não é legislação executada nem nacionalização de toda a economia. Demais eixos desconhecidos. Revisão independente de conteúdo pendente.",
+    "rationale": "Declaração primária delimitada; demais eixos desconhecidos.",
+    "vec": {
+      "est": 50,
+      "rep": 50,
+      "pod": 50,
+      "imi": 50,
+      "dip": 50,
+      "int": 50,
+      "eco": 60,
+      "con": 50,
+      "com": 50,
+      "rel": 50,
+      "mor": 50,
+      "tec": 50
+    },
+    "evidence": {
+      "eco": "medium"
+    },
+    "axisEvidence": {
+      "eco": {
+        "sourceTitles": [
+          "Energy prices — EDM 825, assinatura de Jeremy Corbyn"
+        ],
+        "rationale": "Propriedade pública explicitamente proposta sustenta direção pública parcial. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Moção não é legislação executada nem nacionalização de toda a economia."
+      }
+    },
+    "coding": {
+      "eco": {
+        "axis": "eco",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Energy prices — EDM 825, assinatura de Jeremy Corbyn",
+            "publishedDate": "2022-01-10; assinatura individual; moção apresentada 6/1/2022",
+            "accessedDate": "2026-10-07",
+            "locator": "Texto final bring the energy sector into public hands; lista de assinaturas Corbyn, Jeremy Signed on 10 January 2022",
+            "statement": "Adere nominalmente à proposta de propriedade pública do setor energético.",
+            "basis": "declaration"
+          }
+        ],
+        "rationale": "Propriedade pública explicitamente proposta sustenta direção pública parcial.",
+        "uncertainty": "Moção não é legislação executada nem nacionalização de toda a economia.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      }
+    }
+  },
+  {
+    "id": "gro-harlem-brundtland",
+    "name": "Gro Harlem Brundtland",
+    "kind": "person",
+    "category": "public-figure",
+    "period": "2019-09-06",
+    "sources": [
+      {
+        "title": "Universal health coverage is affordable, even in tough times",
+        "url": "https://theelders.org/news/universal-health-coverage-affordable-even-tough-times",
+        "note": "Declaração primária efetivamente aberta em 7/10/2026; somente autoria nominal ou assinatura individual codificada."
+      },
+      {
+        "title": "Gro Harlem Brundtland — identidade contemporânea",
+        "url": "https://theelders.org/profile/gro-harlem-brundtland",
+        "note": "Perfil institucional atual identifica membro ativo; antigo cargo de vice-presidente não é atribuído como atual. Aberta em 7/10/2026; identidade sem inferência de eixo."
+      }
+    ],
+    "caveats": "Financiamento não determina propriedade de todos os prestadores; não estabelece nacionalização de toda a economia ou execução do NHI. Demais eixos desconhecidos. Revisão independente de conteúdo pendente.",
+    "rationale": "Declaração primária delimitada; demais eixos desconhecidos.",
+    "vec": {
+      "est": 50,
+      "rep": 50,
+      "pod": 50,
+      "imi": 50,
+      "dip": 50,
+      "int": 50,
+      "eco": 60,
+      "con": 50,
+      "com": 50,
+      "rel": 50,
+      "mor": 50,
+      "tec": 50
+    },
+    "evidence": {
+      "eco": "medium"
+    },
+    "axisEvidence": {
+      "eco": {
+        "sourceTitles": [
+          "Universal health coverage is affordable, even in tough times"
+        ],
+        "rationale": "Financiamento público explícito de serviço essencial sustenta direção pública parcial. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Financiamento não determina propriedade de todos os prestadores; não estabelece nacionalização de toda a economia ou execução do NHI."
+      }
+    },
+    "coding": {
+      "eco": {
+        "axis": "eco",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "relatedQuestionIds": [
+          "economia_04"
+        ],
+        "claims": [
+          {
+            "sourceTitle": "Universal health coverage is affordable, even in tough times",
+            "publishedDate": "2019-09-06",
+            "accessedDate": "2026-10-07",
+            "locator": "Artigo nominal conjunto: Establishing a publicly funded health system; Every country; South Africa, like the US, needs to make this transition",
+            "statement": "Defende sistema de saúde publicamente financiado e transição do financiamento privado voluntário para financiamento público.",
+            "basis": "declaration"
+          }
+        ],
+        "rationale": "Financiamento público explícito de serviço essencial sustenta direção pública parcial.",
+        "uncertainty": "Financiamento não determina propriedade de todos os prestadores; não estabelece nacionalização de toda a economia ou execução do NHI.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      }
+    }
+  },
+  {
+    "id": "ellen-johnson-sirleaf",
+    "name": "Ellen Johnson Sirleaf",
+    "kind": "person",
+    "category": "public-figure",
+    "period": "2025-08-10; data de publicação no índice do próprio centro; dia do evento não certificado",
+    "sources": [
+      {
+        "title": "Address by Her Excellency Ellen Johnson Sirleaf to the General Assembly — A/61/PV.11 (19 September 2006)",
+        "url": "https://digitallibrary.un.org/record/583259/files/A_61_PV.11-EN.pdf",
+        "note": "Transcrição oficial de seu discurso à Assembleia Geral após a eleição presidencial."
+      },
+      {
+        "title": "EJS Center Founder’s closing remarks at the Africa Health Sovereignty Summit",
+        "url": "https://ejscenter.org/ejs-center-founders-closing-remarks-at-the-africa-health-sovereignty-summit/",
+        "note": "Texto autoral efetivamente aberto em 7/10/2026; somente os trechos localizados abaixo geram evidência. Declaração, não auditoria de execução."
+      },
+      {
+        "title": "Ellen Johnson Sirleaf — identidade pública em 2026",
+        "url": "https://ejscenter.org/former-president-ellen-johnson-sirleafs-nine-powers-of-leadership-set-a-blueprint-for-amujae-leaders-at-the-2026-amujae-leadership-forum-in-monrovia/",
+        "note": "Notícia do próprio centro de 14/6/2026 registra sua palestra; ex-presidente da Libéria, sem cargo governamental atual. Página efetivamente aberta em 7/10/2026; não gera scores."
+      }
+    ],
+    "caveats": "Declarações delimitadas, sem transferir posições do governo, partido ou de terceiros. Demais eixos desconhecidos; trechos autorais revistos independentemente, sem recertificar fontes arquivadas.",
+    "rationale": "Declarações pessoais primárias delimitadas; eixos não documentados desconhecidos.",
+    "vec": {
+      "est": 50,
+      "rep": 50,
+      "pod": 50,
+      "imi": 50,
+      "dip": 50,
+      "int": 50,
+      "eco": 60,
+      "con": 50,
+      "com": 50,
+      "rel": 50,
+      "mor": 60,
+      "tec": 60
+    },
+    "evidence": {
+      "eco": "medium",
+      "mor": "medium",
+      "tec": "medium"
+    },
+    "axisEvidence": {
+      "eco": {
+        "sourceTitles": [
+          "EJS Center Founder’s closing remarks at the Africa Health Sovereignty Summit"
+        ],
+        "rationale": "Financiamento público explícito de serviço essencial sustenta direção pública parcial. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Não determina propriedade dos prestadores nem nacionalização integral; também prevê instrumentos privados e diáspora."
+      },
+      "mor": {
+        "sourceTitles": [
+          "EJS Center Founder’s closing remarks at the Africa Health Sovereignty Summit"
+        ],
+        "rationale": "Participação igual de mulheres em posições de decisão fornece direção emancipatória delimitada. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Um domínio setorial não estabelece toda a agenda de costumes."
+      },
+      "tec": {
+        "sourceTitles": [
+          "EJS Center Founder’s closing remarks at the Africa Health Sovereignty Summit"
+        ],
+        "rationale": "Adoção tecnológica concreta da saúde sustenta orientação tecnológica parcial. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Não valida a estatística citada de digitalização, nem todas as tecnologias ou biotecnologias."
+      }
+    },
+    "coding": {
+      "eco": {
+        "axis": "eco",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "EJS Center Founder’s closing remarks at the Africa Health Sovereignty Summit",
+            "publishedDate": "2025-08-10; data de publicação no índice do próprio centro; dia do evento não certificado",
+            "accessedDate": "2026-10-07",
+            "locator": "Terceira prioridade, parágrafos Third, we must re-energize the Abuja Declaration e It is time for every African government",
+            "statement": "Propõe tributos direcionados e maior investimento de governos no financiamento da saúde.",
+            "basis": "declaration"
+          }
+        ],
+        "rationale": "Financiamento público explícito de serviço essencial sustenta direção pública parcial.",
+        "uncertainty": "Não determina propriedade dos prestadores nem nacionalização integral; também prevê instrumentos privados e diáspora.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      },
+      "mor": {
+        "axis": "mor",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "EJS Center Founder’s closing remarks at the Africa Health Sovereignty Summit",
+            "publishedDate": "2025-08-10; data de publicação no índice do próprio centro; dia do evento não certificado",
+            "accessedDate": "2026-10-07",
+            "locator": "Penúltimo bloco, Let us also be reminded that women are central",
+            "statement": "Defende plena liderança e participação de mulheres nos sistemas de saúde.",
+            "basis": "declaration"
+          }
+        ],
+        "rationale": "Participação igual de mulheres em posições de decisão fornece direção emancipatória delimitada.",
+        "uncertainty": "Um domínio setorial não estabelece toda a agenda de costumes.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      },
+      "tec": {
+        "axis": "tec",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "EJS Center Founder’s closing remarks at the Africa Health Sovereignty Summit",
+            "publishedDate": "2025-08-10; data de publicação no índice do próprio centro; dia do evento não certificado",
+            "accessedDate": "2026-10-07",
+            "locator": "Primeira prioridade, We must fix the digital blind spot até When we build digital systems",
+            "statement": "Defende infraestrutura digital, conectividade e treinamento para antecipar epidemias.",
+            "basis": "declaration"
+          }
+        ],
+        "rationale": "Adoção tecnológica concreta da saúde sustenta orientação tecnológica parcial.",
+        "uncertainty": "Não valida a estatística citada de digitalização, nem todas as tecnologias ou biotecnologias.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      }
+    }
+  },
+  {
+    "id": "leymah-gbowee",
+    "name": "Leymah Gbowee",
+    "kind": "person",
+    "category": "public-figure",
+    "period": "2020-02-11",
+    "sources": [
+      {
+        "title": "Leymah Gbowee — Africa’s Prison, reflexão sobre a libertação de Mandela",
+        "url": "https://www.nelsonmandela.org/uploads/files/Speech-Lemayah-Gbowee.pdf",
+        "note": "Texto autoral efetivamente aberto em 7/10/2026; somente os trechos localizados abaixo geram evidência. Declaração, não auditoria de execução."
+      },
+      {
+        "title": "Leymah Gbowee — identidade pública em 2026",
+        "url": "https://www.moys.gov.lr/index.php/media/press-releases/mys-gbowee-peace-foundation-explore-collaboration-youth-peace-and-security",
+        "note": "Ministério registra reunião presencial com Gbowee em 28/9/2026, publicada em 29/9. Página efetivamente aberta em 7/10/2026; não gera scores."
+      }
+    ],
+    "caveats": "Declarações delimitadas, sem transferir posições do governo, partido ou de terceiros. Demais eixos desconhecidos; trechos autorais revistos independentemente, sem recertificar fontes arquivadas.",
+    "rationale": "Declarações pessoais primárias delimitadas; eixos não documentados desconhecidos.",
+    "vec": {
+      "est": 50,
+      "rep": 50,
+      "pod": 50,
+      "imi": 40,
+      "dip": 50,
+      "int": 50,
+      "eco": 50,
+      "con": 50,
+      "com": 50,
+      "rel": 50,
+      "mor": 60,
+      "tec": 50
+    },
+    "evidence": {
+      "imi": "medium",
+      "mor": "medium"
+    },
+    "axisEvidence": {
+      "imi": {
+        "sourceTitles": [
+          "Leymah Gbowee — Africa’s Prison, reflexão sobre a libertação de Mandela"
+        ],
+        "rationale": "Pluralismo cultural contrário à exclusão sustenta direção multicultural parcial. Codificação editorial moderate-second: âncora 40, faixa 30–45; a fonte não mede esse número. Limites: Não é política completa de imigração ou admissão; referências a Mandela não são declarações dela."
+      },
+      "mor": {
+        "sourceTitles": [
+          "Leymah Gbowee — Africa’s Prison, reflexão sobre a libertação de Mandela"
+        ],
+        "rationale": "Emancipação e igualdade material de mulheres sustentam direção progressista parcial. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Demais costumes e políticas familiares não documentados; a justiça social genérica não codifica outros eixos."
+      }
+    },
+    "coding": {
+      "imi": {
+        "axis": "imi",
+        "position": "moderate-second",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Leymah Gbowee — Africa’s Prison, reflexão sobre a libertação de Mandela",
+            "publishedDate": "2020-02-11",
+            "accessedDate": "2026-10-07",
+            "locator": "PDF p.4, Africa prison is the division of our communities",
+            "statement": "Contesta dividir comunidades por etnia, religião ou orientação sexual.",
+            "basis": "declaration"
+          }
+        ],
+        "rationale": "Pluralismo cultural contrário à exclusão sustenta direção multicultural parcial.",
+        "uncertainty": "Não é política completa de imigração ou admissão; referências a Mandela não são declarações dela.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 40,
+        "range": [
+          30,
+          45
+        ]
+      },
+      "mor": {
+        "axis": "mor",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Leymah Gbowee — Africa’s Prison, reflexão sobre a libertação de Mandela",
+            "publishedDate": "2020-02-11",
+            "accessedDate": "2026-10-07",
+            "locator": "PDF p.5, definição de paz: an empowered, recognized appreciated and fully compensated community of women",
+            "statement": "Inclui mulheres emancipadas, reconhecidas e plenamente remuneradas em sua proposta de paz.",
+            "basis": "declaration"
+          }
+        ],
+        "rationale": "Emancipação e igualdade material de mulheres sustentam direção progressista parcial.",
+        "uncertainty": "Demais costumes e políticas familiares não documentados; a justiça social genérica não codifica outros eixos.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      }
+    }
+  },
+  {
+    "id": "kailash-satyarthi",
+    "name": "Kailash Satyarthi",
+    "kind": "person",
+    "category": "public-figure",
+    "period": "2014-12-10; PDF hospedado pelo gabinete em diretório 2025/03 não atualiza o discurso",
+    "sources": [
+      {
+        "title": "Kailash Satyarthi — Nobel Lecture, Let Us March!",
+        "url": "https://www.kailashsatyarthi.net/wp-content/uploads/2025/03/Nobel1.pdf",
+        "note": "Texto autoral efetivamente aberto em 7/10/2026; somente os trechos localizados abaixo geram evidência. Declaração, não auditoria de execução."
+      },
+      {
+        "title": "Kailash Satyarthi — identidade pública em 2026",
+        "url": "https://satyarthimovement.org/sss/",
+        "note": "Relato de programa concluído entre 22/6 e 12/7/2026 identifica Kailash entre os líderes que orientaram a turma; horários inconsistentes na página não usados. Página efetivamente aberta em 7/10/2026; não gera scores."
+      }
+    ],
+    "caveats": "Declarações delimitadas, sem transferir posições do governo, partido ou de terceiros. Demais eixos desconhecidos; trechos autorais revistos independentemente, sem recertificar fontes arquivadas.",
+    "rationale": "Declarações pessoais primárias delimitadas; eixos não documentados desconhecidos.",
+    "vec": {
+      "est": 50,
+      "rep": 50,
+      "pod": 50,
+      "imi": 50,
+      "dip": 50,
+      "int": 50,
+      "eco": 50,
+      "con": 50,
+      "com": 50,
+      "rel": 50,
+      "mor": 60,
+      "tec": 50
+    },
+    "evidence": {
+      "mor": "medium"
+    },
+    "axisEvidence": {
+      "mor": {
+        "sourceTitles": [
+          "Kailash Satyarthi — Nobel Lecture, Let Us March!"
+        ],
+        "rationale": "Reforma concreta de costumes de casamento infantil sustenta direção emancipatória. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: A referência religiosa é motivação pessoal, não desenho de governo; escravidão privada não vira score automático de coerção estatal."
+      }
+    },
+    "coding": {
+      "mor": {
+        "axis": "mor",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Kailash Satyarthi — Nobel Lecture, Let Us March!",
+            "publishedDate": "2014-12-10; PDF hospedado pelo gabinete em diretório 2025/03 não atualiza o discurso",
+            "accessedDate": "2026-10-07",
+            "locator": "PDF p.9, I call upon all the governments; lista child marriages",
+            "statement": "Exige terminar casamento infantil e exploração de crianças, incluindo abuso sexual.",
+            "basis": "declaration"
+          }
+        ],
+        "rationale": "Reforma concreta de costumes de casamento infantil sustenta direção emancipatória.",
+        "uncertainty": "A referência religiosa é motivação pessoal, não desenho de governo; escravidão privada não vira score automático de coerção estatal.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      }
+    }
+  },
+  {
+    "id": "jose-ramos-horta",
+    "name": "José Ramos-Horta",
+    "aliases": [
+      "José Manuel Ramos-Horta",
+      "Jose Ramos Horta"
+    ],
+    "kind": "person",
+    "category": "public-figure",
+    "period": "1997-08-23; versão de artigo hospedada no International Journal of Peace Studies; dia editorial não indicado",
+    "sources": [
+      {
+        "title": "José Ramos-Horta — Taiwan and East Timor: Human Rights, Rule of Law, Self-Determination",
+        "url": "https://www3.gmu.edu/programs/icar/ijps/vol4_1/ramos_ho.htm",
+        "note": "Texto autoral efetivamente aberto em 7/10/2026; somente os trechos localizados abaixo geram evidência. Declaração, não auditoria de execução."
+      },
+      {
+        "title": "José Ramos-Horta — identidade pública em 2026",
+        "url": "https://en.tatoli.tl/2026/09/24/remarks-by-president-ramos-horta-at-the-81st-session-united-nations-general-assembly/12/",
+        "note": "Agência pública publica texto autoral da intervenção de 23/9/2026, em 24/9; confirmação contemporânea não mistura o discurso de 1997 com 2026. Página efetivamente aberta em 7/10/2026; não gera scores."
+      }
+    ],
+    "caveats": "Declarações delimitadas, sem transferir posições do governo, partido ou de terceiros. Demais eixos desconhecidos; trechos autorais revistos independentemente, sem recertificar fontes arquivadas.",
+    "rationale": "Declarações pessoais primárias delimitadas; eixos não documentados desconhecidos.",
+    "vec": {
+      "est": 50,
+      "rep": 60,
+      "pod": 40,
+      "imi": 40,
+      "dip": 40,
+      "int": 50,
+      "eco": 60,
+      "con": 50,
+      "com": 50,
+      "rel": 50,
+      "mor": 50,
+      "tec": 50
+    },
+    "evidence": {
+      "rep": "medium",
+      "pod": "medium",
+      "dip": "medium",
+      "eco": "medium",
+      "imi": "medium"
+    },
+    "axisEvidence": {
+      "rep": {
+        "sourceTitles": [
+          "José Ramos-Horta — Taiwan and East Timor: Human Rights, Rule of Law, Self-Determination"
+        ],
+        "rationale": "Escolha explícita por consentimento eleitoral sustenta direção democrática. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Visão antes da independência não certifica prática governamental posterior."
+      },
+      "pod": {
+        "sourceTitles": [
+          "José Ramos-Horta — Taiwan and East Timor: Human Rights, Rule of Law, Self-Determination"
+        ],
+        "rationale": "Liberdade de imprensa limita autoridade sobre expressão. Codificação editorial moderate-second: âncora 40, faixa 30–45; a fonte não mede esse número. Limites: O mesmo trecho rejeita controle estrangeiro da mídia; não deriva liberdade irrestrita ou todo sistema penal."
+      },
+      "dip": {
+        "sourceTitles": [
+          "José Ramos-Horta — Taiwan and East Timor: Human Rights, Rule of Law, Self-Determination"
+        ],
+        "rationale": "Negociação e desmilitarização propostas sustentam direção pacífica delimitada. Codificação editorial moderate-second: âncora 40, faixa 30–45; a fonte não mede esse número. Limites: No mesmo texto reconhece legitimidade de dissuasão armada taiwanesa; por isso não é pacifismo absoluto nem score20."
+      },
+      "eco": {
+        "sourceTitles": [
+          "José Ramos-Horta — Taiwan and East Timor: Human Rights, Rule of Law, Self-Determination"
+        ],
+        "rationale": "Financiamento público de serviços explicitamente orçado sustenta direção pública parcial. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Admite capital taiwanês para recursos naturais; não estabelece propriedade pública integral dos prestadores."
+      },
+      "imi": {
+        "sourceTitles": [
+          "José Ramos-Horta — Taiwan and East Timor: Human Rights, Rule of Law, Self-Determination"
+        ],
+        "rationale": "Admissão e preservação de diversidade cultural sustentam direção multicultural. Codificação editorial moderate-second: âncora 40, faixa 30–45; a fonte não mede esse número. Limites: Proposta circunscrita ao Timor independente imaginado em 1997; não é auditoria da situação atual."
+      }
+    },
+    "coding": {
+      "rep": {
+        "axis": "rep",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "José Ramos-Horta — Taiwan and East Timor: Human Rights, Rule of Law, Self-Determination",
+            "publishedDate": "1997-08-23; versão de artigo hospedada no International Journal of Peace Studies; dia editorial não indicado",
+            "accessedDate": "2026-10-07",
+            "locator": "Rule of Law, parágrafo We will endeavor to build",
+            "statement": "Propõe Estado democrático legitimado por eleições livres e democráticas.",
+            "basis": "declaration"
+          }
+        ],
+        "rationale": "Escolha explícita por consentimento eleitoral sustenta direção democrática.",
+        "uncertainty": "Visão antes da independência não certifica prática governamental posterior.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      },
+      "pod": {
+        "axis": "pod",
+        "position": "moderate-second",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "José Ramos-Horta — Taiwan and East Timor: Human Rights, Rule of Law, Self-Determination",
+            "publishedDate": "1997-08-23; versão de artigo hospedada no International Journal of Peace Studies; dia editorial não indicado",
+            "accessedDate": "2026-10-07",
+            "locator": "Independent media, parágrafo We will encourage a free and independent media",
+            "statement": "Defende imprensa livre, independente do governo e tão independente quanto o Judiciário.",
+            "basis": "declaration"
+          }
+        ],
+        "rationale": "Liberdade de imprensa limita autoridade sobre expressão.",
+        "uncertainty": "O mesmo trecho rejeita controle estrangeiro da mídia; não deriva liberdade irrestrita ou todo sistema penal.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 40,
+        "range": [
+          30,
+          45
+        ]
+      },
+      "dip": {
+        "axis": "dip",
+        "position": "moderate-second",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "José Ramos-Horta — Taiwan and East Timor: Human Rights, Rule of Law, Self-Determination",
+            "publishedDate": "1997-08-23; versão de artigo hospedada no International Journal of Peace Studies; dia editorial não indicado",
+            "accessedDate": "2026-10-07",
+            "locator": "East Timor self-determination; Neutrality, Zone of Peace and Development",
+            "statement": "Propõe diálogo sem pré-condições com a Indonésia e Timor sem exército permanente, com garantia internacional de neutralidade.",
+            "basis": "declaration"
+          }
+        ],
+        "rationale": "Negociação e desmilitarização propostas sustentam direção pacífica delimitada.",
+        "uncertainty": "No mesmo texto reconhece legitimidade de dissuasão armada taiwanesa; por isso não é pacifismo absoluto nem score20.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 40,
+        "range": [
+          30,
+          45
+        ]
+      },
+      "eco": {
+        "axis": "eco",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "José Ramos-Horta — Taiwan and East Timor: Human Rights, Rule of Law, Self-Determination",
+            "publishedDate": "1997-08-23; versão de artigo hospedada no International Journal of Peace Studies; dia editorial não indicado",
+            "accessedDate": "2026-10-07",
+            "locator": "Health and education, parágrafo We believe in free education and health care",
+            "statement": "Propõe saúde e educação gratuitas e alocação de pelo menos 40% dos recursos à população nesses serviços e produção de alimentos.",
+            "basis": "declaration"
+          }
+        ],
+        "rationale": "Financiamento público de serviços explicitamente orçado sustenta direção pública parcial.",
+        "uncertainty": "Admite capital taiwanês para recursos naturais; não estabelece propriedade pública integral dos prestadores.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      },
+      "imi": {
+        "axis": "imi",
+        "position": "moderate-second",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "José Ramos-Horta — Taiwan and East Timor: Human Rights, Rule of Law, Self-Determination",
+            "publishedDate": "1997-08-23; versão de artigo hospedada no International Journal of Peace Studies; dia editorial não indicado",
+            "accessedDate": "2026-10-07",
+            "locator": "Indonesian migrants, parágrafo Indonesian migrants in East Timor will be welcome",
+            "statement": "Defende permanência de migrantes indonésios e valoriza o enriquecimento cultural trazido por eles.",
+            "basis": "declaration"
+          }
+        ],
+        "rationale": "Admissão e preservação de diversidade cultural sustentam direção multicultural.",
+        "uncertainty": "Proposta circunscrita ao Timor independente imaginado em 1997; não é auditoria da situação atual.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 40,
+        "range": [
+          30,
+          45
+        ]
+      }
+    }
+  },
+  {
+    "id": "anthony-albanese",
+    "name": "Anthony Albanese",
+    "kind": "person",
+    "category": "public-figure",
+    "period": "2026-06-05",
+    "sources": [
+      {
+        "title": "Anthony Albanese — Australia’s economic outlook 2026",
+        "url": "https://www.pm.gov.au/media/australias-economic-outlook-2026",
+        "note": "Texto autoral efetivamente aberto em 7/10/2026; somente os trechos localizados abaixo geram evidência. Declaração, não auditoria de execução. O próprio documento datado de 2026 também confirma identidade pública viva."
+      }
+    ],
+    "caveats": "Declarações delimitadas, sem transferir posições do governo, partido ou de terceiros. Demais eixos desconhecidos; trechos autorais revistos independentemente, sem recertificar fontes arquivadas.",
+    "rationale": "Declarações pessoais primárias delimitadas; eixos não documentados desconhecidos.",
+    "vec": {
+      "est": 50,
+      "rep": 50,
+      "pod": 50,
+      "imi": 50,
+      "dip": 50,
+      "int": 50,
+      "eco": 60,
+      "con": 60,
+      "com": 40,
+      "rel": 50,
+      "mor": 50,
+      "tec": 60
+    },
+    "evidence": {
+      "com": "medium",
+      "tec": "medium",
+      "eco": "medium",
+      "con": "medium"
+    },
+    "axisEvidence": {
+      "com": {
+        "sourceTitles": [
+          "Anthony Albanese — Australia’s economic outlook 2026"
+        ],
+        "rationale": "Ampliação de acesso externo sustenta abertura comercial parcial. Codificação editorial moderate-second: âncora 40, faixa 30–45; a fonte não mede esse número. Limites: Industrialização doméstica e segurança energética também são defendidas; não presume eliminação de todas as tarifas."
+      },
+      "tec": {
+        "sourceTitles": [
+          "Anthony Albanese — Australia’s economic outlook 2026"
+        ],
+        "rationale": "Adoção concreta de tecnologia sustenta direção tecnológica. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Custos energéticos e mudança do trabalho reconhecidos; não cobre biotecnologia nem valida resultados anunciados."
+      },
+      "eco": {
+        "sourceTitles": [
+          "Anthony Albanese — Australia’s economic outlook 2026"
+        ],
+        "rationale": "Financiamento público universal de saúde sustenta direção pública parcial; não determina propriedade dos prestadores. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Também defende investimento privado e propriedade de moradias; não nacionaliza toda a economia."
+      },
+      "con": {
+        "sourceTitles": [
+          "Anthony Albanese — Australia’s economic outlook 2026"
+        ],
+        "rationale": "Coordenação governamental de setores e incentivos sustenta planejamento parcial. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Não é planejamento central compulsório; empresas privadas continuam explicitamente participantes."
+      }
+    },
+    "coding": {
+      "com": {
+        "axis": "com",
+        "position": "moderate-second",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Anthony Albanese — Australia’s economic outlook 2026",
+            "publishedDate": "2026-06-05",
+            "accessedDate": "2026-10-07",
+            "locator": "Strengthening our trade ties in our region e securing new market access",
+            "statement": "Defende novas oportunidades de acesso comercial à Europa, Índia e Emirados.",
+            "basis": "declaration"
+          }
+        ],
+        "rationale": "Ampliação de acesso externo sustenta abertura comercial parcial.",
+        "uncertainty": "Industrialização doméstica e segurança energética também são defendidas; não presume eliminação de todas as tarifas.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 40,
+        "range": [
+          30,
+          45
+        ]
+      },
+      "tec": {
+        "axis": "tec",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Anthony Albanese — Australia’s economic outlook 2026",
+            "publishedDate": "2026-06-05",
+            "accessedDate": "2026-10-07",
+            "locator": "Capitalising on the global investment in AI; new data centres; Empowering workers",
+            "statement": "Defende adoção de IA, centros de dados e capacitação de trabalhadores para novas tecnologias.",
+            "basis": "declaration"
+          }
+        ],
+        "rationale": "Adoção concreta de tecnologia sustenta direção tecnológica.",
+        "uncertainty": "Custos energéticos e mudança do trabalho reconhecidos; não cobre biotecnologia nem valida resultados anunciados.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      },
+      "eco": {
+        "axis": "eco",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Anthony Albanese — Australia’s economic outlook 2026",
+            "publishedDate": "2026-06-05",
+            "accessedDate": "2026-10-07",
+            "locator": "Universal Medicare that every family can count on and afford; Health care that doesn’t depend",
+            "statement": "Defende Medicare universal e acesso à saúde independente de renda ou plano do empregador.",
+            "basis": "declaration"
+          }
+        ],
+        "rationale": "Financiamento público universal de saúde sustenta direção pública parcial; não determina propriedade dos prestadores.",
+        "uncertainty": "Também defende investimento privado e propriedade de moradias; não nacionaliza toda a economia.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      },
+      "con": {
+        "axis": "con",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Anthony Albanese — Australia’s economic outlook 2026",
+            "publishedDate": "2026-06-05",
+            "accessedDate": "2026-10-07",
+            "locator": "Broadening and diversifying ... Future Made in Australia; Our Government’s agenda; Budget reforms",
+            "statement": "Defende agenda pública de manufatura, incentivos tributários e orçamento para orientar crescimento e inovação.",
+            "basis": "declaration"
+          }
+        ],
+        "rationale": "Coordenação governamental de setores e incentivos sustenta planejamento parcial.",
+        "uncertainty": "Não é planejamento central compulsório; empresas privadas continuam explicitamente participantes.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      }
+    }
+  },
+  {
+    "id": "christopher-luxon",
+    "name": "Christopher Luxon",
+    "kind": "person",
+    "category": "public-figure",
+    "period": "2025-04-10 e 2026-09-27; cada eixo usa seu próprio documento",
+    "sources": [
+      {
+        "title": "Christopher Luxon — Speech on foreign affairs and trade",
+        "url": "https://www.beehive.govt.nz/speech/speech-foreign-affairs-and-trade",
+        "note": "Texto autoral efetivamente aberto em 7/10/2026; somente os trechos localizados abaixo geram evidência. Declaração, não auditoria de execução."
+      },
+      {
+        "title": "Christopher Luxon — identidade pública em 2026",
+        "url": "https://www.national.org.nz/news/260927-christopherluxon",
+        "note": "Texto de campanha atribuído nominalmente em 27/9/2026 confirma atividade pública; somente passagens próprias, não plataforma imputada. Página efetivamente aberta em 7/10/2026; não gera scores."
+      },
+      {
+        "title": "Christopher Luxon — Speech to National Party 2026 Campaign Launch",
+        "url": "https://www.national.org.nz/news/260927-christopherluxon",
+        "note": "Texto autoral de 27/9/2026 aberto em 7/10/2026; alegações de resultados não verificadas como prática."
+      }
+    ],
+    "caveats": "Declarações delimitadas, sem transferir posições do governo, partido ou de terceiros. Demais eixos desconhecidos; trechos autorais revistos independentemente, sem recertificar fontes arquivadas.",
+    "rationale": "Declarações pessoais primárias delimitadas; eixos não documentados desconhecidos.",
+    "vec": {
+      "est": 50,
+      "rep": 50,
+      "pod": 60,
+      "imi": 50,
+      "dip": 50,
+      "int": 50,
+      "eco": 50,
+      "con": 40,
+      "com": 20,
+      "rel": 50,
+      "mor": 50,
+      "tec": 50
+    },
+    "evidence": {
+      "com": "medium",
+      "con": "medium",
+      "pod": "medium"
+    },
+    "axisEvidence": {
+      "com": {
+        "sourceTitles": [
+          "Christopher Luxon — Speech on foreign affairs and trade"
+        ],
+        "rationale": "A defesa ampla e explícita de comércio nos dois sentidos sustenta direção forte de abertura. Codificação editorial strong-second: âncora 20, faixa 10–25; a fonte não mede esse número. Limites: Permite respostas conformes às regras e não certifica ausência real de todas as barreiras; texto de 10/4/2025."
+      },
+      "con": {
+        "sourceTitles": [
+          "Christopher Luxon — Speech to National Party 2026 Campaign Launch"
+        ],
+        "rationale": "Desregulação explícita de atividade econômica favorece coordenação por iniciativa privada. Codificação editorial moderate-second: âncora 40, faixa 30–45; a fonte não mede esse número. Limites: Também defende infraestrutura estatal; não é ausência geral de Estado nem planejamento totalmente rejeitado."
+      },
+      "pod": {
+        "sourceTitles": [
+          "Christopher Luxon — Speech to National Party 2026 Campaign Launch"
+        ],
+        "rationale": "Ampliação explícita de coerção policial e penal sustenta direção de segurança. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Declaração não audita legalidade ou eficácia, nem implica governo autoritário em todo domínio."
+      }
+    },
+    "coding": {
+      "com": {
+        "axis": "com",
+        "position": "strong-second",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Christopher Luxon — Speech on foreign affairs and trade",
+            "publishedDate": "2025-04-10",
+            "accessedDate": "2026-10-07",
+            "locator": "Parágrafos Trade goes both ways; removal of New Zealand’s own trade barriers; promote free trade",
+            "statement": "Defende remover barreiras domésticas tanto para importar quanto exportar e promover livre comércio.",
+            "basis": "declaration"
+          }
+        ],
+        "rationale": "A defesa ampla e explícita de comércio nos dois sentidos sustenta direção forte de abertura.",
+        "uncertainty": "Permite respostas conformes às regras e não certifica ausência real de todas as barreiras; texto de 10/4/2025.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 20,
+        "range": [
+          10,
+          25
+        ]
+      },
+      "con": {
+        "axis": "con",
+        "position": "moderate-second",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Christopher Luxon — Speech to National Party 2026 Campaign Launch",
+            "locator": "Replacing the RMA with a new system based on property rights; Slashing red tape",
+            "statement": "Defende substituir regulação de recursos por sistema baseado em propriedade e reduzir entraves a empresas.",
+            "basis": "declaration",
+            "publishedDate": "2026-09-27",
+            "accessedDate": "2026-10-07"
+          }
+        ],
+        "rationale": "Desregulação explícita de atividade econômica favorece coordenação por iniciativa privada.",
+        "uncertainty": "Também defende infraestrutura estatal; não é ausência geral de Estado nem planejamento totalmente rejeitado.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 40,
+        "range": [
+          30,
+          45
+        ]
+      },
+      "pod": {
+        "axis": "pod",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Christopher Luxon — Speech to National Party 2026 Campaign Launch",
+            "locator": "Restoring law and order, by cracking down on gangs ... locking offenders up for longer",
+            "statement": "Defende repressão a gangues, mais polícia e penas de prisão mais longas para segurança comunitária.",
+            "basis": "declaration",
+            "publishedDate": "2026-09-27",
+            "accessedDate": "2026-10-07"
+          }
+        ],
+        "rationale": "Ampliação explícita de coerção policial e penal sustenta direção de segurança.",
+        "uncertainty": "Declaração não audita legalidade ou eficácia, nem implica governo autoritário em todo domínio.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      }
+    }
+  },
+  {
+    "id": "keir-starmer",
+    "name": "Keir Starmer",
+    "kind": "person",
+    "category": "public-figure",
+    "period": "2026-06-08",
+    "sources": [
+      {
+        "title": "Keir Starmer — London Tech Week 2026",
+        "url": "https://www.gov.uk/government/speeches/prime-ministers-speech-at-london-tech-week-2026",
+        "note": "Texto autoral efetivamente aberto em 7/10/2026; somente os trechos localizados abaixo geram evidência. Declaração, não auditoria de execução."
+      },
+      {
+        "title": "Keir Starmer — identidade pública em 2026",
+        "url": "https://www.gov.uk/government/speeches/keir-starmers-final-speech-as-prime-minister-20-july-2026",
+        "note": "Transcrição oficial de 20/7/2026 registra discurso de saída; não rotular primeiro-ministro atual. Página efetivamente aberta em 7/10/2026; não gera scores."
+      }
+    ],
+    "caveats": "Declarações delimitadas, sem transferir posições do governo, partido ou de terceiros. Demais eixos desconhecidos; trechos autorais revistos independentemente, sem recertificar fontes arquivadas.",
+    "rationale": "Declarações pessoais primárias delimitadas; eixos não documentados desconhecidos.",
+    "vec": {
+      "est": 50,
+      "rep": 50,
+      "pod": 50,
+      "imi": 50,
+      "dip": 50,
+      "int": 50,
+      "eco": 50,
+      "con": 60,
+      "com": 50,
+      "rel": 50,
+      "mor": 50,
+      "tec": 60
+    },
+    "evidence": {
+      "tec": "medium",
+      "con": "medium"
+    },
+    "axisEvidence": {
+      "tec": {
+        "sourceTitles": [
+          "Keir Starmer — London Tech Week 2026"
+        ],
+        "rationale": "Adoção tecnológica concreta com salvaguardas sustenta direção tecnológica. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Trechos Political content redacted não utilizados nem reconstruídos; não valida diagnósticos ou impactos alegados."
+      },
+      "con": {
+        "sourceTitles": [
+          "Keir Starmer — London Tech Week 2026"
+        ],
+        "rationale": "Compras e infraestrutura direcionadas constituem coordenação pública parcial. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Empresas privadas e simplificação de regulação permanecem; não é planejamento central integral."
+      }
+    },
+    "coding": {
+      "tec": {
+        "axis": "tec",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Keir Starmer — London Tech Week 2026",
+            "publishedDate": "2026-06-08",
+            "accessedDate": "2026-10-07",
+            "locator": "Britain has three options; third path; AI tutors; AI jobs tool",
+            "statement": "Defende adoção de IA com proteção contra danos e ferramentas de educação e emprego.",
+            "basis": "declaration"
+          }
+        ],
+        "rationale": "Adoção tecnológica concreta com salvaguardas sustenta direção tecnológica.",
+        "uncertainty": "Trechos Political content redacted não utilizados nem reconstruídos; não valida diagnósticos ou impactos alegados.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      },
+      "con": {
+        "axis": "con",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Keir Starmer — London Tech Week 2026",
+            "publishedDate": "2026-06-08",
+            "accessedDate": "2026-10-07",
+            "locator": "Government will use the power of public procurement; sovereign compute capability; active industrial strategy",
+            "statement": "Defende compras públicas de chips e infraestrutura computacional para orientar inovação industrial.",
+            "basis": "declaration"
+          }
+        ],
+        "rationale": "Compras e infraestrutura direcionadas constituem coordenação pública parcial.",
+        "uncertainty": "Empresas privadas e simplificação de regulação permanecem; não é planejamento central integral.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      }
+    }
+  },
+  {
+    "id": "bassirou-diomaye-faye",
+    "name": "Bassirou Diomaye Faye",
+    "kind": "person",
+    "category": "public-figure",
+    "period": "2026-07-21",
+    "sources": [
+      {
+        "title": "Bassirou Diomaye Faye — Pacte national de souveraineté alimentaire",
+        "url": "https://www.presidence.sn/fr/actualites/souverainete-alimentaire-le-president-bassirou-diomaye-faye-appelle-a-un-pacte-national-fonde-sur-la-science-et-linnovation/",
+        "note": "Texto autoral efetivamente aberto em 7/10/2026; somente os trechos localizados abaixo geram evidência. Declaração, não auditoria de execução. O próprio documento datado de 2026 também confirma identidade pública viva."
+      }
+    ],
+    "caveats": "Declarações delimitadas, sem transferir posições do governo, partido ou de terceiros. Demais eixos desconhecidos; trechos autorais revistos independentemente, sem recertificar fontes arquivadas.",
+    "rationale": "Declarações pessoais primárias delimitadas; eixos não documentados desconhecidos.",
+    "vec": {
+      "est": 50,
+      "rep": 50,
+      "pod": 50,
+      "imi": 50,
+      "dip": 50,
+      "int": 50,
+      "eco": 50,
+      "con": 60,
+      "com": 50,
+      "rel": 50,
+      "mor": 50,
+      "tec": 60
+    },
+    "evidence": {
+      "tec": "medium",
+      "con": "medium"
+    },
+    "axisEvidence": {
+      "tec": {
+        "sourceTitles": [
+          "Bassirou Diomaye Faye — Pacte national de souveraineté alimentaire"
+        ],
+        "rationale": "Adoção tecnológica específica sustenta direção tecnológica parcial. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Não utiliza resumo editorial anterior ao discurso, nem presume aprovação de todas as biotecnologias."
+      },
+      "con": {
+        "sourceTitles": [
+          "Bassirou Diomaye Faye — Pacte national de souveraineté alimentaire"
+        ],
+        "rationale": "Direcionamento produtivo coordenado pelo Estado sustenta planejamento parcial. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: A coordenação inclui setor privado e saberes locais; soberania alimentar não prova tarifas protecionistas."
+      }
+    },
+    "coding": {
+      "tec": {
+        "axis": "tec",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Bassirou Diomaye Faye — Pacte national de souveraineté alimentaire",
+            "publishedDate": "2026-07-21",
+            "accessedDate": "2026-10-07",
+            "locator": "Allocution integral após Seul le prononcé fait foi; maîtrise des intrants; agriculture de précision et intelligence artificielle",
+            "statement": "Defende agricultura de precisão, IA e inovação como meios para alimentação e resiliência.",
+            "basis": "declaration"
+          }
+        ],
+        "rationale": "Adoção tecnológica específica sustenta direção tecnológica parcial.",
+        "uncertainty": "Não utiliza resumo editorial anterior ao discurso, nem presume aprovação de todas as biotecnologias.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      },
+      "con": {
+        "axis": "con",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Bassirou Diomaye Faye — Pacte national de souveraineté alimentaire",
+            "publishedDate": "2026-07-21",
+            "accessedDate": "2026-10-07",
+            "locator": "Allocution: Agenda national de Transformation Sénégal 2050; Pacte national; action concertée de l’État",
+            "statement": "Defende estratégia nacional e coordenação do Estado com cientistas e produtores para transformar sistemas alimentares.",
+            "basis": "declaration"
+          }
+        ],
+        "rationale": "Direcionamento produtivo coordenado pelo Estado sustenta planejamento parcial.",
+        "uncertainty": "A coordenação inclui setor privado e saberes locais; soberania alimentar não prova tarifas protecionistas.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      }
+    }
+  },
+  {
+    "id": "john-mahama",
+    "name": "John Mahama",
+    "aliases": [
+      "John Dramani Mahama"
+    ],
+    "kind": "person",
+    "category": "public-figure",
+    "period": "2026-10-03",
+    "sources": [
+      {
+        "title": "The Presidency of the Republic of Ghana — President Mahama",
+        "url": "https://presidency.gov.gh/president-mahama-inaugurates-independent-fiscal-council-to-drive-transparency-and-economic-discipline/",
+        "note": "Fonte de identidade do candidato arquivístico preservada; não gera evidência de eixo."
+      },
+      {
+        "title": "John Dramani Mahama — Alamein Africa Forum Keynote Address on Investing in Health",
+        "url": "https://presidency.gov.gh/speech-alamein-africa-forum-keynote-address-on-investing-in-health-manufacturing-and-regional-value-chain/",
+        "note": "Texto autoral efetivamente aberto em 7/10/2026; somente os trechos localizados abaixo geram evidência. Declaração, não auditoria de execução. O próprio documento datado de 2026 também confirma identidade pública viva."
+      }
+    ],
+    "caveats": "Declarações delimitadas, sem transferir posições do governo, partido ou de terceiros. Demais eixos desconhecidos; trechos autorais revistos independentemente, sem recertificar fontes arquivadas.",
+    "rationale": "Declarações pessoais primárias delimitadas; eixos não documentados desconhecidos.",
+    "vec": {
+      "est": 50,
+      "rep": 50,
+      "pod": 50,
+      "imi": 50,
+      "dip": 50,
+      "int": 50,
+      "eco": 60,
+      "con": 60,
+      "com": 40,
+      "rel": 50,
+      "mor": 50,
+      "tec": 50
+    },
+    "evidence": {
+      "eco": "medium",
+      "con": "medium",
+      "com": "medium"
+    },
+    "axisEvidence": {
+      "eco": {
+        "sourceTitles": [
+          "John Dramani Mahama — Alamein Africa Forum Keynote Address on Investing in Health"
+        ],
+        "rationale": "Financiamento e prestação públicos de saúde sustentam direção pública parcial. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: O mesmo discurso pede capital privado, bancos e fundos soberanos; não é propriedade estatal integral."
+      },
+      "con": {
+        "sourceTitles": [
+          "John Dramani Mahama — Alamein Africa Forum Keynote Address on Investing in Health"
+        ],
+        "rationale": "Coordenação institucional dirigida do investimento e produção sustenta planejamento parcial. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Investimentos privados e comercialização também são explicitamente previstos; resultados não auditados."
+      },
+      "com": {
+        "sourceTitles": [
+          "John Dramani Mahama — Alamein Africa Forum Keynote Address on Investing in Health"
+        ],
+        "rationale": "Remoção de barreiras regionais sustenta abertura comercial parcial. Codificação editorial moderate-second: âncora 40, faixa 30–45; a fonte não mede esse número. Limites: Também defende substituição de importações; não implica livre comércio irrestrito com todos os continentes."
+      }
+    },
+    "coding": {
+      "eco": {
+        "axis": "eco",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "John Dramani Mahama — Alamein Africa Forum Keynote Address on Investing in Health",
+            "publishedDate": "2026-10-03",
+            "accessedDate": "2026-10-07",
+            "locator": "In Ghana, we are implementing the Accra Reset; Free Primary Health Care; Medical Trust Fund",
+            "statement": "Defende expansão de seguro nacional, atenção primária gratuita e fundo de saúde.",
+            "basis": "declaration"
+          }
+        ],
+        "rationale": "Financiamento e prestação públicos de saúde sustentam direção pública parcial.",
+        "uncertainty": "O mesmo discurso pede capital privado, bancos e fundos soberanos; não é propriedade estatal integral.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      },
+      "con": {
+        "axis": "con",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "John Dramani Mahama — Alamein Africa Forum Keynote Address on Investing in Health",
+            "publishedDate": "2026-10-03",
+            "accessedDate": "2026-10-07",
+            "locator": "HINGE digital platform; Accra Reset Presidential Council; dedicated Task Forces",
+            "statement": "Defende plataforma regulatória integrada, forças de trabalho e observatório para orientar financiamento e compromissos produtivos.",
+            "basis": "declaration"
+          }
+        ],
+        "rationale": "Coordenação institucional dirigida do investimento e produção sustenta planejamento parcial.",
+        "uncertainty": "Investimentos privados e comercialização também são explicitamente previstos; resultados não auditados.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      },
+      "com": {
+        "axis": "com",
+        "position": "moderate-second",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "John Dramani Mahama — Alamein Africa Forum Keynote Address on Investing in Health",
+            "publishedDate": "2026-10-03",
+            "accessedDate": "2026-10-07",
+            "locator": "The AfCFTA Market Size; dismantle non-tariff barriers across regional value chains",
+            "statement": "Defende mercado continental de livre comércio e desmontar barreiras não tarifárias regionais.",
+            "basis": "declaration"
+          }
+        ],
+        "rationale": "Remoção de barreiras regionais sustenta abertura comercial parcial.",
+        "uncertainty": "Também defende substituição de importações; não implica livre comércio irrestrito com todos os continentes.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 40,
+        "range": [
+          30,
+          45
+        ]
+      }
+    }
+  },
+  {
+    "id": "bola-ahmed-tinubu",
+    "name": "Bola Ahmed Tinubu",
+    "aliases": [
+      "Bola Tinubu"
+    ],
+    "kind": "person",
+    "category": "public-figure",
+    "period": "2026-10-01",
+    "sources": [
+      {
+        "title": "Bola Ahmed Tinubu — From Reform to Prosperity, Independence Day Address",
+        "url": "https://statehouse.gov.ng/from-reform-to-prosperity-independence-day-address-to-the-nation-by-his-excellency-president-bola-ahmed-tinubu-gcfr-1st-october-2026/",
+        "note": "Texto autoral efetivamente aberto em 7/10/2026; somente os trechos localizados abaixo geram evidência. Declaração, não auditoria de execução. O próprio documento datado de 2026 também confirma identidade pública viva."
+      }
+    ],
+    "caveats": "Declarações delimitadas, sem transferir posições do governo, partido ou de terceiros. Demais eixos desconhecidos; trechos autorais revistos independentemente, sem recertificar fontes arquivadas.",
+    "rationale": "Declarações pessoais primárias delimitadas; eixos não documentados desconhecidos.",
+    "vec": {
+      "est": 50,
+      "rep": 50,
+      "pod": 50,
+      "imi": 50,
+      "dip": 50,
+      "int": 50,
+      "eco": 60,
+      "con": 60,
+      "com": 50,
+      "rel": 50,
+      "mor": 50,
+      "tec": 60
+    },
+    "evidence": {
+      "eco": "medium",
+      "con": "medium",
+      "tec": "medium"
+    },
+    "axisEvidence": {
+      "eco": {
+        "sourceTitles": [
+          "Bola Ahmed Tinubu — From Reform to Prosperity, Independence Day Address"
+        ],
+        "rationale": "Financiamento social e serviços públicos explícitos sustentam direção pública parcial. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Também combate subsídios considerados ineficientes e incentiva empresas privadas; não determina nacionalização integral."
+      },
+      "con": {
+        "sourceTitles": [
+          "Bola Ahmed Tinubu — From Reform to Prosperity, Independence Day Address"
+        ],
+        "rationale": "Direcionamento produtivo público sustenta planejamento parcial. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Concorrência e empreendimento privados são centrais no discurso; não é planejamento central compulsório."
+      },
+      "tec": {
+        "sourceTitles": [
+          "Bola Ahmed Tinubu — From Reform to Prosperity, Independence Day Address"
+        ],
+        "rationale": "Adoção de equipamentos e redes concretas sustenta direção tecnológica parcial. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Não extrapola a transumanismo ou biotecnologia; alegações de crescimento e segurança não verificadas."
+      }
+    },
+    "coding": {
+      "eco": {
+        "axis": "eco",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Bola Ahmed Tinubu — From Reform to Prosperity, Independence Day Address",
+            "publishedDate": "2026-10-01",
+            "accessedDate": "2026-10-07",
+            "locator": "Strengthening direct support for the poorest households; essential public services poorer Nigerians depend on",
+            "statement": "Defende apoio direto às famílias pobres e reforço de saúde, educação e serviços públicos com estados e governos locais.",
+            "basis": "declaration"
+          }
+        ],
+        "rationale": "Financiamento social e serviços públicos explícitos sustentam direção pública parcial.",
+        "uncertainty": "Também combate subsídios considerados ineficientes e incentiva empresas privadas; não determina nacionalização integral.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      },
+      "con": {
+        "axis": "con",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Bola Ahmed Tinubu — From Reform to Prosperity, Independence Day Address",
+            "publishedDate": "2026-10-01",
+            "accessedDate": "2026-10-07",
+            "locator": "Government ... mechanised irrigation; roads, railways and ports; infrastructure and finance",
+            "statement": "Defende coordenação pública de infraestrutura, irrigação e financiamento para agricultura e indústria.",
+            "basis": "declaration"
+          }
+        ],
+        "rationale": "Direcionamento produtivo público sustenta planejamento parcial.",
+        "uncertainty": "Concorrência e empreendimento privados são centrais no discurso; não é planejamento central compulsório.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      },
+      "tec": {
+        "axis": "tec",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Bola Ahmed Tinubu — From Reform to Prosperity, Independence Day Address",
+            "publishedDate": "2026-10-01",
+            "accessedDate": "2026-10-07",
+            "locator": "Expanding mechanised irrigation; increasing mechanisation; expand digital connectivity into communities",
+            "statement": "Defende mecanização agrícola e expansão da conectividade digital às comunidades.",
+            "basis": "declaration"
+          }
+        ],
+        "rationale": "Adoção de equipamentos e redes concretas sustenta direção tecnológica parcial.",
+        "uncertainty": "Não extrapola a transumanismo ou biotecnologia; alegações de crescimento e segurança não verificadas.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      }
+    }
+  },
+  {
+    "id": "mia-mottley",
+    "name": "Mia Mottley",
+    "aliases": [
+      "Mia Amor Mottley"
+    ],
+    "kind": "person",
+    "category": "public-figure",
+    "period": "2026-04-14",
+    "sources": [
+      {
+        "title": "Mia Amor Mottley — 16th V20 Ministerial Dialogue, transcript",
+        "url": "https://cvfv20.org/wp-content/uploads/2026/04/16th-V20-Ministerial-Dialogue_Transcript_H.E.-Mia-Amor-Mottley-1.pdf",
+        "note": "Texto primário efetivamente lido em 7/10/2026; declaração delimitada, não auditoria de execução. A atividade pessoal datada confirma identidade em 2026 sem garantir cargo na data de acesso."
+      }
+    ],
+    "caveats": "Declarações autorais delimitadas; demais eixos desconhecidos. Revisão documental independente delimitada aceita; integração pelo Root pendente. ",
+    "rationale": "Declarações pessoais ou coautoria primária explícita; escopo delimitado.",
+    "vec": {
+      "est": 50,
+      "rep": 50,
+      "pod": 50,
+      "imi": 50,
+      "dip": 50,
+      "int": 50,
+      "eco": 60,
+      "con": 50,
+      "com": 50,
+      "rel": 50,
+      "mor": 50,
+      "tec": 50
+    },
+    "evidence": {
+      "eco": "medium"
+    },
+    "axisEvidence": {
+      "eco": {
+        "sourceTitles": [
+          "Mia Amor Mottley — 16th V20 Ministerial Dialogue, transcript"
+        ],
+        "rationale": "Financiamento público de serviços essenciais sustenta direção pública parcial. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Inclui capital privado e local; não determina propriedade dos prestadores."
+      }
+    },
+    "coding": {
+      "eco": {
+        "axis": "eco",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Mia Amor Mottley — 16th V20 Ministerial Dialogue, transcript",
+            "locator": "p1 compact education/health/water; p3 40- and 50-year loans",
+            "statement": "Propõe financiamento concessional de longo prazo para educação, hospitais e água.",
+            "basis": "declaration",
+            "publishedDate": "2026-04-14",
+            "accessedDate": "2026-10-07"
+          }
+        ],
+        "rationale": "Financiamento público de serviços essenciais sustenta direção pública parcial.",
+        "uncertainty": "Inclui capital privado e local; não determina propriedade dos prestadores.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      }
+    }
+  },
+  {
+    "id": "mario-draghi",
+    "name": "Mario Draghi",
+    "aliases": [],
+    "kind": "person",
+    "category": "public-figure",
+    "period": "2026-05-14",
+    "sources": [
+      {
+        "title": "Mario Draghi — Charlemagne Prize speech, Aachen, 14 May 2026",
+        "url": "https://www.karlspreis.de/files/docs/Reden%20bei%20Verleihung/2026%20Mario%20Draghi%20English.pdf",
+        "note": "Texto primário efetivamente lido em 7/10/2026; declaração delimitada, não auditoria de execução. A atividade pessoal datada confirma identidade em 2026 sem garantir cargo na data de acesso."
+      }
+    ],
+    "caveats": "Declarações autorais delimitadas; demais eixos desconhecidos. Revisão documental independente delimitada aceita; integração pelo Root pendente. Federalismo pragmático supranacional não transferido automaticamente a est; apoio à defesa europeia impede inferir pacifismo irrestrito.",
+    "rationale": "Declarações pessoais ou coautoria primária explícita; escopo delimitado.",
+    "vec": {
+      "est": 50,
+      "rep": 60,
+      "pod": 50,
+      "imi": 50,
+      "dip": 50,
+      "int": 50,
+      "eco": 50,
+      "con": 60,
+      "com": 50,
+      "rel": 50,
+      "mor": 50,
+      "tec": 60
+    },
+    "evidence": {
+      "tec": "medium",
+      "con": "medium",
+      "rep": "medium"
+    },
+    "axisEvidence": {
+      "tec": {
+        "sourceTitles": [
+          "Mario Draghi — Charlemagne Prize speech, Aachen, 14 May 2026"
+        ],
+        "rationale": "Adoção tecnológica concreta sustenta direção tecnológica parcial. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Sem validar previsões de produtividade; não estabelece apoio a toda tecnologia."
+      },
+      "con": {
+        "sourceTitles": [
+          "Mario Draghi — Charlemagne Prize speech, Aachen, 14 May 2026"
+        ],
+        "rationale": "Coordenação deliberada de investimento sustenta planejamento parcial. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Também defende concorrência continental e intervenção mais estreita."
+      },
+      "rep": {
+        "sourceTitles": [
+          "Mario Draghi — Charlemagne Prize speech, Aachen, 14 May 2026"
+        ],
+        "rationale": "Aval eleitoral explícito sustenta representação democrática parcial. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Proposta sobre integração europeia; não audita representação nacional."
+      }
+    },
+    "coding": {
+      "tec": {
+        "axis": "tec",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Mario Draghi — Charlemagne Prize speech, Aachen, 14 May 2026",
+            "locator": "p3–4 AI industrial mobilisation; deployment",
+            "statement": "Defende adoção de IA e investimento em energia, chips e computação.",
+            "basis": "declaration",
+            "publishedDate": "2026-05-14",
+            "accessedDate": "2026-10-07"
+          }
+        ],
+        "rationale": "Adoção tecnológica concreta sustenta direção tecnológica parcial.",
+        "uncertainty": "Sem validar previsões de produtividade; não estabelece apoio a toda tecnologia.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      },
+      "con": {
+        "axis": "con",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Mario Draghi — Charlemagne Prize speech, Aachen, 14 May 2026",
+            "locator": "p5 coordinate state aid; policy strategy at European level",
+            "statement": "Defende coordenação europeia de ajuda estatal e política industrial.",
+            "basis": "declaration",
+            "publishedDate": "2026-05-14",
+            "accessedDate": "2026-10-07"
+          }
+        ],
+        "rationale": "Coordenação deliberada de investimento sustenta planejamento parcial.",
+        "uncertainty": "Também defende concorrência continental e intervenção mais estreita.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      },
+      "rep": {
+        "axis": "rep",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Mario Draghi — Charlemagne Prize speech, Aachen, 14 May 2026",
+            "locator": "p7 deliberate national choice, endorsed by its electorate",
+            "statement": "Exige escolha nacional avalizada pelo eleitorado e responsabilização do governo.",
+            "basis": "declaration",
+            "publishedDate": "2026-05-14",
+            "accessedDate": "2026-10-07"
+          }
+        ],
+        "rationale": "Aval eleitoral explícito sustenta representação democrática parcial.",
+        "uncertainty": "Proposta sobre integração europeia; não audita representação nacional.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      }
+    }
+  },
+  {
+    "id": "christine-lagarde",
+    "name": "Christine Lagarde",
+    "aliases": [],
+    "kind": "person",
+    "category": "public-figure",
+    "period": "2026-06-15",
+    "sources": [
+      {
+        "title": "Christine Lagarde — Money in transition",
+        "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260615~35e6c6c4de.en.html",
+        "note": "Texto primário efetivamente lido em 7/10/2026; declaração delimitada, não auditoria de execução. A atividade pessoal datada confirma identidade em 2026 sem garantir cargo na data de acesso."
+      }
+    ],
+    "caveats": "Declarações autorais delimitadas; demais eixos desconhecidos. Revisão documental independente delimitada aceita; integração pelo Root pendente. Moeda pública não imputa nacionalização de bancos; pagamentos externos não viram livre comércio de bens.",
+    "rationale": "Declarações pessoais ou coautoria primária explícita; escopo delimitado.",
+    "vec": {
+      "est": 50,
+      "rep": 50,
+      "pod": 50,
+      "imi": 50,
+      "dip": 50,
+      "int": 50,
+      "eco": 50,
+      "con": 60,
+      "com": 50,
+      "rel": 50,
+      "mor": 50,
+      "tec": 60
+    },
+    "evidence": {
+      "tec": "medium",
+      "con": "medium"
+    },
+    "axisEvidence": {
+      "tec": {
+        "sourceTitles": [
+          "Christine Lagarde — Money in transition"
+        ],
+        "rationale": "Adoção digital explícita sustenta orientação tecnológica parcial. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Preserva dinheiro físico; não endossa toda inovação privada."
+      },
+      "con": {
+        "sourceTitles": [
+          "Christine Lagarde — Money in transition"
+        ],
+        "rationale": "Coordenação pública de infraestrutura e regulação financeira sustenta direção parcial. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Cooperação com provedores privados e concorrência; não planejamento integral."
+      }
+    },
+    "coding": {
+      "tec": {
+        "axis": "tec",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Christine Lagarde — Money in transition",
+            "locator": "Wholesale markets/tokenisation; retail digital euro; TIPS",
+            "statement": "Defende tokenização, euro digital e pagamentos instantâneos conectados.",
+            "basis": "declaration",
+            "publishedDate": "2026-06-15",
+            "accessedDate": "2026-10-07"
+          }
+        ],
+        "rationale": "Adoção digital explícita sustenta orientação tecnológica parcial.",
+        "uncertainty": "Preserva dinheiro físico; não endossa toda inovação privada.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      },
+      "con": {
+        "axis": "con",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Christine Lagarde — Money in transition",
+            "locator": "Pontes/Appia; final paragraphs shared standards/common framework",
+            "statement": "Defende infraestrutura de liquidação coordenada e marco comum para ativos digitais.",
+            "basis": "declaration",
+            "publishedDate": "2026-06-15",
+            "accessedDate": "2026-10-07"
+          }
+        ],
+        "rationale": "Coordenação pública de infraestrutura e regulação financeira sustenta direção parcial.",
+        "uncertainty": "Cooperação com provedores privados e concorrência; não planejamento integral.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      }
+    }
+  },
+  {
+    "id": "janet-yellen",
+    "name": "Janet Yellen",
+    "aliases": [
+      "Janet L. Yellen"
+    ],
+    "kind": "person",
+    "category": "public-figure",
+    "period": "2026-06-02",
+    "sources": [
+      {
+        "title": "Janet L. Yellen — The Powell years at the Fed: A retrospective",
+        "url": "https://www.brookings.edu/articles/remarks-by-janet-l-yellen-at-the-powell-years-at-the-fed-a-retrospective/",
+        "note": "Texto primário efetivamente lido em 7/10/2026; declaração delimitada, não auditoria de execução. A atividade pessoal datada confirma identidade em 2026 sem garantir cargo na data de acesso."
+      }
+    ],
+    "caveats": "Declarações autorais delimitadas; demais eixos desconhecidos. Revisão documental independente delimitada aceita; integração pelo Root pendente. Independência do banco central não foi transferida a pod; foto de 2014 não comprova cargo atual.",
+    "rationale": "Declarações pessoais ou coautoria primária explícita; escopo delimitado.",
+    "vec": {
+      "est": 50,
+      "rep": 50,
+      "pod": 50,
+      "imi": 50,
+      "dip": 50,
+      "int": 50,
+      "eco": 50,
+      "con": 60,
+      "com": 50,
+      "rel": 50,
+      "mor": 50,
+      "tec": 50
+    },
+    "evidence": {
+      "con": "medium"
+    },
+    "axisEvidence": {
+      "con": {
+        "sourceTitles": [
+          "Janet L. Yellen — The Powell years at the Fed: A retrospective"
+        ],
+        "rationale": "Regulação pública explícita de mercados financeiros sustenta direção parcial. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Rejeita ativismo monetário excessivo contra choques de oferta e defende independência do Fed frente ao Executivo (Third lesson, 161–169; contraponto de controle_16). Não planejamento total."
+      }
+    },
+    "coding": {
+      "con": {
+        "axis": "con",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Janet L. Yellen — The Powell years at the Fed: A retrospective",
+            "locator": "Second lesson, strengthening both bank supervision and broader financial regulation",
+            "statement": "Defende reforçar supervisão bancária e regulação financeira preventiva.",
+            "basis": "declaration",
+            "publishedDate": "2026-06-02",
+            "accessedDate": "2026-10-07"
+          }
+        ],
+        "rationale": "Regulação pública explícita de mercados financeiros sustenta direção parcial.",
+        "uncertainty": "Rejeita ativismo monetário excessivo contra choques de oferta e defende independência do Fed frente ao Executivo (Third lesson, 161–169; contraponto de controle_16). Não planejamento total.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      }
+    }
+  },
+  {
+    "id": "nadia-murad",
+    "name": "Nadia Murad",
+    "aliases": [],
+    "kind": "person",
+    "category": "public-figure",
+    "period": "2025-09-23; publicação; declaração adicional 2026-03-04",
+    "sources": [
+      {
+        "title": "Nadia Murad — Reflection Is Not Enough: action at UNGA",
+        "url": "https://www.nadiasinitiative.org/news/nadia-murad-calls-for-action-at-unga-september-2025",
+        "note": "Texto primário efetivamente lido em 7/10/2026; declaração delimitada, não auditoria de execução. A atividade pessoal datada confirma identidade em 2026 sem garantir cargo na data de acesso. Datas de publicação conferidas no índice próprio Advocacy efetivamente lido; não afirmar certificação independente de datas no corpo renderizado."
+      },
+      {
+        "title": "Nadia Murad — own quoted statement on escalating Middle East conflict",
+        "url": "https://www.nadiasinitiative.org/news/ni-statement-on-the-escalating-conflict-in-the-middle-east",
+        "note": "Texto primário efetivamente lido em 7/10/2026; declaração delimitada, não auditoria de execução. A atividade pessoal datada confirma identidade em 2026 sem garantir cargo na data de acesso. Datas de publicação conferidas no índice próprio Advocacy efetivamente lido; não afirmar certificação independente de datas no corpo renderizado."
+      },
+      {
+        "title": "Nadia’s Initiative — Advocacy index, dated publication metadata",
+        "url": "https://www.nadiasinitiative.org/advocacy",
+        "note": "Índice próprio efetivamente lido: publicação de ação UNGA em 23/9/2025 e comunicado nominal em 4/3/2026. Datas de publicação/metadata, não certificação independente do dia do evento ou da exibição de data no corpo das páginas. Não gera eixo adicional."
+      }
+    ],
+    "caveats": "Declarações autorais delimitadas; demais eixos desconhecidos. Revisão documental independente delimitada aceita; integração pelo Root pendente. A declaração nominal de março de 2026 confirma atividade pessoal atual.",
+    "rationale": "Declarações pessoais ou coautoria primária explícita; escopo delimitado.",
+    "vec": {
+      "est": 50,
+      "rep": 50,
+      "pod": 50,
+      "imi": 50,
+      "dip": 40,
+      "int": 50,
+      "eco": 50,
+      "con": 50,
+      "com": 50,
+      "rel": 50,
+      "mor": 60,
+      "tec": 50
+    },
+    "evidence": {
+      "mor": "medium",
+      "dip": "medium"
+    },
+    "axisEvidence": {
+      "mor": {
+        "sourceTitles": [
+          "Nadia Murad — Reflection Is Not Enough: action at UNGA"
+        ],
+        "rationale": "Participação igual em decisões sustenta emancipação parcial. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Trechos atribuídos nominalmente pela própria organização; não agenda completa de costumes."
+      },
+      "dip": {
+        "sourceTitles": [
+          "Nadia Murad — own quoted statement on escalating Middle East conflict"
+        ],
+        "rationale": "Desescalada explícita sustenta direção pacifista parcial. Codificação editorial moderate-second: âncora 40, faixa 30–45; a fonte não mede esse número. Limites: Usa somente fala nominal, não todo texto institucional; não desarmamento absoluto."
+      }
+    },
+    "coding": {
+      "mor": {
+        "axis": "mor",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Nadia Murad — Reflection Is Not Enough: action at UNGA",
+            "locator": "Three urgent priorities, guarantee women’s participation",
+            "statement": "Defende participação de mulheres nas decisões de paz e segurança.",
+            "basis": "declaration",
+            "publishedDate": "2025-09-23; publicação; dia do discurso não certificado",
+            "accessedDate": "2026-10-07"
+          }
+        ],
+        "rationale": "Participação igual em decisões sustenta emancipação parcial.",
+        "uncertainty": "Trechos atribuídos nominalmente pela própria organização; não agenda completa de costumes.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      },
+      "dip": {
+        "axis": "dip",
+        "position": "moderate-second",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Nadia Murad — own quoted statement on escalating Middle East conflict",
+            "locator": "Quoted personal statement, international community prevent further escalation",
+            "statement": "Defende evitar escalada armada e proteger civis pelo direito internacional.",
+            "basis": "declaration",
+            "publishedDate": "2026-03-04",
+            "accessedDate": "2026-10-07"
+          }
+        ],
+        "rationale": "Desescalada explícita sustenta direção pacifista parcial.",
+        "uncertainty": "Usa somente fala nominal, não todo texto institucional; não desarmamento absoluto.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 40,
+        "range": [
+          30,
+          45
+        ]
+      }
+    }
+  },
+  {
+    "id": "amina-mohammed",
+    "name": "Amina Mohammed",
+    "aliases": [
+      "Amina J. Mohammed"
+    ],
+    "kind": "person",
+    "category": "public-figure",
+    "period": "2026-06-01",
+    "sources": [
+      {
+        "title": "Amina J. Mohammed — 2026 ECOSOC Operational Activities Segment remarks",
+        "url": "https://un-dco.org/stories/dedicated-independent-and-impartial-development-coordination-delivers-un-deputy-secretary",
+        "note": "Texto primário efetivamente lido em 7/10/2026; declaração delimitada, não auditoria de execução. A atividade pessoal datada confirma identidade em 2026 sem garantir cargo na data de acesso."
+      }
+    ],
+    "caveats": "Declarações autorais delimitadas; demais eixos desconhecidos. Revisão documental independente delimitada aceita; integração pelo Root pendente. ",
+    "rationale": "Declarações pessoais ou coautoria primária explícita; escopo delimitado.",
+    "vec": {
+      "est": 50,
+      "rep": 50,
+      "pod": 50,
+      "imi": 50,
+      "dip": 50,
+      "int": 50,
+      "eco": 50,
+      "con": 50,
+      "com": 50,
+      "rel": 50,
+      "mor": 50,
+      "tec": 60
+    },
+    "evidence": {
+      "tec": "medium"
+    },
+    "axisEvidence": {
+      "tec": {
+        "sourceTitles": [
+          "Amina J. Mohammed — 2026 ECOSOC Operational Activities Segment remarks"
+        ],
+        "rationale": "Adoção de instrumentos digitais sustenta orientação tecnológica parcial. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Coordenação administrativa da ONU não foi equiparada a planejamento de economia nacional."
+      }
+    },
+    "coding": {
+      "tec": {
+        "axis": "tec",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Amina J. Mohammed — 2026 ECOSOC Operational Activities Segment remarks",
+            "locator": "Recalibration, headquarters digital capacities; embracing innovation and data",
+            "statement": "Defende inovação e uso de dados e soluções digitais na coordenação do desenvolvimento.",
+            "basis": "declaration",
+            "publishedDate": "2026-06-01",
+            "accessedDate": "2026-10-07"
+          }
+        ],
+        "rationale": "Adoção de instrumentos digitais sustenta orientação tecnológica parcial.",
+        "uncertainty": "Coordenação administrativa da ONU não foi equiparada a planejamento de economia nacional.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      }
+    }
+  },
+  {
+    "id": "antonio-guterres",
+    "name": "António Guterres",
+    "aliases": [
+      "Antonio Guterres"
+    ],
+    "kind": "person",
+    "category": "public-figure",
+    "period": "2026-01-15",
+    "sources": [
+      {
+        "title": "António Guterres — General Assembly priorities for 2026, as delivered",
+        "url": "https://ukraine.un.org/en/308435-un-secretary-general-pushes-reform-peace-and-unity-remarks-general-assembly-priorities-2026",
+        "note": "Texto primário efetivamente lido em 7/10/2026; declaração delimitada, não auditoria de execução. A atividade pessoal datada confirma identidade em 2026 sem garantir cargo na data de acesso."
+      }
+    ],
+    "caveats": "Declarações autorais delimitadas; demais eixos desconhecidos. Revisão documental independente delimitada aceita; integração pelo Root pendente.  IA: painel científico/governança não provam adoção ampla. Renováveis/redes/armazenamento coexistem com urgência climática; direção tec não resolvida, mantida desconhecida.",
+    "rationale": "Declarações pessoais ou coautoria primária explícita; escopo delimitado.",
+    "vec": {
+      "est": 50,
+      "rep": 50,
+      "pod": 40,
+      "imi": 40,
+      "dip": 40,
+      "int": 50,
+      "eco": 50,
+      "con": 50,
+      "com": 50,
+      "rel": 50,
+      "mor": 60,
+      "tec": 50
+    },
+    "evidence": {
+      "dip": "medium",
+      "pod": "medium",
+      "mor": "medium",
+      "imi": "medium"
+    },
+    "axisEvidence": {
+      "dip": {
+        "sourceTitles": [
+          "António Guterres — General Assembly priorities for 2026, as delivered"
+        ],
+        "rationale": "Desescalada negociada sustenta pacifismo parcial. Codificação editorial moderate-second: âncora 40, faixa 30–45; a fonte não mede esse número. Limites: Não implica proibição absoluta da força ou fim das operações de paz."
+      },
+      "pod": {
+        "sourceTitles": [
+          "António Guterres — General Assembly priorities for 2026, as delivered"
+        ],
+        "rationale": "Liberdades civis explícitas sustentam direção libertária parcial. Codificação editorial moderate-second: âncora 40, faixa 30–45; a fonte não mede esse número. Limites: Não estabelece posições sobre toda política policial."
+      },
+      "mor": {
+        "sourceTitles": [
+          "António Guterres — General Assembly priorities for 2026, as delivered"
+        ],
+        "rationale": "Igualdade de participação sustenta emancipação parcial. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Não certifica paridade executada ou toda agenda de costumes."
+      },
+      "imi": {
+        "sourceTitles": [
+          "António Guterres — General Assembly priorities for 2026, as delivered"
+        ],
+        "rationale": "Integração com diversidade sustenta direção multicultural parcial. Codificação editorial moderate-second: âncora 40, faixa 30–45; a fonte não mede esse número. Limites: Reconhece gestão soberana de fronteiras dentro da lei."
+      }
+    },
+    "coding": {
+      "dip": {
+        "axis": "dip",
+        "position": "moderate-second",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "António Guterres — General Assembly priorities for 2026, as delivered",
+            "locator": "Second principle, Gaza/Ukraine/Sudan ceasefires and talks",
+            "statement": "Defende cessar-fogo, fim das hostilidades e negociações.",
+            "basis": "declaration",
+            "publishedDate": "2026-01-15",
+            "accessedDate": "2026-10-07"
+          }
+        ],
+        "rationale": "Desescalada negociada sustenta pacifismo parcial.",
+        "uncertainty": "Não implica proibição absoluta da força ou fim das operações de paz.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 40,
+        "range": [
+          30,
+          45
+        ]
+      },
+      "pod": {
+        "axis": "pod",
+        "position": "moderate-second",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "António Guterres — General Assembly priorities for 2026, as delivered",
+            "locator": "Peace with justice, safeguard freedom of speech and civic space",
+            "statement": "Defende expressão livre e espaço cívico contra repressão.",
+            "basis": "declaration",
+            "publishedDate": "2026-01-15",
+            "accessedDate": "2026-10-07"
+          }
+        ],
+        "rationale": "Liberdades civis explícitas sustentam direção libertária parcial.",
+        "uncertainty": "Não estabelece posições sobre toda política policial.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 40,
+        "range": [
+          30,
+          45
+        ]
+      },
+      "mor": {
+        "axis": "mor",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "António Guterres — General Assembly priorities for 2026, as delivered",
+            "locator": "Women and girls, equality, participation; gender parity at senior levels",
+            "statement": "Defende participação igual de mulheres e preservação de seus direitos.",
+            "basis": "declaration",
+            "publishedDate": "2026-01-15",
+            "accessedDate": "2026-10-07"
+          }
+        ],
+        "rationale": "Igualdade de participação sustenta emancipação parcial.",
+        "uncertainty": "Não certifica paridade executada ou toda agenda de costumes.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      },
+      "imi": {
+        "axis": "imi",
+        "position": "moderate-second",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "António Guterres — General Assembly priorities for 2026, as delivered",
+            "locator": "Third principle, migrants rights; welcoming societies and everyone identity respected",
+            "statement": "Defende acolhimento de migrantes e respeito às identidades culturais.",
+            "basis": "declaration",
+            "publishedDate": "2026-01-15",
+            "accessedDate": "2026-10-07"
+          }
+        ],
+        "rationale": "Integração com diversidade sustenta direção multicultural parcial.",
+        "uncertainty": "Reconhece gestão soberana de fronteiras dentro da lei.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 40,
+        "range": [
+          30,
+          45
+        ]
+      }
+    }
+  },
+  {
+    "id": "lee-jae-myung",
+    "name": "Lee Jae-myung",
+    "aliases": [
+      "Lee Jae Myung",
+      "Lee Jaemyung"
+    ],
+    "kind": "person",
+    "category": "public-figure",
+    "period": "2026-04-02",
+    "sources": [
+      {
+        "title": "Lee Jae Myung — 2026 Supplementary Budget Proposal address (Unofficial Translation)",
+        "url": "https://en.president.go.kr/president/statements-remarks/QZxg91Ez",
+        "note": "Texto da presidência efetivamente lido; tradução inglesa expressamente não oficial. Data publicada 2/4/2026 confirma atuação pessoal. Declarações não certificam medidas executadas."
+      }
+    ],
+    "caveats": "Declarações autorais delimitadas; demais eixos desconhecidos. Revisão documental independente delimitada aceita; integração pelo Root pendente. ",
+    "rationale": "Declarações pessoais ou coautoria primária explícita; escopo delimitado.",
+    "vec": {
+      "est": 50,
+      "rep": 50,
+      "pod": 50,
+      "imi": 50,
+      "dip": 50,
+      "int": 50,
+      "eco": 60,
+      "con": 60,
+      "com": 50,
+      "rel": 50,
+      "mor": 50,
+      "tec": 60
+    },
+    "evidence": {
+      "eco": "medium",
+      "con": "medium",
+      "tec": "medium"
+    },
+    "axisEvidence": {
+      "eco": {
+        "sourceTitles": [
+          "Lee Jae Myung — 2026 Supplementary Budget Proposal address (Unofficial Translation)"
+        ],
+        "rationale": "Transferência pública focalizada sustenta direção parcial. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Não determina nacionalização de serviços ou renda universal permanente."
+      },
+      "con": {
+        "sourceTitles": [
+          "Lee Jae Myung — 2026 Supplementary Budget Proposal address (Unofficial Translation)"
+        ],
+        "rationale": "Controle setorial e coordenação anticrise sustentam planejamento parcial. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Proposta emergencial, não regime permanente de controle integral."
+      },
+      "tec": {
+        "sourceTitles": [
+          "Lee Jae Myung — 2026 Supplementary Budget Proposal address (Unofficial Translation)"
+        ],
+        "rationale": "Adoção tecnológica industrial sustenta orientação parcial. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Não audita implantação nem toda tecnologia."
+      }
+    },
+    "coding": {
+      "eco": {
+        "axis": "eco",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Lee Jae Myung — 2026 Supplementary Budget Proposal address (Unofficial Translation)",
+            "locator": "First package, energy cost relief payments and lower seventy percent",
+            "statement": "Defende pagamentos públicos direcionados às pessoas de menor renda.",
+            "basis": "declaration",
+            "publishedDate": "2026-04-02",
+            "accessedDate": "2026-10-07"
+          }
+        ],
+        "rationale": "Transferência pública focalizada sustenta direção parcial.",
+        "uncertainty": "Não determina nacionalização de serviços ou renda universal permanente.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      },
+      "con": {
+        "axis": "con",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Lee Jae Myung — 2026 Supplementary Budget Proposal address (Unofficial Translation)",
+            "locator": "Emergency economic response; oil price cap and government-backed financing",
+            "statement": "Defende teto do petróleo e resposta econômica coordenada pelo governo.",
+            "basis": "declaration",
+            "publishedDate": "2026-04-02",
+            "accessedDate": "2026-10-07"
+          }
+        ],
+        "rationale": "Controle setorial e coordenação anticrise sustentam planejamento parcial.",
+        "uncertainty": "Proposta emergencial, não regime permanente de controle integral.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      },
+      "tec": {
+        "axis": "tec",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Lee Jae Myung — 2026 Supplementary Budget Proposal address (Unofficial Translation)",
+            "locator": "Third package, AI transformation and next-generation technologies",
+            "statement": "Propõe adoção industrial de IA e investimento em novas tecnologias.",
+            "basis": "declaration",
+            "publishedDate": "2026-04-02",
+            "accessedDate": "2026-10-07"
+          }
+        ],
+        "rationale": "Adoção tecnológica industrial sustenta orientação parcial.",
+        "uncertainty": "Não audita implantação nem toda tecnologia.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      }
+    }
+  },
+  {
+    "id": "lawrence-wong",
+    "name": "Lawrence Wong",
+    "aliases": [],
+    "kind": "person",
+    "category": "public-figure",
+    "period": "2026-08-23",
+    "sources": [
+      {
+        "title": "Lawrence Wong — National Day Rally 2026",
+        "url": "https://www.pmo.gov.sg/newsroom/ndr2026/",
+        "note": "Texto primário efetivamente lido em 7/10/2026; declaração delimitada, não auditoria de execução. A atividade pessoal datada confirma identidade em 2026 sem garantir cargo na data de acesso."
+      }
+    ],
+    "caveats": "Declarações autorais delimitadas; demais eixos desconhecidos. Revisão documental independente delimitada aceita; integração pelo Root pendente. Imigração tem contrapontos de diversidade, adaptação e controles; imi desconhecido.",
+    "rationale": "Declarações pessoais ou coautoria primária explícita; escopo delimitado.",
+    "vec": {
+      "est": 50,
+      "rep": 50,
+      "pod": 50,
+      "imi": 50,
+      "dip": 50,
+      "int": 50,
+      "eco": 60,
+      "con": 60,
+      "com": 40,
+      "rel": 50,
+      "mor": 50,
+      "tec": 60
+    },
+    "evidence": {
+      "com": "medium",
+      "tec": "medium",
+      "eco": "medium",
+      "con": "medium"
+    },
+    "axisEvidence": {
+      "com": {
+        "sourceTitles": [
+          "Lawrence Wong — National Day Rally 2026"
+        ],
+        "rationale": "Integração de mercados sustenta direção globalista parcial. Codificação editorial moderate-second: âncora 40, faixa 30–45; a fonte não mede esse número. Limites: Com regras de origem e segurança; não abertura sem restrições."
+      },
+      "tec": {
+        "sourceTitles": [
+          "Lawrence Wong — National Day Rally 2026"
+        ],
+        "rationale": "Adoção concreta sustenta orientação tecnológica parcial. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Mantém requisitos de segurança e limites a riscos."
+      },
+      "eco": {
+        "sourceTitles": [
+          "Lawrence Wong — National Day Rally 2026"
+        ],
+        "rationale": "Financiamento público social sustenta direção pública parcial. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Não determina estatização integral nem universalidade de todo benefício."
+      },
+      "con": {
+        "sourceTitles": [
+          "Lawrence Wong — National Day Rally 2026"
+        ],
+        "rationale": "Alocação deliberada de investimento sustenta direção parcial. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Mercados e investimento privado coexistem; sem planejamento integral."
+      }
+    },
+    "coding": {
+      "com": {
+        "axis": "com",
+        "position": "moderate-second",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Lawrence Wong — National Day Rally 2026",
+            "locator": "Our response cannot retreat; ASEAN more effective single market",
+            "statement": "Defende maior conexão internacional e mercado regional integrado.",
+            "basis": "declaration",
+            "publishedDate": "2026-08-23",
+            "accessedDate": "2026-10-07"
+          }
+        ],
+        "rationale": "Integração de mercados sustenta direção globalista parcial.",
+        "uncertainty": "Com regras de origem e segurança; não abertura sem restrições.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 40,
+        "range": [
+          30,
+          45
+        ]
+      },
+      "tec": {
+        "axis": "tec",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Lawrence Wong — National Day Rally 2026",
+            "locator": "Embracing Technology on our Own Terms",
+            "statement": "Defende IA, genômica e veículos autônomos com capacitação.",
+            "basis": "declaration",
+            "publishedDate": "2026-08-23",
+            "accessedDate": "2026-10-07"
+          }
+        ],
+        "rationale": "Adoção concreta sustenta orientação tecnológica parcial.",
+        "uncertainty": "Mantém requisitos de segurança e limites a riscos.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      },
+      "eco": {
+        "axis": "eco",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Lawrence Wong — National Day Rally 2026",
+            "locator": "Families, government-paid parental leave, preschool subsidies, public housing",
+            "statement": "Defende licença parental paga pelo governo e subsídios a educação e moradia.",
+            "basis": "declaration",
+            "publishedDate": "2026-08-23",
+            "accessedDate": "2026-10-07"
+          }
+        ],
+        "rationale": "Financiamento público social sustenta direção pública parcial.",
+        "uncertainty": "Não determina estatização integral nem universalidade de todo benefício.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      },
+      "con": {
+        "axis": "con",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Lawrence Wong — National Day Rally 2026",
+            "locator": "Planning and Building for the Long Term, industry/infrastructure/land",
+            "statement": "Defende investimento coordenado e planejamento de infraestrutura e indústria.",
+            "basis": "declaration",
+            "publishedDate": "2026-08-23",
+            "accessedDate": "2026-10-07"
+          }
+        ],
+        "rationale": "Alocação deliberada de investimento sustenta direção parcial.",
+        "uncertainty": "Mercados e investimento privado coexistem; sem planejamento integral.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      }
+    }
+  },
+  {
+    "id": "prabowo-subianto",
+    "name": "Prabowo Subianto",
+    "aliases": [],
+    "kind": "person",
+    "category": "public-figure",
+    "period": "2026-01-22",
+    "sources": [
+      {
+        "title": "Prabowo Subianto — Davos 2026 special address, full transcript",
+        "url": "https://www.weforum.org/stories/forum-institutional/davos-2026-special-address-prabowo-subianto-indonesia/",
+        "note": "Transcrição do organizador do evento efetivamente lida; produzida com IA e editada posteriormente para clareza, como informa a página. Atividade pessoal datada 22/1/2026; não certifica resultados relatados."
+      }
+    ],
+    "caveats": "Declarações autorais delimitadas; demais eixos desconhecidos. Revisão documental independente delimitada aceita; integração pelo Root pendente. ",
+    "rationale": "Declarações pessoais ou coautoria primária explícita; escopo delimitado.",
+    "vec": {
+      "est": 50,
+      "rep": 50,
+      "pod": 50,
+      "imi": 50,
+      "dip": 40,
+      "int": 50,
+      "eco": 60,
+      "con": 60,
+      "com": 40,
+      "rel": 50,
+      "mor": 50,
+      "tec": 60
+    },
+    "evidence": {
+      "eco": "medium",
+      "con": "medium",
+      "tec": "medium",
+      "com": "medium",
+      "dip": "medium"
+    },
+    "axisEvidence": {
+      "eco": {
+        "sourceTitles": [
+          "Prabowo Subianto — Davos 2026 special address, full transcript"
+        ],
+        "rationale": "Financiamento social público sustenta direção parcial. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Não certifica alcance numérico ou estatização completa."
+      },
+      "con": {
+        "sourceTitles": [
+          "Prabowo Subianto — Davos 2026 special address, full transcript"
+        ],
+        "rationale": "Coordenação pública de investimento sustenta planejamento parcial. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Também defende parceiros privados e simplificação regulatória."
+      },
+      "tec": {
+        "sourceTitles": [
+          "Prabowo Subianto — Davos 2026 special address, full transcript"
+        ],
+        "rationale": "Adoção digital educacional sustenta orientação parcial. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Não certifica implantação ou eficácia."
+      },
+      "com": {
+        "sourceTitles": [
+          "Prabowo Subianto — Davos 2026 special address, full transcript"
+        ],
+        "rationale": "Integração comercial explícita sustenta globalismo parcial. Codificação editorial moderate-second: âncora 40, faixa 30–45; a fonte não mede esse número. Limites: Também prioriza autossuficiência alimentar e energética."
+      },
+      "dip": {
+        "sourceTitles": [
+          "Prabowo Subianto — Davos 2026 special address, full transcript"
+        ],
+        "rationale": "Preferência explícita pela paz sustenta direção parcial. Codificação editorial moderate-second: âncora 40, faixa 30–45; a fonte não mede esse número. Limites: Não estabelece desarmamento absoluto ou ausência de força."
+      }
+    },
+    "coding": {
+      "eco": {
+        "axis": "eco",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Prabowo Subianto — Davos 2026 special address, full transcript",
+            "locator": "Free nutritious meals; free medical checkups",
+            "statement": "Defende refeições e exames médicos financiados por recursos públicos.",
+            "basis": "declaration",
+            "publishedDate": "2026-01-22",
+            "accessedDate": "2026-10-07"
+          }
+        ],
+        "rationale": "Financiamento social público sustenta direção parcial.",
+        "uncertainty": "Não certifica alcance numérico ou estatização completa.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      },
+      "con": {
+        "axis": "con",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Prabowo Subianto — Davos 2026 special address, full transcript",
+            "locator": "Danantara finance/co-finance industries of the future",
+            "statement": "Defende fundo soberano para direcionar financiamento industrial.",
+            "basis": "declaration",
+            "publishedDate": "2026-01-22",
+            "accessedDate": "2026-10-07"
+          }
+        ],
+        "rationale": "Coordenação pública de investimento sustenta planejamento parcial.",
+        "uncertainty": "Também defende parceiros privados e simplificação regulatória.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      },
+      "tec": {
+        "axis": "tec",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Prabowo Subianto — Davos 2026 special address, full transcript",
+            "locator": "Education digitalization, interactive smart panels",
+            "statement": "Defende ampliar equipamentos digitais interativos nas escolas.",
+            "basis": "declaration",
+            "publishedDate": "2026-01-22",
+            "accessedDate": "2026-10-07"
+          }
+        ],
+        "rationale": "Adoção digital educacional sustenta orientação parcial.",
+        "uncertainty": "Não certifica implantação ou eficácia.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      },
+      "com": {
+        "axis": "com",
+        "position": "moderate-second",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Prabowo Subianto — Davos 2026 special address, full transcript",
+            "locator": "Trade agreements; more deeply integrated global economy; reducing barriers",
+            "statement": "Defende acordos comerciais e redução de barreiras internacionais.",
+            "basis": "declaration",
+            "publishedDate": "2026-01-22",
+            "accessedDate": "2026-10-07"
+          }
+        ],
+        "rationale": "Integração comercial explícita sustenta globalismo parcial.",
+        "uncertainty": "Também prioriza autossuficiência alimentar e energética.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 40,
+        "range": [
+          30,
+          45
+        ]
+      },
+      "dip": {
+        "axis": "dip",
+        "position": "moderate-second",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Prabowo Subianto — Davos 2026 special address, full transcript",
+            "locator": "Conclusion, peace/friendship/collaboration over confrontation",
+            "statement": "Declara preferência por cooperação e amizade entre países.",
+            "basis": "declaration",
+            "publishedDate": "2026-01-22",
+            "accessedDate": "2026-10-07"
+          }
+        ],
+        "rationale": "Preferência explícita pela paz sustenta direção parcial.",
+        "uncertainty": "Não estabelece desarmamento absoluto ou ausência de força.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 40,
+        "range": [
+          30,
+          45
+        ]
+      }
+    }
+  },
+  {
+    "id": "friedrich-merz",
+    "name": "Friedrich Merz",
+    "kind": "person",
+    "category": "public-figure",
+    "period": "Declarações próprias14/05/2025 e23/06/2026",
+    "sources": [
+      {
+        "title": "Friedrich Merz — Regierungserklärung,14/05/2025, Bulletin34-3",
+        "url": "https://www.bundesregierung.de/breg-de/suche/regierungserklaerung-von-bundeskanzler-friedrich-merz-2347888",
+        "note": "Texto próprio completo, corpo124–243 realmente lido em alemão, data/autoria explícitas. Resumos governamentais e falas de ministros não substituem este corpo."
+      },
+      {
+        "title": "Friedrich Merz — Tag der Industrie,23/06/2026, transcrição integral",
+        "url": "https://www.bundesregierung.de/breg-de/aktuelles/kanzler-tag-der-industrie-2444560",
+        "note": "Transcrição própria128–201 realmente lida; cabeçalho109 identifica23/06/2026. Corpo comprova atividade datada, sem garantir resultados anunciados."
+      }
+    ],
+    "caveats": "Declarações próprias, sem imputação por cargo ou governo. Resultados autodeclarados não certificados. Eixos não codificados desconhecidos; revisão documental independente delimitada aceita.",
+    "rationale": "Declarações primárias próprias ou programa pessoalmente endossado; amplitude e limites explícitos.",
+    "vec": {
+      "est": 50,
+      "rep": 60,
+      "pod": 50,
+      "imi": 60,
+      "dip": 60,
+      "int": 50,
+      "eco": 50,
+      "con": 40,
+      "com": 40,
+      "rel": 50,
+      "mor": 50,
+      "tec": 60
+    },
+    "evidence": {
+      "rep": "medium",
+      "imi": "medium",
+      "dip": "medium",
+      "com": "medium",
+      "tec": "medium",
+      "con": "medium"
+    },
+    "axisEvidence": {
+      "rep": {
+        "sourceTitles": [
+          "Friedrich Merz — Regierungserklärung,14/05/2025, Bulletin34-3"
+        ],
+        "rationale": "Orientação democrática declarada. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Sem auditoria da prática ou direitos integrais de oposição."
+      },
+      "imi": {
+        "sourceTitles": [
+          "Friedrich Merz — Regierungserklärung,14/05/2025, Bulletin34-3"
+        ],
+        "rationale": "Orientação assimilacionista parcial. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Reconhece país de imigração e tratamento respeitoso; sem assimilação irrestrita."
+      },
+      "dip": {
+        "sourceTitles": [
+          "Friedrich Merz — Regierungserklärung,14/05/2025, Bulletin34-3"
+        ],
+        "rationale": "Defesa armada como estratégia de segurança. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Rejeita participação direta na guerra e pretende evitar uso das armas."
+      },
+      "com": {
+        "sourceTitles": [
+          "Friedrich Merz — Tag der Industrie,23/06/2026, transcrição integral"
+        ],
+        "rationale": "Orientação comercial aberta. Codificação editorial moderate-second: âncora 40, faixa 30–45; a fonte não mede esse número. Limites: Reconhece dependências estratégicas; resultados anunciados não certificados."
+      },
+      "tec": {
+        "sourceTitles": [
+          "Friedrich Merz — Tag der Industrie,23/06/2026, transcrição integral"
+        ],
+        "rationale": "Adoção multissetorial de tecnologias. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Objetivos não são execução; política climática e soberania condicionam adoção."
+      },
+      "con": {
+        "sourceTitles": [
+          "Friedrich Merz — Regierungserklärung,14/05/2025, Bulletin34-3",
+          "Friedrich Merz — Tag der Industrie,23/06/2026, transcrição integral"
+        ],
+        "rationale": "Mercados e incentivos orientam alocação. Codificação editorial moderate-second: âncora 40, faixa 30–45; a fonte não mede esse número. Limites: Investimento público subordinado ao maior investimento privado167–169; política tecnológica e garantias públicas2026,172–180. Sem ausência de intervenção estatal."
+      }
+    },
+    "coding": {
+      "rep": {
+        "axis": "rep",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Friedrich Merz — Regierungserklärung,14/05/2025, Bulletin34-3",
+            "locator": "Corpo132–135 e237–239: oposição e alternância democrática; debate",
+            "statement": "Valoriza oposição legítima, alternância pacífica e debate público.",
+            "basis": "declaration",
+            "publishedDate": "2025-05-14",
+            "accessedDate": "2026-10-07"
+          }
+        ],
+        "rationale": "Orientação democrática declarada.",
+        "uncertainty": "Sem auditoria da prática ou direitos integrais de oposição.",
+        "relatedQuestionIds": [
+          "representacao_03",
+          "representacao_19"
+        ],
+        "reviewedOn": "2026-10-08",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      },
+      "imi": {
+        "axis": "imi",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Friedrich Merz — Regierungserklärung,14/05/2025, Bulletin34-3",
+            "locator": "Corpo224–230: integração, idioma e valores comuns",
+            "statement": "Exige idioma e valores comuns para integração.",
+            "basis": "declaration",
+            "publishedDate": "2025-05-14",
+            "accessedDate": "2026-10-07"
+          }
+        ],
+        "rationale": "Orientação assimilacionista parcial.",
+        "uncertainty": "Reconhece país de imigração e tratamento respeitoso; sem assimilação irrestrita.",
+        "relatedQuestionIds": [
+          "imigracao_01"
+        ],
+        "reviewedOn": "2026-10-08",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      },
+      "dip": {
+        "axis": "dip",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Friedrich Merz — Regierungserklärung,14/05/2025, Bulletin34-3",
+            "locator": "Corpo149/156–162: dissuasão, recursos militares e serviço voluntário",
+            "statement": "Prioriza dissuasão militar, recursos para forças armadas e recrutamento voluntário.",
+            "basis": "declaration",
+            "publishedDate": "2025-05-14",
+            "accessedDate": "2026-10-07"
+          }
+        ],
+        "rationale": "Defesa armada como estratégia de segurança.",
+        "uncertainty": "Rejeita participação direta na guerra e pretende evitar uso das armas.",
+        "relatedQuestionIds": [
+          "diplomacia_01",
+          "diplomacia_03"
+        ],
+        "reviewedOn": "2026-10-08",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      },
+      "com": {
+        "axis": "com",
+        "position": "moderate-second",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Friedrich Merz — Tag der Industrie,23/06/2026, transcrição integral",
+            "locator": "Corpo147–154: acordos comerciais; compromisso próprio154",
+            "statement": "Defende acordos e continuidade do livre comércio internacional.",
+            "basis": "declaration",
+            "publishedDate": "2026-06-23",
+            "accessedDate": "2026-10-07"
+          }
+        ],
+        "rationale": "Orientação comercial aberta.",
+        "uncertainty": "Reconhece dependências estratégicas; resultados anunciados não certificados.",
+        "relatedQuestionIds": [
+          "comercio_02",
+          "comercio_09"
+        ],
+        "reviewedOn": "2026-10-08",
+        "version": "editorial-ordinal-v1",
+        "value": 40,
+        "range": [
+          30,
+          45
+        ]
+      },
+      "tec": {
+        "axis": "tec",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Friedrich Merz — Tag der Industrie,23/06/2026, transcrição integral",
+            "locator": "Corpo170–185: Hightech Agenda; aplicações e capacidades computacionais",
+            "statement": "Promove IA, biotecnologia, fusão e ampliação computacional.",
+            "basis": "declaration",
+            "publishedDate": "2026-06-23",
+            "accessedDate": "2026-10-07"
+          }
+        ],
+        "rationale": "Adoção multissetorial de tecnologias.",
+        "uncertainty": "Objetivos não são execução; política climática e soberania condicionam adoção.",
+        "relatedQuestionIds": [
+          "tecnologia_01",
+          "tecnologia_02"
+        ],
+        "reviewedOn": "2026-10-08",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      },
+      "con": {
+        "axis": "con",
+        "position": "moderate-second",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Friedrich Merz — Regierungserklärung,14/05/2025, Bulletin34-3",
+            "locator": "Corpo164/176/189–198/211: indústria, energia, trabalho e agricultura",
+            "statement": "Propõe desregulação multissetorial, preços de carbono via mercado e flexibilidade laboral.",
+            "basis": "declaration",
+            "publishedDate": "2025-05-14",
+            "accessedDate": "2026-10-07"
+          },
+          {
+            "sourceTitle": "Friedrich Merz — Tag der Industrie,23/06/2026, transcrição integral",
+            "locator": "Corpo172–180/186–187/194: apoio público e garantias; reforma regulatória; ordem de mercado",
+            "statement": "Elogia ordem de mercado e alívio regulatório, mantendo apoio público à inovação.",
+            "basis": "declaration",
+            "publishedDate": "2026-06-23",
+            "accessedDate": "2026-10-07"
+          }
+        ],
+        "rationale": "Mercados e incentivos orientam alocação.",
+        "uncertainty": "Investimento público subordinado ao maior investimento privado167–169; política tecnológica e garantias públicas2026,172–180. Sem ausência de intervenção estatal.",
+        "relatedQuestionIds": [
+          "controle_02",
+          "controle_04",
+          "controle_14"
+        ],
+        "reviewedOn": "2026-10-08",
+        "version": "editorial-ordinal-v1",
+        "value": 40,
+        "range": [
+          30,
+          45
+        ]
+      }
+    }
+  },
+  {
+    "id": "peter-obi",
+    "name": "Peter Obi",
+    "aliases": [
+      "Peter Gregory Onwubuasi Obi",
+      "Peter Gregory Obi"
+    ],
+    "kind": "person",
+    "category": "public-figure",
+    "period": "Programa eleitoral2023 endossado pessoalmente; atividade publicada21/08/2026, sem atualizar automaticamente posições",
+    "sources": [
+      {
+        "title": "Obi/Baba-Ahmed — Our Pact with Nigerians, campanha2023, PDF72p",
+        "url": "https://elections.civichive.org/wp-content/uploads/2022/12/Peter-Obi-2023-Presidential-Manifesto.pdf",
+        "note": "Programa primário arquivado pelo CivicHive;72p físicas, não resumo secundário. Autoria e compromisso pessoal de PeterObi nas p5/7; locais codificados efetivamente lidos. Nome do arquivo fonte03.12.22; não certifica dia editorial interno."
+      },
+      {
+        "title": "Peter Obi — discurso de campanha publicado em sua conta,21/08/2026",
+        "url": "https://www.linkedin.com/posts/peterobigregory_my-address-to-mark-the-commencement-of-the-activity-7496525769259544576-Tbdw",
+        "note": "Autor nominal e data explícita no corpo20; post e complementos do mesmo autor29–46 realmente lidos para atividade datada. Comentários de terceiros não usados. Conta nominal pública também atribuída a Obi em link efetivamente seguido do CFR27/04/2026; não certifica declarações ou estatísticas de terceiros."
+      },
+      {
+        "title": "CFR — atribuição externa da conta pública de Peter Obi,27/04/2026",
+        "url": "https://www.cfr.org/articles/the-political-education-of-peter-obi",
+        "note": "Fonte secundária usada só na verificação de identidade/conta: artigo datado, ligação16 efetivamente seguida ao mesmo perfil peterobigregory. Opiniões e alegações não usadas nos eixos."
+      },
+      {
+        "title": "Peter Obi — publicação da conta vinculada pelo CFR",
+        "url": "https://www.linkedin.com/posts/peterobigregory_nigeria-is-bleeding-from-within-it-is-deeply-share-7451264087566594048-dQBO/",
+        "note": "Ligação do CFR realmente seguida, autoria nominal17 e corpo20–23 lidos, mesma conta da publicação datada21/08/2026. Data relativa5mo não convertida em dia exato; conteúdo não codificado."
+      }
+    ],
+    "caveats": "Programa conjunto explicitamente endossado; posição da candidatura, não prática nem crença privada. Identidade atual via publicação nominal datada; sem autenticação externa da conta. Eixos não codificados desconhecidos; revisão documental independente delimitada aceita.",
+    "rationale": "Declarações primárias próprias ou programa pessoalmente endossado; amplitude e limites explícitos.",
+    "vec": {
+      "est": 60,
+      "rep": 60,
+      "pod": 50,
+      "imi": 50,
+      "dip": 50,
+      "int": 50,
+      "eco": 50,
+      "con": 50,
+      "com": 50,
+      "rel": 50,
+      "mor": 50,
+      "tec": 60
+    },
+    "evidence": {
+      "est": "medium",
+      "rep": "medium",
+      "tec": "medium"
+    },
+    "axisEvidence": {
+      "est": {
+        "sourceTitles": [
+          "Obi/Baba-Ahmed — Our Pact with Nigerians, campanha2023, PDF72p"
+        ],
+        "rationale": "Descentralização territorial e fiscal. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Consenso necessário; não defende independência dos estados."
+      },
+      "rep": {
+        "sourceTitles": [
+          "Obi/Baba-Ahmed — Our Pact with Nigerians, campanha2023, PDF72p"
+        ],
+        "rationale": "Limites democráticos ao executivo. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Programa conjunto explicitamente endossado, sem prática comprovada."
+      },
+      "tec": {
+        "sourceTitles": [
+          "Obi/Baba-Ahmed — Our Pact with Nigerians, campanha2023, PDF72p"
+        ],
+        "rationale": "Adoção tecnológica multissetorial. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Transição climática condiciona incentivos; metas não são resultados."
+      }
+    },
+    "coding": {
+      "est": {
+        "axis": "est",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Obi/Baba-Ahmed — Our Pact with Nigerians, campanha2023, PDF72p",
+            "locator": "PDFp26/30; linhas556–565/710–718",
+            "statement": "Propõe transferir competências e arrecadação aos estados.",
+            "basis": "declaration",
+            "publishedDate": "Campanha2023; arquivo03.12.22, dia editorial não certificado",
+            "accessedDate": "2026-10-07"
+          }
+        ],
+        "rationale": "Descentralização territorial e fiscal.",
+        "uncertainty": "Consenso necessário; não defende independência dos estados.",
+        "relatedQuestionIds": [
+          "estrutura_01",
+          "estrutura_03"
+        ],
+        "reviewedOn": "2026-10-08",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      },
+      "rep": {
+        "axis": "rep",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Obi/Baba-Ahmed — Our Pact with Nigerians, campanha2023, PDF72p",
+            "locator": "PDFp5/27–28;88–98/605–618/632–636",
+            "statement": "Defende separação de poderes, controle parlamentar e responsabilização executiva.",
+            "basis": "declaration",
+            "publishedDate": "Campanha2023; arquivo03.12.22, dia editorial não certificado",
+            "accessedDate": "2026-10-07"
+          }
+        ],
+        "rationale": "Limites democráticos ao executivo.",
+        "uncertainty": "Programa conjunto explicitamente endossado, sem prática comprovada.",
+        "relatedQuestionIds": [
+          "representacao_05",
+          "representacao_19"
+        ],
+        "reviewedOn": "2026-10-08",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      },
+      "tec": {
+        "axis": "tec",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Obi/Baba-Ahmed — Our Pact with Nigerians, campanha2023, PDF72p",
+            "locator": "PDFp33–34;769–790/803–817",
+            "statement": "Promove IA, robótica, biotecnologia e capacitação digital.",
+            "basis": "declaration",
+            "publishedDate": "Campanha2023; arquivo03.12.22, dia editorial não certificado",
+            "accessedDate": "2026-10-07"
+          }
+        ],
+        "rationale": "Adoção tecnológica multissetorial.",
+        "uncertainty": "Transição climática condiciona incentivos; metas não são resultados.",
+        "relatedQuestionIds": [
+          "tecnologia_01",
+          "tecnologia_02"
+        ],
+        "reviewedOn": "2026-10-08",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      }
+    }
+  },
+  {
+    "id": "atiku-abubakar",
+    "name": "Atiku Abubakar",
+    "aliases": [
+      "Alhaji Atiku Abubakar"
+    ],
+    "kind": "person",
+    "category": "public-figure",
+    "period": "Programa da campanha2023; atividade reportada28/05/2026 sem atualizar automaticamente posições",
+    "sources": [
+      {
+        "title": "Atiku Abubakar — My Covenant with Nigerians, programa da campanha2023, PDF74p",
+        "url": "https://elections.civichive.org/wp-content/uploads/2022/10/Atikus-5-Point-Development-Agenda-Abridged.pdf",
+        "note": "Programa primário arquivado pelo CivicHive; endosso pessoal p6 física57–66. Áreas indicadas efetivamente lidas; não alegamos leitura integral das74p. Hospedagem2022/10 não certifica dia editorial."
+      },
+      {
+        "title": "TheCable — atividade de Atiku Abubakar,28/05/2026",
+        "url": "https://www.thecable.ng/nobody-was-defeated-atiku-calls-for-unity-after-winning-adc-presidential-primary/",
+        "note": "Cabeçalho46 e corpo54–91 realmente lidos. Reportagem secundária usada exclusivamente para atividade/identidade em2026; acusações e resultado eleitoral não auditados nem codificados."
+      }
+    ],
+    "caveats": "Programa pessoalmente endossado, não prática ou crença privada. Data editorial exata não certificada. Identidade2026 documentada por reportagem; acusações não auditadas. Sete eixos desconhecidos; revisão documental independente delimitada.",
+    "rationale": "Programa pessoalmente endossado; orientação ampla e contrapontos explícitos.",
+    "vec": {
+      "est": 60,
+      "rep": 60,
+      "pod": 50,
+      "imi": 50,
+      "dip": 50,
+      "int": 50,
+      "eco": 40,
+      "con": 40,
+      "com": 50,
+      "rel": 50,
+      "mor": 50,
+      "tec": 60
+    },
+    "evidence": {
+      "est": "medium",
+      "rep": "medium",
+      "eco": "medium",
+      "con": "medium",
+      "tec": "medium"
+    },
+    "axisEvidence": {
+      "est": {
+        "sourceTitles": [
+          "Atiku Abubakar — My Covenant with Nigerians, programa da campanha2023, PDF74p"
+        ],
+        "rationale": "Federalismo descentralizado. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Mantém padrões e garantias federais1203–1205; sem secessão."
+      },
+      "rep": {
+        "sourceTitles": [
+          "Atiku Abubakar — My Covenant with Nigerians, programa da campanha2023, PDF74p"
+        ],
+        "rationale": "Orientação democrática ampla. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Programa normativo; prática não auditada."
+      },
+      "eco": {
+        "sourceTitles": [
+          "Atiku Abubakar — My Covenant with Nigerians, programa da campanha2023, PDF74p"
+        ],
+        "rationale": "Propriedade e provisão privadas multissetoriais. Codificação editorial moderate-second: âncora 40, faixa 30–45; a fonte não mede esse número. Limites: Regulação e PPP permanecem; não privatização universal."
+      },
+      "con": {
+        "sourceTitles": [
+          "Atiku Abubakar — My Covenant with Nigerians, programa da campanha2023, PDF74p"
+        ],
+        "rationale": "Alocação predominantemente por mercados. Codificação editorial moderate-second: âncora 40, faixa 30–45; a fonte não mede esse número. Limites: Planejamento, proteção seletiva e garantias públicas limitam a direção."
+      },
+      "tec": {
+        "sourceTitles": [
+          "Atiku Abubakar — My Covenant with Nigerians, programa da campanha2023, PDF74p"
+        ],
+        "rationale": "Adoção tecnológica ampla. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Objetivos não são execução nem apoio a qualquer tecnologia."
+      }
+    },
+    "coding": {
+      "est": {
+        "axis": "est",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Atiku Abubakar — My Covenant with Nigerians, programa da campanha2023, PDF74p",
+            "locator": "PDFp65 física1198–1215",
+            "statement": "Propõe devolução multissetorial de competências e autonomia financeira local.",
+            "basis": "declaration",
+            "publishedDate": "Campanha2023; arquivo hospedado2022/10, dia editorial não certificado",
+            "accessedDate": "2026-10-08"
+          }
+        ],
+        "rationale": "Federalismo descentralizado.",
+        "uncertainty": "Mantém padrões e garantias federais1203–1205; sem secessão.",
+        "relatedQuestionIds": [
+          "estrutura_03",
+          "estrutura_05",
+          "estrutura_19"
+        ],
+        "reviewedOn": "2026-10-08",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      },
+      "rep": {
+        "axis": "rep",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Atiku Abubakar — My Covenant with Nigerians, programa da campanha2023, PDF74p",
+            "locator": "PDFp62 física1110–1155; p71,1325–1327",
+            "statement": "Defende voto efetivo, participação contínua, transparência e separação de poderes.",
+            "basis": "declaration",
+            "publishedDate": "Campanha2023; arquivo hospedado2022/10, dia editorial não certificado",
+            "accessedDate": "2026-10-08"
+          }
+        ],
+        "rationale": "Orientação democrática ampla.",
+        "uncertainty": "Programa normativo; prática não auditada.",
+        "relatedQuestionIds": [
+          "representacao_07",
+          "representacao_19"
+        ],
+        "reviewedOn": "2026-10-08",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      },
+      "eco": {
+        "axis": "eco",
+        "position": "moderate-second",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Atiku Abubakar — My Covenant with Nigerians, programa da campanha2023, PDF74p",
+            "locator": "PDFp12–13 físicas80–112; p22,251–261",
+            "statement": "Prioriza liderança privada e quebra de monopólios em infraestrutura.",
+            "basis": "declaration",
+            "publishedDate": "Campanha2023; arquivo hospedado2022/10, dia editorial não certificado",
+            "accessedDate": "2026-10-08"
+          }
+        ],
+        "rationale": "Propriedade e provisão privadas multissetoriais.",
+        "uncertainty": "Regulação e PPP permanecem; não privatização universal.",
+        "relatedQuestionIds": [
+          "economia_02",
+          "economia_03",
+          "economia_06"
+        ],
+        "reviewedOn": "2026-10-08",
+        "version": "editorial-ordinal-v1",
+        "value": 40,
+        "range": [
+          30,
+          45
+        ]
+      },
+      "con": {
+        "axis": "con",
+        "position": "moderate-second",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Atiku Abubakar — My Covenant with Nigerians, programa da campanha2023, PDF74p",
+            "locator": "PDFp12 física80–91; p19,186–203; p30,429–466; p36,559–573",
+            "statement": "Prioriza preços de mercado e desregulação, com incentivos públicos delimitados.",
+            "basis": "declaration",
+            "publishedDate": "Campanha2023; arquivo hospedado2022/10, dia editorial não certificado",
+            "accessedDate": "2026-10-08"
+          }
+        ],
+        "rationale": "Alocação predominantemente por mercados.",
+        "uncertainty": "Planejamento, proteção seletiva e garantias públicas limitam a direção.",
+        "relatedQuestionIds": [
+          "controle_02",
+          "controle_04",
+          "controle_17"
+        ],
+        "reviewedOn": "2026-10-08",
+        "version": "editorial-ordinal-v1",
+        "value": 40,
+        "range": [
+          30,
+          45
+        ]
+      },
+      "tec": {
+        "axis": "tec",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Atiku Abubakar — My Covenant with Nigerians, programa da campanha2023, PDF74p",
+            "locator": "PDFp14 física125–127; p33,501–523",
+            "statement": "Promove software, digitalização governamental, formação e aplicações multissetoriais.",
+            "basis": "declaration",
+            "publishedDate": "Campanha2023; arquivo hospedado2022/10, dia editorial não certificado",
+            "accessedDate": "2026-10-08"
+          }
+        ],
+        "rationale": "Adoção tecnológica ampla.",
+        "uncertainty": "Objetivos não são execução nem apoio a qualquer tecnologia.",
+        "relatedQuestionIds": [
+          "tecnologia_01",
+          "tecnologia_02"
+        ],
+        "reviewedOn": "2026-10-08",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      }
+    }
+  },
+  {
+    "id": "andrej-babis",
+    "name": "Andrej Babiš",
+    "aliases": [
+      "Andrej Babis"
+    ],
+    "kind": "person",
+    "category": "public-figure",
+    "period": "Programa coletivo explicitamente endossado05/01/2026",
+    "sources": [
+      {
+        "title": "Andrej Babiš — programa governamental pessoalmente endossado,05/01/2026",
+        "url": "https://vlada.gov.cz/cz/vlada/programove-prohlaseni/programove-prohlaseni-vlady-224629/",
+        "note": "Programa coletivo oficial05/01/2026 pessoalmente endossado na coletiva própria36/41. Áreas codificadas e contrapontos efetivamente lidos; não relatório de execução nem leitura integral."
+      },
+      {
+        "title": "Andrej Babiš — coletiva própria05/01/2026",
+        "url": "https://vlada.gov.cz/cz/media-centrum/tiskove-konference/tiskova-konference-po-jednani-vlady--5--ledna-2026-224664/",
+        "note": "Data35, falas próprias36–53/98–103 realmente lidas: endosso36/41 e atividade2026. Falas de ministros55–93 não atribuídas a Babiš."
+      }
+    ],
+    "caveats": "Programa coletivo pessoalmente endossado; não prática auditada ou opinião privada. Sem atribuir falas de ministros. Nove eixos desconhecidos; revisão documental independente delimitada.",
+    "rationale": "Programa pessoalmente endossado; orientação ampla e contrapontos explícitos.",
+    "vec": {
+      "est": 50,
+      "rep": 60,
+      "pod": 50,
+      "imi": 50,
+      "dip": 60,
+      "int": 50,
+      "eco": 50,
+      "con": 50,
+      "com": 50,
+      "rel": 50,
+      "mor": 50,
+      "tec": 60
+    },
+    "evidence": {
+      "rep": "medium",
+      "dip": "medium",
+      "tec": "medium"
+    },
+    "axisEvidence": {
+      "rep": {
+        "sourceTitles": [
+          "Andrej Babiš — programa governamental pessoalmente endossado,05/01/2026"
+        ],
+        "rationale": "Orientação democrática declarada. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Referendo exclui EU/NATO294; restrição ao financiamento político de ONGs123–124; não prática certificada."
+      },
+      "dip": {
+        "sourceTitles": [
+          "Andrej Babiš — programa governamental pessoalmente endossado,05/01/2026"
+        ],
+        "rationale": "Segurança por defesa armada. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Limites207–213 e diplomacia249;211 rejeita mudança sistêmica de tamanho, enquanto220 amplia pessoal."
+      },
+      "tec": {
+        "sourceTitles": [
+          "Andrej Babiš — programa governamental pessoalmente endossado,05/01/2026"
+        ],
+        "rationale": "Adoção tecnológica multissetorial. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Proteção seletiva ambiental619–651; regras éticas e alternativa não digital835/849/854."
+      }
+    },
+    "coding": {
+      "rep": {
+        "axis": "rep",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Andrej Babiš — programa governamental pessoalmente endossado,05/01/2026",
+            "locator": "Corpo186–188/291/294/693; endosso próprio36/41",
+            "statement": "Defende referendo, expressão livre e independência dos meios públicos.",
+            "basis": "declaration",
+            "publishedDate": "2026-01-05",
+            "accessedDate": "2026-10-08"
+          }
+        ],
+        "rationale": "Orientação democrática declarada.",
+        "uncertainty": "Referendo exclui EU/NATO294; restrição ao financiamento político de ONGs123–124; não prática certificada.",
+        "relatedQuestionIds": [
+          "representacao_03",
+          "representacao_09",
+          "representacao_19"
+        ],
+        "reviewedOn": "2026-10-08",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      },
+      "dip": {
+        "axis": "dip",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Andrej Babiš — programa governamental pessoalmente endossado,05/01/2026",
+            "locator": "Corpo201–219/249; endosso próprio36/41",
+            "statement": "Prioriza capacidades militares nacionais e compromissos de defesa aliados.",
+            "basis": "declaration",
+            "publishedDate": "2026-01-05",
+            "accessedDate": "2026-10-08"
+          }
+        ],
+        "rationale": "Segurança por defesa armada.",
+        "uncertainty": "Limites207–213 e diplomacia249;211 rejeita mudança sistêmica de tamanho, enquanto220 amplia pessoal.",
+        "relatedQuestionIds": [
+          "diplomacia_01",
+          "diplomacia_03"
+        ],
+        "reviewedOn": "2026-10-08",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      },
+      "tec": {
+        "axis": "tec",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Andrej Babiš — programa governamental pessoalmente endossado,05/01/2026",
+            "locator": "Corpo310–312/554–555/619–651/835–869; endosso próprio36/41",
+            "statement": "Promove nuclear, IA em saúde/indústria e automação pública.",
+            "basis": "declaration",
+            "publishedDate": "2026-01-05",
+            "accessedDate": "2026-10-08"
+          }
+        ],
+        "rationale": "Adoção tecnológica multissetorial.",
+        "uncertainty": "Proteção seletiva ambiental619–651; regras éticas e alternativa não digital835/849/854.",
+        "relatedQuestionIds": [
+          "tecnologia_01",
+          "tecnologia_02"
+        ],
+        "reviewedOn": "2026-10-08",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      }
+    }
+  },
+  {
+    "id": "na-hillary-clinton",
+    "name": "Hillary Clinton",
+    "aliases": [
+      "Hillary Rodham Clinton",
+      "Hillary Clinton",
+      "hillary-clinton"
+    ],
+    "kind": "person",
+    "category": "public-figure",
+    "period": "Discurso próprio28/07/2016 e plataforma coletiva endossada; atividade verificada22/09/2026",
+    "sources": [
+      {
+        "title": "2016 Democratic Party Platform, seção de propostas da candidata",
+        "url": "https://www.presidency.ucsb.edu/documents/2016-democratic-party-platform",
+        "note": "Texto integral da plataforma da candidatura presidencial de Clinton; é programa eleitoral explicitamente endossado pela candidata."
+      },
+      {
+        "title": "Hillary Clinton — aceitação da candidatura,28/07/2016",
+        "url": "https://www.presidency.ucsb.edu/documents/address-accepting-the-presidential-nomination-the-democratic-national-convention",
+        "note": "Discurso próprio integral15–248 lido; endosso pessoal da plataforma coletiva44. Declaração eleitoral2016, não prática."
+      },
+      {
+        "title": "Hillary Clinton — Reuters, atividade22/09/2026",
+        "url": "https://www.reutersconnect.com/item/former-united-states-secretary-of-state-hillary-clinton-speaks-during-the-clinton-global-initiative-2026-annual-meeting-in-new-york-city/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1JDMkRPTkExNzZHSg",
+        "note": "Legenda/body26/33–35 e crédito54–66 lidos; identidade/atividade2026 somente. Imagem não certificada visualmente; não propostas atualizadas."
+      }
+    ],
+    "caveats": "Recorte eleitoral2016, não opinião medida2026 ou realizações auditadas. Fonte coletiva pessoalmente endossada; antigo vetor genérico arquivado, sem recertificação. Seis eixos desconhecidos; revisão documental independente delimitada aceita pelo Root.",
+    "rationale": "Programa pessoalmente endossado; orientação ampla e contrapontos explícitos.",
+    "vec": {
+      "est": 50,
+      "rep": 60,
+      "pod": 40,
+      "imi": 40,
+      "dip": 60,
+      "int": 40,
+      "eco": 50,
+      "con": 50,
+      "com": 50,
+      "rel": 50,
+      "mor": 60,
+      "tec": 50
+    },
+    "evidence": {
+      "rep": "medium",
+      "pod": "medium",
+      "imi": "medium",
+      "dip": "medium",
+      "int": "medium",
+      "mor": "medium"
+    },
+    "axisEvidence": {
+      "rep": {
+        "sourceTitles": [
+          "Hillary Clinton — aceitação da candidatura,28/07/2016"
+        ],
+        "rationale": "Participação constitucional democrática. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Propostas de campanha, não desempenho institucional certificado."
+      },
+      "pod": {
+        "sourceTitles": [
+          "2016 Democratic Party Platform, seção de propostas da candidata"
+        ],
+        "rationale": "Liberdades e limites coercivos. Codificação editorial moderate-second: âncora 40, faixa 30–45; a fonte não mede esse número. Limites: Contrapontos: inteligência493 e armas453; discurso próprio219–225. Tortura rejeitada497/563."
+      },
+      "imi": {
+        "sourceTitles": [
+          "2016 Democratic Party Platform, seção de propostas da candidata"
+        ],
+        "rationale": "Pluralismo cultural declarado. Codificação editorial moderate-second: âncora 40, faixa 30–45; a fonte não mede esse número. Limites: Língua inglesa204 e imigração legal limitada197 persistem."
+      },
+      "dip": {
+        "sourceTitles": [
+          "2016 Democratic Party Platform, seção de propostas da candidata"
+        ],
+        "rationale": "Capacitação militar nacional. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Último recurso461/489, eficiência474 e redução nuclear524–526, mantendo dissuasão."
+      },
+      "int": {
+        "sourceTitles": [
+          "Hillary Clinton — aceitação da candidatura,28/07/2016",
+          "2016 Democratic Party Platform, seção de propostas da candidata"
+        ],
+        "rationale": "Intervenção externa delimitada. Codificação editorial moderate-second: âncora 40, faixa 30–45; a fonte não mede esse número. Limites: Negociação e autodeterminação569; exclui grandes destacamentos495."
+      },
+      "mor": {
+        "sourceTitles": [
+          "Hillary Clinton — aceitação da candidatura,28/07/2016",
+          "2016 Democratic Party Platform, seção de propostas da candidata"
+        ],
+        "rationale": "Reforma social progressista. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Direitos propostos, não garantias de execução ou toda opinião privada."
+      }
+    },
+    "coding": {
+      "rep": {
+        "axis": "rep",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Hillary Clinton — aceitação da candidatura,28/07/2016",
+            "locator": "Corpo71/106/130–133/227",
+            "statement": "Defende limites ao poder pessoal e expansão do voto e direitos.",
+            "basis": "declaration",
+            "publishedDate": "2016-07-28",
+            "accessedDate": "2026-10-08"
+          }
+        ],
+        "rationale": "Participação constitucional democrática.",
+        "uncertainty": "Propostas de campanha, não desempenho institucional certificado.",
+        "relatedQuestionIds": [
+          "representacao_01",
+          "representacao_19"
+        ],
+        "reviewedOn": "2026-10-08",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      },
+      "pod": {
+        "axis": "pod",
+        "position": "moderate-second",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "2016 Democratic Party Platform, seção de propostas da candidata",
+            "locator": "Corpo183–193/520/563–565; endosso próprio44",
+            "statement": "Limita força policial e vigilância sem mandado/coleta em massa; rejeita pena de morte e detenção indefinida.",
+            "basis": "declaration",
+            "publishedDate": "2016-07-21 — data editorial exibida APP; plataforma endossada28/07/2016",
+            "accessedDate": "2026-10-08"
+          }
+        ],
+        "rationale": "Liberdades e limites coercivos.",
+        "uncertainty": "Contrapontos: inteligência493 e armas453; discurso próprio219–225. Tortura rejeitada497/563.",
+        "relatedQuestionIds": [
+          "poder_01",
+          "poder_15",
+          "poder_19"
+        ],
+        "reviewedOn": "2026-10-08",
+        "version": "editorial-ordinal-v1",
+        "value": 40,
+        "range": [
+          30,
+          45
+        ]
+      },
+      "imi": {
+        "axis": "imi",
+        "position": "moderate-second",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "2016 Democratic Party Platform, seção de propostas da candidata",
+            "locator": "Corpo35/204/215; endosso próprio44",
+            "statement": "Valoriza diversidade e integração culturalmente apropriada.",
+            "basis": "declaration",
+            "publishedDate": "2016-07-21 — data editorial exibida APP; plataforma endossada28/07/2016",
+            "accessedDate": "2026-10-08"
+          }
+        ],
+        "rationale": "Pluralismo cultural declarado.",
+        "uncertainty": "Língua inglesa204 e imigração legal limitada197 persistem.",
+        "relatedQuestionIds": [
+          "imigracao_04",
+          "imigracao_06"
+        ],
+        "reviewedOn": "2026-10-08",
+        "version": "editorial-ordinal-v1",
+        "value": 40,
+        "range": [
+          30,
+          45
+        ]
+      },
+      "dip": {
+        "axis": "dip",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "2016 Democratic Party Platform, seção de propostas da candidata",
+            "locator": "Corpo461/471–474; endosso próprio44",
+            "statement": "Mantém força militar mundialmente superior e prontidão financiada.",
+            "basis": "declaration",
+            "publishedDate": "2016-07-21 — data editorial exibida APP; plataforma endossada28/07/2016",
+            "accessedDate": "2026-10-08"
+          }
+        ],
+        "rationale": "Capacitação militar nacional.",
+        "uncertainty": "Último recurso461/489, eficiência474 e redução nuclear524–526, mantendo dissuasão.",
+        "relatedQuestionIds": [
+          "diplomacia_01",
+          "diplomacia_05"
+        ],
+        "reviewedOn": "2026-10-08",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      },
+      "int": {
+        "axis": "int",
+        "position": "moderate-second",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Hillary Clinton — aceitação da candidatura,28/07/2016",
+            "locator": "Corpo202–203/215",
+            "statement": "Propõe ataques aéreos externos e apoio armado aliado.",
+            "basis": "declaration",
+            "publishedDate": "2016-07-28",
+            "accessedDate": "2026-10-08"
+          },
+          {
+            "sourceTitle": "2016 Democratic Party Platform, seção de propostas da candidata",
+            "locator": "Corpo501–508/569; endosso próprio44",
+            "statement": "Mantém presença externa limitada e ação militar condicional.",
+            "basis": "declaration",
+            "publishedDate": "2016-07-21 — data editorial exibida APP; plataforma endossada28/07/2016",
+            "accessedDate": "2026-10-08"
+          }
+        ],
+        "rationale": "Intervenção externa delimitada.",
+        "uncertainty": "Negociação e autodeterminação569; exclui grandes destacamentos495.",
+        "relatedQuestionIds": [
+          "intervencao_02",
+          "intervencao_04"
+        ],
+        "reviewedOn": "2026-10-08",
+        "version": "editorial-ordinal-v1",
+        "value": 40,
+        "range": [
+          30,
+          45
+        ]
+      },
+      "mor": {
+        "axis": "mor",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Hillary Clinton — aceitação da candidatura,28/07/2016",
+            "locator": "Corpo154/156/227",
+            "statement": "Defende autonomia reprodutiva, igualdade salarial e direitos LGBT.",
+            "basis": "declaration",
+            "publishedDate": "2016-07-28",
+            "accessedDate": "2026-10-08"
+          },
+          {
+            "sourceTitle": "2016 Democratic Party Platform, seção de propostas da candidata",
+            "locator": "Corpo221–223/432–436; endosso próprio44",
+            "statement": "Defende casamento igualitário, reconhecimento trans e aborto legal.",
+            "basis": "declaration",
+            "publishedDate": "2016-07-21 — data editorial exibida APP; plataforma endossada28/07/2016",
+            "accessedDate": "2026-10-08"
+          }
+        ],
+        "rationale": "Reforma social progressista.",
+        "uncertainty": "Direitos propostos, não garantias de execução ou toda opinião privada.",
+        "relatedQuestionIds": [
+          "moral_03",
+          "moral_06",
+          "moral_09"
+        ],
+        "reviewedOn": "2026-10-08",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      }
+    }
+  },
+  {
+    "id": "marine-le-pen",
+    "name": "Marine Le Pen",
+    "aliases": [
+      "Marine Lepen"
+    ],
+    "kind": "person",
+    "category": "public-figure",
+    "period": "Programa presidencial próprio2022; identidade/atividade verificada21/09/2026",
+    "sources": [
+      {
+        "title": "Marine Le Pen —22 mesures pour2022, programa presidencial próprio",
+        "url": "https://mlafrance.fr/pdfs/22-mesures-pour-2022.pdf",
+        "note": "Programa próprio2022, PDF8p; corpo textual0–211 lido; dia editorial não certificado."
+      },
+      {
+        "title": "Marine Le Pen — espelho oficial22 mesures",
+        "url": "https://rassemblementnational.fr/22-mesures",
+        "note": "Espelho oficial100–198 lido, confirma atribuição pessoal2022; mesma evidência, não confirmação independente."
+      },
+      {
+        "title": "Marine Le Pen — controle da imigração, livreto presidencial2022",
+        "url": "https://rassemblementnational.fr/documents/projet/projet-controle-de-limmigration.pdf",
+        "note": "PDF46p, áreas24–31/449–590 efetivamente lidas; não leitura integral."
+      },
+      {
+        "title": "Marine Le Pen — segurança, livreto presidencial2022",
+        "url": "https://rassemblementnational.fr/documents/projet/projet-la-securite.pdf",
+        "note": "PDF24p, áreas0–459/470–613/637–740 lidas; propostas/alegações próprias, não prática verificada."
+      },
+      {
+        "title": "Marine Le Pen — ecologia, livreto presidencial2022",
+        "url": "https://rassemblementnational.fr/documents/projet/projet-lecologie.pdf",
+        "note": "PDF18p, áreas0–562 lidas, com contrapontos ambientais; dia editorial não certificado."
+      },
+      {
+        "title": "Marine Le Pen — carta própria aos profissionais imobiliários,21/09/2026",
+        "url": "https://rassemblementnational.fr/post/lettre-ouverte-de-marine-le-pen-aux-professionnels-de-limmobilier",
+        "note": "Autoria/data100–105 e corpo107–146 lidos; identidade/atividade2026 somente, não atualização das posições2022."
+      }
+    ],
+    "caveats": "Declarações eleitorais2022, não prática nem posições medidas2026. Estatísticas dos livretos não auditadas. Sete eixos desconhecidos; tecnologia permanece pesquisa contraditória. Revisão documental delimitada aceita pela revisão independente e pelo Root.",
+    "rationale": "Programa pessoalmente endossado; orientação ampla e contrapontos explícitos.",
+    "vec": {
+      "est": 50,
+      "rep": 60,
+      "pod": 60,
+      "imi": 60,
+      "dip": 60,
+      "int": 50,
+      "eco": 50,
+      "con": 50,
+      "com": 60,
+      "rel": 50,
+      "mor": 50,
+      "tec": 50
+    },
+    "evidence": {
+      "rep": "medium",
+      "pod": "medium",
+      "imi": "medium",
+      "dip": "medium",
+      "com": "medium"
+    },
+    "axisEvidence": {
+      "rep": {
+        "sourceTitles": [
+          "Marine Le Pen —22 mesures pour2022, programa presidencial próprio"
+        ],
+        "rationale": "Participação eleitoral e direta proposta. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Controle judicial limitado na reforma migratória480–483/577–590; restrição de publicações643–673 no livreto segurança. Não certifica todos os direitos oposicionistas ou execução."
+      },
+      "pod": {
+        "sourceTitles": [
+          "Marine Le Pen —22 mesures pour2022, programa presidencial próprio",
+          "Marine Le Pen — segurança, livreto presidencial2022"
+        ],
+        "rationale": "Autoridade coerciva para segurança. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Reinserção261–267, proporcionalidade411–423 e culpa comprovada528–531 preservadas; não apoio presumido à detenção sem julgamento."
+      },
+      "imi": {
+        "sourceTitles": [
+          "Marine Le Pen —22 mesures pour2022, programa presidencial próprio",
+          "Marine Le Pen — controle da imigração, livreto presidencial2022"
+        ],
+        "rationale": "Assimilação cultural declarada. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Descreve proposta constitucional e costumes, não apenas fronteiras; não certifica efeitos ou estatísticas demográficas."
+      },
+      "dip": {
+        "sourceTitles": [
+          "Marine Le Pen —22 mesures pour2022, programa presidencial próprio"
+        ],
+        "rationale": "Defesa armada como garantia nacional. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Limita-se à capacitação/independência; não autoriza inferir guerra preventiva, uso nuclear ou intervenção externa."
+      },
+      "com": {
+        "sourceTitles": [
+          "Marine Le Pen —22 mesures pour2022, programa presidencial próprio"
+        ],
+        "rationale": "Proteção comercial declarada. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Normas agrícolas e revisão de acordos, não autarquia total ou tarifa universal; livretoecologia358–363 admite diversificar fornecedores."
+      }
+    },
+    "coding": {
+      "rep": {
+        "axis": "rep",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Marine Le Pen —22 mesures pour2022, programa presidencial próprio",
+            "locator": "Medida11; PDFphysicalp5, linhas106",
+            "statement": "Propõe referendo de iniciativa cidadã e representação proporcional.",
+            "basis": "declaration",
+            "publishedDate": "Programa presidencial2022; dia editorial não certificado",
+            "accessedDate": "2026-10-08"
+          }
+        ],
+        "rationale": "Participação eleitoral e direta proposta.",
+        "uncertainty": "Controle judicial limitado na reforma migratória480–483/577–590; restrição de publicações643–673 no livreto segurança. Não certifica todos os direitos oposicionistas ou execução.",
+        "relatedQuestionIds": [
+          "representacao_09"
+        ],
+        "reviewedOn": "2026-10-08",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      },
+      "pod": {
+        "axis": "pod",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Marine Le Pen —22 mesures pour2022, programa presidencial próprio",
+            "locator": "Medida3; PDFphysicalp2, linhas22–36",
+            "statement": "Amplia prisão e presunção de legítima defesa policial.",
+            "basis": "declaration",
+            "publishedDate": "Programa presidencial2022; dia editorial não certificado",
+            "accessedDate": "2026-10-08"
+          },
+          {
+            "sourceTitle": "Marine Le Pen — segurança, livreto presidencial2022",
+            "locator": "Physicalp7–8, linhas76–97; p21,643–673; p11,211–227",
+            "statement": "Defende força policial e proibição de publicações ideológicas, com sanção à posse de drogas.",
+            "basis": "declaration",
+            "publishedDate": "Programa presidencial2022; dia editorial não certificado",
+            "accessedDate": "2026-10-08"
+          }
+        ],
+        "rationale": "Autoridade coerciva para segurança.",
+        "uncertainty": "Reinserção261–267, proporcionalidade411–423 e culpa comprovada528–531 preservadas; não apoio presumido à detenção sem julgamento.",
+        "relatedQuestionIds": [
+          "poder_01",
+          "poder_04",
+          "poder_06"
+        ],
+        "reviewedOn": "2026-10-08",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      },
+      "imi": {
+        "axis": "imi",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Marine Le Pen —22 mesures pour2022, programa presidencial próprio",
+            "locator": "Medida1; PDFphysicalp2,18–20",
+            "statement": "Condiciona naturalização à assimilação.",
+            "basis": "declaration",
+            "publishedDate": "Programa presidencial2022; dia editorial não certificado",
+            "accessedDate": "2026-10-08"
+          },
+          {
+            "sourceTitle": "Marine Le Pen — controle da imigração, livreto presidencial2022",
+            "locator": "Physicalp16–18,503–505/526–559",
+            "statement": "Exige língua e costumes nacionais e substitui ensino de cultura de origem.",
+            "basis": "declaration",
+            "publishedDate": "Programa presidencial2022; dia editorial não certificado",
+            "accessedDate": "2026-10-08"
+          }
+        ],
+        "rationale": "Assimilação cultural declarada.",
+        "uncertainty": "Descreve proposta constitucional e costumes, não apenas fronteiras; não certifica efeitos ou estatísticas demográficas.",
+        "relatedQuestionIds": [
+          "imigracao_01",
+          "imigracao_06",
+          "imigracao_07"
+        ],
+        "reviewedOn": "2026-10-08",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      },
+      "dip": {
+        "axis": "dip",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Marine Le Pen —22 mesures pour2022, programa presidencial próprio",
+            "locator": "Medida20; PDFphysicalp7,197–203",
+            "statement": "Amplia orçamento e equipamento militar para proteger interesses nacionais.",
+            "basis": "declaration",
+            "publishedDate": "Programa presidencial2022; dia editorial não certificado",
+            "accessedDate": "2026-10-08"
+          }
+        ],
+        "rationale": "Defesa armada como garantia nacional.",
+        "uncertainty": "Limita-se à capacitação/independência; não autoriza inferir guerra preventiva, uso nuclear ou intervenção externa.",
+        "relatedQuestionIds": [
+          "diplomacia_01",
+          "diplomacia_05"
+        ],
+        "reviewedOn": "2026-10-08",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      },
+      "com": {
+        "axis": "com",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Marine Le Pen —22 mesures pour2022, programa presidencial próprio",
+            "locator": "Medidas13/18; PDFphysicalp5/7,122–125/186–188",
+            "statement": "Restringe importações agrícolas e revê livre-comércio para proteção nacional.",
+            "basis": "declaration",
+            "publishedDate": "Programa presidencial2022; dia editorial não certificado",
+            "accessedDate": "2026-10-08"
+          }
+        ],
+        "rationale": "Proteção comercial declarada.",
+        "uncertainty": "Normas agrícolas e revisão de acordos, não autarquia total ou tarifa universal; livretoecologia358–363 admite diversificar fornecedores.",
+        "relatedQuestionIds": [
+          "comercio_04",
+          "comercio_07"
+        ],
+        "reviewedOn": "2026-10-08",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      }
+    }
+  },
+  {
+    "id": "jeannette-jara",
+    "name": "Jeannette Jara",
+    "aliases": [
+      "Jeannette Jara Román",
+      "Jeannette Jara Roman"
+    ],
+    "kind": "person",
+    "category": "public-figure",
+    "period": "Lineamientos próprios endossados, agosto2025; identidade/atividade01/09/2026",
+    "sources": [
+      {
+        "title": "Jeannette Jara — Un Chile que cumple, agosto2025",
+        "url": "https://centrocompetencia.com/wp-content/uploads/2025/09/Programa_Jeannette_Jara_2025.pdf",
+        "note": "PDF62p; capa, apresentação assinada e áreas delimitadas lidas; edição agosto2025, sem dia certificado. Escopo exato no relatório."
+      },
+      {
+        "title": "PC Chile — apresentação do programa,18/08/2025",
+        "url": "https://pcchile.cl/2025/08/18/lineamientos-programaticos-jeannette-jara-2025/",
+        "note": "Cabeçalho21–23 e corpo29–30 lidos: publicação/atribuição apenas."
+      },
+      {
+        "title": "BioBioChile — atividade de Jeannette Jara,01/09/2026",
+        "url": "https://www.biobiochile.cl/noticias/nacional/chile/2026/09/01/jeannette-jara-celebra-alza-de-la-pgu-y-acusa-a-republicanos-de-celebrar-hoy-lo-que-antes-rechazaron.shtml",
+        "note": "Data103 e corpo136–153 lidos: identidade/atividade apenas; resumo IA134–135 excluído; fotografia de arquivo não certificada."
+      }
+    ],
+    "caveats": "Programa declarado e datado, não prática ou opinião medida2026. Oito eixos desconhecidos. Edições de maio/outubro não amalgamadas. Revisão documental delimitada aceita pela revisão independente e pelo Root.",
+    "rationale": "Programa pessoalmente endossado; orientação ampla e contrapontos explícitos.",
+    "vec": {
+      "est": 50,
+      "rep": 60,
+      "pod": 60,
+      "imi": 50,
+      "dip": 50,
+      "int": 50,
+      "eco": 50,
+      "con": 50,
+      "com": 40,
+      "rel": 50,
+      "mor": 50,
+      "tec": 60
+    },
+    "evidence": {
+      "rep": "medium",
+      "pod": "medium",
+      "com": "medium",
+      "tec": "medium"
+    },
+    "axisEvidence": {
+      "rep": {
+        "sourceTitles": [
+          "Jeannette Jara — Un Chile que cumple, agosto2025"
+        ],
+        "rationale": "Democracia plural declarada. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Não certifica toda regra eleitoral ou execução."
+      },
+      "pod": {
+        "sourceTitles": [
+          "Jeannette Jara — Un Chile que cumple, agosto2025"
+        ],
+        "rationale": "Coerção estatal de segurança. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Proteção de dados829, controle civil910 e reinserção922/937 limitam poder."
+      },
+      "com": {
+        "sourceTitles": [
+          "Jeannette Jara — Un Chile que cumple, agosto2025"
+        ],
+        "rationale": "Abertura comercial programática. Codificação editorial moderate-second: âncora 40, faixa 30–45; a fonte não mede esse número. Limites: Promoção produtiva seletiva562–595; não tarifa zero."
+      },
+      "tec": {
+        "sourceTitles": [
+          "Jeannette Jara — Un Chile que cumple, agosto2025"
+        ],
+        "rationale": "Adoção tecnológica em vários setores. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Proteção ambiental159/341–344 e crise climática106/127; não aceitação irrestrita."
+      }
+    },
+    "coding": {
+      "rep": {
+        "axis": "rep",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Jeannette Jara — Un Chile que cumple, agosto2025",
+            "locator": "Physicalp3–4,26–38; p7,101–115",
+            "statement": "Defende participação democrática e diálogo entre posições divergentes contra soluções autoritárias.",
+            "basis": "declaration",
+            "publishedDate": "Agosto2025 — edição assinada; apresentação18/08/2025",
+            "accessedDate": "2026-10-08"
+          }
+        ],
+        "rationale": "Democracia plural declarada.",
+        "uncertainty": "Não certifica toda regra eleitoral ou execução.",
+        "relatedQuestionIds": [
+          "representacao_19",
+          "representacao_20"
+        ],
+        "reviewedOn": "2026-10-08",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      },
+      "pod": {
+        "axis": "pod",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Jeannette Jara — Un Chile que cumple, agosto2025",
+            "locator": "Physicalp25–30,772–790/823–829/871–890/927–942",
+            "statement": "Amplia controle de armas, vigilância biométrica, investigação financeira e prisões.",
+            "basis": "declaration",
+            "publishedDate": "Agosto2025 — edição assinada; apresentação18/08/2025",
+            "accessedDate": "2026-10-08"
+          }
+        ],
+        "rationale": "Coerção estatal de segurança.",
+        "uncertainty": "Proteção de dados829, controle civil910 e reinserção922/937 limitam poder.",
+        "relatedQuestionIds": [
+          "poder_05",
+          "poder_09",
+          "poder_18"
+        ],
+        "reviewedOn": "2026-10-08",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      },
+      "com": {
+        "axis": "com",
+        "position": "moderate-second",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Jeannette Jara — Un Chile que cumple, agosto2025",
+            "locator": "Physicalp9,177–182; p19–20,538–596",
+            "statement": "Preserva acordos comerciais, amplia mercados e facilita comércio internacional.",
+            "basis": "declaration",
+            "publishedDate": "Agosto2025 — edição assinada; apresentação18/08/2025",
+            "accessedDate": "2026-10-08"
+          }
+        ],
+        "rationale": "Abertura comercial programática.",
+        "uncertainty": "Promoção produtiva seletiva562–595; não tarifa zero.",
+        "relatedQuestionIds": [
+          "comercio_04",
+          "comercio_10"
+        ],
+        "reviewedOn": "2026-10-08",
+        "version": "editorial-ordinal-v1",
+        "value": 40,
+        "range": [
+          30,
+          45
+        ]
+      },
+      "tec": {
+        "axis": "tec",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Jeannette Jara — Un Chile que cumple, agosto2025",
+            "locator": "Physicalp11–13,248–250/311–327; p27,823–829; p38–39,1177–1183/1229–1241",
+            "statement": "Expande conectividade, mineração tecnológica, IA e telemedicina.",
+            "basis": "declaration",
+            "publishedDate": "Agosto2025 — edição assinada; apresentação18/08/2025",
+            "accessedDate": "2026-10-08"
+          }
+        ],
+        "rationale": "Adoção tecnológica em vários setores.",
+        "uncertainty": "Proteção ambiental159/341–344 e crise climática106/127; não aceitação irrestrita.",
+        "relatedQuestionIds": [
+          "tecnologia_01",
+          "tecnologia_07",
+          "tecnologia_10"
+        ],
+        "reviewedOn": "2026-10-08",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      }
+    }
+  },
+  {
+    "id": "michelle-bachelet",
+    "name": "Michelle Bachelet",
+    "aliases": [
+      "Michelle Bachelet Jeria"
+    ],
+    "kind": "person",
+    "category": "public-figure",
+    "period": "Programa pessoalmente assinado18/10/2005 para2006–2010; atividade30/09/2026",
+    "sources": [
+      {
+        "title": "Michelle Bachelet — Programa de Gobierno,18/10/2005",
+        "url": "https://www.bcn.cl/obtienearchivo?id=documentos/10221.1/13433/1/2005_programa-MB.pdf",
+        "note": "BCN PDF102p; apresentação assinada e trechos delimitados lidos, não integralmente."
+      },
+      {
+        "title": "El País — atividade de Bachelet,01/10/2026",
+        "url": "https://elpais.com/chile/2026-10-01/bachelet-en-un-homenaje-tras-retirar-su-candidatura-a-la-onu-quienes-pensaban-que-me-iba-a-ir-para-la-casa-les-tengo-una-mala-noticia.html",
+        "note": "Cabeçalho25–33 e corpo59–84 lidos: evento30/09/2026, identidade apenas; imagem não examinada."
+      }
+    ],
+    "caveats": "Declarações de programa2005 pessoalmente assinado, não prática nem posições2026. Sete eixos desconhecidos; descentralização administrativa preservada apenas como pesquisa, sem autonomia legislativa regional comprovada. Revisão documental independente delimitada e julgamento do Root aceitos; programa2013 inacessível não codificado.",
+    "rationale": "Programa pessoalmente endossado; orientação ampla e contrapontos explícitos.",
+    "vec": {
+      "est": 50,
+      "rep": 60,
+      "pod": 50,
+      "imi": 40,
+      "dip": 50,
+      "int": 40,
+      "eco": 50,
+      "con": 50,
+      "com": 40,
+      "rel": 50,
+      "mor": 60,
+      "tec": 50
+    },
+    "evidence": {
+      "rep": "medium",
+      "imi": "medium",
+      "int": "medium",
+      "com": "medium",
+      "mor": "medium"
+    },
+    "axisEvidence": {
+      "rep": {
+        "sourceTitles": [
+          "Michelle Bachelet — Programa de Gobierno,18/10/2005"
+        ],
+        "rationale": "Democracia participativa. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Instituições constitucionais; execução não certificada."
+      },
+      "imi": {
+        "sourceTitles": [
+          "Michelle Bachelet — Programa de Gobierno,18/10/2005"
+        ],
+        "rationale": "Pluralismo cultural amplo. Codificação editorial moderate-second: âncora 40, faixa 30–45; a fonte não mede esse número. Limites: Valoriza também patrimônio nacional; não fronteiras irrestritas."
+      },
+      "int": {
+        "sourceTitles": [
+          "Michelle Bachelet — Programa de Gobierno,18/10/2005"
+        ],
+        "rationale": "Intervenção multilateral delimitada. Codificação editorial moderate-second: âncora 40, faixa 30–45; a fonte não mede esse número. Limites: Paz/direito4957–4960 e defesa dissuasiva5215–5224; não invasão unilateral."
+      },
+      "com": {
+        "sourceTitles": [
+          "Michelle Bachelet — Programa de Gobierno,18/10/2005"
+        ],
+        "rationale": "Abertura comercial geral. Codificação editorial moderate-second: âncora 40, faixa 30–45; a fonte não mede esse número. Limites: Promoção de exportadores locais4987–4991; não tarifa zero."
+      },
+      "mor": {
+        "sourceTitles": [
+          "Michelle Bachelet — Programa de Gobierno,18/10/2005"
+        ],
+        "rationale": "Reformas morais inclusivas. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: União civil básica, não casamento igualitário ou aborto irrestrito."
+      }
+    },
+    "coding": {
+      "rep": {
+        "axis": "rep",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Michelle Bachelet — Programa de Gobierno,18/10/2005",
+            "locator": "PDF linhas3928–3981/4229–4240/4574–4577/4675–4688; endosso assinado6–78",
+            "statement": "Amplia participação, eleições regionais, transparência e expressão.",
+            "basis": "declaration",
+            "publishedDate": "2005-10-18",
+            "accessedDate": "2026-10-08"
+          }
+        ],
+        "rationale": "Democracia participativa.",
+        "uncertainty": "Instituições constitucionais; execução não certificada.",
+        "relatedQuestionIds": [
+          "representacao_03",
+          "representacao_07",
+          "representacao_19"
+        ],
+        "reviewedOn": "2026-10-08",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      },
+      "imi": {
+        "axis": "imi",
+        "position": "moderate-second",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Michelle Bachelet — Programa de Gobierno,18/10/2005",
+            "locator": "PDF linhas4397–4412/4578–4587/4695–4757/4812–4825; endosso assinado6–78",
+            "statement": "Preserva identidades culturais e línguas indígenas com educação intercultural.",
+            "basis": "declaration",
+            "publishedDate": "2005-10-18",
+            "accessedDate": "2026-10-08"
+          }
+        ],
+        "rationale": "Pluralismo cultural amplo.",
+        "uncertainty": "Valoriza também patrimônio nacional; não fronteiras irrestritas.",
+        "relatedQuestionIds": [
+          "imigracao_02",
+          "imigracao_04",
+          "imigracao_08"
+        ],
+        "reviewedOn": "2026-10-08",
+        "version": "editorial-ordinal-v1",
+        "value": 40,
+        "range": [
+          30,
+          45
+        ]
+      },
+      "int": {
+        "axis": "int",
+        "position": "moderate-second",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Michelle Bachelet — Programa de Gobierno,18/10/2005",
+            "locator": "PDF linhas5049–5054/5233–5239; endosso assinado6–78",
+            "statement": "Endossa responsabilidade de proteger e forças internacionais de paz.",
+            "basis": "declaration",
+            "publishedDate": "2005-10-18",
+            "accessedDate": "2026-10-08"
+          }
+        ],
+        "rationale": "Intervenção multilateral delimitada.",
+        "uncertainty": "Paz/direito4957–4960 e defesa dissuasiva5215–5224; não invasão unilateral.",
+        "relatedQuestionIds": [
+          "intervencao_05",
+          "intervencao_07"
+        ],
+        "reviewedOn": "2026-10-08",
+        "version": "editorial-ordinal-v1",
+        "value": 40,
+        "range": [
+          30,
+          45
+        ]
+      },
+      "com": {
+        "axis": "com",
+        "position": "moderate-second",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Michelle Bachelet — Programa de Gobierno,18/10/2005",
+            "locator": "PDF linhas4967–4989/5022–5030; endosso assinado6–78",
+            "statement": "Amplia livre comércio e remove barreiras comerciais.",
+            "basis": "declaration",
+            "publishedDate": "2005-10-18",
+            "accessedDate": "2026-10-08"
+          }
+        ],
+        "rationale": "Abertura comercial geral.",
+        "uncertainty": "Promoção de exportadores locais4987–4991; não tarifa zero.",
+        "relatedQuestionIds": [
+          "comercio_04",
+          "comercio_10"
+        ],
+        "reviewedOn": "2026-10-08",
+        "version": "editorial-ordinal-v1",
+        "value": 40,
+        "range": [
+          30,
+          45
+        ]
+      },
+      "mor": {
+        "axis": "mor",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Michelle Bachelet — Programa de Gobierno,18/10/2005",
+            "locator": "PDF linhas4445–4499/4545–4559; endosso assinado6–78",
+            "statement": "Amplia direitos sexuais, igualdade de gênero e uniões civis diversas.",
+            "basis": "declaration",
+            "publishedDate": "2005-10-18",
+            "accessedDate": "2026-10-08"
+          }
+        ],
+        "rationale": "Reformas morais inclusivas.",
+        "uncertainty": "União civil básica, não casamento igualitário ou aborto irrestrito.",
+        "relatedQuestionIds": [
+          "moral_07",
+          "moral_11"
+        ],
+        "reviewedOn": "2026-10-08",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      }
+    }
+  },
+  {
+    "id": "dilma-rousseff",
+    "name": "Dilma Rousseff",
+    "aliases": [
+      "Dilma Vana Rousseff"
+    ],
+    "kind": "person",
+    "category": "public-figure",
+    "period": "Discurso próprio01/01/2015; atividade institucional12/09/2026",
+    "sources": [
+      {
+        "title": "Dilma Rousseff — discurso de posse,01/01/2015",
+        "url": "https://www.camara.leg.br/noticias/448217-integra-do-discurso-de-posse-da-presidente-dilma-rousseff-no-congresso/",
+        "note": "Transcrição própria: cabeçalho23 e corpo26–144 efetivamente lidos."
+      },
+      {
+        "title": "NDB — participação no18º BRICS Summit,12/09/2026",
+        "url": "https://www.ndb.int/event/ndb-at-the-18th-brics-summit/",
+        "note": "Corpo81–86 efetivamente lido, data e atividade atuais; identidade apenas."
+      },
+      {
+        "title": "NDB — pronunciamento próprio de Dilma no18º BRICS Summit",
+        "url": "https://www.ndb.int/insights/address-by-ndb-president-dilma-rousseff-at-the-18th-brics-summit-open-plenary-session/",
+        "note": "Corpo92–113 efetivamente lido; data de fala vem do evento institucional, não cabeçalho editorial. Não codificado no recorte2015."
+      },
+      {
+        "title": "ABMES — programa atribuído à candidatura Dilma2014, pesquisa não codificada",
+        "url": "https://abmes.org.br/arquivos/documentos/prog-de-governo-dilma-2014-internet1.pdf",
+        "note": "Programa coletivo42p parcialmente lido, sem assinatura ou endosso pessoal localizado; preservado como pesquisa, não usado para graduar."
+      }
+    ],
+    "caveats": "Declarações próprias2015, não execução nem posições2026. Nove eixos desconhecidos. Programa coletivo2014 preservado como pesquisa sem endosso pessoal localizado. REP/INT/TEC aceitos pelo Root; POD exige restrição civil específica, preservado somente como pesquisa.",
+    "rationale": "Programa pessoalmente endossado; orientação ampla e contrapontos explícitos.",
+    "vec": {
+      "est": 50,
+      "rep": 60,
+      "pod": 50,
+      "imi": 50,
+      "dip": 50,
+      "int": 60,
+      "eco": 50,
+      "con": 50,
+      "com": 50,
+      "rel": 50,
+      "mor": 50,
+      "tec": 60
+    },
+    "evidence": {
+      "rep": "medium",
+      "int": "medium",
+      "tec": "medium"
+    },
+    "axisEvidence": {
+      "rep": {
+        "sourceTitles": [
+          "Dilma Rousseff — discurso de posse,01/01/2015"
+        ],
+        "rationale": "Representação democrática. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Não certifica eleição ou execução."
+      },
+      "int": {
+        "sourceTitles": [
+          "Dilma Rousseff — discurso de posse,01/01/2015"
+        ],
+        "rationale": "Não intervenção. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Diplomacia e cooperação multilaterais106–108; não isolamento."
+      },
+      "tec": {
+        "sourceTitles": [
+          "Dilma Rousseff — discurso de posse,01/01/2015"
+        ],
+        "rationale": "Adoção tecnológica transversal. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Compromissos climáticos103–104; não liberação genética irrestrita."
+      }
+    },
+    "coding": {
+      "rep": {
+        "axis": "rep",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Dilma Rousseff — discurso de posse,01/01/2015",
+            "locator": "Transcrição linhas50/112/132",
+            "statement": "Defende autoridade constitucional, participação política e instituições parlamentares.",
+            "basis": "declaration",
+            "publishedDate": "2015-01-01",
+            "accessedDate": "2026-10-08"
+          }
+        ],
+        "rationale": "Representação democrática.",
+        "uncertainty": "Não certifica eleição ou execução.",
+        "relatedQuestionIds": [
+          "representacao_03",
+          "representacao_15"
+        ],
+        "reviewedOn": "2026-10-08",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      },
+      "int": {
+        "axis": "int",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Dilma Rousseff — discurso de posse,01/01/2015",
+            "locator": "Transcrição linhas105–108",
+            "statement": "Afirma soberania e princípio geral de não intervenção.",
+            "basis": "declaration",
+            "publishedDate": "2015-01-01",
+            "accessedDate": "2026-10-08"
+          }
+        ],
+        "rationale": "Não intervenção.",
+        "uncertainty": "Diplomacia e cooperação multilaterais106–108; não isolamento.",
+        "relatedQuestionIds": [
+          "intervencao_01",
+          "intervencao_09"
+        ],
+        "reviewedOn": "2026-10-08",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      },
+      "tec": {
+        "axis": "tec",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Dilma Rousseff — discurso de posse,01/01/2015",
+            "locator": "Transcrição linhas73/80/103–108",
+            "statement": "Promove inovação produtiva, banda larga universal e cooperação científica.",
+            "basis": "declaration",
+            "publishedDate": "2015-01-01",
+            "accessedDate": "2026-10-08"
+          }
+        ],
+        "rationale": "Adoção tecnológica transversal.",
+        "uncertainty": "Compromissos climáticos103–104; não liberação genética irrestrita.",
+        "relatedQuestionIds": [
+          "tecnologia_02"
+        ],
+        "reviewedOn": "2026-10-08",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      }
+    }
+  },
+  {
+    "id": "luisa-gonzalez",
+    "name": "Luisa González",
+    "aliases": [
+      "Luisa Magdalena González Alcívar",
+      "Luisa Gonzalez"
+    ],
+    "kind": "person",
+    "category": "public-figure",
+    "period": "Programa coletivamente endossado27/09/2024 para2025–2029; atividade12/09/2026",
+    "sources": [
+      {
+        "title": "Luisa González e signatários — Plan de Trabajo2025–2029,27/09/2024",
+        "url": "https://es.slideshare.net/slideshow/plan-de-trabajo-de-luisa-gonzalez-de-revolucion-ciudadana/273104796",
+        "note": "Reprodução do documento pelo uploader eluniversocom; declaração de endosso e assinatura eletrônica nominal1954–1955 lidas. Resumo IA excluído; não autenticação criptográfica."
+      },
+      {
+        "title": "CNE — disponibilização do Plan de Trabajo RC-RETO,16/11/2024",
+        "url": "https://www.cne.gob.ec/download/plan-de-trabajo-rc-reto/",
+        "note": "Página12–29 lida; corpo do PDF oficial inacessível, sem verificação de identidade de bytes com a reprodução."
+      },
+      {
+        "title": "Ecuavisa — atividade de Luisa González,12/09/2026",
+        "url": "https://www.ecuavisa.com/politica/tce-niega-recurso-luisa-gonzalez-prefectura-manabi-20260912-0031.html",
+        "note": "Data15–16 e corpo17–24 lidos, identidade apenas. Foto de arquivo2025 não examinada."
+      }
+    ],
+    "caveats": "Programa declarado e coletivamente endossado, não autoria exclusiva, prática ou posições2026. Reprodução jornalística legível, PDF oficial inacessível sem identidade de bytes certificada. Cinco eixos desconhecidos. Revisão documental independente delimitada e julgamento do Root aceitos; sete direções normativas não certificam execução.",
+    "rationale": "Programa pessoalmente endossado; orientação ampla e contrapontos explícitos.",
+    "vec": {
+      "est": 50,
+      "rep": 60,
+      "pod": 50,
+      "imi": 40,
+      "dip": 50,
+      "int": 60,
+      "eco": 60,
+      "con": 60,
+      "com": 50,
+      "rel": 50,
+      "mor": 60,
+      "tec": 60
+    },
+    "evidence": {
+      "rep": "medium",
+      "imi": "medium",
+      "int": "medium",
+      "eco": "medium",
+      "con": "medium",
+      "mor": "medium",
+      "tec": "medium"
+    },
+    "axisEvidence": {
+      "rep": {
+        "sourceTitles": [
+          "Luisa González e signatários — Plan de Trabajo2025–2029,27/09/2024"
+        ],
+        "rationale": "Democracia participativa. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Responsabilidade informativa2231; não execução eleitoral."
+      },
+      "imi": {
+        "sourceTitles": [
+          "Luisa González e signatários — Plan de Trabajo2025–2029,27/09/2024"
+        ],
+        "rationale": "Pluralismo cultural amplo. Codificação editorial moderate-second: âncora 40, faixa 30–45; a fonte não mede esse número. Limites: Coexistência jurídica constitucional2272; não autonomia legislativa regional."
+      },
+      "int": {
+        "sourceTitles": [
+          "Luisa González e signatários — Plan de Trabajo2025–2029,27/09/2024"
+        ],
+        "rationale": "Soberania e não intervenção. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Cooperação multilateral inclusive defesa2369–2371."
+      },
+      "eco": {
+        "sourceTitles": [
+          "Luisa González e signatários — Plan de Trabajo2025–2029,27/09/2024"
+        ],
+        "rationale": "Participação pública multissetorial. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Economia mista: prestadores privados2067, investimento2151 e parcerias2318; não maioria pública."
+      },
+      "con": {
+        "sourceTitles": [
+          "Luisa González e signatários — Plan de Trabajo2025–2029,27/09/2024"
+        ],
+        "rationale": "Planejamento econômico amplo. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Investimento privado2151 e simplificação2137; não planejamento integral."
+      },
+      "mor": {
+        "sourceTitles": [
+          "Luisa González e signatários — Plan de Trabajo2025–2029,27/09/2024"
+        ],
+        "rationale": "Reformas morais inclusivas. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Apoio à maternidade2239; não casamento ou aborto irrestrito inferidos."
+      },
+      "tec": {
+        "sourceTitles": [
+          "Luisa González e signatários — Plan de Trabajo2025–2029,27/09/2024"
+        ],
+        "rationale": "Adoção tecnológica ampla. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Clima2290, transgênicos2303, ética2333–2337, privacidade2344 e biodiversidade2350."
+      }
+    },
+    "coding": {
+      "rep": {
+        "axis": "rep",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Luisa González e signatários — Plan de Trabajo2025–2029,27/09/2024",
+            "locator": "Reprodução linhas2210–2229; declaração e assinatura nominal1954–1955",
+            "statement": "Endossa participação popular e reformas eleitorais proporcionais.",
+            "basis": "declaration",
+            "publishedDate": "2024-09-27",
+            "accessedDate": "2026-10-08"
+          }
+        ],
+        "rationale": "Democracia participativa.",
+        "uncertainty": "Responsabilidade informativa2231; não execução eleitoral.",
+        "relatedQuestionIds": [
+          "representacao_03",
+          "representacao_07",
+          "representacao_19"
+        ],
+        "reviewedOn": "2026-10-08",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      },
+      "imi": {
+        "axis": "imi",
+        "position": "moderate-second",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Luisa González e signatários — Plan de Trabajo2025–2029,27/09/2024",
+            "locator": "Reprodução linhas2263–2283; declaração e assinatura nominal1954–1955",
+            "statement": "Valoriza pluralismo cultural, linguístico e educação intercultural.",
+            "basis": "declaration",
+            "publishedDate": "2024-09-27",
+            "accessedDate": "2026-10-08"
+          }
+        ],
+        "rationale": "Pluralismo cultural amplo.",
+        "uncertainty": "Coexistência jurídica constitucional2272; não autonomia legislativa regional.",
+        "relatedQuestionIds": [
+          "imigracao_02",
+          "imigracao_04",
+          "imigracao_08"
+        ],
+        "reviewedOn": "2026-10-08",
+        "version": "editorial-ordinal-v1",
+        "value": 40,
+        "range": [
+          30,
+          45
+        ]
+      },
+      "int": {
+        "axis": "int",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Luisa González e signatários — Plan de Trabajo2025–2029,27/09/2024",
+            "locator": "Reprodução linhas2222/2362–2371; declaração e assinatura nominal1954–1955",
+            "statement": "Rejeita intervenção externa e bases militares estrangeiras.",
+            "basis": "declaration",
+            "publishedDate": "2024-09-27",
+            "accessedDate": "2026-10-08"
+          }
+        ],
+        "rationale": "Soberania e não intervenção.",
+        "uncertainty": "Cooperação multilateral inclusive defesa2369–2371.",
+        "relatedQuestionIds": [
+          "intervencao_01",
+          "intervencao_09"
+        ],
+        "reviewedOn": "2026-10-08",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      },
+      "eco": {
+        "axis": "eco",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Luisa González e signatários — Plan de Trabajo2025–2029,27/09/2024",
+            "locator": "Reprodução linhas2042/2067–2071/2135/2146/2220/2316–2318; declaração e assinatura nominal1954–1955",
+            "statement": "Defende patrimônio e empresas estratégicas públicos; reverte privatizações quando necessário.",
+            "basis": "declaration",
+            "publishedDate": "2024-09-27",
+            "accessedDate": "2026-10-08"
+          }
+        ],
+        "rationale": "Participação pública multissetorial.",
+        "uncertainty": "Economia mista: prestadores privados2067, investimento2151 e parcerias2318; não maioria pública.",
+        "relatedQuestionIds": [
+          "economia_03",
+          "economia_04",
+          "economia_17"
+        ],
+        "reviewedOn": "2026-10-08",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      },
+      "con": {
+        "axis": "con",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Luisa González e signatários — Plan de Trabajo2025–2029,27/09/2024",
+            "locator": "Reprodução linhas2027/2135–2158/2224; declaração e assinatura nominal1954–1955",
+            "statement": "Coordena crédito, preços, indústria e setores estratégicos.",
+            "basis": "declaration",
+            "publishedDate": "2024-09-27",
+            "accessedDate": "2026-10-08"
+          }
+        ],
+        "rationale": "Planejamento econômico amplo.",
+        "uncertainty": "Investimento privado2151 e simplificação2137; não planejamento integral.",
+        "relatedQuestionIds": [
+          "controle_01",
+          "controle_02",
+          "controle_07"
+        ],
+        "reviewedOn": "2026-10-08",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      },
+      "mor": {
+        "axis": "mor",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Luisa González e signatários — Plan de Trabajo2025–2029,27/09/2024",
+            "locator": "Reprodução linhas2166/2212/2237–2257; declaração e assinatura nominal1954–1955",
+            "statement": "Endossa autonomia reprodutiva, educação sexual e igualdade de gênero.",
+            "basis": "declaration",
+            "publishedDate": "2024-09-27",
+            "accessedDate": "2026-10-08"
+          }
+        ],
+        "rationale": "Reformas morais inclusivas.",
+        "uncertainty": "Apoio à maternidade2239; não casamento ou aborto irrestrito inferidos.",
+        "relatedQuestionIds": [
+          "moral_11",
+          "moral_18"
+        ],
+        "reviewedOn": "2026-10-08",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      },
+      "tec": {
+        "axis": "tec",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Luisa González e signatários — Plan de Trabajo2025–2029,27/09/2024",
+            "locator": "Reprodução linhas2053–2054/2317–2319/2330–2355; declaração e assinatura nominal1954–1955",
+            "statement": "Promove transformação digital e inovação em múltiplos setores.",
+            "basis": "declaration",
+            "publishedDate": "2024-09-27",
+            "accessedDate": "2026-10-08"
+          }
+        ],
+        "rationale": "Adoção tecnológica ampla.",
+        "uncertainty": "Clima2290, transgênicos2303, ética2333–2337, privacidade2344 e biodiversidade2350.",
+        "relatedQuestionIds": [
+          "tecnologia_02"
+        ],
+        "reviewedOn": "2026-10-08",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      }
+    }
+  },
+  {
+    "id": "myriam-bregman",
+    "name": "Myriam Bregman",
+    "aliases": [
+      "Myriam Teresa Bregman"
+    ],
+    "kind": "person",
+    "category": "public-figure",
+    "period": "Programa pessoal sem data editorial, consultado08/10/2026; atividade legislativa02/10/2026",
+    "sources": [
+      {
+        "title": "Myriam Bregman — programa no sítio pessoal, sem data editorial",
+        "url": "https://www.myriambregman.com.ar/programa.php",
+        "note": "Corpo2–90 integralmente lido; contexto de pandemia, edição e publicação não datadas, sem fabricação de2023."
+      },
+      {
+        "title": "Myriam Bregman — página pessoal e propostas",
+        "url": "https://www.myriambregman.com.ar/",
+        "note": "Corpo77–84 lido; identificação pessoal e ligação às propostas, sem data editorial."
+      },
+      {
+        "title": "HCDN — projetos de Myriam Bregman, atividade2026",
+        "url": "https://www.hcdn.gob.ar/diputados/mbregman/listado-proyectos.html",
+        "note": "Corpo10–48 lido: identidade e projetos02/10/2026. Sumários não codificados, fotografia não examinada."
+      }
+    ],
+    "caveats": "Programa no sítio pessoal explicitamente não datado, não certificado como edição2023 nem prática atual. Nove eixos desconhecidos. Folheto coletivo2023 sem endosso pessoal localizado permanece pesquisa, sem transferência por candidatura/partido. Três direções delimitadas aceitas por revisão documental independente e Root.",
+    "rationale": "Programa pessoalmente endossado; orientação ampla e contrapontos explícitos.",
+    "vec": {
+      "est": 50,
+      "rep": 60,
+      "pod": 50,
+      "imi": 50,
+      "dip": 50,
+      "int": 50,
+      "eco": 60,
+      "con": 60,
+      "com": 50,
+      "rel": 50,
+      "mor": 50,
+      "tec": 50
+    },
+    "evidence": {
+      "rep": "medium",
+      "eco": "medium",
+      "con": "medium"
+    },
+    "axisEvidence": {
+      "rep": {
+        "sourceTitles": [
+          "Myriam Bregman — programa no sítio pessoal, sem data editorial"
+        ],
+        "rationale": "Responsabilização popular geral. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Não certifica prática nem pluralismo de toda instituição."
+      },
+      "eco": {
+        "sourceTitles": [
+          "Myriam Bregman — programa no sítio pessoal, sem data editorial"
+        ],
+        "rationale": "Propriedade pública multissetorial. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Gestão por trabalhadores e usuários; não percentual de propriedade nacional."
+      },
+      "con": {
+        "sourceTitles": [
+          "Myriam Bregman — programa no sítio pessoal, sem data editorial"
+        ],
+        "rationale": "Alocação econômica planejada. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Plano gerido por trabalhadores; crédito a pequenos poupadores33 e redução tributária83."
+      }
+    },
+    "coding": {
+      "rep": {
+        "axis": "rep",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Myriam Bregman — programa no sítio pessoal, sem data editorial",
+            "locator": "Página própria linhas60–62",
+            "statement": "Propõe revogação popular de mandatos de legisladores, funcionários e juízes.",
+            "basis": "declaration",
+            "publishedDate": "Sem data editorial; edição de contexto pandêmico não datada, consultada2026-10-08",
+            "accessedDate": "2026-10-08"
+          }
+        ],
+        "rationale": "Responsabilização popular geral.",
+        "uncertainty": "Não certifica prática nem pluralismo de toda instituição.",
+        "relatedQuestionIds": [
+          "representacao_11"
+        ],
+        "reviewedOn": "2026-10-08",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      },
+      "eco": {
+        "axis": "eco",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Myriam Bregman — programa no sítio pessoal, sem data editorial",
+            "locator": "Página própria linhas33/36–45/67–69",
+            "statement": "Propõe bancos/comércio exterior públicos e saúde/serviços sob gestão coletiva.",
+            "basis": "declaration",
+            "publishedDate": "Sem data editorial; edição de contexto pandêmico não datada, consultada2026-10-08",
+            "accessedDate": "2026-10-08"
+          }
+        ],
+        "rationale": "Propriedade pública multissetorial.",
+        "uncertainty": "Gestão por trabalhadores e usuários; não percentual de propriedade nacional.",
+        "relatedQuestionIds": [
+          "economia_03",
+          "economia_04",
+          "economia_05",
+          "economia_17"
+        ],
+        "reviewedOn": "2026-10-08",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      },
+      "con": {
+        "axis": "con",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Myriam Bregman — programa no sítio pessoal, sem data editorial",
+            "locator": "Página própria linhas33/45/51/67–69/83/87–90",
+            "statement": "Planeja economia, controla preços e indexa salários e aposentadorias.",
+            "basis": "declaration",
+            "publishedDate": "Sem data editorial; edição de contexto pandêmico não datada, consultada2026-10-08",
+            "accessedDate": "2026-10-08"
+          }
+        ],
+        "rationale": "Alocação econômica planejada.",
+        "uncertainty": "Plano gerido por trabalhadores; crédito a pequenos poupadores33 e redução tributária83.",
+        "relatedQuestionIds": [
+          "controle_01",
+          "controle_02",
+          "controle_19"
+        ],
+        "reviewedOn": "2026-10-08",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      }
+    }
+  },
+  {
+    "id": "jill-stein",
+    "name": "Jill Stein",
+    "aliases": [
+      "Jill Ellen Stein"
+    ],
+    "kind": "person",
+    "category": "public-figure",
+    "period": "Declarações próprias de campanha2024; atividade reportada18/08/2026",
+    "sources": [
+      {
+        "title": "Jill Stein — declaração própria no guia oficial da Califórnia2024",
+        "url": "https://vigarchive.sos.ca.gov/2024/primary/candidates/president/president-green-cand-statements.htm",
+        "note": "Cabeçalho5, declaração18–29 e atribuição41 efetivamente lidos; edição primárias05/03/2024, dia de submissão não indicado."
+      },
+      {
+        "title": "Jill Stein — respostas próprias VOTE411, edição eleitoral2024",
+        "url": "https://www.vote411.org/node/15061",
+        "note": "Identificação52–58 e respostas do candidato80–109 efetivamente lidas. Edição vinculada à campanha2024, submissão não datada."
+      },
+      {
+        "title": "Jill Stein — We Do Not Consent to War,04/10/2024",
+        "url": "https://www.gp.org/we_do_not_consent_to_war",
+        "note": "Carta própria17–40 efetivamente lida, assinatura nominalJill40 e publicação04/10/2024; não confundir com textos de terceiros no partido."
+      },
+      {
+        "title": "Independent Political Report — atividade de Jill Stein,21/08/2026",
+        "url": "https://independentpoliticalreport.com/2026/08/former-green-nominee-jill-stein-ordered-to-appear-in-person-in-missouri-misdemeanor-case/",
+        "note": "Data11/corpo15–24 efetivamente lidos: reação própria18/08/2026 reportada; identidade apenas, sem certificar presença futura em audiência."
+      }
+    ],
+    "caveats": "Quatro direções documentais delimitadas aceitas por revisão independente e Root; oito eixos desconhecidos. Candidatura/partido não transferem plataforma integral. Blog externo de reprodução sem atribuição específica corroborada permanece pesquisa não graduada. Fonte2026 apenas identidade, não política2024 renovada nem presença futura em audiência.",
+    "rationale": "Programa pessoalmente endossado; orientação ampla e contrapontos explícitos.",
+    "vec": {
+      "est": 50,
+      "rep": 60,
+      "pod": 50,
+      "imi": 50,
+      "dip": 40,
+      "int": 50,
+      "eco": 60,
+      "con": 60,
+      "com": 50,
+      "rel": 50,
+      "mor": 50,
+      "tec": 50
+    },
+    "evidence": {
+      "rep": "medium",
+      "dip": "medium",
+      "eco": "medium",
+      "con": "medium"
+    },
+    "axisEvidence": {
+      "rep": {
+        "sourceTitles": [
+          "Jill Stein — declaração própria no guia oficial da Califórnia2024"
+        ],
+        "rationale": "Representação democrática. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Declaração, não execução eleitoral."
+      },
+      "dip": {
+        "sourceTitles": [
+          "Jill Stein — We Do Not Consent to War,04/10/2024"
+        ],
+        "rationale": "Desmilitarização geral. Codificação editorial moderate-second: âncora 40, faixa 30–45; a fonte não mede esse número. Limites: Embargo de armas condicional21; não desarmamento completo."
+      },
+      "eco": {
+        "sourceTitles": [
+          "Jill Stein — respostas próprias VOTE411, edição eleitoral2024"
+        ],
+        "rationale": "Participação pública entre setores. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Não maioria pública nacional; demais negócios privados não abolidos."
+      },
+      "con": {
+        "sourceTitles": [
+          "Jill Stein — We Do Not Consent to War,04/10/2024"
+        ],
+        "rationale": "Alocação regulada multissetorial. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Não planejamento integral; direção dos outros mercados não determinada."
+      }
+    },
+    "coding": {
+      "rep": {
+        "axis": "rep",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Jill Stein — declaração própria no guia oficial da Califórnia2024",
+            "locator": "Texto linhas18–29; atribuição de submissão própria41",
+            "statement": "Defende escolha eleitoral, direitos e autoridade popular.",
+            "basis": "declaration",
+            "publishedDate": "Guia de primárias2024-03-05; submissão não datada",
+            "accessedDate": "2026-10-08"
+          }
+        ],
+        "rationale": "Representação democrática.",
+        "uncertainty": "Declaração, não execução eleitoral.",
+        "relatedQuestionIds": [
+          "representacao_07",
+          "representacao_15"
+        ],
+        "reviewedOn": "2026-10-08",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      },
+      "dip": {
+        "axis": "dip",
+        "position": "moderate-second",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Jill Stein — We Do Not Consent to War,04/10/2024",
+            "locator": "Texto linhas22/29–31; assinatura40",
+            "statement": "Reduz orçamento militar e substitui militarização por diplomacia.",
+            "basis": "declaration",
+            "publishedDate": "2024-10-04",
+            "accessedDate": "2026-10-08"
+          }
+        ],
+        "rationale": "Desmilitarização geral.",
+        "uncertainty": "Embargo de armas condicional21; não desarmamento completo.",
+        "relatedQuestionIds": [
+          "diplomacia_01",
+          "diplomacia_02"
+        ],
+        "reviewedOn": "2026-10-08",
+        "version": "editorial-ordinal-v1",
+        "value": 40,
+        "range": [
+          30,
+          45
+        ]
+      },
+      "eco": {
+        "axis": "eco",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Jill Stein — respostas próprias VOTE411, edição eleitoral2024",
+            "locator": "Texto linhas87–89/106–109",
+            "statement": "Propõe propriedade pública de saúde, indústria farmacêutica e rede energética nacional.",
+            "basis": "declaration",
+            "publishedDate": "Edição eleitoral presidencial2024; submissão não datada",
+            "accessedDate": "2026-10-08"
+          }
+        ],
+        "rationale": "Participação pública entre setores.",
+        "uncertainty": "Não maioria pública nacional; demais negócios privados não abolidos.",
+        "relatedQuestionIds": [
+          "economia_03",
+          "economia_04"
+        ],
+        "reviewedOn": "2026-10-08",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      },
+      "con": {
+        "axis": "con",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Jill Stein — We Do Not Consent to War,04/10/2024",
+            "locator": "Texto linhas29–31; assinatura40",
+            "statement": "Propõe controles nacionais de aluguel, salário mínimo e tributação redistributiva.",
+            "basis": "declaration",
+            "publishedDate": "2024-10-04",
+            "accessedDate": "2026-10-08"
+          }
+        ],
+        "rationale": "Alocação regulada multissetorial.",
+        "uncertainty": "Não planejamento integral; direção dos outros mercados não determinada.",
+        "relatedQuestionIds": [
+          "controle_01",
+          "controle_02",
+          "controle_05",
+          "controle_19"
+        ],
+        "reviewedOn": "2026-10-08",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      }
+    }
+  },
+  {
+    "id": "joseph-stiglitz",
+    "name": "Joseph Stiglitz",
+    "aliases": [
+      "Joseph E. Stiglitz"
+    ],
+    "kind": "person",
+    "category": "public-figure",
+    "period": "2025-11; mês da edição, dia não indicado",
+    "sources": [
+      {
+        "title": "G20 Extraordinary Committee of Independent Experts on Global Inequality — Summary Report, novembro de 2025",
+        "url": "https://www.g20.org.za/wp-content/uploads/2025/11/1-G20-Global-Inequality-Report-Summary.pdf",
+        "note": "Capa/autoria p2 e recomendação p10 efetivamente lidas. Declaração coletiva explicitamente assinada pelos seis autores; fonte comum, não seis confirmações independentes."
+      },
+      {
+        "title": "Why we need an International Panel on Inequality — autoria e afiliações, Nature, 9/9/2026",
+        "url": "https://www.nature.com/articles/d41586-026-02806-9?error=cookies_not_supported",
+        "note": "Somente autoria nominal, afiliações e data efetivamente visíveis foram lidas para identidade atual. Corpo sob paywall não usado em codificação; não garante cargo na data de acesso."
+      }
+    ],
+    "caveats": "Declarações autorais delimitadas; demais eixos desconhecidos. Revisão documental independente delimitada aceita; integração pelo Root pendente. Evidência compartilhada entre seis coautores; não são confirmações independentes nem execução pessoal.",
+    "rationale": "Declarações pessoais ou coautoria primária explícita; escopo delimitado.",
+    "vec": {
+      "est": 50,
+      "rep": 50,
+      "pod": 50,
+      "imi": 50,
+      "dip": 50,
+      "int": 50,
+      "eco": 60,
+      "con": 50,
+      "com": 50,
+      "rel": 50,
+      "mor": 50,
+      "tec": 50
+    },
+    "evidence": {
+      "eco": "medium"
+    },
+    "axisEvidence": {
+      "eco": {
+        "sourceTitles": [
+          "G20 Extraordinary Committee of Independent Experts on Global Inequality — Summary Report, novembro de 2025"
+        ],
+        "rationale": "Coautoria explícita sustenta direção pública parcial. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Não implica nacionalização exclusiva."
+      }
+    },
+    "coding": {
+      "eco": {
+        "axis": "eco",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "G20 Extraordinary Committee of Independent Experts on Global Inequality — Summary Report, novembro de 2025",
+            "locator": "p10, seção 6: public provision; autoria nominal p2",
+            "statement": "Relatório conjunto recomenda provisão pública universal de serviços essenciais.",
+            "basis": "declaration",
+            "publishedDate": "2025-11; mês da edição, dia não indicado",
+            "accessedDate": "2026-10-07"
+          }
+        ],
+        "rationale": "Coautoria explícita sustenta direção pública parcial.",
+        "uncertainty": "Não implica nacionalização exclusiva.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      }
+    }
+  },
+  {
+    "id": "adriana-abdenur",
+    "name": "Adriana Abdenur",
+    "aliases": [
+      "Adriana E. Abdenur"
+    ],
+    "kind": "person",
+    "category": "public-figure",
+    "period": "2025-11; mês da edição, dia não indicado",
+    "sources": [
+      {
+        "title": "G20 Extraordinary Committee of Independent Experts on Global Inequality — Summary Report, novembro de 2025",
+        "url": "https://www.g20.org.za/wp-content/uploads/2025/11/1-G20-Global-Inequality-Report-Summary.pdf",
+        "note": "Capa/autoria p2 e recomendação p10 efetivamente lidas. Declaração coletiva explicitamente assinada pelos seis autores; fonte comum, não seis confirmações independentes."
+      },
+      {
+        "title": "Why we need an International Panel on Inequality — autoria e afiliações, Nature, 9/9/2026",
+        "url": "https://www.nature.com/articles/d41586-026-02806-9?error=cookies_not_supported",
+        "note": "Somente autoria nominal, afiliações e data efetivamente visíveis foram lidas para identidade atual. Corpo sob paywall não usado em codificação; não garante cargo na data de acesso."
+      }
+    ],
+    "caveats": "Declarações autorais delimitadas; demais eixos desconhecidos. Revisão documental independente delimitada aceita; integração pelo Root pendente. Evidência compartilhada entre seis coautores; não são confirmações independentes nem execução pessoal.",
+    "rationale": "Declarações pessoais ou coautoria primária explícita; escopo delimitado.",
+    "vec": {
+      "est": 50,
+      "rep": 50,
+      "pod": 50,
+      "imi": 50,
+      "dip": 50,
+      "int": 50,
+      "eco": 60,
+      "con": 50,
+      "com": 50,
+      "rel": 50,
+      "mor": 50,
+      "tec": 50
+    },
+    "evidence": {
+      "eco": "medium"
+    },
+    "axisEvidence": {
+      "eco": {
+        "sourceTitles": [
+          "G20 Extraordinary Committee of Independent Experts on Global Inequality — Summary Report, novembro de 2025"
+        ],
+        "rationale": "Coautoria explícita sustenta direção pública parcial. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Não implica nacionalização exclusiva."
+      }
+    },
+    "coding": {
+      "eco": {
+        "axis": "eco",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "G20 Extraordinary Committee of Independent Experts on Global Inequality — Summary Report, novembro de 2025",
+            "locator": "p10, seção 6: public provision; autoria nominal p2",
+            "statement": "Relatório conjunto recomenda provisão pública universal de serviços essenciais.",
+            "basis": "declaration",
+            "publishedDate": "2025-11; mês da edição, dia não indicado",
+            "accessedDate": "2026-10-07"
+          }
+        ],
+        "rationale": "Coautoria explícita sustenta direção pública parcial.",
+        "uncertainty": "Não implica nacionalização exclusiva.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      }
+    }
+  },
+  {
+    "id": "winnie-byanyima",
+    "name": "Winnie Byanyima",
+    "aliases": [],
+    "kind": "person",
+    "category": "public-figure",
+    "period": "2025-11; mês da edição, dia não indicado",
+    "sources": [
+      {
+        "title": "G20 Extraordinary Committee of Independent Experts on Global Inequality — Summary Report, novembro de 2025",
+        "url": "https://www.g20.org.za/wp-content/uploads/2025/11/1-G20-Global-Inequality-Report-Summary.pdf",
+        "note": "Capa/autoria p2 e recomendação p10 efetivamente lidas. Declaração coletiva explicitamente assinada pelos seis autores; fonte comum, não seis confirmações independentes."
+      },
+      {
+        "title": "Why we need an International Panel on Inequality — autoria e afiliações, Nature, 9/9/2026",
+        "url": "https://www.nature.com/articles/d41586-026-02806-9?error=cookies_not_supported",
+        "note": "Somente autoria nominal, afiliações e data efetivamente visíveis foram lidas para identidade atual. Corpo sob paywall não usado em codificação; não garante cargo na data de acesso."
+      }
+    ],
+    "caveats": "Declarações autorais delimitadas; demais eixos desconhecidos. Revisão documental independente delimitada aceita; integração pelo Root pendente. Evidência compartilhada entre seis coautores; não são confirmações independentes nem execução pessoal.",
+    "rationale": "Declarações pessoais ou coautoria primária explícita; escopo delimitado.",
+    "vec": {
+      "est": 50,
+      "rep": 50,
+      "pod": 50,
+      "imi": 50,
+      "dip": 50,
+      "int": 50,
+      "eco": 60,
+      "con": 50,
+      "com": 50,
+      "rel": 50,
+      "mor": 50,
+      "tec": 50
+    },
+    "evidence": {
+      "eco": "medium"
+    },
+    "axisEvidence": {
+      "eco": {
+        "sourceTitles": [
+          "G20 Extraordinary Committee of Independent Experts on Global Inequality — Summary Report, novembro de 2025"
+        ],
+        "rationale": "Coautoria explícita sustenta direção pública parcial. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Não implica nacionalização exclusiva."
+      }
+    },
+    "coding": {
+      "eco": {
+        "axis": "eco",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "G20 Extraordinary Committee of Independent Experts on Global Inequality — Summary Report, novembro de 2025",
+            "locator": "p10, seção 6: public provision; autoria nominal p2",
+            "statement": "Relatório conjunto recomenda provisão pública universal de serviços essenciais.",
+            "basis": "declaration",
+            "publishedDate": "2025-11; mês da edição, dia não indicado",
+            "accessedDate": "2026-10-07"
+          }
+        ],
+        "rationale": "Coautoria explícita sustenta direção pública parcial.",
+        "uncertainty": "Não implica nacionalização exclusiva.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      }
+    }
+  },
+  {
+    "id": "jayati-ghosh",
+    "name": "Jayati Ghosh",
+    "aliases": [],
+    "kind": "person",
+    "category": "public-figure",
+    "period": "2025-11; mês da edição, dia não indicado",
+    "sources": [
+      {
+        "title": "G20 Extraordinary Committee of Independent Experts on Global Inequality — Summary Report, novembro de 2025",
+        "url": "https://www.g20.org.za/wp-content/uploads/2025/11/1-G20-Global-Inequality-Report-Summary.pdf",
+        "note": "Capa/autoria p2 e recomendação p10 efetivamente lidas. Declaração coletiva explicitamente assinada pelos seis autores; fonte comum, não seis confirmações independentes."
+      },
+      {
+        "title": "Why we need an International Panel on Inequality — autoria e afiliações, Nature, 9/9/2026",
+        "url": "https://www.nature.com/articles/d41586-026-02806-9?error=cookies_not_supported",
+        "note": "Somente autoria nominal, afiliações e data efetivamente visíveis foram lidas para identidade atual. Corpo sob paywall não usado em codificação; não garante cargo na data de acesso."
+      }
+    ],
+    "caveats": "Declarações autorais delimitadas; demais eixos desconhecidos. Revisão documental independente delimitada aceita; integração pelo Root pendente. Evidência compartilhada entre seis coautores; não são confirmações independentes nem execução pessoal.",
+    "rationale": "Declarações pessoais ou coautoria primária explícita; escopo delimitado.",
+    "vec": {
+      "est": 50,
+      "rep": 50,
+      "pod": 50,
+      "imi": 50,
+      "dip": 50,
+      "int": 50,
+      "eco": 60,
+      "con": 50,
+      "com": 50,
+      "rel": 50,
+      "mor": 50,
+      "tec": 50
+    },
+    "evidence": {
+      "eco": "medium"
+    },
+    "axisEvidence": {
+      "eco": {
+        "sourceTitles": [
+          "G20 Extraordinary Committee of Independent Experts on Global Inequality — Summary Report, novembro de 2025"
+        ],
+        "rationale": "Coautoria explícita sustenta direção pública parcial. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Não implica nacionalização exclusiva."
+      }
+    },
+    "coding": {
+      "eco": {
+        "axis": "eco",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "G20 Extraordinary Committee of Independent Experts on Global Inequality — Summary Report, novembro de 2025",
+            "locator": "p10, seção 6: public provision; autoria nominal p2",
+            "statement": "Relatório conjunto recomenda provisão pública universal de serviços essenciais.",
+            "basis": "declaration",
+            "publishedDate": "2025-11; mês da edição, dia não indicado",
+            "accessedDate": "2026-10-07"
+          }
+        ],
+        "rationale": "Coautoria explícita sustenta direção pública parcial.",
+        "uncertainty": "Não implica nacionalização exclusiva.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      }
+    }
+  },
+  {
+    "id": "imraan-valodia",
+    "name": "Imraan Valodia",
+    "aliases": [],
+    "kind": "person",
+    "category": "public-figure",
+    "period": "2025-11; mês da edição, dia não indicado",
+    "sources": [
+      {
+        "title": "G20 Extraordinary Committee of Independent Experts on Global Inequality — Summary Report, novembro de 2025",
+        "url": "https://www.g20.org.za/wp-content/uploads/2025/11/1-G20-Global-Inequality-Report-Summary.pdf",
+        "note": "Capa/autoria p2 e recomendação p10 efetivamente lidas. Declaração coletiva explicitamente assinada pelos seis autores; fonte comum, não seis confirmações independentes."
+      },
+      {
+        "title": "Why we need an International Panel on Inequality — autoria e afiliações, Nature, 9/9/2026",
+        "url": "https://www.nature.com/articles/d41586-026-02806-9?error=cookies_not_supported",
+        "note": "Somente autoria nominal, afiliações e data efetivamente visíveis foram lidas para identidade atual. Corpo sob paywall não usado em codificação; não garante cargo na data de acesso."
+      }
+    ],
+    "caveats": "Declarações autorais delimitadas; demais eixos desconhecidos. Revisão documental independente delimitada aceita; integração pelo Root pendente. Evidência compartilhada entre seis coautores; não são confirmações independentes nem execução pessoal.",
+    "rationale": "Declarações pessoais ou coautoria primária explícita; escopo delimitado.",
+    "vec": {
+      "est": 50,
+      "rep": 50,
+      "pod": 50,
+      "imi": 50,
+      "dip": 50,
+      "int": 50,
+      "eco": 60,
+      "con": 50,
+      "com": 50,
+      "rel": 50,
+      "mor": 50,
+      "tec": 50
+    },
+    "evidence": {
+      "eco": "medium"
+    },
+    "axisEvidence": {
+      "eco": {
+        "sourceTitles": [
+          "G20 Extraordinary Committee of Independent Experts on Global Inequality — Summary Report, novembro de 2025"
+        ],
+        "rationale": "Coautoria explícita sustenta direção pública parcial. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Não implica nacionalização exclusiva."
+      }
+    },
+    "coding": {
+      "eco": {
+        "axis": "eco",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "G20 Extraordinary Committee of Independent Experts on Global Inequality — Summary Report, novembro de 2025",
+            "locator": "p10, seção 6: public provision; autoria nominal p2",
+            "statement": "Relatório conjunto recomenda provisão pública universal de serviços essenciais.",
+            "basis": "declaration",
+            "publishedDate": "2025-11; mês da edição, dia não indicado",
+            "accessedDate": "2026-10-07"
+          }
+        ],
+        "rationale": "Coautoria explícita sustenta direção pública parcial.",
+        "uncertainty": "Não implica nacionalização exclusiva.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      }
+    }
+  },
+  {
+    "id": "wanga-zembe-mkabile",
+    "name": "Wanga Zembe-Mkabile",
+    "aliases": [],
+    "kind": "person",
+    "category": "public-figure",
+    "period": "2025-11; mês da edição, dia não indicado",
+    "sources": [
+      {
+        "title": "G20 Extraordinary Committee of Independent Experts on Global Inequality — Summary Report, novembro de 2025",
+        "url": "https://www.g20.org.za/wp-content/uploads/2025/11/1-G20-Global-Inequality-Report-Summary.pdf",
+        "note": "Capa/autoria p2 e recomendação p10 efetivamente lidas. Declaração coletiva explicitamente assinada pelos seis autores; fonte comum, não seis confirmações independentes."
+      },
+      {
+        "title": "Why we need an International Panel on Inequality — autoria e afiliações, Nature, 9/9/2026",
+        "url": "https://www.nature.com/articles/d41586-026-02806-9?error=cookies_not_supported",
+        "note": "Somente autoria nominal, afiliações e data efetivamente visíveis foram lidas para identidade atual. Corpo sob paywall não usado em codificação; não garante cargo na data de acesso."
+      }
+    ],
+    "caveats": "Declarações autorais delimitadas; demais eixos desconhecidos. Revisão documental independente delimitada aceita; integração pelo Root pendente. Evidência compartilhada entre seis coautores; não são confirmações independentes nem execução pessoal.",
+    "rationale": "Declarações pessoais ou coautoria primária explícita; escopo delimitado.",
+    "vec": {
+      "est": 50,
+      "rep": 50,
+      "pod": 50,
+      "imi": 50,
+      "dip": 50,
+      "int": 50,
+      "eco": 60,
+      "con": 50,
+      "com": 50,
+      "rel": 50,
+      "mor": 50,
+      "tec": 50
+    },
+    "evidence": {
+      "eco": "medium"
+    },
+    "axisEvidence": {
+      "eco": {
+        "sourceTitles": [
+          "G20 Extraordinary Committee of Independent Experts on Global Inequality — Summary Report, novembro de 2025"
+        ],
+        "rationale": "Coautoria explícita sustenta direção pública parcial. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Não implica nacionalização exclusiva."
+      }
+    },
+    "coding": {
+      "eco": {
+        "axis": "eco",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "G20 Extraordinary Committee of Independent Experts on Global Inequality — Summary Report, novembro de 2025",
+            "locator": "p10, seção 6: public provision; autoria nominal p2",
+            "statement": "Relatório conjunto recomenda provisão pública universal de serviços essenciais.",
+            "basis": "declaration",
+            "publishedDate": "2025-11; mês da edição, dia não indicado",
+            "accessedDate": "2026-10-07"
+          }
+        ],
+        "rationale": "Coautoria explícita sustenta direção pública parcial.",
+        "uncertainty": "Não implica nacionalização exclusiva.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      }
+    }
+  }
+];
+export const publicDescription01Rationales:Record<string,string> = {
+  "javier-milei": "Defende propriedade privada e mercados livres de intervenção estatal, preservando direitos individuais e limites legais.",
+  "gabriel-boric": "Propõe participação democrática, direitos civis e reprodutivos, expansão pública e coordenação de setores na economia mista.",
+  "tawakkol-karman": "Defende expressão digital contra censura e manipulação, admitindo remoção de conteúdos que causem dano real.",
+  "shirin-ebadi": "Defende democracia, candidaturas abertas, separação entre religião e Estado e negociação internacional.",
+  "narges-mohammadi": "Contesta tutela masculina, imposição de vestuário e restrições à participação e autonomia reprodutiva das mulheres.",
+  "maria-ressa": "Defende imprensa livre e publicação sem medo, contra uso de processos penais para silenciar jornalistas.",
+  "denis-mukwege": "Defende liderança e participação plena e igual das mulheres nas negociações e na construção da paz.",
+  "mary-robinson": "Endossa sanções econômicas externas dirigidas a assentamentos e ação coordenada da União Europeia.",
+  "helen-clark": "Endossa sanções econômicas externas dirigidas a assentamentos e ação coordenada da União Europeia.",
+  "juan-manuel-santos": "Propõe negociações de paz inclusivas com Ucrânia e países europeus, preservando soberania e garantias de segurança.",
+  "hina-jilani": "Defende autonomia corporal e acesso igual das mulheres à justiça contra discriminação patriarcal.",
+  "ernesto-zedillo": "Propõe redução do risco nuclear, compromissos de não primeiro uso e diplomacia voltada ao desarmamento.",
+  "ban-ki-moon": "Defende liderança política ativa da ONU para mediar conflitos e solucionar crises internacionais.",
+  "zeid-raad-al-hussein": "Propõe restaurar uma liderança independente e ativa do secretário-geral da ONU como mediador internacional.",
+  "lakhdar-brahimi": "Defende diálogo com o Taliban e ajuda humanitária, sem reconhecimento diplomático imediato.",
+  "ricardo-lagos": "Defende enfrentar causas sistêmicas da violência de gênero e tornar a justiça sensível aos direitos das mulheres.",
+  "ziauddin-yousafzai": "Contesta casamento infantil e forçado e defende igualdade salarial e participação política das mulheres.",
+  "jacinda-ardern": "Defende igualdade de voz, debate democrático e representação parlamentar proporcional.",
+  "jeremy-corbyn": "Endossa, em assinatura parlamentar individual, a proposta de propriedade pública do setor energético.",
+  "gro-harlem-brundtland": "Defende financiamento público de saúde e transição do financiamento privado voluntário, sem excluir prestadores privados.",
+  "ellen-johnson-sirleaf": "Propõe financiamento público da saúde, liderança feminina e infraestrutura digital para antecipar epidemias.",
+  "leymah-gbowee": "Defende comunidades sem divisões por etnia, religião ou orientação sexual e plena participação e remuneração das mulheres.",
+  "kailash-satyarthi": "Exige o fim do casamento infantil e da exploração de crianças, incluindo abuso sexual.",
+  "jose-ramos-horta": "Propõe democracia, imprensa independente e diálogo, com Timor sem exército permanente e garantias internacionais de neutralidade.",
+  "anthony-albanese": "Defende abertura comercial, adoção de IA e saúde universal, com incentivos e investimento público para manufatura e inovação.",
+  "christopher-luxon": "Defende livre comércio, redução regulatória e regras de propriedade, com repressão a gangues e penas mais longas.",
+  "keir-starmer": "Promove IA com proteção contra danos e compras públicas de chips e infraestrutura para orientar inovação industrial.",
+  "bassirou-diomaye-faye": "Promove agricultura de precisão, IA e inovação, com estratégia estatal coordenada com cientistas e produtores.",
+  "john-mahama": "Propõe atenção primária gratuita, coordenação produtiva e mercado continental aberto com redução de barreiras regionais.",
+  "bola-ahmed-tinubu": "Propõe apoio às famílias pobres, coordenação pública da produção, mecanização agrícola e conectividade digital.",
+  "mia-mottley": "Propõe financiamento concessional de longo prazo para educação, hospitais e água.",
+  "mario-draghi": "Defende inovação tecnológica, coordenação europeia da política industrial e escolhas governamentais avalizadas pelo eleitorado.",
+  "christine-lagarde": "Promove euro digital, tokenização e pagamentos conectados, com infraestrutura coordenada e regras comuns para ativos digitais.",
+  "janet-yellen": "Defende supervisão bancária e regulação preventiva, preservando a independência do banco central.",
+  "nadia-murad": "Defende participação das mulheres nas decisões de paz e segurança, prevenção de escalada armada e proteção dos civis.",
+  "amina-mohammed": "Promove inovação, dados e soluções digitais para coordenar o desenvolvimento.",
+  "antonio-guterres": "Defende negociação, liberdades civis, igualdade das mulheres e acolhimento de migrantes com respeito às identidades culturais.",
+  "lee-jae-myung": "Propõe apoio às rendas menores, teto do petróleo e coordenação econômica, com investimento em IA e novas tecnologias.",
+  "lawrence-wong": "Promove integração internacional, IA e inovação, com benefícios sociais e planejamento público de infraestrutura e indústria.",
+  "prabowo-subianto": "Propõe refeições e exames públicos, financiamento industrial e educação digital, com abertura comercial e cooperação internacional.",
+  "friedrich-merz": "Defende alternância democrática, integração por normas comuns, mercados e livre comércio, com dissuasão militar e inovação.",
+  "peter-obi": "Propõe autonomia dos estados, separação de poderes e responsabilização do Executivo, com IA, robótica e biotecnologia.",
+  "atiku-abubakar": "Prioriza liderança privada e preços de mercado, com autonomia local, participação democrática e modernização digital.",
+  "andrej-babis": "Defende referendos e expressão livre, capacidades militares e compromissos aliados, com nuclear e IA em múltiplos setores.",
+  "na-hillary-clinton": "Defende voto e direitos civis, diversidade e igualdade familiar, com superioridade militar e intervenção externa condicionada.",
+  "marine-le-pen": "Propõe referendos, coerção policial, assimilação cultural e proteção comercial, com maior orçamento e equipamento militar.",
+  "jeannette-jara": "Defende participação democrática, vigilância e controles de segurança, abertura comercial e expansão tecnológica.",
+  "michelle-bachelet": "Propõe participação democrática, pluralidade cultural e direitos de gênero, com abertura comercial e proteção internacional.",
+  "dilma-rousseff": "Defende instituições e participação política, soberania e não intervenção, com inovação produtiva e cooperação científica.",
+  "luisa-gonzalez": "Propõe participação democrática, pluralidade, empresas públicas e coordenação econômica, com igualdade de gênero e inovação.",
+  "myriam-bregman": "Propõe revogação popular de mandatos, bancos e comércio exterior públicos e planejamento com controle de preços e renda.",
+  "jill-stein": "Defende escolha eleitoral e diplomacia, com expansão da propriedade pública, controles de aluguel e redistribuição tributária.",
+  "joseph-stiglitz": "Endossa, em relatório coletivo, provisão pública universal de serviços essenciais para enfrentar a desigualdade.",
+  "adriana-abdenur": "Endossa, em relatório coletivo, provisão pública universal de serviços essenciais para enfrentar a desigualdade.",
+  "winnie-byanyima": "Endossa, em relatório coletivo, provisão pública universal de serviços essenciais para enfrentar a desigualdade.",
+  "jayati-ghosh": "Endossa, em relatório coletivo, provisão pública universal de serviços essenciais para enfrentar a desigualdade.",
+  "imraan-valodia": "Endossa, em relatório coletivo, provisão pública universal de serviços essenciais para enfrentar a desigualdade.",
+  "wanga-zembe-mkabile": "Endossa, em relatório coletivo, provisão pública universal de serviços essenciais para enfrentar a desigualdade."
+};
+export const publicDescription01NormLocators = {
+  "javier-milei": [
+    {
+      "sourceTitle": "Casa Rosada — Milei, discurso após posse, 10/12/2023 (URL canônica)",
+      "locator": "Parágrafos iniciados «En materia de salud», «Ese es el Estado presente» e «Hoy volvemos a abrazar»; linhas48–49/57 da leitura",
+      "statement": "Defende propriedade privada e contrapõe ineficiência estatal à liberdade econômica.",
+      "basis": "declaration",
+      "publishedDate": "2023-12-10",
+      "accessedDate": "2026-10-07"
+    },
+    {
+      "sourceTitle": "Casa Rosada — Milei, discurso após posse, 10/12/2023 (URL canônica)",
+      "locator": "Parágrafos «A su vez, el cepo cambiario» e «Hoy volvemos a abrazar»; linhas20/57",
+      "statement": "Rejeita controles cambiais e adota mercados livres de intervenção estatal.",
+      "basis": "declaration",
+      "publishedDate": "2023-12-10",
+      "accessedDate": "2026-10-07"
+    }
+  ],
+  "gabriel-boric": [
+    {
+      "sourceTitle": "Gabriel Boric — Manifiesto programático, primárias2021, SERVEL, PDF38p",
+      "locator": "PDFp11 física325–346; p16,542–595",
+      "statement": "Redistribui competências e decisões financeiras regionais e locais.",
+      "basis": "declaration",
+      "publishedDate": "Primárias2021; hospedagem2021/06, dia editorial não certificado",
+      "accessedDate": "2026-10-08"
+    },
+    {
+      "sourceTitle": "Gabriel Boric — Manifiesto programático, primárias2021, SERVEL, PDF38p",
+      "locator": "PDFp4 física96–129; p13,361–373; p15–16,482–527",
+      "statement": "Defende participação, plebiscitos e controle cidadão dos poderes.",
+      "basis": "declaration",
+      "publishedDate": "Primárias2021; hospedagem2021/06, dia editorial não certificado",
+      "accessedDate": "2026-10-08"
+    },
+    {
+      "sourceTitle": "Gabriel Boric — Manifiesto programático, primárias2021, SERVEL, PDF38p",
+      "locator": "PDFp14 física375–405/436–446; p17–18,636–707; p22,973–976",
+      "statement": "Desmilitariza policiamento e protege direitos contra repressão política.",
+      "basis": "declaration",
+      "publishedDate": "Primárias2021; hospedagem2021/06, dia editorial não certificado",
+      "accessedDate": "2026-10-08"
+    },
+    {
+      "sourceTitle": "Gabriel Boric — Manifiesto programático, primárias2021, SERVEL, PDF38p",
+      "locator": "PDFp21 física918–926; p22,991–1003; p24,1112–1128; p32,1680–1700; p34,1826–1833",
+      "statement": "Propõe provisão e administração públicas em múltiplos setores.",
+      "basis": "declaration",
+      "publishedDate": "Primárias2021; hospedagem2021/06, dia editorial não certificado",
+      "accessedDate": "2026-10-08"
+    },
+    {
+      "sourceTitle": "Gabriel Boric — Manifiesto programático, primárias2021, SERVEL, PDF38p",
+      "locator": "PDFp31 física1606–1637; p32,1680–1700; p34–35,1826–1833/1853–1865/1917–1929",
+      "statement": "Planeja setores, investimentos e diversificação produtiva.",
+      "basis": "declaration",
+      "publishedDate": "Primárias2021; hospedagem2021/06, dia editorial não certificado",
+      "accessedDate": "2026-10-08"
+    },
+    {
+      "sourceTitle": "Gabriel Boric — Manifiesto programático, primárias2021, SERVEL, PDF38p",
+      "locator": "PDFp19–20 físicas752–824; p11,273–294",
+      "statement": "Defende autonomia reprodutiva, igualdade conjugal e direitos trans.",
+      "basis": "declaration",
+      "publishedDate": "Primárias2021; hospedagem2021/06, dia editorial não certificado",
+      "accessedDate": "2026-10-08"
+    }
+  ],
+  "tawakkol-karman": [
+    {
+      "sourceTitle": "Tawakkol Karman — Nobel Prize Summit, Washington, 25/5/2023",
+      "publishedDate": "2023-05-25; data indicada no índice da página inicial do gabinete",
+      "accessedDate": "2026-10-07",
+      "locator": "Parágrafos Global democracies; Tech companies; They should resist demands for censorship",
+      "statement": "Defende expressão digital protegida contra censura autoritária e manipulação, com remoção de conteúdos causadores de dano real.",
+      "basis": "declaration"
+    }
+  ],
+  "shirin-ebadi": [
+    {
+      "sourceTitle": "Conversation with Shirin Ebadi — JFK Library, 8/5/2005",
+      "publishedDate": "2005-05-08",
+      "accessedDate": "2026-10-07",
+      "locator": "Respostas sobre governo democrático e filtragem de candidaturas pelo Guardian Council",
+      "statement": "Defende governo democrático e candidaturas livres de veto político prévio.",
+      "basis": "declaration"
+    },
+    {
+      "sourceTitle": "Conversation with Shirin Ebadi — JFK Library, 8/5/2005",
+      "publishedDate": "2005-05-08",
+      "accessedDate": "2026-10-07",
+      "locator": "Resposta My personal belief is that church and state should be separated",
+      "statement": "Defende separar religião e Estado, compatibilizando isso com sua fé islâmica.",
+      "basis": "declaration"
+    },
+    {
+      "sourceTitle": "Conversation with Shirin Ebadi — JFK Library, 8/5/2005",
+      "publishedDate": "2005-05-08",
+      "accessedDate": "2026-10-07",
+      "locator": "Respostas sobre ajuda à democracia iraniana e política externa: military attack; negotiate",
+      "statement": "Rejeita ataque militar como ajuda à democratização e prefere negociação seguida da ONU.",
+      "basis": "declaration"
+    }
+  ],
+  "narges-mohammadi": [
+    {
+      "sourceTitle": "Narges Mohammadi — Gender Apartheid must end",
+      "publishedDate": "2025-05-22; discurso de 21/5/2025",
+      "accessedDate": "2026-10-07",
+      "locator": "Do parágrafo In 2025, in Iran até This is gender apartheid and it must end",
+      "statement": "Contesta tutela masculina, imposição de vestuário e limitações à participação e autonomia reprodutiva de mulheres.",
+      "basis": "declaration"
+    }
+  ],
+  "maria-ressa": [
+    {
+      "sourceTitle": "Maria Ressa — discurso preparado para prêmio CPJ de 2018",
+      "publishedDate": "2018; dia da publicação não indicado",
+      "accessedDate": "2026-10-07",
+      "locator": "Discurso preparado: parágrafo With this announced indictment e lista de seis apelos, itens 1–3",
+      "statement": "Contesta instrumentalização penal contra jornalistas e defende publicar sem medo ou favorecimento.",
+      "basis": "declaration"
+    }
+  ],
+  "denis-mukwege": [
+    {
+      "sourceTitle": "Denis Mukwege — Without women, there can be no lasting peace",
+      "publishedDate": "2025-11-13",
+      "accessedDate": "2026-10-07",
+      "locator": "Parágrafos While women often bear; However; As we mark; The participation of women",
+      "statement": "Defende liderança e participação plena e igual de mulheres nas negociações e construção da paz.",
+      "basis": "declaration"
+    }
+  ],
+  "mary-robinson": [
+    {
+      "sourceTitle": "Mary Robinson e Helen Clark — declaração conjunta sobre sanções a assentamentos",
+      "publishedDate": "2026-09-09",
+      "accessedDate": "2026-10-07",
+      "locator": "Declaração nominal: parágrafos The measures targeting; Those who trade; The EU should now follow suit",
+      "statement": "Apoia medidas econômicas internacionais dirigidas a assentamentos e pede extensão coordenada pela UE.",
+      "basis": "declaration"
+    }
+  ],
+  "helen-clark": [
+    {
+      "sourceTitle": "Mary Robinson e Helen Clark — declaração conjunta sobre sanções a assentamentos",
+      "publishedDate": "2026-09-09",
+      "accessedDate": "2026-10-07",
+      "locator": "Declaração nominal: parágrafos The measures targeting; Those who trade; The EU should now follow suit",
+      "statement": "Apoia medidas econômicas internacionais dirigidas a assentamentos e pede extensão coordenada pela UE.",
+      "basis": "declaration"
+    }
+  ],
+  "juan-manuel-santos": [
+    {
+      "sourceTitle": "Juan Manuel Santos — negociações inclusivas sobre Ucrânia",
+      "publishedDate": "2025-02-24",
+      "accessedDate": "2026-10-07",
+      "locator": "Declaração nominal: parágrafos The conflict is entering; The whole world will pay",
+      "statement": "Pede negociações de paz com participação direta da Ucrânia e de países europeus, preservando soberania e garantias de segurança.",
+      "basis": "declaration"
+    }
+  ],
+  "hina-jilani": [
+    {
+      "sourceTitle": "Leaders must tackle root causes of gender-based violence and ensure justice for all",
+      "publishedDate": "2022-11-25",
+      "accessedDate": "2026-10-07",
+      "locator": "Citação nominal de Hina Jilani, dois parágrafos após Hina Jilani said",
+      "statement": "Defende autonomia corporal e acesso igual de mulheres à justiça contra discriminação patriarcal.",
+      "basis": "declaration"
+    }
+  ],
+  "ernesto-zedillo": [
+    {
+      "sourceTitle": "Nuclear weapons pose a terrible danger to us all",
+      "publishedDate": "2025-05-07",
+      "accessedDate": "2026-10-07",
+      "locator": "Parágrafos No First Use; four Ds; diplomatic efforts; assinatura Ernesto Zedillo",
+      "statement": "Pede redução do risco nuclear, não primeiro uso e esforços diplomáticos para desarmamento.",
+      "basis": "declaration"
+    }
+  ],
+  "ban-ki-moon": [
+    {
+      "sourceTitle": "The UN is only as strong as its 193 Member States want it to be",
+      "publishedDate": "2025-12-15",
+      "accessedDate": "2026-10-07",
+      "locator": "Discurso: parágrafos UN leadership; more confident and active political role; mediating and settling",
+      "statement": "Defende liderança política ativa da ONU na mediação e solução de crises internacionais.",
+      "basis": "declaration"
+    }
+  ],
+  "zeid-raad-al-hussein": [
+    {
+      "sourceTitle": "The UN must take the need for reform seriously",
+      "publishedDate": "2025-10-14",
+      "accessedDate": "2026-10-07",
+      "locator": "Parágrafo reinstating the Secretary-General as an independent and dynamic international mediator; assinatura",
+      "statement": "Defende restaurar a função independente e dinâmica do secretário-geral como mediador internacional.",
+      "basis": "declaration"
+    }
+  ],
+  "lakhdar-brahimi": [
+    {
+      "sourceTitle": "The international community must act responsibly on Afghanistan",
+      "publishedDate": "2021-09-07",
+      "accessedDate": "2026-10-07",
+      "locator": "Parágrafos sobre representante especial da ONU em Kabul, discussão franca com Taliban e ajuda humanitária",
+      "statement": "Defende diálogo diplomático com o Taliban e programas humanitários sem reconhecimento diplomático imediato.",
+      "basis": "declaration"
+    }
+  ],
+  "ricardo-lagos": [
+    {
+      "sourceTitle": "Leaders must tackle root causes of gender-based violence and ensure justice for all",
+      "publishedDate": "2022-11-25",
+      "accessedDate": "2026-10-07",
+      "locator": "Citação nominal de Ricardo Lagos: segundo parágrafo Everyone in a position of authority",
+      "statement": "Pede enfrentar causas sistêmicas da violência de gênero e tornar a justiça responsiva aos direitos de mulheres.",
+      "basis": "declaration"
+    }
+  ],
+  "ziauddin-yousafzai": [
+    {
+      "sourceTitle": "Ziauddin Yousafzai — Women Deliver Conference",
+      "publishedDate": "2019-06-05",
+      "accessedDate": "2026-10-07",
+      "locator": "Discurso: trechos sobre casamento forçado, normas prejudiciais, remuneração igual e participação de mulheres na paz",
+      "statement": "Contesta casamento infantil e forçado e pede igualdade salarial e participação política de mulheres.",
+      "basis": "declaration"
+    }
+  ],
+  "jacinda-ardern": [
+    {
+      "sourceTitle": "Harvard Commencement speech: democracy, disinformation and kindness",
+      "publishedDate": "2022-05-27",
+      "accessedDate": "2026-10-07",
+      "locator": "Parágrafos próprios democracy gives equal voice; debate and dialogue; mixed member proportional system",
+      "statement": "Defende igualdade de voz, debate democrático e representação parlamentar proporcional.",
+      "basis": "declaration"
+    }
+  ],
+  "jeremy-corbyn": [
+    {
+      "sourceTitle": "Energy prices — EDM 825, assinatura de Jeremy Corbyn",
+      "publishedDate": "2022-01-10; assinatura individual; moção apresentada 6/1/2022",
+      "accessedDate": "2026-10-07",
+      "locator": "Texto final bring the energy sector into public hands; lista de assinaturas Corbyn, Jeremy Signed on 10 January 2022",
+      "statement": "Adere nominalmente à proposta de propriedade pública do setor energético.",
+      "basis": "declaration"
+    }
+  ],
+  "gro-harlem-brundtland": [
+    {
+      "sourceTitle": "Universal health coverage is affordable, even in tough times",
+      "publishedDate": "2019-09-06",
+      "accessedDate": "2026-10-07",
+      "locator": "Artigo nominal conjunto: Establishing a publicly funded health system; Every country; South Africa, like the US, needs to make this transition",
+      "statement": "Defende sistema de saúde publicamente financiado e transição do financiamento privado voluntário para financiamento público.",
+      "basis": "declaration"
+    }
+  ],
+  "ellen-johnson-sirleaf": [
+    {
+      "sourceTitle": "EJS Center Founder’s closing remarks at the Africa Health Sovereignty Summit",
+      "publishedDate": "2025-08-10; data de publicação no índice do próprio centro; dia do evento não certificado",
+      "accessedDate": "2026-10-07",
+      "locator": "Terceira prioridade, parágrafos Third, we must re-energize the Abuja Declaration e It is time for every African government",
+      "statement": "Propõe tributos direcionados e maior investimento de governos no financiamento da saúde.",
+      "basis": "declaration"
+    },
+    {
+      "sourceTitle": "EJS Center Founder’s closing remarks at the Africa Health Sovereignty Summit",
+      "publishedDate": "2025-08-10; data de publicação no índice do próprio centro; dia do evento não certificado",
+      "accessedDate": "2026-10-07",
+      "locator": "Penúltimo bloco, Let us also be reminded that women are central",
+      "statement": "Defende plena liderança e participação de mulheres nos sistemas de saúde.",
+      "basis": "declaration"
+    },
+    {
+      "sourceTitle": "EJS Center Founder’s closing remarks at the Africa Health Sovereignty Summit",
+      "publishedDate": "2025-08-10; data de publicação no índice do próprio centro; dia do evento não certificado",
+      "accessedDate": "2026-10-07",
+      "locator": "Primeira prioridade, We must fix the digital blind spot até When we build digital systems",
+      "statement": "Defende infraestrutura digital, conectividade e treinamento para antecipar epidemias.",
+      "basis": "declaration"
+    }
+  ],
+  "leymah-gbowee": [
+    {
+      "sourceTitle": "Leymah Gbowee — Africa’s Prison, reflexão sobre a libertação de Mandela",
+      "publishedDate": "2020-02-11",
+      "accessedDate": "2026-10-07",
+      "locator": "PDF p.4, Africa prison is the division of our communities",
+      "statement": "Contesta dividir comunidades por etnia, religião ou orientação sexual.",
+      "basis": "declaration"
+    },
+    {
+      "sourceTitle": "Leymah Gbowee — Africa’s Prison, reflexão sobre a libertação de Mandela",
+      "publishedDate": "2020-02-11",
+      "accessedDate": "2026-10-07",
+      "locator": "PDF p.5, definição de paz: an empowered, recognized appreciated and fully compensated community of women",
+      "statement": "Inclui mulheres emancipadas, reconhecidas e plenamente remuneradas em sua proposta de paz.",
+      "basis": "declaration"
+    }
+  ],
+  "kailash-satyarthi": [
+    {
+      "sourceTitle": "Kailash Satyarthi — Nobel Lecture, Let Us March!",
+      "publishedDate": "2014-12-10; PDF hospedado pelo gabinete em diretório 2025/03 não atualiza o discurso",
+      "accessedDate": "2026-10-07",
+      "locator": "PDF p.9, I call upon all the governments; lista child marriages",
+      "statement": "Exige terminar casamento infantil e exploração de crianças, incluindo abuso sexual.",
+      "basis": "declaration"
+    }
+  ],
+  "jose-ramos-horta": [
+    {
+      "sourceTitle": "José Ramos-Horta — Taiwan and East Timor: Human Rights, Rule of Law, Self-Determination",
+      "publishedDate": "1997-08-23; versão de artigo hospedada no International Journal of Peace Studies; dia editorial não indicado",
+      "accessedDate": "2026-10-07",
+      "locator": "Rule of Law, parágrafo We will endeavor to build",
+      "statement": "Propõe Estado democrático legitimado por eleições livres e democráticas.",
+      "basis": "declaration"
+    },
+    {
+      "sourceTitle": "José Ramos-Horta — Taiwan and East Timor: Human Rights, Rule of Law, Self-Determination",
+      "publishedDate": "1997-08-23; versão de artigo hospedada no International Journal of Peace Studies; dia editorial não indicado",
+      "accessedDate": "2026-10-07",
+      "locator": "Independent media, parágrafo We will encourage a free and independent media",
+      "statement": "Defende imprensa livre, independente do governo e tão independente quanto o Judiciário.",
+      "basis": "declaration"
+    },
+    {
+      "sourceTitle": "José Ramos-Horta — Taiwan and East Timor: Human Rights, Rule of Law, Self-Determination",
+      "publishedDate": "1997-08-23; versão de artigo hospedada no International Journal of Peace Studies; dia editorial não indicado",
+      "accessedDate": "2026-10-07",
+      "locator": "East Timor self-determination; Neutrality, Zone of Peace and Development",
+      "statement": "Propõe diálogo sem pré-condições com a Indonésia e Timor sem exército permanente, com garantia internacional de neutralidade.",
+      "basis": "declaration"
+    },
+    {
+      "sourceTitle": "José Ramos-Horta — Taiwan and East Timor: Human Rights, Rule of Law, Self-Determination",
+      "publishedDate": "1997-08-23; versão de artigo hospedada no International Journal of Peace Studies; dia editorial não indicado",
+      "accessedDate": "2026-10-07",
+      "locator": "Health and education, parágrafo We believe in free education and health care",
+      "statement": "Propõe saúde e educação gratuitas e alocação de pelo menos 40% dos recursos à população nesses serviços e produção de alimentos.",
+      "basis": "declaration"
+    },
+    {
+      "sourceTitle": "José Ramos-Horta — Taiwan and East Timor: Human Rights, Rule of Law, Self-Determination",
+      "publishedDate": "1997-08-23; versão de artigo hospedada no International Journal of Peace Studies; dia editorial não indicado",
+      "accessedDate": "2026-10-07",
+      "locator": "Indonesian migrants, parágrafo Indonesian migrants in East Timor will be welcome",
+      "statement": "Defende permanência de migrantes indonésios e valoriza o enriquecimento cultural trazido por eles.",
+      "basis": "declaration"
+    }
+  ],
+  "anthony-albanese": [
+    {
+      "sourceTitle": "Anthony Albanese — Australia’s economic outlook 2026",
+      "publishedDate": "2026-06-05",
+      "accessedDate": "2026-10-07",
+      "locator": "Strengthening our trade ties in our region e securing new market access",
+      "statement": "Defende novas oportunidades de acesso comercial à Europa, Índia e Emirados.",
+      "basis": "declaration"
+    },
+    {
+      "sourceTitle": "Anthony Albanese — Australia’s economic outlook 2026",
+      "publishedDate": "2026-06-05",
+      "accessedDate": "2026-10-07",
+      "locator": "Capitalising on the global investment in AI; new data centres; Empowering workers",
+      "statement": "Defende adoção de IA, centros de dados e capacitação de trabalhadores para novas tecnologias.",
+      "basis": "declaration"
+    },
+    {
+      "sourceTitle": "Anthony Albanese — Australia’s economic outlook 2026",
+      "publishedDate": "2026-06-05",
+      "accessedDate": "2026-10-07",
+      "locator": "Universal Medicare that every family can count on and afford; Health care that doesn’t depend",
+      "statement": "Defende Medicare universal e acesso à saúde independente de renda ou plano do empregador.",
+      "basis": "declaration"
+    },
+    {
+      "sourceTitle": "Anthony Albanese — Australia’s economic outlook 2026",
+      "publishedDate": "2026-06-05",
+      "accessedDate": "2026-10-07",
+      "locator": "Broadening and diversifying ... Future Made in Australia; Our Government’s agenda; Budget reforms",
+      "statement": "Defende agenda pública de manufatura, incentivos tributários e orçamento para orientar crescimento e inovação.",
+      "basis": "declaration"
+    }
+  ],
+  "christopher-luxon": [
+    {
+      "sourceTitle": "Christopher Luxon — Speech on foreign affairs and trade",
+      "publishedDate": "2025-04-10",
+      "accessedDate": "2026-10-07",
+      "locator": "Parágrafos Trade goes both ways; removal of New Zealand’s own trade barriers; promote free trade",
+      "statement": "Defende remover barreiras domésticas tanto para importar quanto exportar e promover livre comércio.",
+      "basis": "declaration"
+    },
+    {
+      "sourceTitle": "Christopher Luxon — Speech to National Party 2026 Campaign Launch",
+      "locator": "Replacing the RMA with a new system based on property rights; Slashing red tape",
+      "statement": "Defende substituir regulação de recursos por sistema baseado em propriedade e reduzir entraves a empresas.",
+      "basis": "declaration",
+      "publishedDate": "2026-09-27",
+      "accessedDate": "2026-10-07"
+    },
+    {
+      "sourceTitle": "Christopher Luxon — Speech to National Party 2026 Campaign Launch",
+      "locator": "Restoring law and order, by cracking down on gangs ... locking offenders up for longer",
+      "statement": "Defende repressão a gangues, mais polícia e penas de prisão mais longas para segurança comunitária.",
+      "basis": "declaration",
+      "publishedDate": "2026-09-27",
+      "accessedDate": "2026-10-07"
+    }
+  ],
+  "keir-starmer": [
+    {
+      "sourceTitle": "Keir Starmer — London Tech Week 2026",
+      "publishedDate": "2026-06-08",
+      "accessedDate": "2026-10-07",
+      "locator": "Britain has three options; third path; AI tutors; AI jobs tool",
+      "statement": "Defende adoção de IA com proteção contra danos e ferramentas de educação e emprego.",
+      "basis": "declaration"
+    },
+    {
+      "sourceTitle": "Keir Starmer — London Tech Week 2026",
+      "publishedDate": "2026-06-08",
+      "accessedDate": "2026-10-07",
+      "locator": "Government will use the power of public procurement; sovereign compute capability; active industrial strategy",
+      "statement": "Defende compras públicas de chips e infraestrutura computacional para orientar inovação industrial.",
+      "basis": "declaration"
+    }
+  ],
+  "bassirou-diomaye-faye": [
+    {
+      "sourceTitle": "Bassirou Diomaye Faye — Pacte national de souveraineté alimentaire",
+      "publishedDate": "2026-07-21",
+      "accessedDate": "2026-10-07",
+      "locator": "Allocution integral após Seul le prononcé fait foi; maîtrise des intrants; agriculture de précision et intelligence artificielle",
+      "statement": "Defende agricultura de precisão, IA e inovação como meios para alimentação e resiliência.",
+      "basis": "declaration"
+    },
+    {
+      "sourceTitle": "Bassirou Diomaye Faye — Pacte national de souveraineté alimentaire",
+      "publishedDate": "2026-07-21",
+      "accessedDate": "2026-10-07",
+      "locator": "Allocution: Agenda national de Transformation Sénégal 2050; Pacte national; action concertée de l’État",
+      "statement": "Defende estratégia nacional e coordenação do Estado com cientistas e produtores para transformar sistemas alimentares.",
+      "basis": "declaration"
+    }
+  ],
+  "john-mahama": [
+    {
+      "sourceTitle": "John Dramani Mahama — Alamein Africa Forum Keynote Address on Investing in Health",
+      "publishedDate": "2026-10-03",
+      "accessedDate": "2026-10-07",
+      "locator": "In Ghana, we are implementing the Accra Reset; Free Primary Health Care; Medical Trust Fund",
+      "statement": "Defende expansão de seguro nacional, atenção primária gratuita e fundo de saúde.",
+      "basis": "declaration"
+    },
+    {
+      "sourceTitle": "John Dramani Mahama — Alamein Africa Forum Keynote Address on Investing in Health",
+      "publishedDate": "2026-10-03",
+      "accessedDate": "2026-10-07",
+      "locator": "HINGE digital platform; Accra Reset Presidential Council; dedicated Task Forces",
+      "statement": "Defende plataforma regulatória integrada, forças de trabalho e observatório para orientar financiamento e compromissos produtivos.",
+      "basis": "declaration"
+    },
+    {
+      "sourceTitle": "John Dramani Mahama — Alamein Africa Forum Keynote Address on Investing in Health",
+      "publishedDate": "2026-10-03",
+      "accessedDate": "2026-10-07",
+      "locator": "The AfCFTA Market Size; dismantle non-tariff barriers across regional value chains",
+      "statement": "Defende mercado continental de livre comércio e desmontar barreiras não tarifárias regionais.",
+      "basis": "declaration"
+    }
+  ],
+  "bola-ahmed-tinubu": [
+    {
+      "sourceTitle": "Bola Ahmed Tinubu — From Reform to Prosperity, Independence Day Address",
+      "publishedDate": "2026-10-01",
+      "accessedDate": "2026-10-07",
+      "locator": "Strengthening direct support for the poorest households; essential public services poorer Nigerians depend on",
+      "statement": "Defende apoio direto às famílias pobres e reforço de saúde, educação e serviços públicos com estados e governos locais.",
+      "basis": "declaration"
+    },
+    {
+      "sourceTitle": "Bola Ahmed Tinubu — From Reform to Prosperity, Independence Day Address",
+      "publishedDate": "2026-10-01",
+      "accessedDate": "2026-10-07",
+      "locator": "Government ... mechanised irrigation; roads, railways and ports; infrastructure and finance",
+      "statement": "Defende coordenação pública de infraestrutura, irrigação e financiamento para agricultura e indústria.",
+      "basis": "declaration"
+    },
+    {
+      "sourceTitle": "Bola Ahmed Tinubu — From Reform to Prosperity, Independence Day Address",
+      "publishedDate": "2026-10-01",
+      "accessedDate": "2026-10-07",
+      "locator": "Expanding mechanised irrigation; increasing mechanisation; expand digital connectivity into communities",
+      "statement": "Defende mecanização agrícola e expansão da conectividade digital às comunidades.",
+      "basis": "declaration"
+    }
+  ],
+  "mia-mottley": [
+    {
+      "sourceTitle": "Mia Amor Mottley — 16th V20 Ministerial Dialogue, transcript",
+      "locator": "p1 compact education/health/water; p3 40- and 50-year loans",
+      "statement": "Propõe financiamento concessional de longo prazo para educação, hospitais e água.",
+      "basis": "declaration",
+      "publishedDate": "2026-04-14",
+      "accessedDate": "2026-10-07"
+    }
+  ],
+  "mario-draghi": [
+    {
+      "sourceTitle": "Mario Draghi — Charlemagne Prize speech, Aachen, 14 May 2026",
+      "locator": "p3–4 AI industrial mobilisation; deployment",
+      "statement": "Defende adoção de IA e investimento em energia, chips e computação.",
+      "basis": "declaration",
+      "publishedDate": "2026-05-14",
+      "accessedDate": "2026-10-07"
+    },
+    {
+      "sourceTitle": "Mario Draghi — Charlemagne Prize speech, Aachen, 14 May 2026",
+      "locator": "p5 coordinate state aid; policy strategy at European level",
+      "statement": "Defende coordenação europeia de ajuda estatal e política industrial.",
+      "basis": "declaration",
+      "publishedDate": "2026-05-14",
+      "accessedDate": "2026-10-07"
+    },
+    {
+      "sourceTitle": "Mario Draghi — Charlemagne Prize speech, Aachen, 14 May 2026",
+      "locator": "p7 deliberate national choice, endorsed by its electorate",
+      "statement": "Exige escolha nacional avalizada pelo eleitorado e responsabilização do governo.",
+      "basis": "declaration",
+      "publishedDate": "2026-05-14",
+      "accessedDate": "2026-10-07"
+    }
+  ],
+  "christine-lagarde": [
+    {
+      "sourceTitle": "Christine Lagarde — Money in transition",
+      "locator": "Wholesale markets/tokenisation; retail digital euro; TIPS",
+      "statement": "Defende tokenização, euro digital e pagamentos instantâneos conectados.",
+      "basis": "declaration",
+      "publishedDate": "2026-06-15",
+      "accessedDate": "2026-10-07"
+    },
+    {
+      "sourceTitle": "Christine Lagarde — Money in transition",
+      "locator": "Pontes/Appia; final paragraphs shared standards/common framework",
+      "statement": "Defende infraestrutura de liquidação coordenada e marco comum para ativos digitais.",
+      "basis": "declaration",
+      "publishedDate": "2026-06-15",
+      "accessedDate": "2026-10-07"
+    }
+  ],
+  "janet-yellen": [
+    {
+      "sourceTitle": "Janet L. Yellen — The Powell years at the Fed: A retrospective",
+      "locator": "Second lesson, strengthening both bank supervision and broader financial regulation",
+      "statement": "Defende reforçar supervisão bancária e regulação financeira preventiva.",
+      "basis": "declaration",
+      "publishedDate": "2026-06-02",
+      "accessedDate": "2026-10-07"
+    }
+  ],
+  "nadia-murad": [
+    {
+      "sourceTitle": "Nadia Murad — Reflection Is Not Enough: action at UNGA",
+      "locator": "Three urgent priorities, guarantee women’s participation",
+      "statement": "Defende participação de mulheres nas decisões de paz e segurança.",
+      "basis": "declaration",
+      "publishedDate": "2025-09-23; publicação; dia do discurso não certificado",
+      "accessedDate": "2026-10-07"
+    },
+    {
+      "sourceTitle": "Nadia Murad — own quoted statement on escalating Middle East conflict",
+      "locator": "Quoted personal statement, international community prevent further escalation",
+      "statement": "Defende evitar escalada armada e proteger civis pelo direito internacional.",
+      "basis": "declaration",
+      "publishedDate": "2026-03-04",
+      "accessedDate": "2026-10-07"
+    }
+  ],
+  "amina-mohammed": [
+    {
+      "sourceTitle": "Amina J. Mohammed — 2026 ECOSOC Operational Activities Segment remarks",
+      "locator": "Recalibration, headquarters digital capacities; embracing innovation and data",
+      "statement": "Defende inovação e uso de dados e soluções digitais na coordenação do desenvolvimento.",
+      "basis": "declaration",
+      "publishedDate": "2026-06-01",
+      "accessedDate": "2026-10-07"
+    }
+  ],
+  "antonio-guterres": [
+    {
+      "sourceTitle": "António Guterres — General Assembly priorities for 2026, as delivered",
+      "locator": "Second principle, Gaza/Ukraine/Sudan ceasefires and talks",
+      "statement": "Defende cessar-fogo, fim das hostilidades e negociações.",
+      "basis": "declaration",
+      "publishedDate": "2026-01-15",
+      "accessedDate": "2026-10-07"
+    },
+    {
+      "sourceTitle": "António Guterres — General Assembly priorities for 2026, as delivered",
+      "locator": "Peace with justice, safeguard freedom of speech and civic space",
+      "statement": "Defende expressão livre e espaço cívico contra repressão.",
+      "basis": "declaration",
+      "publishedDate": "2026-01-15",
+      "accessedDate": "2026-10-07"
+    },
+    {
+      "sourceTitle": "António Guterres — General Assembly priorities for 2026, as delivered",
+      "locator": "Women and girls, equality, participation; gender parity at senior levels",
+      "statement": "Defende participação igual de mulheres e preservação de seus direitos.",
+      "basis": "declaration",
+      "publishedDate": "2026-01-15",
+      "accessedDate": "2026-10-07"
+    },
+    {
+      "sourceTitle": "António Guterres — General Assembly priorities for 2026, as delivered",
+      "locator": "Third principle, migrants rights; welcoming societies and everyone identity respected",
+      "statement": "Defende acolhimento de migrantes e respeito às identidades culturais.",
+      "basis": "declaration",
+      "publishedDate": "2026-01-15",
+      "accessedDate": "2026-10-07"
+    }
+  ],
+  "lee-jae-myung": [
+    {
+      "sourceTitle": "Lee Jae Myung — 2026 Supplementary Budget Proposal address (Unofficial Translation)",
+      "locator": "First package, energy cost relief payments and lower seventy percent",
+      "statement": "Defende pagamentos públicos direcionados às pessoas de menor renda.",
+      "basis": "declaration",
+      "publishedDate": "2026-04-02",
+      "accessedDate": "2026-10-07"
+    },
+    {
+      "sourceTitle": "Lee Jae Myung — 2026 Supplementary Budget Proposal address (Unofficial Translation)",
+      "locator": "Emergency economic response; oil price cap and government-backed financing",
+      "statement": "Defende teto do petróleo e resposta econômica coordenada pelo governo.",
+      "basis": "declaration",
+      "publishedDate": "2026-04-02",
+      "accessedDate": "2026-10-07"
+    },
+    {
+      "sourceTitle": "Lee Jae Myung — 2026 Supplementary Budget Proposal address (Unofficial Translation)",
+      "locator": "Third package, AI transformation and next-generation technologies",
+      "statement": "Propõe adoção industrial de IA e investimento em novas tecnologias.",
+      "basis": "declaration",
+      "publishedDate": "2026-04-02",
+      "accessedDate": "2026-10-07"
+    }
+  ],
+  "lawrence-wong": [
+    {
+      "sourceTitle": "Lawrence Wong — National Day Rally 2026",
+      "locator": "Our response cannot retreat; ASEAN more effective single market",
+      "statement": "Defende maior conexão internacional e mercado regional integrado.",
+      "basis": "declaration",
+      "publishedDate": "2026-08-23",
+      "accessedDate": "2026-10-07"
+    },
+    {
+      "sourceTitle": "Lawrence Wong — National Day Rally 2026",
+      "locator": "Embracing Technology on our Own Terms",
+      "statement": "Defende IA, genômica e veículos autônomos com capacitação.",
+      "basis": "declaration",
+      "publishedDate": "2026-08-23",
+      "accessedDate": "2026-10-07"
+    },
+    {
+      "sourceTitle": "Lawrence Wong — National Day Rally 2026",
+      "locator": "Families, government-paid parental leave, preschool subsidies, public housing",
+      "statement": "Defende licença parental paga pelo governo e subsídios a educação e moradia.",
+      "basis": "declaration",
+      "publishedDate": "2026-08-23",
+      "accessedDate": "2026-10-07"
+    },
+    {
+      "sourceTitle": "Lawrence Wong — National Day Rally 2026",
+      "locator": "Planning and Building for the Long Term, industry/infrastructure/land",
+      "statement": "Defende investimento coordenado e planejamento de infraestrutura e indústria.",
+      "basis": "declaration",
+      "publishedDate": "2026-08-23",
+      "accessedDate": "2026-10-07"
+    }
+  ],
+  "prabowo-subianto": [
+    {
+      "sourceTitle": "Prabowo Subianto — Davos 2026 special address, full transcript",
+      "locator": "Free nutritious meals; free medical checkups",
+      "statement": "Defende refeições e exames médicos financiados por recursos públicos.",
+      "basis": "declaration",
+      "publishedDate": "2026-01-22",
+      "accessedDate": "2026-10-07"
+    },
+    {
+      "sourceTitle": "Prabowo Subianto — Davos 2026 special address, full transcript",
+      "locator": "Danantara finance/co-finance industries of the future",
+      "statement": "Defende fundo soberano para direcionar financiamento industrial.",
+      "basis": "declaration",
+      "publishedDate": "2026-01-22",
+      "accessedDate": "2026-10-07"
+    },
+    {
+      "sourceTitle": "Prabowo Subianto — Davos 2026 special address, full transcript",
+      "locator": "Education digitalization, interactive smart panels",
+      "statement": "Defende ampliar equipamentos digitais interativos nas escolas.",
+      "basis": "declaration",
+      "publishedDate": "2026-01-22",
+      "accessedDate": "2026-10-07"
+    },
+    {
+      "sourceTitle": "Prabowo Subianto — Davos 2026 special address, full transcript",
+      "locator": "Trade agreements; more deeply integrated global economy; reducing barriers",
+      "statement": "Defende acordos comerciais e redução de barreiras internacionais.",
+      "basis": "declaration",
+      "publishedDate": "2026-01-22",
+      "accessedDate": "2026-10-07"
+    },
+    {
+      "sourceTitle": "Prabowo Subianto — Davos 2026 special address, full transcript",
+      "locator": "Conclusion, peace/friendship/collaboration over confrontation",
+      "statement": "Declara preferência por cooperação e amizade entre países.",
+      "basis": "declaration",
+      "publishedDate": "2026-01-22",
+      "accessedDate": "2026-10-07"
+    }
+  ],
+  "friedrich-merz": [
+    {
+      "sourceTitle": "Friedrich Merz — Regierungserklärung,14/05/2025, Bulletin34-3",
+      "locator": "Corpo132–135 e237–239: oposição e alternância democrática; debate",
+      "statement": "Valoriza oposição legítima, alternância pacífica e debate público.",
+      "basis": "declaration",
+      "publishedDate": "2025-05-14",
+      "accessedDate": "2026-10-07"
+    },
+    {
+      "sourceTitle": "Friedrich Merz — Regierungserklärung,14/05/2025, Bulletin34-3",
+      "locator": "Corpo224–230: integração, idioma e valores comuns",
+      "statement": "Exige idioma e valores comuns para integração.",
+      "basis": "declaration",
+      "publishedDate": "2025-05-14",
+      "accessedDate": "2026-10-07"
+    },
+    {
+      "sourceTitle": "Friedrich Merz — Regierungserklärung,14/05/2025, Bulletin34-3",
+      "locator": "Corpo149/156–162: dissuasão, recursos militares e serviço voluntário",
+      "statement": "Prioriza dissuasão militar, recursos para forças armadas e recrutamento voluntário.",
+      "basis": "declaration",
+      "publishedDate": "2025-05-14",
+      "accessedDate": "2026-10-07"
+    },
+    {
+      "sourceTitle": "Friedrich Merz — Tag der Industrie,23/06/2026, transcrição integral",
+      "locator": "Corpo147–154: acordos comerciais; compromisso próprio154",
+      "statement": "Defende acordos e continuidade do livre comércio internacional.",
+      "basis": "declaration",
+      "publishedDate": "2026-06-23",
+      "accessedDate": "2026-10-07"
+    },
+    {
+      "sourceTitle": "Friedrich Merz — Tag der Industrie,23/06/2026, transcrição integral",
+      "locator": "Corpo170–185: Hightech Agenda; aplicações e capacidades computacionais",
+      "statement": "Promove IA, biotecnologia, fusão e ampliação computacional.",
+      "basis": "declaration",
+      "publishedDate": "2026-06-23",
+      "accessedDate": "2026-10-07"
+    },
+    {
+      "sourceTitle": "Friedrich Merz — Regierungserklärung,14/05/2025, Bulletin34-3",
+      "locator": "Corpo164/176/189–198/211: indústria, energia, trabalho e agricultura",
+      "statement": "Propõe desregulação multissetorial, preços de carbono via mercado e flexibilidade laboral.",
+      "basis": "declaration",
+      "publishedDate": "2025-05-14",
+      "accessedDate": "2026-10-07"
+    },
+    {
+      "sourceTitle": "Friedrich Merz — Tag der Industrie,23/06/2026, transcrição integral",
+      "locator": "Corpo172–180/186–187/194: apoio público e garantias; reforma regulatória; ordem de mercado",
+      "statement": "Elogia ordem de mercado e alívio regulatório, mantendo apoio público à inovação.",
+      "basis": "declaration",
+      "publishedDate": "2026-06-23",
+      "accessedDate": "2026-10-07"
+    }
+  ],
+  "peter-obi": [
+    {
+      "sourceTitle": "Obi/Baba-Ahmed — Our Pact with Nigerians, campanha2023, PDF72p",
+      "locator": "PDFp26/30; linhas556–565/710–718",
+      "statement": "Propõe transferir competências e arrecadação aos estados.",
+      "basis": "declaration",
+      "publishedDate": "Campanha2023; arquivo03.12.22, dia editorial não certificado",
+      "accessedDate": "2026-10-07"
+    },
+    {
+      "sourceTitle": "Obi/Baba-Ahmed — Our Pact with Nigerians, campanha2023, PDF72p",
+      "locator": "PDFp5/27–28;88–98/605–618/632–636",
+      "statement": "Defende separação de poderes, controle parlamentar e responsabilização executiva.",
+      "basis": "declaration",
+      "publishedDate": "Campanha2023; arquivo03.12.22, dia editorial não certificado",
+      "accessedDate": "2026-10-07"
+    },
+    {
+      "sourceTitle": "Obi/Baba-Ahmed — Our Pact with Nigerians, campanha2023, PDF72p",
+      "locator": "PDFp33–34;769–790/803–817",
+      "statement": "Promove IA, robótica, biotecnologia e capacitação digital.",
+      "basis": "declaration",
+      "publishedDate": "Campanha2023; arquivo03.12.22, dia editorial não certificado",
+      "accessedDate": "2026-10-07"
+    }
+  ],
+  "atiku-abubakar": [
+    {
+      "sourceTitle": "Atiku Abubakar — My Covenant with Nigerians, programa da campanha2023, PDF74p",
+      "locator": "PDFp65 física1198–1215",
+      "statement": "Propõe devolução multissetorial de competências e autonomia financeira local.",
+      "basis": "declaration",
+      "publishedDate": "Campanha2023; arquivo hospedado2022/10, dia editorial não certificado",
+      "accessedDate": "2026-10-08"
+    },
+    {
+      "sourceTitle": "Atiku Abubakar — My Covenant with Nigerians, programa da campanha2023, PDF74p",
+      "locator": "PDFp62 física1110–1155; p71,1325–1327",
+      "statement": "Defende voto efetivo, participação contínua, transparência e separação de poderes.",
+      "basis": "declaration",
+      "publishedDate": "Campanha2023; arquivo hospedado2022/10, dia editorial não certificado",
+      "accessedDate": "2026-10-08"
+    },
+    {
+      "sourceTitle": "Atiku Abubakar — My Covenant with Nigerians, programa da campanha2023, PDF74p",
+      "locator": "PDFp12–13 físicas80–112; p22,251–261",
+      "statement": "Prioriza liderança privada e quebra de monopólios em infraestrutura.",
+      "basis": "declaration",
+      "publishedDate": "Campanha2023; arquivo hospedado2022/10, dia editorial não certificado",
+      "accessedDate": "2026-10-08"
+    },
+    {
+      "sourceTitle": "Atiku Abubakar — My Covenant with Nigerians, programa da campanha2023, PDF74p",
+      "locator": "PDFp12 física80–91; p19,186–203; p30,429–466; p36,559–573",
+      "statement": "Prioriza preços de mercado e desregulação, com incentivos públicos delimitados.",
+      "basis": "declaration",
+      "publishedDate": "Campanha2023; arquivo hospedado2022/10, dia editorial não certificado",
+      "accessedDate": "2026-10-08"
+    },
+    {
+      "sourceTitle": "Atiku Abubakar — My Covenant with Nigerians, programa da campanha2023, PDF74p",
+      "locator": "PDFp14 física125–127; p33,501–523",
+      "statement": "Promove software, digitalização governamental, formação e aplicações multissetoriais.",
+      "basis": "declaration",
+      "publishedDate": "Campanha2023; arquivo hospedado2022/10, dia editorial não certificado",
+      "accessedDate": "2026-10-08"
+    }
+  ],
+  "andrej-babis": [
+    {
+      "sourceTitle": "Andrej Babiš — programa governamental pessoalmente endossado,05/01/2026",
+      "locator": "Corpo186–188/291/294/693; endosso próprio36/41",
+      "statement": "Defende referendo, expressão livre e independência dos meios públicos.",
+      "basis": "declaration",
+      "publishedDate": "2026-01-05",
+      "accessedDate": "2026-10-08"
+    },
+    {
+      "sourceTitle": "Andrej Babiš — programa governamental pessoalmente endossado,05/01/2026",
+      "locator": "Corpo201–219/249; endosso próprio36/41",
+      "statement": "Prioriza capacidades militares nacionais e compromissos de defesa aliados.",
+      "basis": "declaration",
+      "publishedDate": "2026-01-05",
+      "accessedDate": "2026-10-08"
+    },
+    {
+      "sourceTitle": "Andrej Babiš — programa governamental pessoalmente endossado,05/01/2026",
+      "locator": "Corpo310–312/554–555/619–651/835–869; endosso próprio36/41",
+      "statement": "Promove nuclear, IA em saúde/indústria e automação pública.",
+      "basis": "declaration",
+      "publishedDate": "2026-01-05",
+      "accessedDate": "2026-10-08"
+    }
+  ],
+  "na-hillary-clinton": [
+    {
+      "sourceTitle": "Hillary Clinton — aceitação da candidatura,28/07/2016",
+      "locator": "Corpo71/106/130–133/227",
+      "statement": "Defende limites ao poder pessoal e expansão do voto e direitos.",
+      "basis": "declaration",
+      "publishedDate": "2016-07-28",
+      "accessedDate": "2026-10-08"
+    },
+    {
+      "sourceTitle": "2016 Democratic Party Platform, seção de propostas da candidata",
+      "locator": "Corpo183–193/520/563–565; endosso próprio44",
+      "statement": "Limita força policial e vigilância sem mandado/coleta em massa; rejeita pena de morte e detenção indefinida.",
+      "basis": "declaration",
+      "publishedDate": "2016-07-21 — data editorial exibida APP; plataforma endossada28/07/2016",
+      "accessedDate": "2026-10-08"
+    },
+    {
+      "sourceTitle": "2016 Democratic Party Platform, seção de propostas da candidata",
+      "locator": "Corpo35/204/215; endosso próprio44",
+      "statement": "Valoriza diversidade e integração culturalmente apropriada.",
+      "basis": "declaration",
+      "publishedDate": "2016-07-21 — data editorial exibida APP; plataforma endossada28/07/2016",
+      "accessedDate": "2026-10-08"
+    },
+    {
+      "sourceTitle": "2016 Democratic Party Platform, seção de propostas da candidata",
+      "locator": "Corpo461/471–474; endosso próprio44",
+      "statement": "Mantém força militar mundialmente superior e prontidão financiada.",
+      "basis": "declaration",
+      "publishedDate": "2016-07-21 — data editorial exibida APP; plataforma endossada28/07/2016",
+      "accessedDate": "2026-10-08"
+    },
+    {
+      "sourceTitle": "Hillary Clinton — aceitação da candidatura,28/07/2016",
+      "locator": "Corpo202–203/215",
+      "statement": "Propõe ataques aéreos externos e apoio armado aliado.",
+      "basis": "declaration",
+      "publishedDate": "2016-07-28",
+      "accessedDate": "2026-10-08"
+    },
+    {
+      "sourceTitle": "2016 Democratic Party Platform, seção de propostas da candidata",
+      "locator": "Corpo501–508/569; endosso próprio44",
+      "statement": "Mantém presença externa limitada e ação militar condicional.",
+      "basis": "declaration",
+      "publishedDate": "2016-07-21 — data editorial exibida APP; plataforma endossada28/07/2016",
+      "accessedDate": "2026-10-08"
+    },
+    {
+      "sourceTitle": "Hillary Clinton — aceitação da candidatura,28/07/2016",
+      "locator": "Corpo154/156/227",
+      "statement": "Defende autonomia reprodutiva, igualdade salarial e direitos LGBT.",
+      "basis": "declaration",
+      "publishedDate": "2016-07-28",
+      "accessedDate": "2026-10-08"
+    },
+    {
+      "sourceTitle": "2016 Democratic Party Platform, seção de propostas da candidata",
+      "locator": "Corpo221–223/432–436; endosso próprio44",
+      "statement": "Defende casamento igualitário, reconhecimento trans e aborto legal.",
+      "basis": "declaration",
+      "publishedDate": "2016-07-21 — data editorial exibida APP; plataforma endossada28/07/2016",
+      "accessedDate": "2026-10-08"
+    }
+  ],
+  "marine-le-pen": [
+    {
+      "sourceTitle": "Marine Le Pen —22 mesures pour2022, programa presidencial próprio",
+      "locator": "Medida11; PDFphysicalp5, linhas106",
+      "statement": "Propõe referendo de iniciativa cidadã e representação proporcional.",
+      "basis": "declaration",
+      "publishedDate": "Programa presidencial2022; dia editorial não certificado",
+      "accessedDate": "2026-10-08"
+    },
+    {
+      "sourceTitle": "Marine Le Pen —22 mesures pour2022, programa presidencial próprio",
+      "locator": "Medida3; PDFphysicalp2, linhas22–36",
+      "statement": "Amplia prisão e presunção de legítima defesa policial.",
+      "basis": "declaration",
+      "publishedDate": "Programa presidencial2022; dia editorial não certificado",
+      "accessedDate": "2026-10-08"
+    },
+    {
+      "sourceTitle": "Marine Le Pen — segurança, livreto presidencial2022",
+      "locator": "Physicalp7–8, linhas76–97; p21,643–673; p11,211–227",
+      "statement": "Defende força policial e proibição de publicações ideológicas, com sanção à posse de drogas.",
+      "basis": "declaration",
+      "publishedDate": "Programa presidencial2022; dia editorial não certificado",
+      "accessedDate": "2026-10-08"
+    },
+    {
+      "sourceTitle": "Marine Le Pen —22 mesures pour2022, programa presidencial próprio",
+      "locator": "Medida1; PDFphysicalp2,18–20",
+      "statement": "Condiciona naturalização à assimilação.",
+      "basis": "declaration",
+      "publishedDate": "Programa presidencial2022; dia editorial não certificado",
+      "accessedDate": "2026-10-08"
+    },
+    {
+      "sourceTitle": "Marine Le Pen — controle da imigração, livreto presidencial2022",
+      "locator": "Physicalp16–18,503–505/526–559",
+      "statement": "Exige língua e costumes nacionais e substitui ensino de cultura de origem.",
+      "basis": "declaration",
+      "publishedDate": "Programa presidencial2022; dia editorial não certificado",
+      "accessedDate": "2026-10-08"
+    },
+    {
+      "sourceTitle": "Marine Le Pen —22 mesures pour2022, programa presidencial próprio",
+      "locator": "Medida20; PDFphysicalp7,197–203",
+      "statement": "Amplia orçamento e equipamento militar para proteger interesses nacionais.",
+      "basis": "declaration",
+      "publishedDate": "Programa presidencial2022; dia editorial não certificado",
+      "accessedDate": "2026-10-08"
+    },
+    {
+      "sourceTitle": "Marine Le Pen —22 mesures pour2022, programa presidencial próprio",
+      "locator": "Medidas13/18; PDFphysicalp5/7,122–125/186–188",
+      "statement": "Restringe importações agrícolas e revê livre-comércio para proteção nacional.",
+      "basis": "declaration",
+      "publishedDate": "Programa presidencial2022; dia editorial não certificado",
+      "accessedDate": "2026-10-08"
+    }
+  ],
+  "jeannette-jara": [
+    {
+      "sourceTitle": "Jeannette Jara — Un Chile que cumple, agosto2025",
+      "locator": "Physicalp3–4,26–38; p7,101–115",
+      "statement": "Defende participação democrática e diálogo entre posições divergentes contra soluções autoritárias.",
+      "basis": "declaration",
+      "publishedDate": "Agosto2025 — edição assinada; apresentação18/08/2025",
+      "accessedDate": "2026-10-08"
+    },
+    {
+      "sourceTitle": "Jeannette Jara — Un Chile que cumple, agosto2025",
+      "locator": "Physicalp25–30,772–790/823–829/871–890/927–942",
+      "statement": "Amplia controle de armas, vigilância biométrica, investigação financeira e prisões.",
+      "basis": "declaration",
+      "publishedDate": "Agosto2025 — edição assinada; apresentação18/08/2025",
+      "accessedDate": "2026-10-08"
+    },
+    {
+      "sourceTitle": "Jeannette Jara — Un Chile que cumple, agosto2025",
+      "locator": "Physicalp9,177–182; p19–20,538–596",
+      "statement": "Preserva acordos comerciais, amplia mercados e facilita comércio internacional.",
+      "basis": "declaration",
+      "publishedDate": "Agosto2025 — edição assinada; apresentação18/08/2025",
+      "accessedDate": "2026-10-08"
+    },
+    {
+      "sourceTitle": "Jeannette Jara — Un Chile que cumple, agosto2025",
+      "locator": "Physicalp11–13,248–250/311–327; p27,823–829; p38–39,1177–1183/1229–1241",
+      "statement": "Expande conectividade, mineração tecnológica, IA e telemedicina.",
+      "basis": "declaration",
+      "publishedDate": "Agosto2025 — edição assinada; apresentação18/08/2025",
+      "accessedDate": "2026-10-08"
+    }
+  ],
+  "michelle-bachelet": [
+    {
+      "sourceTitle": "Michelle Bachelet — Programa de Gobierno,18/10/2005",
+      "locator": "PDF linhas3928–3981/4229–4240/4574–4577/4675–4688; endosso assinado6–78",
+      "statement": "Amplia participação, eleições regionais, transparência e expressão.",
+      "basis": "declaration",
+      "publishedDate": "2005-10-18",
+      "accessedDate": "2026-10-08"
+    },
+    {
+      "sourceTitle": "Michelle Bachelet — Programa de Gobierno,18/10/2005",
+      "locator": "PDF linhas4397–4412/4578–4587/4695–4757/4812–4825; endosso assinado6–78",
+      "statement": "Preserva identidades culturais e línguas indígenas com educação intercultural.",
+      "basis": "declaration",
+      "publishedDate": "2005-10-18",
+      "accessedDate": "2026-10-08"
+    },
+    {
+      "sourceTitle": "Michelle Bachelet — Programa de Gobierno,18/10/2005",
+      "locator": "PDF linhas5049–5054/5233–5239; endosso assinado6–78",
+      "statement": "Endossa responsabilidade de proteger e forças internacionais de paz.",
+      "basis": "declaration",
+      "publishedDate": "2005-10-18",
+      "accessedDate": "2026-10-08"
+    },
+    {
+      "sourceTitle": "Michelle Bachelet — Programa de Gobierno,18/10/2005",
+      "locator": "PDF linhas4967–4989/5022–5030; endosso assinado6–78",
+      "statement": "Amplia livre comércio e remove barreiras comerciais.",
+      "basis": "declaration",
+      "publishedDate": "2005-10-18",
+      "accessedDate": "2026-10-08"
+    },
+    {
+      "sourceTitle": "Michelle Bachelet — Programa de Gobierno,18/10/2005",
+      "locator": "PDF linhas4445–4499/4545–4559; endosso assinado6–78",
+      "statement": "Amplia direitos sexuais, igualdade de gênero e uniões civis diversas.",
+      "basis": "declaration",
+      "publishedDate": "2005-10-18",
+      "accessedDate": "2026-10-08"
+    }
+  ],
+  "dilma-rousseff": [
+    {
+      "sourceTitle": "Dilma Rousseff — discurso de posse,01/01/2015",
+      "locator": "Transcrição linhas50/112/132",
+      "statement": "Defende autoridade constitucional, participação política e instituições parlamentares.",
+      "basis": "declaration",
+      "publishedDate": "2015-01-01",
+      "accessedDate": "2026-10-08"
+    },
+    {
+      "sourceTitle": "Dilma Rousseff — discurso de posse,01/01/2015",
+      "locator": "Transcrição linhas105–108",
+      "statement": "Afirma soberania e princípio geral de não intervenção.",
+      "basis": "declaration",
+      "publishedDate": "2015-01-01",
+      "accessedDate": "2026-10-08"
+    },
+    {
+      "sourceTitle": "Dilma Rousseff — discurso de posse,01/01/2015",
+      "locator": "Transcrição linhas73/80/103–108",
+      "statement": "Promove inovação produtiva, banda larga universal e cooperação científica.",
+      "basis": "declaration",
+      "publishedDate": "2015-01-01",
+      "accessedDate": "2026-10-08"
+    }
+  ],
+  "luisa-gonzalez": [
+    {
+      "sourceTitle": "Luisa González e signatários — Plan de Trabajo2025–2029,27/09/2024",
+      "locator": "Reprodução linhas2210–2229; declaração e assinatura nominal1954–1955",
+      "statement": "Endossa participação popular e reformas eleitorais proporcionais.",
+      "basis": "declaration",
+      "publishedDate": "2024-09-27",
+      "accessedDate": "2026-10-08"
+    },
+    {
+      "sourceTitle": "Luisa González e signatários — Plan de Trabajo2025–2029,27/09/2024",
+      "locator": "Reprodução linhas2263–2283; declaração e assinatura nominal1954–1955",
+      "statement": "Valoriza pluralismo cultural, linguístico e educação intercultural.",
+      "basis": "declaration",
+      "publishedDate": "2024-09-27",
+      "accessedDate": "2026-10-08"
+    },
+    {
+      "sourceTitle": "Luisa González e signatários — Plan de Trabajo2025–2029,27/09/2024",
+      "locator": "Reprodução linhas2222/2362–2371; declaração e assinatura nominal1954–1955",
+      "statement": "Rejeita intervenção externa e bases militares estrangeiras.",
+      "basis": "declaration",
+      "publishedDate": "2024-09-27",
+      "accessedDate": "2026-10-08"
+    },
+    {
+      "sourceTitle": "Luisa González e signatários — Plan de Trabajo2025–2029,27/09/2024",
+      "locator": "Reprodução linhas2042/2067–2071/2135/2146/2220/2316–2318; declaração e assinatura nominal1954–1955",
+      "statement": "Defende patrimônio e empresas estratégicas públicos; reverte privatizações quando necessário.",
+      "basis": "declaration",
+      "publishedDate": "2024-09-27",
+      "accessedDate": "2026-10-08"
+    },
+    {
+      "sourceTitle": "Luisa González e signatários — Plan de Trabajo2025–2029,27/09/2024",
+      "locator": "Reprodução linhas2027/2135–2158/2224; declaração e assinatura nominal1954–1955",
+      "statement": "Coordena crédito, preços, indústria e setores estratégicos.",
+      "basis": "declaration",
+      "publishedDate": "2024-09-27",
+      "accessedDate": "2026-10-08"
+    },
+    {
+      "sourceTitle": "Luisa González e signatários — Plan de Trabajo2025–2029,27/09/2024",
+      "locator": "Reprodução linhas2166/2212/2237–2257; declaração e assinatura nominal1954–1955",
+      "statement": "Endossa autonomia reprodutiva, educação sexual e igualdade de gênero.",
+      "basis": "declaration",
+      "publishedDate": "2024-09-27",
+      "accessedDate": "2026-10-08"
+    },
+    {
+      "sourceTitle": "Luisa González e signatários — Plan de Trabajo2025–2029,27/09/2024",
+      "locator": "Reprodução linhas2053–2054/2317–2319/2330–2355; declaração e assinatura nominal1954–1955",
+      "statement": "Promove transformação digital e inovação em múltiplos setores.",
+      "basis": "declaration",
+      "publishedDate": "2024-09-27",
+      "accessedDate": "2026-10-08"
+    }
+  ],
+  "myriam-bregman": [
+    {
+      "sourceTitle": "Myriam Bregman — programa no sítio pessoal, sem data editorial",
+      "locator": "Página própria linhas60–62",
+      "statement": "Propõe revogação popular de mandatos de legisladores, funcionários e juízes.",
+      "basis": "declaration",
+      "publishedDate": "Sem data editorial; edição de contexto pandêmico não datada, consultada2026-10-08",
+      "accessedDate": "2026-10-08"
+    },
+    {
+      "sourceTitle": "Myriam Bregman — programa no sítio pessoal, sem data editorial",
+      "locator": "Página própria linhas33/36–45/67–69",
+      "statement": "Propõe bancos/comércio exterior públicos e saúde/serviços sob gestão coletiva.",
+      "basis": "declaration",
+      "publishedDate": "Sem data editorial; edição de contexto pandêmico não datada, consultada2026-10-08",
+      "accessedDate": "2026-10-08"
+    },
+    {
+      "sourceTitle": "Myriam Bregman — programa no sítio pessoal, sem data editorial",
+      "locator": "Página própria linhas33/45/51/67–69/83/87–90",
+      "statement": "Planeja economia, controla preços e indexa salários e aposentadorias.",
+      "basis": "declaration",
+      "publishedDate": "Sem data editorial; edição de contexto pandêmico não datada, consultada2026-10-08",
+      "accessedDate": "2026-10-08"
+    }
+  ],
+  "jill-stein": [
+    {
+      "sourceTitle": "Jill Stein — declaração própria no guia oficial da Califórnia2024",
+      "locator": "Texto linhas18–29; atribuição de submissão própria41",
+      "statement": "Defende escolha eleitoral, direitos e autoridade popular.",
+      "basis": "declaration",
+      "publishedDate": "Guia de primárias2024-03-05; submissão não datada",
+      "accessedDate": "2026-10-08"
+    },
+    {
+      "sourceTitle": "Jill Stein — We Do Not Consent to War,04/10/2024",
+      "locator": "Texto linhas22/29–31; assinatura40",
+      "statement": "Reduz orçamento militar e substitui militarização por diplomacia.",
+      "basis": "declaration",
+      "publishedDate": "2024-10-04",
+      "accessedDate": "2026-10-08"
+    },
+    {
+      "sourceTitle": "Jill Stein — respostas próprias VOTE411, edição eleitoral2024",
+      "locator": "Texto linhas87–89/106–109",
+      "statement": "Propõe propriedade pública de saúde, indústria farmacêutica e rede energética nacional.",
+      "basis": "declaration",
+      "publishedDate": "Edição eleitoral presidencial2024; submissão não datada",
+      "accessedDate": "2026-10-08"
+    },
+    {
+      "sourceTitle": "Jill Stein — We Do Not Consent to War,04/10/2024",
+      "locator": "Texto linhas29–31; assinatura40",
+      "statement": "Propõe controles nacionais de aluguel, salário mínimo e tributação redistributiva.",
+      "basis": "declaration",
+      "publishedDate": "2024-10-04",
+      "accessedDate": "2026-10-08"
+    }
+  ],
+  "joseph-stiglitz": [
+    {
+      "sourceTitle": "G20 Extraordinary Committee of Independent Experts on Global Inequality — Summary Report, novembro de 2025",
+      "locator": "p10, seção 6: public provision; autoria nominal p2",
+      "statement": "Relatório conjunto recomenda provisão pública universal de serviços essenciais.",
+      "basis": "declaration",
+      "publishedDate": "2025-11; mês da edição, dia não indicado",
+      "accessedDate": "2026-10-07"
+    }
+  ],
+  "adriana-abdenur": [
+    {
+      "sourceTitle": "G20 Extraordinary Committee of Independent Experts on Global Inequality — Summary Report, novembro de 2025",
+      "locator": "p10, seção 6: public provision; autoria nominal p2",
+      "statement": "Relatório conjunto recomenda provisão pública universal de serviços essenciais.",
+      "basis": "declaration",
+      "publishedDate": "2025-11; mês da edição, dia não indicado",
+      "accessedDate": "2026-10-07"
+    }
+  ],
+  "winnie-byanyima": [
+    {
+      "sourceTitle": "G20 Extraordinary Committee of Independent Experts on Global Inequality — Summary Report, novembro de 2025",
+      "locator": "p10, seção 6: public provision; autoria nominal p2",
+      "statement": "Relatório conjunto recomenda provisão pública universal de serviços essenciais.",
+      "basis": "declaration",
+      "publishedDate": "2025-11; mês da edição, dia não indicado",
+      "accessedDate": "2026-10-07"
+    }
+  ],
+  "jayati-ghosh": [
+    {
+      "sourceTitle": "G20 Extraordinary Committee of Independent Experts on Global Inequality — Summary Report, novembro de 2025",
+      "locator": "p10, seção 6: public provision; autoria nominal p2",
+      "statement": "Relatório conjunto recomenda provisão pública universal de serviços essenciais.",
+      "basis": "declaration",
+      "publishedDate": "2025-11; mês da edição, dia não indicado",
+      "accessedDate": "2026-10-07"
+    }
+  ],
+  "imraan-valodia": [
+    {
+      "sourceTitle": "G20 Extraordinary Committee of Independent Experts on Global Inequality — Summary Report, novembro de 2025",
+      "locator": "p10, seção 6: public provision; autoria nominal p2",
+      "statement": "Relatório conjunto recomenda provisão pública universal de serviços essenciais.",
+      "basis": "declaration",
+      "publishedDate": "2025-11; mês da edição, dia não indicado",
+      "accessedDate": "2026-10-07"
+    }
+  ],
+  "wanga-zembe-mkabile": [
+    {
+      "sourceTitle": "G20 Extraordinary Committee of Independent Experts on Global Inequality — Summary Report, novembro de 2025",
+      "locator": "p10, seção 6: public provision; autoria nominal p2",
+      "statement": "Relatório conjunto recomenda provisão pública universal de serviços essenciais.",
+      "basis": "declaration",
+      "publishedDate": "2025-11; mês da edição, dia não indicado",
+      "accessedDate": "2026-10-07"
+    }
+  ]
+};
+export const publicDescription01Proposed:ReferenceEntry[]=publicDescription01Before.map(entry=>({...entry,rationale:publicDescription01Rationales[entry.id]}));
+export function reconcilePublicDescription01(entry:ReferenceEntry):ReferenceEntry {
+ const index=publicDescription01Before.findIndex(old=>old.id===entry.id);
+ if(index<0)return entry;
+ if(JSON.stringify(entry)===JSON.stringify(publicDescription01Proposed[index]))return entry;
+ if(JSON.stringify(entry)!==JSON.stringify(publicDescription01Before[index]))throw new Error('Public description01 whole prior object changed for '+entry.id+'; reconcile explicitly');
+ return {...entry,rationale:publicDescription01Rationales[entry.id]};
+}

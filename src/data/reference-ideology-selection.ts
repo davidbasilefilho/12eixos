@@ -6,13 +6,14 @@ export const ideologySelectionSnapshot = {
   "catalogCount": 218,
   "intendedSubsetCount": 75,
   "readyForDefaultUse": false,
-  "boundedReviewedReferents": 66,
-  "referentCountScope": "Integrated selection66 located normative primary referents. No sixaxis/all75 independence implication.",
-  "boundedTwoSidedContrasts": 50,
+  "boundedReviewedReferents": 68,
+  "referentCountScope": "Integrated68 located referents after accepted same-ID08/09 overlays; no75 independence proof.",
+  "boundedTwoSidedContrasts": 53,
   "preservedOriginalCatalogCount": 206,
-  "partitionCountScope": "Integrated218=75selected+143alternatives. All206 originals and original75 snapshot preserved.",
+  "partitionCountScope": "Same218=75selected+143alternatives; all original206 and original75 identities preserved. No raw catalog growth.",
   "pendingCatalogIds": [],
-  "independent75Verified": false
+  "independent75Verified": false,
+  "pendingDefinitionOverlayIds": []
 } as const;
 
 export const ideologyInclusionDefinition = {
@@ -1474,6 +1475,38 @@ export const ideologySelectionSources = [
     "locator": "ActualEconlibauthor125–156(150–153contract), editorial65–99 edition; Gutenbergclosing849–875(864exceptions/865publicfunctions)",
     "supports": "Presunção de contrato laboral mutuamente determinado sem fraude/força; juiz aplica, não regula. Disputa salarial agrícola contextual, exceções permanentes/ocasionais e funções públicas explícitas. Não todos salários/horas nem ausência de toda política social.",
     "readAt": "2026-10-08"
+  },
+  {
+    "id": "prebisch-directed-development-1950",
+    "title": "Prebisch revised UN English1950",
+    "url": "https://archivo.cepal.org/pdfs/cdPrebisch/002.pdf",
+    "locator": "Metadata0–54; Introduction55–306; VII1847–1989 and2110–2238",
+    "supports": "Normativa afirmativa de bem-estar/industrialização; crédito seletivo2182–2192 com limites2193–2197.",
+    "readAt": "2026-10-08"
+  },
+  {
+    "id": "keynes-investment-volume-1936",
+    "title": "Keynes General Theory Chapter24",
+    "url": "https://www.marxists.org/reference/subject/economics/keynes/general-theory/ch24.htm",
+    "locator": "Full author6–72; III38–49",
+    "supports": "Volume agregado/private direction42–45 com compromisso38 e orientação47; não ausência de Estado.",
+    "readAt": "2026-10-08"
+  },
+  {
+    "id": "lange-normative-part-i",
+    "title": "On the Economic Theory of Socialism: Part One — Lange, 1936, university reproduction",
+    "url": "https://competitionandappropriation.econ.ucla.edu/wp-content/uploads/sites/95/2018/06/LangeEcTheorySocI.pdf",
+    "locator": "Páginas impressas 60/62/66/68 recuperadas pelo índice da reprodução universitária; autor efetivamente leu 62/66 nesta continuação e independentemente 60/62/66/68.62 impõe regras produtivas pelo conselho e conserva mercados de consumo/trabalho;66 endossa vantagens e iteração. PDF direto20 páginas com zero linhas; screenshots sem imagem útil. Sem leitura completa/collation do facsímile.",
+    "supports": "Endosso normativo de bem-estar/propriedade social com autoridade e escolhas localizadas; nenhuma eficácia causal ou pontuação inferida.",
+    "readAt": "2026-10-08"
+  },
+  {
+    "id": "lange-normative-part-ii",
+    "title": "On the Economic Theory of Socialism: Part Two — Lange, 1937, university reproduction",
+    "url": "https://competitionandappropriation.econ.ucla.edu/wp-content/uploads/sites/95/2018/06/LangeEcTheorySocII-1.pdf",
+    "locator": "Páginas impressas 123/124/134 completas pelo índice efetivamente lidas por autor e revisor independente.123–124 defende bem-estar/distribuição, consumo e ocupação livres, com comparabilidade de utilidade;134 transição abrangente condicionada aos fins do governo e exceções de compensação/técnicos. PDF direto21 páginassem texto extraído; alternativa Clemson timeout. Não artigo completo nem validação causal.",
+    "supports": "Endosso normativo de bem-estar/propriedade social com autoridade e escolhas localizadas; nenhuma eficácia causal ou pontuação inferida.",
+    "readAt": "2026-10-08"
   }
 ] as const;
 
@@ -1699,13 +1732,14 @@ export const intendedIdeologySelection = [
   },
   {
     "id": "ideology-market-socialism",
-    "name": "Socialismo de mercado",
+    "name": "Socialismo de mercado: diretrizes de Lange, 1936–1937",
     "family": "socialist",
-    "selectionRationale": "Propriedade social com coordenação por preços",
-    "reviewStatus": "provisional",
-    "documentedAxisCountAtSnapshot": 2,
-    "ontologyStatus": "provisional-normative-referent",
-    "contrastStatus": "not-independently-verified"
+    "selectionRationale": "Propriedade social e bem-estar endossados; autoridade produtiva CPB contrastada com autoproposição/aprovação coletiva Hahnel. Não discrimina por autor/ano.",
+    "reviewStatus": "referent-and-bounded-neighbor-contrast-reviewed",
+    "documentedAxisCountAtSnapshot": 0,
+    "ontologyStatus": "bounded-normative-referent-reviewed",
+    "contrastStatus": "bounded-primary-neighbor-contrast",
+    "ontologyLimit": "Recorte de prescrições normativas localizado, não leitura integral dos artigos ou resultado econômico comprovado. Preserva mercados de consumo e trabalho, escolha ocupacional e preços contábeis iterativos. Utilidade interpessoal é premissa explícita; eficácia, investimento, sabotagem e crises não são fatos validados. Hahnel também usa conselho facilitador e preços iterativos: o contraste é autoridade sobre regras e propostas produtivas, não existência de um conselho ou de iteração."
   },
   {
     "id": "ideology-revolutionary-socialism",
@@ -2188,13 +2222,14 @@ export const intendedIdeologySelection = [
   },
   {
     "id": "ideology-developmentalism",
-    "name": "Desenvolvimentismo",
+    "name": "Desenvolvimentismo estruturalista: diretrizes de Prebisch, 1950",
     "family": "development",
-    "selectionRationale": "Industrialização e mudança centro-periferia",
-    "reviewStatus": "provisional",
+    "selectionRationale": "Diretrizes afirmativas de desenvolvimento e alocação seletiva de crédito; contraste localizado com volume agregado/private allocation de Keynes e critério competitivo de Eucken.",
+    "reviewStatus": "referent-and-bounded-neighbor-contrast-reviewed",
     "documentedAxisCountAtSnapshot": 0,
-    "ontologyStatus": "provisional-normative-referent",
-    "contrastStatus": "not-independently-verified"
+    "ontologyStatus": "bounded-normative-referent-reviewed",
+    "contrastStatus": "bounded-primary-neighbor-contrast",
+    "ontologyLimit": "Propostas preliminares e locais; não programa completo nem resultado comprovado. Compromissos e orientação pública em Keynes, empresas privadas/comércio em Prebisch e quadro público em Eucken preservados. Zero eixos, sem ranking; independência de todas variantes não certificada."
   },
   {
     "id": "ideology-program-participatory-economics-hahnel-2014",
@@ -2849,6 +2884,30 @@ export const ideologyOverlapChecks = [
     "relation": "ordinary-labour-contract-presumption-versus-positive-factory-condition-regulation",
     "rationale": "Burke1795Econlib150–153 favorece determinação contratual pelas partes/execução judicial, no caso salarial agrícola; Disraeli1872 legisla redução de horas/inspeção de todos ofícios. Salário e horas distintos; leis prévias153 e exceções permanentes/ocasionais864/funções públicas865 mantidas. Diferença contextual de presunção e programa, não incompatibilidade universal ou todo bem-estar.",
     "status": "bounded-primary-contrast"
+  },
+  {
+    "a": "ideology-developmentalism",
+    "b": "civic-keynesian-policy",
+    "relation": "aggregate-volume-versus-selective-sector-credit",
+    "rationale": "Keynes III38–45 defende volume agregado e iniciativa privada na alocação; Prebisch2182–2192 propõe crédito hipotecário seletivo para deslocar trabalho à construção industrial. Compromissos38/guidance47 Keynes e propostas locais/preliminares2193–2197/empresários2213–2218 Prebisch mantidos; não oposição universal a política industrial.",
+    "status": "bounded-primary-contrast",
+    "remaining": "Contrastes de exemplares datados; não certificam toda família nem global75. Zero eixos."
+  },
+  {
+    "a": "ideology-developmentalism",
+    "b": "ideology-ordoliberalism",
+    "relation": "selective-credit-versus-every-measure-price-criterion",
+    "rationale": "Prebisch2182–2192 propõe direção setorial de crédito/trabalho; Eucken461–472 requer preços competitivos como critério de toda medida e rejeita subsídios/proibições de importação. Ordem pública/controle de monopólios Eucken e limites preliminares/private trade Prebisch mantidos.",
+    "status": "bounded-primary-contrast",
+    "remaining": "Contrastes de exemplares datados; não certificam toda família nem global75. Zero eixos."
+  },
+  {
+    "a": "ideology-market-socialism",
+    "b": "ideology-program-participatory-economics-hahnel-2014",
+    "relation": "imposed-production-rules-versus-council-proposal-authority",
+    "rationale": "LangeI62 impõe regras de planta/indústria pelo CPB e mantém mercados de consumo/trabalho; Hahnel chapter1 conselhos propõem/aprovam suas atividades, IFB sem discricionariedade no reply123. Ambos têm preços iterativos, propriedade social e escolhas. Aprovações coletivas e constraints Hahnel mantidas; não ausência de board/iteração.",
+    "status": "bounded-primary-contrast",
+    "remaining": "Contraste dos exemplares, não todas variantes do socialismo de mercado nem global75."
   }
 ] as const;
 
@@ -5255,6 +5314,35 @@ export const ideologyOntologyReviewGroups = [
     "sourceIds": [
       "disraeli-crystal-palace-1872",
       "burke-labour-contract-presumption-1795"
+    ],
+    "reviewedOn": "2026-10-08"
+  },
+  {
+    "id": "prebisch-selective-credit-allocation",
+    "selectedIds": [
+      "ideology-developmentalism",
+      "ideology-ordoliberalism"
+    ],
+    "status": "two-bounded-two-sided-primary-contrasts",
+    "scope": "Um referent primário novo e dois contrastes de alocação/critério com Keynes extra e Eucken selecionado; contrapontos preservados. Zero eixos, sem elegibilidade; global75 não certificado.",
+    "sourceIds": [
+      "prebisch-directed-development-1950",
+      "keynes-investment-volume-1936",
+      "eucken-competitive-order-1949"
+    ],
+    "reviewedOn": "2026-10-08"
+  },
+  {
+    "id": "lange-hahnel-production-rule-authority",
+    "selectedIds": [
+      "ideology-market-socialism",
+      "ideology-program-participatory-economics-hahnel-2014"
+    ],
+    "status": "one-bounded-two-sided-primary-contrast",
+    "scope": "Socialownership, consumerchoice and iterativeprices; Hahnel councils collectiveapproval impose constraints, not unlimited workplace freedom. No broadallfamily certificate.",
+    "sourceIds": [
+      "lange-normative-part-i",
+      "lange-normative-part-ii"
     ],
     "reviewedOn": "2026-10-08"
   }

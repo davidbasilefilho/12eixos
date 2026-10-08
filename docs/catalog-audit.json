@@ -34,8 +34,8 @@
     ],
     "provenance": "Executed before local data corrections in this recovery checkpoint; not recomputed from unavailable prior Library checkpoint."
   },
-  "headCommitAtAudit": "eff0055cb0075579f64a71e322d388e74274015c",
-  "integratedCatalogSha256": "019462b966c8e1d6c1e7c50e31f37146e126e33fdb737bc6494dcccb77330b29",
+  "headCommitAtAudit": "95c3e705eb2583b80abc0673b573782cde2c41b9",
+  "integratedCatalogSha256": "0f7d8b290e32ce680cd3488bd2bd1c3d3ff659a85df3680635bc35f844bf22ea",
   "scope": "Integrated working-tree catalog after preparation; fixed remote baseline and current HEAD are provenance, not immutable copies of modified files.",
   "evidenceGate": {
     "minimumAxes": 6,
@@ -56,10 +56,10 @@
   ],
   "totalTarget": 675,
   "totalRecords": 818,
-  "structurallyEligible": 103,
+  "structurallyEligible": 97,
   "documentaryEligible": 56,
   "insufficientEvidence": 762,
-  "unreviewedDirectionCount": 1255,
+  "unreviewedDirectionCount": 1117,
   "summedCategoryIdentityGap": 0,
   "categories": [
     {
@@ -88,7 +88,7 @@
       "category": "public-figure",
       "target": 150,
       "records": 150,
-      "structurallyEligible": 25,
+      "structurallyEligible": 21,
       "documentaryEligible": 9,
       "insufficientEvidence": 141,
       "missingIdentitiesBeforeSemanticReview": 0,
@@ -99,7 +99,7 @@
       "category": "historical-figure",
       "target": 150,
       "records": 150,
-      "structurallyEligible": 34,
+      "structurallyEligible": 32,
       "documentaryEligible": 22,
       "insufficientEvidence": 128,
       "missingIdentitiesBeforeSemanticReview": 0,
@@ -399,32 +399,18 @@
       "aliases": [],
       "kind": "person",
       "category": "public-figure",
-      "period": "Atuação legislativa e propostas públicas, 2019–2025",
+      "period": "Declaração própria21/09/2026 anterior à Assembleia Geral, texto preparado oficialmente publicado",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "eco",
-        "con",
-        "mor",
-        "tec"
-      ],
-      "mappedAxes": [
-        "eco",
-        "con",
-        "mor",
-        "tec"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "eco",
-        "con",
-        "mor",
-        "tec"
-      ],
-      "sourceCount": 1,
+      "directionalAxes": [],
+      "sourceCount": 2,
       "sourceUrls": [
-        "https://www.sanders.senate.gov/issues/"
+        "https://www.sanders.senate.gov/issues/",
+        "https://www.sanders.senate.gov/press-releases/prepared-remarks-sanders-ahead-of-un-general-assembly-oligarchy-is-ascending-and-democracy-is-in-retreat-working-together-that-must-change/"
       ]
     },
     {
@@ -566,29 +552,28 @@
       "aliases": [],
       "kind": "person",
       "category": "historical-figure",
-      "period": "Manifesto do Partido Comunista e textos associados, 1848–1875",
+      "period": "Manifesto1848, capítuloII; programa conjuntoMarx/Engels na tradução1888",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "eco",
-        "con",
-        "tec"
-      ],
+      "unreviewedDirectionalAxes": [],
       "mappedAxes": [
         "eco",
-        "con",
-        "tec"
+        "con"
       ],
-      "documentedAxes": [],
+      "documentedAxes": [
+        "eco",
+        "con"
+      ],
       "directionalAxes": [
         "eco",
-        "con",
-        "tec"
+        "con"
       ],
-      "sourceCount": 1,
+      "sourceCount": 3,
       "sourceUrls": [
-        "https://www.marxists.org/archive/marx/works/1848/communist-manifesto/"
+        "https://www.marxists.org/archive/marx/works/1848/communist-manifesto/",
+        "https://www.marxists.org/archive/marx/works/1848/communist-manifesto/ch02.htm",
+        "https://www.marxists.org/archive/marx/works/1848/communist-manifesto/index.htm"
       ]
     },
     {
@@ -597,36 +582,29 @@
       "aliases": [],
       "kind": "person",
       "category": "historical-figure",
-      "period": "Ensaios políticos e pacifismo, 1930–1955",
+      "period": "WhySocialism,Maio1949; ensaio na reprodução portuguesaMIA",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "rep",
-        "pod",
-        "dip",
-        "eco",
-        "con"
-      ],
+      "unreviewedDirectionalAxes": [],
       "mappedAxes": [
-        "rep",
-        "pod",
-        "dip",
         "eco",
         "con"
       ],
-      "documentedAxes": [],
+      "documentedAxes": [
+        "eco",
+        "con"
+      ],
       "directionalAxes": [
-        "rep",
-        "pod",
-        "dip",
         "eco",
         "con"
       ],
-      "sourceCount": 2,
+      "sourceCount": 4,
       "sourceUrls": [
         "https://monthlyreview.org/2009/05/01/why-socialism/",
-        "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/"
+        "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
+        "https://www.marxists.org/portugues/einstein/1949/05/socialismo.htm",
+        "https://monthlyreview.org/articles/why-socialism/"
       ]
     },
     {
@@ -635,28 +613,28 @@
       "aliases": [],
       "kind": "person",
       "category": "historical-figure",
-      "period": "Obra política e social, 1845–1895",
+      "period": "Principles of Communism, outubro–novembro1847; tradução Sweezy",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [
         "eco",
         "con"
       ],
-      "mappedAxes": [
+      "documentedAxes": [
         "eco",
-        "con",
-        "tec"
+        "con"
       ],
-      "documentedAxes": [],
       "directionalAxes": [
         "eco",
         "con"
       ],
-      "sourceCount": 2,
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.marxists.org/archive/marx/works/1847/11/prin-com.htm",
-        "https://www.marxists.org/archive/marx/works/1845/condition-working-class/"
+        "https://www.marxists.org/archive/marx/works/1845/condition-working-class/",
+        "https://www.marxists.org/archive/marx/works/1847/11/prin-com.htm"
       ]
     },
     {
@@ -2266,30 +2244,23 @@
     },
     {
       "id": "ideology-market-socialism",
-      "name": "Socialismo de mercado",
+      "name": "Socialismo de mercado: diretrizes de Lange, 1936–1937",
       "aliases": [],
       "kind": "ideology",
       "category": "ideology",
-      "period": "Oskar Lange, teoria econômica do socialismo, 1936",
+      "period": "Artigos primários Part I (1936) e Part II (fevereiro 1937), Review of Economic Studies; páginas selecionadas da reprodução universitária",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "eco",
-        "con"
-      ],
-      "mappedAxes": [
-        "eco",
-        "con"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "eco",
-        "con"
-      ],
-      "sourceCount": 1,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
-        "https://competitionandappropriation.econ.ucla.edu/wp-content/uploads/sites/95/2018/06/LangeEcTheorySocI.pdf"
+        "https://competitionandappropriation.econ.ucla.edu/wp-content/uploads/sites/95/2018/06/LangeEcTheorySocI.pdf",
+        "https://competitionandappropriation.econ.ucla.edu/wp-content/uploads/sites/95/2018/06/LangeEcTheorySocI.pdf",
+        "https://competitionandappropriation.econ.ucla.edu/wp-content/uploads/sites/95/2018/06/LangeEcTheorySocII-1.pdf"
       ]
     },
     {
@@ -2682,11 +2653,11 @@
     },
     {
       "id": "ideology-developmentalism",
-      "name": "Desenvolvimentismo",
+      "name": "Desenvolvimentismo estruturalista: diretrizes de Prebisch, 1950",
       "aliases": [],
       "kind": "ideology",
       "category": "ideology",
-      "period": "Raúl Prebisch, CEPAL/ONU, 1949",
+      "period": "Texto inglês revisado em 27 abril 1950, UN E/CN12/89/Rev1; proposta de desenvolvimento e discussão anticíclica",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
@@ -2694,9 +2665,10 @@
       "mappedAxes": [],
       "documentedAxes": [],
       "directionalAxes": [],
-      "sourceCount": 1,
+      "sourceCount": 2,
       "sourceUrls": [
-        "https://repositorio.cepal.org/handle/11362/30088"
+        "https://repositorio.cepal.org/handle/11362/30088",
+        "https://archivo.cepal.org/pdfs/cdPrebisch/002.pdf"
       ]
     },
     {
@@ -7979,35 +7951,18 @@
       "aliases": [],
       "kind": "person",
       "category": "public-figure",
-      "period": "Presidências e propostas públicas, 2003–2026",
+      "period": "Declaração própria G7 lida17/06/2026, reprodução nominal; não plataforma antiga renovada",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "rep",
-        "int",
-        "eco",
-        "con",
-        "mor"
-      ],
-      "mappedAxes": [
-        "rep",
-        "int",
-        "eco",
-        "con",
-        "mor"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "rep",
-        "int",
-        "eco",
-        "con",
-        "mor"
-      ],
-      "sourceCount": 1,
+      "directionalAxes": [],
+      "sourceCount": 2,
       "sourceUrls": [
-        "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/discursos-e-pronunciamentos/2023/discurso-do-presidente-luiz-inacio-lula-da-silva-na-sessao-solene-de-posse-no-congresso-nacional"
+        "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/discursos-e-pronunciamentos/2023/discurso-do-presidente-luiz-inacio-lula-da-silva-na-sessao-solene-de-posse-no-congresso-nacional",
+        "https://static.poder360.com.br/uploads/2026/06/lula-fala-g7-ia-17-jun.pdf"
       ]
     },
     {
@@ -8016,31 +7971,17 @@
       "aliases": [],
       "kind": "person",
       "category": "public-figure",
-      "period": "Presidência da África do Sul, 2018–2026",
+      "period": "Normas próprias SONA12/02/2026, somente passagens35–278 revistas",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "rep",
-        "int",
-        "eco",
-        "con"
-      ],
-      "mappedAxes": [
-        "rep",
-        "int",
-        "eco",
-        "con"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "rep",
-        "int",
-        "eco",
-        "con"
-      ],
-      "sourceCount": 1,
+      "directionalAxes": [],
+      "sourceCount": 2,
       "sourceUrls": [
+        "https://www.gov.za/news/speeches/2026StateOfTheNation",
         "https://www.gov.za/news/speeches/2026StateOfTheNation"
       ]
     },
@@ -8050,32 +7991,18 @@
       "aliases": [],
       "kind": "person",
       "category": "public-figure",
-      "period": "Presidência do Quênia e agenda pública, 2022–2026",
+      "period": "Declarações próprias no encontro de saúde2026; relato ONU publicado24/08, dia do encontro não informado",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "rep",
-        "dip",
-        "eco",
-        "tec"
-      ],
-      "mappedAxes": [
-        "rep",
-        "dip",
-        "eco",
-        "tec"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "rep",
-        "dip",
-        "eco",
-        "tec"
-      ],
-      "sourceCount": 1,
+      "directionalAxes": [],
+      "sourceCount": 2,
       "sourceUrls": [
-        "https://www.president.go.ke/speeches/"
+        "https://www.president.go.ke/speeches/",
+        "https://kenya.un.org/en/321632-five-things-we-learnt-kenya-health-summit-about-what-comes-next"
       ]
     },
     {
@@ -8130,29 +8057,18 @@
       "aliases": [],
       "kind": "person",
       "category": "public-figure",
-      "period": "Presidência da Namíbia, 2025–2026",
+      "period": "Fala judicial própria05/02/2026, reprodução nominal publicada10/02",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "rep",
-        "int",
-        "eco"
-      ],
-      "mappedAxes": [
-        "rep",
-        "int",
-        "eco"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "rep",
-        "int",
-        "eco"
-      ],
-      "sourceCount": 1,
+      "directionalAxes": [],
+      "sourceCount": 2,
       "sourceUrls": [
-        "https://op.gov.na/documents/1697384/6403706/Speech%2Bof%2BHer%2BExcellency%2BPresident%2BNetumbo%2BNandi%2BNdaitwah%2Bin%2BOutjo%2B31%2BJuly%2B2025.pdf/923dedcb-d33d-f6cd-d45d-9688af76517d?download=true&t=1757422969940&version=1.0"
+        "https://op.gov.na/documents/1697384/6403706/Speech%2Bof%2BHer%2BExcellency%2BPresident%2BNetumbo%2BNandi%2BNdaitwah%2Bin%2BOutjo%2B31%2BJuly%2B2025.pdf/923dedcb-d33d-f6cd-d45d-9688af76517d?download=true&t=1757422969940&version=1.0",
+        "https://www.namibian.com.na/netumbo-nandi-ndaitwah-at-the-opening-of-the-2026-legal-year/"
       ]
     },
     {
@@ -8161,29 +8077,18 @@
       "aliases": [],
       "kind": "person",
       "category": "public-figure",
-      "period": "Presidência e compromissos públicos de Botsuana, 2024–2026",
+      "period": "Declarações próprias em Nova York, entrevista24/09/2026; reportagem30/09",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "rep",
-        "eco",
-        "mor"
-      ],
-      "mappedAxes": [
-        "rep",
-        "eco",
-        "mor"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "rep",
-        "eco",
-        "mor"
-      ],
-      "sourceCount": 1,
+      "directionalAxes": [],
+      "sourceCount": 2,
       "sourceUrls": [
-        "https://www.gov.bw/"
+        "https://www.gov.bw/",
+        "https://nationaljeweler.com/articles/15369-botswana-s-president-de-beers-ceo-say-diamond-demand-is-recovering"
       ]
     },
     {
@@ -8192,40 +8097,17 @@
       "aliases": [],
       "kind": "person",
       "category": "public-figure",
-      "period": "Governos e discursos do BJP, 2014–2026",
-      "structurallyEligible": true,
+      "period": "Declarações próprias no webinar27/02/2026, resumo nominal institucional",
+      "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "rep",
-        "pod",
-        "imi",
-        "dip",
-        "int",
-        "com",
-        "tec"
-      ],
-      "mappedAxes": [
-        "rep",
-        "pod",
-        "imi",
-        "dip",
-        "int",
-        "com",
-        "tec"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "rep",
-        "pod",
-        "imi",
-        "dip",
-        "int",
-        "com",
-        "tec"
-      ],
-      "sourceCount": 1,
+      "directionalAxes": [],
+      "sourceCount": 2,
       "sourceUrls": [
+        "https://www.pmindia.gov.in/en/news_updates/pm-addresses-post-budget-webinar-on-technology-reforms-and-finance-for-viksit-bharat/",
         "https://www.pmindia.gov.in/en/news_updates/pm-addresses-post-budget-webinar-on-technology-reforms-and-finance-for-viksit-bharat/"
       ]
     },
@@ -8278,38 +8160,18 @@
       "aliases": [],
       "kind": "person",
       "category": "public-figure",
-      "period": "Presidência de Taiwan e plataforma do DPP, 2024–2026",
-      "structurallyEligible": true,
+      "period": "Texto oficial da fala própria por vídeo12/05/2026, encontro concluído",
+      "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "rep",
-        "dip",
-        "int",
-        "rel",
-        "mor",
-        "tec"
-      ],
-      "mappedAxes": [
-        "rep",
-        "dip",
-        "int",
-        "rel",
-        "mor",
-        "tec"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "rep",
-        "dip",
-        "int",
-        "rel",
-        "mor",
-        "tec"
-      ],
-      "sourceCount": 1,
+      "directionalAxes": [],
+      "sourceCount": 2,
       "sourceUrls": [
-        "https://english.president.gov.tw/News"
+        "https://english.president.gov.tw/News",
+        "https://english.president.gov.tw/News/7137"
       ]
     },
     {
@@ -8318,35 +8180,19 @@
       "aliases": [],
       "kind": "person",
       "category": "public-figure",
-      "period": "Presidência de Taiwan, 2016–2024",
+      "period": "Declaração escrita própria11/09/2026; atividade05/10/2026 somente identidade",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "rep",
-        "int",
-        "rel",
-        "mor",
-        "tec"
-      ],
-      "mappedAxes": [
-        "rep",
-        "int",
-        "rel",
-        "mor",
-        "tec"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "rep",
-        "int",
-        "rel",
-        "mor",
-        "tec"
-      ],
-      "sourceCount": 1,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
-        "https://english.president.gov.tw/News/6004"
+        "https://english.president.gov.tw/News/6004",
+        "https://focustaiwan.tw/politics/202609110006",
+        "https://focustaiwan.tw/politics/202610060012"
       ]
     },
     {
@@ -8355,35 +8201,18 @@
       "aliases": [],
       "kind": "person",
       "category": "public-figure",
-      "period": "Presidência do México e informes públicos, 2024–2026",
+      "period": "Normas próprias no segundo informe01/09/2026, passagens oficiais indexadas",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "rep",
-        "eco",
-        "con",
-        "mor",
-        "tec"
-      ],
-      "mappedAxes": [
-        "rep",
-        "eco",
-        "con",
-        "mor",
-        "tec"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "rep",
-        "eco",
-        "con",
-        "mor",
-        "tec"
-      ],
-      "sourceCount": 1,
+      "directionalAxes": [],
+      "sourceCount": 2,
       "sourceUrls": [
-        "https://www.gob.mx/presidencia/es/articulos/version-estenografica-segundo-informe-de-gobierno-de-la-presidenta-claudia-sheinbaum-pardo?idiom=es"
+        "https://www.gob.mx/presidencia/es/articulos/version-estenografica-segundo-informe-de-gobierno-de-la-presidenta-claudia-sheinbaum-pardo?idiom=es",
+        "https://www.gob.mx/presidencia/articulos/version-estenografica-segundo-informe-de-gobierno-de-la-presidenta-claudia-sheinbaum-pardo?idiom=es"
       ]
     },
     {
@@ -8543,44 +8372,18 @@
       "aliases": [],
       "kind": "person",
       "category": "public-figure",
-      "period": "Diretrizes da Comissão Europeia, 2024–2029",
-      "structurallyEligible": true,
+      "period": "Passagens próprias do Estado da União16/09/2026; versão oficial portuguesa",
+      "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep",
-        "pod",
-        "dip",
-        "int",
-        "eco",
-        "com",
-        "tec"
-      ],
-      "mappedAxes": [
-        "est",
-        "rep",
-        "pod",
-        "dip",
-        "int",
-        "eco",
-        "com",
-        "tec"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "est",
-        "rep",
-        "pod",
-        "dip",
-        "int",
-        "eco",
-        "com",
-        "tec"
-      ],
-      "sourceCount": 1,
+      "directionalAxes": [],
+      "sourceCount": 2,
       "sourceUrls": [
-        "https://commission.europa.eu/document/download/e6cd4328-673c-4e7a-8683-f63ffb2cf648_en?filename=Political+Guidelines+2024-2029_EN.pdf"
+        "https://commission.europa.eu/document/download/e6cd4328-673c-4e7a-8683-f63ffb2cf648_en?filename=Political+Guidelines+2024-2029_EN.pdf",
+        "https://portugal.representation.ec.europa.eu/atualidade-e-eventos/atualidade/discurso-da-presidente-ursula-von-der-leyen-sobre-o-estado-da-uniao-2026-2026-09-16_pt?prefLang=de"
       ]
     },
     {
@@ -8915,38 +8718,18 @@
       "aliases": [],
       "kind": "person",
       "category": "public-figure",
-      "period": "Atuação parlamentar e plataformas públicas, 2019–2026",
-      "structurallyEligible": true,
+      "period": "Declaração própria28/02/2026, corpo oficial completo recuperado no índice",
+      "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "rep",
-        "dip",
-        "eco",
-        "con",
-        "mor",
-        "tec"
-      ],
-      "mappedAxes": [
-        "rep",
-        "dip",
-        "eco",
-        "con",
-        "mor",
-        "tec"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "rep",
-        "dip",
-        "eco",
-        "con",
-        "mor",
-        "tec"
-      ],
-      "sourceCount": 1,
+      "directionalAxes": [],
+      "sourceCount": 2,
       "sourceUrls": [
-        "https://ocasio-cortez.house.gov/issues"
+        "https://ocasio-cortez.house.gov/issues",
+        "https://ocasio-cortez.house.gov/media/press-releases/ocasio-cortez-statement-trumps-combat-operations-iran"
       ]
     },
     {
@@ -8955,35 +8738,18 @@
       "aliases": [],
       "kind": "person",
       "category": "public-figure",
-      "period": "Propostas e atuação no Senado dos EUA, 2013–2026",
+      "period": "Declaração própria29/04/2026 sobre proteção da participação eleitoral",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "rep",
-        "eco",
-        "con",
-        "mor",
-        "tec"
-      ],
-      "mappedAxes": [
-        "rep",
-        "eco",
-        "con",
-        "mor",
-        "tec"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "rep",
-        "eco",
-        "con",
-        "mor",
-        "tec"
-      ],
-      "sourceCount": 1,
+      "directionalAxes": [],
+      "sourceCount": 2,
       "sourceUrls": [
-        "https://www.warren.senate.gov/issues"
+        "https://www.warren.senate.gov/issues",
+        "https://www.warren.senate.gov/newsroom/press-releases/warren-statement-on-the-supreme-court-dismantling-the-voting-rights-act/"
       ]
     },
     {
@@ -9091,7 +8857,7 @@
       "aliases": [],
       "kind": "person",
       "category": "public-figure",
-      "period": "Discursos e atuação pelo direito à educação, 2013–2026",
+      "period": "Fala própria no Education World Forum18/05/2026, texto publicado pela fundação",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
@@ -9099,9 +8865,10 @@
       "mappedAxes": [],
       "documentedAxes": [],
       "directionalAxes": [],
-      "sourceCount": 1,
+      "sourceCount": 2,
       "sourceUrls": [
-        "https://www.nobelprize.org/prizes/peace/2014/yousafzai/lecture/"
+        "https://www.nobelprize.org/prizes/peace/2014/yousafzai/lecture/",
+        "https://malala.org/news-and-voices/malala-yousafzai-speak-at-the-education-world-forum-2026"
       ]
     },
     {
@@ -9187,35 +8954,18 @@
       "aliases": [],
       "kind": "person",
       "category": "public-figure",
-      "period": "Discursos e governo da Malásia, 2022–2026",
+      "period": "Declaração própria oficial15/09/2026 durante visita concluída às Maldivas",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "rep",
-        "eco",
-        "con",
-        "mor",
-        "tec"
-      ],
-      "mappedAxes": [
-        "rep",
-        "eco",
-        "con",
-        "mor",
-        "tec"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "rep",
-        "eco",
-        "con",
-        "mor",
-        "tec"
-      ],
-      "sourceCount": 1,
+      "directionalAxes": [],
+      "sourceCount": 2,
       "sourceUrls": [
-        "https://malaysiamadani.gov.my/"
+        "https://malaysiamadani.gov.my/",
+        "https://www.pmo.gov.my/en/speeches-en/verbatim-text-joint-press-statement-yab-dato-seri-anwar-bin-ibrahim-prime-minister-of-malaysia-during-official-visit-to-the-republic-of-maldives/"
       ]
     },
     {
@@ -9623,37 +9373,17 @@
       "aliases": [],
       "kind": "person",
       "category": "historical-figure",
-      "period": "Escritos de libertação e luta anticolonial, 1960–1973",
-      "structurallyEligible": true,
+      "period": "The Weapon of Theory, conferência Tricontinental, janeiro1966",
+      "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep",
-        "dip",
-        "int",
-        "eco",
-        "com"
-      ],
-      "mappedAxes": [
-        "est",
-        "rep",
-        "dip",
-        "int",
-        "eco",
-        "com"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "est",
-        "rep",
-        "dip",
-        "int",
-        "eco",
-        "com"
-      ],
-      "sourceCount": 1,
+      "directionalAxes": [],
+      "sourceCount": 2,
       "sourceUrls": [
+        "https://www.marxists.org/subject/africa/cabral/1966/weapon-theory.htm",
         "https://www.marxists.org/subject/africa/cabral/1966/weapon-theory.htm"
       ]
     },
@@ -9734,40 +9464,17 @@
       "aliases": [],
       "kind": "person",
       "category": "historical-figure",
-      "period": "Peau noire, Les Damnés de la Terre e anticolonialismo, 1952–1961",
-      "structurallyEligible": true,
+      "period": "Les damnés de la terre,1961; conclusão em edição inglesa1965",
+      "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep",
-        "imi",
-        "int",
-        "eco",
-        "com",
-        "mor"
-      ],
-      "mappedAxes": [
-        "est",
-        "rep",
-        "imi",
-        "int",
-        "eco",
-        "com",
-        "mor"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "est",
-        "rep",
-        "imi",
-        "int",
-        "eco",
-        "com",
-        "mor"
-      ],
-      "sourceCount": 1,
+      "directionalAxes": [],
+      "sourceCount": 2,
       "sourceUrls": [
+        "https://www.marxists.org/subject/africa/fanon/conclusion.htm",
         "https://www.marxists.org/subject/africa/fanon/conclusion.htm"
       ]
     },
@@ -9885,31 +9592,23 @@
       "aliases": [],
       "kind": "person",
       "category": "historical-figure",
-      "period": "Discursos constituintes e fundação do Paquistão, 1940–1948",
+      "period": "Discurso à Assembleia Constituinte,11/8/1947; reprodução Dawn1999",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep",
-        "rel",
-        "mor"
-      ],
+      "unreviewedDirectionalAxes": [],
       "mappedAxes": [
-        "est",
-        "rep",
-        "rel",
-        "mor"
+        "rel"
       ],
-      "documentedAxes": [],
+      "documentedAxes": [
+        "rel"
+      ],
       "directionalAxes": [
-        "est",
-        "rep",
-        "rel",
-        "mor"
+        "rel"
       ],
-      "sourceCount": 1,
+      "sourceCount": 2,
       "sourceUrls": [
+        "https://www.pakistani.org/pakistan/legislation/constituent_address_11aug1947.html",
         "https://www.pakistani.org/pakistan/legislation/constituent_address_11aug1947.html"
       ]
     },
@@ -10104,32 +9803,24 @@
       "aliases": [],
       "kind": "person",
       "category": "historical-figure",
-      "period": "Du contrat social, 1762",
+      "period": "DuContratSocial,1762; seleções na traduçãoG.D.H.Cole1920",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep",
-        "eco",
-        "con"
-      ],
+      "unreviewedDirectionalAxes": [],
       "mappedAxes": [
-        "est",
-        "rep",
-        "eco",
-        "con"
+        "rep"
       ],
-      "documentedAxes": [],
+      "documentedAxes": [
+        "rep"
+      ],
       "directionalAxes": [
-        "est",
-        "rep",
-        "eco",
-        "con"
+        "rep"
       ],
-      "sourceCount": 1,
+      "sourceCount": 2,
       "sourceUrls": [
-        "https://www.gutenberg.org/ebooks/46333"
+        "https://www.gutenberg.org/ebooks/46333",
+        "https://www.gutenberg.org/files/46333/46333-h/46333-h.htm"
       ]
     },
     {
@@ -10138,29 +9829,24 @@
       "aliases": [],
       "kind": "person",
       "category": "historical-figure",
-      "period": "A Vindication of the Rights of Woman, 1792",
+      "period": "A Vindication of the Rights of Woman,1792; dedicatória e seleção própria",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "rep",
-        "rel",
-        "mor"
-      ],
+      "unreviewedDirectionalAxes": [],
       "mappedAxes": [
-        "rep",
-        "rel",
         "mor"
       ],
-      "documentedAxes": [],
+      "documentedAxes": [
+        "mor"
+      ],
       "directionalAxes": [
-        "rep",
-        "rel",
         "mor"
       ],
-      "sourceCount": 1,
+      "sourceCount": 2,
       "sourceUrls": [
-        "https://www.gutenberg.org/ebooks/3420"
+        "https://www.gutenberg.org/ebooks/3420",
+        "https://www.gutenberg.org/cache/epub/3420/pg3420-images.html"
       ]
     },
     {
@@ -10195,32 +9881,28 @@
       "aliases": [],
       "kind": "person",
       "category": "historical-figure",
-      "period": "Reforma ou revolução e crítica da Revolução Russa, 1899–1918",
+      "period": "The Russian Revolution,1918; capítuloVI, edição inglesa1940",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep",
-        "eco",
-        "con"
-      ],
+      "unreviewedDirectionalAxes": [],
       "mappedAxes": [
-        "est",
         "rep",
-        "eco",
-        "con"
+        "pod"
       ],
-      "documentedAxes": [],
+      "documentedAxes": [
+        "rep",
+        "pod"
+      ],
       "directionalAxes": [
-        "est",
         "rep",
-        "eco",
-        "con"
+        "pod"
       ],
-      "sourceCount": 1,
+      "sourceCount": 3,
       "sourceUrls": [
-        "https://www.marxists.org/archive/luxemburg/1918/russian-revolution/"
+        "https://www.marxists.org/archive/luxemburg/1918/russian-revolution/",
+        "https://www.marxists.org/archive/luxemburg/1918/russian-revolution/ch06.htm",
+        "https://www.marxists.org/archive/luxemburg/1918/russian-revolution/index.htm"
       ]
     },
     {
@@ -10417,29 +10099,19 @@
       "aliases": [],
       "kind": "person",
       "category": "historical-figure",
-      "period": "Narrative, abolitionist speeches and Reconstruction, 1845–1895",
+      "period": "DiscursoRochester5/7/1852; extrato emMyBondageandMyFreedom1855",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "rep",
-        "rel",
-        "mor"
-      ],
-      "mappedAxes": [
-        "rep",
-        "rel",
-        "mor"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "rep",
-        "rel",
-        "mor"
-      ],
-      "sourceCount": 1,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
-        "https://www.gutenberg.org/ebooks/202"
+        "https://www.gutenberg.org/ebooks/202",
+        "https://www.gutenberg.org/cache/epub/202/pg202-images.html",
+        "https://home.nps.gov/frdo/what-to-the-slave-is-the-4th-of-july.htm"
       ]
     },
     {
@@ -11641,27 +11313,25 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas vigentes, 2024–2025",
+      "period": "Norma religiosa da constituição1999 na edição2023; não consolidação/prática2026 integral",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep"
-      ],
+      "unreviewedDirectionalAxes": [],
       "mappedAxes": [
-        "est",
-        "rep"
+        "rel"
       ],
-      "documentedAxes": [],
+      "documentedAxes": [
+        "rel"
+      ],
       "directionalAxes": [
-        "est",
-        "rep"
+        "rel"
       ],
-      "sourceCount": 2,
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Nigeria_1999",
-        "https://freedomhouse.org/country/nigeria/freedom-world/2025"
+        "https://freedomhouse.org/country/nigeria/freedom-world/2025",
+        "https://ir.nilds.gov.ng/bitstream/handle/123456789/1729/1999%20consitution.pdf?isAllowed=y&sequence=1"
       ]
     },
     {
@@ -11670,27 +11340,27 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas vigentes, 2024–2025",
+      "period": "Norma religiosa da carta2010, republicações oficiais por artigo consultadas08/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep"
-      ],
+      "unreviewedDirectionalAxes": [],
       "mappedAxes": [
-        "est",
-        "rep"
+        "rel"
       ],
-      "documentedAxes": [],
+      "documentedAxes": [
+        "rel"
+      ],
       "directionalAxes": [
-        "est",
-        "rep"
+        "rel"
       ],
-      "sourceCount": 2,
+      "sourceCount": 5,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Kenya_2010",
-        "https://freedomhouse.org/country/kenya/freedom-world/2025"
+        "https://freedomhouse.org/country/kenya/freedom-world/2025",
+        "https://www.klrc.go.ke/index.php/constitution-of-kenya/108-chapter-two-the-republic/174-8-state-and-religion",
+        "https://klrc.go.ke/index.php/constitution-of-kenya/110-chapter-four-the-bill-of-rights/111-part-1-general-provisions-relating-to-the-bill-of-rights/190-24-limitation-of-rights-and-fundamental-freedoms",
+        "https://www.klrc.go.ke/index.php/constitution-of-kenya/133-chapter-ten-judiciary/136-part-3-subordinate-courts/339-170-kadhis-courts"
       ]
     },
     {
@@ -11699,27 +11369,25 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas vigentes, 2024–2025",
+      "period": "Norma religiosa original vigente21/08/1995; não consolidação integral ou prática2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep"
-      ],
+      "unreviewedDirectionalAxes": [],
       "mappedAxes": [
-        "est",
-        "rep"
+        "rel"
       ],
-      "documentedAxes": [],
+      "documentedAxes": [
+        "rel"
+      ],
       "directionalAxes": [
-        "est",
-        "rep"
+        "rel"
       ],
-      "sourceCount": 2,
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Ethiopia_1994",
-        "https://freedomhouse.org/country/ethiopia/freedom-world/2025"
+        "https://freedomhouse.org/country/ethiopia/freedom-world/2025",
+        "https://justice.gov.et/wp-content/uploads/2025/02/%E1%8A%A0%E1%8B%8B%E1%8C%85-%E1%89%81%E1%8C%A5%E1%88%AD-1-1987.pdf"
       ]
     },
     {
@@ -11728,24 +11396,19 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas vigentes, 2024–2025",
+      "period": "Normas partidárias da carta1992 republicadas peloJudicialService; não eleições2026 auditadas",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "rep"
-      ],
-      "mappedAxes": [
-        "rep"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "rep"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Ghana_1992",
-        "https://freedomhouse.org/country/ghana/freedom-world/2025"
+        "https://freedomhouse.org/country/ghana/freedom-world/2025",
+        "https://judicial.gov.gh/jsweb/index.php/jsg-services/libraryservices/statute-on-elections/395-political-parties"
       ]
     },
     {
@@ -13502,30 +13165,19 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas avaliadas, 2024–2025",
+      "period": "Garantias de consciência11 na republicação parlamentar consultada8/10/2026; consolidação sem data comprovada",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "mappedAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Botswana_1966?lang=en",
-        "https://freedomhouse.org/country/botswana/freedom-world/2025"
+        "https://freedomhouse.org/country/botswana/freedom-world/2025",
+        "https://parliament.gov.bw/images/constitution.pdf"
       ]
     },
     {
@@ -13913,30 +13565,19 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas avaliadas, 2024–2025",
+      "period": "Garantias constitucionais na consolidação até38/1998; sem todas alterações2026 verificadas",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "mappedAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Malawi_1994?lang=en",
-        "https://freedomhouse.org/country/malawi/freedom-world/2025"
+        "https://freedomhouse.org/country/malawi/freedom-world/2025",
+        "https://justice.gov.mw/sites/default/files/2021-06/Malawi%20Constitution.pdf"
       ]
     },
     {
@@ -14125,30 +13766,27 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas avaliadas, 2024–2025",
+      "period": "Norma religiosa na Gazette04/08/2023; contraponto administrativoRGB consultado8/10/2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
+      "unreviewedDirectionalAxes": [],
       "mappedAxes": [
-        "est",
-        "rep",
         "rel"
       ],
-      "documentedAxes": [],
+      "documentedAxes": [
+        "rel"
+      ],
       "directionalAxes": [
-        "est",
-        "rep",
         "rel"
       ],
-      "sourceCount": 2,
+      "sourceCount": 5,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Rwanda_2003?lang=en",
-        "https://freedomhouse.org/country/rwanda/freedom-world/2025"
+        "https://freedomhouse.org/country/rwanda/freedom-world/2025",
+        "https://www.rlrc.gov.rw/fileadmin/user_upload/RLRC/Laws_of_Rwanda_v2/Domestic_laws/Laws_in_force/1._Fundamental/1.1._National_Instruments/1.1.1._Constitution/1.1.1.1._Constitution_of_the_Rep._of_Rwanda_2023.pdf",
+        "https://www.rgb.rw/fileadmin/user_upload/RGB/Publications/LAWS_AND_REGULATIONS/THE_CONSTITUTION_OF_THE_REPUBLIC_OF_RWANDA.pdf",
+        "https://www.rgb.rw/1/civil-society-faith-based-and-political-organisations/faith-based-organisations"
       ]
     },
     {
@@ -14279,30 +13917,25 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas avaliadas, 2024–2025",
+      "period": "Norma religiosa da carta1977 na revisão oficial inglesa2005; sem prática2026 inferida",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
+      "unreviewedDirectionalAxes": [],
       "mappedAxes": [
-        "est",
-        "rep",
         "rel"
       ],
-      "documentedAxes": [],
+      "documentedAxes": [
+        "rel"
+      ],
       "directionalAxes": [
-        "est",
-        "rep",
         "rel"
       ],
-      "sourceCount": 2,
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Tanzania_1977?lang=en",
-        "https://freedomhouse.org/country/tanzania/freedom-world/2025"
+        "https://freedomhouse.org/country/tanzania/freedom-world/2025",
+        "https://www.nao.go.tz/uploads/Constitution_of_the_United_Republic_of_Tanzania_en.pdf"
       ]
     },
     {
@@ -14343,30 +13976,25 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas avaliadas, 2024–2025",
+      "period": "Norma religiosa1995 na versão31/12/2023; não prática/consolidação integral2026",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
+      "unreviewedDirectionalAxes": [],
       "mappedAxes": [
-        "est",
-        "rep",
         "rel"
       ],
-      "documentedAxes": [],
+      "documentedAxes": [
+        "rel"
+      ],
       "directionalAxes": [
-        "est",
-        "rep",
         "rel"
       ],
-      "sourceCount": 2,
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Uganda_1995?lang=en",
-        "https://freedomhouse.org/country/uganda/freedom-world/2025"
+        "https://freedomhouse.org/country/uganda/freedom-world/2025",
+        "https://ulii.org/en/akn/ug/act/statute/1995/constitution/eng%402023-12-31"
       ]
     },
     {
@@ -14375,30 +14003,20 @@
       "aliases": [],
       "kind": "country",
       "category": "country",
-      "period": "Instituições e políticas avaliadas, 2024–2025",
+      "period": "Recomposição parlamentar relatada02/10/2026; não corpo integral da lei13/2025",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "mappedAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "est",
-        "rep",
-        "rel"
-      ],
-      "sourceCount": 2,
+      "directionalAxes": [],
+      "sourceCount": 4,
       "sourceUrls": [
         "https://www.constituteproject.org/constitution/Zambia_1991?lang=en",
-        "https://freedomhouse.org/country/zambia/freedom-world/2025"
+        "https://freedomhouse.org/country/zambia/freedom-world/2025",
+        "https://pbo.parliament.gov.zm/node/14125",
+        "https://pbo.parliament.gov.zm/articles"
       ]
     },
     {
