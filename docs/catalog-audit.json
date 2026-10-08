@@ -34,8 +34,8 @@
     ],
     "provenance": "Executed before local data corrections in this recovery checkpoint; not recomputed from unavailable prior Library checkpoint."
   },
-  "headCommitAtAudit": "836d7651243c9a0d3176b51d18148f0bf91fd90d",
-  "integratedCatalogSha256": "e217f5f085a1f5316c453d8d3e9753e3b2b97192c488855b36510e8e7a65629d",
+  "headCommitAtAudit": "0f1b67cdad0a9a65708b13620df18536d38e4391",
+  "integratedCatalogSha256": "6aae8f91976c346aacae0417a68b6deee8dfda9503280a9d2125409ddfe006bb",
   "scope": "Integrated working-tree catalog after preparation; fixed remote baseline and current HEAD are provenance, not immutable copies of modified files.",
   "evidenceGate": {
     "minimumAxes": 6,
