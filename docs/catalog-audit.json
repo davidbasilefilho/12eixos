@@ -34,8 +34,8 @@
     ],
     "provenance": "Executed before local data corrections in this recovery checkpoint; not recomputed from unavailable prior Library checkpoint."
   },
-  "headCommitAtAudit": "31d1e58d248e9107fd67e900d6f081678abdc8df",
-  "integratedCatalogSha256": "b5bc0c963d05312305fa336f1c3e8aa8fd664783645fc3d021e364af5880a03b",
+  "headCommitAtAudit": "cc0d505bba0dcf550d2b51857e2c0a9daf475eac",
+  "integratedCatalogSha256": "134ab6f53e9c681de5ab2f622183bfad7ff6e45b53f45cfbe404026153ab1766",
   "scope": "Integrated working-tree catalog after preparation; fixed remote baseline and current HEAD are provenance, not immutable copies of modified files.",
   "evidenceGate": {
     "minimumAxes": 6,
@@ -56,9 +56,9 @@
   ],
   "totalTarget": 675,
   "totalRecords": 818,
-  "structurallyEligible": 94,
-  "documentaryEligible": 80,
-  "insufficientEvidence": 738,
+  "structurallyEligible": 96,
+  "documentaryEligible": 82,
+  "insufficientEvidence": 736,
   "unreviewedDirectionCount": 563,
   "summedCategoryIdentityGap": 0,
   "categories": [
@@ -110,12 +110,12 @@
       "category": "ideology",
       "target": 75,
       "records": 218,
-      "structurallyEligible": 26,
-      "documentaryEligible": 12,
-      "insufficientEvidence": 206,
+      "structurallyEligible": 28,
+      "documentaryEligible": 14,
+      "insufficientEvidence": 204,
       "missingIdentitiesBeforeSemanticReview": 0,
       "preservedExcess": 143,
-      "missingEligibleToTarget": 63
+      "missingEligibleToTarget": 61
     }
   ],
   "structuralProblems": [],
@@ -2381,16 +2381,32 @@
       "aliases": [],
       "kind": "ideology",
       "category": "ideology",
-      "period": "On New Democracy, janeiro de 1940; seções III, V e VI na tradução inglesa de Selected Works reproduzida pela MIA",
+      "period": "On New Democracy, janeiro de 1940; seções V, VI, VII, IX, X e XIII na tradução inglesa de Selected Works reproduzida pela MIA",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
       "unreviewedDirectionalAxes": [],
-      "mappedAxes": [],
-      "documentedAxes": [],
-      "directionalAxes": [],
-      "sourceCount": 3,
+      "mappedAxes": [
+        "rep",
+        "pod",
+        "dip",
+        "eco"
+      ],
+      "documentedAxes": [
+        "rep",
+        "pod",
+        "dip",
+        "eco"
+      ],
+      "directionalAxes": [
+        "rep",
+        "pod",
+        "dip",
+        "eco"
+      ],
+      "sourceCount": 4,
       "sourceUrls": [
+        "https://www.marxists.org/reference/archive/mao/selected-works/volume-2/mswv2_26.htm",
         "https://www.marxists.org/reference/archive/mao/selected-works/volume-2/mswv2_26.htm",
         "https://ecommons.cornell.edu/entities/publication/7ba1f815-e4c0-4bcf-9693-74cf0de56202",
         "https://www.marxists.org/reference/archive/mao/selected-works/volume-2/mswv2_26.htm"
@@ -3088,15 +3104,43 @@
       "kind": "ideology",
       "category": "ideology",
       "period": "Constituição adotada em abril de 1947; tradução Haim 1962 reimpressa com permissão em Devlin 1976, Apêndice D, pp 345–352",
-      "structurallyEligible": false,
-      "documentaryEligible": false,
-      "reviewStatus": "insufficient-located-coding",
+      "structurallyEligible": true,
+      "documentaryEligible": true,
+      "reviewStatus": "located-coding-present-not-truth-certified",
       "unreviewedDirectionalAxes": [],
-      "mappedAxes": [],
-      "documentedAxes": [],
-      "directionalAxes": [],
-      "sourceCount": 2,
+      "mappedAxes": [
+        "rep",
+        "pod",
+        "imi",
+        "dip",
+        "eco",
+        "con",
+        "com",
+        "mor"
+      ],
+      "documentedAxes": [
+        "rep",
+        "pod",
+        "imi",
+        "dip",
+        "eco",
+        "con",
+        "com",
+        "mor"
+      ],
+      "directionalAxes": [
+        "rep",
+        "pod",
+        "imi",
+        "dip",
+        "eco",
+        "con",
+        "com",
+        "mor"
+      ],
+      "sourceCount": 3,
       "sourceUrls": [
+        "https://www.scribd.com/document/556751769/John-F-Devlin-The-Ba%CA%BBth-Party-A-History-From-Its-Origins-to-1966-Hoover-Institution-Press-1976",
         "https://acervohc.uff.br/baath/",
         "https://www.scribd.com/document/556751769/John-F-Devlin-The-Ba%25CA%25BBth-Party-A-History-From-Its-Origins-to-1966-Hoover-Institution-Press-1976"
       ]
@@ -4041,15 +4085,40 @@
       "kind": "ideology",
       "category": "ideology",
       "period": "Anarchism and the Black Revolution, segunda edição; dedicatória própria de setembro de 1993, republicação textual The Anarchist Library",
-      "structurallyEligible": false,
-      "documentaryEligible": false,
-      "reviewStatus": "insufficient-located-coding",
+      "structurallyEligible": true,
+      "documentaryEligible": true,
+      "reviewStatus": "located-coding-present-not-truth-certified",
       "unreviewedDirectionalAxes": [],
-      "mappedAxes": [],
-      "documentedAxes": [],
-      "directionalAxes": [],
-      "sourceCount": 2,
+      "mappedAxes": [
+        "est",
+        "rep",
+        "pod",
+        "imi",
+        "eco",
+        "con",
+        "mor"
+      ],
+      "documentedAxes": [
+        "est",
+        "rep",
+        "pod",
+        "imi",
+        "eco",
+        "con",
+        "mor"
+      ],
+      "directionalAxes": [
+        "est",
+        "rep",
+        "pod",
+        "imi",
+        "eco",
+        "con",
+        "mor"
+      ],
+      "sourceCount": 3,
       "sourceUrls": [
+        "https://theanarchistlibrary.org/library/lorenzo-kom-boa-ervin-anarchism-and-the-black-revolution",
         "https://theanarchistlibrary.org/library/lorenzo-kom-boa-ervin-anarchism-and-the-black-revolution",
         "https://theanarchistlibrary.org/library/lorenzo-kom-boa-ervin-anarchism-and-the-black-revolution"
       ]
