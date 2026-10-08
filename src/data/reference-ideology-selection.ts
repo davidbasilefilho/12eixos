@@ -5,10 +5,10 @@ export const ideologySelectionSnapshot = {
   "intendedSubsetCount": 75,
   "readyForDefaultUse": false,
   "boundedReviewedReferents": 75,
-  "referentCountScope": "Integrated working-tree818-04 after exact14/15/16 accepted definition repairs and existingCosmo substitution:75 located normative referents/62 bounded comparisons. Not a75 nearest-distinctness certificate.",
+  "referentCountScope": "Integrated NEXT07 after exact30–33 and four authorized selected-slot substitutions:75 located normative referents. The62 curated review-group rows remain unchanged; final nearest assessment is the separately attributed selected675 peer ledger, not automatic certification from this count.",
   "boundedTwoSidedContrasts": 62,
   "preservedOriginalCatalogCount": 206,
-  "partitionCountScope": "Integrated same218=75selected+143alternatives, all original206/original75 preserved; no raw growth; all authorized same-ID overlays applied.",
+  "partitionCountScope": "NEXT07 workingtree four authorized existing-slot substitutions: same218=75selected+143alternatives; full outgoing Berlinguer/Ghannouchi/raw original75 and earlier traces preserved, zero raw growth.",
   "pendingCatalogIds": [],
   "independent75Verified": false,
   "pendingDefinitionOverlayIds": [],
@@ -648,7 +648,7 @@ export const ideologySelectionFamilies = [
   {
     "id": "socialist",
     "label": "Socialismo, propriedade e estratégia",
-    "count": 15
+    "count": 14
   },
   {
     "id": "anarchist",
@@ -663,7 +663,7 @@ export const ideologySelectionFamilies = [
   {
     "id": "religious",
     "label": "Tradições religiosas e política",
-    "count": 4
+    "count": 3
   },
   {
     "id": "ecological",
@@ -673,12 +673,12 @@ export const ideologySelectionFamilies = [
   {
     "id": "democratic",
     "label": "Participação e desenho institucional",
-    "count": 7
+    "count": 8
   },
   {
     "id": "development",
     "label": "Desenvolvimento e coordenação econômica",
-    "count": 1
+    "count": 2
   },
   {
     "id": "technical",
@@ -1891,15 +1891,15 @@ export const intendedIdeologySelection = [
     "ontologyLimit": "Programas localizados de transição, coalizão de classes e autoridade produtiva; não certificam todas variantes históricas nem a independência de todo vizinho. Nenhum vetor foi validado por esta comparação."
   },
   {
-    "id": "ideology-eurocommunism",
-    "name": "Eurocomunismo: declaração democrática de Berlinguer, 1977",
-    "family": "socialist",
-    "selectionRationale": "Via comunista pluralista e parlamentar",
-    "reviewStatus": "referent-reviewed-nearest-unresolved",
+    "id": "ideology-agrarian-populism",
+    "name": "Populismo agrário: plataforma de Omaha, 1892",
+    "family": "development",
+    "selectionRationale": "Emissão monetária pública, crédito direto, tributação progressiva e infraestrutura governamental como programa de autoridade econômica.",
+    "reviewStatus": "referent-and-bounded-neighbor-contrast-reviewed",
     "documentedAxisCountAtSnapshot": 0,
     "ontologyStatus": "bounded-normative-referent-reviewed",
-    "contrastStatus": "unresolved-primary-nearest-overlap",
-    "ontologyLimit": "Affirmative dated primary body reviewed and same-ID alignment accepted. Nearest material distinction still unresolved; author/year/religious label not sufficient; zero coded axes."
+    "contrastStatus": "bounded-primary-neighbor-contrast",
+    "ontologyLimit": "Programa específico1892; emissor governamental exclusivo versus bancos competitivosTucker, imposto graduado sobre renda versus imposto único fundiárioGeorge. Shared land/publicrevenue/anti-privilege retained; not all populisms or all family incompatibility. Separate sentiments are not the platform; coreland excludes alienownership, not general migration. OriginalBerlinguer remains full alternative."
   },
   {
     "id": "ideology-council-communism",
@@ -2155,15 +2155,15 @@ export const intendedIdeologySelection = [
     "ontologyLimit": "Referentes normativos localizados; comparação delimitada por texto e edição, sem provar independência de todos os vizinhos nem prática implementada."
   },
   {
-    "id": "ideology-islamic-democracy",
-    "name": "Democracia de valores islâmicos: programa de Ghannouchi, 2016",
-    "family": "religious",
-    "selectionRationale": "Pluralismo civil no recorte democrático muçulmano",
-    "reviewStatus": "referent-reviewed-nearest-unresolved",
+    "id": "civic-consociational-democracy",
+    "name": "Democracia consociativa: programa de Lijphart, 2004–2008",
+    "family": "democratic",
+    "selectionRationale": "Prescreve partilha de autoridade entre grupos e autonomia, com preferências parlamentares e poucas consultas referendárias.",
+    "reviewStatus": "referent-and-bounded-neighbor-contrast-reviewed",
     "documentedAxisCountAtSnapshot": 0,
     "ontologyStatus": "bounded-normative-referent-reviewed",
-    "contrastStatus": "unresolved-primary-nearest-overlap",
-    "ontologyLimit": "Affirmative dated primary body reviewed and same-ID alignment accepted. Nearest material distinction still unresolved; author/year/religious label not sufficient; zero coded axes."
+    "contrastStatus": "bounded-primary-neighbor-contrast",
+    "ontologyLimit": "Programa próprio2004summary/2008intro para sociedades profundamente divididas; grupos eleitorais variáveis, outrasformasconsociativas/maioriamínima/consensocompatível. Contrasta ratificaçãopessoalIII15 e individualismo preferidoII3 com muitasassociaçõesequilibradasfallback. Noall-familycertificate; oldGhannouchi fullalternative."
   },
   {
     "id": "green-politics",
@@ -3088,19 +3088,6 @@ export const preservedIdeologyAlternatives = [
     "catalogRationale": "A reivindicação central de terra para comunidades e restituição agrária fundamenta os polos de propriedade e planejamento.",
     "catalogSourceTitles": [
       "Plan de Ayala (1911) — Library of Congress"
-    ],
-    "documentedAxisCountAtSnapshot": 0,
-    "reviewStatus": "provisional"
-  },
-  {
-    "id": "ideology-agrarian-populism",
-    "name": "Populismo agrário",
-    "reasonCode": "granularity-review",
-    "compareWith": null,
-    "decisionRationale": "Tradição ou recorte adicional preservado para revisão; ampliar o subconjunto exige demonstrar contraste conceitual além do nome e do vetor.",
-    "catalogRationale": "A plataforma defende reforma monetária, regulação ferroviária e maior controle público de infraestrutura em resposta ao endividamento e ao poder corporativo.",
-    "catalogSourceTitles": [
-      "Omaha Platform (1892) — University of Arizona, US History II"
     ],
     "documentedAxisCountAtSnapshot": 0,
     "reviewStatus": "provisional"
@@ -4846,19 +4833,6 @@ export const preservedIdeologyAlternatives = [
     "reviewStatus": "preserved-original-not-newly-validated"
   },
   {
-    "id": "civic-consociational-democracy",
-    "name": "Democracia consociativa",
-    "reasonCode": "preserved-original-explicit-program-substitution",
-    "compareWith": "ideology-program-panarchy-de-puydt-1860",
-    "decisionRationale": "Registro completo anterior permanece no catálogo e arquivo LIVE; substituição do exemplar selecionado não transfere valores nem apaga a identidade.",
-    "catalogRationale": "Acomodação institucional entre comunidades linguísticas, autonomia regional e partilha de poder limitam a imposição de uma maioria única.",
-    "catalogSourceTitles": [
-      "The Belgian Constitution — Belgian House of Representatives"
-    ],
-    "documentedAxisCountAtSnapshot": 0,
-    "reviewStatus": "preserved-original-not-newly-validated"
-  },
-  {
     "id": "ideology-left-yugoslav-self-management",
     "name": "Socialismo autogestionário iugoslavo",
     "reasonCode": "preserved-original-explicit-program-substitution",
@@ -4922,6 +4896,34 @@ export const preservedIdeologyAlternatives = [
     ],
     "documentedAxisCountAtSnapshot": 2,
     "reviewStatus": "preserved-original-record-not-deleted"
+  },
+  {
+    "id": "ideology-eurocommunism",
+    "name": "Eurocomunismo: declaração democrática de Berlinguer, 1977",
+    "reasonCode": "retained-after-authorized-selected-substitution",
+    "compareWith": "ideology-agrarian-populism",
+    "decisionRationale": "Declaração pluralista de Berlinguer preservada; diferença mais próxima de DSA/SPD permanece aberta. Programa de Omaha selecionado por prescrições afirmativas próprias, sem eliminar o registro anterior.",
+    "catalogRationale": "Defende socialismo com pluralidade permanente de partidos, Estado não ideológico e liberdades civis, pessoais e religiosas.",
+    "catalogSourceTitles": [
+      "Democracy and Socialism — Enrico Berlinguer, 1977",
+      "La democrazia valore universale — Enrico Berlinguer, own archive 1977"
+    ],
+    "documentedAxisCountAtSnapshot": 0,
+    "reviewStatus": "referent-reviewed-nearest-unresolved"
+  },
+  {
+    "id": "ideology-islamic-democracy",
+    "name": "Democracia de valores islâmicos: programa de Ghannouchi, 2016",
+    "reasonCode": "retained-after-authorized-selected-substitution",
+    "compareWith": "civic-consociational-democracy",
+    "decisionRationale": "Programa democrático de Ghannouchi preservado integralmente; democracia consociativa selecionada por prescrições institucionais localizadas de Lijphart, sem provar diferença por religião ou ano.",
+    "catalogRationale": "Defende partido democrático de valores islâmicos, separação funcional entre mesquita e política, controles civis e economia mista.",
+    "catalogSourceTitles": [
+      "Ennahda’s 10th Congress: The Founding Document — Carnegie Endowment",
+      "Ghannouchi 20May 2016 congress address — CSID participant English transcript"
+    ],
+    "documentedAxisCountAtSnapshot": 0,
+    "reviewStatus": "referent-reviewed-nearest-unresolved"
   }
 ] as const;
 
@@ -5053,6 +5055,22 @@ export const ideologyOntologySubstitutions = [
     "reviewedOn": "2026-10-08",
     "status": "accepted-proposed-substitution-existing-catalog",
     "catalogRecordsDeleted": false
+  },
+  {
+    "removedId": "ideology-eurocommunism",
+    "selectedId": "ideology-agrarian-populism",
+    "reason": "Terceira substituição expressamente autorizada: plataforma de Omaha com emissor monetário público e tributação graduada; declaração de Berlinguer retida como alternativa integral e no traço original75.",
+    "status": "Root-accepted-existing-ID-selected-substitution-workingtree-NEXT07",
+    "catalogRecordsDeleted": false,
+    "original75Preserved": true
+  },
+  {
+    "removedId": "ideology-islamic-democracy",
+    "selectedId": "civic-consociational-democracy",
+    "reason": "Quarta substituição expressamente autorizada: partilha de poder, autonomia e proporcionalidade em Lijphart; programa de Ghannouchi preservado como alternativa integral e no traço original75.",
+    "status": "Root-accepted-existing-ID-selected-substitution-workingtree-NEXT07",
+    "catalogRecordsDeleted": false,
+    "original75Preserved": true
   }
 ] as const;
 

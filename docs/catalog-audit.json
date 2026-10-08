@@ -34,8 +34,8 @@
     ],
     "provenance": "Executed before local data corrections in this recovery checkpoint; not recomputed from unavailable prior Library checkpoint."
   },
-  "headCommitAtAudit": "34c92e9992defd07309721cdf2e6d88349031783",
-  "integratedCatalogSha256": "79311dcab082121d6b8f82f9778aac7ecb5f21fc47a220906ddf08773cfecfe3",
+  "headCommitAtAudit": "836d7651243c9a0d3176b51d18148f0bf91fd90d",
+  "integratedCatalogSha256": "e217f5f085a1f5316c453d8d3e9753e3b2b97192c488855b36510e8e7a65629d",
   "scope": "Integrated working-tree catalog after preparation; fixed remote baseline and current HEAD are provenance, not immutable copies of modified files.",
   "evidenceGate": {
     "minimumAxes": 6,
@@ -59,7 +59,7 @@
   "structurallyEligible": 70,
   "documentaryEligible": 56,
   "insufficientEvidence": 762,
-  "unreviewedDirectionCount": 566,
+  "unreviewedDirectionCount": 563,
   "summedCategoryIdentityGap": 0,
   "categories": [
     {
@@ -2561,11 +2561,11 @@
     },
     {
       "id": "ideology-agrarian-populism",
-      "name": "Populismo agrário",
+      "name": "Populismo agrário: plataforma de Omaha, 1892",
       "aliases": [],
       "kind": "ideology",
       "category": "ideology",
-      "period": "Plataforma do People’s Party, Omaha, 1892",
+      "period": "Plataforma do People’s Party, Omaha, 1892; reprodução do texto publicado em A Handbook of Politics for 1892, páginas 269–271",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
@@ -2573,8 +2573,9 @@
       "mappedAxes": [],
       "documentedAxes": [],
       "directionalAxes": [],
-      "sourceCount": 1,
+      "sourceCount": 2,
       "sourceUrls": [
+        "https://courses.lumenlearning.com/suny-jcc-ushistory2os/chapter/primary-source-the-omaha-platform-of-the-peoples-party-1892/",
         "https://courses.lumenlearning.com/atd-pima-ushistory2/chapter/primary-source-the-omaha-platform-of-the-peoples-party-1892/"
       ]
     },
@@ -4420,9 +4421,10 @@
       "mappedAxes": [],
       "documentedAxes": [],
       "directionalAxes": [],
-      "sourceCount": 2,
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www2.iath.virginia.edu/sixties/HTML_docs/Resources/Primary/Manifestos/SDS_Port_Huron.html",
+        "https://www.crmvet.org/info/620615_sds_huron-stmt.pdf",
         "https://www.crmvet.org/info/620615_sds_huron-stmt.pdf"
       ]
     },
@@ -4432,7 +4434,7 @@
       "aliases": [],
       "kind": "ideology",
       "category": "ideology",
-      "period": "Do contrato social, 1762; livros II.1 e III.15 na tradução de G. D. H. Cole reproduzida pelo Project Gutenberg",
+      "period": "Do contrato social, 1762; livros II.1, II.3 e III.15 na tradução de G. D. H. Cole reproduzida pelo Project Gutenberg",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
@@ -4440,9 +4442,10 @@
       "mappedAxes": [],
       "documentedAxes": [],
       "directionalAxes": [],
-      "sourceCount": 2,
+      "sourceCount": 3,
       "sourceUrls": [
         "https://www.fedlex.admin.ch/eli/cc/1999/404/en",
+        "https://www.gutenberg.org/files/46333/46333-h/46333-h.htm",
         "https://www.gutenberg.org/files/46333/46333-h/46333-h.htm"
       ]
     },
@@ -4468,32 +4471,22 @@
     },
     {
       "id": "civic-consociational-democracy",
-      "name": "Democracia consociativa",
+      "name": "Democracia consociativa: programa de Lijphart, 2004–2008",
       "aliases": [],
       "kind": "ideology",
       "category": "ideology",
-      "period": "Constituição da Bélgica, federalização de 1993",
+      "period": "Recomendações constitucionais no resumo autoral publicado em abril de 2004; introdução própria de Thinking about Democracy, edição impressa de 2008 e edição eletrônica identificada como 2007",
       "structurallyEligible": false,
       "documentaryEligible": false,
       "reviewStatus": "insufficient-located-coding",
-      "unreviewedDirectionalAxes": [
-        "est",
-        "rep",
-        "imi"
-      ],
-      "mappedAxes": [
-        "est",
-        "rep",
-        "imi"
-      ],
+      "unreviewedDirectionalAxes": [],
+      "mappedAxes": [],
       "documentedAxes": [],
-      "directionalAxes": [
-        "est",
-        "rep",
-        "imi"
-      ],
-      "sourceCount": 1,
+      "directionalAxes": [],
+      "sourceCount": 3,
       "sourceUrls": [
+        "https://api.pageplace.de/preview/DT0400.9781135980306_A24933374/preview-9781135980306_A24933374.pdf",
+        "https://www.journalofdemocracy.org/articles/constitutional-design-for-divided-societies/",
         "https://www.dekamer.be/kvvcr/pdf_sections/publications/constitution/GrondwetUK.pdf"
       ]
     },

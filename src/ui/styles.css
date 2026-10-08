@@ -2706,7 +2706,7 @@ main {
   @apply [padding:0_13px] [border:1px_solid_var(--border)] [background:var(--surface)]; }
 .unranked-row > summary {
 
-  @apply [grid-template-columns:minmax(0,_1fr)_auto_auto_18px]; }
+  @apply [grid-template-columns:minmax(0,_1fr)_minmax(0,_2fr)_auto_18px]; }
 .unranked-row > summary small, .unranked-row > summary b {
 
   @apply [color:var(--text-secondary)] [font-size:12px]; }
