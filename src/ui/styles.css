@@ -3709,3 +3709,23 @@ body:has(.quiz-page)::before { @apply hidden; }
 
 .categorized-person strong:has(.closest-person-label) { @apply flex flex-wrap items-center gap-x-[7px] gap-y-[2px]; }
 .closest-person-label { @apply font-sans text-[7px] leading-[1.2] tracking-[.5px] font-bold text-ink-secondary; }
+
+/* Text controls align their glyph edge with nearby prose; framed controls align their frame. */
+.mobile-navigation-links .mobile-navigation-link { @apply px-4; }
+:root:not([data-theme='dark']) .atlas-shell .hero-map { @apply brightness-[1.5] contrast-[.8] saturate-[.9] opacity-[.54]; }
+:root[data-theme='dark'] .atlas-shell .hero-map { @apply brightness-100 contrast-100 saturate-100; }
+@media (max-width: 640px) {
+ :root:not([data-theme='dark']) .atlas-shell .hero-map { @apply opacity-[.14]; }
+}
+
+:root { --ideology-panel-surface: color-mix(in srgb, var(--orange) 14%, var(--surface)); }
+:root[data-theme='dark'] { --ideology-panel-surface: var(--result-red); }
+:root .atlas-shell :is(.preview-ideology, .result-primary, .share-ideology-feature) { @apply bg-[var(--ideology-panel-surface)] text-ink border-accent/40; }
+:root:not([data-theme='dark']) .atlas-shell .result-primary small { @apply text-ink-secondary; }
+:root .atlas-shell .share-ideology-feature small { @apply text-ink-secondary; }
+.atlas-shell .theme-trigger { @apply justify-between; }
+.theme-trigger-label { @apply inline-flex items-center gap-[9px]; }
+/* Shared filled controls must override the generic inherited anchor/button ink. */
+[data-control-variant='solid'] { @apply text-background; }
+:root:not([data-theme='dark']) [data-control-variant='solid']:hover { @apply brightness-100 bg-[color-mix(in_srgb,var(--orange)_94%,var(--text))]; }
+[data-control-variant='solid']:hover { @apply text-background; }

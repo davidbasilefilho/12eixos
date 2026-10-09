@@ -246,8 +246,8 @@ export function AppShell() {
         {compactNavigation && <button type="button" className="theme-trigger" aria-haspopup="dialog" aria-expanded={mobileNavigationOpen} onClick={() => setMobileNavigationOpen(true)}>Explorar <IconChevronDown size={15} aria-hidden="true"/></button>}
         <MenuRoot modal={false}>
         <MenuTrigger className={controlClassName({ variant: 'outline', color: 'ink', size: 'sm', className: 'theme-trigger' })} aria-label={`Tema: ${themeLabel}. Abrir opções`}>
-            {themePreference === 'system' ? <IconDeviceDesktop size={18} aria-hidden="true"/> : theme === 'light' ? <IconSun size={18} aria-hidden="true"/> : <IconMoon size={18} aria-hidden="true"/>}
-            <span>{themeLabel}</span><IconChevronDown size={15} aria-hidden="true"/>
+            <span className="theme-trigger-label">{themePreference === 'system' ? <IconDeviceDesktop size={18} aria-hidden="true"/> : theme === 'light' ? <IconSun size={18} aria-hidden="true"/> : <IconMoon size={18} aria-hidden="true"/>}
+            <span>{themeLabel}</span></span><IconChevronDown size={15} aria-hidden="true"/>
           </MenuTrigger>
           <MenuPortal>
             <MenuPositioner sideOffset={5}>
@@ -371,7 +371,7 @@ export function LandingPage() {
       </div>
     </section>
     <section className="how-section scroll-reveal" id="como-funciona">
-      <div className="how-intro"><h2>Um teste político<br/>mais completo</h2><p>Uma única linha não descreve a variedade das escolhas políticas. O 12eixos mostra doze dimensões, com escalas próprias e interpretações transparentes.</p><ActionLink to="/metodologia" variant="ghost" color="accent" size="sm">CONHEÇA A METODOLOGIA <IconArrowRight size={17}/></ActionLink></div>
+      <div className="how-intro"><h2>Um teste político<br/>mais completo</h2><p>Uma única linha não descreve a variedade das escolhas políticas. O 12eixos mostra doze dimensões, com escalas próprias e interpretações transparentes.</p><ActionLink to="/metodologia" variant="solid" color="accent" size="sm">CONHEÇA A METODOLOGIA <IconArrowRight size={17}/></ActionLink></div>
       <article className="how-step"><span className="step-number">01</span><EditorialArtwork variant="books" className="step-art"/><h3>Responda às perguntas</h3><p>Escolha entre 36, 60 ou 240 afirmações. O progresso fica salvo neste navegador.</p></article>
       <article className="how-step"><span className="step-number">02</span><EditorialArtwork variant="globe" className="step-art"/><h3>Leia os 12 eixos</h3><p>Veja percentuais, polos, explicações e as posições que influenciaram cada escala.</p></article>
       <article className="how-step"><span className="step-number">03</span><EditorialArtwork variant="atlas" className="step-art"/><h3>Explore as comparações</h3><p>Compare com ideologias, figuras e países por meio de vetores e fontes descritas.</p></article>
