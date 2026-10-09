@@ -1,30 +1,46 @@
 {
-  "reviewedOn": "2026-10-08",
-  "baseCommit": "df4d4317c04a4977c35e3e23d308e4b440c0505e",
+  "reviewedOn": "2026-10-09",
+  "baseCommit": "54f7feef62aa62632ee517721512fc23e69dd3d3",
   "originalCatalog": {
     "records": 818,
-    "sha256": "f989c8d317a758f6d65af689c2bca07d560d65be000b15f0dc794ecda9d1420e",
-    "unchanged": true,
-    "rawDocumentaryEligible": 93,
-    "priorSelectedEligible": 91
+    "sha256": "1ba985e6ad16ffb2fa3922eebf5bd5c7ebc4eb57318f014d76f745210bc0b41a",
+    "beforeApprovedResearchSha256": "e094a0d207d138e683ae29c122ba1bda236ab2fde319e19a55782747408beca0",
+    "changedRawRecordIds": [
+      "atiku-abubakar",
+      "ilhan-omar",
+      "fiji-current-2025"
+    ],
+    "unchanged": false,
+    "matchesExactApprovedPost": true,
+    "rawDocumentaryEligible": 96,
+    "priorSelectedEligible": 94
   },
   "researchInputSha256": "ef57dcfc83eb3ba6f71a4db2bdc43fc95c69993715253967ed2f1ca3d4761883",
-  "selectedCatalogSha256": "2f89965bd9f2f38e7524a532b3a9268306c079cef455e9ce188a078f7e59f6b8",
+  "selectedCatalogSha256": "2ad62c57ad5888447fa4be60d7503518c3bf6d1149f21fda8fab9769c44dec6c",
   "fullArchiveRecords": 868,
   "selectedRecords": 675,
   "reusedIdeologyReferents": 25,
   "newResearchOnlyReferents": 50,
   "archivedOutsideSelection": 193,
-  "documentaryEligible": 86,
-  "insufficientEvidence": 589,
-  "newScores": 0,
+  "documentaryEligible": 90,
+  "insufficientEvidence": 585,
+  "newMeasuredScores": 0,
+  "newEditorialAxisCodings": 6,
+  "selectedOnlyReconciliation": {
+    "id": "ideology-program-anarcho-syndicalism-iwa-2022",
+    "newAxis": "pod",
+    "beforeAxes": 5,
+    "afterAxes": 6,
+    "fullLookupExceptionOnlyThisId": true,
+    "rawArchiveUnchanged": true
+  },
   "gateMinimumAxes": 6,
   "categories": [
     {
       "category": "country",
       "selected": 150,
-      "documentaryEligible": 19,
-      "pending": 131
+      "documentaryEligible": 20,
+      "pending": 130
     },
     {
       "category": "historical-country",
@@ -35,8 +51,8 @@
     {
       "category": "public-figure",
       "selected": 150,
-      "documentaryEligible": 17,
-      "pending": 133
+      "documentaryEligible": 19,
+      "pending": 131
     },
     {
       "category": "historical-figure",
@@ -47,15 +63,15 @@
     {
       "category": "ideology",
       "selected": 75,
-      "documentaryEligible": 8,
-      "pending": 67
+      "documentaryEligible": 9,
+      "pending": 66
     }
   ],
   "limitations": [
     "Selection research is not source-truth certification or whole-axis coding.",
     "No new numeric vectors were inferred from research prospects; new profiles remain unknown on all axes.",
-    "Same-referent inherited coding retains the exact prior period, numbers, grades, claims and source objects.",
-    "All 818 former records remain intact; selection and eligibility are separate counts.",
-    "The prior selected675 had 91 eligible; the prior unfiltered product catalog had 93. The current selected675 has 86 because its ideology membership changed."
+    "Inherited coding retains the exact prior period, numbers, grades, claims and source objects; the independently reviewed IWA2022 adds POD40medium only in the selected object and its full-catalog lookup.",
+    "Only the three explicitly reviewed raw-record posts change; all815 other raw records and all193 archives remain intact. IWA changes only its selected object and full-catalog lookup; selection and eligibility remain separate.",
+    "The researched selection75 had86eligible. The independently reviewed IWA2022,Atiku,Omar,Fiji additions raise current selected675 to90eligible and585pending; no selected identity or six-axis gate changes."
   ]
 }

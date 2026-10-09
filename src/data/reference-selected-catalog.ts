@@ -1,3 +1,4 @@
+import { reconcileResearchIwa20261009 } from './reference-research-iwa-20261009';
 import { AXIS_KEYS, referenceEntries, type ReferenceEntry } from './references';
 import { ideology75Profiles } from './reference-ideology75-profiles';
 import { matchReferences, partitionMatchReferences } from '../lib/matching';
@@ -6,7 +7,7 @@ import type { AxisScores } from '../lib/scoring';
 /** The historical source catalog is immutable. Selection never rewrites its records. */
 const priorById = new Map(referenceEntries.map(entry => [entry.id, entry]));
 
-export const selectedIdeologyEntries: ReferenceEntry[] = ideology75Profiles.map(profile => {
+export const selectedIdeologyEntries: ReferenceEntry[] = ideology75Profiles.map((profile): ReferenceEntry => {
   const prior = priorById.get(profile.id);
   if (profile.existing !== Boolean(prior)) throw new Error(`Ideology identity resolution changed: ${profile.id}`);
   const bibliography = [...(prior?.sources ?? [])];
@@ -32,7 +33,7 @@ export const selectedIdeologyEntries: ReferenceEntry[] = ideology75Profiles.map(
     axisEvidence: prior?.axisEvidence ?? {},
     coding: prior?.coding ?? {},
   };
-});
+}).map(reconcileResearchIwa20261009);
 
 const selectedIdeologyIds = new Set(selectedIdeologyEntries.map(entry => entry.id));
 if (selectedIdeologyEntries.length !== 75 || selectedIdeologyIds.size !== 75) {
@@ -51,7 +52,9 @@ export const archivedReferenceEntries = referenceEntries.filter(entry =>
 export const fullReferenceCatalog = [
   ...referenceEntries,
   ...selectedIdeologyEntries.filter(entry => !priorById.has(entry.id)),
-];
+].map(entry => entry.id === 'ideology-program-anarcho-syndicalism-iwa-2022'
+  ? selectedIdeologyEntries.find(selected => selected.id === entry.id)!
+  : entry);
 
 /** Shared product boundary: archived profiles cannot enter any ranked surface. */
 export function matchSelectedReferences(scores: AxisScores) {

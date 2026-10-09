@@ -10,12 +10,15 @@ import { documentedEvidenceAxes, partitionMatchReferences } from '../src/lib/mat
 const oldSelection = new Set<string>(intendedIdeologySelection.map(entry => entry.id));
 const hash = (value: string | Buffer) => createHash('sha256').update(value).digest('hex');
 const audit = {
-  reviewedOn: '2026-10-08',
-  baseCommit: 'df4d4317c04a4977c35e3e23d308e4b440c0505e',
+  reviewedOn: '2026-10-09',
+  baseCommit: '54f7feef62aa62632ee517721512fc23e69dd3d3',
   originalCatalog: {
     records: referenceEntries.length,
     sha256: hash(JSON.stringify(referenceEntries)),
-    unchanged: hash(JSON.stringify(referenceEntries)) === 'f989c8d317a758f6d65af689c2bca07d560d65be000b15f0dc794ecda9d1420e',
+    beforeApprovedResearchSha256: 'e094a0d207d138e683ae29c122ba1bda236ab2fde319e19a55782747408beca0',
+    changedRawRecordIds: ['atiku-abubakar', 'ilhan-omar', 'fiji-current-2025'],
+    unchanged: false,
+    matchesExactApprovedPost: hash(JSON.stringify(referenceEntries)) === '1ba985e6ad16ffb2fa3922eebf5bd5c7ebc4eb57318f014d76f745210bc0b41a',
     rawDocumentaryEligible: partitionMatchReferences(referenceEntries).ranked.length,
     priorSelectedEligible: partitionMatchReferences(referenceEntries.filter(entry => entry.category !== 'ideology' || oldSelection.has(entry.id))).ranked.length,
   },
@@ -28,7 +31,9 @@ const audit = {
   archivedOutsideSelection: archivedReferenceEntries.length,
   documentaryEligible: selectedReferenceCoverage.ranked.length,
   insufficientEvidence: selectedReferenceCoverage.insufficientEvidence.length,
-  newScores: 0,
+  newMeasuredScores: 0,
+  newEditorialAxisCodings: 6,
+  selectedOnlyReconciliation: { id: "ideology-program-anarcho-syndicalism-iwa-2022", newAxis: "pod", beforeAxes: 5, afterAxes: 6, fullLookupExceptionOnlyThisId: true, rawArchiveUnchanged: true },
   gateMinimumAxes: 6,
   categories: ['country', 'historical-country', 'public-figure', 'historical-figure', 'ideology'].map(category => {
     const selected = selectedReferenceEntries.filter(entry => entry.category === category);
@@ -38,11 +43,11 @@ const audit = {
   limitations: [
     'Selection research is not source-truth certification or whole-axis coding.',
     'No new numeric vectors were inferred from research prospects; new profiles remain unknown on all axes.',
-    'Same-referent inherited coding retains the exact prior period, numbers, grades, claims and source objects.',
-    'All 818 former records remain intact; selection and eligibility are separate counts.',
-    'The prior selected675 had 91 eligible; the prior unfiltered product catalog had 93. The current selected675 has 86 because its ideology membership changed.',
+    'Inherited coding retains the exact prior period, numbers, grades, claims and source objects; the independently reviewed IWA2022 adds POD40medium only in the selected object and its full-catalog lookup.',
+    'Only the three explicitly reviewed raw-record posts change; all815 other raw records and all193 archives remain intact. IWA changes only its selected object and full-catalog lookup; selection and eligibility remain separate.',
+    'The researched selection75 had86eligible. The independently reviewed IWA2022,Atiku,Omar,Fiji additions raise current selected675 to90eligible and585pending; no selected identity or six-axis gate changes.',
   ],
 };
 writeFileSync('docs/selected-catalog-audit.json', `${JSON.stringify(audit, null, 2)}\n`);
 console.log(JSON.stringify(audit, null, 2));
-if (!audit.originalCatalog.unchanged || audit.selectedRecords !== 675 || audit.researchInputSha256 !== 'ef57dcfc83eb3ba6f71a4db2bdc43fc95c69993715253967ed2f1ca3d4761883') process.exitCode = 1;
+if (!audit.originalCatalog.matchesExactApprovedPost || audit.selectedRecords !== 675 || audit.researchInputSha256 !== 'ef57dcfc83eb3ba6f71a4db2bdc43fc95c69993715253967ed2f1ca3d4761883') process.exitCode = 1;
