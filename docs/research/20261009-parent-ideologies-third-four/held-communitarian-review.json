@@ -1,0 +1,418 @@
+{
+  "schemaVersion": "held-communitarian-independent-review-v1",
+  "reviewedOn": "2026-10-09",
+  "status": "accept6 bounded proposals; HOLD platform ECO40 with precise approved metadata; not integrated",
+  "inputSha256": "2016382d16a4eea1fe08b018917387a5ec7a927a2957e0d31cce27c1a3869b70",
+  "selectedCount": 675,
+  "selectedIdeologyCount": 75,
+  "records": [
+    {
+      "id": "ideology-cosmopolitan-democracy",
+      "beforeSha256": "61afd3a9dfdc9bfacb4e4b7841b800e723ba0bc7deb94d857479ec9288695f6d",
+      "fullBefore": {
+        "id": "ideology-cosmopolitan-democracy",
+        "kind": "ideology",
+        "category": "ideology",
+        "name": "Democracia cosmopolita (Held–Archibugi, 2011)",
+        "period": "Daniele Archibugi e David Held, Paths and Agents (2011).",
+        "rationale": "Democratização de decisões transnacionais por direitos e representação que ultrapassam a cidadania nacional. Instituições multinível, assembleia parlamentar mundial e participação dos afetados além das fronteiras.",
+        "caveats": "Não é sinônimo de livre comércio nem projeto necessariamente unitário de Estado mundial; caminhos institucionais são abertos. Pesquisa qualitativa de seleção; não atribui novos scores nem certifica os 12 eixos. Lacunas não equivalem a neutralidade.",
+        "sources": [
+          {
+            "title": "Cosmopolitan Democracy: Paths and Agents",
+            "url": "https://ciaotest.cc.columbia.edu/journals/cceia/v25i4/f_0024217_19756.pdf",
+            "note": "Publicação: 2011. Acesso registrado pela pesquisa: 2026-10-08. Tipo: primary. Localizador: pp.441–447, The Role of States; Citizen Participation in Global Politics. Leitura efetiva declarada na pesquisa: Passagens pp.441–447 recuperadas e lidas; não todo artigo. Ethics & International Affairs 25(4), pp.433–461."
+          }
+        ],
+        "vec": {
+          "est": 50,
+          "rep": 50,
+          "pod": 50,
+          "imi": 50,
+          "dip": 50,
+          "int": 50,
+          "eco": 50,
+          "con": 50,
+          "com": 50,
+          "rel": 50,
+          "mor": 50,
+          "tec": 50
+        },
+        "evidence": {},
+        "axisEvidence": {},
+        "coding": {}
+      },
+      "scopePeriod": "Daniele Archibugi e David Held, Paths and Agents (2011).",
+      "axisVerdicts": [
+        {
+          "axis": "rep",
+          "verdict": "accept bounded canonical input",
+          "reason": "Participação cidadã, igualdade e fiscalização instituídas além do Estado; desenho eleitoral e força decisória abertos não equivalem a preferência autocrática.",
+          "approvedInput": {
+            "axis": "rep",
+            "position": "strong-first",
+            "confidence": "high",
+            "relatedQuestionIds": [
+              "representacao_03",
+              "representacao_07",
+              "representacao_19"
+            ],
+            "claims": [
+              {
+                "sourceTitle": "Cosmopolitan Democracy: Paths and Agents — Ethics & International Affairs 25(4), 2011",
+                "locator": "2011, pp434/438–440, definição e tabela1; pp443–444, reforma institucional; pp446–448, Citizen Participation e representação (extração43–53,153–202,277–298,365–425).",
+                "statement": "Propõe representação cidadã transnacional e controle democrático independente dos governos.",
+                "basis": "declaration",
+                "publishedDate": "2011",
+                "accessedDate": "2026-10-09"
+              }
+            ],
+            "rationale": "A democratização é compromisso central.",
+            "uncertainty": "Forma eleitoral e poderes da assembleia permanecem abertos. Não imputa sufrágio secreto universal ou direitos específicos de oposição; são ligações de constructo. Alguns desenhos privilegiam ONGs/stakeholders e podem ameaçar igualdade; tabela1 explicita esse risco.",
+            "reviewedOn": "2026-10-09"
+          },
+          "value": 80,
+          "editorialRange": [
+            75,
+            90
+          ],
+          "evidenceGrade": "high"
+        },
+        {
+          "axis": "imi",
+          "verdict": "accept bounded canonical input",
+          "reason": "Programa doméstico explícito de direitos de minorias linguísticas/religiosas/étnicas e residentes; não inferido só de identidade global.",
+          "approvedInput": {
+            "axis": "imi",
+            "position": "moderate-second",
+            "confidence": "medium",
+            "relatedQuestionIds": [
+              "imigracao_02",
+              "imigracao_06",
+              "imigracao_18",
+              "imigracao_20"
+            ],
+            "claims": [
+              {
+                "sourceTitle": "Cosmopolitan Democracy: Paths and Agents — Ethics & International Affairs 25(4), 2011",
+                "locator": "2011, p442, The Role of States, extração237–250; pp449–450, Migrants, extração458–477.",
+                "statement": "Defende direitos minoritários e redução de desigualdades entre nacionais e residentes estrangeiros.",
+                "basis": "declaration",
+                "publishedDate": "2011",
+                "accessedDate": "2026-10-09"
+              }
+            ],
+            "rationale": "Direção multicultural explícita.",
+            "uncertainty": "Não especifica todas as regras de admissão. Nem toda condição de admissão, língua escolar ou identidade nacional é resolvida; movimentos descritos não são automaticamente programa dos autores.",
+            "reviewedOn": "2026-10-09"
+          },
+          "value": 40,
+          "editorialRange": [
+            30,
+            45
+          ],
+          "evidenceGrade": "medium"
+        },
+        {
+          "axis": "dip",
+          "verdict": "accept bounded canonical input",
+          "reason": "Cooperação e tribunais são alternativas concretas à força; preservar sanções e crítica à seletividade colonial.",
+          "approvedInput": {
+            "axis": "dip",
+            "position": "moderate-second",
+            "confidence": "medium",
+            "relatedQuestionIds": [
+              "diplomacia_06",
+              "diplomacia_14",
+              "diplomacia_20"
+            ],
+            "claims": [
+              {
+                "sourceTitle": "Cosmopolitan Democracy: Paths and Agents — Ethics & International Affairs 25(4), 2011",
+                "locator": "2011, pp443–446, Toward a Democratic Foreign Policy e Global Judicial Authorities, extração257–364; sanções não violentas362–364.",
+                "statement": "Prefere cooperação, solução judicial e responsabilização por crimes internacionais.",
+                "basis": "declaration",
+                "publishedDate": "2011",
+                "accessedDate": "2026-10-09"
+              }
+            ],
+            "rationale": "Instrumentos não militares são materiais.",
+            "uncertainty": "Não demonstra pacifismo absoluto; aceita sanções não violentas.",
+            "reviewedOn": "2026-10-09"
+          },
+          "value": 40,
+          "editorialRange": [
+            30,
+            45
+          ],
+          "evidenceGrade": "medium"
+        }
+      ],
+      "heldProposals": [],
+      "acceptedAxisCount": 3,
+      "unknownAxisReasons": {
+        "est": "Governança multinível não demonstra repartição constitucional doméstica de competências.",
+        "pod": "Direitos gerais e jurisdição internacional não delimitam suficientemente coerção doméstica.",
+        "int": "Rejeição da exportação coerciva convive com apoio externo a democratas; direção agregada não resolvida.",
+        "eco": "Bens públicos globais não determinam titularidade ou provisão predominante.",
+        "con": "Não estabelecido no recorte lido.",
+        "com": "Os interesses de sindicatos e empresas são descritos, não adotados como programa comercial único.",
+        "rel": "Direitos de minorias religiosas não bastam para demonstrar separação institucional.",
+        "mor": "Não estabelecido no recorte lido.",
+        "tec": "Não estabelecido no recorte lido."
+      },
+      "sourceRecipe": {
+        "preserveOrderedPrefixExactly": [
+          {
+            "title": "Cosmopolitan Democracy: Paths and Agents",
+            "url": "https://ciaotest.cc.columbia.edu/journals/cceia/v25i4/f_0024217_19756.pdf",
+            "note": "Publicação: 2011. Acesso registrado pela pesquisa: 2026-10-08. Tipo: primary. Localizador: pp.441–447, The Role of States; Citizen Participation in Global Politics. Leitura efetiva declarada na pesquisa: Passagens pp.441–447 recuperadas e lidas; não todo artigo. Ethics & International Affairs 25(4), pp.433–461."
+          }
+        ],
+        "appendReviewedSources": [
+          {
+            "title": "Cosmopolitan Democracy: Paths and Agents — Ethics & International Affairs 25(4), 2011",
+            "url": "https://ciaotest.cc.columbia.edu/journals/cceia/v25i4/f_0024217_19756.pdf",
+            "note": "Publicação/edição: 2011. Acesso: 2026-10-09. Ethics & International Affairs 25(4), pp.433–461; doi:10.1017/S0892679411000360. Leitura independente delimitada em held-communitarian-review.json. Texto primário autoral do artigo de 2011, sem incorporar outras obras dos autores."
+          }
+        ],
+        "onlyNewTitlesUsedByNewCodes": true
+      }
+    },
+    {
+      "id": "ideology-communitarianism",
+      "beforeSha256": "22172cc5ec062ff997ee231402a781c5adc101a23e4cfdc7a33bf5401d51d680",
+      "fullBefore": {
+        "id": "ideology-communitarianism",
+        "kind": "ideology",
+        "category": "ideology",
+        "name": "Comunitarismo responsivo (plataforma 1991)",
+        "period": "Responsive Communitarian Platform (18 novembro 1991).",
+        "rationale": "Direitos pessoais e responsabilidades recíprocas sustentam uma comunidade moral democrática. Fortalecimento de famílias, associações e educação cívica, com proteção social e limites de direitos avaliados por segurança pública.",
+        "caveats": "Não representa comunitarismos autoritários ou todo pensamento de Sandel/MacIntyre. Texto reproduzido por terceiro, não página original dos signatários. Pesquisa qualitativa de seleção; não atribui novos scores nem certifica os 12 eixos. Lacunas não equivalem a neutralidade.",
+        "sources": [
+          {
+            "title": "The Responsive Communitarian Platform",
+            "url": "https://www.republikanisme.nl/politiek/responsive-community-1991/",
+            "note": "Publicação: 1991-11-18. Acesso registrado pela pesquisa: 2026-10-08. Tipo: primary. Localizador: Restoring the Moral Voice; Freedom of Speech; Social Justice; Public Safety and Public Health. Leitura efetiva declarada na pesquisa: Seções citadas lidas em reprodução integral disponível; não todas as seções."
+          }
+        ],
+        "vec": {
+          "est": 50,
+          "rep": 50,
+          "pod": 50,
+          "imi": 50,
+          "dip": 50,
+          "int": 50,
+          "eco": 50,
+          "con": 50,
+          "com": 50,
+          "rel": 50,
+          "mor": 50,
+          "tec": 50
+        },
+        "evidence": {},
+        "axisEvidence": {},
+        "coding": {}
+      },
+      "scopePeriod": "Responsive Communitarian Platform (18 novembro 1991).",
+      "axisVerdicts": [
+        {
+          "axis": "rep",
+          "verdict": "accept bounded canonical input",
+          "reason": "Eleição, igualdade eleitoral, pluralidade e oposição expressas; confiança medium pela reprodução com elipses.",
+          "approvedInput": {
+            "axis": "rep",
+            "position": "strong-first",
+            "confidence": "medium",
+            "relatedQuestionIds": [
+              "representacao_03",
+              "representacao_07",
+              "representacao_19"
+            ],
+            "claims": [
+              {
+                "sourceTitle": "The Responsive Communitarian Platform — reprodução em Republikanisme",
+                "locator": "Reprodução atribuída a 18 de novembro de 1991, Not Majoritarian But Strongly Democratic267–275; Duties to the Polity307–312; Cleaning Up the Polity313–320.",
+                "statement": "Defende participação, igualdade eleitoral e contenção da influência financeira.",
+                "basis": "declaration",
+                "publishedDate": "1991-11-18; data da reprodução não identificada",
+                "accessedDate": "2026-10-09"
+              }
+            ],
+            "rationale": "Compromisso democrático abrangente.",
+            "uncertainty": "Protege dissenso; reprodução apresenta omissões.",
+            "reviewedOn": "2026-10-09"
+          },
+          "value": 80,
+          "editorialRange": [
+            75,
+            90
+          ],
+          "evidenceGrade": "medium"
+        },
+        {
+          "axis": "pod",
+          "verdict": "accept bounded canonical input",
+          "reason": "Busca/sobriedade/armas/saúde formam restrições concretas; contrapostos direitos, expressão ofensiva e persuasão.",
+          "approvedInput": {
+            "axis": "pod",
+            "position": "moderate-first",
+            "confidence": "medium",
+            "relatedQuestionIds": [
+              "poder_04",
+              "poder_09",
+              "poder_16"
+            ],
+            "claims": [
+              {
+                "sourceTitle": "The Responsive Communitarian Platform — reprodução em Republikanisme",
+                "locator": "Reprodução de 1991, Freedom of Speech321–323; Public Safety and Public Health328–336; contrapontos de persuasão260–263 e In Conclusion343–353.",
+                "statement": "Apoia controles de sobriedade, desarmamento e deveres sanitários.",
+                "basis": "declaration",
+                "publishedDate": "1991-11-18; data da reprodução não identificada",
+                "accessedDate": "2026-10-09"
+              }
+            ],
+            "rationale": "Restrições concretas priorizam segurança.",
+            "uncertainty": "Preserva expressão ofensiva, privacidade e proteção antidiscriminatória. Deveres sanitários são recomendações, não prova de criminalização; conclusões privilegiam adesão moral e persuasão sobre penas.",
+            "reviewedOn": "2026-10-09"
+          },
+          "value": 60,
+          "editorialRange": [
+            55,
+            70
+          ],
+          "evidenceGrade": "medium"
+        },
+        {
+          "axis": "mor",
+          "verdict": "accept bounded canonical input",
+          "reason": "Família, divórcio e formação moral documentam orientação conservadora parcial; ambos os pais e ensino escolar permanecem essenciais.",
+          "approvedInput": {
+            "axis": "mor",
+            "position": "moderate-second",
+            "confidence": "medium",
+            "relatedQuestionIds": [
+              "moral_02",
+              "moral_04",
+              "moral_18",
+              "moral_20"
+            ],
+            "claims": [
+              {
+                "sourceTitle": "The Responsive Communitarian Platform — reprodução em Republikanisme",
+                "locator": "Reprodução de 1991, Start With the Family279–290; Schools291–296; igualdade/dissenso267–275 e conclusões343–353.",
+                "statement": "Valoriza formação moral familiar e desestimula divórcio evitável.",
+                "basis": "declaration",
+                "publishedDate": "1991-11-18; data da reprodução não identificada",
+                "accessedDate": "2026-10-09"
+              }
+            ],
+            "rationale": "Orientação tradicional limitada.",
+            "uncertainty": "Dever parental compartilhado; admite divórcio e educação escolar. Não imputa primazia feminina no lar ou veto parental absoluto; escola ensina tolerância, igualdade e democracia.",
+            "reviewedOn": "2026-10-09"
+          },
+          "value": 40,
+          "editorialRange": [
+            30,
+            45
+          ],
+          "evidenceGrade": "medium"
+        }
+      ],
+      "heldProposals": [
+        {
+          "axis": "eco",
+          "verdict": "HOLD — unknown 50 without coding/evidence/axisEvidence",
+          "proposal": {
+            "axis": "eco",
+            "position": "moderate-second",
+            "confidence": "medium",
+            "relatedQuestionIds": [
+              "economia_04",
+              "economia_07"
+            ],
+            "claims": [
+              {
+                "sourceTitle": "The Responsive Communitarian Platform — reprodução em Republikanisme",
+                "locator": "orientação comunitária e justiça social; linhas 299–303,324–327",
+                "statement": "Prioriza provisão comunitária, com apoio público e intervenção subsidiária.",
+                "basis": "declaration",
+                "publishedDate": "1991-11-18; data da reprodução não identificada",
+                "accessedDate": "2026-10-09"
+              }
+            ],
+            "rationale": "Direção não estatal na provisão social.",
+            "uncertainty": "Não equivale a privatização lucrativa ou ausência de proteção.",
+            "reviewedOn": "2026-10-09",
+            "briefPrimaryExcerpt": "The government should step in"
+          },
+          "reason": "Subsidiariedade da prestação de cuidado/saúde/educação não estabelece prescrição geral de propriedade pública ou privada dos meios de produção. A prestação local pode ser pública; apoio estatal e comunidade não resolvem esse regime. Nenhum novo número autorizado.",
+          "qualitativeFacet": "Prioriza famílias e sociedade civil no cuidado, com parceria/apoio público e governo subsidiário; manter como contexto qualitativo somente."
+        }
+      ],
+      "acceptedAxisCount": 3,
+      "unknownAxisReasons": {
+        "est": "Subsidiariedade social não prova autonomia legislativa ou soberania territorial.",
+        "imi": "Ajuda a imigrantes não define política de assimilação.",
+        "dip": "Não estabelecido no texto disponível.",
+        "int": "Não estabelecido no texto disponível.",
+        "con": "Não estabelecido no texto disponível.",
+        "com": "Não estabelecido no texto disponível.",
+        "rel": "Educação moral compartilhada não determina arranjo Igreja–Estado.",
+        "tec": "Não estabelecido no texto disponível.",
+        "eco": "O texto estabelece subsidiariedade da prestação de cuidado, mas não prescrição geral de propriedade dos meios de produção; proposta ECO40 retida sem número."
+      },
+      "sourceRecipe": {
+        "preserveOrderedPrefixExactly": [
+          {
+            "title": "The Responsive Communitarian Platform",
+            "url": "https://www.republikanisme.nl/politiek/responsive-community-1991/",
+            "note": "Publicação: 1991-11-18. Acesso registrado pela pesquisa: 2026-10-08. Tipo: primary. Localizador: Restoring the Moral Voice; Freedom of Speech; Social Justice; Public Safety and Public Health. Leitura efetiva declarada na pesquisa: Seções citadas lidas em reprodução integral disponível; não todas as seções."
+          }
+        ],
+        "appendReviewedSources": [
+          {
+            "title": "The Responsive Communitarian Platform — reprodução em Republikanisme",
+            "url": "https://www.republikanisme.nl/politiek/responsive-community-1991/",
+            "note": "Publicação/edição: 1991-11-18; data da reprodução não identificada. Acesso: 2026-10-09. Texto atribuído à plataforma de 18 novembro de 1991; sem facsímile ou cotejo com publicação Winter 1991/92. Leitura independente delimitada em held-communitarian-review.json. Reprodução com elipses explícitas; não integralidade da plataforma original. A ressalva atual prevalece sobre descrição anterior de reprodução integral, sem alterar objetos antigos."
+          },
+          {
+            "title": "Amitai Etzioni: An Introduction — Walter Reese-Schaefer, tradução Morgan Hangartner",
+            "url": "https://www.uni-goettingen.de/de/document/download/510766aa1c3ad163fffbf93dd7a7df1f.pdf/EtzionicompleteVersion_31_07_2013.pdf",
+            "note": "Edição: Versão identificada pelo arquivo como 2013-07-31; publicação editorial não confirmada. Acesso: 2026-10-09. Somente contexto: título/sumário e cap. 6 pp42–43, data/autoria. Não fonte de novos scores."
+          }
+        ],
+        "onlyNewTitlesUsedByNewCodes": true
+      }
+    }
+  ],
+  "readingLog": [
+    {
+      "key": "held_archibugi_2011",
+      "url": "https://ciaotest.cc.columbia.edu/journals/cceia/v25i4/f_0024217_19756.pdf",
+      "freshBodyRead": "PDF extracted0–425 displayed, including title/edition, definition, table 1, domesticminorities, foreignpolicy, judicialauthorities, assembly; migrant458–477 fresh find. Notes and bibliography not fully read; no screenshot/facsimile certification.",
+      "nativeDeclaration": "Root read scope in input remains separately attributed."
+    },
+    {
+      "key": "community_1991",
+      "url": "https://www.republikanisme.nl/politiek/responsive-community-1991/",
+      "freshBodyRead": "All displayed substantive platform252–353 independently read, with explicit ellipses290/296/302/303/306/323/327/329. This is not the complete original1991 publication.",
+      "nativeDeclaration": "Input Root read252–338 narrower than this fresh read."
+    },
+    {
+      "key": "community_context",
+      "url": "https://www.uni-goettingen.de/de/document/download/510766aa1c3ad163fffbf93dd7a7df1f.pdf/EtzionicompleteVersion_31_07_2013.pdf",
+      "freshBodyRead": "Opening title/contents, chapter6 printed 42–43 extraction1335–1369, date and coauthors independently read. Other later doctrine excluded from scoring."
+    }
+  ],
+  "questionReview": "All 120 questions for REP/IMI/DIP/POD/ECO/MOR reviewed. REP/POD/DIP/ECO/MOR pools read in earlier independent review same unchanged file; IMI 20 freshly read. These are construct crosswalks, never literal answers.",
+  "limits": [
+    "Original program dates preserved; reproduction dates unknown, not 2026 policies.",
+    "Unknown50 receives no new evidence/map/code.",
+    "Preserve every original source object; add explicit reproduction limitation instead of rewriting old source note.",
+    "Neither3-axis profile reaches six; no eligibility or completion claim.",
+    "No shared repository edit or VCS action."
+  ]
+}

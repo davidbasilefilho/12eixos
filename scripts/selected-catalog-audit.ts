@@ -1,3 +1,4 @@
+import { thirdIdeologies20261009Definitions } from '../src/data/reference-third-ideologies-20261009';
 /** Run with bun scripts/selected-catalog-audit.ts; metadata integrity, not source-truth certification. */
 import { writeFileSync, readFileSync } from 'node:fs';
 import { createHash } from 'node:crypto';
@@ -33,9 +34,10 @@ const audit = {
   documentaryEligible: selectedReferenceCoverage.ranked.length,
   insufficientEvidence: selectedReferenceCoverage.insufficientEvidence.length,
   newMeasuredScores: 0,
-  newEditorialAxisCodings: 33,
+  newEditorialAxisCodings: 45,
+  thirdIdeologyCheckpoint: { newCodings: 12, ids: thirdIdeologies20261009Definitions.map(definition => definition.before.id), raw818Unchanged: true, newEligible: [] },
   parentIdeologyCheckpoint: { newCodings: 27, ids: parentIdeologies20261009Definitions.map(definition => definition.before.id), raw818Unchanged: true, newEligible: ['ideology-social-liberalism'] },
-  selectedOnlyReconciliation: { id: "ideology-program-anarcho-syndicalism-iwa-2022", newAxis: "pod", beforeAxes: 5, afterAxes: 6, fullLookupExceptionOnlyThisId: false, otherApprovedSelectedLookupIds: parentIdeologies20261009Definitions.map(definition => definition.before.id), rawArchiveUnchanged: true },
+  selectedOnlyReconciliation: { id: "ideology-program-anarcho-syndicalism-iwa-2022", newAxis: "pod", beforeAxes: 5, afterAxes: 6, fullLookupExceptionOnlyThisId: false, otherApprovedSelectedLookupIds: [...parentIdeologies20261009Definitions, ...thirdIdeologies20261009Definitions].map(definition => definition.before.id), rawArchiveUnchanged: true },
   gateMinimumAxes: 6,
   categories: ['country', 'historical-country', 'public-figure', 'historical-figure', 'ideology'].map(category => {
     const selected = selectedReferenceEntries.filter(entry => entry.category === category);
@@ -44,6 +46,7 @@ const audit = {
   }),
   limitations: [
     'Selection research is not source-truth certification or whole-axis coding.',
+    'The third bounded checkpoint adds 12 approved documentary codes to Held, the responsive platform, Burke and Kristol. No new eligible profile: 91 eligible, 584 pending, 2938 minimum missing slots. All prior raw and selected posts remain intact.',
     'No numeric vectors are inferred from prospects. The exact seven reviewed ideology posts add27documentary ordinal codes; all unsupported axes remain unknown.',
     'Inherited raw coding remains exact. Seven additional selected ideology posts use approved source-specific inputs; IWA2022 retains its prior selected POD40medium. All old source objects and unmodified axis fields are preserved.',
     'Only the three explicitly reviewed raw-record posts change; all815 other raw records and all193 archives remain intact. IWA and the seven approved ideology posts change only selected objects and same-ID full-catalog lookups; selection and eligibility remain separate.',

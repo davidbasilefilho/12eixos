@@ -1,0 +1,58 @@
+{
+  "status": "PASS actual integrated working tree, not a source-truth certification of every profile",
+  "checks": 1722,
+  "raw818Unchanged": true,
+  "otherSelected671Unchanged": true,
+  "otherFull864Unchanged": true,
+  "archived193Unchanged": true,
+  "rothbardEntireRecordUnchanged": true,
+  "oldSourcePrefixObjectsPreserved": true,
+  "gateMinimumAxes": 6,
+  "selected": 675,
+  "eligible": 91,
+  "pending": 584,
+  "minimumMissingSlots": 2938,
+  "newCodes": 12,
+  "rawSHA256": "1ba985e6ad16ffb2fa3922eebf5bd5c7ebc4eb57318f014d76f745210bc0b41a",
+  "selectedSHA256": "f58194e6e386d803205e9bbd9b89c12ec1f3adea8b2c5a43d283c8c1b8d1d34b",
+  "fullSHA256": "f04253b314929137b6f01b82c603389fd0119ff728b3e62ef85ceb92c26664dc",
+  "postsSHA256": "3ca436dbdfbfb04ebc8f8c88e69afb878fdbef812d10d9c2372b743cb4ea0059",
+  "rows": [
+    {
+      "id": "ideology-cosmopolitan-democracy",
+      "postSHA256": "7033874bda1b229d5418c951c40007d45b47ee22b859713bfe95e5c6723c5b17",
+      "axes": [
+        "rep",
+        "imi",
+        "dip"
+      ]
+    },
+    {
+      "id": "ideology-communitarianism",
+      "postSHA256": "c8eb89ada3e43df8cd439e3563fdb59165c9e34fff3b238a2644f55c687799f5",
+      "axes": [
+        "rep",
+        "pod",
+        "mor"
+      ]
+    },
+    {
+      "id": "ideology-burkean-conservatism",
+      "postSHA256": "01673dde0c4658a26886cf3e3770ed0296516fb973aadb7be4954beff2c52fc3",
+      "axes": [
+        "rep",
+        "eco",
+        "rel",
+        "mor"
+      ]
+    },
+    {
+      "id": "ideology-right-neoconservatism",
+      "postSHA256": "70b7f79fe2e82faa83d817f1ea94f965e07a70cef79cdd39ea44f0d9d6934aaf",
+      "axes": [
+        "dip",
+        "int"
+      ]
+    }
+  ]
+}
