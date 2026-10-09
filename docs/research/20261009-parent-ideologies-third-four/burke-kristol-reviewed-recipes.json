@@ -1,0 +1,313 @@
+{
+  "inputSHA256": "2016382d16a4eea1fe08b018917387a5ec7a927a2957e0d31cce27c1a3869b70",
+  "status": "Six partial recipes supported; one Kristol MOR proposal held; final encoded post binding and Root judgment required.",
+  "records": [
+    {
+      "id": "ideology-burkean-conservatism",
+      "before": {
+        "id": "ideology-burkean-conservatism",
+        "kind": "ideology",
+        "category": "ideology",
+        "name": "Conservadorismo constitucional burkeano",
+        "period": "Edmund Burke, Reflections on the Revolution in France (1790).",
+        "rationale": "Ordem política como herança intergeracional, reformada prudentemente em vez de reconstruída por abstrações. Constituição histórica, instituições intermediárias, propriedade e autoridade transmitida com obrigações.",
+        "caveats": "Não é defesa de qualquer regime existente; não converter metáforas orgânicas em TEC biológico. Pesquisa qualitativa de seleção; não atribui novos scores nem certifica os 12 eixos. Lacunas não equivalem a neutralidade.",
+        "sources": [
+          {
+            "title": "Reflections on the Revolution in France",
+            "url": "https://www.gutenberg.org/files/15679/15679-h/15679-h.htm",
+            "note": "Publicação: 1790. Acesso registrado pela pesquisa: 2026-10-08. Tipo: primary. Localizador: passagens “equal rights; but not to equal things” e contrato entre gerações. Leitura efetiva declarada na pesquisa: Passagens sobre direitos/propriedade e parceria intergeracional lidas; volume não integral."
+          },
+          {
+            "title": "Conservatism",
+            "url": "https://plato.stanford.edu/archives/fall2024/entries/conservatism/",
+            "note": "Publicação: 2024. Acesso registrado pela pesquisa: 2026-10-08. Tipo: scholarly. Localizador: §1.5. Leitura efetiva declarada na pesquisa: Passagem classificatória lida."
+          }
+        ],
+        "vec": {
+          "est": 50,
+          "rep": 50,
+          "pod": 50,
+          "imi": 50,
+          "dip": 50,
+          "int": 50,
+          "eco": 50,
+          "con": 50,
+          "com": 50,
+          "rel": 50,
+          "mor": 50,
+          "tec": 50
+        },
+        "evidence": {},
+        "axisEvidence": {},
+        "coding": {}
+      },
+      "beforeSHA256": "74dfcdb12cc8c822ea8171b3e686bd831f48bfa83ee875230b8e80c307b0b96b",
+      "acceptedRecipes": [
+        {
+          "axis": "rep",
+          "position": "moderate-second",
+          "confidence": "medium",
+          "relatedQuestionIds": [
+            "representacao_10",
+            "representacao_15",
+            "representacao_16"
+          ],
+          "claims": [
+            {
+              "sourceTitle": "Reflections on the Revolution in France — Works, vol.III, reimpressão de 1887",
+              "locator": "ensaio Reflections: parágrafos sobre sucessão e representação; linhas 1377–1407,1450,1553–1564; contraponto 1988–1993",
+              "statement": "Defende coroa e pares hereditários e representação privilegiada da propriedade.",
+              "basis": "declaration",
+              "publishedDate": "1790; coletânea John C. Nimmo, 1887, transcrição Gutenberg",
+              "accessedDate": "2026-10-09"
+            }
+          ],
+          "rationale": "Direção hierárquica explícita.",
+          "uncertainty": "Preserva Parlamento e contrapesos, acesso de mérito em condições restritas e possibilidade excepcional de democracia; não absolutismo nem rejeição de toda reforma.",
+          "reviewedOn": "2026-10-09"
+        },
+        {
+          "axis": "eco",
+          "position": "moderate-second",
+          "confidence": "medium",
+          "relatedQuestionIds": [
+            "economia_08",
+            "economia_18"
+          ],
+          "claims": [
+            {
+              "sourceTitle": "Reflections on the Revolution in France — Works, vol.III, reimpressão de 1887",
+              "locator": "Reflections: linhas 1557–1563,1606–1610,1847–1851,2185–2201",
+              "statement": "Protege herança, propriedade desigual e patrimônio corporativo contra confisco.",
+              "basis": "declaration",
+              "publishedDate": "1790; coletânea John C. Nimmo, 1887, transcrição Gutenberg",
+              "accessedDate": "2026-10-09"
+            }
+          ],
+          "rationale": "Titularidade privada e transmissão hereditária são princípios gerais protegidos; o Estado guarda e regula, sem medida da composição econômica.",
+          "uncertainty": "Admite regulação e obrigações sociais; sem laissez-faire completo.",
+          "reviewedOn": "2026-10-09"
+        },
+        {
+          "axis": "rel",
+          "position": "strong-second",
+          "confidence": "high",
+          "relatedQuestionIds": [
+            "religiao_04",
+            "religiao_08",
+            "religiao_20"
+          ],
+          "claims": [
+            {
+              "sourceTitle": "Reflections on the Revolution in France — Works, vol.III, reimpressão de 1887",
+              "locator": "Reflections: defesa do estabelecimento religioso, linhas 1798–1800,1838–1851; tolerância 2135–2138",
+              "statement": "Trata Igreja estabelecida e Estado como constitucionalmente inseparáveis.",
+              "basis": "declaration",
+              "publishedDate": "1790; coletânea John C. Nimmo, 1887, transcrição Gutenberg",
+              "accessedDate": "2026-10-09"
+            }
+          ],
+          "rationale": "Compromisso confessional estrutural.",
+          "uncertainty": "Preserva tolerância e independência eclesiástica frente à Coroa.",
+          "reviewedOn": "2026-10-09"
+        },
+        {
+          "axis": "mor",
+          "position": "moderate-second",
+          "confidence": "medium",
+          "relatedQuestionIds": [
+            "moral_02",
+            "moral_04",
+            "moral_16"
+          ],
+          "claims": [
+            {
+              "sourceTitle": "Reflections on the Revolution in France — Works, vol.III, reimpressão de 1887",
+              "locator": "Reflections: linhas 1439–1457,1815–1825,2191–2196,2701–2704",
+              "statement": "Prioriza continuidade dos costumes e critica usos moralmente degradantes da riqueza.",
+              "basis": "declaration",
+              "publishedDate": "1790; coletânea John C. Nimmo, 1887, transcrição Gutenberg",
+              "accessedDate": "2026-10-09"
+            }
+          ],
+          "rationale": "Conservação cultural documentada.",
+          "uncertainty": "Admite reforma e tolera vícios por liberdade; não inferir posições contemporâneas.",
+          "reviewedOn": "2026-10-09"
+        }
+      ],
+      "heldRecipes": [],
+      "addedSources": [
+        {
+          "title": "Reflections on the Revolution in France — Works, vol.III, reimpressão de 1887",
+          "url": "https://www.gutenberg.org/files/15679/15679-h/15679-h.htm",
+          "note": "Publicação/edição: 1790; coletânea John C. Nimmo, 1887, transcrição Gutenberg. Leitura anterior atribuída à pesquisa: Título editorial e fronteira do ensaio; passagens recuperadas1377–1407,1427–1466,1552–1569,1606–1639,1798–1858,1988–1993,2135–2138,2185–2201,2701–2704. Não o volume ou ensaio inteiro. Leitura independente em 09/10/2026: metadados linhas4–15 e fronteira do ensaio1256–1279; passagens1377–1398,1429–1458,1516–1568,1788–1816,1832–1854,1983–2003,2127–2150,2175–2200,2690–2710; texto de1607 recuperado por find. Somente o ensaio de1790 na coletânea John C.Nimmo1887, não todos os discursos nem primeira edição cotejada."
+        },
+        {
+          "title": "Conservatism — Stanford Encyclopedia of Philosophy, arquivo Fall 2024",
+          "url": "https://plato.stanford.edu/archives/fall2024/entries/conservatism/",
+          "note": "Publicação/edição: 2015; revisão substantiva de 2019-10-29; arquivo de 2024. Leitura anterior atribuída à pesquisa: Abertura, §§ 1.2–1.5 e passagem inicial de § 2.3. Não verbete integral. Fonte secundária contextual; sem nova leitura independente neste lote."
+        }
+      ],
+      "unknownAxisReasons": {
+        "est": "Crítica à fragmentação francesa não resolve competências territoriais.",
+        "pod": "Restrições gerais às paixões não delimitam instrumentos coercivos suficientes.",
+        "imi": "Não estabelecido neste ensaio pelas passagens lidas.",
+        "dip": "Não estabelecido; não importar textos de guerra posteriores.",
+        "int": "Não estabelecido; não importar textos de guerra posteriores.",
+        "con": "Propriedade e prudência não estabelecem coordenação econômica.",
+        "com": "Não estabelecido; não importar outras obras econômicas.",
+        "tec": "Metáfora orgânica não é política tecnológica."
+      },
+      "ownSourceReadNote": "Leitura independente em 09/10/2026: metadados linhas4–15 e fronteira do ensaio1256–1279; passagens1377–1398,1429–1458,1516–1568,1788–1816,1832–1854,1983–2003,2127–2150,2175–2200,2690–2710; texto de1607 recuperado por find. Somente o ensaio de1790 na coletânea John C.Nimmo1887, não todos os discursos nem primeira edição cotejada.",
+      "axesIfAccepted": 4,
+      "eligible": false
+    },
+    {
+      "id": "ideology-right-neoconservatism",
+      "before": {
+        "id": "ideology-right-neoconservatism",
+        "kind": "ideology",
+        "category": "ideology",
+        "name": "Neoconservadorismo (Kristol, 2003)",
+        "period": "The Neoconservative Persuasion, AEI On the Issues, setembro de 2003; o arquivo identifica versão anterior no Weekly Standard de 25 de agosto",
+        "vec": {
+          "est": 50,
+          "rep": 50,
+          "pod": 50,
+          "imi": 50,
+          "dip": 50,
+          "int": 50,
+          "eco": 50,
+          "con": 50,
+          "com": 50,
+          "rel": 50,
+          "mor": 50,
+          "tec": 50
+        },
+        "rationale": "Conservadorismo adaptado à democracia de massas, conciliando capitalismo, governo robusto e disciplina cultural. Reformas orientadas ao crescimento e uso da capacidade estratégica dos EUA em defesa de interesses também ideológicos.",
+        "caveats": "Ensaio específico de 2003, não todos os textos de Kristol desde os anos 1970. O autor descreve uma persuasão e atitudes, sem sistema completo de política externa. Critica concentração de serviços no Estado de bem-estar, mas aceita crescimento estatal e déficits temporários. Suas alegações de superioridade militar e eficácia política não são resultados verificados. Kristol descreve uma persuasão heterogênea; não é licença para atribuir a todos os neoconservadores cada guerra dos EUA. Pesquisa qualitativa de seleção; não atribui novos scores nem certifica os 12 eixos. Lacunas não equivalem a neutralidade.",
+        "sources": [
+          {
+            "title": "The Neoconservative Persuasion — Irving Kristol",
+            "url": "https://contemporarythinkers.org/irving-kristol/essay/the-neoconservative-persuasion-what-it-was-and-what-it-is/",
+            "note": "Ensaio do próprio Kristol sobre objetivos domésticos e papel internacional da corrente."
+          },
+          {
+            "title": "Reflections of a Neoconservative — Irving Kristol",
+            "url": "https://contemporarythinkers.org/irving-kristol/essay/reflections-of-a-neoconservative/",
+            "note": "Ensaio autobiográfico do autor sobre os pressupostos da corrente."
+          },
+          {
+            "title": "The Neoconservative Persuasion — Irving Kristol, AEI, setembro de 2003",
+            "url": "https://ciaotest.cc.columbia.edu/pbei/aei/oti/kri03/kri03.pdf",
+            "note": "As três páginas do ensaio defendem crescimento e governo forte sem intrusão excessiva, atenção pública a questões culturais e responsabilidade externa diante de ameaças a democracias. A rejeição de governo mundial não elimina toda cooperação internacional. A data do ensaio não abrange automaticamente a obra anterior do autor."
+          },
+          {
+            "title": "The Neoconservative Persuasion",
+            "url": "https://ciaotest.cc.columbia.edu/pbei/aei/oti/kri03/kri03.pdf",
+            "note": "Publicação: 2003-09. Acesso registrado pela pesquisa: 2026-10-08. Tipo: primary. Localizador: pp.1–3; seção Foreign Policy. Leitura efetiva declarada na pesquisa: pp.2–3 lidas, abertura e registro conferidos. Publicado antes no Weekly Standard em 25 agosto 2003; PDF é edição AEI de setembro."
+          }
+        ],
+        "evidence": {},
+        "axisEvidence": {},
+        "coding": {}
+      },
+      "beforeSHA256": "67f85f9a7f6f60d7aa8d492942f40207a48fbad02b736f2337bbb9fb2f5319e4",
+      "acceptedRecipes": [
+        {
+          "axis": "dip",
+          "position": "moderate-first",
+          "confidence": "medium",
+          "relatedQuestionIds": [
+            "diplomacia_05",
+            "diplomacia_17"
+          ],
+          "claims": [
+            {
+              "sourceTitle": "The Neoconservative Persuasion — AEI On the Issues, September 2003",
+              "locator": "AEI setembro2003, p.3, linhas146–161 e162–187: defesa de democracias e responsabilidades do poder militar; lista de guerras169–170 não é endosso.",
+              "statement": "Associa superioridade militar norte-americana a responsabilidades de uso do poder.",
+              "basis": "declaration",
+              "publishedDate": "2003-09; informa versão anterior no Weekly Standard de 2003-08-25",
+              "accessedDate": "2026-10-09"
+            }
+          ],
+          "rationale": "O compromisso de defender democracias soma-se à aceitação de responsabilidades e oportunidades de uso do poder militar; direção moderada, sem provar militarismo irrestrito.",
+          "uncertainty": "A superioridade e a lista de guerras são descrições do autor, não fatos certificados nem aprovação de cada guerra. Defesa condicionada à possibilidade e a circunstâncias extraordinárias; não programa militar completo ou regra geral de ataque preventivo.",
+          "reviewedOn": "2026-10-09"
+        },
+        {
+          "axis": "int",
+          "position": "moderate-second",
+          "confidence": "medium",
+          "relatedQuestionIds": [
+            "intervencao_02",
+            "intervencao_12",
+            "intervencao_17"
+          ],
+          "claims": [
+            {
+              "sourceTitle": "The Neoconservative Persuasion — AEI On the Issues, September 2003",
+              "locator": "p.3, parágrafo sobre interesses ideológicos e defesa de democracias",
+              "statement": "Defende atuação externa em favor de democracias atacadas, inclusive internamente.",
+              "basis": "declaration",
+              "publishedDate": "2003-09; informa versão anterior no Weekly Standard de 2003-08-25",
+              "accessedDate": "2026-10-09"
+            }
+          ],
+          "rationale": "Interesses ideológicos ultrapassam fronteiras.",
+          "uncertainty": "Compromisso condicionado à possibilidade e a circunstâncias extraordinárias.",
+          "reviewedOn": "2026-10-09"
+        }
+      ],
+      "heldRecipes": [
+        {
+          "axis": "mor",
+          "position": "moderate-second",
+          "confidence": "medium",
+          "relatedQuestionIds": [
+            "moral_02",
+            "moral_16"
+          ],
+          "claims": [
+            {
+              "sourceTitle": "The Neoconservative Persuasion — AEI On the Issues, September 2003",
+              "locator": "p.2, parágrafo cultural anterior à seção de política externa",
+              "statement": "Apoia atenção governamental à educação e regulação da pornografia.",
+              "basis": "declaration",
+              "publishedDate": "2003-09; informa versão anterior no Weekly Standard de 2003-08-25",
+              "accessedDate": "2026-10-09"
+            }
+          ],
+          "rationale": "Conservadorismo cultural explícito.",
+          "uncertainty": "Não especifica aborto, gênero ou casamento.",
+          "reviewedOn": "2026-10-09",
+          "briefPrimaryExcerpt": "regulation of pornography"
+        }
+      ],
+      "addedSources": [
+        {
+          "title": "The Neoconservative Persuasion — AEI On the Issues, September 2003",
+          "url": "https://ciaotest.cc.columbia.edu/pbei/aei/oti/kri03/kri03.pdf",
+          "note": "Publicação/edição: 2003-09; informa versão anterior no Weekly Standard de 2003-08-25. Leitura anterior atribuída à pesquisa: As três páginas completas do texto extraído, linhas 0–198, incluindo abertura, economia/cultura e política externa. Não inspeção visual nem cotejo com Weekly Standard. Leitura independente em09/10/2026: todas as três páginas extraídas do PDF AEI, linhas0–198, com metadados48–57; não fac-símile visual nem versão original WeeklyStandard25agosto2003 cotejada. Fonte distinta de outras reproduções anteriores com elipses; sua transmissão não torna aquelas reproduções integrais."
+        }
+      ],
+      "unknownAxisReasons": {
+        "est": "Nada estabelecido sobre competências territoriais.",
+        "rep": "Adaptação à democracia não especifica garantias representativas suficientes.",
+        "pod": "Uma questão cultural não cobre o eixo coercivo amplo.",
+        "imi": "Patriotismo numa nação de imigrantes não determina assimilação.",
+        "eco": "Crítica à concentração assistencial não especifica regime de titularidade/provisão.",
+        "con": "Cortes tributários e aceitação de déficits não resolvem planejamento versus mercado.",
+        "com": "Nenhuma política comercial delimitada.",
+        "rel": "Aliança religiosa não estabelece regime Igreja–Estado.",
+        "tec": "Pesquisa militar mencionada não constitui programa tecnológico.",
+        "mor": "A regulação de pornografia e referências gerais a declínio cultural, qualidade educacional e aliança religiosa não estabelecem orientação ampla de família, gênero e costumes; proposta estreita preservada em pesquisa."
+      },
+      "ownSourceReadNote": "Leitura independente em09/10/2026: todas as três páginas extraídas do PDF AEI, linhas0–198, com metadados48–57; não fac-símile visual nem versão original WeeklyStandard25agosto2003 cotejada. Fonte distinta de outras reproduções anteriores com elipses; sua transmissão não torna aquelas reproduções integrais.",
+      "axesIfAccepted": 2,
+      "eligible": false
+    }
+  ]
+}

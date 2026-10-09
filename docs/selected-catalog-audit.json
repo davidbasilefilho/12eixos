@@ -1,30 +1,128 @@
 {
-  "reviewedOn": "2026-10-08",
-  "baseCommit": "df4d4317c04a4977c35e3e23d308e4b440c0505e",
+  "reviewedOn": "2026-10-09",
+  "baseCommit": "54f7feef62aa62632ee517721512fc23e69dd3d3",
   "originalCatalog": {
     "records": 818,
-    "sha256": "f989c8d317a758f6d65af689c2bca07d560d65be000b15f0dc794ecda9d1420e",
-    "unchanged": true,
-    "rawDocumentaryEligible": 93,
-    "priorSelectedEligible": 91
+    "sha256": "1ba985e6ad16ffb2fa3922eebf5bd5c7ebc4eb57318f014d76f745210bc0b41a",
+    "beforeApprovedResearchSha256": "e094a0d207d138e683ae29c122ba1bda236ab2fde319e19a55782747408beca0",
+    "changedRawRecordIds": [
+      "atiku-abubakar",
+      "ilhan-omar",
+      "fiji-current-2025"
+    ],
+    "unchanged": false,
+    "matchesExactApprovedPost": true,
+    "rawDocumentaryEligible": 96,
+    "priorSelectedEligible": 94
   },
   "researchInputSha256": "ef57dcfc83eb3ba6f71a4db2bdc43fc95c69993715253967ed2f1ca3d4761883",
-  "selectedCatalogSha256": "2f89965bd9f2f38e7524a532b3a9268306c079cef455e9ce188a078f7e59f6b8",
+  "selectedCatalogSha256": "08909e30c069dbac675ff9ce963ca99a1169b62d22ee22142c6ecfa940d5cd86",
   "fullArchiveRecords": 868,
   "selectedRecords": 675,
   "reusedIdeologyReferents": 25,
   "newResearchOnlyReferents": 50,
   "archivedOutsideSelection": 193,
-  "documentaryEligible": 86,
-  "insufficientEvidence": 589,
-  "newScores": 0,
+  "documentaryEligible": 92,
+  "insufficientEvidence": 583,
+  "newMeasuredScores": 0,
+  "newEditorialAxisCodings": 77,
+  "currentCountryResearch02": {
+    "newCodings": 10,
+    "ids": [
+      "portugal-current-2025",
+      "poland-current-2025"
+    ],
+    "raw818Unchanged": true,
+    "newEligible": [],
+    "finlandEntireRecordNoop": true
+  },
+  "historicalThreeCheckpoint": {
+    "newCodings": 6,
+    "ids": [
+      "portugal-charter-monarchy-1826",
+      "belgium-unitary-kingdom-1831",
+      "republic-texas-1836"
+    ],
+    "raw818Unchanged": true,
+    "newEligible": []
+  },
+  "fourthIdeologyCheckpoint": {
+    "newCodings": 16,
+    "ids": [
+      "ideology-christian-democracy",
+      "ideology-distributism",
+      "ideology-catholic-integralism",
+      "ideology-jacobin-republicanism"
+    ],
+    "raw818Unchanged": true,
+    "newEligible": [
+      "ideology-distributism"
+    ]
+  },
+  "thirdIdeologyCheckpoint": {
+    "newCodings": 12,
+    "ids": [
+      "ideology-cosmopolitan-democracy",
+      "ideology-communitarianism",
+      "ideology-burkean-conservatism",
+      "ideology-right-neoconservatism"
+    ],
+    "raw818Unchanged": true,
+    "newEligible": []
+  },
+  "parentIdeologyCheckpoint": {
+    "newCodings": 27,
+    "ids": [
+      "ideology-program-constitutional-liberalism-constant-1819",
+      "ideology-social-liberalism",
+      "ideology-egalitarian-liberalism",
+      "ideology-right-minarchism",
+      "ideology-georgism",
+      "ideology-program-freiburg-ordoliberalism-1936-1952",
+      "ideology-civic-republicanism"
+    ],
+    "raw818Unchanged": true,
+    "newEligible": [
+      "ideology-social-liberalism"
+    ]
+  },
+  "selectedOnlyReconciliation": {
+    "id": "ideology-program-anarcho-syndicalism-iwa-2022",
+    "newAxis": "pod",
+    "beforeAxes": 5,
+    "afterAxes": 6,
+    "fullLookupExceptionOnlyThisId": false,
+    "otherApprovedSelectedLookupIds": [
+      "ideology-program-constitutional-liberalism-constant-1819",
+      "ideology-social-liberalism",
+      "ideology-egalitarian-liberalism",
+      "ideology-right-minarchism",
+      "ideology-georgism",
+      "ideology-program-freiburg-ordoliberalism-1936-1952",
+      "ideology-civic-republicanism",
+      "ideology-cosmopolitan-democracy",
+      "ideology-communitarianism",
+      "ideology-burkean-conservatism",
+      "ideology-right-neoconservatism",
+      "ideology-christian-democracy",
+      "ideology-distributism",
+      "ideology-catholic-integralism",
+      "ideology-jacobin-republicanism",
+      "portugal-charter-monarchy-1826",
+      "belgium-unitary-kingdom-1831",
+      "republic-texas-1836",
+      "portugal-current-2025",
+      "poland-current-2025"
+    ],
+    "rawArchiveUnchanged": true
+  },
   "gateMinimumAxes": 6,
   "categories": [
     {
       "category": "country",
       "selected": 150,
-      "documentaryEligible": 19,
-      "pending": 131
+      "documentaryEligible": 20,
+      "pending": 130
     },
     {
       "category": "historical-country",
@@ -35,8 +133,8 @@
     {
       "category": "public-figure",
       "selected": 150,
-      "documentaryEligible": 17,
-      "pending": 133
+      "documentaryEligible": 19,
+      "pending": 131
     },
     {
       "category": "historical-figure",
@@ -47,15 +145,19 @@
     {
       "category": "ideology",
       "selected": 75,
-      "documentaryEligible": 8,
-      "pending": 67
+      "documentaryEligible": 11,
+      "pending": 64
     }
   ],
   "limitations": [
     "Selection research is not source-truth certification or whole-axis coding.",
-    "No new numeric vectors were inferred from research prospects; new profiles remain unknown on all axes.",
-    "Same-referent inherited coding retains the exact prior period, numbers, grades, claims and source objects.",
-    "All 818 former records remain intact; selection and eligibility are separate counts.",
-    "The prior selected675 had 91 eligible; the prior unfiltered product catalog had 93. The current selected675 has 86 because its ideology membership changed."
+    "Current-country02 adds ten medium-confidence normative codes to Portugal/Poland only, not practice. Finland is entire-record NOOP. Current92eligible583pending2906minimum missing slots; unchanged six-axis gate.",
+    "The historical-three checkpoint adds six bounded normative codes only in selected and same-ID full lookup posts; raw records remain exact. Current92eligible583pending,2916minimum missing slots, no eligibility gain.",
+    "The fourth bounded checkpoint adds16approved documentary codes. Only Chesterton gains eligibility; current675selected92eligible583pending and2922minimum missing slots. CatholicCON/JacobinIMI remain unknown, with full original records and sources retained.",
+    "The third bounded checkpoint adds 12 approved documentary codes to Held, the responsive platform, Burke and Kristol. No new eligible profile: 91 eligible, 584 pending, 2938 minimum missing slots. All prior raw and selected posts remain intact.",
+    "No numeric vectors are inferred from prospects. The exact seven reviewed ideology posts add27documentary ordinal codes; all unsupported axes remain unknown.",
+    "Inherited raw coding remains exact. Seven additional selected ideology posts use approved source-specific inputs; IWA2022 retains its prior selected POD40medium. All old source objects and unmodified axis fields are preserved.",
+    "Only the three explicitly reviewed raw-record posts change; all815 other raw records and all193 archives remain intact. IWA and the seven approved ideology posts change only selected objects and same-ID full-catalog lookups; selection and eligibility remain separate.",
+    "The researched selection75 had86eligible. The independently reviewed IWA2022,Atiku,Omar,Fiji additions raised selected675 to90eligible and585pending. The27approved ideology codes add only Hobhouse eligibility, yielding91eligible/584pending and2950minimum missing slots; no selected identity or six-axis gate changes."
   ]
 }

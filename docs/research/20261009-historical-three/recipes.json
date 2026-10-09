@@ -1,0 +1,200 @@
+[
+  {
+    "id": "portugal-charter-monarchy-1826",
+    "newSources": [
+      {
+        "title": "Carta Constitucional de 29 de abril de 1826 — transcrição jurídica NOVA",
+        "url": "https://www.fd.unl.pt/anexos/investigacao/1533.pdf",
+        "note": "Texto primário republicado pela Faculdade de Direito da Universidade NOVA de Lisboa, PDF de19 páginas. Leitura textual dos arts6–7,13–15,34–39,45,58,63–76,101–109,118–145 em09/10/2026. Editor/data da transcrição não identificados. Screenshots do fac-símile parlamentar foram tentados mas não retornaram pixels inspecionáveis; não alegamos cotejo visual do original. Norma original de29/04/1826, sem aplicar revisões posteriores."
+      }
+    ],
+    "periodAppend": " Novos eixos exclusivamente no desenho original de29/04/1826, publicado emLisboa20/07/1826; sem graduar todas as vigências ou revisões.",
+    "rationaleAppend": " Leitura da carta original acrescenta poderes reais com representação censitária, garantias civis condicionadas e vínculo institucional católico.",
+    "caveatsAppend": " A ressalva anterior sobre fac-símile original permanece: foi lida uma transcrição jurídica universitária, não certificado o scan parlamentar. Três eixos normativos não atingem o gate6. Administração provincial art132 remete a regras anteriores não examinadas; EST continua desconhecido.",
+    "codings": [
+      {
+        "axis": "rep",
+        "position": "moderate-second",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Carta Constitucional de 29 de abril de 1826 — transcrição jurídica NOVA",
+            "locator": "Arts13–15,34–39,45,58,63–74; PDFpp2–9",
+            "statement": "Rei sanciona leis com veto absoluto, nomeia pares vitalícios/hereditários, ministros e dissolve deputados. Deputados eleitos indiretamente por renda detêm iniciativa e acusação ministerial.",
+            "basis": "norm",
+            "publishedDate": "1826-04-29",
+            "accessedDate": "2026-10-09"
+          }
+        ],
+        "rationale": "Prerrogativas reais materiais com câmara eletiva limitada: autocracia moderada, não absolutismo.",
+        "uncertainty": "Renda/idade restringem participação; libertos são excluídos do segundo estágio eleitoral (art67), e naturalizados não podem ser deputados (art68), sem imputar proibição geral de voto a naturalizados. Não certifica prática eleitoral/reformas1852.",
+        "reviewedOn": "2026-10-09"
+      },
+      {
+        "axis": "pod",
+        "position": "moderate-second",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Carta Constitucional de 29 de abril de 1826 — transcrição jurídica NOVA",
+            "locator": "Arts72,74§6,101–105,118–124,145§§1–19,25,27–28,31,33–34; PDFpp9,12,14,17–19",
+            "statement": "Carta protege imprensa, domicílio, processo legal, petição e veda tortura, mas admite exceções militares/regalias. Rei é inviolável e irresponsável; ministros respondem por abusos mesmo sob ordem real. Suspensão judicial exige audiência, Conselho de Estado e remessa à Relação; perda de cargo requer sentença. Art145§34 permite suspensão temporária de formalidades por lei, ou governo urgente provisório sem Cortes, com cessação, relatório e responsabilidade por abusos.",
+            "basis": "norm",
+            "publishedDate": "1826-04-29",
+            "accessedDate": "2026-10-09"
+          }
+        ],
+        "rationale": "Conjunto amplo de garantias civis sustenta liberdade moderada no desenho, com exceções relevantes.",
+        "uncertainty": "Não certifica execução ou proteção universal no império. Inviolabilidade real (art72), suspensão de juízes (arts74§6/121), exceções militares/regalias e emergência limitam a direção. Audiência prévia/Conselho/remessa à Relação e remoção somente por sentença (122), responsabilidade ministerial mesmo por ordem real (103/105) e temporariedade/relatório às Cortes/abusoaccountability (145§34) são contrapesos materiais.",
+        "reviewedOn": "2026-10-09"
+      },
+      {
+        "axis": "rel",
+        "position": "moderate-second",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Carta Constitucional de 29 de abril de 1826 — transcrição jurídica NOVA",
+            "locator": "Arts6,7§4,75§§2/14,76,109,145§4; PDFpp1–2,9–10,13,17",
+            "statement": "Catolicismo estatal, nomeação real de bispos e juramentos confessionais; outros cultos estrangeiros domésticos sem templo externo e proteção condicionada. Naturalização independe da religião.",
+            "basis": "norm",
+            "publishedDate": "1826-04-29",
+            "accessedDate": "2026-10-09"
+          }
+        ],
+        "rationale": "Vínculo confessional institucional amplo, limitado por tolerância; direção religiosa moderada.",
+        "uncertainty": "Não implica teocracia, crença popular ou monopólio clerical da lei; o beneplácito exprime também controle régio da Igreja.",
+        "reviewedOn": "2026-10-09"
+      }
+    ],
+    "heldUnknown": {
+      "est": "Art132 mantém administração preexistente sem detalhar competências; não basta inferir centralização por monarquia ou municípios.",
+      "eco": "Propriedade garantida, socorros e escola não estabelecem composição nacional da economia.",
+      "con": "Liberdade profissional do art145§23 sozinha não define planejamento/mercado nacional.",
+      "imi": "Naturalização e culto de estrangeiros não demonstram política cultural transversal.",
+      "dip": "Competência de declarar guerra não prova orientação militarista.",
+      "int": "Possessões imperiais e competências diplomáticas não medem política geral de intervenção.",
+      "com": "Competência tributária não demonstra direção do comércio externo.",
+      "mor": "Sucessão por sexo e regalias não bastam para toda orientação moral.",
+      "tec": "Universidades e inventos não representam o construto amplo tecnologia/biologia."
+    }
+  },
+  {
+    "id": "belgium-unitary-kingdom-1831",
+    "newSources": [
+      {
+        "title": "Belgium1831 — translated historical primary text, Constitute",
+        "url": "https://www.constituteproject.org/constitution/Belgium_1831",
+        "note": "Leitura direta textual em09/10/2026 dos arts1–3,14–17,23,25–32,107–117,128–139. Edição histórica inglesa contém disposições dinásticas publicadas em01/09/1831 e erros de tradução em dispositivos judiciais não usados neste lote. PDF francês do Senado falhou duas vezes por timeout; cotejo francês integral não certificado. A proposta usa somente organização territorial/relação Estado–religião declaradas em1831, não reformas federais posteriores."
+      }
+    ],
+    "periodAppend": " Novos eixos exclusivamente no desenho histórico de1831, antes das reformas federais; a reprodução contém disposições dinásticas de01/09/1831 não usadas.",
+    "rationaleAppend": " A constituição delimita interesses territoriais próprios sob tutela legal nacional e protege independência religiosa/casamento civil com remuneração pública de ministros.",
+    "caveatsAppend": " Novos EST/REL: tradução histórica identificada, sem cotejo francês integral; financiamento religioso e autonomia local são contrapontos expressos. Quatro eixos não atingem o gate6; codings anteriores REP/POD preservados, não recertificados por este lote.",
+    "codings": [
+      {
+        "axis": "est",
+        "position": "moderate-second",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Belgium1831 — translated historical primary text, Constitute",
+            "locator": "Arts1–3,26–32,107–110,137",
+            "statement": "Lei nacional organiza províncias/municípios; conselhos eleitos tratam interesses próprios e consentem tributos locais, sob aprovação/tutela real ou legislativa do interesse geral.",
+            "basis": "norm",
+            "publishedDate": "1831-02-07; reprodução com dispositivos de1831-09-01",
+            "accessedDate": "2026-10-09"
+          }
+        ],
+        "rationale": "Tutela nacional com autonomia local material sustenta unidade moderada.",
+        "uncertainty": "Não transfere federalização1970/1993 ao texto fundador; instituições existentes continuam transitoriamente no art137.",
+        "reviewedOn": "2026-10-09"
+      },
+      {
+        "axis": "rel",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Belgium1831 — translated historical primary text, Constitute",
+            "locator": "Arts14–17,117",
+            "statement": "Culto público e não participação religiosa são garantidos; Estado não nomeia ministros religiosos; casamento civil precede religioso. Salários e pensões de ministros são pagos pelo Estado.",
+            "basis": "norm",
+            "publishedDate": "1831-02-07; reprodução com dispositivos de1831-09-01",
+            "accessedDate": "2026-10-09"
+          }
+        ],
+        "rationale": "Não coerção e autonomia civil/religiosa sustentam laicidade moderada, com financiamento explícito.",
+        "uncertainty": "Art117 impede afirmar separação fiscal ou irreligiosidade; não mede prática ou todas as reformas.",
+        "reviewedOn": "2026-10-09"
+      }
+    ],
+    "heldUnknown": {
+      "imi": "Art23 sobre línguas e art128 sobre estrangeiros são direitos localizados, insuficientes para orientação cultural transversal.",
+      "eco": "Expropriação indenizada/escola não estabelecem composição nacional de propriedade.",
+      "con": "Normas tributárias não mostram direção abrangente do planejamento ou mercado.",
+      "dip": "Poder de guerra não é programa militarista.",
+      "int": "Competências diplomáticas não demonstram intervenção nacionalista.",
+      "com": "Aprovação de tratados comerciais não demonstra protecionismo/globalismo.",
+      "mor": "Casamento civil não define sozinho família/gênero/sexualidade de todo perfil.",
+      "tec": "Sem fundamento amplo no texto examinado."
+    }
+  },
+  {
+    "id": "republic-texas-1836",
+    "newSources": [
+      {
+        "title": "Constitution of the Republic of Texas1836 — Tarlton, ArticleII",
+        "url": "https://tarlton.law.utexas.edu/constitutions/republic-texas-1836/article-2-legislative",
+        "note": "Transcrição primária universitária efetivamente lida, secs1–7, em09/10/2026; página atualizada08/02/2022. Norma adotada17/03/1836; erros do original preservados pelo editor; sem certificação de execução."
+      },
+      {
+        "title": "Constitution of the Republic of Texas1836 — Tarlton, ArticleIV",
+        "url": "https://tarlton.law.utexas.edu/constitutions/republic-texas-1836/article-4-judicial",
+        "note": "Transcrição primária universitária efetivamente lida, secs1–13, em09/10/2026; cotejo textual com republicação Washington-on-the-Brazos, artIV, realizado. Sec3 é fragmentária nas duas edições e não sustenta inferências novas. Nomeação nacional dos juízes e condições de criação de condados confrontadas com cargos locais eletivos."
+      }
+    ],
+    "periodAppend": " NovoEST exclusivamente na Constituição adotada17/03/1836; sem equiparar à federação norte-americana após anexação.",
+    "rationaleAppend": " Competências legislativas/fiscais e organização judicial nacionais limitam os condados, que conservam agentes locais eleitos.",
+    "caveatsAppend": " ESTnormativo medium novo; condados não são Estados federados e eleição local não equivale a soberania territorial. A secIV3 é fragmentária e não usada. Três eixos não atingem o gate6. Exclusões raciais, escravidão e cidadania anteriores permanecem integrais.",
+    "codings": [
+      {
+        "axis": "est",
+        "position": "moderate-second",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Constitution of the Republic of Texas1836 — Tarlton, ArticleII",
+            "locator": "ArticleII,secs1–3,7",
+            "statement": "Congresso nacional regula tributos, comércio, moeda, correios e legislação necessária às competências nacionais.",
+            "basis": "norm",
+            "publishedDate": "1836-03-17; transcrição atualizada2022-02-08",
+            "accessedDate": "2026-10-09"
+          },
+          {
+            "sourceTitle": "Constitution of the Republic of Texas1836 — Tarlton, ArticleIV",
+            "locator": "ArticleIV,secs1–2,6,9–13",
+            "statement": "Congresso organiza tribunais e elege juízes superiores/distritais; criação de condados exige petição e área mínima. Agentes locais são eleitos nos termos nacionais e comissionados pelo presidente.",
+            "basis": "norm",
+            "publishedDate": "1836-03-17; transcrição atualizada2022-02-08",
+            "accessedDate": "2026-10-09"
+          }
+        ],
+        "rationale": "Competências gerais e organização territorial nacionais, com eleição local: direção unitária moderada.",
+        "uncertainty": "Não presume centralização absoluta ou prática territorial uniforme; condados elegem servidores, mas não recebem soberania legislativa na carta.",
+        "reviewedOn": "2026-10-09"
+      }
+    ],
+    "heldUnknown": {
+      "pod": "Garantias civis e escravidão/exclusão coexistem; não resolvo orientação global como média mecânica nem como liberdade universal.",
+      "imi": "Acesso racialmente seletivo à cidadania não é equivalente automático a assimilação cultural.",
+      "mor": "Escravidão e exclusões não autorizam imputar orientação contemporânea sobre gênero/família/aborto.",
+      "eco": "Distribuição/propriedade de terras e escravidão não demonstram sozinhas composição nacional público/privado.",
+      "con": "Antimonopólio e proibição de bancos não bastam para caracterizar todo sistema planejamento/mercado.",
+      "dip": "Autoridade para guerra não demonstra militarismo como orientação.",
+      "int": "Contexto de guerra não prova postura geral de intervenção.",
+      "com": "Tributos/importação seletiva não definem orientação geral protecionista/globalista.",
+      "tec": "Patentes não definem construto tecnologia/biologia."
+    }
+  }
+]

@@ -3632,3 +3632,114 @@ body:has(.quiz-page)::before { @apply hidden; }
 }
 .atlas-results .results-map { @apply border-b-0; }
 .atlas-results .result-editorial-panels { @apply border-t-0; }
+
+/* Category is documentary metadata, never inferred from portrait availability. */
+.mobile-navigation-details > summary { @apply px-4 py-0 gap-2 text-base leading-[normal]; }
+.portrait-unavailable { @apply flex shrink-0 items-center justify-center border border-border bg-surface-2 px-[3px] text-center font-sans text-[8px] leading-[1.25] text-ink-secondary w-[40px] h-[48px]; }
+.categorized-matches > div { @apply items-start gap-[7px] py-[7px]; }
+.categorized-matches > div > span:not(.portrait-unavailable) { @apply min-w-0; }
+.categorized-matches small { @apply block text-[9px] leading-[1.4] mt-[3px] text-ink-secondary; }
+.categorized-matches > div img.reference-thumbnail-person { @apply w-[40px]! h-[48px]! max-w-none max-h-none; }
+.result-country-category > h3 { @apply text-[8px] tracking-[1px] mb-[12px]; }
+.result-country-category .mini-matches + .mini-matches { @apply mt-[16px]; }
+.categorized-result-groups { @apply grid-cols-[1fr_1fr_1.2fr]; }
+.share-capture-source .categorized-share { @apply grid-cols-[.85fr_1.15fr] grid-rows-[40px_245px_325px_270px] gap-[8px]; }
+.share-capture-source .categorized-share .share-axes { @apply col-start-1 row-start-3 row-span-1 p-[9px]; }
+.share-capture-source .categorized-share .share-axes .axis-bars.compact .axis-bar { @apply grid-cols-[22px_83px_minmax(35px,1fr)_29px] gap-[4px]; }
+.share-capture-source .categorized-share .share-axes .axis-pole { @apply text-[9px]; }
+.categorized-share-countries { --flag-height: 14px; @apply col-start-2 row-start-3 border border-border p-[9px] min-w-0; }
+.categorized-share-countries > h3, .categorized-people-group > h3 { @apply m-0 mb-[8px] text-[10px] tracking-[1px] text-ink-secondary; }
+.country-subgroup > h4 { @apply text-[8px] tracking-[1px] text-ink-secondary mb-[5px]; }
+.country-subgroup + .country-subgroup { @apply mt-[10px]; }
+.categorized-country { @apply grid grid-cols-[max-content_minmax(0,1fr)_auto] items-start gap-[6px] mb-[7px]; }
+.categorized-country b { @apply block font-display text-[11px] leading-[1.2]; }
+.categorized-country small { @apply block text-[7px] leading-[1.3] text-ink-secondary mt-[2px]; }
+.categorized-country strong { @apply text-[11px] leading-[1.2]; }
+.categorized-share-people { @apply col-span-2 row-start-4 grid grid-cols-2 gap-[8px]; }
+.categorized-people-group { @apply border border-border p-[9px] min-w-0; }
+.categorized-person { @apply grid grid-cols-[48px_minmax(0,1fr)] gap-[8px] items-start py-[7px] border-t border-border; }
+.categorized-person > img { @apply w-[48px]! h-[58px]! object-contain max-w-none max-h-none; }
+.categorized-person .portrait-unavailable { @apply w-[48px] h-[58px]; }
+.categorized-person h4 { @apply font-display text-[13px] leading-[1.15] m-0; }
+.categorized-person strong { @apply block text-[13px] leading-[1.2] text-accent mt-[3px]; }
+.categorized-person small { @apply block text-[8px] leading-[1.3] mt-[3px] text-ink-secondary; }
+@media (max-width: 640px) {
+ .categorized-result-groups { @apply grid-cols-1; }
+ .categorized-result-groups > section + section { @apply border-l-0 pl-0 border-t border-border pt-[14px]; }
+}
+
+.atlas-results > .categorized-result-groups { @apply mt-[26px] pt-[22px] pb-[24px] text-left; }
+.atlas-results > .categorized-result-groups h3 { @apply text-[11px] tracking-[1px] mb-[12px]; }
+.atlas-results > .categorized-result-groups .categorized-matches > div { @apply text-[14px] gap-[10px]; }
+.atlas-results > .categorized-result-groups .categorized-matches small { @apply text-[11px] leading-[1.45]; }
+.atlas-results > .categorized-result-groups .categorized-matches b { @apply text-[15px]; }
+.atlas-results > .categorized-result-groups .portrait-unavailable { @apply w-[48px] h-[58px] text-[9px]; }
+.atlas-results > .categorized-result-groups img.reference-thumbnail-person { @apply w-[48px]! h-[58px]!; }
+.share-capture-source .categorized-share .share-axes .axis-bars.compact { @apply flex-none content-start gap-[2px]; }
+.share-capture-source .categorized-share .share-axes .axis-bars.compact .axis-bar { @apply h-[20px]; }
+.share-capture-source .categorized-share .share-axes .axis-symbol { @apply h-[20px] w-[20px]; }
+.categorized-matches > div > .portrait-unavailable { @apply flex-none; }
+
+:root .atlas-shell .landing-preview { @apply bg-surface bg-none isolate h-auto; }
+.atlas-shell .landing-preview > .film-grain { @apply opacity-[.035]! mix-blend-normal! z-0; }
+.atlas-shell .preview-lead { @apply min-h-0 pb-[16px]; }
+@media (min-width: 1101px) {
+ .atlas-shell .preview-ideology { @apply self-start py-[8px]; }
+ .atlas-shell .preview-ideology > strong { @apply text-[15px]; }
+}
+.atlas-shell .preview-grid { @apply h-auto; }
+.atlas-shell .preview-side .radar-wrap { @apply h-[160px]; }
+.preview-matches .portrait-unavailable { @apply flex-none w-[30px] h-[36px] text-[6px]; }
+@media (max-width: 640px) {
+ .atlas-shell .preview-lead { @apply gap-0; }
+}
+/* Balance result categories independently of the compact export composition. */
+.atlas-results > .categorized-result-groups { @apply grid-cols-2; }
+.atlas-results > .categorized-result-groups > .result-country-category { @apply col-span-2 border-l-0 pl-0 border-t border-border pt-[20px] grid grid-cols-2 gap-x-[24px]; }
+.atlas-results > .categorized-result-groups > .result-country-category > h3 { @apply col-span-2; }
+.atlas-results > .categorized-result-groups .result-country-category .mini-matches + .mini-matches { @apply mt-0; }
+.categorized-country > div { @apply col-start-2; }
+.categorized-country > strong { @apply col-start-3; }
+@media (max-width: 640px) {
+ .atlas-results > .categorized-result-groups { @apply grid-cols-1; }
+ .atlas-results > .categorized-result-groups > .result-country-category { @apply col-span-1 grid-cols-1; }
+ .atlas-results > .categorized-result-groups > .result-country-category > h3 { @apply col-span-1; }
+ .atlas-results > .categorized-result-groups .result-country-category .mini-matches + .mini-matches { @apply mt-[16px]; }
+}
+
+.categorized-person strong:has(.closest-person-label) { @apply flex flex-wrap items-center gap-x-[7px] gap-y-[2px]; }
+.closest-person-label { @apply font-sans text-[7px] leading-[1.2] tracking-[.5px] font-bold text-ink-secondary; }
+
+/* Text controls align their glyph edge with nearby prose; framed controls align their frame. */
+.mobile-navigation-links .mobile-navigation-link { @apply px-4; }
+:root:not([data-theme='dark']) .atlas-shell .hero-map { @apply brightness-[1.5] contrast-[.8] saturate-[.9] opacity-[.54]; }
+:root[data-theme='dark'] .atlas-shell .hero-map { @apply brightness-100 contrast-100 saturate-100; }
+@media (max-width: 640px) {
+ :root:not([data-theme='dark']) .atlas-shell .hero-map { @apply opacity-[.14]; }
+}
+
+:root { --ideology-panel-surface: color-mix(in srgb, var(--orange) 14%, var(--surface)); }
+:root[data-theme='dark'] { --ideology-panel-surface: var(--result-red); }
+:root .atlas-shell :is(.preview-ideology, .result-primary, .share-ideology-feature) { @apply bg-[var(--ideology-panel-surface)] text-ink border-accent/40; }
+:root:not([data-theme='dark']) .atlas-shell .result-primary small { @apply text-ink-secondary; }
+:root .atlas-shell .share-ideology-feature small { @apply text-ink-secondary; }
+:root:not([data-theme='dark']) .atlas-shell :is(.preview-ideology, .result-primary, .share-ideology-feature) :is(h2, h3, p, span, b, strong) { @apply text-ink; }
+.atlas-shell .theme-trigger { @apply justify-between; }
+.theme-trigger-label { @apply inline-flex items-center gap-[9px]; }
+/* Shared filled controls must override the generic inherited anchor/button ink. */
+[data-control-variant='solid'] { @apply text-background; }
+:root:not([data-theme='dark']) [data-control-variant='solid']:hover { @apply brightness-100 bg-[color-mix(in_srgb,var(--orange)_94%,var(--text))]; }
+[data-control-variant='solid']:hover { @apply text-background; }
+
+/* Keep ideological comparisons visible without changing the figures/countries layout. */
+.atlas-results > .result-ideology-comparisons { @apply mt-[26px] border-t border-border pt-[22px] pb-[24px] text-left; }
+.result-ideology-comparisons > .mini-matches { @apply grid grid-cols-3 gap-x-[24px] gap-y-[12px]; }
+.result-ideology-comparisons .mini-matches > h3 { @apply col-span-3 text-[11px] tracking-[1px] m-0; }
+.result-ideology-comparisons .mini-matches > div { @apply min-w-0 items-start gap-[10px] text-[14px]; }
+.result-ideology-comparisons .mini-matches > div span { @apply min-w-0; }
+.result-ideology-comparisons .mini-matches small { @apply block text-[11px] leading-[1.45]; }
+.result-ideology-comparisons .mini-matches b { @apply text-[15px] shrink-0; }
+@media (max-width: 760px) {
+ .result-ideology-comparisons > .mini-matches { @apply grid-cols-1; }
+ .result-ideology-comparisons .mini-matches > h3 { @apply col-span-1; }
+}

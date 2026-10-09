@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "fullSuite": {
+    "pass": 46,
+    "fail": 0,
+    "expectCalls": 116458
+  },
+  "build": "PASS TypeScript + Vite; existing large-chunk warning remains",
+  "uiFrozenProof": {
+    "src/ui/App.tsx": {
+      "unchangedVsFreeze": true,
+      "sha256": "8cd445302c67f034f892f4541a7d72bbe8d7922b922d5dd516260b94faac03e0"
+    },
+    "src/ui/styles.css": {
+      "unchangedVsFreeze": true,
+      "sha256": "a42e3f4eef55448a1755dc3a2270ad5780b1127307262233298cdfbc994f427b"
+    }
+  },
+  "runtimeProof": "preservation-proof.json",
+  "beforeCommit": "54f7feef62aa62632ee517721512fc23e69dd3d3",
+  "noVcsWrites": true,
+  "noGateOrSelectionChanges": true,
+  "files": {
+    "src/data/reference-research-iwa-20261009.ts": "6d37b86bc82d67af62aae2dbbd10f288ef0a5990a9893ccdbfe09fed58cc811a",
+    "src/data/reference-research-records-20261009.ts": "9bfe3bbb7326b516c2067bdf3c9e1174309bebdc2931be98e035e42ae45b8753",
+    "src/data/reference-selected-catalog.ts": "4f1a740aead600eea31cf8519646ae855ae219e97703e1d7a32c2cb6cac42ff9",
+    "src/data/references.ts": "39e8b0f5b4e2d97e1133f2637da35f2042cd8cada1b0ad81642800574118db3c",
+    "tests/reference-selection75.test.ts": "98add8d1392914afe05cc7cdbc4358f33ff1198836c981a71907d2f8f79a295a",
+    "scripts/selected-catalog-audit.ts": "0c946012527c35df76c0ee00fef200bffcc389a2a32c25a145adfbeae2b8885d",
+    "docs/selected-catalog-audit.json": "b04f03cfe3bf2fbb84032c9c2580c6100318f8a5f528d6a15183750a0e709ed9",
+    "docs/research/20261009-four-record-checkpoint/iwa-independent-review.json": "367a31f24646d29ba8ebc802e7e38782af69e98d39699125777d66442d5729d0",
+    "docs/research/20261009-four-record-checkpoint/public-independent-seal.json": "c0eca63499ce827599ea267b588fd4196f08742a0610d86364d58e930a038d11",
+    "docs/research/20261009-four-record-checkpoint/public-independent-review.json": "89645579ec50a6df92b2f348aaa7f4f6e8efa3287258369c264b51e12feb3698",
+    "docs/research/20261009-four-record-checkpoint/preservation-proof.json": "9ae2cd28d82302f4195aa3873bea6ff3e157f57b8449036a1409285f3163acda",
+    "docs/research/20261009-four-record-checkpoint/README.md": "2273ae4d8ef4e290ae9be8f9fe39ceef742f0cc01591e5d043ffe08a9a1ac272",
+    "docs/research/20261009-four-record-checkpoint/fiji-independent-review.json": "cd5813e073851eaa7e3ba06e3d7faf20bea561cf966d306fc6c3335a635ec949"
+  },
+  "postVerificationCopyOnlyChange": "Truthful test title only:818raw with approved three-record raw delta; assertions unchanged."
+}

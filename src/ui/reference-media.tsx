@@ -15,6 +15,40 @@ const historicalFlagAliases: Record<string, string> = {
   'argentina-first-peron-administration-1946': 'argentina-current-2025',
 }
 const countryFlagAspectRatios: Record<string, number> = {
+  // Native modern illustrative vector only; historical ratio/dye not certified.
+  // docs/assets-historical-flags-batch03.md; 1981 sea ratio is not retroactive.
+  'austria-first-republic-parliamentary-1918': 900 / 600,
+  // Native historical flags; docs/assets-historical-flags-batch02.md.
+  'nigeria-first-civilian-order-1960': 1200 / 600,
+  'uganda-independent-parliamentary-order-1962': 900 / 600,
+  // Native unchanged licensed historical civil flags; docs/assets-historical-flags-batch01.md.
+  'france-july-monarchy-1830': 900 / 600,
+  'irish-free-state-1922': 1200 / 600,
+  'north-german-confederation-1867': 900 / 600,
+  'czechoslovakia-socialist-unitary-1960': 900 / 600,
+  // Native geometry of the packaged current-country assets.
+  'grenada-current-2025': 500 / 300,
+  'st-kitts-and-nevis-current-2025': 750 / 500,
+  'st-lucia-current-2025': 600 / 300,
+  'st-vincent-and-the-grenadines-current-2025': 72 / 48,
+  'trinidad-and-tobago-current-2025': 30 / 18,
+  'andorra-current-2025': 1000 / 700,
+  'liechtenstein-current-2025': 1000 / 600,
+  'monaco-current-2025': 750 / 600,
+  'san-marino-current-2025': 800 / 600,
+  'cyprus-current-2025': 900 / 600,
+  'bosnia-and-herzegovina-current-2025': 16 / 8,
+  'fiji-current-2025': 1200 / 600,
+  'samoa-current-2025': 2880 / 1440,
+  'tonga-current-2025': 96 / 48,
+  'cabo-verde-current-2025': 510 / 300,
+  'seychelles-current-2025': 900 / 450,
+  'comoros-current-2025': 500 / 300,
+  'djibouti-current-2025': 15 / 10,
+  'eswatini-current-2025': 900 / 600,
+
+  'belize-current-2025': 5 / 3, 'bahamas-current-2025': 2, 'barbados-current-2025': 3 / 2,
+  'antigua-and-barbuda-current-2025': 3 / 2, 'dominica-current-2025': 2,
   'portugal-revolution-council-1976': 3 / 2, 'argentina-first-peron-administration-1946': 8 / 5,
   uruguay: 3 / 2, denmark: 37 / 28, 'united-states': 1235 / 650, singapore: 3 / 2, germany: 5 / 3,
   'new-zealand': 2, brazil: 10 / 7, japan: 3 / 2, india: 3 / 2, 'south-africa': 3 / 2, indonesia: 3 / 2,

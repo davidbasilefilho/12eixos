@@ -1,0 +1,61 @@
+{
+  "status": "PASS-INDEPENDENT-CANONICAL-RECOMPOSITION",
+  "checks": 186,
+  "inputs": {
+    "recipes.json": "69ff3f4f84cb1e07202ed1f402452b4eed404e685d6989e478e45e78074674a9",
+    "before.json": "97e9fdf02a1d34a685de9a8feada50b960396a06de77fb6cd2ea221ccd2a7142",
+    "expected-post.json": "09441b38ccde3224ff88f9c633c7a9d84c41d24bd557b199d4f87db40edc18fa",
+    "proof.json": "aa3229e788bcd62e806be67b011df35bd106d3886ce1945301b9bea9407967de",
+    "source-read-ledger.json": "54a839528250e64077a8b1c0a71e0f5166432b22ca7686b497aa2be2f9256e09"
+  },
+  "targets": [
+    {
+      "id": "republic-texas-1836",
+      "beforeSha256": "01d3a1c955a2b6877e9b3f8bd4c51538a3c1913e14299ecdd682c30d71f0f7b3",
+      "postSha256": "14647368f02d8c4aef222c60401d3978bf9ab35bdc8b7b7c473692b7b892dbc7",
+      "newAxes": [
+        "est"
+      ],
+      "afterAxes": [
+        "est",
+        "rep",
+        "rel"
+      ],
+      "eligible": false
+    },
+    {
+      "id": "belgium-unitary-kingdom-1831",
+      "beforeSha256": "0eae8fbf8a885bd27168c3818b833a25ee36caef9f7728b98bb9df0bd790eebb",
+      "postSha256": "2877d111a952ec1355821b732913441de935e3ae4475b6c5b9f015e47cd16fa7",
+      "newAxes": [
+        "est",
+        "rel"
+      ],
+      "afterAxes": [
+        "est",
+        "rep",
+        "pod",
+        "rel"
+      ],
+      "eligible": false
+    },
+    {
+      "id": "portugal-charter-monarchy-1826",
+      "beforeSha256": "33e50a6c4fe381d3880c6557237f964dd2354e46e8da2e03d40da7a282866c38",
+      "postSha256": "315a10cde40b543754af1833048616ab389ae698b218600ea1bee799721fedcd",
+      "newAxes": [
+        "rep",
+        "pod",
+        "rel"
+      ],
+      "afterAxes": [
+        "rep",
+        "pod",
+        "rel"
+      ],
+      "eligible": false
+    }
+  ],
+  "scope": "Source review reported separately; runtime validity does not certify factual truth",
+  "activeWrites": false
+}

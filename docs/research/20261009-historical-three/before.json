@@ -1,0 +1,347 @@
+[
+  {
+    "id": "republic-texas-1836",
+    "name": "República do Texas",
+    "aliases": [
+      "Republic of Texas"
+    ],
+    "period": "República do Texas — Constituição de 1836; anexação em 1845 e transferência formal em 19/2/1846",
+    "rationale": "Presidência eletiva e Congresso coexistem com escravidão protegida e cidadania que exclui africanos, descendentes e indígenas.",
+    "caveats": "Trata de uma república historicamente independente, reconhecida pelos EUA em 1837, não do atual Estado federado. A anexação ocorreu em dezembro de 1845 e a transferência cerimonial em fevereiro de 1846. O território era disputado; eleições dos cidadãos admitidos não tornam universal a democracia nem os direitos declarados.",
+    "sources": [
+      {
+        "title": "WashingtonontheBrazos — RepublicTexasconstitution1836",
+        "url": "https://wheretexasbecametexas.org/texas-history/constitution-of-the-republic-of-texas-1836/",
+        "note": "Transcrição inglesa do sítio histórico Washington-on-the-Brazos; edição impressa e editor não identificados. Presidência e Congresso eletivos; proteção da escravidão e exclusões raciais de cidadania explícitas. Não leitura da carta inteira nem democracia universal."
+      },
+      {
+        "title": "Constitution of the Republic of Texas, 17 March 1836 — Washington on the Brazos",
+        "url": "https://wheretexasbecametexas.org/texas-history/constitution-of-the-republic-of-texas-1836/",
+        "note": "Transcrição primária de Laws of the Republic of Texas (1838), vol. I, pp. 9–25, no sítio histórico de Washington on the Brazos; artigos eleitorais e declaração de direitos confrontados com exclusões gerais."
+      },
+      {
+        "title": "Texas — Office of the Historian, U.S. Department of State",
+        "url": "https://history.state.gov/countries/texas",
+        "note": "Arquivo diplomático oficial documenta reconhecimento, anexação e dependência efetiva do trabalho escravizado na economia algodoeira."
+      }
+    ],
+    "kind": "country",
+    "category": "historical-country",
+    "vec": {
+      "est": 50,
+      "rep": 60,
+      "pod": 50,
+      "imi": 50,
+      "dip": 50,
+      "int": 50,
+      "eco": 50,
+      "con": 50,
+      "com": 50,
+      "rel": 60,
+      "mor": 50,
+      "tec": 50
+    },
+    "evidence": {
+      "rep": "medium",
+      "rel": "medium"
+    },
+    "axisEvidence": {
+      "rep": {
+        "sourceTitles": [
+          "Constitution of the Republic of Texas, 17 March 1836 — Washington on the Brazos",
+          "Texas — Office of the Historian, U.S. Department of State"
+        ],
+        "rationale": "A direção moderadamente democrática codifica eleições e responsabilização constitucional no grupo de cidadãos admitidos; a exclusão racial da cidadania e a reserva masculina de cargos limitam a inclusão política e impedem posição forte. O confronto com voto universal usa a exclusão racial explícita, sem extrair uma regra de sufrágio feminino apenas da cláusula sobre cargos. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Não é certificado de competição livre efetiva nem de democracia inclusiva; a âncora resolve editorialmente um desenho eletivo com exclusões profundas, não calcula média entre direitos dos cidadãos e dos escravizados."
+      },
+      "rel": {
+        "sourceTitles": [
+          "Constitution of the Republic of Texas, 17 March 1836 — Washington on the Brazos"
+        ],
+        "rationale": "Não preferência denominacional e separação de cargos clericais sustentam laicidade institucional moderada, sem imputar irreligiosidade privada. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: A linguagem da proteção é teísta e a proibição de cargos clericais também restringe direitos; não demonstramos neutralidade completa perante não crentes, financiamento religioso nem a prática de todas as políticas."
+      }
+    },
+    "coding": {
+      "rep": {
+        "axis": "rep",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "relatedQuestionIds": [
+          "representacao_01",
+          "representacao_07",
+          "representacao_16"
+        ],
+        "claims": [
+          {
+            "sourceTitle": "Constitution of the Republic of Texas, 17 March 1836 — Washington on the Brazos",
+            "locator": "Articles I–III and VI(11–16); Schedule 3; General Provisions 6, 9–10",
+            "statement": "Congresso e presidência têm eleições e limites de mandato; cidadania exclui africanos, descendentes e indígenas, e cargos são reservados a cidadãos homens. O sufrágio não é universal.",
+            "basis": "norm",
+            "publishedDate": "1836-03-17; transcrição de edição de 1838",
+            "accessedDate": "2026-10-07"
+          },
+          {
+            "sourceTitle": "Texas — Office of the Historian, U.S. Department of State",
+            "locator": "“Slavery and Cotton”",
+            "statement": "O arquivo descreve dependência do trabalho escravizado na produção de algodão, confrontando as declarações abstratas de igualdade da Constituição.",
+            "basis": "practice",
+            "publishedDate": "Página institucional sem data de publicação indicada; relata 1836–1845",
+            "accessedDate": "2026-10-07"
+          }
+        ],
+        "rationale": "A direção moderadamente democrática codifica eleições e responsabilização constitucional no grupo de cidadãos admitidos; a exclusão racial da cidadania e a reserva masculina de cargos limitam a inclusão política e impedem posição forte. O confronto com voto universal usa a exclusão racial explícita, sem extrair uma regra de sufrágio feminino apenas da cláusula sobre cargos.",
+        "uncertainty": "Não é certificado de competição livre efetiva nem de democracia inclusiva; a âncora resolve editorialmente um desenho eletivo com exclusões profundas, não calcula média entre direitos dos cidadãos e dos escravizados.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      },
+      "rel": {
+        "axis": "rel",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "relatedQuestionIds": [
+          "religiao_03",
+          "religiao_08"
+        ],
+        "claims": [
+          {
+            "sourceTitle": "Constitution of the Republic of Texas, 17 March 1836 — Washington on the Brazos",
+            "locator": "Declaration of Rights, Third; Article V(1)",
+            "statement": "A declaração veda preferência legal entre denominações e garante escolha de culto; ministros religiosos não podem ocupar o Executivo ou o Congresso.",
+            "basis": "norm",
+            "publishedDate": "1836-03-17; transcrição de edição de 1838",
+            "accessedDate": "2026-10-07"
+          }
+        ],
+        "rationale": "Não preferência denominacional e separação de cargos clericais sustentam laicidade institucional moderada, sem imputar irreligiosidade privada.",
+        "uncertainty": "A linguagem da proteção é teísta e a proibição de cargos clericais também restringe direitos; não demonstramos neutralidade completa perante não crentes, financiamento religioso nem a prática de todas as políticas.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      }
+    },
+    "documentaryReview": {
+      "status": "author-reviewed-bounded-claims",
+      "reviewedOn": "2026-10-07",
+      "independentReview": "pending",
+      "scope": "Constituição primária lida com exclusões e cláusulas contrárias; contexto diplomático e escravidão efetiva confrontados."
+    },
+    "unknownAxisReasons": {
+      "est": "Divisão em condados e existência de órgãos nacionais não comprovam sozinhas o alcance da autonomia territorial; sem regra de competências revisada, permanece desconhecido.",
+      "pod": "As passagens revisadas não estabelecem direção suficientemente delimitada para este construto; 50 é desconhecido, sem graduação.",
+      "imi": "Exclusão racial de cidadania não se converte automaticamente em assimilação cultural.",
+      "dip": "As passagens revisadas não estabelecem direção suficientemente delimitada para este construto; 50 é desconhecido, sem graduação.",
+      "int": "As passagens revisadas não estabelecem direção suficientemente delimitada para este construto; 50 é desconhecido, sem graduação.",
+      "eco": "A proteção da escravidão não demonstra política geral de propriedade pública/privada.",
+      "con": "As passagens revisadas não estabelecem direção suficientemente delimitada para este construto; 50 é desconhecido, sem graduação.",
+      "com": "As passagens revisadas não estabelecem direção suficientemente delimitada para este construto; 50 é desconhecido, sem graduação.",
+      "mor": "Escravidão e exclusão racial são documentadas como limites de cidadania; não imputamos posições atuais sobre cotas, gênero, aborto ou família por analogia histórica.",
+      "tec": "As passagens revisadas não estabelecem direção suficientemente delimitada para este construto; 50 é desconhecido, sem graduação."
+    }
+  },
+  {
+    "id": "belgium-unitary-kingdom-1831",
+    "name": "Bélgica — reino unitário",
+    "aliases": [],
+    "period": "Bélgica — carta unitária de 7/2/1831; federalização iniciada em 1970, consagrada em 1993",
+    "rationale": "Rei e duas câmaras compartilham a legislação; liberdades civis e religiosas coexistem com eleitorado censitário e conselhos provinciais.",
+    "caveats": "Graduação normativa delimitada, confiança média; não certifica prática nem continuidade de todo o período. Cotejo integral e revisão independente pendentes. est desconhecido: autonomia provincial do art.31 não é automaticamente federalismo.",
+    "sources": [
+      {
+        "title": "Constitute — Belgium1831Historical",
+        "url": "https://www.constituteproject.org/constitution/Belgium_1831",
+        "note": "Tradução inglesa histórica de 1831; tradutor não identificado no trecho. Artigos 1–49 consultados, sem títulos temáticos editoriais como evidência. Eleitorado censitário e limites à reunião ao ar livre; início da federalização em 1970 não equivale a Estado já federal."
+      },
+      {
+        "title": "Belgium Constitution 1831 — edição histórica traduzida",
+        "url": "https://www.constituteproject.org/constitution/Belgium_1831",
+        "note": "Texto primário transcrito/traduzido: locadores em coding. Edição consultada em 7/10/2026; não constitui certificação arquivística."
+      },
+      {
+        "title": "Historical outline of the federalisation of Belgium — governo belga",
+        "url": "https://www.belgium.be/en/about_belgium/country/history/belgium_from_1830/formation_federal_state",
+        "note": "Cronologia institucional distingue primeira reforma em1970 e Estado federal criado pela revisão de5/5/1993; não usado para graduar eixos."
+      }
+    ],
+    "kind": "country",
+    "category": "historical-country",
+    "vec": {
+      "est": 50,
+      "rep": 60,
+      "pod": 40,
+      "imi": 50,
+      "dip": 50,
+      "int": 50,
+      "eco": 50,
+      "con": 50,
+      "com": 50,
+      "rel": 50,
+      "mor": 50,
+      "tec": 50
+    },
+    "evidence": {
+      "rep": "medium",
+      "pod": "medium"
+    },
+    "axisEvidence": {
+      "rep": {
+        "sourceTitles": [
+          "Belgium Constitution 1831 — edição histórica traduzida"
+        ],
+        "rationale": "Poder legislativo autônomo eletivo sustenta representação moderada com exclusões. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Não é sufrágio universal; competição e responsabilidade ministerial efetivas pendentes."
+      },
+      "pod": {
+        "sourceTitles": [
+          "Belgium Constitution 1831 — edição histórica traduzida"
+        ],
+        "rationale": "Garantias civis delimitadas sustentam liberdade moderada normativa. Codificação editorial moderate-second: âncora 40, faixa 30–45; a fonte não mede esse número. Limites: Não cobre prática colonial nem exceções legislativas posteriores."
+      }
+    },
+    "coding": {
+      "rep": {
+        "axis": "rep",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Belgium Constitution 1831 — edição histórica traduzida",
+            "locator": "Arts.26–27,40–42,47,50",
+            "statement": "Câmaras têm iniciativa, investigação e emenda; deputados eleitos diretamente dependem de censo tributário e Coroa participa da lei.",
+            "basis": "norm",
+            "publishedDate": "1831-02-07",
+            "accessedDate": "2026-10-07"
+          }
+        ],
+        "rationale": "Poder legislativo autônomo eletivo sustenta representação moderada com exclusões.",
+        "uncertainty": "Não é sufrágio universal; competição e responsabilidade ministerial efetivas pendentes.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      },
+      "pod": {
+        "axis": "pod",
+        "position": "moderate-second",
+        "confidence": "medium",
+        "claims": [
+          {
+            "sourceTitle": "Belgium Constitution 1831 — edição histórica traduzida",
+            "locator": "Arts.7–10,18–20",
+            "statement": "Detenção e busca seguem formas legais; imprensa sem censura e associação são protegidas, reuniões externas sujeitas à polícia.",
+            "basis": "norm",
+            "publishedDate": "1831-02-07",
+            "accessedDate": "2026-10-07"
+          }
+        ],
+        "rationale": "Garantias civis delimitadas sustentam liberdade moderada normativa.",
+        "uncertainty": "Não cobre prática colonial nem exceções legislativas posteriores.",
+        "reviewedOn": "2026-10-07",
+        "version": "editorial-ordinal-v1",
+        "value": 40,
+        "range": [
+          30,
+          45
+        ]
+      }
+    },
+    "documentaryReview": {
+      "status": "author-reviewed-bounded-claims",
+      "reviewedOn": "2026-10-07",
+      "independentReview": "pending",
+      "scope": "Cláusulas delimitadas lidas pelo autor; prática e validação independente integral pendentes."
+    },
+    "unknownAxisReasons": {
+      "est": "As passagens revisadas não estabelecem direção suficientemente delimitada para este construto; 50 é desconhecido, sem graduação.",
+      "imi": "As passagens revisadas não estabelecem direção suficientemente delimitada para este construto; 50 é desconhecido, sem graduação.",
+      "dip": "As passagens revisadas não estabelecem direção suficientemente delimitada para este construto; 50 é desconhecido, sem graduação.",
+      "int": "As passagens revisadas não estabelecem direção suficientemente delimitada para este construto; 50 é desconhecido, sem graduação.",
+      "eco": "As passagens revisadas não estabelecem direção suficientemente delimitada para este construto; 50 é desconhecido, sem graduação.",
+      "con": "As passagens revisadas não estabelecem direção suficientemente delimitada para este construto; 50 é desconhecido, sem graduação.",
+      "com": "As passagens revisadas não estabelecem direção suficientemente delimitada para este construto; 50 é desconhecido, sem graduação.",
+      "rel": "As passagens revisadas não estabelecem direção suficientemente delimitada para este construto; 50 é desconhecido, sem graduação.",
+      "mor": "As passagens revisadas não estabelecem direção suficientemente delimitada para este construto; 50 é desconhecido, sem graduação.",
+      "tec": "As passagens revisadas não estabelecem direção suficientemente delimitada para este construto; 50 é desconhecido, sem graduação."
+    }
+  },
+  {
+    "id": "portugal-charter-monarchy-1826",
+    "name": "Portugal — monarquia da Carta",
+    "aliases": [
+      "Monarquia cartista portuguesa"
+    ],
+    "period": "Monarquia da Carta: 1826–1828, 1834–1836 e 1842–1910; vigências interrompidas, com revisões e queda da monarquia em 5/10/1910.",
+    "rationale": "Carta combina pares nomeados e hereditários, deputados por eleição censitária e poderes moderadores do monarca.",
+    "caveats": "Síntese institucional retrospectiva, não leitura certificada do PDF original de 1826. Há interrupções e mudanças eleitorais posteriores, incluindo o Ato Adicional de 1852. Não representa um governo contínuo nem uma versão constitucional imutável entre 1826 e 1910.",
+    "sources": [
+      {
+        "title": "Guia do Fundo da Câmara dos Pares — Arquivo Histórico Parlamentar",
+        "url": "https://www.parlamento.pt/Parlamento/Paginas/guia-fundo-camara-pares-1826-1910.aspx",
+        "note": "Fonte efetivamente consultada em7/10/2026; limites de edição e locadores em coding."
+      },
+      {
+        "title": "Carta Constitucional1826 — Parlamento português",
+        "url": "https://www.parlamento.pt/parlamento/documents/cartaconstitucional.pdf",
+        "note": "Fac-símile localizado; extração sem texto e captura indisponível. Não invocado como fonte de eixos."
+      },
+      {
+        "title": "Monarquia — Assembleia da República",
+        "url": "https://www.parlamento.pt/Parlamento/paginas/monarquia.aspx",
+        "note": "História institucional lida da outorga, pares nomeados, deputados censitários e restaurações; identidade/contexto, não substitui cotejo da Carta."
+      },
+      {
+        "title": "Monarquia constitucional — Assembleia da República",
+        "url": "https://www.parlamento.pt/Parlamento/paginas/monarquia.aspx",
+        "note": "Seções realmente lidas sobre Carta de 1826, interrupções de 1828/1836, reposições de 1834/1842, revisões e República de 5/10/1910. Pares nomeados, eleição censitária indireta e prerrogativas reais pertencem ao desenho descrito; eleições mudam em 1852. Relato institucional, não fac-símile do original."
+      }
+    ],
+    "kind": "country",
+    "category": "historical-country",
+    "vec": {
+      "est": 50,
+      "rep": 50,
+      "pod": 50,
+      "imi": 50,
+      "dip": 50,
+      "int": 50,
+      "eco": 50,
+      "con": 50,
+      "com": 50,
+      "rel": 50,
+      "mor": 50,
+      "tec": 50
+    },
+    "evidence": {},
+    "axisEvidence": {},
+    "coding": {},
+    "documentaryReview": {
+      "status": "author-reviewed-bounded-claims",
+      "reviewedOn": "2026-10-07",
+      "independentReview": "pending",
+      "scope": "Leitura autoral das passagens delimitadas; identidade e recorte arquivístico descritos nas fontes. Cotejo independente integral pendente."
+    },
+    "unknownAxisReasons": {
+      "est": "As passagens revisadas não estabelecem direção suficientemente delimitada para este construto; 50 é desconhecido, sem graduação.",
+      "rep": "As passagens revisadas não estabelecem direção suficientemente delimitada para este construto; 50 é desconhecido, sem graduação.",
+      "pod": "As passagens revisadas não estabelecem direção suficientemente delimitada para este construto; 50 é desconhecido, sem graduação.",
+      "imi": "As passagens revisadas não estabelecem direção suficientemente delimitada para este construto; 50 é desconhecido, sem graduação.",
+      "dip": "As passagens revisadas não estabelecem direção suficientemente delimitada para este construto; 50 é desconhecido, sem graduação.",
+      "int": "As passagens revisadas não estabelecem direção suficientemente delimitada para este construto; 50 é desconhecido, sem graduação.",
+      "eco": "As passagens revisadas não estabelecem direção suficientemente delimitada para este construto; 50 é desconhecido, sem graduação.",
+      "con": "As passagens revisadas não estabelecem direção suficientemente delimitada para este construto; 50 é desconhecido, sem graduação.",
+      "com": "As passagens revisadas não estabelecem direção suficientemente delimitada para este construto; 50 é desconhecido, sem graduação.",
+      "rel": "As passagens revisadas não estabelecem direção suficientemente delimitada para este construto; 50 é desconhecido, sem graduação.",
+      "mor": "As passagens revisadas não estabelecem direção suficientemente delimitada para este construto; 50 é desconhecido, sem graduação.",
+      "tec": "As passagens revisadas não estabelecem direção suficientemente delimitada para este construto; 50 é desconhecido, sem graduação."
+    }
+  }
+]

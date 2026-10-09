@@ -1,0 +1,27 @@
+{
+  "verdict": "ACCEPT_BOUNDED_NEW_CODES",
+  "candidateSha256": "d0ef942f327d937f1df3c62632c3dabb56efd6aab1b33af1c5aa96a2d2b00a1b",
+  "sourceTruthReviewedEarlier": true,
+  "finalOperation": "Exact literal binding after requested repairs",
+  "checks": 89,
+  "newCodes": [
+    "atiku-abubakar:DIP40:medium",
+    "ilhan-omar:INT60:medium",
+    "ilhan-omar:MOR60:medium"
+  ],
+  "posts": [
+    {
+      "id": "atiku-abubakar",
+      "beforeSha256": "4b401c47c210e215cc38e80e3fa53f37b844e96932b827ba84a68be84ed8208b",
+      "proposedAfterSha256": "f5085906fd6866200d1f2f1ef4218e12c484f9be774bfff9995a42223b35003e"
+    },
+    {
+      "id": "ilhan-omar",
+      "beforeSha256": "fa704a198e0d880046434423d7e3ed968795a7bc490ffbbb3a7124a9d3950d49",
+      "proposedAfterSha256": "eafd38fed5abf6b9cc820b2793ba75d8e4710907fdb0bb50891868905cc5876f"
+    }
+  ],
+  "reviewSha256": "89645579ec50a6df92b2f348aaa7f4f6e8efa3287258369c264b51e12feb3698",
+  "sourceObjectsAndPriorNinePreserved": true,
+  "priorNineNewlyRecertified": false
+}
