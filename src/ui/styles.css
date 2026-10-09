@@ -3627,3 +3627,6 @@ body:has(.quiz-page)::before { @apply hidden; }
   .atlas-shell .preview-lead { @apply min-h-0 pb-[18px]; }
   .atlas-method > div:last-child > section > h2 { @apply text-[22px]; }
 }
+@media (max-width: 640px) {
+  .atlas-shell .plan-tile b { @apply text-[16px] leading-[1.2]; }
+}
