@@ -684,6 +684,7 @@ function sharePeriodDates(period: string) {
 function ShareCard({ scores, matches }: { scores: AxisScores; matches: ReferenceMatch<ReferenceEntry>[] }) {
   const isBalanced = AXES.every(axis => Math.abs(scores[axis.key] - 50) <= 5)
   const topIdeology = matches.find(item => item.reference.kind === 'ideology')
+  const closestPerson = matches.find(item => item.reference.kind === 'person')
   const currentPeople = matches.filter(item => item.reference.category === 'public-figure').slice(0, 3)
   const historicalPeople = matches.filter(item => item.reference.category === 'historical-figure').slice(0, 3)
   const countries = matches.filter(item => item.reference.category === 'country').slice(0, 3)
@@ -699,7 +700,7 @@ function ShareCard({ scores, matches }: { scores: AxisScores; matches: Reference
     </section>
     <section className="share-axes"><h3>SEUS 12 EIXOS</h3><AxisBars scores={scores} compact/></section>
     <section className="categorized-share-countries"><h3>PAÍSES</h3>{[{title: 'ATUAIS', items: countries}, {title: 'HISTÓRICOS', items: historicalCountries}].map(group => <div className="country-subgroup" key={group.title}><h4>{group.title}</h4>{group.items.length === 0 && <p>Sem cobertura suficiente para ordenar.</p>}{group.items.map(item => <article className="categorized-country" key={item.reference.id} data-reference-id={item.reference.id} data-category={item.reference.category}><ReferenceThumbnail reference={item.reference}/><div><b>{item.reference.name}</b><small>{sharePeriodDates(item.reference.period)}</small></div><strong>{formatPercent(item.similarity)}%</strong></article>)}</div>)}</section>
-    <div className="categorized-share-people">{[{title: 'FIGURAS HISTÓRICAS', items: historicalPeople}, {title: 'FIGURAS ATUAIS', items: currentPeople}].map(group => <section className="categorized-people-group" key={group.title}><h3>{group.title}</h3>{group.items.length === 0 && <p>Sem cobertura suficiente para ordenar.</p>}{group.items.map(item => <article className="categorized-person" key={item.reference.id} data-reference-id={item.reference.id} data-category={item.reference.category}><PersonPortrait reference={item.reference}/><div><h4>{item.reference.name}</h4><strong>{formatPercent(item.similarity)}%</strong><small>{item.reference.period}</small></div></article>)}</section>)}</div>
+    <div className="categorized-share-people">{[{title: 'FIGURAS HISTÓRICAS', items: historicalPeople}, {title: 'FIGURAS ATUAIS', items: currentPeople}].map(group => <section className="categorized-people-group" key={group.title}><h3>{group.title}</h3>{group.items.length === 0 && <p>Sem cobertura suficiente para ordenar.</p>}{group.items.map(item => <article className="categorized-person" key={item.reference.id} data-reference-id={item.reference.id} data-category={item.reference.category}><PersonPortrait reference={item.reference}/><div><h4>{item.reference.name}</h4><strong>{formatPercent(item.similarity)}%{item.reference.id === closestPerson?.reference.id && <span className="closest-person-label">FIGURA MAIS PRÓXIMA</span>}</strong><small>{item.reference.period}</small></div></article>)}</section>)}</div>
   </div>
 }
 

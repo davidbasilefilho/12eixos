@@ -3706,3 +3706,6 @@ body:has(.quiz-page)::before { @apply hidden; }
  .atlas-results > .categorized-result-groups > .result-country-category > h3 { @apply col-span-1; }
  .atlas-results > .categorized-result-groups .result-country-category .mini-matches + .mini-matches { @apply mt-[16px]; }
 }
+
+.categorized-person strong:has(.closest-person-label) { @apply flex flex-wrap items-center gap-x-[7px] gap-y-[2px]; }
+.closest-person-label { @apply font-sans text-[7px] leading-[1.2] tracking-[.5px] font-bold text-ink-secondary; }
