@@ -15,6 +15,9 @@ const historicalFlagAliases: Record<string, string> = {
   'argentina-first-peron-administration-1946': 'argentina-current-2025',
 }
 const countryFlagAspectRatios: Record<string, number> = {
+  // Native modern illustrative vector only; historical ratio/dye not certified.
+  // docs/assets-historical-flags-batch03.md; 1981 sea ratio is not retroactive.
+  'austria-first-republic-parliamentary-1918': 900 / 600,
   // Native historical flags; docs/assets-historical-flags-batch02.md.
   'nigeria-first-civilian-order-1960': 1200 / 600,
   'uganda-independent-parliamentary-order-1962': 900 / 600,

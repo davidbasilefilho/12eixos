@@ -1,5 +1,6 @@
 /** Existing packaged flag files only. Missing identities intentionally have no image. */
 export const flagAssets: readonly string[] = [
+  "/assets/flags/austria-first-republic-parliamentary-1918.svg",
   "/assets/flags/nigeria-first-civilian-order-1960.svg",
   "/assets/flags/uganda-independent-parliamentary-order-1962.svg",
   "/assets/flags/france-july-monarchy-1830.svg",
