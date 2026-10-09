@@ -1,0 +1,366 @@
+{
+  "schemaVersion": "independent-rawls-nozick-review-v1",
+  "reviewedOn": "2026-10-09",
+  "reader": "/root/figures_continue",
+  "inputSHA256": "adadff42f441050b0c68958c86c3e741d03e08c1ddae9d27f4214f2c0744d2de",
+  "verdict": "Seven directions/ordinal anchors supported; Rawls source/counter repairs required before exact payload approval. No six-axis promotion.",
+  "currentBindingArtifact": "rawls-nozick-current-binding.json",
+  "wholeQuestionsRead": 120,
+  "records": [
+    {
+      "id": "ideology-egalitarian-liberalism",
+      "scopePeriod": "John Rawls, Justice as Fairness: A Restatement 2001; não importar The Law of Peoples.",
+      "beforeSHA256": "4a7d450957c534a917743d824acbbd0a87619e308ec4c8af66221a60ffb6c320",
+      "axes": [
+        {
+          "axis": "rep",
+          "verdict": "accept-direction-repair-source",
+          "value": 80,
+          "position": "strong-first",
+          "confidence": "high",
+          "range": [
+            75,
+            90
+          ],
+          "basis": "declaration",
+          "wholeConstructJudgment": "Constitutional democracy, effective political liberties and multiple parties are constitutive institutional requirements, not isolated voting policy. Strong-first80 is justified; judicial review is not unlimited judicial supremacy.",
+          "exactInputRecipe": {
+            "axis": "rep",
+            "position": "strong-first",
+            "confidence": "high",
+            "relatedQuestionIds": [
+              "representacao_03",
+              "representacao_05",
+              "representacao_07",
+              "representacao_19"
+            ],
+            "claims": [
+              {
+                "sourceTitle": "Justice as Fairness: A Restatement — leitura delimitada do OCR 2026-10-09",
+                "locator": "§§ 42.1,44.1–44.3,45.1; pp 138,145–148",
+                "statement": "Exige democracia constitucional, pluralidade partidária e liberdades políticas efetivas.",
+                "basis": "declaration",
+                "publishedDate": "2001; reprodução OCR de terceiro sem data editorial confirmada",
+                "accessedDate": "2026-10-09"
+              }
+            ],
+            "rationale": "Arranjo democrático é constitutivo.",
+            "uncertainty": "Revisão judicial permanece discutível, sem soberania judicial irrestrita.",
+            "reviewedOn": "2026-10-09"
+          },
+          "relatedQuestionIdsAreConstructLinksNotAnswers": true
+        },
+        {
+          "axis": "pod",
+          "verdict": "accept-direction-repair-counter",
+          "value": 40,
+          "position": "moderate-second",
+          "confidence": "medium",
+          "range": [
+            30,
+            45
+          ],
+          "basis": "declaration",
+          "wholeConstructJudgment": "Priority of a general system of basic liberties covers thought, association, bodily integrity and rule of law. Moderate40 retains justified conscription to defend equal liberties, favorable-condition limits and no unspecified penal-policy answers.",
+          "exactInputRecipe": {
+            "axis": "pod",
+            "position": "moderate-second",
+            "confidence": "medium",
+            "relatedQuestionIds": [
+              "poder_04",
+              "poder_14",
+              "poder_19"
+            ],
+            "claims": [
+              {
+                "sourceTitle": "Justice as Fairness: A Restatement — excerto acadêmico §§ 12–22",
+                "locator": "§ 13.3–13.5; pp 44–47 (PDF7–10)",
+                "statement": "Garante expressão, associação, integridade pessoal e devido processo com prioridade.",
+                "basis": "declaration",
+                "publishedDate": "2001; excerto de reprodução acadêmica sem data de hospedagem confirmada",
+                "accessedDate": "2026-10-09"
+              }
+            ],
+            "rationale": "Direção liberal transversal.",
+            "uncertainty": "Não resolve todas as medidas penais.",
+            "reviewedOn": "2026-10-09"
+          },
+          "relatedQuestionIdsAreConstructLinksNotAnswers": true
+        },
+        {
+          "axis": "rel",
+          "verdict": "accept-direction-repair-counter-and-source",
+          "value": 60,
+          "position": "moderate-first",
+          "confidence": "medium",
+          "range": [
+            55,
+            70
+          ],
+          "basis": "declaration",
+          "wholeConstructJudgment": "Public justification of constitutional essentials and legal freedom to leave religion support moderate secular institutional direction. This does not ban religious citizens or comprehensive values influencing other legislation; internal church autonomy remains.",
+          "exactInputRecipe": {
+            "axis": "rel",
+            "position": "moderate-first",
+            "confidence": "medium",
+            "relatedQuestionIds": [
+              "religiao_01",
+              "religiao_03",
+              "religiao_18"
+            ],
+            "claims": [
+              {
+                "sourceTitle": "Justice as Fairness: A Restatement — leitura delimitada do OCR 2026-10-09",
+                "locator": "§§ 12.3,43.4,50.2; pp 41,144,164",
+                "statement": "Legitimidade exige justificativa pública; apostasia não é crime e saída religiosa é livre.",
+                "basis": "declaration",
+                "publishedDate": "2001; reprodução OCR de terceiro sem data editorial confirmada",
+                "accessedDate": "2026-10-09"
+              }
+            ],
+            "rationale": "Normas públicas distinguem-se de doutrina religiosa.",
+            "uncertainty": "Igrejas conservam autonomia interna; não implica ateísmo.",
+            "reviewedOn": "2026-10-09"
+          },
+          "relatedQuestionIdsAreConstructLinksNotAnswers": true
+        },
+        {
+          "axis": "mor",
+          "verdict": "accept-direction-repair-source",
+          "value": 60,
+          "position": "moderate-first",
+          "confidence": "medium",
+          "range": [
+            55,
+            70
+          ],
+          "basis": "declaration",
+          "wholeConstructJudgment": "Family-form openness plus equal citizenship, reform of gender hierarchy and fair divorce arrangements establish a general family/gender direction. Childcare obligations, internal association autonomy and unresolved broader cultural issues bound60.",
+          "exactInputRecipe": {
+            "axis": "mor",
+            "position": "moderate-first",
+            "confidence": "medium",
+            "relatedQuestionIds": [
+              "moral_01",
+              "moral_06",
+              "moral_18"
+            ],
+            "claims": [
+              {
+                "sourceTitle": "Justice as Fairness: A Restatement — leitura delimitada do OCR 2026-10-09",
+                "locator": "§ 50.1–50.6, pp 162–168, inclusive nota42",
+                "statement": "Admite famílias não heterossexuais e exige igualdade feminina inclusive no divórcio.",
+                "basis": "declaration",
+                "publishedDate": "2001; reprodução OCR de terceiro sem data editorial confirmada",
+                "accessedDate": "2026-10-09"
+              }
+            ],
+            "rationale": "Reforma familiar diretamente sustentada.",
+            "uncertainty": "Exige cuidado infantil; não especifica toda pauta cultural.",
+            "reviewedOn": "2026-10-09"
+          },
+          "relatedQuestionIdsAreConstructLinksNotAnswers": true
+        }
+      ],
+      "unknownAxes": {
+        "est": "Competências territoriais insuficientes.",
+        "imi": "Pluralismo doutrinário não resolve imigração.",
+        "dip": "Escopo doméstico.",
+        "int": "Escopo doméstico.",
+        "eco": "Admite propriedade dispersa privada e socialismo liberal; não escolher silenciosamente.",
+        "con": "Mercados e ajustes fiscais não estabelecem direção agregada inequívoca.",
+        "com": "Sem política comercial suficiente.",
+        "tec": "Sem cobertura suficiente."
+      },
+      "documentedAxesIfRepaired": 4,
+      "eligibleAfterThisBatch": false
+    },
+    {
+      "id": "ideology-right-minarchism",
+      "scopePeriod": "Robert Nozick, Anarchy, State, and Utopia 1974; conservar período herdado ao integrar.",
+      "beforeSHA256": "c0e050be15cc98aa130387155b58343cf1adc19ab5c072b5199e8feb654650de",
+      "axes": [
+        {
+          "axis": "pod",
+          "verdict": "accept",
+          "value": 40,
+          "position": "moderate-second",
+          "confidence": "medium",
+          "range": [
+            30,
+            45
+          ],
+          "basis": "declaration",
+          "wholeConstructJudgment": "General limits on coercion and paternalism extend across private conduct, not one criminal-law question. State protection against force, risky enforcement restrictions and voluntarily stricter communities justify moderate40 rather than abolition20.",
+          "exactInputRecipe": {
+            "axis": "pod",
+            "position": "moderate-second",
+            "confidence": "medium",
+            "relatedQuestionIds": [
+              "poder_04",
+              "poder_06",
+              "poder_16"
+            ],
+            "claims": [
+              {
+                "sourceTitle": "Anarchy, State, and Utopia — transcrição digital, leitura delimitada 2026-10-09",
+                "locator": "Preface, parágrafos iniciais; cap 10, Community and Nation",
+                "statement": "Estado protege contra agressão e fraude, sem impor paternalismo ou moral privada.",
+                "basis": "declaration",
+                "publishedDate": "1974; transcrição de reimpressão com copyright1974 e linha de impressão02–05",
+                "accessedDate": "2026-10-09"
+              }
+            ],
+            "rationale": "Limite coercivo é central.",
+            "uncertainty": "Admite proteção, proibições de risco e restrições voluntariamente contratadas.",
+            "reviewedOn": "2026-10-09"
+          },
+          "relatedQuestionIdsAreConstructLinksNotAnswers": true
+        },
+        {
+          "axis": "eco",
+          "verdict": "accept",
+          "value": 20,
+          "position": "strong-second",
+          "confidence": "medium",
+          "range": [
+            10,
+            25
+          ],
+          "basis": "declaration",
+          "wholeConstructJudgment": "Historical legitimate property and voluntary transfer expressly include productive assets. Strong20 denotes protected private productive ownership, not measured national ownership shares or compulsory capitalism. Rectification and voluntary collective communities qualify it.",
+          "exactInputRecipe": {
+            "axis": "eco",
+            "position": "strong-second",
+            "confidence": "medium",
+            "relatedQuestionIds": [
+              "economia_05",
+              "economia_06",
+              "economia_18"
+            ],
+            "claims": [
+              {
+                "sourceTitle": "Anarchy, State, and Utopia — transcrição digital, leitura delimitada 2026-10-09",
+                "locator": "cap 7, The Entitlement Theory e How Liberty Upsets Patterns; cap 10, Community and Nation",
+                "statement": "Defende titularidade e produção privadas, permitindo comunidades voluntariamente coletivas.",
+                "basis": "declaration",
+                "publishedDate": "1974; transcrição de reimpressão com copyright1974 e linha de impressão02–05",
+                "accessedDate": "2026-10-09"
+              },
+              {
+                "sourceTitle": "Anarchy, State and Utopia, chapter 7",
+                "locator": "Paragraph 111 inteiro; sobretudo parágrafos finais",
+                "statement": "Retificação pode exigir transferências e Estado temporariamente ampliado.",
+                "basis": "declaration",
+                "publishedDate": "1974; excerto universitário sem data de hospedagem",
+                "accessedDate": "2026-10-09"
+              }
+            ],
+            "rationale": "Estrutura protege apropriação privada legítima.",
+            "uncertainty": "Não legitima posses injustas nem exige capitalismo em toda comunidade.",
+            "reviewedOn": "2026-10-09"
+          },
+          "relatedQuestionIdsAreConstructLinksNotAnswers": true
+        },
+        {
+          "axis": "con",
+          "verdict": "accept",
+          "value": 20,
+          "position": "strong-second",
+          "confidence": "medium",
+          "range": [
+            10,
+            25
+          ],
+          "basis": "declaration",
+          "wholeConstructJudgment": "General opposition to imposed distributive patterns, affirmative decentralized price coordination and voluntary exchange establish strong20. Rectification can temporarily extend government; voluntary communal planning is permitted. Neither exception makes compulsory central allocation the general rule.",
+          "exactInputRecipe": {
+            "axis": "con",
+            "position": "strong-second",
+            "confidence": "medium",
+            "relatedQuestionIds": [
+              "controle_04",
+              "controle_05",
+              "controle_13"
+            ],
+            "claims": [
+              {
+                "sourceTitle": "Anarchy, State, and Utopia — transcrição digital, leitura delimitada 2026-10-09",
+                "locator": "cap 7, abertura e How Liberty Upsets Patterns; cap 10, Community and Nation",
+                "statement": "Rejeita alocação central e manutenção coerciva de padrões distributivos.",
+                "basis": "declaration",
+                "publishedDate": "1974; transcrição de reimpressão com copyright1974 e linha de impressão02–05",
+                "accessedDate": "2026-10-09"
+              }
+            ],
+            "rationale": "Coordenação voluntária é estruturante.",
+            "uncertainty": "Retificação e organização comunitária consentida permanecem possíveis.",
+            "reviewedOn": "2026-10-09"
+          },
+          "relatedQuestionIdsAreConstructLinksNotAnswers": true
+        }
+      ],
+      "unknownAxes": {
+        "est": "Comunidades não definem federação.",
+        "rep": "Não fixa sistema eleitoral.",
+        "imi": "Diversidade comunitária não resolve imigração.",
+        "dip": "Autodefesa não basta.",
+        "int": "Sem política externa suficiente.",
+        "com": "Trocas não definem tarifas.",
+        "rel": "Comunidades não especificam Estado–religião.",
+        "mor": "Consentimento não determina costumes.",
+        "tec": "Experimentos mentais não definem política tecnológica."
+      },
+      "documentedAxesIfRepaired": 3,
+      "eligibleAfterThisBatch": false
+    }
+  ],
+  "ownSourceReading": [
+    {
+      "url": "https://www.marcellodibello.com/PHI171/resources/rawls-inequalities.pdf",
+      "mode": "direct extracted PDF text",
+      "scope": "§12.3 selected lines53–84; §13.3–6 actual135–276, printed44–48/PDF7–11; not whole34-page PDF",
+      "counter": "§13.5 conscription for defense of equal liberties and favorable conditions; §12.3 nonpolitical values legitimately influencing legislation outside constitutional essentials/basic justice"
+    },
+    {
+      "url": "https://pdfcoffee.com/john-rawls-2001-justice-as-fairness-pdf-free.html",
+      "mode": "direct third-party OCR HTML",
+      "scope": "Selected §§42.1–4/43/44 paragraphs2161–2266; §50 selected2470–2482 and2499–2551; additional §26.4 apostasy1585–1597. Not fullbook or original facsimile.",
+      "edition": "2001 work, third-party upload undated; OCR defects retained as reproduction limitation"
+    },
+    {
+      "url": "https://www.laits.utexas.edu/poltheory/sidgwick/shortrefs/asu.c07.html",
+      "mode": "direct full offered excerpt",
+      "scope": "Full Paragraph111 lines4–9 only; not wholechapter7",
+      "counter": "Rectification may justify transfers and temporarily a more extensive state"
+    },
+    {
+      "url": "https://www.thetedkarchive.com/library/robert-nozick-anarchy-state-and-utopia",
+      "mode": "indexed primary transcription passages; direct reopen failures",
+      "scope": "Actually offered selected Preface, EntitlementTheory acquisition/transfer/rectification, Ch7 opening and HowLibertyUpsetsPatterns productive-property/continuous-interference/price paragraphs, Ch10 CommunityandNation voluntary internal arrangements. No fullbook/direct chapter assertion.",
+      "queries": [
+        "site:thetedkarchive.com/library/robert-nozick-anarchy-state-and-utopia \"state may not\"",
+        "site:thetedkarchive.com/library/robert-nozick-anarchy-state-and-utopia \"central distribution\"",
+        "site:thetedkarchive.com/library/robert-nozick-anarchy-state-and-utopia \"A person who acquires a holding\"",
+        "site:thetedkarchive.com/library/robert-nozick-anarchy-state-and-utopia \"no end-state principle\" \"continuous\""
+      ]
+    }
+  ],
+  "accessFailures": [
+    "Original Rawls OCR URL initial metadata opened, later direct body/find attempts timeout/InternalError; alternate same-work OCR recovered selected body.",
+    "Nozick mirror initial metadata opened, later direct/find timeout/InternalError; indexed actual offered primary body recovered.",
+    "Shell urllib mirror requests Tunnel403; bs4 absent retrieval attempt failed before fetching."
+  ],
+  "requiredLiteralRepairs": [
+    "Append alternate Rawls OCR corroborating Source object with actual reader, edition and bounded scope; preserve all original sources/failures. Do not falsely attribute alternate direct read to original URL.",
+    "Rawls POD uncertainty explicitly include §13.5 conscription and favorable-condition qualification.",
+    "Rawls REL uncertainty explicitly include §12.3 legitimate influence of nonpolitical values outside constitutional essentials/basic justice.",
+    "Retain Rawls ECO unknown: alternative property-owning democracy/liberal socialism; neither select private/public productive ownership.",
+    "Nozick source note must distinguish parent prior direct selected read from this peer indexed-primary scope and direct UT excerpt.",
+    "Require final literal fullBefore/post hash binding and active selected-catalog integration for fresh Rawls ID; an unused raw overlay cannot change active selected entry."
+  ],
+  "productWrites": false,
+  "integrationApproved": false,
+  "gateOrSelectionChanged": false,
+  "numericalInterpretation": "Versioned editorial ordinal anchors/ranges, not measured percentages, statistical intervals or questionnaire answers."
+}

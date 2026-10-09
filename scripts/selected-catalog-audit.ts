@@ -1,6 +1,7 @@
 /** Run with bun scripts/selected-catalog-audit.ts; metadata integrity, not source-truth certification. */
 import { writeFileSync, readFileSync } from 'node:fs';
 import { createHash } from 'node:crypto';
+import { parentIdeologies20261009Definitions } from '../src/data/reference-parent-ideologies-20261009';
 import { referenceEntries } from '../src/data/references';
 import { ideology75Profiles } from '../src/data/reference-ideology75-profiles';
 import { intendedIdeologySelection } from '../src/data/reference-ideology-selection';
@@ -32,8 +33,9 @@ const audit = {
   documentaryEligible: selectedReferenceCoverage.ranked.length,
   insufficientEvidence: selectedReferenceCoverage.insufficientEvidence.length,
   newMeasuredScores: 0,
-  newEditorialAxisCodings: 6,
-  selectedOnlyReconciliation: { id: "ideology-program-anarcho-syndicalism-iwa-2022", newAxis: "pod", beforeAxes: 5, afterAxes: 6, fullLookupExceptionOnlyThisId: true, rawArchiveUnchanged: true },
+  newEditorialAxisCodings: 33,
+  parentIdeologyCheckpoint: { newCodings: 27, ids: parentIdeologies20261009Definitions.map(definition => definition.before.id), raw818Unchanged: true, newEligible: ['ideology-social-liberalism'] },
+  selectedOnlyReconciliation: { id: "ideology-program-anarcho-syndicalism-iwa-2022", newAxis: "pod", beforeAxes: 5, afterAxes: 6, fullLookupExceptionOnlyThisId: false, otherApprovedSelectedLookupIds: parentIdeologies20261009Definitions.map(definition => definition.before.id), rawArchiveUnchanged: true },
   gateMinimumAxes: 6,
   categories: ['country', 'historical-country', 'public-figure', 'historical-figure', 'ideology'].map(category => {
     const selected = selectedReferenceEntries.filter(entry => entry.category === category);
@@ -42,10 +44,10 @@ const audit = {
   }),
   limitations: [
     'Selection research is not source-truth certification or whole-axis coding.',
-    'No new numeric vectors were inferred from research prospects; new profiles remain unknown on all axes.',
-    'Inherited coding retains the exact prior period, numbers, grades, claims and source objects; the independently reviewed IWA2022 adds POD40medium only in the selected object and its full-catalog lookup.',
-    'Only the three explicitly reviewed raw-record posts change; all815 other raw records and all193 archives remain intact. IWA changes only its selected object and full-catalog lookup; selection and eligibility remain separate.',
-    'The researched selection75 had86eligible. The independently reviewed IWA2022,Atiku,Omar,Fiji additions raise current selected675 to90eligible and585pending; no selected identity or six-axis gate changes.',
+    'No numeric vectors are inferred from prospects. The exact seven reviewed ideology posts add27documentary ordinal codes; all unsupported axes remain unknown.',
+    'Inherited raw coding remains exact. Seven additional selected ideology posts use approved source-specific inputs; IWA2022 retains its prior selected POD40medium. All old source objects and unmodified axis fields are preserved.',
+    'Only the three explicitly reviewed raw-record posts change; all815 other raw records and all193 archives remain intact. IWA and the seven approved ideology posts change only selected objects and same-ID full-catalog lookups; selection and eligibility remain separate.',
+    'The researched selection75 had86eligible. The independently reviewed IWA2022,Atiku,Omar,Fiji additions raised selected675 to90eligible and585pending. The27approved ideology codes add only Hobhouse eligibility, yielding91eligible/584pending and2950minimum missing slots; no selected identity or six-axis gate changes.',
   ],
 };
 writeFileSync('docs/selected-catalog-audit.json', `${JSON.stringify(audit, null, 2)}\n`);

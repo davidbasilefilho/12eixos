@@ -1,0 +1,584 @@
+{
+  "schemaVersion": "constant-hobhouse-independent-review-v1",
+  "reviewedOn": "2026-10-09",
+  "inputSha256": "adadff42f441050b0c68958c86c3e741d03e08c1ddae9d27f4214f2c0744d2de",
+  "status": "accept all12 bounded ordinal directions with clarified locators; not integrated",
+  "selectedCount": 675,
+  "selectedIdeologyCount": 75,
+  "noSharedCodeEdits": true,
+  "noVCSWrites": true,
+  "method": "Whole relevant axis question pools read (160 questions); crosswalks are construct correspondence, never imputed individual answers. Encoder interval is editorial, not measured or statistical. High support only Constant POD and Hobhouse COM; other ten medium.",
+  "retrievals": [
+    {
+      "source": "constant",
+      "url": "https://oll-resources.s3.us-east-2.amazonaws.com/oll3/store/titles/2251/Constant_Liberty1521_EBk_v6.0.pdf",
+      "freshRead": "PDF extraction displayed: lines0–242,289–639. Relevant claims and surrounding counters read; middle historical comparison243–288 not asserted fully read. PDF title1816 and PLL September2011 independently read. Current OLL title page1819 independently read.",
+      "limits": "Translated text extraction; no French collation/facsimile certification."
+    },
+    {
+      "source": "hobhouse",
+      "url": "https://www.gutenberg.org/cache/epub/28278/pg28278-images.html",
+      "freshRead": "Title/reprint metadata; chapterII lines141–238; chapterVII lines550–643; chapterVIII lines647–790; chapterIX relevant223/232–241 paragraphs lines823–832,850–878. Source excerpts truncated by output around IX227–231 not certified read.",
+      "limits": "1911 work through transcription of reprint listing1944; no first-edition collation. Direct archive attempts failed proxy403; web body succeeded, no fabricated local body hash."
+    }
+  ],
+  "records": [
+    {
+      "id": "ideology-program-constitutional-liberalism-constant-1819",
+      "beforeSha256": "aee28a788de546e6dd68eaea436912dfcd8d4fe81b26dd90fa26a61a831e377e",
+      "fullBefore": {
+        "id": "ideology-program-constitutional-liberalism-constant-1819",
+        "kind": "ideology",
+        "category": "ideology",
+        "name": "Liberalismo clássico constitucional (Constant, 1819)",
+        "period": "Benjamin Constant, discurso de 1819; não todo liberalismo dos séculos XVIII–XIX.",
+        "rationale": "Liberdade individual protegida por limites à soberania e por governo representativo em sociedades comerciais. Representação sujeita à vigilância cidadã, garantias civis e autonomia privada.",
+        "caveats": "A defesa da representação não equivale automaticamente a sufrágio universal. O texto longo de Constant de 1806 não deve ser confundido com a obra curta de 1815. Pesquisa qualitativa de seleção; não atribui novos scores nem certifica os 12 eixos. Lacunas não equivalem a neutralidade.",
+        "sources": [
+          {
+            "title": "The Liberty of Ancients Compared with that of Moderns",
+            "url": "https://oll-resources.s3.us-east-2.amazonaws.com/oll3/store/titles/2251/Constant_Liberty1521_EBk_v6.0.pdf",
+            "note": "Publicação: 1819. Acesso registrado pela pesquisa: 2026-10-08. Tipo: primary. Localizador: pp. 9–14, liberdade moderna, comércio e sistema representativo. Leitura efetiva declarada na pesquisa: Passagens indicadas recuperadas por busca e/ou abertura; não foi feita leitura integral do livro."
+          },
+          {
+            "title": "Liberalism",
+            "url": "https://plato.stanford.edu/entries/liberalism/",
+            "note": "Publicação: 2026-02-25. Acesso registrado pela pesquisa: 2026-10-08. Tipo: scholarly. Localizador: §§1–2. Leitura efetiva declarada na pesquisa: Introdução e passagens recuperadas sobre pluralidade do liberalismo."
+          }
+        ],
+        "vec": {
+          "est": 50,
+          "rep": 50,
+          "pod": 50,
+          "imi": 50,
+          "dip": 50,
+          "int": 50,
+          "eco": 50,
+          "con": 50,
+          "com": 50,
+          "rel": 50,
+          "mor": 50,
+          "tec": 50
+        },
+        "evidence": {},
+        "axisEvidence": {},
+        "coding": {}
+      },
+      "scopePeriod": "Benjamin Constant, discurso de 1819; sem importar outros escritos.",
+      "acceptedAxisCount": 4,
+      "axisVerdicts": [
+        {
+          "axis": "rep",
+          "verdict": "accept bounded direction; approved located metadata below",
+          "reason": "Responsabilização e limites ao representante; sem sufrágio universal ou revogação necessariamente antecipada.",
+          "approvedInput": {
+            "axis": "rep",
+            "position": "moderate-first",
+            "confidence": "medium",
+            "relatedQuestionIds": [
+              "representacao_03",
+              "representacao_11",
+              "representacao_19"
+            ],
+            "claims": [
+              {
+                "sourceTitle": "The Liberty of Ancients Compared with that of Moderns — leitura delimitada 2026-10-09",
+                "locator": "PDF físico pp16–18, extração linhas561–637; representação, supervisão e substituição periódica.",
+                "statement": "Representantes devem ser fiscalizados e substituídos periodicamente; participação política protege direitos.",
+                "basis": "declaration",
+                "publishedDate": "Discurso de 1819; PDF OLL PLL v6.0, setembro 2011, erroneamente rotulado 1816",
+                "accessedDate": "2026-10-09"
+              }
+            ],
+            "rationale": "Há controle representativo explícito.",
+            "uncertainty": "Não demonstra sufrágio universal; convive com monarquia.",
+            "reviewedOn": "2026-10-09"
+          },
+          "value": 60,
+          "editorialRange": [
+            55,
+            70
+          ],
+          "evidenceGrade": "medium"
+        },
+        {
+          "axis": "pod",
+          "verdict": "accept bounded direction; approved located metadata below",
+          "reason": "Regra ampla e reiterada de liberdade pessoal; não imputa prioridade penal literal a poder_14.",
+          "approvedInput": {
+            "axis": "pod",
+            "position": "strong-second",
+            "confidence": "high",
+            "relatedQuestionIds": [
+              "poder_04",
+              "poder_14",
+              "poder_16",
+              "poder_19"
+            ],
+            "claims": [
+              {
+                "sourceTitle": "The Liberty of Ancients Compared with that of Moderns — leitura delimitada 2026-10-09",
+                "locator": "PDF físico p6 linhas92–104; pp13–14 linhas406–488; independência, exílio e censura; pp14–15 linhas489–518.",
+                "statement": "Rejeita prisão arbitrária, exílio político e censura; protege expressão, associação e vida privada.",
+                "basis": "declaration",
+                "publishedDate": "Discurso de 1819; PDF OLL PLL v6.0, setembro 2011, erroneamente rotulado 1816",
+                "accessedDate": "2026-10-09"
+              }
+            ],
+            "rationale": "Limites gerais à coerção são centrais.",
+            "uncertainty": "Proteção legal permanece; questões penais específicas não são resolvidas.",
+            "reviewedOn": "2026-10-09"
+          },
+          "value": 20,
+          "editorialRange": [
+            10,
+            25
+          ],
+          "evidenceGrade": "high"
+        },
+        {
+          "axis": "dip",
+          "verdict": "accept bounded direction; approved located metadata below",
+          "reason": "Preferência pacífica ampla; sem pacifismo absoluto ou abandono da defesa.",
+          "approvedInput": {
+            "axis": "dip",
+            "position": "moderate-second",
+            "confidence": "medium",
+            "relatedQuestionIds": [
+              "diplomacia_04",
+              "diplomacia_06",
+              "diplomacia_17"
+            ],
+            "claims": [
+              {
+                "sourceTitle": "The Liberty of Ancients Compared with that of Moderns — leitura delimitada 2026-10-09",
+                "locator": "PDF físico pp7–8 linhas164–208; comércio, guerra e trabalho pacífico.",
+                "statement": "Comércio pacífico substitui conquista; mesmo guerras vitoriosas custam mais que beneficiam.",
+                "basis": "declaration",
+                "publishedDate": "Discurso de 1819; PDF OLL PLL v6.0, setembro 2011, erroneamente rotulado 1816",
+                "accessedDate": "2026-10-09"
+              }
+            ],
+            "rationale": "Direção pacífica explicitada.",
+            "uncertainty": "Não formula desarmamento absoluto nem política completa de defesa.",
+            "reviewedOn": "2026-10-09"
+          },
+          "value": 40,
+          "editorialRange": [
+            30,
+            45
+          ],
+          "evidenceGrade": "medium"
+        },
+        {
+          "axis": "con",
+          "verdict": "accept bounded direction; approved located metadata below",
+          "reason": "Direção privada dos negócios; instrução pública admitida, sem política monetária imputada.",
+          "approvedInput": {
+            "axis": "con",
+            "position": "moderate-second",
+            "confidence": "medium",
+            "relatedQuestionIds": [
+              "controle_04",
+              "controle_14",
+              "controle_20"
+            ],
+            "claims": [
+              {
+                "sourceTitle": "The Liberty of Ancients Compared with that of Moderns — leitura delimitada 2026-10-09",
+                "locator": "PDF físico p9 linhas231–237; pp15–16 linhas529–554; contraponto instrução p14 linhas467–479.",
+                "statement": "Condena intervenção governamental nos negócios e defende circulação patrimonial contra poder arbitrário.",
+                "basis": "declaration",
+                "publishedDate": "Discurso de 1819; PDF OLL PLL v6.0, setembro 2011, erroneamente rotulado 1816",
+                "accessedDate": "2026-10-09"
+              }
+            ],
+            "rationale": "Favorece coordenação econômica privada.",
+            "uncertainty": "Admite provisão geral de instrução; não detalha política macroeconômica.",
+            "reviewedOn": "2026-10-09"
+          },
+          "value": 40,
+          "editorialRange": [
+            30,
+            45
+          ],
+          "evidenceGrade": "medium"
+        }
+      ],
+      "unknownAxes": {
+        "est": "Sem competências territoriais suficientes.",
+        "imi": "Exemplo ateniense não define programa migratório.",
+        "int": "Paz não determina intervenção externa.",
+        "eco": "Propriedade não resolve composição público-privada.",
+        "com": "Comércio não especifica tarifas.",
+        "rel": "Tolerância não comprova separação institucional.",
+        "mor": "Autonomia não determina costumes específicos.",
+        "tec": "Progresso não basta para este construto."
+      },
+      "sourceRecipe": {
+        "preserveOrderedPrefixExactly": [
+          {
+            "title": "The Liberty of Ancients Compared with that of Moderns",
+            "url": "https://oll-resources.s3.us-east-2.amazonaws.com/oll3/store/titles/2251/Constant_Liberty1521_EBk_v6.0.pdf",
+            "note": "Publicação: 1819. Acesso registrado pela pesquisa: 2026-10-08. Tipo: primary. Localizador: pp. 9–14, liberdade moderna, comércio e sistema representativo. Leitura efetiva declarada na pesquisa: Passagens indicadas recuperadas por busca e/ou abertura; não foi feita leitura integral do livro."
+          },
+          {
+            "title": "Liberalism",
+            "url": "https://plato.stanford.edu/entries/liberalism/",
+            "note": "Publicação: 2026-02-25. Acesso registrado pela pesquisa: 2026-10-08. Tipo: scholarly. Localizador: §§1–2. Leitura efetiva declarada na pesquisa: Introdução e passagens recuperadas sobre pluralidade do liberalismo."
+          }
+        ],
+        "appendReviewedSource": {
+          "title": "The Liberty of Ancients Compared with that of Moderns — leitura delimitada 2026-10-09",
+          "url": "https://oll-resources.s3.us-east-2.amazonaws.com/oll3/store/titles/2251/Constant_Liberty1521_EBk_v6.0.pdf",
+          "note": "Publicação/edição: Discurso de 1819; PDF OLL PLL v6.0, setembro 2011, erroneamente rotulado1816. Acesso: 2026-10-09. Fonte primária; leitura independente delimitada registrada em constant-hobhouse-review.json. Fonte primária traduzida já utilizada pela seleção. Acesso em 09/10/2026. O PDF traz1816, mas a página editorial atual da mesma obra identifica1819. Manter o referente selecionado e registrar a discrepância."
+        },
+        "oldSourcesDoNotBecomeNewEvidence": true,
+        "titleCleanup": "Operational suffix retained solely to bind supplied claims. Root may rename ONLY new source and its new claims together to bibliographic title/edition; never edit original source objects."
+      }
+    },
+    {
+      "id": "ideology-social-liberalism",
+      "beforeSha256": "9aa1c3f93c99f06af620c983ce2892cad1080f74ebee31eee02de43dc0a9f96c",
+      "fullBefore": {
+        "id": "ideology-social-liberalism",
+        "kind": "ideology",
+        "category": "ideology",
+        "name": "Liberalismo social (Hobhouse, 1911)",
+        "period": "L. T. Hobhouse, Liberalism (1911).",
+        "rationale": "Autonomia depende de direitos civis e das condições sociais que permitam exercê-los. Reforma social, tributação e garantias materiais compatíveis com iniciativa individual, rejeitando socialismo burocrático.",
+        "caveats": "Não transformar as generalizações históricas do autor em evidência sobre sociedades atuais; progresso científico citado não prova TEC. Pesquisa qualitativa de seleção; não atribui novos scores nem certifica os 12 eixos. Lacunas não equivalem a neutralidade.",
+        "sources": [
+          {
+            "title": "Liberalism",
+            "url": "https://www.gutenberg.org/cache/epub/28278/pg28278-images.html",
+            "note": "Publicação: 1911. Acesso registrado pela pesquisa: 2026-10-08. Tipo: primary. Localizador: caps. II, VII–VIII; especialmente início de VIII e organização social da oportunidade. Leitura efetiva declarada na pesquisa: Sumário, início e passagens dos caps. II e VIII lidos; demais capítulos não integralmente. Edição digital de 2009, baseada em reimpressão que lista edições até 1944."
+          }
+        ],
+        "vec": {
+          "est": 50,
+          "rep": 50,
+          "pod": 50,
+          "imi": 50,
+          "dip": 50,
+          "int": 50,
+          "eco": 50,
+          "con": 50,
+          "com": 50,
+          "rel": 50,
+          "mor": 50,
+          "tec": 50
+        },
+        "evidence": {},
+        "axisEvidence": {},
+        "coding": {}
+      },
+      "scopePeriod": "L. T. Hobhouse, Liberalism 1911, conforme transcrição de reimpressão.",
+      "acceptedAxisCount": 8,
+      "axisVerdicts": [
+        {
+          "axis": "rep",
+          "verdict": "accept bounded direction; approved located metadata below",
+          "reason": "Adultos e legislatura eleita; preservar exceção colonial racializada, cap IX p235.",
+          "approvedInput": {
+            "axis": "rep",
+            "position": "moderate-first",
+            "confidence": "medium",
+            "relatedQuestionIds": [
+              "representacao_07",
+              "representacao_15",
+              "representacao_19"
+            ],
+            "claims": [
+              {
+                "sourceTitle": "Liberalism — Hobhouse, leitura delimitada 2026-10-09",
+                "locator": "Cap VIII pp170–173, linhas659–668; cap IX pp232–236, linhas850–863, incluindo exceção colonial p235.",
+                "statement": "Defende sufrágio adulto, legislatura eleita e governo responsável.",
+                "basis": "declaration",
+                "publishedDate": "1911; reimpressão OUP com histórico até 1944; eBook Gutenberg 28278 de 2009-03-08",
+                "accessedDate": "2026-10-09"
+              }
+            ],
+            "rationale": "Orientação democrática explícita.",
+            "uncertainty": "Exceções coloniais racializadas limitam universalidade.",
+            "reviewedOn": "2026-10-09"
+          },
+          "value": 60,
+          "editorialRange": [
+            55,
+            70
+          ],
+          "evidenceGrade": "medium"
+        },
+        {
+          "axis": "pod",
+          "verdict": "accept bounded direction; approved located metadata below",
+          "reason": "Liberdades pessoais amplas; tutela compulsória por incapacidade e alcoolismo limita o polo.",
+          "approvedInput": {
+            "axis": "pod",
+            "position": "moderate-second",
+            "confidence": "medium",
+            "relatedQuestionIds": [
+              "poder_04",
+              "poder_14",
+              "poder_16",
+              "poder_19"
+            ],
+            "claims": [
+              {
+                "sourceTitle": "Liberalism — Hobhouse, leitura delimitada 2026-10-09",
+                "locator": "Cap II §§1/3 pp21–31, linhas147–179; cap VII pp151–154, linhas592–603.",
+                "statement": "Protege julgamento regular, expressão e autonomia pessoal.",
+                "basis": "declaration",
+                "publishedDate": "1911; reimpressão OUP com histórico até 1944; eBook Gutenberg 28278 de 2009-03-08",
+                "accessedDate": "2026-10-09"
+              }
+            ],
+            "rationale": "Limita coerção arbitrária.",
+            "uncertainty": "Aceita tutela compulsória por incapacidade e alcoolismo.",
+            "reviewedOn": "2026-10-09"
+          },
+          "value": 40,
+          "editorialRange": [
+            30,
+            45
+          ],
+          "evidenceGrade": "medium"
+        },
+        {
+          "axis": "dip",
+          "verdict": "accept bounded direction; approved located metadata below",
+          "reason": "Contrário ao armamentismo; preserva defesa comum e aliança imperial.",
+          "approvedInput": {
+            "axis": "dip",
+            "position": "moderate-second",
+            "confidence": "medium",
+            "relatedQuestionIds": [
+              "diplomacia_02",
+              "diplomacia_05",
+              "diplomacia_08"
+            ],
+            "claims": [
+              {
+                "sourceTitle": "Liberalism — Hobhouse, leitura delimitada 2026-10-09",
+                "locator": "Cap II §8 pp44–45, linhas227–229; cap IX pp237–241, linhas864–878.",
+                "statement": "Critica armamentismo e prioriza cooperação internacional sobre competição militar.",
+                "basis": "declaration",
+                "publishedDate": "1911; reimpressão OUP com histórico até 1944; eBook Gutenberg 28278 de 2009-03-08",
+                "accessedDate": "2026-10-09"
+              }
+            ],
+            "rationale": "Direção pacífica delimitada.",
+            "uncertainty": "Mantém defesa comum e vínculos imperiais.",
+            "reviewedOn": "2026-10-09"
+          },
+          "value": 40,
+          "editorialRange": [
+            30,
+            45
+          ],
+          "evidenceGrade": "medium"
+        },
+        {
+          "axis": "eco",
+          "verdict": "accept bounded direction; approved located metadata below",
+          "reason": "Hospitais, escolas e transporte públicos são prestação direta; coexistência privada explícita.",
+          "approvedInput": {
+            "axis": "eco",
+            "position": "moderate-first",
+            "confidence": "medium",
+            "relatedQuestionIds": [
+              "economia_03",
+              "economia_07",
+              "economia_09"
+            ],
+            "claims": [
+              {
+                "sourceTitle": "Liberalism — Hobhouse, leitura delimitada 2026-10-09",
+                "locator": "Cap VII pp141–142, linhas562–563; cap VIII pp175–179, linhas675–686; p199 linha749.",
+                "statement": "Admite hospitais, educação, transportes públicos, pensões e controle de recursos.",
+                "basis": "declaration",
+                "publishedDate": "1911; reimpressão OUP com histórico até 1944; eBook Gutenberg 28278 de 2009-03-08",
+                "accessedDate": "2026-10-09"
+              }
+            ],
+            "rationale": "Provisão coletiva é material.",
+            "uncertainty": "Recusa Estado produtor exclusivo; preserva iniciativa privada.",
+            "reviewedOn": "2026-10-09"
+          },
+          "value": 60,
+          "editorialRange": [
+            55,
+            70
+          ],
+          "evidenceGrade": "medium"
+        },
+        {
+          "axis": "con",
+          "verdict": "accept bounded direction; approved located metadata below",
+          "reason": "Coordenação industrial e fiscal; centralização integral é ilustração, não programa adotado.",
+          "approvedInput": {
+            "axis": "con",
+            "position": "moderate-first",
+            "confidence": "medium",
+            "relatedQuestionIds": [
+              "controle_05",
+              "controle_14",
+              "controle_19"
+            ],
+            "claims": [
+              {
+                "sourceTitle": "Liberalism — Hobhouse, leitura delimitada 2026-10-09",
+                "locator": "Cap VII pp145–147, linhas573–580; cap VIII p188 linhas713–717; pp195–202 linhas735–757; contraponto centralização linhas732–736.",
+                "statement": "Defende regulação industrial, coordenação fiscal e tributação redistributiva.",
+                "basis": "declaration",
+                "publishedDate": "1911; reimpressão OUP com histórico até 1944; eBook Gutenberg 28278 de 2009-03-08",
+                "accessedDate": "2026-10-09"
+              }
+            ],
+            "rationale": "Intervenção econômica deliberada.",
+            "uncertainty": "Recusa planejamento burocrático integral.",
+            "reviewedOn": "2026-10-09"
+          },
+          "value": 60,
+          "editorialRange": [
+            55,
+            70
+          ],
+          "evidenceGrade": "medium"
+        },
+        {
+          "axis": "com",
+          "verdict": "accept bounded direction; approved located metadata below",
+          "reason": "Rejeição tarifária geral reiterada; regulação doméstica permanece.",
+          "approvedInput": {
+            "axis": "com",
+            "position": "strong-second",
+            "confidence": "high",
+            "relatedQuestionIds": [
+              "comercio_01",
+              "comercio_02",
+              "comercio_16"
+            ],
+            "claims": [
+              {
+                "sourceTitle": "Liberalism — Hobhouse, leitura delimitada 2026-10-09",
+                "locator": "Cap II §5 pp34–35, linhas191–195; cap IX p223 linhas823–824.",
+                "statement": "Rejeita proteção tarifária e reafirma livre intercâmbio internacional.",
+                "basis": "declaration",
+                "publishedDate": "1911; reimpressão OUP com histórico até 1944; eBook Gutenberg 28278 de 2009-03-08",
+                "accessedDate": "2026-10-09"
+              }
+            ],
+            "rationale": "Rejeição tarifária é inequívoca.",
+            "uncertainty": "Abertura não elimina regulação doméstica.",
+            "reviewedOn": "2026-10-09"
+          },
+          "value": 20,
+          "editorialRange": [
+            10,
+            25
+          ],
+          "evidenceGrade": "high"
+        },
+        {
+          "axis": "rel",
+          "verdict": "accept bounded direction; approved located metadata below",
+          "reason": "Cap VII p154 explicitamente separa culto e doutrina do mecanismo estatal; acomoda consciência.",
+          "approvedInput": {
+            "axis": "rel",
+            "position": "moderate-first",
+            "confidence": "medium",
+            "relatedQuestionIds": [
+              "religiao_01",
+              "religiao_03",
+              "religiao_18"
+            ],
+            "claims": [
+              {
+                "sourceTitle": "Liberalism — Hobhouse, leitura delimitada 2026-10-09",
+                "locator": "Cap II §3 pp28–31 linhas168–179; cap VII pp144–154 linhas569–603, sobretudo602–603 e consciência584–587.",
+                "statement": "Separa culto e ensino doutrinário do controle estatal.",
+                "basis": "declaration",
+                "publishedDate": "1911; reimpressão OUP com histórico até 1944; eBook Gutenberg 28278 de 2009-03-08",
+                "accessedDate": "2026-10-09"
+              }
+            ],
+            "rationale": "Distinção institucional explícita.",
+            "uncertainty": "Protege religião e acomoda consciência.",
+            "reviewedOn": "2026-10-09"
+          },
+          "value": 60,
+          "editorialRange": [
+            55,
+            70
+          ],
+          "evidenceGrade": "medium"
+        },
+        {
+          "axis": "mor",
+          "verdict": "accept bounded direction; approved located metadata below",
+          "reason": "Reforma ampla da autoridade familiar feminina; sem imputar casamento LGBT a moral_06.",
+          "approvedInput": {
+            "axis": "mor",
+            "position": "moderate-first",
+            "confidence": "medium",
+            "relatedQuestionIds": [
+              "moral_02",
+              "moral_06",
+              "moral_18"
+            ],
+            "claims": [
+              {
+                "sourceTitle": "Liberalism — Hobhouse, leitura delimitada 2026-10-09",
+                "locator": "Cap II §§4/6 pp33,39–40, linhas187,208–213; cap VIII pp171–173 linhas663–668; contraponto cuidado materno pp179–180 linhas686–690.",
+                "statement": "Defende autonomia patrimonial feminina, casamento civil e escolha conjugal.",
+                "basis": "declaration",
+                "publishedDate": "1911; reimpressão OUP com histórico até 1944; eBook Gutenberg 28278 de 2009-03-08",
+                "accessedDate": "2026-10-09"
+              }
+            ],
+            "rationale": "Reforma papéis familiares.",
+            "uncertainty": "Preserva pressupostos heterossexuais e limitações ocupacionais.",
+            "reviewedOn": "2026-10-09"
+          },
+          "value": 60,
+          "editorialRange": [
+            55,
+            70
+          ],
+          "evidenceGrade": "medium"
+        }
+      ],
+      "unknownAxes": {
+        "est": "Autonomia pouco especificada.",
+        "imi": "Ambivalência colonial.",
+        "int": "Alcance intervencionista indeterminado.",
+        "tec": "Sem cobertura suficiente."
+      },
+      "sourceRecipe": {
+        "preserveOrderedPrefixExactly": [
+          {
+            "title": "Liberalism",
+            "url": "https://www.gutenberg.org/cache/epub/28278/pg28278-images.html",
+            "note": "Publicação: 1911. Acesso registrado pela pesquisa: 2026-10-08. Tipo: primary. Localizador: caps. II, VII–VIII; especialmente início de VIII e organização social da oportunidade. Leitura efetiva declarada na pesquisa: Sumário, início e passagens dos caps. II e VIII lidos; demais capítulos não integralmente. Edição digital de 2009, baseada em reimpressão que lista edições até 1944."
+          }
+        ],
+        "appendReviewedSource": {
+          "title": "Liberalism — Hobhouse, leitura delimitada 2026-10-09",
+          "url": "https://www.gutenberg.org/cache/epub/28278/pg28278-images.html",
+          "note": "Publicação/edição: 1911; reimpressão OUP com histórico até 1944; eBook Gutenberg 28278 de 2009-03-08. Acesso: 2026-10-09. Fonte primária; leitura independente delimitada registrada em constant-hobhouse-review.json. Texto primário já citado na seleção. Acesso em 09/10/2026. As páginas são as marcações impressas preservadas no HTML. Leitura distingue posição do autor, teorias descritas e ressalvas; transcrição posterior não é fac-símile conferido."
+        },
+        "oldSourcesDoNotBecomeNewEvidence": true,
+        "titleCleanup": "Operational suffix retained solely to bind supplied claims. Root may rename ONLY new source and its new claims together to bibliographic title/edition; never edit original source objects."
+      }
+    }
+  ],
+  "integrationConditions": [
+    "Guard current full-before hashes and preserve every existing source object in order.",
+    "Use approved exact inputs below with helper and exact source-title resolution.",
+    "Unknown axes stay50 without evidence, axisEvidence or coding.",
+    "No eligibility increase reported until Root integration and independent gate verification.",
+    "Do not generalize colonial/racial exceptions away or mix later/current doctrine into scoped work."
+  ]
+}

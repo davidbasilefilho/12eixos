@@ -1,0 +1,12 @@
+{
+  "status": "recommended-exact-canonical-three-after-Pettit-copy-fix",
+  "moduleSha256": "23b59b30af0a9db7919f507ba78b25e5befe424e0736c0d284cf8159874797b3",
+  "checks": 889,
+  "files": {
+    "canonical-literal-binding.json": "901161b2c73001e6f5ccdb4d29048cbb21d0d643f4154098ca5940809bbc042d",
+    "canonical-three-runtime-guard.json": "d7967035e0dcd972a96ab78e64ffaf6e06f35e05f3ad2fa112d7221a9f62e235"
+  },
+  "priorSourceReviewSealPreserved": "seal.json",
+  "rootApprovalRequired": true,
+  "noActiveWrites": true
+}
