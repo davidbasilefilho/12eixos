@@ -1,3 +1,4 @@
+import { reconcileHistoricalThree20261009, historicalThree20261009Definitions } from './reference-research-historical-three-20261009';
 import { reconcileFourthIdeologies20261009, fourthIdeologies20261009Definitions } from './reference-fourth-ideologies-20261009';
 import { reconcileThirdIdeologies20261009, thirdIdeologies20261009Definitions } from './reference-third-ideologies-20261009';
 import { reconcileParentIdeologies20261009, parentIdeologies20261009Definitions } from './reference-parent-ideologies-20261009';
@@ -47,7 +48,7 @@ if (selectedIdeologyEntries.length !== 75 || selectedIdeologyIds.size !== 75) {
 export const selectedReferenceEntries: ReferenceEntry[] = [
   ...referenceEntries.filter(entry => entry.category !== 'ideology'),
   ...selectedIdeologyEntries,
-];
+].map(reconcileHistoricalThree20261009);
 
 /** All former profiles remain consultable, with their original IDs and evidence. */
 export const archivedReferenceEntries = referenceEntries.filter(entry =>
@@ -55,8 +56,8 @@ export const archivedReferenceEntries = referenceEntries.filter(entry =>
 export const fullReferenceCatalog = [
   ...referenceEntries,
   ...selectedIdeologyEntries.filter(entry => !priorById.has(entry.id)),
-].map(entry => entry.id === 'ideology-program-anarcho-syndicalism-iwa-2022' || [...parentIdeologies20261009Definitions, ...thirdIdeologies20261009Definitions, ...fourthIdeologies20261009Definitions].some(definition => definition.before.id === entry.id)
-  ? selectedIdeologyEntries.find(selected => selected.id === entry.id)!
+].map(entry => entry.id === 'ideology-program-anarcho-syndicalism-iwa-2022' || [...parentIdeologies20261009Definitions, ...thirdIdeologies20261009Definitions, ...fourthIdeologies20261009Definitions, ...historicalThree20261009Definitions].some(definition => definition.before.id === entry.id)
+  ? selectedReferenceEntries.find(selected => selected.id === entry.id)!
   : entry);
 
 /** Shared product boundary: archived profiles cannot enter any ranked surface. */

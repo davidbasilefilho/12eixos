@@ -2,10 +2,10 @@ import { describe, expect, test } from 'bun:test';
 import { createHash } from 'node:crypto';
 import { referenceEntries, AXIS_KEYS } from '../src/data/references';
 import { selectedReferenceEntries, fullReferenceCatalog, archivedReferenceEntries } from '../src/data/reference-selected-catalog';
-import { fourthIdeologies20261009Definitions as definitions, fourthIdeologies20261009ExpectedPosts as posts, reconcileFourthIdeologies20261009 as reconcile } from '../src/data/reference-fourth-ideologies-20261009';
+import { historicalThree20261009Definitions as definitions, historicalThree20261009ExpectedPosts as posts, reconcileHistoricalThree20261009 as reconcile } from '../src/data/reference-research-historical-three-20261009';
 import { documentedEvidenceAxes, partitionMatchReferences } from '../src/lib/matching';
 const hash = (value: unknown) => createHash('sha256').update(JSON.stringify(value)).digest('hex');
-describe('four exact reviewed fourth-batch ideology reconciliations', () => {
+describe('three exact reviewed historical constitutional snapshots', () => {
   test('keeps raw archive intact and selected/full lookups on the reviewed posts', () => {
     expect(hash(referenceEntries)).toBe('1ba985e6ad16ffb2fa3922eebf5bd5c7ebc4eb57318f014d76f745210bc0b41a');
     for (const [index, definition] of definitions.entries()) {
@@ -14,8 +14,10 @@ describe('four exact reviewed fourth-batch ideology reconciliations', () => {
       expect(fullReferenceCatalog.find(entry => entry.id === post.id)).toBe(post);
       expect(post.sources.slice(0, definition.before.sources.length)).toEqual(definition.before.sources);
       expect(post.name).toBe(definition.before.name);
-      expect(post.period).toBe(definition.before.period);
-      expect(post.rationale).toBe(definition.before.rationale);
+      expect(post.period).toBe(definition.approvedPost.period);
+      expect(post.period.startsWith(definition.before.period)).toBe(true);
+      expect(post.rationale).toBe(definition.approvedPost.rationale);
+      expect(post.rationale.startsWith(definition.before.rationale)).toBe(true);
       for (const key of AXIS_KEYS) if (!definition.codings.some(coding => coding.axis === key)) {
         expect(post.vec[key]).toBe(definition.before.vec[key]);
         expect(post.coding?.[key]).toEqual(definition.before.coding?.[key]);
@@ -40,14 +42,12 @@ describe('four exact reviewed fourth-batch ideology reconciliations', () => {
     const untouched = selectedReferenceEntries.find(entry => !definitions.some(definition => definition.before.id === entry.id))!;
     expect(reconcile(untouched)).toBe(untouched);
   });
-  test('holds unknown axes and unchanged six-axis gate; only Chesterton gains eligibility', () => {
+  test('holds unknown axes and unchanged six-axis gate; no historical profile gains eligibility', () => {
     const partition = partitionMatchReferences(selectedReferenceEntries);
     expect(partition.ranked).toHaveLength(92);
     expect(partition.insufficientEvidence).toHaveLength(583);
     expect(selectedReferenceEntries.reduce((total, entry) => total + Math.max(0, 6 - documentedEvidenceAxes(entry).length), 0)).toBe(2916);
-    expect(documentedEvidenceAxes(posts.find(entry => entry.id === 'ideology-catholic-integralism')!)).not.toContain('con');
-    const jacobin = posts.find(entry => entry.id === 'ideology-jacobin-republicanism')!;
-    for (const axis of ['imi', 'pod', 'eco']) expect(documentedEvidenceAxes(jacobin)).not.toContain(axis);
-    expect(documentedEvidenceAxes(posts.find(entry => entry.id === 'ideology-distributism')!)).toHaveLength(6);
+    for (const post of posts) expect(documentedEvidenceAxes(post).length).toBeLessThan(6);
+    expect(documentedEvidenceAxes(posts.find(entry => entry.id === 'portugal-charter-monarchy-1826')!)).not.toContain('est');
   });
 });

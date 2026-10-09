@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-09",
+  "reads": [
+    {
+      "url": "https://www.fd.unl.pt/anexos/investigacao/1533.pdf",
+      "mode": "web PDF text extraction",
+      "scope": "Articles6–7,13–15,34–39,45,58,63–76,101–109,118–145",
+      "visualCertification": false
+    },
+    {
+      "url": "https://www.constituteproject.org/constitution/Belgium_1831",
+      "mode": "web translated primary republication",
+      "scope": "Articles1–3,14–17,23,25–32,107–117,128–139",
+      "FrenchFullCollation": false
+    },
+    {
+      "url": "https://tarlton.law.utexas.edu/constitutions/republic-texas-1836/article-2-legislative",
+      "mode": "web university primary transcription",
+      "scope": "ArticleII1–7"
+    },
+    {
+      "url": "https://tarlton.law.utexas.edu/constitutions/republic-texas-1836/article-4-judicial",
+      "mode": "web university primary transcription",
+      "scope": "ArticleIV1–13 excluding fragmentary3; textual crosscheck Washington-on-the-Brazos"
+    }
+  ],
+  "counterReads": [
+    {
+      "url": "https://tarlton.law.utexas.edu/constitutions/republic-texas-1836/general-provisions",
+      "scope": "GeneralProvisions1–11 especially6,8–10; citizenship/slavery exclusions"
+    },
+    {
+      "url": "https://tarlton.law.utexas.edu/constitutions/republic-texas-1836/declaration-rights",
+      "scope": "DeclarationRights1–17; broad civil rights, conditional habeas corpus, freeman limits"
+    },
+    {
+      "url": "https://wheretexasbecametexas.org/texas-history/constitution-of-the-republic-of-texas-1836/",
+      "scope": "ArticleIV1–13 crosscheck; excludes fragmentarysec3"
+    }
+  ],
+  "accessFailures": [
+    {
+      "url": "https://www.senate.be/doc/constitution_1831.pdf",
+      "result": "web timeout twice; no French-full-reading claim"
+    },
+    {
+      "url": "https://www.parlamento.pt/parlamento/documents/cartaconstitucional.pdf",
+      "result": "PDF39pages discovered; text0lines; screenshots attempted produced refs without actual pixels; no original visual collation claim"
+    },
+    {
+      "method": "python urllib direct fetch",
+      "result": "network tunnel403 for3URLs; no source bytes saved"
+    }
+  ]
+}

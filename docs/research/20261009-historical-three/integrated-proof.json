@@ -1,0 +1,50 @@
+{
+  "status": "PASS actual integrated working tree, not a source-truth certification of every profile",
+  "checks": 1692,
+  "raw818Unchanged": true,
+  "otherSelected672Unchanged": true,
+  "otherFull865Unchanged": true,
+  "archived193Unchanged": true,
+  "rothbardEntireRecordUnchanged": true,
+  "oldSourcePrefixObjectsPreserved": true,
+  "gateMinimumAxes": 6,
+  "selected": 675,
+  "eligible": 92,
+  "pending": 583,
+  "minimumMissingSlots": 2916,
+  "newCodes": 6,
+  "rawSHA256": "1ba985e6ad16ffb2fa3922eebf5bd5c7ebc4eb57318f014d76f745210bc0b41a",
+  "selectedSHA256": "471a18ef6c635ab9b4534cd632e2e9d5ca43db339c184fa680eec8b35daabdd9",
+  "fullSHA256": "b59c8148ce144d106036ce2d756d960c65e7bd305b0984d9fdf3839310944e02",
+  "postsSHA256": "255524e9d7eb2e6af98f1d11fad4e47133bfa3c47dd065a23ad6b4cb2cd4bc53",
+  "rows": [
+    {
+      "id": "portugal-charter-monarchy-1826",
+      "postSHA256": "315a10cde40b543754af1833048616ab389ae698b218600ea1bee799721fedcd",
+      "axes": [
+        "rep",
+        "pod",
+        "rel"
+      ]
+    },
+    {
+      "id": "belgium-unitary-kingdom-1831",
+      "postSHA256": "2877d111a952ec1355821b732913441de935e3ae4475b6c5b9f015e47cd16fa7",
+      "axes": [
+        "est",
+        "rep",
+        "pod",
+        "rel"
+      ]
+    },
+    {
+      "id": "republic-texas-1836",
+      "postSHA256": "14647368f02d8c4aef222c60401d3978bf9ab35bdc8b7b7c473692b7b892dbc7",
+      "axes": [
+        "est",
+        "rep",
+        "rel"
+      ]
+    }
+  ]
+}

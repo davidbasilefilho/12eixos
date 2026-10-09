@@ -44,7 +44,7 @@ describe('seven exact reviewed ideology reconciliations', () => {
     const partition = partitionMatchReferences(selectedReferenceEntries);
     expect(partition.ranked).toHaveLength(92);
     expect(partition.insufficientEvidence).toHaveLength(583);
-    expect(selectedReferenceEntries.reduce((total, entry) => total + Math.max(0, 6 - documentedEvidenceAxes(entry).length), 0)).toBe(2922);
+    expect(selectedReferenceEntries.reduce((total, entry) => total + Math.max(0, 6 - documentedEvidenceAxes(entry).length), 0)).toBe(2916);
     expect(documentedEvidenceAxes(posts.find(entry => entry.id === 'ideology-egalitarian-liberalism')!)).not.toContain('eco');
     expect(documentedEvidenceAxes(posts.find(entry => entry.id === 'ideology-social-liberalism')!)).toHaveLength(8);
   });
