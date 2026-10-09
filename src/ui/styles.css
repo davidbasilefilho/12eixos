@@ -3723,9 +3723,23 @@ body:has(.quiz-page)::before { @apply hidden; }
 :root .atlas-shell :is(.preview-ideology, .result-primary, .share-ideology-feature) { @apply bg-[var(--ideology-panel-surface)] text-ink border-accent/40; }
 :root:not([data-theme='dark']) .atlas-shell .result-primary small { @apply text-ink-secondary; }
 :root .atlas-shell .share-ideology-feature small { @apply text-ink-secondary; }
+:root:not([data-theme='dark']) .atlas-shell :is(.preview-ideology, .result-primary, .share-ideology-feature) :is(h2, h3, p, span, b, strong) { @apply text-ink; }
 .atlas-shell .theme-trigger { @apply justify-between; }
 .theme-trigger-label { @apply inline-flex items-center gap-[9px]; }
 /* Shared filled controls must override the generic inherited anchor/button ink. */
 [data-control-variant='solid'] { @apply text-background; }
 :root:not([data-theme='dark']) [data-control-variant='solid']:hover { @apply brightness-100 bg-[color-mix(in_srgb,var(--orange)_94%,var(--text))]; }
 [data-control-variant='solid']:hover { @apply text-background; }
+
+/* Keep ideological comparisons visible without changing the figures/countries layout. */
+.atlas-results > .result-ideology-comparisons { @apply mt-[26px] border-t border-border pt-[22px] pb-[24px] text-left; }
+.result-ideology-comparisons > .mini-matches { @apply grid grid-cols-3 gap-x-[24px] gap-y-[12px]; }
+.result-ideology-comparisons .mini-matches > h3 { @apply col-span-3 text-[11px] tracking-[1px] m-0; }
+.result-ideology-comparisons .mini-matches > div { @apply min-w-0 items-start gap-[10px] text-[14px]; }
+.result-ideology-comparisons .mini-matches > div span { @apply min-w-0; }
+.result-ideology-comparisons .mini-matches small { @apply block text-[11px] leading-[1.45]; }
+.result-ideology-comparisons .mini-matches b { @apply text-[15px] shrink-0; }
+@media (max-width: 760px) {
+ .result-ideology-comparisons > .mini-matches { @apply grid-cols-1; }
+ .result-ideology-comparisons .mini-matches > h3 { @apply col-span-1; }
+}
