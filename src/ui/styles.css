@@ -3630,3 +3630,5 @@ body:has(.quiz-page)::before { @apply hidden; }
 @media (max-width: 640px) {
   .atlas-shell .plan-tile b { @apply text-[16px] leading-[1.2]; }
 }
+.atlas-results .results-map { @apply border-b-0; }
+.atlas-results .result-editorial-panels { @apply border-t-0; }
