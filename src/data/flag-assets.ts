@@ -1,5 +1,10 @@
 /** Existing packaged flag files only. Missing identities intentionally have no image. */
 export const flagAssets: readonly string[] = [
+  "/assets/flags/dominica-current-2025.svg",
+  "/assets/flags/antigua-and-barbuda-current-2025.svg",
+  "/assets/flags/barbados-current-2025.svg",
+  "/assets/flags/bahamas-current-2025.svg",
+  "/assets/flags/belize-current-2025.svg",
   "/assets/flags/afghanistan-pdpa-1978.svg",
   "/assets/flags/albania-current-2025.svg",
   "/assets/flags/albania-hoxha-1946.svg",
