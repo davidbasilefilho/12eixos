@@ -1,0 +1,3923 @@
+{
+  "reviewer": "method_review",
+  "status": "exact-literal-and-runtime-recommended-to-Root-not-yet-integrated",
+  "moduleSha256": "0397faeab34adfd2d60f75e6b880af94a97ce50fbdcc40fa704070b97a5d4a08",
+  "beforeSha256": "69659805a1b567b0014264604af32461dc546f94339bb71f54493f1edf04d6e1",
+  "expectedPostSha256": "2e5e0ea6120264f538f9b4012c9c95deb312cf5df587ec6cbae5fb55b1bed205",
+  "fullBefore": {
+    "id": "prc-mao-1949",
+    "kind": "country",
+    "category": "historical-country",
+    "name": "China — período Mao",
+    "period": "República Popular sob Mao, 01/10/1949–09/09/1976; norma examinada: Constituição fundadora de 20/09/1954, durante a transição socialista.",
+    "vec": {
+      "est": 50,
+      "rep": 50,
+      "pod": 50,
+      "imi": 50,
+      "dip": 50,
+      "int": 50,
+      "eco": 60,
+      "con": 60,
+      "com": 50,
+      "rel": 50,
+      "mor": 50,
+      "tec": 50
+    },
+    "rationale": "Carta de 1954 prioriza economia estatal e planejamento, preservando propriedade camponesa, individual e capitalista na transição.",
+    "caveats": "Preambulo e frente política não bastam para medir competição eleitoral. Grande Salto, Revolução Cultural, coerção, secularismo e moral não são graduados sem prática documentada própria. Os limites cronológicos referem-se à fase sob Mao, não à existência da República Popular. A tradução de 1954 descreve direção econômica legal; o cotejo integral chinês e a prática de todas as fases não foram certificados.",
+    "sources": [
+      {
+        "title": "Rapprochement with China, 1972 — Office of the Historian",
+        "url": "https://history.state.gov/milestones/1969-1976/rapprochement-china",
+        "note": "Delimita a fundação da República Popular em 1949 e descreve seu governo no período Mao."
+      },
+      {
+        "title": "China and the Cultural Revolution — Office of the Historian",
+        "url": "https://history.state.gov/historicaldocuments/frus1964-68v30/d302",
+        "note": "Avaliação histórica contemporânea sobre centralização partidária, Grande Salto e Revolução Cultural."
+      },
+      {
+        "title": "Constitution of the People’s Republic of China (1954)",
+        "url": "https://www.marxists.org/subject/china/documents/constitution-1954.htm",
+        "note": "Fonte primária para a estrutura estatal e econômica declarada no período."
+      },
+      {
+        "title": "Constitution of the People’s Republic of China, 1954 — translated primary text",
+        "url": "https://en.wikisource.org/wiki/Constitution_of_the_People%27s_Republic_of_China_(1954)",
+        "note": "Tradução reproduzida em Senate hearings1972; cotejo integral com chinês oficial pendente."
+      },
+      {
+        "title": "Constitution of the People’s Republic of China1954 — translated primary republication",
+        "url": "https://en.wikisource.org/wiki/Constitution_of_the_People%27s_Republic_of_China_(1954)",
+        "note": "Leitura documental anterior registrada dos arts.5–10/13/15 da tradução de 1954 reproduzida em 1972: setor estatal prioritário, transformação, plano e proteção transitória de propriedades camponesa, individual e capitalista. Não é leitura nova do original chinês nem prática integral 1949–1976."
+      },
+      {
+        "title": "Ministério dos Negócios Estrangeiros chinês — 1 de outubro",
+        "url": "https://www.mfa.gov.cn/web/ziliao_674904/historytoday_674971/200310/t20031001_9284650.shtml",
+        "note": "01/10/1949: proclamação do governo central da República Popular. Escopo lido: Parágrafo 97 completo: proclamação de Mao em 01/10/1949. Texto comemorativo institucional, não exame de todo o governo."
+      },
+      {
+        "title": "Ministério dos Negócios Estrangeiros chinês — 9 de setembro",
+        "url": "https://www.mfa.gov.cn/ziliao_674904/historytoday_674971/200309/t20030909_7949146.shtml",
+        "note": "09/09/1976: morte de Mao. Escopo lido: Parágrafo 97 completo: falecimento em Pequim e luto nacional. A República Popular não terminou nesta data; término da liderança pessoal no recorte."
+      }
+    ],
+    "evidence": {
+      "eco": "medium",
+      "con": "medium"
+    },
+    "axisEvidence": {
+      "eco": {
+        "sourceTitles": [
+          "Constitution of the People’s Republic of China, 1954 — translated primary text"
+        ],
+        "rationale": "Prioridade estatal em economia ainda mista sustenta direção pública moderada. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Transformação prevista não prova predomínio realizado; propriedade pessoal e capitalista não são omitidas."
+      },
+      "con": {
+        "sourceTitles": [
+          "Constitution of the People’s Republic of China, 1954 — translated primary text"
+        ],
+        "rationale": "Direção nacional com instrumentos de controle sustenta planejamento moderado. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Não mede cumprimento, detalhe alocativo ou regimes posteriores; não deduz monopólio total do plano."
+      }
+    },
+    "coding": {
+      "eco": {
+        "axis": "eco",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "rationale": "Prioridade estatal em economia ainda mista sustenta direção pública moderada.",
+        "uncertainty": "Transformação prevista não prova predomínio realizado; propriedade pessoal e capitalista não são omitidas.",
+        "reviewedOn": "2026-10-07",
+        "claims": [
+          {
+            "sourceTitle": "Constitution of the People’s Republic of China, 1954 — translated primary text",
+            "locator": "Arts.5–10 e13",
+            "statement": "Setor estatal é dirigente e prioritário, mas propriedade camponesa, individual e capitalista é protegida durante transformação gradual.",
+            "basis": "norm",
+            "publishedDate": "1954-09-20",
+            "accessedDate": "2026-10-07"
+          }
+        ],
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      },
+      "con": {
+        "axis": "con",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "rationale": "Direção nacional com instrumentos de controle sustenta planejamento moderado.",
+        "uncertainty": "Não mede cumprimento, detalhe alocativo ou regimes posteriores; não deduz monopólio total do plano.",
+        "reviewedOn": "2026-10-07",
+        "claims": [
+          {
+            "sourceTitle": "Constitution of the People’s Republic of China, 1954 — translated primary text",
+            "locator": "Arts.10 e15",
+            "statement": "Estado orienta transformação e crescimento por plano econômico, incluindo controle administrativo do setor capitalista.",
+            "basis": "norm",
+            "publishedDate": "1954-09-20",
+            "accessedDate": "2026-10-07"
+          }
+        ],
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      }
+    },
+    "documentaryReview": {
+      "status": "author-reviewed-bounded-claims",
+      "reviewedOn": "2026-10-07",
+      "independentReview": "pending",
+      "scope": "Carta fundadora1954 em transição socialista; não todas as fases1949–1976."
+    },
+    "unknownAxisReasons": {
+      "est": "Sem inferência suficientemente delimitada nas passagens revistas; 50 desconhecido, sem evidência. Preambulo e frente política não bastam para medir competição eleitoral. Grande Salto, Revolução Cultural, coerção, secularismo e moral não são graduados sem prática documentada própria.",
+      "rep": "Sem inferência suficientemente delimitada nas passagens revistas; 50 desconhecido, sem evidência. Preambulo e frente política não bastam para medir competição eleitoral. Grande Salto, Revolução Cultural, coerção, secularismo e moral não são graduados sem prática documentada própria.",
+      "pod": "Sem inferência suficientemente delimitada nas passagens revistas; 50 desconhecido, sem evidência. Preambulo e frente política não bastam para medir competição eleitoral. Grande Salto, Revolução Cultural, coerção, secularismo e moral não são graduados sem prática documentada própria.",
+      "imi": "Sem inferência suficientemente delimitada nas passagens revistas; 50 desconhecido, sem evidência. Preambulo e frente política não bastam para medir competição eleitoral. Grande Salto, Revolução Cultural, coerção, secularismo e moral não são graduados sem prática documentada própria.",
+      "dip": "Sem inferência suficientemente delimitada nas passagens revistas; 50 desconhecido, sem evidência. Preambulo e frente política não bastam para medir competição eleitoral. Grande Salto, Revolução Cultural, coerção, secularismo e moral não são graduados sem prática documentada própria.",
+      "int": "Sem inferência suficientemente delimitada nas passagens revistas; 50 desconhecido, sem evidência. Preambulo e frente política não bastam para medir competição eleitoral. Grande Salto, Revolução Cultural, coerção, secularismo e moral não são graduados sem prática documentada própria.",
+      "com": "Sem inferência suficientemente delimitada nas passagens revistas; 50 desconhecido, sem evidência. Preambulo e frente política não bastam para medir competição eleitoral. Grande Salto, Revolução Cultural, coerção, secularismo e moral não são graduados sem prática documentada própria.",
+      "rel": "Sem inferência suficientemente delimitada nas passagens revistas; 50 desconhecido, sem evidência. Preambulo e frente política não bastam para medir competição eleitoral. Grande Salto, Revolução Cultural, coerção, secularismo e moral não são graduados sem prática documentada própria.",
+      "mor": "Sem inferência suficientemente delimitada nas passagens revistas; 50 desconhecido, sem evidência. Preambulo e frente política não bastam para medir competição eleitoral. Grande Salto, Revolução Cultural, coerção, secularismo e moral não são graduados sem prática documentada própria.",
+      "tec": "Sem inferência suficientemente delimitada nas passagens revistas; 50 desconhecido, sem evidência. Preambulo e frente política não bastam para medir competição eleitoral. Grande Salto, Revolução Cultural, coerção, secularismo e moral não são graduados sem prática documentada própria."
+    }
+  },
+  "fullExpectedPost": {
+    "id": "prc-mao-1949",
+    "kind": "country",
+    "category": "historical-country",
+    "name": "China — período Mao",
+    "period": "República Popular sob Mao, 01/10/1949–09/09/1976; norma examinada: Constituição fundadora de 20/09/1954, durante a transição socialista.",
+    "vec": {
+      "est": 40,
+      "rep": 50,
+      "pod": 50,
+      "imi": 40,
+      "dip": 50,
+      "int": 50,
+      "eco": 60,
+      "con": 60,
+      "com": 50,
+      "rel": 50,
+      "mor": 60,
+      "tec": 50
+    },
+    "rationale": "Carta de 1954 prioriza economia estatal e planejamento, preservando propriedade camponesa, individual e capitalista na transição. Ampliação normativa delimitada: a carta de 1954 combina autoridade legislativa nacional com autonomia territorial, pluralidade linguística das nacionalidades e igualdade doméstica; a lei matrimonial de 1950 detalha consentimento, papéis conjugais, filiação e divórcio.",
+    "caveats": "Preambulo e frente política não bastam para medir competição eleitoral. Grande Salto, Revolução Cultural, coerção, secularismo e moral não são graduados sem prática documentada própria. Os limites cronológicos referem-se à fase sob Mao, não à existência da República Popular. A tradução de 1954 descreve direção econômica legal; o cotejo integral chinês e a prática de todas as fases não foram certificados. Os três novos eixos descrevem somente a Constituição de 20/09/1954 e, para relações familiares, a lei em vigor em 01/05/1950. A limitação anterior sobre moral sem auditoria de prática é mantida como histórico da pesquisa; a nova codificação é normativa e não certifica o período inteiro de 1949–1976. Autonomia regional sujeita a aprovação central, unidade nacional, deveres familiares/produtivos e limites médicos, militares e processuais do divórcio restringem a inferência. Cinco eixos documentados não atingem o gate de seis.",
+    "sources": [
+      {
+        "title": "Rapprochement with China, 1972 — Office of the Historian",
+        "url": "https://history.state.gov/milestones/1969-1976/rapprochement-china",
+        "note": "Delimita a fundação da República Popular em 1949 e descreve seu governo no período Mao."
+      },
+      {
+        "title": "China and the Cultural Revolution — Office of the Historian",
+        "url": "https://history.state.gov/historicaldocuments/frus1964-68v30/d302",
+        "note": "Avaliação histórica contemporânea sobre centralização partidária, Grande Salto e Revolução Cultural."
+      },
+      {
+        "title": "Constitution of the People’s Republic of China (1954)",
+        "url": "https://www.marxists.org/subject/china/documents/constitution-1954.htm",
+        "note": "Fonte primária para a estrutura estatal e econômica declarada no período."
+      },
+      {
+        "title": "Constitution of the People’s Republic of China, 1954 — translated primary text",
+        "url": "https://en.wikisource.org/wiki/Constitution_of_the_People%27s_Republic_of_China_(1954)",
+        "note": "Tradução reproduzida em Senate hearings1972; cotejo integral com chinês oficial pendente."
+      },
+      {
+        "title": "Constitution of the People’s Republic of China1954 — translated primary republication",
+        "url": "https://en.wikisource.org/wiki/Constitution_of_the_People%27s_Republic_of_China_(1954)",
+        "note": "Leitura documental anterior registrada dos arts.5–10/13/15 da tradução de 1954 reproduzida em 1972: setor estatal prioritário, transformação, plano e proteção transitória de propriedades camponesa, individual e capitalista. Não é leitura nova do original chinês nem prática integral 1949–1976."
+      },
+      {
+        "title": "Ministério dos Negócios Estrangeiros chinês — 1 de outubro",
+        "url": "https://www.mfa.gov.cn/web/ziliao_674904/historytoday_674971/200310/t20031001_9284650.shtml",
+        "note": "01/10/1949: proclamação do governo central da República Popular. Escopo lido: Parágrafo 97 completo: proclamação de Mao em 01/10/1949. Texto comemorativo institucional, não exame de todo o governo."
+      },
+      {
+        "title": "Ministério dos Negócios Estrangeiros chinês — 9 de setembro",
+        "url": "https://www.mfa.gov.cn/ziliao_674904/historytoday_674971/200309/t20030909_7949146.shtml",
+        "note": "09/09/1976: morte de Mao. Escopo lido: Parágrafo 97 completo: falecimento em Pequim e luto nacional. A República Popular não terminou nesta data; término da liderança pessoal no recorte."
+      },
+      {
+        "title": "Constitution of the People’s Republic of China (1954) — translated primary republication",
+        "url": "https://en.wikisource.org/wiki/Constitution_of_the_People%27s_Republic_of_China_(1954)",
+        "note": "Leitura documental em 09/10/2026. Texto normativo de 20/09/1954, em transcrição inglesa atribuída a publicação do Senado dos EUA de 1972, página 528; preâmbulo e artigos 1–106 efetivamente examinados. Não é fac-símile oficial chinês. O artigo 2 inglês omite a cláusula de centralismo democrático presente no paralelo chinês; há defeitos de transcrição. Não certifica prática de 1949–1976."
+      },
+      {
+        "title": "Marriage Law of the People’s Republic of China — Foreign Languages Press scan",
+        "url": "https://www.bannedthought.net/China/MaoEra/Women-Family/MarriageLawOfThePRC-1950-OCR-sm.pdf",
+        "note": "Leitura documental em 09/10/2026. Lei em vigor em 01/05/1950, em scan da Foreign Languages Press hospedado em arquivo privado. Corpo legal dos artigos 1–27 efetivamente examinado por OCR, páginas PDF 4–10; data de impressão não estabelecida. Rótulos de alguns artigos têm falhas de OCR. Comentários editoriais não comprovam execução histórica; não houve certificação visual integral do fac-símile."
+      }
+    ],
+    "evidence": {
+      "eco": "medium",
+      "con": "medium",
+      "est": "medium",
+      "imi": "medium",
+      "mor": "medium"
+    },
+    "axisEvidence": {
+      "eco": {
+        "sourceTitles": [
+          "Constitution of the People’s Republic of China, 1954 — translated primary text"
+        ],
+        "rationale": "Prioridade estatal em economia ainda mista sustenta direção pública moderada. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Transformação prevista não prova predomínio realizado; propriedade pessoal e capitalista não são omitidas."
+      },
+      "con": {
+        "sourceTitles": [
+          "Constitution of the People’s Republic of China, 1954 — translated primary text"
+        ],
+        "rationale": "Direção nacional com instrumentos de controle sustenta planejamento moderado. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Não mede cumprimento, detalhe alocativo ou regimes posteriores; não deduz monopólio total do plano."
+      },
+      "est": {
+        "sourceTitles": [
+          "Constitution of the People’s Republic of China (1954) — translated primary republication"
+        ],
+        "rationale": "Direção nacional unitária com autonomia territorial real, por isso moderada, não centralização absoluta. Codificação editorial moderate-second: âncora 40, faixa 30–45; a fonte não mede esse número. Limites: Arts67–72 preservam autonomia e direitos regionais; Art70 exige aprovação central de regulamentos autônomos. Não descreve a execução histórica entre1949 e1976. A inferência descreve somente o desenho normativo de 1954, com a lei matrimonial de 1950 quando pertinente; não é medida empírica do período Mao."
+      },
+      "imi": {
+        "sourceTitles": [
+          "Constitution of the People’s Republic of China (1954) — translated primary republication"
+        ],
+        "rationale": "Programa cultural e linguístico transversal das nacionalidades, não mera permissão de entrada nem proteção de um grupo isolado. Codificação editorial moderate-second: âncora 40, faixa 30–45; a fonte não mede esse número. Limites: Art3 torna as autonomias partes inalienáveis do Estado; unidade nacional e rejeição de nacionalismos limitam a pluralidade. Não equivale a imigração aberta ou coexistência efetivamente realizada. A inferência descreve somente o desenho normativo de 1954, com a lei matrimonial de 1950 quando pertinente; não é medida empírica do período Mao."
+      },
+      "mor": {
+        "sourceTitles": [
+          "Constitution of the People’s Republic of China (1954) — translated primary republication",
+          "Marriage Law of the People’s Republic of China — Foreign Languages Press scan"
+        ],
+        "rationale": "Conjunto amplo de normas de papéis de gênero, relações conjugais, filiação e autonomia familiar permite proposta moderada; supera uma única cláusula de acesso a cargo público. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Monogamia heterossexual; idades mínimas diferentes; impedimentos médicos; mediação obrigatória do divórcio; consentimento de militar para certos divórcios; deveres familiares/produtivos; alterações regionais dependem de ratificação. Não comprova execução igualitária ou doutrina cultural integral. A inferência descreve somente o desenho normativo de 1954, com a lei matrimonial de 1950 quando pertinente; não é medida empírica do período Mao."
+      }
+    },
+    "coding": {
+      "eco": {
+        "axis": "eco",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "rationale": "Prioridade estatal em economia ainda mista sustenta direção pública moderada.",
+        "uncertainty": "Transformação prevista não prova predomínio realizado; propriedade pessoal e capitalista não são omitidas.",
+        "reviewedOn": "2026-10-07",
+        "claims": [
+          {
+            "sourceTitle": "Constitution of the People’s Republic of China, 1954 — translated primary text",
+            "locator": "Arts.5–10 e13",
+            "statement": "Setor estatal é dirigente e prioritário, mas propriedade camponesa, individual e capitalista é protegida durante transformação gradual.",
+            "basis": "norm",
+            "publishedDate": "1954-09-20",
+            "accessedDate": "2026-10-07"
+          }
+        ],
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      },
+      "con": {
+        "axis": "con",
+        "position": "moderate-first",
+        "confidence": "medium",
+        "rationale": "Direção nacional com instrumentos de controle sustenta planejamento moderado.",
+        "uncertainty": "Não mede cumprimento, detalhe alocativo ou regimes posteriores; não deduz monopólio total do plano.",
+        "reviewedOn": "2026-10-07",
+        "claims": [
+          {
+            "sourceTitle": "Constitution of the People’s Republic of China, 1954 — translated primary text",
+            "locator": "Arts.10 e15",
+            "statement": "Estado orienta transformação e crescimento por plano econômico, incluindo controle administrativo do setor capitalista.",
+            "basis": "norm",
+            "publishedDate": "1954-09-20",
+            "accessedDate": "2026-10-07"
+          }
+        ],
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      },
+      "est": {
+        "axis": "est",
+        "position": "moderate-second",
+        "confidence": "medium",
+        "claims": [
+          {
+            "accessedDate": "2026-10-09",
+            "basis": "norm",
+            "sourceTitle": "Constitution of the People’s Republic of China (1954) — translated primary republication",
+            "locator": "Articles21–22,31(7),49(4/6/15),53–72",
+            "statement": "A legislação nacional é exclusiva do Congresso Nacional; órgãos centrais podem anular decisões locais e dirigir a cadeia administrativa. Regiões autônomas conservam competências financeiras, de segurança local e regulamentares, subordinadas à lei nacional e ao assentimento central.",
+            "publishedDate": "Constituição1954-09-20; tradução republicada1972"
+          }
+        ],
+        "rationale": "Direção nacional unitária com autonomia territorial real, por isso moderada, não centralização absoluta.",
+        "uncertainty": "Arts67–72 preservam autonomia e direitos regionais; Art70 exige aprovação central de regulamentos autônomos. Não descreve a execução histórica entre1949 e1976. A inferência descreve somente o desenho normativo de 1954, com a lei matrimonial de 1950 quando pertinente; não é medida empírica do período Mao.",
+        "reviewedOn": "2026-10-09",
+        "version": "editorial-ordinal-v1",
+        "value": 40,
+        "range": [
+          30,
+          45
+        ]
+      },
+      "imi": {
+        "axis": "imi",
+        "position": "moderate-second",
+        "confidence": "medium",
+        "claims": [
+          {
+            "accessedDate": "2026-10-09",
+            "basis": "norm",
+            "sourceTitle": "Constitution of the People’s Republic of China (1954) — translated primary republication",
+            "locator": "Articles3,68,71,77",
+            "statement": "Todas as nacionalidades têm igualdade normativa e liberdade de língua e costumes; órgãos autônomos incluem representação das nacionalidades e usam línguas locais, com direitos linguísticos e interpretação judicial.",
+            "publishedDate": "Constituição1954-09-20; tradução republicada1972"
+          }
+        ],
+        "rationale": "Programa cultural e linguístico transversal das nacionalidades, não mera permissão de entrada nem proteção de um grupo isolado.",
+        "uncertainty": "Art3 torna as autonomias partes inalienáveis do Estado; unidade nacional e rejeição de nacionalismos limitam a pluralidade. Não equivale a imigração aberta ou coexistência efetivamente realizada. A inferência descreve somente o desenho normativo de 1954, com a lei matrimonial de 1950 quando pertinente; não é medida empírica do período Mao.",
+        "reviewedOn": "2026-10-09",
+        "version": "editorial-ordinal-v1",
+        "value": 40,
+        "range": [
+          30,
+          45
+        ]
+      },
+      "mor": {
+        "axis": "mor",
+        "relatedQuestionIds": [
+          "moral_02",
+          "moral_06",
+          "moral_18"
+        ],
+        "position": "moderate-first",
+        "confidence": "medium",
+        "claims": [
+          {
+            "accessedDate": "2026-10-09",
+            "basis": "norm",
+            "sourceTitle": "Constitution of the People’s Republic of China (1954) — translated primary republication",
+            "locator": "Article96",
+            "statement": "A norma declara igualdade entre mulheres e homens nas esferas política, econômica, cultural, social e doméstica, juntamente com proteção estatal da família.",
+            "publishedDate": "Constituição1954-09-20; tradução republicada1972"
+          },
+          {
+            "accessedDate": "2026-10-09",
+            "basis": "norm",
+            "sourceTitle": "Marriage Law of the People’s Republic of China — Foreign Languages Press scan",
+            "locator": "Articles1–4,7–17,19,23,27",
+            "statement": "A lei substitui casamento compulsório e supremacia masculina por consentimento, igualdade doméstica, liberdade profissional de ambos, direitos patrimoniais e de nome, direitos dos filhos não matrimoniais e divórcio condicionado a procedimento.",
+            "publishedDate": "Lei em vigor1950-05-01; impressão examinada sem data estabelecida"
+          }
+        ],
+        "rationale": "Conjunto amplo de normas de papéis de gênero, relações conjugais, filiação e autonomia familiar permite proposta moderada; supera uma única cláusula de acesso a cargo público.",
+        "uncertainty": "Monogamia heterossexual; idades mínimas diferentes; impedimentos médicos; mediação obrigatória do divórcio; consentimento de militar para certos divórcios; deveres familiares/produtivos; alterações regionais dependem de ratificação. Não comprova execução igualitária ou doutrina cultural integral. A inferência descreve somente o desenho normativo de 1954, com a lei matrimonial de 1950 quando pertinente; não é medida empírica do período Mao.",
+        "reviewedOn": "2026-10-09",
+        "version": "editorial-ordinal-v1",
+        "value": 60,
+        "range": [
+          55,
+          70
+        ]
+      }
+    },
+    "documentaryReview": {
+      "status": "author-reviewed-bounded-claims",
+      "reviewedOn": "2026-10-07",
+      "independentReview": "pending",
+      "scope": "Carta fundadora1954 em transição socialista; não todas as fases1949–1976."
+    },
+    "unknownAxisReasons": {
+      "rep": "Sem inferência suficientemente delimitada nas passagens revistas; 50 desconhecido, sem evidência. Preambulo e frente política não bastam para medir competição eleitoral. Grande Salto, Revolução Cultural, coerção, secularismo e moral não são graduados sem prática documentada própria.",
+      "pod": "Sem inferência suficientemente delimitada nas passagens revistas; 50 desconhecido, sem evidência. Preambulo e frente política não bastam para medir competição eleitoral. Grande Salto, Revolução Cultural, coerção, secularismo e moral não são graduados sem prática documentada própria.",
+      "dip": "Sem inferência suficientemente delimitada nas passagens revistas; 50 desconhecido, sem evidência. Preambulo e frente política não bastam para medir competição eleitoral. Grande Salto, Revolução Cultural, coerção, secularismo e moral não são graduados sem prática documentada própria.",
+      "int": "Sem inferência suficientemente delimitada nas passagens revistas; 50 desconhecido, sem evidência. Preambulo e frente política não bastam para medir competição eleitoral. Grande Salto, Revolução Cultural, coerção, secularismo e moral não são graduados sem prática documentada própria.",
+      "com": "Sem inferência suficientemente delimitada nas passagens revistas; 50 desconhecido, sem evidência. Preambulo e frente política não bastam para medir competição eleitoral. Grande Salto, Revolução Cultural, coerção, secularismo e moral não são graduados sem prática documentada própria.",
+      "rel": "Sem inferência suficientemente delimitada nas passagens revistas; 50 desconhecido, sem evidência. Preambulo e frente política não bastam para medir competição eleitoral. Grande Salto, Revolução Cultural, coerção, secularismo e moral não são graduados sem prática documentada própria.",
+      "tec": "Sem inferência suficientemente delimitada nas passagens revistas; 50 desconhecido, sem evidência. Preambulo e frente política não bastam para medir competição eleitoral. Grande Salto, Revolução Cultural, coerção, secularismo e moral não são graduados sem prática documentada própria."
+    }
+  },
+  "checks": [
+    {
+      "name": "completebeforeequalsactualLIVE",
+      "pass": true
+    },
+    {
+      "name": "beforehashmatchesdeclared",
+      "pass": true
+    },
+    {
+      "name": "fullpostequalexpected",
+      "pass": true
+    },
+    {
+      "name": "repeatidentity",
+      "pass": true
+    },
+    {
+      "name": "inputunchanged",
+      "pass": true
+    },
+    {
+      "name": "only3newcodings",
+      "pass": true
+    },
+    {
+      "name": "all5located",
+      "pass": true
+    },
+    {
+      "name": "belowgate",
+      "pass": true
+    },
+    {
+      "name": "ecocodingidentity",
+      "pass": true
+    },
+    {
+      "name": "ecomappingidentity",
+      "pass": true
+    },
+    {
+      "name": "ecovec",
+      "pass": true
+    },
+    {
+      "name": "ecoevidence",
+      "pass": true
+    },
+    {
+      "name": "concodingidentity",
+      "pass": true
+    },
+    {
+      "name": "conmappingidentity",
+      "pass": true
+    },
+    {
+      "name": "convec",
+      "pass": true
+    },
+    {
+      "name": "conevidence",
+      "pass": true
+    },
+    {
+      "name": "oldsourceidentity0",
+      "pass": true
+    },
+    {
+      "name": "oldsourceidentity1",
+      "pass": true
+    },
+    {
+      "name": "oldsourceidentity2",
+      "pass": true
+    },
+    {
+      "name": "oldsourceidentity3",
+      "pass": true
+    },
+    {
+      "name": "oldsourceidentity4",
+      "pass": true
+    },
+    {
+      "name": "oldsourceidentity5",
+      "pass": true
+    },
+    {
+      "name": "oldsourceidentity6",
+      "pass": true
+    },
+    {
+      "name": "untouchedaxisrep",
+      "pass": true
+    },
+    {
+      "name": "untouchedaxispod",
+      "pass": true
+    },
+    {
+      "name": "untouchedaxisdip",
+      "pass": true
+    },
+    {
+      "name": "untouchedaxisint",
+      "pass": true
+    },
+    {
+      "name": "untouchedaxiseco",
+      "pass": true
+    },
+    {
+      "name": "untouchedaxiscon",
+      "pass": true
+    },
+    {
+      "name": "untouchedaxiscom",
+      "pass": true
+    },
+    {
+      "name": "untouchedaxisrel",
+      "pass": true
+    },
+    {
+      "name": "untouchedaxistec",
+      "pass": true
+    },
+    {
+      "name": "estmedium",
+      "pass": true
+    },
+    {
+      "name": "estapprovedvalue",
+      "pass": true
+    },
+    {
+      "name": "estunknownremoved",
+      "pass": true
+    },
+    {
+      "name": "estsupportedcrosswalk",
+      "pass": true
+    },
+    {
+      "name": "imimedium",
+      "pass": true
+    },
+    {
+      "name": "imiapprovedvalue",
+      "pass": true
+    },
+    {
+      "name": "imiunknownremoved",
+      "pass": true
+    },
+    {
+      "name": "imisupportedcrosswalk",
+      "pass": true
+    },
+    {
+      "name": "mormedium",
+      "pass": true
+    },
+    {
+      "name": "morapprovedvalue",
+      "pass": true
+    },
+    {
+      "name": "morunknownremoved",
+      "pass": true
+    },
+    {
+      "name": "morsupportedcrosswalk",
+      "pass": true
+    },
+    {
+      "name": "unknownreasonretainedrep",
+      "pass": true
+    },
+    {
+      "name": "unknownreasonretainedpod",
+      "pass": true
+    },
+    {
+      "name": "unknownreasonretaineddip",
+      "pass": true
+    },
+    {
+      "name": "unknownreasonretainedint",
+      "pass": true
+    },
+    {
+      "name": "unknownreasonretainedcom",
+      "pass": true
+    },
+    {
+      "name": "unknownreasonretainedrel",
+      "pass": true
+    },
+    {
+      "name": "unknownreasonretainedtec",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:social-democracy",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:democratic-socialism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:social-liberalism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:libertarianism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:green-politics",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:christian-democracy",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:bernie-sanders",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:nelson-mandela",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:friedrich-hayek",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:mahatma-gandhi",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:john-stuart-mill",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:karl-marx",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:albert-einstein",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:friedrich-engels",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:nicolas-de-condorcet",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:thomas-paine",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:george-soros",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:alan-turing",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:eduard-bernstein",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:olof-palme",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:uruguay",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:denmark",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:united-states",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:singapore",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:germany",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:new-zealand",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:brazil",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:japan",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:india",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:south-africa",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:indonesia",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:mexico",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:turkey",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:saudi-arabia",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:france",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:paris-commune-1871",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:us-new-deal-1933",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:brazil-estado-novo-1937",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:imperial-japan-1931",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:cuba-revolutionary-1959",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:portugal-estado-novo-1933",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:chile-pinochet-1973",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:roc-taiwan-1949",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:france-de-gaulle-1958",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:chile-up-1970",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:uk-attlee-1945",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:weimar-republic",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:yugoslavia-1974",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ussr-1977",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-classical-liberalism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-ordoliberalism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-neoliberalism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-conservatism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-social-conservatism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-national-conservatism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-christian-socialism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-distributism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-market-socialism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-revolutionary-socialism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-marxism-leninism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-maoism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-trotskyism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-luxemburgism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-eurocommunism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-council-communism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-anarcho-communism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-anarcho-syndicalism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-mutualism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-pacifist-anarchism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-democratic-confederalism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-eco-socialism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-feminist-socialism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-agrarian-socialism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-civic-nationalism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-anticolonial-nationalism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-pan-africanism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-developmentalism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-agrarian-populism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-technocracy",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-fascism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-islamic-democracy",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-arab-socialism-libya-1969",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-republicanism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-national-liberation-socialism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-georgism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-communalism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-fabianism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-dependency-theory",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-indigenous-autonomy",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-left-ujamaa",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-left-nkrumaism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-left-sankarism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-left-nasserism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-left-baathism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-left-marhaenism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-left-mariateguismo",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-left-aprismo",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-left-magonismo",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-left-guevarism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-left-sandinismo-1969",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-left-chavismo",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-left-allendismo",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-left-african-socialism-senghor",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-left-african-socialism-toure",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-left-frelimismo",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-left-mplaism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-left-burmese-way",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-left-juchae",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-left-ho-chi-minh-thought",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-left-castroism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-left-hoxhaism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-left-yugoslav-self-management",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-left-austromarxism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-left-menshevism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-left-narodnism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-left-bordigism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-left-third-camp-socialism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-left-guild-socialism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-left-revolutionary-syndicalism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-left-industrial-workers-of-world",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-left-de-leonism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-left-cooperative-movement",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-left-anarcho-collectivism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-left-black-anarchism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-left-anarcha-feminism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-left-platformism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-left-especifismo",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-left-insurrectionary-anarchism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-left-individualist-anarchism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-left-korean-anarchism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-left-japanese-anarchism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-left-anarcho-primitivism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-left-socialisme-ou-barbarie",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-left-operaismo",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-left-autonomist-marxism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-left-situationist-international",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-left-communization-theory",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-left-mao-spontex",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-left-participatory-economics",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-left-solidarity-economy",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-left-lohia-socialism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-left-irish-socialist-republicanism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-left-tudehism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-left-black-panther-platform",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:civic-participatory-democracy",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:civic-direct-democracy",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:civic-deliberative-democracy",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:civic-consociational-democracy",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:civic-constitutional-democracy",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:civic-parliamentarism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:civic-federal-republicanism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:civic-european-supranationalism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:civic-cosmopolitan-democracy",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:civic-world-federalism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:civic-multilateralism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:civic-human-rights-constitutionalism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:civic-open-government",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:civic-deliberative-assemblies",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:civic-liquid-democracy",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:civic-digital-democracy",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:civic-digital-state",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:civic-cybernetic-governance",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:civic-transhumanism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:civic-techno-progressivism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:civic-human-centered-ai",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:civic-open-science",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:civic-precaution",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:civic-degrowth",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:civic-ecomodernism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:civic-environmental-justice",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:civic-climate-justice",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:civic-earth-stewardship",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:civic-bioregionalism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:civic-sustainable-development",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:civic-human-development",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:civic-capability-approach",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:civic-basic-needs-development",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:civic-inclusive-growth",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:civic-green-economy",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:civic-circular-economy",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:civic-just-transition",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:civic-green-new-deal",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:civic-mission-innovation",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:civic-national-innovation-system",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:civic-post-washington",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:civic-keynesian-policy",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:civic-commons-governance",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:civic-climate-commons",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:civic-human-security",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:civic-nonalignment",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:civic-right-to-city",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:civic-public-value",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:civic-open-data",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:civic-digital-rights",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-right-one-nation-conservatism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-right-neoconservatism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-right-paleoconservatism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-right-fusionism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-right-new-right",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-right-red-toryism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-right-compassionate-conservatism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-right-conservative-environmentalism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-right-free-market-environmentalism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-right-conservative-localism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-right-national-liberalism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-right-constitutional-liberalism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-right-austrian-liberalism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-right-market-liberalism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-right-minarchism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-right-anarcho-capitalism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-right-objectivism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-right-voluntaryism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-right-agorism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-right-paleolibertarianism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-right-libertarian-conservatism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-right-austrian-libertarianism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-right-chicago-monetarism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-right-supply-side-economics",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-right-monarchism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-right-absolute-monarchy",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-right-divine-right-monarchy",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-right-constitutional-monarchism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-right-legitimism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-right-orleanism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-right-bonapartism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-right-carlism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-right-integral-nationalism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-right-imperial-conservatism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-right-francoism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-right-falangism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-right-national-syndicalism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-right-italian-fascist-corporatism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-right-portuguese-corporatism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-right-austrofascist-corporatism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-right-showa-statism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-right-bismarckian-state-conservatism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-right-traditionalist-conservatism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-right-thatcherism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-right-reagan-conservatism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-right-japanese-postwar-conservatism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-right-communitarian-conservatism-singapore",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-right-polish-national-democracy",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-right-integralismo-lusitano",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-right-slavophilism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-right-eurasianism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-right-technolibertarianism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-right-technocratic-neoliberalism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-right-conservative-revolution",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-right-ulster-unionism",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:lula-da-silva",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:cyril-ramaphosa",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:william-ruto",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:julius-malema",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:netumbo-nandi-ndaitwah",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:duma-boko",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:narendra-modi",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:xi-jinping",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:lai-ching-te",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:tsai-ing-wen",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:claudia-sheinbaum",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:gustavo-petro",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:javier-milei",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:gabriel-boric",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:nayib-bukele",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ursula-von-der-leyen",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:pedro-sanchez",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:emmanuel-macron",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:giorgia-meloni",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:viktor-orban",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:volodymyr-zelenskyy",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:sviatlana-tsikhanouskaya",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:donald-trump",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:joe-biden",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:alexandria-ocasio-cortez",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:elizabeth-warren",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ron-desantis",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:reza-pahlavi",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:greta-thunberg",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:malala-yousafzai",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:dalai-lama",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:abdullah-ii",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:anwar-ibrahim",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:thomas-piketty",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:arundhati-roy",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:hassan-rouhani",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:simon-bolivar",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:jose-marti",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:emiliano-zapata",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:benito-juarez",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:lazaro-cardenas",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:kwame-nkrumah",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:julius-nyerere",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:thomas-sankara",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:amilcar-cabral",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:patrice-lumumba",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:leopold-senghor",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:frantz-fanon",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:wangari-maathai",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:sun-yat-sen",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:b-r-ambedkar",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:muhammad-ali-jinnah",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:jawaharlal-nehru",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:rabindranath-tagore",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:lee-kuan-yew",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ho-chi-minh",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:aung-san",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:jean-jacques-rousseau",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:mary-wollstonecraft",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:hannah-arendt",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:rosa-luxemburg",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:antonio-gramsci",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:winston-churchill",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:charles-de-gaulle",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:karl-popper",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:simone-de-beauvoir",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:frederick-douglass",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:abraham-lincoln",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:franklin-roosevelt",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:martin-luther-king-jr",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:malcolm-x",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ilhan-omar",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:rashida-tlaib",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ayanna-pressley",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ro-khanna",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:emma-goldman",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:henry-david-thoreau",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:william-morris",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:william-godwin",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:argentina-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:canada-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:australia-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:united-kingdom-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:italy-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:spain-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:portugal-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:netherlands-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:norway-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:finland-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:poland-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:czechia-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:hungary-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ukraine-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:russia-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:china-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:south-korea-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:taiwan-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:philippines-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:thailand-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:malaysia-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:vietnam-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:pakistan-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:bangladesh-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:israel-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:iran-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:uae-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:egypt-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:morocco-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:nigeria-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:kenya-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ethiopia-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ghana-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:senegal-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:chile-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:colombia-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:peru-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:bolivia-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:costa-rica-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:iceland-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:austria-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:switzerland-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ireland-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:greece-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:brazil-military-regime-1964",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:argentina-junta-1976",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:mexico-pri-hegemony",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:venezuela-punto-fijo",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:peru-velasco-1968",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:uruguay-civic-military-1973",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:cuba-batista-1952",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:us-confederacy-1861",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:us-reconstruction-1865",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:france-third-republic",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:france-vichy-1940",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:france-fourth-republic",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:italy-fascist-regime",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:italy-postwar-republic",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:german-empire-1871",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:germany-third-reich",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:east-germany-gdr",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:russian-empire-1906",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:russian-provisional-1917",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ussr-stalin",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:russia-yeltsin",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:spanish-second-republic",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:spain-franco",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:portugal-first-republic",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:greece-military-junta",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ottoman-tanzimat",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:british-raj",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:india-nehru",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:pakistan-zia",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:bangladesh-mujib",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:iran-pahlavi",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:iran-constitutional-revolution",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:iran-early-islamic-republic",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:israel-founding-government",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:north-korea-kim-il-sung",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:south-korea-park",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:qing-dynasty-late",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:roc-mainland-1912",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:china-deng-reform",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:us-articles-confederation-1781",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:german-confederation-1815",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:sardinia-statuto-1848",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:republic-texas-1836",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:algeria-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:angola-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:benin-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:botswana-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:burkina-faso-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:cameroon-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:democratic-republic-of-the-congo-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:republic-of-the-congo-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:cote-divoire-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:gabon-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:gambia-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:guinea-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:guinea-bissau-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:lesotho-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:liberia-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:libya-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:madagascar-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:malawi-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:mali-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:mauritania-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:mauritius-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:mozambique-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:namibia-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:niger-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:rwanda-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:sierra-leone-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:somalia-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:south-sudan-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:sudan-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:tanzania-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:tunisia-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:uganda-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:zambia-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:zimbabwe-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:cuba-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:dominican-republic-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:el-salvador-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:guatemala-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:honduras-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:jamaica-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:nicaragua-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:panama-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:paraguay-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:venezuela-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:albania-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:belgium-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:bulgaria-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:croatia-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:estonia-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:latvia-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:lithuania-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:luxembourg-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:moldova-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:montenegro-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:north-macedonia-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:romania-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:serbia-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:slovakia-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:slovenia-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:armenia-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:azerbaijan-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:kazakhstan-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:kyrgyzstan-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:mongolia-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:nepal-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:benin-peoples-republic-1975",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:burkina-sankara-1983",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:algeria-fln-one-party-1962",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:angola-mpla-one-party-1975",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:mozambique-frelimo-1975",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:tanzania-ujamaa-1967",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:zambia-unip-one-party-1973",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:uganda-amin-1971",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:somalia-barre-1969",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:libya-jamahiriya-1977",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:zimbabwe-mugabe-early-1980",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:paraguay-stroessner-1954",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:nicaragua-somoza-1937",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:guatemala-military-governments-1954",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ecuador-military-regime-1972",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:colombia-conservative-hegemony-1886",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:czechoslovakia-first-republic-1918",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:albania-hoxha-1946",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:romania-kingdom-1923",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:south-vietnam-1955",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:cambodia-sangkum-1955",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:afghanistan-pdpa-1978",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:nepal-panchayat-1962",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:sri-lanka-executive-presidency-1978",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:cote-divoire-one-party-1960",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:belize-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:bahamas-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:barbados-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:antigua-and-barbuda-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:dominica-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:grenada-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:st-kitts-and-nevis-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:st-lucia-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:st-vincent-and-the-grenadines-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:trinidad-and-tobago-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:jose-rizal",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:yukichi-fukuzawa",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:domingo-faustino-sarmiento",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:leo-tolstoy",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:bertrand-russell",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:voltairine-de-cleyre",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:olaudah-equiano",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:dadabhai-naoroji",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:cory-booker",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ed-markey",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:jeff-merkley",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:pramila-jayapal",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:tammy-baldwin",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:rand-paul",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:josh-hawley",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ted-cruz",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:mike-lee",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:poland-peoples-republic-1952",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:czechoslovakia-socialist-unitary-1960",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:poland-april-charter-1935",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:hawaii-republic-1894",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:norway-swedish-union-1814",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:finland-constitution-republic-1919",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:dominican-san-cristobal-1844",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:research-brazil-imperial-charter-1824",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:andorra-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:liechtenstein-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:monaco-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:san-marino-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:malta-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:cyprus-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:bosnia-and-herzegovina-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:fiji-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:samoa-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:tonga-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:na-sojourner-truth",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:na-web-du-bois",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:na-ida-b-wells",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:giuseppe-mazzini",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:olympe-de-gouges",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:mao-zedong-1940-new-democracy",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:salvador-allende",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ashoka-edicts",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:na-booker-t-washington",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:na-robert-la-follette",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:france-constitutional-monarchy-1791",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:france-second-republic-1848",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:irish-free-state-1922",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:mexico-first-federal-republic-1824",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:hawaii-kingdom-independent",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:france-second-empire-1852",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:north-german-confederation-1867",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:france-bourbon-restoration-1814",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:france-july-monarchy-1830",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:belgium-unitary-kingdom-1831",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:afghanistan-constitutional-monarchy-1964",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:nepal-multiparty-monarchy-1990",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:philippines-commonwealth-1935",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:bavaria-kingdom-1818",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:spain-democratic-monarchy-1869",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:philippines-first-republic-1899",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:tawakkol-karman",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:shirin-ebadi",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:narges-mohammadi",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:maria-ressa",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:denis-mukwege",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:mary-robinson",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:helen-clark",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:juan-manuel-santos",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:hina-jilani",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ernesto-zedillo",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ban-ki-moon",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:zeid-raad-al-hussein",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:lakhdar-brahimi",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ricardo-lagos",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ziauddin-yousafzai",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:jacinda-ardern",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:jeremy-corbyn",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:gro-harlem-brundtland",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:albert-luthuli",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:samora-machel",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:kofi-annan",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:desmond-tutu",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:apolinario-mabini",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:david-ben-gurion-1948",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:immanuel-kant",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:thomas-hobbes",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:john-locke",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:peter-kropotkin",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:iceland-kingdom-1918",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:south-africa-union-1910",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:burma-parliamentary-union-1948",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ceylon-dominion-1948",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:iraq-kingdom-1921",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:egypt-kingdom-1922",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:newfoundland-commission-1934",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:portugal-charter-monarchy-1826",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ricardo-flores-magon",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:fidel-castro",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:mustafa-kemal-ataturk",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:sukarno-1945-pancasila",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:mohammad-hatta",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:vladimir-lenin",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:leon-trotsky",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:clr-james",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:jose-carlos-mariategui",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:harriet-taylor-mill",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ellen-johnson-sirleaf",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:leymah-gbowee",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:kailash-satyarthi",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:jose-ramos-horta",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:anthony-albanese",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:christopher-luxon",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:keir-starmer",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:bassirou-diomaye-faye",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:john-mahama",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:bola-ahmed-tinubu",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:colombia-federal-1863",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:uruguay-founder-constitution-1830",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:central-america-federation-1824",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:joseph-stiglitz",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:adriana-abdenur",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:winnie-byanyima",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:jayati-ghosh",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:imraan-valodia",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:wanga-zembe-mkabile",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:mia-mottley",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:mario-draghi",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:christine-lagarde",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:janet-yellen",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:nadia-murad",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:amina-mohammed",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:antonio-guterres",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:lee-jae-myung",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:lawrence-wong",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:prabowo-subianto",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:mexico-central-republic-1835",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:chile-original-charter-1833",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:gran-colombia-union-1819",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:peru-bolivia-confederation-1836",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ralph-bunche",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:na-lester-b-pearson",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:sean-macbride",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:andrei-sakharov",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:mother-teresa",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:albert-schweitzer",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:willy-brandt",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:emily-greene-balch",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:linus-pauling",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:norman-angell",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:rene-cassin",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:john-hume",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:kim-dae-jung",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:joseph-rotblat",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ella-baker",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:venezuela-first-republic-1811",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ecuador-founder-order-1830",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:chile-liberal-order-1828",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:friedrich-merz",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:peter-obi",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:na-thomas-jefferson",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:na-george-washington",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:na-james-madison",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:na-james-monroe",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:atiku-abubakar",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:andrej-babis",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:na-hillary-clinton",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:austria-first-republic-parliamentary-1918",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:turkey-founder-republic-before-coup-1923",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:uruguay-dual-executive-order-1919",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-program-technocracy-inc-2004",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-program-anarcho-syndicalism-iwa-2022",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-program-insurrectionary-anarchism-bonanno-1999",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-program-participatory-economics-hahnel-2014",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-program-democratic-socialism-dsa-2026",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-program-social-democracy-spd-1959",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-program-anarcho-primitivism-zerzan-1994-2016",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:portugal-revolution-council-1976",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:argentina-first-peron-administration-1946",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:yolanda-diaz",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:jo-swinson",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:marina-silva",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:nikolai-bukharin",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:warren-g-harding",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:august-bebel",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:robert-owen",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-program-zapatista-autonomy-ezln-1993-1996",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:henry-george",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:karl-kautsky",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:charlotte-perkins-gilman",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:edward-bellamy",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:lucy-parsons",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:hubert-harrison",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:xochitl-galvez",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:anura-kumara-dissanayake",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:maia-sandu",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:salome-zourabichvili",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:samia-suluhu-hassan",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:nigeria-first-civilian-order-1960",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:nigeria-second-republic-1979",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ghana-first-republic-1960",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:tanganyika-independent-1961",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:south-korea-rhee-government-1948",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:rutherford-b-hayes",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:james-a-garfield",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:benjamin-harrison",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:william-mckinley",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:zachary-taylor",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:flora-tristan",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:sarah-moore-grimke",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:angelina-emily-grimke",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:josephine-butler",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:jane-addams",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-program-panarchy-de-puydt-1860",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-program-socialist-self-management-tito-1950",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:zambia-first-republic-1964",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:uganda-independent-parliamentary-order-1962",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:kenya-kenyatta-founding-government-1963",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:malawi-banda-independent-government-1964",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:senegal-senghor-founding-government-1960",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:mali-sovereign-federation-1960",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:dahomey-founding-civil-republic-1960",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:upper-volta-first-independent-republic-1960",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:madagascar-tsiranana-founding-government-1960",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:congo-brazzaville-youlou-founding-order-1960",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:cameroon-federal-reunification-order-1961",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:burundi-independent-kingdom-1962",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:anna-julia-cooper",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:mary-church-terrell",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:elizabeth-cady-stanton",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:lucretia-coffin-mott",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:millicent-garrett-fawcett",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:pandita-ramabai",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:marcus-mosiah-garvey",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:julia-ward-howe",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ernestine-louise-rose",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:frances-ellen-watkins-harper",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:john-dewey",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:william-james",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:leonard-trelawny-hobhouse",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:hakainde-hichilema",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:kamla-persad-bissessar",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:irfaan-ali",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:antonio-jose-seguro",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:maryam-nawaz",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:muhammad-yunus",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:kaja-kallas",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:roberta-metsola",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:michelle-obama",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:leni-robredo",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:kemi-badenoch",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:droupadi-murmu",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:hun-manet",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:tharman-shanmugaratnam",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:pita-limjaroenrat",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:faisal-bin-farhan",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:reem-al-hashimy",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:tamim-bin-hamad-al-thani",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:nawaf-salam",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:joseph-aoun",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:hilda-heine",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:sitiveni-rabuka",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:fiame-naomi-mataafa",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:feleti-teo",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:surangel-whipps-jr",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-program-revolutionary-popular-socialism-narodnaya-volya-1881",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ideology-program-conservative-constitution-disraeli-1872",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:kamala-harris",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:catherine-connolly",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:judith-suminwa",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:sanae-takaichi",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:sara-duterte",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:winston-peters",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:penny-wong",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:yvonne-aki-sawyerr",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:ralph-gonsalves",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:brazil-fourth-republic-1946",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:brazil-first-republic-1889",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:cuba-constitutional-republic-1940",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:grover-cleveland",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:gerrard-winstanley",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:na-william-howard-taft",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:aristotle",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:na-john-adams",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:calvin-coolidge",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:clement-attlee",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:na-herbert-hoover",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:mikhail-bakunin",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:marine-le-pen",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:jeannette-jara",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:michelle-bachelet",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:dilma-rousseff",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:luisa-gonzalez",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:myriam-bregman",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:jill-stein",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:jean-luc-melenchon",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:cabo-verde-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:sao-tome-and-principe-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:seychelles-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:comoros-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:djibouti-current-2025",
+      "pass": true
+    },
+    {
+      "name": "unrelatedidentity:eswatini-current-2025",
+      "pass": true
+    },
+    {
+      "name": "changedbeforefailclosed",
+      "pass": true
+    },
+    {
+      "name": "changedpostfailclosed",
+      "pass": true
+    }
+  ],
+  "checkCount": 870,
+  "allPassed": true,
+  "gate": 6,
+  "coverageBefore": 2,
+  "coveragePost": 5,
+  "eligibilityDelta": 0,
+  "noSourceReadsRepeated": true,
+  "literalVerdict": "ACCEPT exact frozen0397fa payload for Root integration judgment; no wholeprofile eligibility or practice certificate",
+  "sourceJudgmentReport": "/workspace/12eixos-grouped-results-20261009/reference/bounded-method-review.json",
+  "MORCrosswalkAssessment": {
+    "moral_02": "Establishedfamily/custom reform pertinent; not universal rejection of traditions.",
+    "moral_06": "Heterosexualmarriage limitation documented as counter, not liberalmarriage answer.",
+    "moral_18": "Spouseequal occupation/property/domestic standing pertinent to genderroles.",
+    "noImputedQuestionAnswers": true,
+    "noAbortionOrGenderIdentityIDs": true
+  },
+  "allowedTopLevelChangedFields": [
+    "vec",
+    "rationale",
+    "caveats",
+    "sources",
+    "evidence",
+    "axisEvidence",
+    "coding",
+    "unknownAxisReasons"
+  ],
+  "mapHookStatusAtReview": "Not yet added to references.ts when independentruntime executed; review covers exacthelper replay, not actualpost integration.",
+  "iterationHistory": "Initial11147 candidate omittedrelatedQuestionIds; author added pertinent02/06/18 beforefreeze. First reviewerassertion expectingomission failed against concurrentrevision; final870checks explicitly bind revised0397fa bytes."
+}

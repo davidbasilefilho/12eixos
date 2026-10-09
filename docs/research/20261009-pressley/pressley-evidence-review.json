@@ -1,0 +1,303 @@
+{
+  "status": "research documentation accepted by Root; TEC held unknown; no data integration or numeric coding",
+  "personId": "ayanna-pressley",
+  "name": "Ayanna Pressley",
+  "date": "2026-10-09",
+  "checkpoint": "86bc2147b7a3ac3ebdabc65ce65e07299032decb",
+  "priorWholeSha256": "dfd46be0ea3b737af42b9b66613dff4558d5893e311a79131ed71125f9d184f4",
+  "currentDocumentedAxes": [
+    "rep",
+    "pod",
+    "imi",
+    "dip",
+    "mor"
+  ],
+  "currentAxisCount": 5,
+  "priorFiveReviewScope": "Full objects preserved and inspected; prior actual source reviews remain attributed to existing accepted reports. They were not freshly recertified in this bounded technology research.",
+  "priorFiveClaims": {
+    "rep": {
+      "axis": "rep",
+      "position": "moderate-first",
+      "confidence": "medium",
+      "claims": [
+        {
+          "locator": "Declaração própria linhas 46–47; contexto 48–56",
+          "statement": "Defende representação fiel às preferências eleitorais e reformas inclusivas em todos os níveis; apoia voto ranqueado.",
+          "basis": "declaration",
+          "publishedDate": "2024-06-12",
+          "accessedDate": "2026-10-08",
+          "sourceTitle": "Pressley Applauds Boston City Council’s Ranked Choice Voting Home Rule Petition — 2024-06-12"
+        }
+      ],
+      "rationale": "Defende representação eleitoral e reformas inclusivas em todos os níveis, não apenas resultado eleitoral local.",
+      "uncertainty": "Declaração não cobre toda arquitetura de separação de poderes. Fonte de 2024; não integrar como posição recém-publicada em 2026.",
+      "relatedQuestionIds": [
+        "representacao_01",
+        "representacao_07"
+      ],
+      "reviewedOn": "2026-10-08",
+      "version": "editorial-ordinal-v1",
+      "value": 60,
+      "range": [
+        55,
+        70
+      ]
+    },
+    "pod": {
+      "axis": "pod",
+      "position": "moderate-second",
+      "confidence": "medium",
+      "claims": [
+        {
+          "locator": "Três parágrafos; linhas 1–3",
+          "statement": "Propõe substituir encarceramento em massa, desigualdades da fiança e pena de morte por sistema centrado em liberdade e dignidade.",
+          "basis": "declaration",
+          "publishedDate": "undated; página disponível na consulta de 2026-10-08, sem data editorial inferida",
+          "accessedDate": "2026-10-08",
+          "sourceTitle": "Transforming Our Criminal Legal System — página de campanha sem data"
+        },
+        {
+          "locator": "Linhas 47–51, 74, 78–85",
+          "statement": "Endossa desencarceramento, responsabilização policial e limites a vigilância biométrica.",
+          "basis": "declaration",
+          "publishedDate": "2025-05-23",
+          "accessedDate": "2026-10-08",
+          "sourceTitle": "Ahead of George Floyd Anniversary, Pressley Reintroduces Suite of Bills to Transform Criminal Legal System, Improve Police Accountability — 2025-05-23"
+        }
+      ],
+      "rationale": "Reforma geral da coerção penal, responsabilização policial e limites à vigilância, preservando segurança e punição de abusos.",
+      "uncertainty": "A plataforma sem data menciona Biden e não foi datada como2026. Fonte própria de 23/05/2025 amplia o recorte explicitamente; moratória biométrica, linha 74, é citada retrospectivamente como proposta de março de 2023, sem nova apresentação2025 presumida. Projetos anexos não lidos e promessas/resultados não auditados. Segurança e responsabilização criminal de agentes por abuso permanecem; vigilância aqui é biométrica, não toda coleta de dados.",
+      "relatedQuestionIds": [
+        "poder_05",
+        "poder_15"
+      ],
+      "reviewedOn": "2026-10-08",
+      "version": "editorial-ordinal-v1",
+      "value": 40,
+      "range": [
+        30,
+        45
+      ]
+    },
+    "imi": {
+      "axis": "imi",
+      "position": "moderate-second",
+      "confidence": "medium",
+      "claims": [
+        {
+          "locator": "Dois parágrafos; linhas 1–2",
+          "statement": "Defende acolhimento por refúgio, família ou oportunidade e acesso inclusivo a instituições independentemente do status migratório.",
+          "basis": "declaration",
+          "publishedDate": "undated; página disponível na consulta de 2026-10-08, sem data editorial inferida",
+          "accessedDate": "2026-10-08",
+          "sourceTitle": "A Just and Humane Immigration System — página de campanha sem data"
+        }
+      ],
+      "rationale": "Acolhimento amplo por refúgio, família ou oportunidade e inclusão institucional, sem programa completo de idiomas ou costumes.",
+      "uncertainty": "Não especifica regimes de idioma, manutenção de todos os costumes, cidadania ou entrada irrestrita; inclusão não é prova automática de toda política cultural.",
+      "relatedQuestionIds": [
+        "imigracao_12",
+        "imigracao_19"
+      ],
+      "reviewedOn": "2026-10-08",
+      "version": "editorial-ordinal-v1",
+      "value": 40,
+      "range": [
+        30,
+        45
+      ]
+    },
+    "dip": {
+      "axis": "dip",
+      "position": "moderate-second",
+      "confidence": "medium",
+      "claims": [
+        {
+          "locator": "Primeiro e quarto parágrafos; linhas 1 e 4",
+          "statement": "Prioriza diplomacia e coalizões mundialmente; ação militar é último recurso.",
+          "basis": "declaration",
+          "publishedDate": "undated; página disponível na consulta de 2026-10-08, sem data editorial inferida",
+          "accessedDate": "2026-10-08",
+          "sourceTitle": "Foreign Policy Centered on Empathy and the Pursuit of Peace — página de campanha sem data"
+        }
+      ],
+      "rationale": "Regra global de diplomacia e coalizões, com força militar como último recurso.",
+      "uncertainty": "Uso de força não é rejeitado em absoluto. Não codifica INT a partir de DIP.",
+      "relatedQuestionIds": [
+        "diplomacia_01"
+      ],
+      "reviewedOn": "2026-10-08",
+      "version": "editorial-ordinal-v1",
+      "value": 40,
+      "range": [
+        30,
+        45
+      ]
+    },
+    "mor": {
+      "axis": "mor",
+      "position": "moderate-first",
+      "confidence": "medium",
+      "claims": [
+        {
+          "locator": "Ambos os parágrafos",
+          "statement": "Defende autonomia corporal, aborto e contracepção acessíveis.",
+          "basis": "declaration",
+          "publishedDate": "undated; página disponível na consulta de 2026-10-08, sem data editorial inferida",
+          "accessedDate": "2026-10-08",
+          "sourceTitle": "Abortion Care as a Human Right — página de campanha sem data"
+        },
+        {
+          "locator": "Parágrafos 1–2 do texto indexado",
+          "statement": "Endossa igualdade LGBTQ e reconhecimento do nome de pessoas trans.",
+          "basis": "declaration",
+          "publishedDate": "undated; página disponível na consulta de 2026-10-08, sem data editorial inferida",
+          "accessedDate": "2026-10-08",
+          "sourceTitle": "Standing Up Against Hate and Violence — página de campanha sem data"
+        }
+      ],
+      "rationale": "Autonomia reprodutiva e reconhecimento social de pessoas trans e igualdade LGBT combinam facetas amplas de emancipação.",
+      "uncertainty": "Não especifica todos os temas de moral. Não transportar o slug como prova de direitos LGBTQ. Não equivale a qualquer posição concebível sobre costumes. Recuperação indexada; resultados das propostas não auditados.",
+      "relatedQuestionIds": [
+        "moral_03",
+        "moral_09"
+      ],
+      "reviewedOn": "2026-10-08",
+      "version": "editorial-ordinal-v1",
+      "value": 60,
+      "range": [
+        55,
+        70
+      ]
+    }
+  },
+  "sourcesActuallyRead": [
+    {
+      "title": "Pressley, Lynch, Colleagues Announce Legislation to Develop Electronic Version of U.S. Dollar",
+      "url": "https://pressley.house.gov/2022/03/30/pressley-lynch-colleagues-announce-legislation-develop-electronic-version-us/",
+      "publishedDate": "2022-03-30",
+      "scope": "Cabeçalho42–43 e texto45–70; fala própria48; desenho do projeto56–57.",
+      "finding": "A fala nominal de Pressley adota inovação financeira inclusiva com proteção do consumidor e privacidade. O gabinete descreve um piloto de moeda eletrônica interoperável, transações offline e restrições legais.",
+      "counter": "Não transferir a ela as falas de Lynch/García ou os pareceres externos. Publicação30/03 relata anúncio no dia anterior; não confundir ambas as datas. Piloto proposto, não execução certificada.",
+      "accessedDate": "2026-10-09",
+      "reader": "/root/public_continue",
+      "accessMode": "direct-web-rendered-text",
+      "basis": "declaration"
+    },
+    {
+      "title": "House Passes COMPETES Act with Key Pressley Amendments",
+      "url": "https://pressley.house.gov/2022/02/04/house-passes-competes-act-key-pressley-amendments/",
+      "publishedDate": "2022-02-04",
+      "scope": "Cabeçalho42–43 e corpo45–56 completo; fala própria46–47; emendas49–51 e restrições53–55.",
+      "finding": "Pressley critica identificação biométrica discriminatória e endossa transparência; suas emendas propõem estudo de vieses de IA. O gabinete descreve também facilitação de permanência para doutorandos STEM.",
+      "counter": "Apoio ao título de lei sobre tecnologia/ciência não implica adesão a toda inovação. O mesmo texto registra proibição de reconhecimento facial em habitação pública e proposta de cessar uso governamental biométrico.",
+      "accessedDate": "2026-10-09",
+      "reader": "/root/public_continue",
+      "accessMode": "direct-web-rendered-text",
+      "basis": "declaration"
+    },
+    {
+      "title": "Pressley, Clarke, Markey Reintroduce AI Civil Rights Act to Eliminate AI Discrimination",
+      "url": "https://pressley.house.gov/2025/12/03/pressley-clarke-markey-reintroduce-ai-civil-rights-act-to-eliminate-ai-discrimination/",
+      "publishedDate": "2025-12-03",
+      "scope": "Cabeçalho42–45; descrição48–51; fala própria52–53; contraponto contextual88–89. Demais falas55–83 não atribuídas a Pressley.",
+      "finding": "Sua fala prioriza segurança, direitos e oportunidades diante da inovação em IA. A proposta prevê testes antes e depois da implantação e transparência de algoritmos em decisões relevantes.",
+      "counter": "Regulação de IA não prova, sozinha, preferência por expansão tecnológica sobre preservação natural. Falas gerais pró-inovação de Lee, Markey e entidades não são dela.",
+      "accessedDate": "2026-10-09",
+      "reader": "/root/public_continue",
+      "accessMode": "direct-web-rendered-text",
+      "basis": "declaration"
+    },
+    {
+      "title": "Multiple Pressley Proposals Included in House-passed Transportation and Infrastructure Bill",
+      "url": "https://pressley.house.gov/2020/07/02/multiple-pressley-proposals-included-house-passed-transportation-and/",
+      "publishedDate": "2020-07-02",
+      "scope": "Cabeçalho42–43 e corpo45–74 completo; fala própria46–47; lista de prioridades48–69; contracontrole de vigilância71.",
+      "finding": "O gabinete atribui a ela prioridades de infraestrutura, incluindo banda larga de alta velocidade para acesso educacional e familiar. O texto reúne transporte, saúde, educação e água; a própria fala apoia infraestrutura justa.",
+      "counter": "Gastos em edifícios/serviços não demonstram adoção tecnológica específica nem propriedade pública. Lista institucional de prioridades não equivale a citação literal. Vigilância discriminatória é submetida a exame.",
+      "accessedDate": "2026-10-09",
+      "reader": "/root/public_continue",
+      "accessMode": "direct-web-rendered-text",
+      "basis": "declaration"
+    },
+    {
+      "title": "Pressley Joins Secretaries Walsh, Cardona at Ben Franklin Institute to Discuss Biden-Harris Administration’s Economic Blueprint, Workforce Development Investments",
+      "url": "https://pressley.house.gov/2022/10/14/pressley-joins-secretaries-walsh-cardona-at-ben-franklin-institute-to-discuss-biden-harris-administrations-economic-blueprint-workforce-development-investments/",
+      "publishedDate": "2022-10-14",
+      "scope": "Cabeçalho42–45 e corpo48–61 completo; fala própria51–52. Falas54–59 de outros participantes não atribuídas à figura.",
+      "finding": "Sua fala apoia formação para carreiras de energia verde e pede apoio federal. O gabinete registra formação em automação predial de energia limpa.",
+      "counter": "Programa educacional local não define orientação tecnológica nacional. Não importar a ela o programa econômico inteiro de Biden ou falas dos secretários; fotos/vídeos não vistos.",
+      "accessedDate": "2026-10-09",
+      "reader": "/root/public_continue",
+      "accessMode": "direct-web-rendered-text",
+      "basis": "declaration"
+    }
+  ],
+  "heldTechnology": {
+    "axis": "tec",
+    "status": "HELD; insufficient whole-construct directional evidence",
+    "numericProposal": null,
+    "intervalProposal": null,
+    "currentValue": 50,
+    "reason": "Moeda digital, banda larga e formação em energia limpa sustentam aceitação tecnológica situada; controles biométricos/IA e prioridade socioambiental são materiais. Não foi lida uma regra geral que permita resolver a orientação Tecnologia × Biologia inteira. Nem promoção automática nem inversão para Biologia.",
+    "questionCrosswalk": {
+      "tecnologia_01": "Poucas restrições contradizem os controles explícitos; apoio incondicional não inferido.",
+      "tecnologia_03": "Nada autoriza expansão de IA/automação apesar de perda de empregos.",
+      "tecnologia_10": "Prioridade climática é contraponto à inferência tecnológica automática, não magnitude completa.",
+      "tecnologia_19": "Energia limpa não estabelece que tecnologia seja preferível à redução de consumo."
+    }
+  },
+  "scopeAndTime": "Documentos de2020/2022 e2025 são declarações distintas. Não são uma edição da plataforma sem data; não demonstram continuidade integral em2026. Se futuramente codificados, exigem recorte temporal explícito e julgamento de compatibilidade.",
+  "newAccessFindings": [
+    {
+      "url": "https://ayannapressley.com/issues/climate-crisis/",
+      "mode": "direct-web-rendered-text",
+      "body": "Ferramenta retornou título Tackling Entrenched Healthcare Disparities e corpo0–4 de saúde; não houve leitura de política climática nesse acesso. Sem autenticação de bytes ou conclusão sobre a história do URL."
+    },
+    {
+      "url": "https://ayannapressley.com/issues/economy/",
+      "mode": "direct-web-rendered-text",
+      "body": "Ferramenta retornou título Transforming Our Criminal Legal System e corpo0–3 de justiça criminal; não recertifica conteúdo econômico antigo."
+    },
+    {
+      "url": "https://ayannapressley.com/issues/transportation/",
+      "mode": "initial timeout; successful direct retry",
+      "body": "Corpo0–2 completo: transporte sustentável, energia limpa e inovação comunitária; não define o construto tecnológico inteiro."
+    },
+    {
+      "url": "https://ayannapressley.com/issues/",
+      "mode": "direct-web-rendered-text",
+      "body": "Índice0–15 lido; tentativa de seguir item de clima falhou, nenhum corpo climático certificado por essa tentativa."
+    }
+  ],
+  "noProductEdits": true,
+  "noNewScores": true,
+  "gateUnchanged": 6,
+  "countsEffect": {
+    "selected675Unchanged": true,
+    "eligible86Unchanged": true,
+    "pending589Unchanged": true
+  },
+  "portraits": "Nenhum asset baixado. Corbyn, Díaz, González e Bebel continuam com bloqueio conhecido de acesso aos bytes (403). URLs de busca de imagens não comprovam aquisição nem licença; nenhum proxy ou repetição dos downloads bloqueados foi tentado nesta pesquisa.",
+  "documentationStatus": "Documentação incorporada ao checkpoint de pesquisa do repositório; dados do catálogo não alterados.",
+  "independentReview": {
+    "decision": "HOLD TEC; value remains50, without coding/evidence/axisEvidence; no numeric interval proposed",
+    "freshPeerScopes": [
+      {
+        "sourceTitle": "Pressley, Lynch, Colleagues Announce Legislation to Develop Electronic Version of U.S. Dollar",
+        "scope": "42–57 e65–70",
+        "accessMode": "direct-web-rendered-text",
+        "reader": "/root/method_review"
+      },
+      {
+        "sourceTitle": "Pressley, Clarke, Markey Reintroduce AI Civil Rights Act to Eliminate AI Discrimination",
+        "scope": "42–53 e88–89",
+        "accessMode": "direct-web-rendered-text",
+        "reader": "/root/method_review"
+      }
+    ],
+    "otherThreeSources": "Escopos reais do autor reutilizados com atribuição explícita; não três novas leituras independentes.",
+    "priorFive": "Preservados, não recertificados por esta pesquisa delimitada.",
+    "durableExternalReport": "/workspace/12eixos-grouped-results-20261009/reference/bounded-method-review.json"
+  }
+}

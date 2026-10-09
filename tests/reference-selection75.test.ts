@@ -18,7 +18,7 @@ describe('researched 75-ideology selection and preserved archive', () => {
   test('retains the exact reviewed 818-record checkpoint, including all native14 evidence', () => {
     expect(referenceEntries).toHaveLength(818);
     expect(createHash('sha256').update(JSON.stringify(referenceEntries)).digest('hex'))
-      .toBe('f989c8d317a758f6d65af689c2bca07d560d65be000b15f0dc794ecda9d1420e');
+      .toBe('e094a0d207d138e683ae29c122ba1bda236ab2fde319e19a55782747408beca0');
     expect(fullReferenceCatalog).toHaveLength(868);
     for (const entry of referenceEntries) expect(fullReferenceCatalog.find(item => item.id === entry.id)).toBe(entry);
     expect(new Set(fullReferenceCatalog.map(entry => entry.id)).size).toBe(fullReferenceCatalog.length);
