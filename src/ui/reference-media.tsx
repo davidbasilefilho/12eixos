@@ -15,6 +15,11 @@ const historicalFlagAliases: Record<string, string> = {
   'argentina-first-peron-administration-1946': 'argentina-current-2025',
 }
 const countryFlagAspectRatios: Record<string, number> = {
+  // Native unchanged licensed historical civil flags; docs/assets-historical-flags-batch01.md.
+  'france-july-monarchy-1830': 900 / 600,
+  'irish-free-state-1922': 1200 / 600,
+  'north-german-confederation-1867': 900 / 600,
+  'czechoslovakia-socialist-unitary-1960': 900 / 600,
   // Native geometry of the packaged current-country assets.
   'grenada-current-2025': 500 / 300,
   'st-kitts-and-nevis-current-2025': 750 / 500,

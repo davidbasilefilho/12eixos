@@ -1,5 +1,9 @@
 /** Existing packaged flag files only. Missing identities intentionally have no image. */
 export const flagAssets: readonly string[] = [
+  "/assets/flags/france-july-monarchy-1830.svg",
+  "/assets/flags/irish-free-state-1922.svg",
+  "/assets/flags/north-german-confederation-1867.svg",
+  "/assets/flags/czechoslovakia-socialist-unitary-1960.svg",
   "/assets/flags/eswatini-current-2025.svg",
   "/assets/flags/djibouti-current-2025.svg",
   "/assets/flags/comoros-current-2025.svg",
