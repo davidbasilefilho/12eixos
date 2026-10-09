@@ -328,7 +328,7 @@ main {
   @apply [min-height:calc(100vh_-_145px)]; }
 .site-footer {
 
-  @apply [display:flex] [min-height:70px] [align-items:center] [justify-content:space-between] [gap:20px] [padding:15px_clamp(22px,_4vw,_58px)] [border-top:1px_solid_var(--border)] [color:var(--text-secondary)] [font-size:12px]; }
+  @apply relative z-0 bg-background [display:flex] [min-height:70px] [align-items:center] [justify-content:space-between] [gap:20px] [padding:15px_clamp(22px,_4vw,_58px)] [border-top:1px_solid_var(--border)] [color:var(--text-secondary)] [font-size:12px]; }
 .site-footer .wordmark {
 
   @apply [font-size:22px]; }
@@ -3579,3 +3579,24 @@ body:has(.quiz-page)::before { @apply hidden; }
 .share-capture-source .share-card-hero[data-extended-title='true'] .share-feature-score { @apply text-[26px]; }
 .share-capture-source .share-card-hero[data-extended-title='true'] .share-ideology-feature > p:not(:first-child) { @apply block text-[9px] leading-[1.5] overflow-visible [-webkit-line-clamp:unset]; }
 .share-capture-source .share-card-hero[data-extended-title='true'] .share-ideology-feature small { @apply text-[6.5px] leading-[1.2]; }
+
+/* Flags share a content height, while their native aspect determines the width.
+   Content-box keeps the border outside that geometry, including narrow flags. */
+:root :is(.site-shell, .share-capture-source) img[src^='/assets/flags/'] {
+  @apply w-auto! h-[var(--flag-height,24px)]! aspect-auto! object-contain! block box-content p-0 max-w-none max-h-none shrink-0 bg-transparent!;
+}
+.top-match-country { --flag-height: 64px; }
+.match-name { --flag-height: 36px; }
+.match-name:has(img[src^='/assets/flags/']),
+.match-row[open] .match-name:has(img[src^='/assets/flags/']) {
+  @apply grid-cols-[max-content_minmax(0,1fr)]!;
+}
+.share-countries { --flag-height: 28px; }
+.share-capture-source .share-countries { --flag-height: 14px; }
+.share-capture-source .share-countries > p:has(small) {
+  @apply grid-cols-[max-content_minmax(0,1fr)_auto];
+}
+@media (max-width: 640px) {
+  .top-match-country { --flag-height: 48px; }
+  .match-name { --flag-height: 30px; }
+}
