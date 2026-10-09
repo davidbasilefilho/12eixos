@@ -235,7 +235,7 @@ h1 em, h2 em {
 
   @apply [text-decoration-line:underline]; }
 .skip-link {
-
+  @apply transition-none;
   @apply [position:fixed] [z-index:var(--layer-skip-link)] [top:8px] [left:8px] [display:inline-flex] [padding:10px_15px] [border:1px_solid_var(--border)] [color:var(--text)] [background:var(--surface)] [text-decoration:none] [transform:translateY(calc(-100%_-_12px))]; }
 .skip-link:hover {
 
@@ -3142,9 +3142,9 @@ details[open] > summary svg {
 .share-capture-source .share-card-intro h2 { @apply [font-size:31px] [line-height:1.08]; }
 .share-capture-source .share-card-intro > p:not(.eyebrow) { @apply [font-size:11px] [line-height:1.4]; }
 .share-capture-source .share-ideology-feature { @apply [padding:12px] [overflow:hidden]; }
-.share-capture-source .share-ideology-feature .share-feature-score { @apply [font-size:32px]; }
-.share-capture-source .share-ideology-feature h3 { @apply [font-size:20px] [line-height:1.15]; }
-.share-capture-source .share-ideology-feature > p:not(:first-child) { @apply [font-size:10px] [line-height:1.35] [display:-webkit-box] [-webkit-box-orient:vertical] [-webkit-line-clamp:3] [overflow:hidden]; }
+.share-capture-source .share-ideology-feature .share-feature-score { @apply [font-size:30px]; }
+.share-capture-source .share-ideology-feature h3 { @apply [font-size:20px] [line-height:1.15] mb-[2px]; }
+.share-capture-source .share-ideology-feature > p:not(:first-child) { @apply text-[9px] leading-[1.35] block overflow-visible mb-[2px]; }
 .share-capture-source .share-ideology-feature small { @apply [display:block] [font-size:7px] [line-height:1.3] [white-space:normal] [overflow:visible] [text-overflow:clip]; }
 .share-capture-source .share-person-feature { @apply [grid-row:3] [gap:5px_8px] [padding:10px] [overflow:hidden]; }
 .share-capture-source .share-person-feature > img { height: 165px !important; @apply [max-height:165px]; }
@@ -3359,7 +3359,7 @@ body:has(.quiz-page)::before { @apply hidden; }
 @media(max-width:1100px) {
  .atlas-results .results-axis-list { @apply grid-cols-3; }
  .result-profile-grid { @apply grid-cols-1; }
- .result-profile-grid > div { @apply hidden; }
+ .result-profile-grid > div:not(.axis-bars) { @apply hidden; }
  .result-profile-comparisons { @apply grid-cols-1; }
  .result-profile-comparisons > section + section { @apply border-l-0 pl-0; }
  .result-summary-copy > h1 { @apply text-[45px]; }
@@ -3478,16 +3478,16 @@ body:has(.quiz-page)::before { @apply hidden; }
 .atlas-shell .hero-map { @apply top-[-125px] left-[35%] w-[80%] h-[900px] bg-[url(/assets/editorial/hero-globe.png)] bg-[length:auto_100%] bg-center opacity-[.72]; }
 .atlas-shell .hero-map::after { @apply hidden; }
 @media(max-width:640px) { .atlas-shell .hero-map { @apply top-[35px] left-[15%] w-[110%] h-[450px] opacity-[.17]; } }
-.share-capture-source .share-axes .axis-bars.compact { @apply gap-[4px] mt-[12px] content-start; }
-.share-capture-source .share-axes .axis-bars.compact .axis-bar { @apply min-h-0 h-[25px] p-0 grid-cols-[23px_96px_minmax(65px,1fr)_30px] gap-[6px]; }
+.share-capture-source .share-axes .axis-bars.compact { @apply gap-[2px] mt-[12px] content-start; }
+.share-capture-source .share-axes .axis-bars.compact .axis-bar { @apply min-h-0 h-[22px] p-0 grid-cols-[23px_96px_minmax(65px,1fr)_30px] gap-[6px]; }
 .share-capture-source .share-axes .axis-bars.compact .axis-pole { @apply text-[10px]; }
 .share-capture-source .share-axes .axis-bars.compact .axis-symbol { @apply h-[22px] w-[22px]; }
 .share-capture-source .share-people-groups { @apply block; }
-.share-capture-source .share-people-strip { @apply h-full p-[9px]; }
+.share-capture-source .share-people-strip { @apply h-full p-[7px]; }
 .share-capture-source .share-people-grid { @apply grid grid-cols-3 gap-[8px]; }
 .share-capture-source .share-person-card { @apply block min-w-0; }
 .share-capture-source .share-person-card > img { width:100% !important; height:87px !important; @apply object-contain border-0; }
-.share-capture-source .share-person-card h4 { @apply text-[11px] mt-[7px] leading-[1.15]; }
+.share-capture-source .share-person-card h4 { @apply text-[11px] mt-[3px] leading-[1.15]; }
 .share-capture-source .share-person-card strong { @apply text-[11px]; }
 .share-capture-source .share-person-card small { @apply block text-[7px] mt-[3px]; }
 .share-capture-source .share-card-lower { @apply grid-cols-[.95fr_1fr_1fr] grid-rows-1 gap-[8px]; }
@@ -3549,7 +3549,7 @@ body:has(.quiz-page)::before { @apply hidden; }
 .share-capture-source .share-countries > p small { @apply text-[6.5px] leading-[1.25]; }
 .share-capture-source .share-countries img { width:24px !important; height:14px !important; }
 .share-capture-source .share-country-groups .share-countries { @apply shrink-0 overflow-visible; }
-.share-capture-source .share-card { @apply grid-rows-[40px_200px_230px_170px_240px]; }
+.share-capture-source .share-card { @apply grid-rows-[40px_240px_230px_130px_240px]; }
 
 .share-capture-source .share-card-intro[data-long-title='true'] h2 { @apply text-[30px] leading-[1.04]; }
 .share-capture-source .share-person-feature:not(:has(> img)) { @apply grid-cols-1; }
@@ -3565,7 +3565,7 @@ body:has(.quiz-page)::before { @apply hidden; }
 .share-capture-source .share-countries > p b { @apply col-start-2 row-start-1 leading-[1.2]; }
 .share-capture-source .share-countries > p:not(:has(img)) b { @apply col-start-1 col-span-2; }
 /* Two-line secondary names retain their category caption inside the export strip. */
-.share-capture-source .share-person-card > img { height:72px !important; }
+.share-capture-source .share-person-card > img { height:40px !important; }
 
 /* Keep complete long programme names within the existing fixed capture hero. */
 .share-capture-source .share-card-hero[data-extended-title='true'] .share-card-intro h2 { @apply text-[24px] leading-[1.04]; }

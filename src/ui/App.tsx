@@ -468,6 +468,7 @@ export function QuizPage() {
       to: '/test/$length/$question',
       params: { length: String(variant!), question: String(index + 1) },
       replace: true,
+      viewTransition: false,
     })
   }
   function finish(answers: Record<string, AnswerValue>) {
@@ -733,12 +734,13 @@ export function ResultsPage() {
     } finally { setExporting(false) }
   }
   async function copyLink() {
+    const resultUrl = window.location.href
     try {
-      await navigator.clipboard.writeText(location.href)
+      await navigator.clipboard.writeText(resultUrl)
       setCopied(true)
       window.setTimeout(() => setCopied(false), 2200)
     } catch {
-      window.prompt('Copie o link do resultado:', location.href)
+      window.prompt('Copie o link do resultado:', resultUrl)
     }
   }
 
