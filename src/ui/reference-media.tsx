@@ -15,6 +15,9 @@ const historicalFlagAliases: Record<string, string> = {
   'argentina-first-peron-administration-1946': 'argentina-current-2025',
 }
 const countryFlagAspectRatios: Record<string, number> = {
+  // Native historical flags; docs/assets-historical-flags-batch02.md.
+  'nigeria-first-civilian-order-1960': 1200 / 600,
+  'uganda-independent-parliamentary-order-1962': 900 / 600,
   // Native unchanged licensed historical civil flags; docs/assets-historical-flags-batch01.md.
   'france-july-monarchy-1830': 900 / 600,
   'irish-free-state-1922': 1200 / 600,
