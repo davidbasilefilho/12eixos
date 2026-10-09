@@ -42,9 +42,9 @@ describe('seven exact reviewed ideology reconciliations', () => {
   });
   test('holds unknown axes and unchanged six-axis gate; only Hobhouse gains eligibility', () => {
     const partition = partitionMatchReferences(selectedReferenceEntries);
-    expect(partition.ranked).toHaveLength(91);
-    expect(partition.insufficientEvidence).toHaveLength(584);
-    expect(selectedReferenceEntries.reduce((total, entry) => total + Math.max(0, 6 - documentedEvidenceAxes(entry).length), 0)).toBe(2938);
+    expect(partition.ranked).toHaveLength(92);
+    expect(partition.insufficientEvidence).toHaveLength(583);
+    expect(selectedReferenceEntries.reduce((total, entry) => total + Math.max(0, 6 - documentedEvidenceAxes(entry).length), 0)).toBe(2922);
     expect(documentedEvidenceAxes(posts.find(entry => entry.id === 'ideology-egalitarian-liberalism')!)).not.toContain('eco');
     expect(documentedEvidenceAxes(posts.find(entry => entry.id === 'ideology-social-liberalism')!)).toHaveLength(8);
   });

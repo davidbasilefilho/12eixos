@@ -1,3 +1,4 @@
+import { reconcileFourthIdeologies20261009, fourthIdeologies20261009Definitions } from './reference-fourth-ideologies-20261009';
 import { reconcileThirdIdeologies20261009, thirdIdeologies20261009Definitions } from './reference-third-ideologies-20261009';
 import { reconcileParentIdeologies20261009, parentIdeologies20261009Definitions } from './reference-parent-ideologies-20261009';
 import { reconcileResearchIwa20261009 } from './reference-research-iwa-20261009';
@@ -35,7 +36,7 @@ export const selectedIdeologyEntries: ReferenceEntry[] = ideology75Profiles.map(
     axisEvidence: prior?.axisEvidence ?? {},
     coding: prior?.coding ?? {},
   };
-}).map(reconcileResearchIwa20261009).map(reconcileParentIdeologies20261009).map(reconcileThirdIdeologies20261009);
+}).map(reconcileResearchIwa20261009).map(reconcileParentIdeologies20261009).map(reconcileThirdIdeologies20261009).map(reconcileFourthIdeologies20261009);
 
 const selectedIdeologyIds = new Set(selectedIdeologyEntries.map(entry => entry.id));
 if (selectedIdeologyEntries.length !== 75 || selectedIdeologyIds.size !== 75) {
@@ -54,7 +55,7 @@ export const archivedReferenceEntries = referenceEntries.filter(entry =>
 export const fullReferenceCatalog = [
   ...referenceEntries,
   ...selectedIdeologyEntries.filter(entry => !priorById.has(entry.id)),
-].map(entry => entry.id === 'ideology-program-anarcho-syndicalism-iwa-2022' || [...parentIdeologies20261009Definitions, ...thirdIdeologies20261009Definitions].some(definition => definition.before.id === entry.id)
+].map(entry => entry.id === 'ideology-program-anarcho-syndicalism-iwa-2022' || [...parentIdeologies20261009Definitions, ...thirdIdeologies20261009Definitions, ...fourthIdeologies20261009Definitions].some(definition => definition.before.id === entry.id)
   ? selectedIdeologyEntries.find(selected => selected.id === entry.id)!
   : entry);
 

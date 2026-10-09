@@ -16,16 +16,29 @@
     "priorSelectedEligible": 94
   },
   "researchInputSha256": "ef57dcfc83eb3ba6f71a4db2bdc43fc95c69993715253967ed2f1ca3d4761883",
-  "selectedCatalogSha256": "f58194e6e386d803205e9bbd9b89c12ec1f3adea8b2c5a43d283c8c1b8d1d34b",
+  "selectedCatalogSha256": "094a5483a8e4fa04d16202576cdde9746c5d0b838ba9b23848bff12f60e978e4",
   "fullArchiveRecords": 868,
   "selectedRecords": 675,
   "reusedIdeologyReferents": 25,
   "newResearchOnlyReferents": 50,
   "archivedOutsideSelection": 193,
-  "documentaryEligible": 91,
-  "insufficientEvidence": 584,
+  "documentaryEligible": 92,
+  "insufficientEvidence": 583,
   "newMeasuredScores": 0,
-  "newEditorialAxisCodings": 45,
+  "newEditorialAxisCodings": 61,
+  "fourthIdeologyCheckpoint": {
+    "newCodings": 16,
+    "ids": [
+      "ideology-christian-democracy",
+      "ideology-distributism",
+      "ideology-catholic-integralism",
+      "ideology-jacobin-republicanism"
+    ],
+    "raw818Unchanged": true,
+    "newEligible": [
+      "ideology-distributism"
+    ]
+  },
   "thirdIdeologyCheckpoint": {
     "newCodings": 12,
     "ids": [
@@ -70,7 +83,11 @@
       "ideology-cosmopolitan-democracy",
       "ideology-communitarianism",
       "ideology-burkean-conservatism",
-      "ideology-right-neoconservatism"
+      "ideology-right-neoconservatism",
+      "ideology-christian-democracy",
+      "ideology-distributism",
+      "ideology-catholic-integralism",
+      "ideology-jacobin-republicanism"
     ],
     "rawArchiveUnchanged": true
   },
@@ -103,12 +120,13 @@
     {
       "category": "ideology",
       "selected": 75,
-      "documentaryEligible": 10,
-      "pending": 65
+      "documentaryEligible": 11,
+      "pending": 64
     }
   ],
   "limitations": [
     "Selection research is not source-truth certification or whole-axis coding.",
+    "The fourth bounded checkpoint adds16approved documentary codes. Only Chesterton gains eligibility; current675selected92eligible583pending and2922minimum missing slots. CatholicCON/JacobinIMI remain unknown, with full original records and sources retained.",
     "The third bounded checkpoint adds 12 approved documentary codes to Held, the responsive platform, Burke and Kristol. No new eligible profile: 91 eligible, 584 pending, 2938 minimum missing slots. All prior raw and selected posts remain intact.",
     "No numeric vectors are inferred from prospects. The exact seven reviewed ideology posts add27documentary ordinal codes; all unsupported axes remain unknown.",
     "Inherited raw coding remains exact. Seven additional selected ideology posts use approved source-specific inputs; IWA2022 retains its prior selected POD40medium. All old source objects and unmodified axis fields are preserved.",

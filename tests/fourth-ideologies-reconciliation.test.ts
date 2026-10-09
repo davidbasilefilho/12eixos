@@ -2,10 +2,10 @@ import { describe, expect, test } from 'bun:test';
 import { createHash } from 'node:crypto';
 import { referenceEntries, AXIS_KEYS } from '../src/data/references';
 import { selectedReferenceEntries, fullReferenceCatalog, archivedReferenceEntries } from '../src/data/reference-selected-catalog';
-import { thirdIdeologies20261009Definitions as definitions, thirdIdeologies20261009ExpectedPosts as posts, reconcileThirdIdeologies20261009 as reconcile } from '../src/data/reference-third-ideologies-20261009';
+import { fourthIdeologies20261009Definitions as definitions, fourthIdeologies20261009ExpectedPosts as posts, reconcileFourthIdeologies20261009 as reconcile } from '../src/data/reference-fourth-ideologies-20261009';
 import { documentedEvidenceAxes, partitionMatchReferences } from '../src/lib/matching';
 const hash = (value: unknown) => createHash('sha256').update(JSON.stringify(value)).digest('hex');
-describe('four exact reviewed third-batch ideology reconciliations', () => {
+describe('four exact reviewed fourth-batch ideology reconciliations', () => {
   test('keeps raw archive intact and selected/full lookups on the reviewed posts', () => {
     expect(hash(referenceEntries)).toBe('1ba985e6ad16ffb2fa3922eebf5bd5c7ebc4eb57318f014d76f745210bc0b41a');
     for (const [index, definition] of definitions.entries()) {
@@ -40,13 +40,14 @@ describe('four exact reviewed third-batch ideology reconciliations', () => {
     const untouched = selectedReferenceEntries.find(entry => !definitions.some(definition => definition.before.id === entry.id))!;
     expect(reconcile(untouched)).toBe(untouched);
   });
-  test('holds unknown axes and unchanged six-axis gate; no third-batch profile gains eligibility', () => {
+  test('holds unknown axes and unchanged six-axis gate; only Chesterton gains eligibility', () => {
     const partition = partitionMatchReferences(selectedReferenceEntries);
     expect(partition.ranked).toHaveLength(92);
     expect(partition.insufficientEvidence).toHaveLength(583);
     expect(selectedReferenceEntries.reduce((total, entry) => total + Math.max(0, 6 - documentedEvidenceAxes(entry).length), 0)).toBe(2922);
-    expect(documentedEvidenceAxes(posts.find(entry => entry.id === 'ideology-communitarianism')!)).not.toContain('eco');
-    expect(documentedEvidenceAxes(posts.find(entry => entry.id === 'ideology-right-neoconservatism')!)).not.toContain('mor');
-    for (const post of posts) expect(documentedEvidenceAxes(post).length).toBeLessThan(6);
+    expect(documentedEvidenceAxes(posts.find(entry => entry.id === 'ideology-catholic-integralism')!)).not.toContain('con');
+    const jacobin = posts.find(entry => entry.id === 'ideology-jacobin-republicanism')!;
+    for (const axis of ['imi', 'pod', 'eco']) expect(documentedEvidenceAxes(jacobin)).not.toContain(axis);
+    expect(documentedEvidenceAxes(posts.find(entry => entry.id === 'ideology-distributism')!)).toHaveLength(6);
   });
 });

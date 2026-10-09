@@ -1,0 +1,62 @@
+{
+  "status": "PASS actual integrated working tree, not a source-truth certification of every profile",
+  "checks": 1706,
+  "raw818Unchanged": true,
+  "otherSelected671Unchanged": true,
+  "otherFull864Unchanged": true,
+  "archived193Unchanged": true,
+  "rothbardEntireRecordUnchanged": true,
+  "oldSourcePrefixObjectsPreserved": true,
+  "gateMinimumAxes": 6,
+  "selected": 675,
+  "eligible": 92,
+  "pending": 583,
+  "minimumMissingSlots": 2922,
+  "newCodes": 16,
+  "rawSHA256": "1ba985e6ad16ffb2fa3922eebf5bd5c7ebc4eb57318f014d76f745210bc0b41a",
+  "selectedSHA256": "094a5483a8e4fa04d16202576cdde9746c5d0b838ba9b23848bff12f60e978e4",
+  "fullSHA256": "b25c50ab34908892256fbb00d4674ee39dab8e98fdfc7ecbe325edb33f33ede5",
+  "postsSHA256": "0b5a021cd011fb4046cc735ce183737a8238541c7610ad7ca8e779a244e21460",
+  "rows": [
+    {
+      "id": "ideology-christian-democracy",
+      "postSHA256": "fbc7e63c0ce3618d074221a7da24ee64f6f53896ada501674b5ea5f8cf6d1159",
+      "axes": [
+        "rep",
+        "con",
+        "com"
+      ]
+    },
+    {
+      "id": "ideology-distributism",
+      "postSHA256": "086127f89189c839fb65402c8daf892d9f5e8e6c99eecbf3e0d986e71f13f774",
+      "axes": [
+        "pod",
+        "eco",
+        "con",
+        "com",
+        "mor",
+        "tec"
+      ]
+    },
+    {
+      "id": "ideology-catholic-integralism",
+      "postSHA256": "eb97e1bc158d38c5ab8943410752d4fc34732ac16e718cb6a02c05d39a0bc76a",
+      "axes": [
+        "pod",
+        "eco",
+        "rel",
+        "mor"
+      ]
+    },
+    {
+      "id": "ideology-jacobin-republicanism",
+      "postSHA256": "904905da376577b7e3c353ca5937ba396b5e77da14484f9c6164fd7dee37cf27",
+      "axes": [
+        "est",
+        "rep",
+        "int"
+      ]
+    }
+  ]
+}

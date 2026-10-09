@@ -1,0 +1,27 @@
+{
+  "status": "ACCEPT",
+  "checks": 80,
+  "scope": "Leonine Catholic Integralism and Jacobin programme ONLY; EPP and Chesterton independently reviewed by other agent",
+  "reviewInputSha256": "0881fe634fc8bb1587d2e08283aeebaae1d408996f7d37582cf224ffb084e33a",
+  "moduleSha256": "3d28b386ae84fe802e531e9277c057fad9876504fd965aa54f5578a5dc2351fc",
+  "recipesSha256": "d55415d0f72cd63c9dfa41706e5a198f8d119aac8fd051ddc9ef7a2497f3aebd",
+  "postsFileSha256": "1d85e558f25a912b65e058d5783795e0fdf2cd9ffb31d4b6c724b4bb369bff26",
+  "rows": [
+    {
+      "id": "ideology-catholic-integralism",
+      "beforeSha256": "d62dd5bca3d4790cd1d6d88f903b437b14d9f9aaa4260c8a77c8b462a4d8e0b0",
+      "postSha256": "eb97e1bc158d38c5ab8943410752d4fc34732ac16e718cb6a02c05d39a0bc76a",
+      "axes": 4,
+      "verdict": "ACCEPT exact literal; source judgment from prior review, no fresh body reread asserted"
+    },
+    {
+      "id": "ideology-jacobin-republicanism",
+      "beforeSha256": "cb60de6d383eb2e7a9336a64d56cd01d2a59fa04acc563db674ac453107299b9",
+      "postSha256": "904905da376577b7e3c353ca5937ba396b5e77da14484f9c6164fd7dee37cf27",
+      "axes": 3,
+      "verdict": "ACCEPT exact literal; source judgment from prior review, no fresh body reread asserted"
+    }
+  ],
+  "noProductEdits": true,
+  "noObservedEligibilityIncrease": true
+}

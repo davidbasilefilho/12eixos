@@ -10,6 +10,7 @@ import {
 import { documentedEvidenceAxes, MIN_EVIDENCE_AXES_FOR_RANKED_MATCH } from '../src/lib/matching';
 import { parentIdeologies20261009ExpectedPosts } from '../src/data/reference-parent-ideologies-20261009';
 import { thirdIdeologies20261009ExpectedPosts } from '../src/data/reference-third-ideologies-20261009';
+import { fourthIdeologies20261009ExpectedPosts } from '../src/data/reference-fourth-ideologies-20261009';
 import type { AxisScores } from '../src/lib/scoring';
 import { referenceById, referenceCounts } from '../src/ui/view-model';
 
@@ -23,7 +24,7 @@ describe('researched 75-ideology selection and preserved archive', () => {
       .toBe('1ba985e6ad16ffb2fa3922eebf5bd5c7ebc4eb57318f014d76f745210bc0b41a');
     expect(fullReferenceCatalog).toHaveLength(868);
     for (const entry of referenceEntries) {
-      const expected = (entry.id === 'ideology-program-anarcho-syndicalism-iwa-2022' || [...parentIdeologies20261009ExpectedPosts, ...thirdIdeologies20261009ExpectedPosts].some(post => post.id === entry.id)) ? selectedIdeologyEntries.find(item => item.id === entry.id) : entry;
+      const expected = (entry.id === 'ideology-program-anarcho-syndicalism-iwa-2022' || [...parentIdeologies20261009ExpectedPosts, ...thirdIdeologies20261009ExpectedPosts, ...fourthIdeologies20261009ExpectedPosts].some(post => post.id === entry.id)) ? selectedIdeologyEntries.find(item => item.id === entry.id) : entry;
       expect(fullReferenceCatalog.find(item => item.id === entry.id)).toBe(expected);
     }
     expect(new Set(fullReferenceCatalog.map(entry => entry.id)).size).toBe(fullReferenceCatalog.length);
@@ -49,7 +50,7 @@ describe('researched 75-ideology selection and preserved archive', () => {
     expect(referenceCounts).toEqual({ country: 150, 'historical-country': 150, 'public-figure': 150, 'historical-figure': 150, ideology: 75 });
     expect(referenceById.size).toBe(868);
     for (const original of referenceEntries) {
-      const expected = (original.id === 'ideology-program-anarcho-syndicalism-iwa-2022' || [...parentIdeologies20261009ExpectedPosts, ...thirdIdeologies20261009ExpectedPosts].some(post => post.id === original.id)) ? selectedIdeologyEntries.find(item => item.id === original.id) : original;
+      const expected = (original.id === 'ideology-program-anarcho-syndicalism-iwa-2022' || [...parentIdeologies20261009ExpectedPosts, ...thirdIdeologies20261009ExpectedPosts, ...fourthIdeologies20261009ExpectedPosts].some(post => post.id === original.id)) ? selectedIdeologyEntries.find(item => item.id === original.id) : original;
       expect(referenceById.get(original.id)).toBe(expected);
     }
     expect(referenceById.get('ideology-democratic-transhumanism-hughes')?.name).toContain('Hughes');
@@ -60,7 +61,7 @@ describe('researched 75-ideology selection and preserved archive', () => {
     expect(ideology75Profiles.filter(profile => profile.existing)).toHaveLength(25);
     for (const selected of selectedIdeologyEntries) {
       const prior = priorById.get(selected.id);
-      const approvedPost = [...parentIdeologies20261009ExpectedPosts, ...thirdIdeologies20261009ExpectedPosts].find(post => post.id === selected.id);
+      const approvedPost = [...parentIdeologies20261009ExpectedPosts, ...thirdIdeologies20261009ExpectedPosts, ...fourthIdeologies20261009ExpectedPosts].find(post => post.id === selected.id);
       if (approvedPost) {
         expect(selected).toEqual(approvedPost);
         if (prior) for (const source of prior.sources) expect(selected.sources).toContainEqual(source);
@@ -133,9 +134,9 @@ describe('researched 75-ideology selection and preserved archive', () => {
 
   test('admits only documented research additions through the unchanged six-axis gate', () => {
     const { ranked, insufficientEvidence } = partitionSelectedReferences();
-    expect(ranked).toHaveLength(91);
-    expect(insufficientEvidence).toHaveLength(584);
-    expect(ranked.filter(entry => entry.category === 'ideology')).toHaveLength(10);
+    expect(ranked).toHaveLength(92);
+    expect(insufficientEvidence).toHaveLength(583);
+    expect(ranked.filter(entry => entry.category === 'ideology')).toHaveLength(11);
     for (const entry of ranked) expect(documentedEvidenceAxes(entry).length).toBeGreaterThanOrEqual(MIN_EVIDENCE_AXES_FOR_RANKED_MATCH);
     for (const profile of ideology75Profiles.filter(item => !item.existing)) {
       if (profile.id === 'ideology-social-liberalism') {
@@ -153,7 +154,7 @@ describe('researched 75-ideology selection and preserved archive', () => {
     scores.push(...AXIS_KEYS.map(axis => Object.fromEntries(AXIS_KEYS.map(key => [key, key === axis ? 100 : 0])) as AxisScores));
     for (const vector of scores) {
       const matches = matchSelectedReferences(vector);
-      expect(matches).toHaveLength(91);
+      expect(matches).toHaveLength(92);
       for (const match of matches) {
         expect(selectedIds.has(match.reference.id)).toBe(true);
         expect(archivedReferenceEntries.some(entry => entry.id === match.reference.id)).toBe(false);
