@@ -1,6 +1,7 @@
 import { IconAtom, IconBook2, IconBuildingBank, IconCalendarStats, IconChartBar, IconHeart, IconLeaf, IconPeace, IconPlant, IconSettings, IconUsersGroup, IconWorld } from '@tabler/icons-react'
 import { AXES, type AxisScores } from '../lib/scoring'
-import { referenceEntries, type ReferenceEntry, type ReferenceCategory } from '../data/references'
+import { type ReferenceEntry, type ReferenceCategory } from '../data/references'
+import { fullReferenceCatalog, selectedReferenceEntries } from '../data/reference-selected-catalog'
 import type { QuizVariant } from '../state/quiz'
 
 export const AXIS_COLORS = ['#FF5A1F', '#12B8B3', '#D9A20B', '#7C4DFF', '#25A7E8', '#33B875', '#FF4048', '#8A46E8', '#169FDE', '#F06A1A', '#E83E8C', '#5B79E8'] as const
@@ -30,8 +31,9 @@ export const plans: { count: QuizVariant; duration: string; caption: string }[] 
   { count: 240, duration: '30–60 minutos', caption: 'Versão completa' },
 ]
 
-export const referenceById = new Map(referenceEntries.map(entry => [entry.id, entry]))
-export const referenceCounts: Record<ReferenceCategory, number> = referenceEntries.reduce((counts, entry) => {
+/** Legacy IDs still resolve to their original archived record; new research IDs also resolve. */
+export const referenceById = new Map(fullReferenceCatalog.map(entry => [entry.id, entry]))
+export const referenceCounts: Record<ReferenceCategory, number> = selectedReferenceEntries.reduce((counts, entry) => {
   counts[entry.category] += 1
   return counts
 }, { ideology: 0, 'public-figure': 0, 'historical-figure': 0, country: 0, 'historical-country': 0 })

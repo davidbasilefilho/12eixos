@@ -1,0 +1,7 @@
+# Four existing-ID qualitative definitions: accepted integrated proposal
+
+Nasser, Baath, Berlinguer and Ghannouchi are scoped to actually read affirmative programmes. No catalog ID is added. Complete current LIVE originals are archived literally; every original source object remains in the active source union. The recovered published Baath appendix is Haim 1962 reprinted with UC Press permission in Devlin 1976, not an AI translation. Nasser uses explicitly abridged published1971/1972 primary excerpts, excluding the book author's commentary. Berlinguer retains the 2/3 November discrepancy. Ghannouchi is an unidentified-translation participant transcript of a speech, not the founding document.
+
+All four have zero located codes. Unsupported NasserINT70/ECO74/CON77 and BaathREP64/INT77/ECO67/CON59/MOR62 are recoverably archived and centered; no replacement scores are invented. Berlinguer/Ghannouchi existing unknown numeric fields retain object identities. Closest-neighbor overlaps remain unresolved: political normative inclusion is not independence or ranked qualification. This accepted proposal is integrated in the working tree. Normative and comparison counts require separate recomputation; no independence certificate follows.
+
+Publisher colophon actually recovered by the exact indexed primary book: © Blandford Press 1971; US publication by Harper & Row, Barnes & Noble Import Division, 1972. Part Three explicitly identifies a new and abridged translation, submitted 21 May 1962. No translator or Arabic collation is claimed.

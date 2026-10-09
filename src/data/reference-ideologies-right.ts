@@ -286,7 +286,7 @@ export const ideologiesRightExpansion: RightIdeology[] = [
     [10, 14, 76, 68, 81, 31, 50, 67, 50, 16, 14, 50],
     'O texto oficial promove lealdade imperial, unidade orgânica da nação e deveres hierárquicos.',
     'É uma publicação educacional do Estado imperial japonês, usada como fonte sobre sua doutrina oficial. Não se projeta no Japão contemporâneo nem se presume consenso popular.',
-    [source('Kokutai no Hongi / Cardinal Principles of the National Entity of Japan — Columbia University', 'https://www.columbia.edu/cu/weai/exeas/resources/pdf/kokutai-no-hongi.pdf', 'Tradução acadêmica de documento primário do Ministério da Educação japonês.')],
+    [source('Kokutai no Hongi / Cardinal Principles of the National Entity of Japan — Columbia University', 'https://afe.easia.columbia.edu/ps/japan/kokutai.pdf', 'Seleções do documento primário do Ministério da Educação japonês de 1937, tradução em Sources of Japanese Tradition (2005), pp. 968–969 e 975, reproduzida por Asia for Educators, Columbia University.')],
     { est: 'high', rep: 'high', pod: 'high', imi: 'medium', dip: 'high', rel: 'high', mor: 'high' }),
   entry('bismarckian-state-conservatism', 'Conservadorismo estatal bismarckiano', 'Mensagem imperial sobre seguro social, Alemanha, 1881',
     [50, 50, 50, 50, 50, 50, 60, 56, 50, 50, 50, 50],

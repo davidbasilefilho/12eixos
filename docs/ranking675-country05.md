@@ -1,0 +1,113 @@
+# Ranking675 — países atuais05
+
+Proposta isolada para três registros existentes: Estados Unidos, Nova Zelândia e Singapura. Não importada; seis campos passam a porta estrutural em cada proposta, mas isso não é aceitação documental nem alteração de contagem humana. Arábia Saudita permanece pesquisa retida por abrangência insuficiente dos fundamentos PIF/vestimenta.
+
+Registros originais completos, objetos de fontes e afirmações anteriores ficam preservados. Guarda de igualdade literal integral impede sobrescrever pesquisa posterior; repetição devolve a identidade existente. Os mapeamentos alterados são regenerados pelo codificador, sem reduzir a porta de seis eixos.
+
+Validação:865 verificações de preservação/guarda, entrada imutável, fontes antigas como prefixo exato e afirmações antigas intactas nos eixos ampliados; TypeScript passou.
+
+## Propostas e limites
+
+### Estados Unidos
+
+Normas constitucionais de 1787/1791 em texto do Senado; narrativa FH2025 sobre 2024; regras concorrenciais na edição2024, reconhecimento conjugal2022 e igualdade civil-laboral em textos datados
+
+Federalismo, competição eleitoral e liberdades constitucionais convivem com déficits coercivos, separação religiosa com acomodação, competição econômica regulada e igualdade civil-familiar sob limites.
+
+Concorrência é regra geral regulada, não medida de toda produção. Família e papéis laborais têm normas nacionais amplas, exceções religiosas/ocupacionais e variação estadual reprodutiva; fontes datadas não certificam toda prática2026.
+
+| Eixo | Posição editorial | Força | Justificação e contraponto |
+| --- | --- | --- | --- |
+| est | 80 | high | Competências territoriais constitucionalmente reservadas sustentam federalismo forte. Supremacia federal e competências nacionais permanecem; não é soberania estadual irrestrita. |
+| rep | 80 | high | Competição e representação efetivas sustentam a direção democrática neste recorte. Competição eleitoral não elimina desigualdade de representação, financiamento ou déficits civis. |
+| pod | 40 | medium | Proteções gerais de expressão, vida privada e processo sustentam liberdade moderada, com graves déficits coercivos observados. V conserva exceção militar e não elimina pena capital; FH2025 sobre2024 descreve vigilância, prisão e violência policial. Não traduz pontuaçãoFH em eixo, não afirma inexistência de restrições ou toda prática2026. |
+| rel | 80 | high | Regra constitutiva de não estabelecimento sustenta separação religiosa forte. Exceções e financiamento educacional são contraevidência; não mede religiosidade pessoal. |
+| mor | 60 | medium | Igualdade familiar, reconhecimento de casais de qualquer sexo, independência financeira e acesso laboral ampliam o fundamento para reforma moderada dos papéis de gênero e família. A norma2022 trata reconhecimento, não obriga sozinha emissão estadual. Proteção da celebração religiosa, poligamia, exceções laborais e crédito coexistem com restrições estaduais de aborto e de autonomia trans descritasFH2025 sobre2024. A combinação sustenta60, não reforma irrestrita80 ou uniformidade de toda moralidade2026. |
+| con | 40 | medium | O regime geral preserva competição entre agentes e impede substituição coletiva por preços e mercados acertados; sustenta mercado moderado, além de existência isolada de agência. Âmbito interestadual/internacional, regra de razoabilidade, cooperação lícita, controle público de fusões e leis estaduais impedem leitura de laissez-faire irrestrito. Não certifica imunidades, todo regime regulatório2026 ou predominância empírica da alocação concorrencial. |
+### Singapura
+
+Narrativa FH2025 sobre 2024; declarações MHA de 29/09/2026 e Singapore Customs de 09/03/2026; direitos culturais no texto constitucional indexadoSetembro2026, liberdade religiosa2021 e concorrência normativa com quadro2025
+
+Competição partidária limitada e controles amplos da esfera civil coexistem com gestão religiosa funcionalmente separada, garantias culturais gerais, abertura comercial e competição econômica com exceções públicas.
+
+Não confunde garantias normativas com imigração aberta ou ausência de coerção. Administração muçulmana, favorecimentoMalays, Governo/órgãos/setores excepcionados e controles comerciais são contrapontos; detalhes adicionais de coerção são contexto2023, não prova atual2026.
+
+| Eixo | Posição editorial | Força | Justificação e contraponto |
+| --- | --- | --- | --- |
+| rep | 40 | medium | Vantagem institucional e controle da competição sustentam direção despótica parcial. A existência de oposição impede supor ausência total de competição; duração de governo sozinha não determina o eixo. |
+| pod | 60 | medium | Convergência de controles de expressão, reunião, associação, vigilância e detenção sustenta autoridade moderada, com pluralidade privada e devido processo comum como contrapontos. FH2025 registraPOFMA/execuções em2024; detalhes adicionais de vigilância/detenção aqui são só contexto2023. Proteções e processos comuns impedem80; não mede todo saldo de coerção2026 nem deriva posição de pontuação externa. |
+| rel | 60 | medium | Independência política declarada peloMHA e direitos gerais de gestão religiosa sustentam separação funcional moderada, com controle estatal e tratamento específico explícitos. Artigo153 e supervisão muçulmana, registro/grupos proibidosFH2024, impostos e limites gerais15(4) impedem80 ou banimento absoluto de vínculo religioso. MHAdeclara separação religião/política, não certifica neutralidade de toda prática2026. |
+| com | 40 | medium | Abertura multilateral geral e ampla base de importações sem direitos aduaneiros sustentam comércio aberto moderado, com tributos e controles preservados. Quatro categorias tributáveis, GST, permissões aduaneiras e bens estratégicos controlados impedem20; não transforma imposto doméstico em tarifa protetora nem infere ausência de barreiras de todos os serviços/exportações2026. |
+| imi | 40 | medium | Proteção geral de minorias e liberdade linguística de toda pessoa, além de uma língua ou grupo isolado, sustentam multiculturalismo moderado. Malay é língua nacional eMalays têm posição especial; naturalização exige conhecimentos linguísticos específicos. Não demonstra imigração aberta, igualdade prática integral ou toda política cultural; FH2024 sobre2023 descreve discriminação e ausência de asilo. |
+| con | 40 | medium | Regra geral de competição de preços, produção e investimento entre agentes sustenta mercado moderado, sem dedução do simples órgão. Governo/órgãos/atores em seu nome e setores com regulador próprio são excepcionados no texto transcrito2010 e guia2016; cooperação e relevância competitiva limitam proibição. Presença pública e coordenação setorial impedem20; não demonstra toda aplicação2026 ou predominância empírica de mercado. |
+### Nova Zelândia
+
+Descrição institucional da Constituição de 1986 no ensaio de Kenneth Keith de 1990, atualizado em 2008, 2017 e 2023; declaração Justiça atualizada em 24/04/2024; acordo comercial vigente em 01/05/2024; narrativa FH2025; garantias gerais e culturais na versão2022, relações patrimoniais2023 e regras concorrenciais2024–2025
+
+Governo parlamentar sujeito à confiança e liberdades gerais convivem com limites legislativos, garantias culturais de todas as minorias, competição regulada, abertura comercial e igualdade civil-familiar.
+
+O Parlamento pode manter leis incompatíveis; reservasICCPR, exceções concorrenciais, justiça patrimonial e soberania regulatória permanecem. Edições específicas2022/2023/2024/2025 não certificam toda consolidação ou prática2026.
+
+| Eixo | Posição editorial | Força | Justificação e contraponto |
+| --- | --- | --- | --- |
+| rep | 80 | high | Instituições e prática sustentam democracia forte com contraevidência específica. Não é democracia sem exclusões; crítica ao sufrágio de presos foi preservada. |
+| pod | 40 | medium | Garantias amplas de integridade, autonomia médica, expressão, vida privada e processo sustentam liberdade moderada com ressalvas parlamentares e reservas concretas. Parlamento pode manter leis incompatíveis4; limites5 e reservasICCPR sobre instalações juvenis, reparação e sindicatos são contrapontos.24(a–f) lido em2013 não apresentado como2022. Não certifica toda prática2026 ou pontuação externa como medida do eixo. |
+| com | 40 | medium | Política nacional geral de abertura e rede de acordos, corroborada peloNZ–UE, sustenta livre-comércio moderado além do único tratado bilateral. Tarifas específicas, regras de origem e soberania regulatória impedem livre-comércio extremo20; declarações não medem todos os fluxos. Data2024 do acordo não substitui versões próprias das páginas institucionais. |
+| mor | 60 | medium | Igualdade de autoridade civil, capacidade e contribuição familiar, parcerias de qualquer sexo e partilha ampliam o fundamento além da união civil isolada para reforma moderada. Outras leis podem ressalvar capacidade; relações sujeitas a requisitos e circunstâncias extraordinárias13 afastam partilha igual. Contratação e relações curtas aparecem no texto mas não foram auditadas integralmente. Não infere execução universal ou liberalização de toda política reprodutiva2026;80 não sustentado. |
+| imi | 40 | medium | Proteção geral de todas as categorias de minorias e exercício cultural comunitário sustenta multiculturalismo moderado; não depende de um único povo nomeado. Não afirma imigração aberta. Limites razoáveis5 e impossibilidade de invalidar lei incompatível4 coexistem com discriminação e redução do uso de Māori descritasFH2025. A páginaFH rotula desenvolvimentos2025 mas descreve episódios do ciclo2024; discrepância editorial mantida, sem inferir todos os atos atuais. |
+| con | 40 | medium | Competição geral de bens e serviços e vedação à substituição de preços/produção por cartéis sustentam mercado moderado; não é inferência do mero órgão ou só de um setor. Colaboração31, autorizações58A, controle de fusões e regulação de preço/qualidade prevista noPart4 são contrapontos. Só o começo do propósitoPart4 foi recuperado, sem certificar todo âmbito. Edições distintas explicitadas; não mede predominância econômica ou toda consolidação2026. |
+
+## Leitura e atribuição
+
+Autor: `/root/data_continue`. Recuperações novas constam abaixo; leituras anteriores precisas ficam identificadas no relatório JSON, sem inventar reabertura ou equivalente editorial. Os códigos não alterados de EST/REP/REL dos Estados Unidos e REP da Nova Zelândia exigem escrutínio independente do conjunto; não se assume validade só pela contagem. Contexto independenteFH2024 de Singapura é sobre2023, ao lado da edição2025 abreviada sobre2024; nunca promovido à prática2026. Não se afirma leitura integral de leis/Constituições.
+
+- [united-states] https://www.govinfo.gov/content/pkg/USCODE-2024-title15/html/USCODE-2024-title15-chap1-sec1.htm — USCode2024Title15§1; direct-HTML. Header/statutory§1complete0–9; selectededitorialnotes10–96 andotherofferednotescontext, notall541lines.
+- [united-states] https://www.govinfo.gov/content/pkg/USCODE-2024-title15/html/USCODE-2024-title15-chap1-sec2.htm — USCode2024Title15§2; direct-HTML. Whole18lines including§2complete andnotes.
+- [united-states] https://www.ftc.gov/advice-guidance/competition-guidance/guide-antitrust-laws/antitrust-laws?cq_net=g — Undatedprimaryauthoritydeclaration asoffered8Oct2026; direct-HTML. Completeactual18linesallpoliticalbody2–15. NonqueryURLdirectInternalError remains separate.
+- [united-states] https://www.govinfo.gov/content/pkg/PLAW-117publ228/html/PLAW-117publ228.htm — PL117-22813Dec2022; direct-HTML. Whole149linesactualbody including1–8 complete; signature136.
+- [united-states] https://www.govinfo.gov/content/pkg/USCODE-2024-title15/html/USCODE-2024-title15-chap41-subchapIV-sec1691.htm — USCode2024§1691; direct-HTML. Whole106linesactualincludingallstatutea–e and1974purpose103–105.
+- [united-states] https://www.eeoc.gov/statutes/title-vii-civil-rights-act-1964 — OfferedTitleVIIamendedincludes1991/2009;cutoffunproven; direct-HTML. Header/definitions701fullselected0–49,702(a–c)full54–72,703(a–n)full79–161 and704full166–169 actualdirect; subsequentCommissionparagraphsofferedcontextnotwhole451lines.
+- [new-zealand] https://legislation.govt.nz/act/public/1990/109/en/2022-08-30.pdf — Version30Aug2022; indexed-complete-selected-body. Actualcomplete20singleparagraph viaquery;2–6completeand7start viaexactindexedbody. Directweb403/shelltunnel403.
+- [new-zealand] https://legislation.govt.nz/act/public/1986/0005/latest/096be8ed81fee1be.pdf — Header27Nov2025; indexed-complete-selected-body. Header/purpose1Acomplete;27/36bodyNOTYETrecovered. Directweb403/shell403.
+- [new-zealand] https://legislation.govt.nz/act/public/1976/0166/latest/DLM441495.html — LatestURLeditorialcutoffunrecovered; articlehistoryactual2002/2005/2013; indexed-complete-selected-body. Full1M(a–c)/1N(a–d)actualandhistories; fullTOConlyforotherarticles, nototherbody.
+- [new-zealand] https://www.legislation.govt.nz/act/public/1976/166/en/latest/sections/DLM441113/ — Headeractual6Oct2023; indexed-complete-selected-body. 2D(1–4)completeandhistory actual, not1M/Nsameeditioncertificate.
+- [singapore] https://sso.agc.gov.sg/act/cons1963?ProvIds=P113- — CurrentURLbutcutoffunrecovered; indexed-selected-body. 152(1–2)complete;153A(1)complete. Article153A(2)notwholeofficialrecovered; direct403.
+- [singapore] https://www.ccs.gov.sg/resources/faqs/competition/agreements-between-undertakings/ — Updated26Sep2025;footer8Oct2026notarticleedition; direct-HTML. Whole86lines actualpoliticalbody27–59complete.
+- [singapore] https://sso.agc.gov.sg/Act/CONS1963?PageIndex=0&PageSize=10&Phrase=language&ViewType=Within — Offeredcurrentindexedconstitutionaltext, cutoffunproven; indexed-complete-selected-body. 153A(1–2)complete and152(1–2)full;53fullonesentence;123/127actualselectedlanguagecriteria;150beginonlynotcode. DirectconstitutionalURL403 remains.
+- [singapore] https://sso.agc.gov.sg/Act/CA2004?ProvIds=P13- — CurrentofferedindexmentionsAct4/2021, cutoffunproven; indexed-complete-selected-body. 34(1–5)complete and33(1)(a–i)partial;61A(1)offeredcontextactual. Article33rest/ThirdSchedule exclusionsnotfullreviewed.
+- [new-zealand] https://legislation.govt.nz/act/public/1986/0005/182.0/096be8ed81e0a016.pdf — Version17Feb2024; indexed-complete-selected-body. 27(1–4)complete and28(1–4)full/28(5)startonly; directPDF403.
+- [new-zealand] https://legislation.govt.nz/act/public/1986/0005/latest/096be8ed81fee1be.pdf — Version27Nov2025; indexed-complete-selected-body. 30A(2–4)complete,30A(1)onlyc actual +separateofficialHTMLfull1a–c;31exceptiontitle/conditionb onlynotfull;27bodycurrentunread.
+- [new-zealand] https://www.legislation.govt.nz/act/public/1976/166/en/latest/sections/DLM440945/DLM441904 — Header6Oct2023; indexed-complete-selected-body. 49(1–2)fullactualindex, not2016reprintsubstituted.
+- [new-zealand] https://www.legislation.govt.nz/act/public/1976/166/en/2023-10-06.pdf — Version6Oct2023; indexed-complete-selected-body. 18(1)(a–h)complete +17Aendpartial;13(1)wholeonly;18(2)readseparateolder33.0editionnotsamewholebodycertificate.
+- [new-zealand] https://www.legislation.govt.nz/act/public/1990/0109/13.0/096be8ed81c1ae4a.pdf — Version1Jul2013NOT2022; indexed-complete-selected-body. 22full/23(1–5)full/24(a–f)fullwithgcontinuationunread; latesttargetedqueryyieldedolder2013only.
+- [new-zealand] https://www.mfat.govt.nz/en/trade/nz-trade-policy — Undatedinstitutionaldeclaration with2024data; consulted8Oct2026; direct-HTML. 65–87complete actualgeneralpolicybody, notlinksotherprogrammecontents.
+- [united-states] https://www.senate.gov/about/origins-foundations/senate-and-constitution/constitution.htm — Reprodução constitucional sem corte editorial; direct-selected-body. EmendasI–X completas realmente exibidas167–186; I§8 só cabeçalho nesta recuperação. Tentativa shell também403; não alegar releitura integral de§8.
+- [united-states] https://www.archives.gov/founding-docs/constitution-transcript — Transcrição original1787 institucional, sem emendas; direct-selected-body. I§8 início105–109(poderfiscal/comércio) eVI216(supremacia) efetivamente lidos; alternativa distintaSenado, não toda§8.
+- [united-states] https://freedomhouse.org/country/united-states/freedom-world/2025 — Edição2025 sobre2024; direct-and-indexed-selected-body. Overview/eleiçõesA1–2 diretamente; corpo indexado completoD2 e passagens vigilância/prisão/F3/F4/G3 efetivamente lido, não conversão dosscores.
+- [new-zealand] https://www.legislation.govt.nz/act/public/1986/0005/latest/LMS485454.html — Cabeçalho2025 emPDFseparado;HTMLoferecido semdata própria; indexed-complete-selected-body. 31(1/1A/2/3)completos e31(4a) no primeiro retorno;31(4b/5) confirmadoPDFdatado27Nov2025.36(1–2)completos,36Aparcial,37(1–2)completo/3começo.30(1–2)completo noutra rotaoficialDLM89951.
+- [new-zealand] https://legislation.govt.nz/act/public/1986/5/en/2025-11-27.pdf — Versão27Nov2025; indexed-complete-selected-body. 31(4–5)completo;52 e52A(1–2)completos,52B(1–2)começo. Regulação preço/qualidade para mercados com pouca competição, nãoadvisoryagencyinference.
+- [new-zealand] https://www.legislation.govt.nz/act/public/1976/166/en/2023-10-06.pdf — Versão6Oct2023; indexed-complete-selected-body. 11(1–2)inteiro/11A(1a–c)inteiro e12(1–4)inteiro recuperados;13(1)inteiro/18(1)inteiro prévios.18(2)na2023 só início, mantertexto integral em outra edição anterior.21em2023 só índice; não alegar corpo completo ou regras contratação verificadas.
+- [new-zealand] https://legislation.govt.nz/act/public/1990/109/en/2022-08-30.pdf — Versão30Aug2022; indexed-complete-selected-body. 8–16 completos(página5),2–6 e20 anteriores completos.21/23 completos emHTMLindividualcomcabeçalho2022;17/18/19completos em rotas oficiais indexadas.24somente2013separado, não2022.
+- [new-zealand] https://www.mfat.govt.nz/en/trade/free-trade-agreements/free-trade-agreements-in-force/cptpp/common-questions — Página semdata própria;UKentrada2024 contextual; indexed-complete-selected-body. Perguntas completas sobre soberania/Waitangi/saúdePharmac/ambiente/SOEs efetivamente lidas; direto InternalError. Não apenas título ou índice, sem todoTratadoread.
+- [new-zealand] https://gg.govt.nz/office-governor-general/roles-and-functions-governor-general/constitutional-role/constitution — Ensaio1990 atualizado2023; direct-selected-body. 18–42 e43–62 completos lidos, confiança/parlamento/coroa/convenções expressos; não o próprioAct1986inteiro.
+- [new-zealand] https://www.justice.govt.nz/justice-sector-policy/constitutional-issues-and-human-rights/human-rights/international-human-rights/international-covenant-on-civil-and-political-rights/ — Atualização24Apr2024; direct-selected-body. 11–24 reservas e37–49 decisão5Jul2023 presos efetivamente lidos; relato estatal não tratadointeiro.
+- [new-zealand] https://freedomhouse.org/country/new-zealand/freedom-world/2025 — Edição2025,cabeçalhointernoKeyDevelopments2025divergente; direct-selected-body. Overview29 eeventos31–38 completos; muitos episódios contexto2024 mas não corrigir título silenciosamente; tabela scores não provaaxescoding.
+- [singapore] https://www.elitigation.sg/gdviewer/s/2010_SGHC_97 — Decisão30Mar2010; direct-selected-body. 24–28 completos transcrições33(4)/ThirdSchedule5 e38/50/56 corpo lido; normas2010não substituemconsolidação2026.
+- [singapore] https://sso.agc.gov.sg/Act-Rev/CONS1963/Published?DocDate=20211231&ProvIds=pr15- — Edição31Dec2021; indexed-complete-selected-body. 15(1–4)inteiro comtaxação,gestão eordempública, não edition2026integral.
+- [singapore] https://sso.agc.gov.sg/act/cons1963?ProvIds=P113- — Headercurrent19Sep2026,timelineversion15Sep2026; indexed-complete-selected-body. 152(1–2)/153inteiros;153A(2)retornoparcial nesteURLmas inteiro na rotaPageIndexlanguageanterior.123/127partesselecionadas idioma previamente. NãoallCon2026read.
+- [singapore] https://www.mha.gov.sg/what-we-do/managing-security-threats/maintaining-racial-and-religious-harmony/ — Atualização29Sep2026; direct-selected-body. 19–79 completos; princípios religião/política separados e moderação, liderança/doações/afiliações/medidas; nãoallMRHAread.
+- [singapore] https://freedomhouse.org/country/singapore/freedom-world/2024 — Edição2024sobre2023; direct-selected-body. 29–34/41–100/107–147/153–174/181–192 efetivamente exibidos e lidos; processo ordinário e prevenção/coerção, contexto2023não2024/2026.
+- [singapore] https://freedomhouse.org/country/singapore/freedom-world/2025 — Edição2025sobre2024abridged; direct-selected-body. 29–35 overview/keyevents completos; demais linhas tables sem narrativas não alegar bodyfreshexpressiondetail2024.
+- [singapore] https://www.meti.gov.sg/trade-international-economic-relations/regional-and-international-platforms/world-trade-organization-wto/ — Atualização25Sep2026; indexed-complete-selected-body. Introdução completa eSingaporeatWTO começos completos, declaração nacionalapoioabertomultilateral/remoçãobarreiras, nãoall164?activities.
+- [singapore] https://www.customs.gov.sg/doing-business/import-operations/import-procedures/import-procedures-overview/ — Atualização11Jun2026; indexed-complete-selected-body. Introdução/regra todasimportações/4categorias/GSTcompleto, quemimportercomeço; corroboraold9Marchnote sem renomear versão.
+- [singapore] https://www.customs.gov.sg/doing-business/export-operations/export-procedures/export-procedures-overview/ — Cutoff não visto neste retorno; indexed-complete-selected-body. Lista tipos de mercadorias/permissões gerais e bensestratégicos completas,timelines selecionadas, nãoallcontroleexportação.
+
+## Entregáveis
+
+`ranking675-country05-before.json` contém os três originais e o originalSaudi retido; o módulo expõe apenas os três alvos. `ranking675-country05-post.json`, `ranking675-country05-runtime.json` e `ranking675-country05-research-pending.json` contêm objetos completos, prova e as18 razões de posição, fonte e limite.
+
+SHA256 do módulo: `ac05e6103499e0e4068cfe44a77f9c9e0a397122e0a54ccc39f473c5238eed7c`. Revisão independente e julgamento Root pendentes; sem importação ou VCS.
+
+## Correção restrita de proveniência — 08/10/2026
+
+O cabeçalho efetivamente lido do ensaio de Kenneth Keith identifica 1990 e atualizações em 2008, 2017 e 2023. O período proposto e os metadados da primeira afirmação de REP passam a refletir essas datas; REP mantém 80/high, texto, fundamento e contraponto. As outras duas afirmações de REP ficam intactas. Uma fonte datada é acrescentada; o registro original completo e todos os objetos de fontes anteriores permanecem intactos. A republicação não certifica toda prática de 2026. Os mapeamentos de REP são regenerados pela mesma porta, sem alteração ordinal.

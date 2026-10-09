@@ -1,0 +1,452 @@
+[
+  {
+    "researchId": "ideology-classical-liberalism",
+    "catalogId": "ideology-program-constitutional-liberalism-constant-1819",
+    "relationship": "new-bounded-referent",
+    "reason": "Constant 1819 não é o Locke 1690 do ID antigo, nem o monarquismo de Constant 1815."
+  },
+  {
+    "researchId": "ideology-social-liberalism",
+    "catalogId": "ideology-social-liberalism",
+    "relationship": "new-bounded-referent",
+    "reason": "Programa delimitado da pesquisa fresh75; não substitui nem herda códigos de outro autor, documento ou período arquivado."
+  },
+  {
+    "researchId": "ideology-egalitarian-liberalism",
+    "catalogId": "ideology-egalitarian-liberalism",
+    "relationship": "new-bounded-referent",
+    "reason": "Programa delimitado da pesquisa fresh75; não substitui nem herda códigos de outro autor, documento ou período arquivado."
+  },
+  {
+    "researchId": "ideology-minarchism",
+    "catalogId": "ideology-right-minarchism",
+    "relationship": "same-bounded-referent",
+    "reason": "Mesmo livro de Nozick, Anarchy, State, and Utopia (1974); mantém códigos e limites prévios."
+  },
+  {
+    "researchId": "ideology-anarcho-capitalism",
+    "catalogId": "ideology-right-austrian-libertarianism",
+    "relationship": "same-bounded-referent",
+    "reason": "Mesmo For a New Liberty de Rothbard (1973), explicitamente anarcocapitalista na ressalva antiga; não Friedman."
+  },
+  {
+    "researchId": "ideology-georgism",
+    "catalogId": "ideology-georgism",
+    "relationship": "same-bounded-referent",
+    "reason": "Mesmo Progress and Poverty de George (1879)."
+  },
+  {
+    "researchId": "ideology-ordoliberalism",
+    "catalogId": "ideology-program-freiburg-ordoliberalism-1936-1952",
+    "relationship": "new-bounded-referent",
+    "reason": "Recorte conjunto de Freiburg 1936–1952, mais amplo que a definição Eucken 1949 arquivada; não transfere códigos."
+  },
+  {
+    "researchId": "ideology-civic-republicanism",
+    "catalogId": "ideology-civic-republicanism",
+    "relationship": "new-bounded-referent",
+    "reason": "Programa delimitado da pesquisa fresh75; não substitui nem herda códigos de outro autor, documento ou período arquivado."
+  },
+  {
+    "researchId": "ideology-cosmopolitan-democracy",
+    "catalogId": "ideology-cosmopolitan-democracy",
+    "relationship": "new-bounded-referent",
+    "reason": "Programa delimitado da pesquisa fresh75; não substitui nem herda códigos de outro autor, documento ou período arquivado."
+  },
+  {
+    "researchId": "ideology-communitarianism",
+    "catalogId": "ideology-communitarianism",
+    "relationship": "new-bounded-referent",
+    "reason": "Programa delimitado da pesquisa fresh75; não substitui nem herda códigos de outro autor, documento ou período arquivado."
+  },
+  {
+    "researchId": "ideology-burkean-conservatism",
+    "catalogId": "ideology-burkean-conservatism",
+    "relationship": "new-bounded-referent",
+    "reason": "Programa delimitado da pesquisa fresh75; não substitui nem herda códigos de outro autor, documento ou período arquivado."
+  },
+  {
+    "researchId": "ideology-national-conservatism",
+    "catalogId": "ideology-national-conservatism",
+    "relationship": "same-bounded-referent",
+    "reason": "Mesmo Statement of Principles de 15 junho 2022."
+  },
+  {
+    "researchId": "ideology-neoconservatism",
+    "catalogId": "ideology-right-neoconservatism",
+    "relationship": "same-bounded-referent",
+    "reason": "Mesmo The Neoconservative Persuasion de Kristol (2003)."
+  },
+  {
+    "researchId": "ideology-christian-democracy",
+    "catalogId": "ideology-christian-democracy",
+    "relationship": "new-bounded-referent",
+    "reason": "Programa delimitado da pesquisa fresh75; não substitui nem herda códigos de outro autor, documento ou período arquivado."
+  },
+  {
+    "researchId": "ideology-distributism",
+    "catalogId": "ideology-distributism",
+    "relationship": "same-bounded-referent",
+    "reason": "Mesmo The Outline of Sanity; pesquisa distingue obra de 1926 e reprodução da edição 1927."
+  },
+  {
+    "researchId": "ideology-catholic-integralism",
+    "catalogId": "ideology-catholic-integralism",
+    "relationship": "new-bounded-referent",
+    "reason": "Programa delimitado da pesquisa fresh75; não substitui nem herda códigos de outro autor, documento ou período arquivado."
+  },
+  {
+    "researchId": "ideology-jacobin-republicanism",
+    "catalogId": "ideology-jacobin-republicanism",
+    "relationship": "new-bounded-referent",
+    "reason": "Programa delimitado da pesquisa fresh75; não substitui nem herda códigos de outro autor, documento ou período arquivado."
+  },
+  {
+    "researchId": "ideology-hobbesian-absolutism",
+    "catalogId": "ideology-right-absolute-monarchy",
+    "relationship": "same-bounded-referent",
+    "reason": "Mesmo Leviathan (1651); conserva o ID do perfil já delimitado como soberania contratual de Hobbes."
+  },
+  {
+    "researchId": "ideology-confucian-constitutionalism-jiang",
+    "catalogId": "ideology-confucian-constitutionalism-jiang",
+    "relationship": "new-bounded-referent",
+    "reason": "Programa delimitado da pesquisa fresh75; não substitui nem herda códigos de outro autor, documento ou período arquivado."
+  },
+  {
+    "researchId": "ideology-legalism-han-fei",
+    "catalogId": "ideology-legalism-han-fei",
+    "relationship": "new-bounded-referent",
+    "reason": "Programa delimitado da pesquisa fresh75; não substitui nem herda códigos de outro autor, documento ou período arquivado."
+  },
+  {
+    "researchId": "ideology-mohism",
+    "catalogId": "ideology-mohism",
+    "relationship": "new-bounded-referent",
+    "reason": "Programa delimitado da pesquisa fresh75; não substitui nem herda códigos de outro autor, documento ou período arquivado."
+  },
+  {
+    "researchId": "ideology-marxian-communal-communism-1871-1875",
+    "catalogId": "ideology-marxian-communal-communism-1871-1875",
+    "relationship": "new-bounded-referent",
+    "reason": "Programa delimitado da pesquisa fresh75; não substitui nem herda códigos de outro autor, documento ou período arquivado."
+  },
+  {
+    "researchId": "ideology-luxemburgist-revolutionary-democracy-1918",
+    "catalogId": "ideology-luxemburgist-revolutionary-democracy-1918",
+    "relationship": "new-bounded-referent",
+    "reason": "Programa delimitado da pesquisa fresh75; não substitui nem herda códigos de outro autor, documento ou período arquivado."
+  },
+  {
+    "researchId": "ideology-marxism-leninism-stalin-1926",
+    "catalogId": "ideology-marxism-leninism-stalin-1926",
+    "relationship": "new-bounded-referent",
+    "reason": "Programa delimitado da pesquisa fresh75; não substitui nem herda códigos de outro autor, documento ou período arquivado."
+  },
+  {
+    "researchId": "ideology-trotskyism-1938",
+    "catalogId": "ideology-trotskyism-1938",
+    "relationship": "new-bounded-referent",
+    "reason": "Programa delimitado da pesquisa fresh75; não substitui nem herda códigos de outro autor, documento ou período arquivado."
+  },
+  {
+    "researchId": "ideology-maoism",
+    "catalogId": "ideology-maoism",
+    "relationship": "same-bounded-referent",
+    "reason": "Mesmo On New Democracy (1940); incorpora o estado já reconciliado no checkpoint native14 sem gerar códigos."
+  },
+  {
+    "researchId": "ideology-council-communism-pannekoek",
+    "catalogId": "ideology-council-communism-pannekoek",
+    "relationship": "new-bounded-referent",
+    "reason": "Programa delimitado da pesquisa fresh75; não substitui nem herda códigos de outro autor, documento ou período arquivado."
+  },
+  {
+    "researchId": "ideology-eurocommunism-berlinguer-1977",
+    "catalogId": "ideology-eurocommunism",
+    "relationship": "same-bounded-referent",
+    "reason": "Mesmo discurso de Moscou de novembro 1977; mantém a ressalva prévia da divergência de dia 2/3."
+  },
+  {
+    "researchId": "ideology-democratic-socialism-dsa-2026",
+    "catalogId": "ideology-program-democratic-socialism-dsa-2026",
+    "relationship": "same-bounded-referent",
+    "reason": "Mesmo Workers Deserve More (2026), distinto da Declaração de Frankfurt."
+  },
+  {
+    "researchId": "ideology-social-democracy-godesberg-1959",
+    "catalogId": "ideology-program-social-democracy-spd-1959",
+    "relationship": "same-bounded-referent",
+    "reason": "Mesmo programa de Godesberg (1959), distinto de Estocolmo 1989."
+  },
+  {
+    "researchId": "ideology-guild-socialism-cole",
+    "catalogId": "ideology-guild-socialism-cole",
+    "relationship": "new-bounded-referent",
+    "reason": "Programa delimitado da pesquisa fresh75; não substitui nem herda códigos de outro autor, documento ou período arquivado."
+  },
+  {
+    "researchId": "ideology-market-socialism-schweickart",
+    "catalogId": "ideology-market-socialism-schweickart",
+    "relationship": "new-bounded-referent",
+    "reason": "Programa delimitado da pesquisa fresh75; não substitui nem herda códigos de outro autor, documento ou período arquivado."
+  },
+  {
+    "researchId": "ideology-participatory-economics",
+    "catalogId": "ideology-participatory-economics",
+    "relationship": "new-bounded-referent",
+    "reason": "Programa delimitado da pesquisa fresh75; não substitui nem herda códigos de outro autor, documento ou período arquivado."
+  },
+  {
+    "researchId": "ideology-ecosocialism-kovel-lowy",
+    "catalogId": "ideology-ecosocialism-kovel-lowy",
+    "relationship": "new-bounded-referent",
+    "reason": "Programa delimitado da pesquisa fresh75; não substitui nem herda códigos de outro autor, documento ou período arquivado."
+  },
+  {
+    "researchId": "ideology-mutualism-proudhon-1863",
+    "catalogId": "ideology-mutualism-proudhon-1863",
+    "relationship": "new-bounded-referent",
+    "reason": "Programa delimitado da pesquisa fresh75; não substitui nem herda códigos de outro autor, documento ou período arquivado."
+  },
+  {
+    "researchId": "ideology-collectivist-anarchism-bakunin-1866",
+    "catalogId": "ideology-left-anarcho-collectivism",
+    "relationship": "same-bounded-referent",
+    "reason": "Mesmo Revolutionary Catechism atribuído a Bakunin (1866); traduções diferentes permanecem identificadas."
+  },
+  {
+    "researchId": "ideology-anarcho-communism-kropotkin",
+    "catalogId": "ideology-anarcho-communism",
+    "relationship": "same-bounded-referent",
+    "reason": "Mesmo The Conquest of Bread (1892), edição inglesa Vanguard 1926."
+  },
+  {
+    "researchId": "ideology-program-anarcho-syndicalism-iwa-2022",
+    "catalogId": "ideology-program-anarcho-syndicalism-iwa-2022",
+    "relationship": "same-bounded-referent",
+    "reason": "Mesmos estatutos AIT/IWA aprovados em dezembro 2022."
+  },
+  {
+    "researchId": "ideology-christian-anarchism-tolstoy",
+    "catalogId": "ideology-pacifist-anarchism",
+    "relationship": "same-bounded-referent",
+    "reason": "Mesmo The Kingdom of God Is Within You, edição inglesa de 1894."
+  },
+  {
+    "researchId": "ideology-communalism-bookchin-2002",
+    "catalogId": "ideology-communalism",
+    "relationship": "same-bounded-referent",
+    "reason": "Mesmo The Communalist Project (novembro 2002)."
+  },
+  {
+    "researchId": "ideology-democratic-confederalism-ocalan-2011",
+    "catalogId": "ideology-democratic-confederalism-ocalan-2011",
+    "relationship": "new-bounded-referent",
+    "reason": "Programa delimitado da pesquisa fresh75; não substitui nem herda códigos de outro autor, documento ou período arquivado."
+  },
+  {
+    "researchId": "ideology-program-zapatista-autonomy-ezln-1993-1996",
+    "catalogId": "ideology-program-zapatista-autonomy-ezln-1993-1996",
+    "relationship": "same-bounded-referent",
+    "reason": "Mesmo programa inicial EZLN 1993–1996; preserva códigos já aceitos e limites de período."
+  },
+  {
+    "researchId": "ideology-global-green-politics",
+    "catalogId": "green-politics",
+    "relationship": "same-bounded-referent",
+    "reason": "Mesma Carta Global Greens 2023."
+  },
+  {
+    "researchId": "ideology-democratic-degrowth",
+    "catalogId": "ideology-democratic-degrowth",
+    "relationship": "new-bounded-referent",
+    "reason": "Programa delimitado da pesquisa fresh75; não substitui nem herda códigos de outro autor, documento ou período arquivado."
+  },
+  {
+    "researchId": "ideology-bioregionalism",
+    "catalogId": "ideology-bioregionalism",
+    "relationship": "new-bounded-referent",
+    "reason": "Programa delimitado da pesquisa fresh75; não substitui nem herda códigos de outro autor, documento ou período arquivado."
+  },
+  {
+    "researchId": "ideology-anarcho-primitivism",
+    "catalogId": "ideology-anarcho-primitivism",
+    "relationship": "new-bounded-referent",
+    "reason": "Programa delimitado da pesquisa fresh75; não substitui nem herda códigos de outro autor, documento ou período arquivado."
+  },
+  {
+    "researchId": "ideology-democratic-transhumanism-hughes",
+    "catalogId": "ideology-democratic-transhumanism-hughes",
+    "relationship": "new-bounded-referent",
+    "reason": "Programa delimitado da pesquisa fresh75; não substitui nem herda códigos de outro autor, documento ou período arquivado."
+  },
+  {
+    "researchId": "ideology-continental-technocracy",
+    "catalogId": "ideology-program-technocracy-inc-2004",
+    "relationship": "same-bounded-referent",
+    "reason": "Mesmo Study Course, edição eletrônica 1.1 de 2004; não Veblen 1921."
+  },
+  {
+    "researchId": "ideology-douglas-social-credit",
+    "catalogId": "ideology-douglas-social-credit",
+    "relationship": "new-bounded-referent",
+    "reason": "Programa delimitado da pesquisa fresh75; não substitui nem herda códigos de outro autor, documento ou período arquivado."
+  },
+  {
+    "researchId": "ideology-socialist-feminism",
+    "catalogId": "ideology-feminist-socialism",
+    "relationship": "same-bounded-referent",
+    "reason": "Mesma declaração do Combahee River Collective (1977)."
+  },
+  {
+    "researchId": "ideology-radical-feminism",
+    "catalogId": "ideology-radical-feminism",
+    "relationship": "new-bounded-referent",
+    "reason": "Programa delimitado da pesquisa fresh75; não substitui nem herda códigos de outro autor, documento ou período arquivado."
+  },
+  {
+    "researchId": "ideology-black-nationalism",
+    "catalogId": "ideology-black-nationalism",
+    "relationship": "new-bounded-referent",
+    "reason": "Programa delimitado da pesquisa fresh75; não substitui nem herda códigos de outro autor, documento ou período arquivado."
+  },
+  {
+    "researchId": "ideology-revolutionary-intercommunalism",
+    "catalogId": "ideology-revolutionary-intercommunalism",
+    "relationship": "new-bounded-referent",
+    "reason": "Programa delimitado da pesquisa fresh75; não substitui nem herda códigos de outro autor, documento ou período arquivado."
+  },
+  {
+    "researchId": "ideology-buen-vivir",
+    "catalogId": "ideology-buen-vivir",
+    "relationship": "new-bounded-referent",
+    "reason": "Programa delimitado da pesquisa fresh75; não substitui nem herda códigos de outro autor, documento ou período arquivado."
+  },
+  {
+    "researchId": "ideology-gandhian-swaraj",
+    "catalogId": "ideology-gandhian-swaraj",
+    "relationship": "new-bounded-referent",
+    "reason": "Programa delimitado da pesquisa fresh75; não substitui nem herda códigos de outro autor, documento ou período arquivado."
+  },
+  {
+    "researchId": "ideology-ambedkarite-constitutional-socialism",
+    "catalogId": "ideology-ambedkarite-constitutional-socialism",
+    "relationship": "new-bounded-referent",
+    "reason": "Programa delimitado da pesquisa fresh75; não substitui nem herda códigos de outro autor, documento ou período arquivado."
+  },
+  {
+    "researchId": "ideology-ujamaa",
+    "catalogId": "ideology-national-liberation-socialism",
+    "relationship": "same-bounded-referent",
+    "reason": "Mesma Declaração de Arusha (1967); não o perfil distinto do ensaio Ujamaa de 1962."
+  },
+  {
+    "researchId": "ideology-nkrumahism",
+    "catalogId": "ideology-nkrumahism",
+    "relationship": "new-bounded-referent",
+    "reason": "Programa delimitado da pesquisa fresh75; não substitui nem herda códigos de outro autor, documento ou período arquivado."
+  },
+  {
+    "researchId": "ideology-three-peoples-principles",
+    "catalogId": "ideology-three-peoples-principles",
+    "relationship": "new-bounded-referent",
+    "reason": "Programa delimitado da pesquisa fresh75; não substitui nem herda códigos de outro autor, documento ou período arquivado."
+  },
+  {
+    "researchId": "ideology-kemalism",
+    "catalogId": "ideology-kemalism",
+    "relationship": "new-bounded-referent",
+    "reason": "Programa delimitado da pesquisa fresh75; não substitui nem herda códigos de outro autor, documento ou período arquivado."
+  },
+  {
+    "researchId": "ideology-baathism",
+    "catalogId": "ideology-left-baathism",
+    "relationship": "same-bounded-referent",
+    "reason": "Mesma constituição partidária fundadora de abril 1947; preserva a tradução e os códigos previamente revisados."
+  },
+  {
+    "researchId": "ideology-nasserism",
+    "catalogId": "ideology-left-nasserism",
+    "relationship": "same-bounded-referent",
+    "reason": "Mesma Carta Nacional de 1962; a bibliografia distingue excertos e nova pesquisa."
+  },
+  {
+    "researchId": "ideology-justicialism",
+    "catalogId": "ideology-justicialism",
+    "relationship": "new-bounded-referent",
+    "reason": "Programa delimitado da pesquisa fresh75; não substitui nem herda códigos de outro autor, documento ou período arquivado."
+  },
+  {
+    "researchId": "ideology-bolivarian-socialism",
+    "catalogId": "ideology-bolivarian-socialism",
+    "relationship": "new-bounded-referent",
+    "reason": "Programa delimitado da pesquisa fresh75; não substitui nem herda códigos de outro autor, documento ou período arquivado."
+  },
+  {
+    "researchId": "ideology-integral-humanism",
+    "catalogId": "ideology-integral-humanism",
+    "relationship": "new-bounded-referent",
+    "reason": "Programa delimitado da pesquisa fresh75; não substitui nem herda códigos de outro autor, documento ou período arquivado."
+  },
+  {
+    "researchId": "ideology-maududi-theodemocracy",
+    "catalogId": "ideology-maududi-theodemocracy",
+    "relationship": "new-bounded-referent",
+    "reason": "Programa delimitado da pesquisa fresh75; não substitui nem herda códigos de outro autor, documento ou período arquivado."
+  },
+  {
+    "researchId": "ideology-guardianship-jurist",
+    "catalogId": "ideology-guardianship-jurist",
+    "relationship": "new-bounded-referent",
+    "reason": "Programa delimitado da pesquisa fresh75; não substitui nem herda códigos de outro autor, documento ou período arquivado."
+  },
+  {
+    "researchId": "ideology-nabhani-caliphate",
+    "catalogId": "ideology-nabhani-caliphate",
+    "relationship": "new-bounded-referent",
+    "reason": "Programa delimitado da pesquisa fresh75; não substitui nem herda códigos de outro autor, documento ou período arquivado."
+  },
+  {
+    "researchId": "ideology-dhammic-socialism",
+    "catalogId": "ideology-dhammic-socialism",
+    "relationship": "new-bounded-referent",
+    "reason": "Programa delimitado da pesquisa fresh75; não substitui nem herda códigos de outro autor, documento ou período arquivado."
+  },
+  {
+    "researchId": "ideology-italian-fascism",
+    "catalogId": "ideology-fascism",
+    "relationship": "same-bounded-referent",
+    "reason": "Mesma doutrina de 1932, cujo arquivo anterior documenta excerto traduzido; nenhuma pontuação é promovida."
+  },
+  {
+    "researchId": "ideology-national-socialism",
+    "catalogId": "ideology-national-socialism",
+    "relationship": "new-bounded-referent",
+    "reason": "Programa delimitado da pesquisa fresh75; não substitui nem herda códigos de outro autor, documento ou período arquivado."
+  },
+  {
+    "researchId": "ideology-narodnik-agrarian-socialism",
+    "catalogId": "ideology-narodnik-agrarian-socialism",
+    "relationship": "new-bounded-referent",
+    "reason": "Programa delimitado da pesquisa fresh75; não substitui nem herda códigos de outro autor, documento ou período arquivado."
+  },
+  {
+    "researchId": "ideology-functional-demarchy-burnheim",
+    "catalogId": "ideology-functional-demarchy-burnheim",
+    "relationship": "new-bounded-referent",
+    "reason": "Programa delimitado da pesquisa fresh75; não substitui nem herda códigos de outro autor, documento ou período arquivado."
+  },
+  {
+    "researchId": "ideology-agrarian-populism",
+    "catalogId": "ideology-agrarian-populism",
+    "relationship": "same-bounded-referent",
+    "reason": "Mesma plataforma de Omaha (1892)."
+  },
+  {
+    "researchId": "ideology-owenite-socialism",
+    "catalogId": "ideology-owenite-socialism",
+    "relationship": "new-bounded-referent",
+    "reason": "Programa delimitado da pesquisa fresh75; não substitui nem herda códigos de outro autor, documento ou período arquivado."
+  }
+]

@@ -1,0 +1,406 @@
+{
+  "baseline": "95c3e705eb2583b80abc0673b573782cde2c41b9",
+  "entries": [
+    {
+      "id": "xi-jinping",
+      "kind": "person",
+      "category": "public-figure",
+      "name": "Xi Jinping",
+      "period": "Discursos e diretrizes do Partido Comunista da China, 2012–2026",
+      "vec": {
+        "est": 50,
+        "rep": 16,
+        "pod": 78,
+        "imi": 50,
+        "dip": 72,
+        "int": 35,
+        "eco": 62,
+        "con": 88,
+        "com": 50,
+        "rel": 50,
+        "mor": 50,
+        "tec": 73
+      },
+      "rationale": "Discursos oficiais delineiam liderança central do partido, planejamento estatal, segurança nacional e política industrial tecnológica.",
+      "caveats": "O objeto é o programa oficial e a estrutura de governo, não uma pesquisa sobre convicções pessoais; discurso oficial não valida a prática declarada.",
+      "sources": [
+        {
+          "title": "Relatório ao 20º Congresso do Partido Comunista da China",
+          "url": "https://english.www.gov.cn/2022special/20thcpccongress/",
+          "note": "Arquivo oficial com o texto político apresentado por Xi em nome do Comitê Central."
+        }
+      ],
+      "evidence": {
+        "rep": "high",
+        "pod": "medium",
+        "dip": "medium",
+        "int": "medium",
+        "eco": "medium",
+        "con": "high",
+        "tec": "medium"
+      },
+      "axisEvidence": {
+        "rep": {
+          "sourceTitles": [
+            "Relatório ao 20º Congresso do Partido Comunista da China"
+          ],
+          "rationale": "Arquivo oficial com o texto político apresentado por Xi em nome do Comitê Central. Discursos oficiais delineiam liderança central do partido, planejamento estatal, segurança nacional e política industrial tecnológica. A direção editorial deste eixo é Autocracia, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "pod": {
+          "sourceTitles": [
+            "Relatório ao 20º Congresso do Partido Comunista da China"
+          ],
+          "rationale": "Arquivo oficial com o texto político apresentado por Xi em nome do Comitê Central. Discursos oficiais delineiam liderança central do partido, planejamento estatal, segurança nacional e política industrial tecnológica. A direção editorial deste eixo é Segurança, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "dip": {
+          "sourceTitles": [
+            "Relatório ao 20º Congresso do Partido Comunista da China"
+          ],
+          "rationale": "Arquivo oficial com o texto político apresentado por Xi em nome do Comitê Central. Discursos oficiais delineiam liderança central do partido, planejamento estatal, segurança nacional e política industrial tecnológica. A direção editorial deste eixo é Militarista, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "int": {
+          "sourceTitles": [
+            "Relatório ao 20º Congresso do Partido Comunista da China"
+          ],
+          "rationale": "Arquivo oficial com o texto político apresentado por Xi em nome do Comitê Central. Discursos oficiais delineiam liderança central do partido, planejamento estatal, segurança nacional e política industrial tecnológica. A direção editorial deste eixo é Nacionalista, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "eco": {
+          "sourceTitles": [
+            "Relatório ao 20º Congresso do Partido Comunista da China"
+          ],
+          "rationale": "Arquivo oficial com o texto político apresentado por Xi em nome do Comitê Central. Discursos oficiais delineiam liderança central do partido, planejamento estatal, segurança nacional e política industrial tecnológica. A direção editorial deste eixo é Público, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "con": {
+          "sourceTitles": [
+            "Relatório ao 20º Congresso do Partido Comunista da China"
+          ],
+          "rationale": "Arquivo oficial com o texto político apresentado por Xi em nome do Comitê Central. Discursos oficiais delineiam liderança central do partido, planejamento estatal, segurança nacional e política industrial tecnológica. A direção editorial deste eixo é Planejamento, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "tec": {
+          "sourceTitles": [
+            "Relatório ao 20º Congresso do Partido Comunista da China"
+          ],
+          "rationale": "Arquivo oficial com o texto político apresentado por Xi em nome do Comitê Central. Discursos oficiais delineiam liderança central do partido, planejamento estatal, segurança nacional e política industrial tecnológica. A direção editorial deste eixo é Tecnologia, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        }
+      }
+    },
+    {
+      "id": "emmanuel-macron",
+      "kind": "person",
+      "category": "public-figure",
+      "name": "Emmanuel Macron",
+      "period": "Presidência francesa e programa público, 2017–2026",
+      "vec": {
+        "est": 50,
+        "rep": 73,
+        "pod": 50,
+        "imi": 50,
+        "dip": 62,
+        "int": 44,
+        "eco": 53,
+        "con": 50,
+        "com": 50,
+        "rel": 50,
+        "mor": 50,
+        "tec": 77
+      },
+      "rationale": "O programa presidencial articula integração europeia, inovação, defesa e economia de mercado regulada.",
+      "caveats": "A referência usa o programa institucional de Macron, não pretende resumir sua evolução política nem decisões de toda a presidência.",
+      "sources": [
+        {
+          "title": "Iniciativas presidenciais e discursos",
+          "url": "https://www.elysee.fr/en/emmanuel-macron",
+          "note": "Arquivo institucional de discursos e prioridades presidenciais, incluindo Europa, indústria e transformação digital."
+        }
+      ],
+      "evidence": {
+        "rep": "medium",
+        "dip": "medium",
+        "int": "medium",
+        "eco": "medium",
+        "tec": "medium"
+      },
+      "axisEvidence": {
+        "rep": {
+          "sourceTitles": [
+            "Iniciativas presidenciais e discursos"
+          ],
+          "rationale": "Arquivo institucional de discursos e prioridades presidenciais, incluindo Europa, indústria e transformação digital. O programa presidencial articula integração europeia, inovação, defesa e economia de mercado regulada. A direção editorial deste eixo é Democracia, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "dip": {
+          "sourceTitles": [
+            "Iniciativas presidenciais e discursos"
+          ],
+          "rationale": "Arquivo institucional de discursos e prioridades presidenciais, incluindo Europa, indústria e transformação digital. O programa presidencial articula integração europeia, inovação, defesa e economia de mercado regulada. A direção editorial deste eixo é Militarista, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "int": {
+          "sourceTitles": [
+            "Iniciativas presidenciais e discursos"
+          ],
+          "rationale": "Arquivo institucional de discursos e prioridades presidenciais, incluindo Europa, indústria e transformação digital. O programa presidencial articula integração europeia, inovação, defesa e economia de mercado regulada. A direção editorial deste eixo é Nacionalista, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "eco": {
+          "sourceTitles": [
+            "Iniciativas presidenciais e discursos"
+          ],
+          "rationale": "Arquivo institucional de discursos e prioridades presidenciais, incluindo Europa, indústria e transformação digital. O programa presidencial articula integração europeia, inovação, defesa e economia de mercado regulada. A direção editorial deste eixo é Público, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "tec": {
+          "sourceTitles": [
+            "Iniciativas presidenciais e discursos"
+          ],
+          "rationale": "Arquivo institucional de discursos e prioridades presidenciais, incluindo Europa, indústria e transformação digital. O programa presidencial articula integração europeia, inovação, defesa e economia de mercado regulada. A direção editorial deste eixo é Tecnologia, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        }
+      }
+    },
+    {
+      "id": "pedro-sanchez",
+      "kind": "person",
+      "category": "public-figure",
+      "name": "Pedro Sánchez",
+      "period": "Governo da Espanha e discursos, 2018–2026",
+      "vec": {
+        "est": 66,
+        "rep": 84,
+        "pod": 50,
+        "imi": 34,
+        "dip": 38,
+        "int": 66,
+        "eco": 65,
+        "con": 50,
+        "com": 50,
+        "rel": 50,
+        "mor": 78,
+        "tec": 69
+      },
+      "rationale": "Discursos recentes defendem cooperação europeia, integração migratória, justiça social, energias renováveis e ação climática.",
+      "caveats": "Perfil de políticas e discursos do chefe de governo, sujeito a mudança e coalizões; não representa todos os socialistas espanhóis.",
+      "sources": [
+        {
+          "title": "Discurso na COP-30, 2025",
+          "url": "https://www.lamoncloa.gob.es/lang/en/presidente/intervenciones/paginas/2025/20251107-climate-summit-cop30-speech.aspx",
+          "note": "Texto oficial do discurso de Sánchez sobre clima, proteção social, migração e cooperação internacional."
+        }
+      ],
+      "evidence": {
+        "est": "medium",
+        "rep": "medium",
+        "imi": "medium",
+        "dip": "medium",
+        "int": "medium",
+        "eco": "medium",
+        "mor": "medium",
+        "tec": "medium"
+      },
+      "axisEvidence": {
+        "est": {
+          "sourceTitles": [
+            "Discurso na COP-30, 2025"
+          ],
+          "rationale": "Texto oficial do discurso de Sánchez sobre clima, proteção social, migração e cooperação internacional. Discursos recentes defendem cooperação europeia, integração migratória, justiça social, energias renováveis e ação climática. A direção editorial deste eixo é Federal, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "rep": {
+          "sourceTitles": [
+            "Discurso na COP-30, 2025"
+          ],
+          "rationale": "Texto oficial do discurso de Sánchez sobre clima, proteção social, migração e cooperação internacional. Discursos recentes defendem cooperação europeia, integração migratória, justiça social, energias renováveis e ação climática. A direção editorial deste eixo é Democracia, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "imi": {
+          "sourceTitles": [
+            "Discurso na COP-30, 2025"
+          ],
+          "rationale": "Texto oficial do discurso de Sánchez sobre clima, proteção social, migração e cooperação internacional. Discursos recentes defendem cooperação europeia, integração migratória, justiça social, energias renováveis e ação climática. A direção editorial deste eixo é Multicultura, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "dip": {
+          "sourceTitles": [
+            "Discurso na COP-30, 2025"
+          ],
+          "rationale": "Texto oficial do discurso de Sánchez sobre clima, proteção social, migração e cooperação internacional. Discursos recentes defendem cooperação europeia, integração migratória, justiça social, energias renováveis e ação climática. A direção editorial deste eixo é Pacifista, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "int": {
+          "sourceTitles": [
+            "Discurso na COP-30, 2025"
+          ],
+          "rationale": "Texto oficial do discurso de Sánchez sobre clima, proteção social, migração e cooperação internacional. Discursos recentes defendem cooperação europeia, integração migratória, justiça social, energias renováveis e ação climática. A direção editorial deste eixo é Não intervencionista, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "eco": {
+          "sourceTitles": [
+            "Discurso na COP-30, 2025"
+          ],
+          "rationale": "Texto oficial do discurso de Sánchez sobre clima, proteção social, migração e cooperação internacional. Discursos recentes defendem cooperação europeia, integração migratória, justiça social, energias renováveis e ação climática. A direção editorial deste eixo é Público, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "mor": {
+          "sourceTitles": [
+            "Discurso na COP-30, 2025"
+          ],
+          "rationale": "Texto oficial do discurso de Sánchez sobre clima, proteção social, migração e cooperação internacional. Discursos recentes defendem cooperação europeia, integração migratória, justiça social, energias renováveis e ação climática. A direção editorial deste eixo é Progressista, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "tec": {
+          "sourceTitles": [
+            "Discurso na COP-30, 2025"
+          ],
+          "rationale": "Texto oficial do discurso de Sánchez sobre clima, proteção social, migração e cooperação internacional. Discursos recentes defendem cooperação europeia, integração migratória, justiça social, energias renováveis e ação climática. A direção editorial deste eixo é Tecnologia, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        }
+      }
+    },
+    {
+      "id": "giorgia-meloni",
+      "kind": "person",
+      "category": "public-figure",
+      "name": "Giorgia Meloni",
+      "period": "Governo da Itália e programa público, 2022–2026",
+      "vec": {
+        "est": 50,
+        "rep": 57,
+        "pod": 70,
+        "imi": 70,
+        "dip": 68,
+        "int": 44,
+        "eco": 50,
+        "con": 50,
+        "com": 68,
+        "rel": 50,
+        "mor": 50,
+        "tec": 50
+      },
+      "rationale": "Programa partidário e declarações governamentais ressaltam soberania nacional, segurança e identidade, com cautela econômica e tecnológica.",
+      "caveats": "O governo é uma coalizão heterogênea; os valores descrevem documentos e declarações selecionados, não cada política executada.",
+      "sources": [
+        {
+          "title": "Programa eleitoral Fratelli d’Italia, 2022",
+          "url": "https://www.fratelli-italia.it/programma/",
+          "note": "Plataforma primária do partido liderado por Meloni, com posições nacionais, migratórias, econômicas e de segurança."
+        }
+      ],
+      "evidence": {
+        "rep": "medium",
+        "pod": "medium",
+        "imi": "medium",
+        "dip": "medium",
+        "int": "medium",
+        "com": "medium"
+      },
+      "axisEvidence": {
+        "rep": {
+          "sourceTitles": [
+            "Programa eleitoral Fratelli d’Italia, 2022"
+          ],
+          "rationale": "Plataforma primária do partido liderado por Meloni, com posições nacionais, migratórias, econômicas e de segurança. Programa partidário e declarações governamentais ressaltam soberania nacional, segurança e identidade, com cautela econômica e tecnológica. A direção editorial deste eixo é Democracia, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "pod": {
+          "sourceTitles": [
+            "Programa eleitoral Fratelli d’Italia, 2022"
+          ],
+          "rationale": "Plataforma primária do partido liderado por Meloni, com posições nacionais, migratórias, econômicas e de segurança. Programa partidário e declarações governamentais ressaltam soberania nacional, segurança e identidade, com cautela econômica e tecnológica. A direção editorial deste eixo é Segurança, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "imi": {
+          "sourceTitles": [
+            "Programa eleitoral Fratelli d’Italia, 2022"
+          ],
+          "rationale": "Plataforma primária do partido liderado por Meloni, com posições nacionais, migratórias, econômicas e de segurança. Programa partidário e declarações governamentais ressaltam soberania nacional, segurança e identidade, com cautela econômica e tecnológica. A direção editorial deste eixo é Assimilação, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "dip": {
+          "sourceTitles": [
+            "Programa eleitoral Fratelli d’Italia, 2022"
+          ],
+          "rationale": "Plataforma primária do partido liderado por Meloni, com posições nacionais, migratórias, econômicas e de segurança. Programa partidário e declarações governamentais ressaltam soberania nacional, segurança e identidade, com cautela econômica e tecnológica. A direção editorial deste eixo é Militarista, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "int": {
+          "sourceTitles": [
+            "Programa eleitoral Fratelli d’Italia, 2022"
+          ],
+          "rationale": "Plataforma primária do partido liderado por Meloni, com posições nacionais, migratórias, econômicas e de segurança. Programa partidário e declarações governamentais ressaltam soberania nacional, segurança e identidade, com cautela econômica e tecnológica. A direção editorial deste eixo é Nacionalista, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "com": {
+          "sourceTitles": [
+            "Programa eleitoral Fratelli d’Italia, 2022"
+          ],
+          "rationale": "Plataforma primária do partido liderado por Meloni, com posições nacionais, migratórias, econômicas e de segurança. Programa partidário e declarações governamentais ressaltam soberania nacional, segurança e identidade, com cautela econômica e tecnológica. A direção editorial deste eixo é Protecionismo, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        }
+      }
+    },
+    {
+      "id": "viktor-orban",
+      "kind": "person",
+      "category": "public-figure",
+      "name": "Viktor Orbán",
+      "period": "Discursos e governos da Hungria, 2010–2026",
+      "vec": {
+        "est": 50,
+        "rep": 43,
+        "pod": 75,
+        "imi": 88,
+        "dip": 50,
+        "int": 66,
+        "eco": 50,
+        "con": 50,
+        "com": 74,
+        "rel": 36,
+        "mor": 38,
+        "tec": 50
+      },
+      "rationale": "Discursos oficiais defendem soberania nacional, restrição migratória, valores tradicionais e forte autoridade governamental.",
+      "caveats": "Codifica o programa político declarado; classificações jurídicas e políticas da Hungria são debates externos e não foram convertidas em um único escore.",
+      "sources": [
+        {
+          "title": "Discurso de Băile Tușnad sobre a nação, 2022",
+          "url": "https://miniszterelnok.hu/en/speech-by-prime-minister-viktor-orban-at-the-31st-balvanyos-summer-open-university-and-student-camp/",
+          "note": "Discurso integral publicado pelo gabinete do primeiro-ministro sobre soberania, migração e identidade nacional."
+        }
+      ],
+      "evidence": {
+        "rep": "medium",
+        "pod": "medium",
+        "imi": "high",
+        "int": "medium",
+        "com": "medium",
+        "rel": "medium",
+        "mor": "medium"
+      },
+      "axisEvidence": {
+        "rep": {
+          "sourceTitles": [
+            "Discurso de Băile Tușnad sobre a nação, 2022"
+          ],
+          "rationale": "Discurso integral publicado pelo gabinete do primeiro-ministro sobre soberania, migração e identidade nacional. Discursos oficiais defendem soberania nacional, restrição migratória, valores tradicionais e forte autoridade governamental. A direção editorial deste eixo é Autocracia, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "pod": {
+          "sourceTitles": [
+            "Discurso de Băile Tușnad sobre a nação, 2022"
+          ],
+          "rationale": "Discurso integral publicado pelo gabinete do primeiro-ministro sobre soberania, migração e identidade nacional. Discursos oficiais defendem soberania nacional, restrição migratória, valores tradicionais e forte autoridade governamental. A direção editorial deste eixo é Segurança, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "imi": {
+          "sourceTitles": [
+            "Discurso de Băile Tușnad sobre a nação, 2022"
+          ],
+          "rationale": "Discurso integral publicado pelo gabinete do primeiro-ministro sobre soberania, migração e identidade nacional. Discursos oficiais defendem soberania nacional, restrição migratória, valores tradicionais e forte autoridade governamental. A direção editorial deste eixo é Assimilação, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "int": {
+          "sourceTitles": [
+            "Discurso de Băile Tușnad sobre a nação, 2022"
+          ],
+          "rationale": "Discurso integral publicado pelo gabinete do primeiro-ministro sobre soberania, migração e identidade nacional. Discursos oficiais defendem soberania nacional, restrição migratória, valores tradicionais e forte autoridade governamental. A direção editorial deste eixo é Não intervencionista, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "com": {
+          "sourceTitles": [
+            "Discurso de Băile Tușnad sobre a nação, 2022"
+          ],
+          "rationale": "Discurso integral publicado pelo gabinete do primeiro-ministro sobre soberania, migração e identidade nacional. Discursos oficiais defendem soberania nacional, restrição migratória, valores tradicionais e forte autoridade governamental. A direção editorial deste eixo é Protecionismo, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "rel": {
+          "sourceTitles": [
+            "Discurso de Băile Tușnad sobre a nação, 2022"
+          ],
+          "rationale": "Discurso integral publicado pelo gabinete do primeiro-ministro sobre soberania, migração e identidade nacional. Discursos oficiais defendem soberania nacional, restrição migratória, valores tradicionais e forte autoridade governamental. A direção editorial deste eixo é Religioso, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "mor": {
+          "sourceTitles": [
+            "Discurso de Băile Tușnad sobre a nação, 2022"
+          ],
+          "rationale": "Discurso integral publicado pelo gabinete do primeiro-ministro sobre soberania, migração e identidade nacional. Discursos oficiais defendem soberania nacional, restrição migratória, valores tradicionais e forte autoridade governamental. A direção editorial deste eixo é Tradicionalista, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        }
+      }
+    }
+  ]
+}

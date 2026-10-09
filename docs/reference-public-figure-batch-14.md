@@ -1,0 +1,11 @@
+# Figuras públicas — lote14, Dilma Rousseff
+
+Proposta isolada08/10/2026: três direções rep/int/tec60, nove desconhecidos50 sem metadados, inelegível. Normalização executável contra baseline494, catálogo696/100figuras públicas, módulos regionais e snapshots05 não encontrou identidade coincidente. Nenhum import/Git/publicação, nenhum registro/fonte anterior descartado.
+
+[Câmara — pronunciamento próprio01/01/2015](https://www.camara.leg.br/noticias/448217-integra-do-discurso-de-posse-da-presidente-dilma-rousseff-no-congresso/): autor e revisor independente efetivamente leram cabeçalho23/corpo26–144 integral. Revisão independente inicialmente recomendou quatro; Root aceitou REP/INT/TEC e estreitou POD a pesquisa não graduada: polícia/inteligência e punição ordinárias não demonstram restrição civil geral. O código anterior exato permanece publicFigureBatch14ResearchCoding. CONTRAPONTOS materiais e locadores constam no módulo. CON permanece desconhecido:73–80/77 apresentam parceria privada e regulação, sem hierarquia geral de alocação explicitamente resolvida. Relato de realizações ou estatísticas pela oradora não é certificação independente; moral não derivada de referência genérica à igualdade130 ou religião de invocação divina139.
+
+[NDB — evento](https://www.ndb.int/event/ndb-at-the-18th-brics-summit/): autor leu81–86, data12/09/2026 e atividade apenas. [Pronunciamento disponibilizado](https://www.ndb.int/insights/address-by-ndb-president-dilma-rousseff-at-the-18th-brics-summit-open-plenary-session/): autor leu92–113; data vem do evento, página extraída sem cabeçalho editorial. Fonte atual não misturada à política2015, fotografia não examinada. Revisor independente efetivamente reabriu evento81–86, fechando a identidade. Pronunciamento NDB92–113 mantém apenas leitura própria, não foi promovido a escopo independente. Três direções e nove desconhecidos aceitos pelo Root; integração futura pendente.
+
+[Pesquisa2014 e fontes preservadas](./reference-public-figure-research-next-14.md): ABMES coletivo sem endosso próprio localizado; não codificado. O documento registra leituras e falhas de acesso precisas e permanece útil sem justificar eixos ativos.
+
+Bun isolado:1registro/3códigos/9desconhecidos/0elegível/0aliases/0metadados inválidos; tsc--noEmit passou. Não há promoção artificial para seis eixos.

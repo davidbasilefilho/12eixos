@@ -1,0 +1,292 @@
+{
+  "baseline": "95c3e705eb2583b80abc0673b573782cde2c41b9",
+  "entries": [
+    {
+      "id": "sviatlana-tsikhanouskaya",
+      "kind": "person",
+      "category": "public-figure",
+      "name": "Sviatlana Tsikhanouskaya",
+      "period": "Programa da oposição democrática bielorrussa, 2020–2026",
+      "vec": {
+        "est": 50,
+        "rep": 95,
+        "pod": 50,
+        "imi": 50,
+        "dip": 50,
+        "int": 60,
+        "eco": 50,
+        "con": 50,
+        "com": 50,
+        "rel": 50,
+        "mor": 74,
+        "tec": 50
+      },
+      "rationale": "A plataforma de oposição pede eleições livres, libertação de presos políticos e soberania popular.",
+      "caveats": "O vetor expressa a plataforma pública da oposição que ela representa no exílio; não é política implementada nem mede todos os apoiadores.",
+      "sources": [
+        {
+          "title": "Programa de campanha presidencial, 2020",
+          "url": "https://tsikhanouskaya.org/en/strategy/",
+          "note": "Declarações e estratégia da própria candidata sobre transição democrática e direitos políticos."
+        }
+      ],
+      "evidence": {
+        "rep": "high",
+        "int": "medium",
+        "mor": "medium"
+      },
+      "axisEvidence": {
+        "rep": {
+          "sourceTitles": [
+            "Programa de campanha presidencial, 2020"
+          ],
+          "rationale": "Declarações e estratégia da própria candidata sobre transição democrática e direitos políticos. A plataforma de oposição pede eleições livres, libertação de presos políticos e soberania popular. A direção editorial deste eixo é Democracia, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "int": {
+          "sourceTitles": [
+            "Programa de campanha presidencial, 2020"
+          ],
+          "rationale": "Declarações e estratégia da própria candidata sobre transição democrática e direitos políticos. A plataforma de oposição pede eleições livres, libertação de presos políticos e soberania popular. A direção editorial deste eixo é Não intervencionista, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "mor": {
+          "sourceTitles": [
+            "Programa de campanha presidencial, 2020"
+          ],
+          "rationale": "Declarações e estratégia da própria candidata sobre transição democrática e direitos políticos. A plataforma de oposição pede eleições livres, libertação de presos políticos e soberania popular. A direção editorial deste eixo é Progressista, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        }
+      }
+    },
+    {
+      "id": "reza-pahlavi",
+      "kind": "person",
+      "category": "public-figure",
+      "name": "Reza Pahlavi",
+      "period": "Propostas públicas para transição política iraniana, 1979–2026",
+      "vec": {
+        "est": 76,
+        "rep": 88,
+        "pod": 50,
+        "imi": 50,
+        "dip": 32,
+        "int": 50,
+        "eco": 50,
+        "con": 50,
+        "com": 50,
+        "rel": 68,
+        "mor": 73,
+        "tec": 50
+      },
+      "rationale": "Sua Carta de transição propõe referendo, assembleia constituinte, separação entre religião e Estado e eleições livres.",
+      "caveats": "É uma proposta de oposição no exílio, não evidência de mandato, apoio popular ou política aplicada no Irã.",
+      "sources": [
+        {
+          "title": "Iran Prosperity Project: transition charter",
+          "url": "https://www.iranprosperityproject.com/transition-charter",
+          "note": "Carta pública associada a Pahlavi com princípios para transição constitucional e secular."
+        }
+      ],
+      "evidence": {
+        "est": "medium",
+        "rep": "high",
+        "dip": "medium",
+        "rel": "high",
+        "mor": "medium"
+      },
+      "axisEvidence": {
+        "est": {
+          "sourceTitles": [
+            "Iran Prosperity Project: transition charter"
+          ],
+          "rationale": "Carta pública associada a Pahlavi com princípios para transição constitucional e secular. Sua Carta de transição propõe referendo, assembleia constituinte, separação entre religião e Estado e eleições livres. A direção editorial deste eixo é Federal, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "rep": {
+          "sourceTitles": [
+            "Iran Prosperity Project: transition charter"
+          ],
+          "rationale": "Carta pública associada a Pahlavi com princípios para transição constitucional e secular. Sua Carta de transição propõe referendo, assembleia constituinte, separação entre religião e Estado e eleições livres. A direção editorial deste eixo é Democracia, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "dip": {
+          "sourceTitles": [
+            "Iran Prosperity Project: transition charter"
+          ],
+          "rationale": "Carta pública associada a Pahlavi com princípios para transição constitucional e secular. Sua Carta de transição propõe referendo, assembleia constituinte, separação entre religião e Estado e eleições livres. A direção editorial deste eixo é Pacifista, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "rel": {
+          "sourceTitles": [
+            "Iran Prosperity Project: transition charter"
+          ],
+          "rationale": "Carta pública associada a Pahlavi com princípios para transição constitucional e secular. Sua Carta de transição propõe referendo, assembleia constituinte, separação entre religião e Estado e eleições livres. A direção editorial deste eixo é Irreligioso, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "mor": {
+          "sourceTitles": [
+            "Iran Prosperity Project: transition charter"
+          ],
+          "rationale": "Carta pública associada a Pahlavi com princípios para transição constitucional e secular. Sua Carta de transição propõe referendo, assembleia constituinte, separação entre religião e Estado e eleições livres. A direção editorial deste eixo é Progressista, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        }
+      }
+    },
+    {
+      "id": "dalai-lama",
+      "kind": "person",
+      "category": "public-figure",
+      "name": "Tenzin Gyatso, 14º Dalai Lama",
+      "period": "Discursos políticos e propostas de autonomia tibetana, 1988–2026",
+      "vec": {
+        "est": 83,
+        "rep": 70,
+        "pod": 29,
+        "imi": 50,
+        "dip": 20,
+        "int": 67,
+        "eco": 50,
+        "con": 50,
+        "com": 50,
+        "rel": 5,
+        "mor": 50,
+        "tec": 50
+      },
+      "rationale": "O Plano de Estrasburgo defende autonomia tibetana não violenta; seus escritos também articulam uma tradição religiosa explícita.",
+      "caveats": "O texto político é histórico e representa uma proposta pessoal específica, não toda a política tibetana nem todas as posições atuais.",
+      "sources": [
+        {
+          "title": "Five Point Peace Plan / Strasbourg Proposal",
+          "url": "https://www.dalailama.com/messages/tibet/strasbourg-proposal-1988",
+          "note": "Proposta escrita pelo próprio Dalai Lama sobre autonomia, direitos e renúncia ao uso da força como solução política."
+        }
+      ],
+      "evidence": {
+        "est": "high",
+        "rep": "medium",
+        "pod": "medium",
+        "dip": "high",
+        "int": "medium",
+        "rel": "high"
+      },
+      "axisEvidence": {
+        "est": {
+          "sourceTitles": [
+            "Five Point Peace Plan / Strasbourg Proposal"
+          ],
+          "rationale": "Proposta escrita pelo próprio Dalai Lama sobre autonomia, direitos e renúncia ao uso da força como solução política. O Plano de Estrasburgo defende autonomia tibetana não violenta; seus escritos também articulam uma tradição religiosa explícita. A direção editorial deste eixo é Federal, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "rep": {
+          "sourceTitles": [
+            "Five Point Peace Plan / Strasbourg Proposal"
+          ],
+          "rationale": "Proposta escrita pelo próprio Dalai Lama sobre autonomia, direitos e renúncia ao uso da força como solução política. O Plano de Estrasburgo defende autonomia tibetana não violenta; seus escritos também articulam uma tradição religiosa explícita. A direção editorial deste eixo é Democracia, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "pod": {
+          "sourceTitles": [
+            "Five Point Peace Plan / Strasbourg Proposal"
+          ],
+          "rationale": "Proposta escrita pelo próprio Dalai Lama sobre autonomia, direitos e renúncia ao uso da força como solução política. O Plano de Estrasburgo defende autonomia tibetana não violenta; seus escritos também articulam uma tradição religiosa explícita. A direção editorial deste eixo é Liberdade, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "dip": {
+          "sourceTitles": [
+            "Five Point Peace Plan / Strasbourg Proposal"
+          ],
+          "rationale": "Proposta escrita pelo próprio Dalai Lama sobre autonomia, direitos e renúncia ao uso da força como solução política. O Plano de Estrasburgo defende autonomia tibetana não violenta; seus escritos também articulam uma tradição religiosa explícita. A direção editorial deste eixo é Pacifista, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "int": {
+          "sourceTitles": [
+            "Five Point Peace Plan / Strasbourg Proposal"
+          ],
+          "rationale": "Proposta escrita pelo próprio Dalai Lama sobre autonomia, direitos e renúncia ao uso da força como solução política. O Plano de Estrasburgo defende autonomia tibetana não violenta; seus escritos também articulam uma tradição religiosa explícita. A direção editorial deste eixo é Não intervencionista, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "rel": {
+          "sourceTitles": [
+            "Five Point Peace Plan / Strasbourg Proposal"
+          ],
+          "rationale": "Proposta escrita pelo próprio Dalai Lama sobre autonomia, direitos e renúncia ao uso da força como solução política. O Plano de Estrasburgo defende autonomia tibetana não violenta; seus escritos também articulam uma tradição religiosa explícita. A direção editorial deste eixo é Religioso, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        }
+      }
+    },
+    {
+      "id": "greta-thunberg",
+      "kind": "person",
+      "category": "public-figure",
+      "name": "Greta Thunberg",
+      "period": "Ativismo climático e pronunciamentos públicos, 2018–2026",
+      "vec": {
+        "est": 50,
+        "rep": 50,
+        "pod": 50,
+        "imi": 50,
+        "dip": 50,
+        "int": 50,
+        "eco": 50,
+        "con": 50,
+        "com": 50,
+        "rel": 50,
+        "mor": 50,
+        "tec": 50
+      },
+      "rationale": "As fontes documentam mobilização por ação climática, mas não um vetor político comparável e sustentado para os doze eixos.",
+      "caveats": "Todos os eixos ficam em 50 por evidência insuficiente; o centro não afirma neutralidade, moderação nem concordância com políticas específicas.",
+      "sources": [
+        {
+          "title": "Discurso na Cúpula de Ação Climática da ONU, 2019",
+          "url": "https://www.un.org/en/climatechange/2019/09/what-did-greta-thunberg-say-at-un-climate-action-summit",
+          "note": "Transcrição institucional de uma fala pública; sustenta somente ativismo climático, não posições nos doze eixos."
+        }
+      ],
+      "evidence": {},
+      "axisEvidence": {}
+    },
+    {
+      "id": "hassan-rouhani",
+      "kind": "person",
+      "category": "public-figure",
+      "name": "Hassan Rouhani",
+      "period": "Presidência do Irã e escritos políticos, 2013–2021",
+      "vec": {
+        "est": 50,
+        "rep": 47,
+        "pod": 50,
+        "imi": 50,
+        "dip": 50,
+        "int": 52,
+        "eco": 50,
+        "con": 50,
+        "com": 50,
+        "rel": 28,
+        "mor": 50,
+        "tec": 50
+      },
+      "rationale": "Discursos e textos políticos sustentam prioridades de estabilidade, representação limitada e negociação externa durante sua presidência.",
+      "caveats": "O recorte institucional da República Islâmica não deve ser reduzido à vontade individual do presidente; eixos sobre secularismo e democracia exigem cautela contextual.",
+      "sources": [
+        {
+          "title": "Speeches and official statements",
+          "url": "https://president.ir/en",
+          "note": "Arquivo presidencial iraniano de discursos e comunicados durante o mandato de Rouhani."
+        }
+      ],
+      "evidence": {
+        "rep": "medium",
+        "int": "medium",
+        "rel": "medium"
+      },
+      "axisEvidence": {
+        "rep": {
+          "sourceTitles": [
+            "Speeches and official statements"
+          ],
+          "rationale": "Arquivo presidencial iraniano de discursos e comunicados durante o mandato de Rouhani. Discursos e textos políticos sustentam prioridades de estabilidade, representação limitada e negociação externa durante sua presidência. A direção editorial deste eixo é Autocracia, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "int": {
+          "sourceTitles": [
+            "Speeches and official statements"
+          ],
+          "rationale": "Arquivo presidencial iraniano de discursos e comunicados durante o mandato de Rouhani. Discursos e textos políticos sustentam prioridades de estabilidade, representação limitada e negociação externa durante sua presidência. A direção editorial deste eixo é Não intervencionista, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "rel": {
+          "sourceTitles": [
+            "Speeches and official statements"
+          ],
+          "rationale": "Arquivo presidencial iraniano de discursos e comunicados durante o mandato de Rouhani. Discursos e textos políticos sustentam prioridades de estabilidade, representação limitada e negociação externa durante sua presidência. A direção editorial deste eixo é Religioso, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        }
+      }
+    }
+  ]
+}

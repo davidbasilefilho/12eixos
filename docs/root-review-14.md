@@ -1,0 +1,31 @@
+# Local checkpoint727 — source reconciliation and bounded verification
+
+8 October 2026. Local only: no push, merge, deploy or new public Site. Verified remote baseline eae7f1f3a53af6a70ee5168ce20b576a49355e5c; unavailable checkpoint efbd435891fbc62d8e55cd34b1baf3e4ff56cbe remains separately identified. Its reported363/48 baseline is not compared as if identical to remote494/59. Two prior supported recovery failures are preserved; no invented recovered content.
+
+## Accepted evidence
+
+Eight new identities: Portugal constitutional order1976–1982, Argentina first Peron administration1946–1955, Yolanda Díaz, Jo Swinson, Marina Silva, Nikolai Bukharin, Warren Harding and August Bebel. Two guarded overlays: original1948 Italy norms and Nkrumah1963 programme. All have at least six accepted bounded directions; Portugal seven, Díaz seven, Swinson seven, Silva eight. Counts describe editorial ordinal claims, not measured percentages, full careers or current-policy endorsement.
+
+Portugal uses actual territorial powers and original military Revolution Council with its1982 termination; this is not a separately invented identity for every amendment. Argentina uses the original1949 constitutional snapshot, general private productive activity and competition with broad public resources/services/banking and foreign-trade exceptions. State Catholic patronage is distinguished from individual freedom of cult. Terminal coup chronology is explicit.
+
+Díaz uses her own presentation of the2023 collective programme with attributed selected programme passages, not a claimed full182-page read. Swinson uses the signed2019 programme with England/devolved scope, lawful conditional humanitarian intervention and defense/nuclear counters. Silva uses her own presentation and personal2018 statement with institutional secularism, plural family/cultural rights, defense and territorial sovereignty counters;2026 activity verifies identity only. Direct access failures, reproductions and versions remain in owned reports.
+
+Bukharin is a May1918 programme: armed international revolution supports moderate militarism, not pacifism. Gregorian birth and conviction/execution dates are distinguished. Harding uses1921 declarations, compulsory wartime mobilization as the security direction, private general business with wartime/state support counters. Bebel uses the authorized lifetime1910 English translation and selected own future-programme passages, elected temporary administration and productive social ownership with essentialist and abolition-of-State counters; no whole30-chapter/German-original read claim.
+
+Italy uses the original constitutional and Lateran terms incorporated by Art7, not1984 changes. Traditional family/women's essential family role remains a counter to broad equality provisions. Nkrumah uses the actual1963 declaration; electoral popular Parliament and constitutional political-change provisions are distinct. Strong presidential/party/opposition/press counters remain. Ghana's unitary organization is separate from a proposed African federal polity. No1964 practice or full244-page review is invented.
+
+Full source read scopes and access failures are attributed to specialist authors and independent method reviewer in the accompanying batch documents and resumed report. Root accepts those scoped reviews, independently inspects preservation and browser evidence, and does not claim fresh reopens of every primary source.
+
+## Inventory, qualification and preservation
+
+727 records:150 current countries /133 historical countries /111 public figures /120 historical figures /213 ideologies. Remaining target identities86:17 historical countries,39 public figures,30 historical figures. The213 ideologies include138 alternatives to the selected75; they do not fill other categories. Located normative ideology referents61 and bounded closest-material comparisons43 are unchanged;75 distinct doctrines are not yet verified.
+
+The old mapped diagnostic102 and located metadata candidates55 are separate from actual substantive source certification. Explicit human source-reviewed whole profiles advance from33 at719 to43 after these ten accepted profiles are committed, as a lower bound; total substantive qualification remains unknown. Valid1–5-axis profiles can be inventory records while remaining unranked. Whether every675 inventory record must also be six-axis eligible remains an unsettled completion interpretation. No threshold, weights or invented missing scores have been introduced.
+
+719→727 executed preservation:717 prior records byte-equivalent, two specified overlays, eight new IDs, every719 identity and exact prior source object retained, zero duplicates,2999 guard/preservation checks. Prior verified continuity preserves all494 remote IDs and718/724 exact original ID/title/URL associations actively; six accounted replacements and all originals remain in Git history. No unavailable-checkpoint diff is alleged. CatalogSHA256 eb63feac87b44dd23b425cf58ec6792703451f2becec5e2ffa6643daeeadee94.
+
+## Verification and remaining work
+
+34 tests pass,0 failures,85,912 assertions. Final TypeScript/Vite build passes, existing chunk-size warning remains. Actual eight affected Chromium exports validate whole hero/person text Range and final-character visibility, captions, sources, three current plus three historical rows and frame/panel containment. Two separate Portugal/Argentina country-vector captures verify existing packaged exact-ID flag aliases. Original country-identity primary evidence is preserved; no manually drawnSVG or historic exactRGB/ratio certification is claimed. Root viewed original Argentina light and Silva dark exports; complete paragraphs, sources, flags and dated country rows fit. Reports: validation/new727-with-flags-final/report.json and validation/new727-country-flags-final/report.json. The initial duplicate-person hero locator failure is explicitly superseded, retained for provenance. These are scoped Chromium checks, not comprehensiveWCAG/cross-browser certification.
+
+Owen/EZLN and ongoing identity research remain outside this committed catalog, preserved separately. Inventory completion, legacy whole-source provenance,75-doctrine material independence and remaining UI verification continue locally. No blanket675-completion claim.

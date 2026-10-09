@@ -1,4 +1,178 @@
+import { reconcileNative14PublicFigures } from './reference-native14-public-figures';
+import { reconcileNative14Ideologies } from './reference-native14-ideologies';
+import { reconcileNative14HistoricalFigures } from './reference-native14-historical-figures';
+import { reconcileNative14HistoricalCountries } from './reference-native14-historical-countries';
+import { extendNative14CurrentCountries } from './reference-native14-current-countries';
+import { reconcileNative16HistoricalCountries } from './reference-native16-historical-countries';
+import { reconcileNative16HistoricalFigures } from './reference-native16-historical-figures';
+import { reconcileNative16PublicFigures } from './reference-native16-public-figures';
+import { reconcileNative16Ideologies } from './reference-native16-ideologies';
+import { extendNative16CurrentCountries } from './reference-native16-current-countries';
+import { reconcileRanking675Ideology05 } from './reference-ranking675-ideology05';
+import { extendRanking675Country05 } from './ranking675-country05';
+import { reconcileRanking675Public09 } from './reference-ranking675-public-09';
+import { reconcileRanking675Public08 } from './reference-ranking675-public-08';
+import { reconcileRanking675Public07 } from './reference-ranking675-public-07';
+import { extendRanking675Country03 } from './ranking675-country03';
+import { extendRanking675Country04 } from './ranking675-country04';
+import { reconcileRanking675HistoricalFigure05 } from './reference-ranking675-historical-figure05';
+import { reconcileRanking675HistoricalFigure06 } from './reference-ranking675-historical-figure06';
+import { reconcileRanking675HistoricalFigure07 } from './reference-ranking675-historical-figure07';
+import { reconcileRanking675Public04 } from './reference-ranking675-public-04';
+import { reconcileRanking675Public05 } from './reference-ranking675-public-05';
+import { reconcileRanking675HistoricalFigure03 } from './reference-ranking675-historical-figure03';
+import { reconcileRanking675HistoricalFigure04 } from './reference-ranking675-historical-figure04';
+import { reconcileRanking675Public06 } from './reference-ranking675-public-06';
+import { reconcileRanking675Ideology03 } from './reference-ranking675-ideology03';
+import { reconcileRanking675Ideology03a } from './reference-ranking675-ideology03a';
+import { reconcileRanking675Ideology04 } from './reference-ranking675-ideology04';
+import { extendRanking675HistoricalCountry03 } from './ranking675-historical-country03';
+import { reconcileRanking675Public03 } from './reference-ranking675-public-03';
+import { extendRanking675HistoricalCountry02 } from './ranking675-historical-country02';
+import { extendRanking675Country02 } from './ranking675-country02';
+import { reconcileRanking675Public02 } from './reference-ranking675-public-02';
+import { reconcileRanking675HistoricalFigure02 } from './reference-ranking675-historical-figure02';
+import { reconcileRanking675Ideology02 } from './reference-ranking675-ideology02';
+import { reconcileRanking675Ideology01 } from './reference-ranking675-ideology01';
+import { extendRanking675HistoricalCountry01 } from './ranking675-historical-country01';
+import { reconcileRanking675HistoricalFigure01 } from './reference-ranking675-historical-figure01';
+import { extendRanking675Country01 } from './ranking675-country01';
+import { reconcileRanking675Public01 } from './reference-ranking675-public-01';
+import {reconcileExistingIdeologyDefinition30} from './reference-existing-ideology-definition-30';
+import {reconcileExistingIdeologyDefinition31} from './reference-existing-ideology-definition-31';
+import {reconcileExistingIdeologyDefinition32} from './reference-existing-ideology-definition-32';
+import {reconcileExistingIdeologyDefinition33} from './reference-existing-ideology-definition-33';
+import { reconcileExistingIdeologyDefinition29 } from './reference-existing-ideology-definition-29';
+import { reconcileExistingIdeologyDefinition28 } from './reference-existing-ideology-definition-28';
+import { reconcileExistingIdeologyDefinition27 } from './reference-existing-ideology-definition-27';
+import { reconcileExistingIdeologyDefinition26 } from './reference-existing-ideology-definition-26';
+import { reconcileHistoricalCountryProvenance10 } from './reference-historical-country-provenance-10';
+import { reconcileHistoricalCountryProvenance09 } from './reference-historical-country-provenance-09';
+import { reconcileHistoricalCountryProvenance08 } from './reference-historical-country-provenance-08';
+import { reconcileHistoricalCountryProvenance07 } from './reference-historical-country-provenance-07';
+import { reconcileExistingIdeologyDefinition25 } from './reference-existing-ideology-definition-25';
+import { reconcileExistingIdeologyDefinition24 } from './reference-existing-ideology-definition-24';
+import { reconcileExistingIdeologyDefinition23 } from './reference-existing-ideology-definition-23';
+import { reconcileExistingIdeologyDefinition22 } from './reference-existing-ideology-definition-22';
+import { reconcileHistoricalCountryProvenance06 } from './reference-historical-country-provenance-06';
+import { reconcileHistoricalCountryProvenance05 } from './reference-historical-country-provenance-05';
+import { reconcileHistoricalCountryProvenance04 } from './reference-historical-country-provenance-04';
+import { reconcileHistoricalCountryProvenance03 } from './reference-historical-country-provenance-03';
+import { reconcileHistoricalCountryProvenance01 } from './reference-historical-country-provenance-01';
+import { reconcileHistoricalCountryProvenance02 } from './reference-historical-country-provenance-02';
+import { reconcileExistingIdeologyDefinition21 } from './reference-existing-ideology-definition-21';
+import { reconcileExistingIdeologyDefinition20 } from './reference-existing-ideology-definition-20';
+import { reconcileExistingIdeologyDefinition19 } from './reference-existing-ideology-definition-19';
+import { reconcileExistingIdeologyDefinition18 } from './reference-existing-ideology-definition-18';
+import { reconcileExistingIdeologyDefinition17 } from './reference-existing-ideology-definition-17';
+import { reconcileLegacyHistoricalQuality15 } from './reference-legacy-historical-quality-15';
+import { reconcileExistingIdeologyDefinition14 } from './reference-existing-ideology-definition-14';
+import { reconcileExistingIdeologyDefinition15 } from './reference-existing-ideology-definition-15';
+import { reconcileExistingIdeologyDefinition16 } from './reference-existing-ideology-definition-16';
+import { extendCurrentCountryCoverage14 } from './reference-current-country-coverage-14';
+import { extendCurrentCountryCoverage15 } from './reference-current-country-coverage-15';
+import { extendCurrentCountryCoverage16 } from './reference-current-country-coverage-16';
+import { extendCurrentCountryCoverage17 } from './reference-current-country-coverage-17';
+import { extendCurrentCountryCoverage18 } from './reference-current-country-coverage-18';
+import { extendCurrentCountryCoverage19 } from './reference-current-country-coverage-19';
+import { alignCurrentCountryDescription03 } from './reference-current-country-alignment-03';
+import { reconcileExistingIdeologyDefinition12 } from './reference-existing-ideology-definition-12';
+import { reconcileExistingIdeologyDefinition13 } from './reference-existing-ideology-definition-13';
+import { extendCurrentCountryCoverage13 } from './reference-current-country-coverage-13';
+import { alignCurrentCountryPeriod02 } from './reference-current-country-alignment-02';
+import { reconcileHistoricalCountryDescription01 } from './reference-historical-country-description-01';
+import { reconcileLegacyHistoricalQuality11 } from './reference-legacy-historical-quality-11';
+import { reconcileLegacyHistoricalQuality12 } from './reference-legacy-historical-quality-12';
+import { reconcileLegacyHistoricalQuality13 } from './reference-legacy-historical-quality-13';
+import { reconcileLegacyHistoricalQuality14 } from './reference-legacy-historical-quality-14';
+import { reconcileExistingIdeologyDefinition11 } from './reference-existing-ideology-definition-11';
+import { extendCurrentCountryCoverage11 } from './reference-current-country-coverage-11';
+import { extendCurrentCountryCoverage12 } from './reference-current-country-coverage-12';
+import { alignCurrentCountryPeriod01 } from './reference-current-country-alignment-01';
+import { reconcileLegacyHistoricalQuality09 } from './reference-legacy-historical-quality-09';
+import { reconcileLegacyHistoricalQuality10 } from './reference-legacy-historical-quality-10';
+import { reconcilePublicProvenance04 } from './reference-public-provenance-04';
+import { reconcilePublicProvenance05 } from './reference-public-provenance-05';
+import { reconcilePublicProvenance06 } from './reference-public-provenance-06';
+import { reconcilePublicProvenance07 } from './reference-public-provenance-07';
+import { reconcileExistingIdeologyDefinition10 } from './reference-existing-ideology-definition-10';
+import { reconcilePublicIdentityRefresh01 } from './reference-public-identity-refresh-01';
+import { reconcilePublicDescription01 } from './reference-public-description-reconciliation-01';
+import { reconcileExistingIdeologyDefinition08 } from './reference-existing-ideology-definition-08';
+import { reconcileExistingIdeologyDefinition09 } from './reference-existing-ideology-definition-09';
+import { reconcileLegacyHistoricalQuality08 } from './reference-legacy-historical-quality-08';
+import { extendCurrentCountryCoverage09 } from './reference-current-country-coverage-09';
+import { extendCurrentCountryCoverage10 } from './reference-current-country-coverage-10';
+import { reconcileLegacyHistoricalQuality07 } from './reference-legacy-historical-quality-07';
+import { reconcilePublicProvenance01 } from './reference-public-provenance-01';
+import { reconcilePublicProvenance02 } from './reference-public-provenance-02';
+import { reconcilePublicProvenance03 } from './reference-public-provenance-03';
+import { historicalCountryBatch13 } from './reference-historical-country-batch-13';
+import { historicalCountryBatch14 } from './reference-historical-country-batch-14';
+import { publicFigureBatch19 } from './reference-public-figure-batch-19';
+import { publicFigureBatch20 } from './reference-public-figure-batch-20';
+import { publicFigureBatch21 } from './reference-public-figure-batch-21';
+import { historicalFigureBatch18 } from './reference-historical-figure-batch-18';
+import { historicalFigureBatch19 } from './reference-historical-figure-batch-19';
+import { historicalFigureBatch20 } from './reference-historical-figure-batch-20';
+import { extendHistoricalCountryCoverage18 } from './reference-historical-country-coverage-18';
+import { reconcileLegacyHistoricalQuality04 } from './reference-legacy-historical-quality-04';
+import { legacyHistoricalQuality05 } from './reference-legacy-historical-quality-05';
+import { ideologyProgramBatch05 } from './reference-ideology-program-batch-05';
+import { historicalFigureBatch21 } from './reference-historical-figure-batch-21';
+import { publicFigureBatch22 } from './reference-public-figure-batch-22';
+import { historicalCountryBatch15 } from './reference-historical-country-batch-15';
+import { historicalFigureBatch22 } from './reference-historical-figure-batch-22';
+import { historicalFigureBatch23 } from './reference-historical-figure-batch-23';
+import { ideologyProgramBatch06 } from './reference-ideology-program-batch-06';
+import { historicalCountryBatch16 } from './reference-historical-country-batch-16';
+import { historicalCountryBatch17 } from './reference-historical-country-batch-17';
+import { historicalCountryBatch18 } from './reference-historical-country-batch-18';
+import { historicalFigureBatch24 } from './reference-historical-figure-batch-24';
+import { historicalFigureBatch25 } from './reference-historical-figure-batch-25';
+import { historicalFigureBatch26 } from './reference-historical-figure-batch-26';
+import { publicFigureBatch23 } from './reference-public-figure-batch-23';
+import { publicFigureBatch24 } from './reference-public-figure-batch-24';
+import { publicFigureBatch25 } from './reference-public-figure-batch-25';
+import { publicFigureBatch26 } from './reference-public-figure-batch-26';
+import { publicFigureBatch27 } from './reference-public-figure-batch-27';
+import { ideologyProgramBatch07 } from './reference-ideology-program-batch-07';
+import { extendCurrentCountryCoverage08 } from './reference-current-country-coverage-08';
+import { reconcileLegacyHistoricalQuality06 } from './reference-legacy-historical-quality-06';
+import { publicFigureBatch28 } from './reference-public-figure-batch-28';
+import { publicFigureBatch29 } from './reference-public-figure-batch-29';
+import { publicFigureBatch18 } from './reference-public-figure-batch-18';
+import { ideologyProgramBatch04 } from './reference-ideology-program-batch-04';
+import { historicalCountryBatch11 } from './reference-historical-country-batch-11';
+import { historicalCountryBatch12 } from './reference-historical-country-batch-12';
+import { extendHistoricalCountryCoverage17 } from './reference-historical-country-coverage-17';
+import { extendCurrentCountryCoverage07 } from './reference-current-country-coverage-07';
+import { reconcilePublicFigureCoverage02 } from './reference-public-figure-coverage-02';
+import { historicalFigureBatch15 } from './reference-historical-figure-batch-15';
+import { historicalFigureBatch16 } from './reference-historical-figure-batch-16';
+import { historicalFigureBatch17 } from './reference-historical-figure-batch-17';
+import { reconcileExistingIdeologyCoverage02 } from './reference-existing-ideology-coverage-02';
+import { reconcileHistoricalExistingCoverage01 } from './reference-historical-country-existing-coverage-01';
+import { ideologyProgramBatch03 } from './reference-ideology-program-batch-03';
+import { reconcileLegacyHistoricalQuality03 } from './reference-legacy-historical-quality-03';
+import { historicalFigureBatch09 } from './reference-historical-figure-batch-09';
+import { historicalFigureBatch10 } from './reference-historical-figure-batch-10';
+import { historicalFigureBatch11 } from './reference-historical-figure-batch-11';
+import { historicalFigureBatch12 } from './reference-historical-figure-batch-12';
+import { historicalFigureBatch13 } from './reference-historical-figure-batch-13';
+import { historicalFigureBatch14 } from './reference-historical-figure-batch-14';
+import { publicFigureBatch10 } from './reference-public-figure-batch-10';
+import { publicFigureBatch12 } from './reference-public-figure-batch-12';
+import { publicFigureBatch13 } from './reference-public-figure-batch-13';
+import { publicFigureBatch14 } from './reference-public-figure-batch-14';
+import { publicFigureBatch15 } from './reference-public-figure-batch-15';
+import { publicFigureBatch16 } from './reference-public-figure-batch-16';
+import { publicFigureBatch17 } from './reference-public-figure-batch-17';
+import { extendCurrentCountryCoverage06 } from './reference-current-country-coverage-06';
+import { extendHistoricalCountryCoverage15 } from './reference-historical-country-coverage-15';
+import { extendHistoricalCountryCoverage16 } from './reference-historical-country-coverage-16';
 /** Editorial reference profiles. Scores are estimates, not survey observations. */
+import type { AuditableAxisCoding } from '../lib/reference-coding';
 import { ideologyExpansion } from './reference-ideologies';
 import { ideologiesLeftExpansion } from './reference-ideologies-left';
 import { ideologiesCivicExpansion } from './reference-ideologies-civic';
@@ -8,6 +182,63 @@ import { countryExpansion, historicalCountryExpansion } from './reference-countr
 import { countriesAdditionalExpansion } from './reference-countries-additional';
 import { historicalCountriesAdditionalExpansion } from './reference-countries-additional';
 import { legacyReferenceCorrections } from './reference-legacy-corrections';
+import { currentCountryBatch, currentCountryBatchCoding } from './reference-current-country-batch';
+import { reconcileCurrentCountry } from './reference-current-country-reconciliation';
+import { reconcileLegacy02 } from './reference-legacy-reconciliation-02';
+import { publicFigureBatch } from './reference-public-figure-batch';
+import { historicalFigureBatch } from './reference-historical-figure-batch';
+import { historicalCountryBatch } from './reference-historical-country-batch';
+import { currentCountryBatch02 } from './reference-current-country-batch-02';
+import { historicalFigureBatch02 } from './reference-historical-figure-batch-02';
+import { publicFigureBatch02 } from './reference-public-figure-batch-02';
+import { historicalCountryBatch02 } from './reference-historical-country-batch-02';
+import { currentCountryBatch03 } from './reference-current-country-batch-03';
+import { historicalFigureBatch03 } from './reference-historical-figure-batch-03';
+import { historicalCountryBatch03 } from './reference-historical-country-batch-03';
+import { historicalCountryBatch04 } from './reference-historical-country-batch-04';
+import { publicFigureBatch03 } from './reference-public-figure-batch-03';
+import { reconcileHistoricalCountry03 } from './reference-historical-country-reconciliation-03';
+import { reconcileCurrentCountry03 } from './reference-current-country-reconciliation-03';
+import { reconcileSoros } from './reference-public-figure-reconciliation-05';
+import { reconcileCurrentCountry04 } from './reference-current-country-reconciliation-04';
+import { reconcileHistoricalCountry04 } from './reference-historical-country-reconciliation-04';
+import { publicFigureBatch04 } from './reference-public-figure-batch-04';
+import { historicalFigureBatch04 } from './reference-historical-figure-batch-04';
+import { extendCurrentCountryCoverage05 } from './reference-current-country-coverage-05';
+import { historicalLegacyRecoding } from './reference-historical-legacy-recoding';
+import { historicalCountryBatch05 } from './reference-historical-country-batch-05';
+import { historicalFigureBatch05 } from './reference-historical-figure-batch-05';
+import { publicFigureBatch05 } from './reference-public-figure-batch-05';
+import { historicalCountryBatch06 } from './reference-historical-country-batch-06';
+import { publicFigureBatch06 } from './reference-public-figure-batch-06';
+import { historicalCountryBatch07 } from './reference-historical-country-batch-07';
+import { historicalFigureBatch06 } from './reference-historical-figure-batch-06';
+import { reconcileLegacyPublicQuality01 } from './reference-legacy-public-quality-01';
+import { reconcileLegacyHistoricalQuality01 } from './reference-legacy-historical-quality-01';
+import { reviewCurrentCountryEconomicScope } from './reference-current-country-scope-review';
+import { historicalCountryBatch08 } from './reference-historical-country-batch-08';
+import { publicFigureBatch07 } from './reference-public-figure-batch-07';
+import { historicalFigureBatch07 } from './reference-historical-figure-batch-07';
+import { historicalFigureBatch08 } from './reference-historical-figure-batch-08';
+import { clarifyCurrentCountryQuality06 } from './reference-current-country-quality-06';
+import { extendHistoricalCountryCoverage10 } from './reference-historical-country-coverage-10';
+import { extendHistoricalCountryCoverage11 } from './reference-historical-country-coverage-11';
+import { extendHistoricalCountryCoverage13 } from './reference-historical-country-coverage-13';
+import { extendHistoricalCountryCoverage12 } from './reference-historical-country-coverage-12';
+import { extendHistoricalCountryCoverage14 } from './reference-historical-country-coverage-14';
+import { reconcileLegacyHistoricalQuality02 } from './reference-legacy-historical-quality-02';
+import { ideologyProgramBatch02 } from './reference-ideology-program-batch-02';
+import { extendHistoricalCountryCoverage08 } from './reference-historical-country-coverage-08';
+import { publicFigureBatch08 } from './reference-public-figure-batch-08';
+import { publicFigureBatch09 } from './reference-public-figure-batch-09';
+import { publicFigureBatch11 } from './reference-public-figure-batch-11';
+import { historicalCountryBatch09 } from './reference-historical-country-batch-09';
+import { historicalCountryBatch10 } from './reference-historical-country-batch-10';
+import { ideologyProgramBatch01 } from './reference-ideology-program-batch-01';
+import { reconcileExistingIdeology01 } from './reference-existing-ideology-coverage-01';
+import { extendHistoricalCountryCoverage09 } from './reference-historical-country-coverage-09';
+import { reconcileLegacyPublicQuality02 } from './reference-legacy-public-quality-02';
+import { reviewCurrentCountryScope02 } from './reference-current-country-scope-review-02';
 
 export const AXIS_KEYS = ['est', 'rep', 'pod', 'imi', 'dip', 'int', 'eco', 'con', 'com', 'rel', 'mor', 'tec'] as const;
 export type AxisKey = (typeof AXIS_KEYS)[number];
@@ -31,6 +262,8 @@ export interface ReferenceEntry {
   evidence: Partial<Record<AxisKey, 'high' | 'medium' | 'low'>>;
   /** New profiles cite the specific source(s) and reasoning behind every non-center axis. */
   axisEvidence?: Partial<Record<AxisKey, { sourceTitles: string[]; rationale: string }>>;
+  /** Versioned editorial claims and anchors; metadata alone does not certify documentary review. */
+  coding?: Partial<Record<AxisKey, AuditableAxisCoding>>;
 }
 
 // Axis order: federalism, democracy, security, assimilation, militarism,
@@ -459,7 +692,7 @@ const correctedBaseReferenceEntries = baseReferenceEntries.map((entry) => {
     evidence: { ...entry.evidence, ...correction.evidence },
     axisEvidence: { ...entry.axisEvidence, ...correction.axisEvidence },
   };
-});
+}).map(reconcileCurrentCountry).map(reconcileCurrentCountry03).map(reconcileLegacy02);
 
 const identityAliasesById: Partial<Record<string, string[]>> = {
   'nelson-mandela': ['Rolihlahla Mandela'],
@@ -498,13 +731,98 @@ export const referenceExpansionEntries: ReferenceEntry[] = [
   ...ideologiesCivicExpansion,
   ...ideologiesRightExpansion,
   ...peopleExpansion,
+  ...publicFigureBatch,
+  ...historicalFigureBatch,
   ...countryExpansion,
   ...historicalCountryExpansion,
+  ...historicalCountryBatch,
   ...countriesAdditionalExpansion,
   ...historicalCountriesAdditionalExpansion,
+  ...currentCountryBatch02,
+  ...historicalFigureBatch02,
+  ...publicFigureBatch02,
+  ...historicalCountryBatch02,
+  ...currentCountryBatch03,
+  ...historicalFigureBatch03,
+  ...historicalCountryBatch03,
+  ...historicalCountryBatch04,
+  ...publicFigureBatch03,
+  ...publicFigureBatch04,
+  ...historicalFigureBatch04,
+  ...historicalCountryBatch05,
+  ...historicalFigureBatch05,
+  ...publicFigureBatch05,
+  ...historicalCountryBatch06,
+  ...publicFigureBatch06,
+  ...historicalCountryBatch07,
+  ...historicalFigureBatch06,
+  ...historicalCountryBatch08,
+  ...publicFigureBatch07,
+  ...historicalFigureBatch07,
+  ...historicalFigureBatch08,
+  ...publicFigureBatch08,
+  ...publicFigureBatch09,
+  ...publicFigureBatch11,
+  ...historicalCountryBatch09,
+  ...historicalCountryBatch10,
+  ...ideologyProgramBatch01,
+  ...ideologyProgramBatch02,
+  ...ideologyProgramBatch03,
+  ...ideologyProgramBatch04,
+  ...historicalCountryBatch13,
+  ...historicalCountryBatch14,
+  ...publicFigureBatch19,
+  ...publicFigureBatch20,
+  ...publicFigureBatch21,
+  ...historicalFigureBatch18,
+  ...historicalFigureBatch19,
+  ...historicalFigureBatch20,
+  ...legacyHistoricalQuality05,
+  ...ideologyProgramBatch05,
+  ...historicalFigureBatch21,
+  ...publicFigureBatch22,
+  ...historicalCountryBatch15,
+  ...historicalFigureBatch22,
+  ...historicalFigureBatch23,
+  ...ideologyProgramBatch06,
+  ...historicalCountryBatch16,
+  ...historicalCountryBatch17,
+  ...historicalCountryBatch18,
+  ...historicalFigureBatch24,
+  ...historicalFigureBatch25,
+  ...historicalFigureBatch26,
+  ...publicFigureBatch23,
+  ...publicFigureBatch24,
+  ...publicFigureBatch25,
+  ...publicFigureBatch26,
+  ...publicFigureBatch27,
+  ...ideologyProgramBatch07,
+  ...publicFigureBatch28,
+  ...publicFigureBatch29,
+  ...historicalCountryBatch11,
+  ...historicalCountryBatch12,
+  ...historicalFigureBatch15,
+  ...historicalFigureBatch16,
+  ...historicalFigureBatch17,
+  ...historicalFigureBatch09,
+  ...historicalFigureBatch10,
+  ...historicalFigureBatch11,
+  ...historicalFigureBatch12,
+  ...historicalFigureBatch13,
+  ...historicalFigureBatch14,
+  ...publicFigureBatch10,
+  ...publicFigureBatch12,
+  ...publicFigureBatch13,
+  ...publicFigureBatch14,
+  ...publicFigureBatch15,
+  ...publicFigureBatch16,
+  ...publicFigureBatch17,
+  ...publicFigureBatch18,
+  ...currentCountryBatch.map(entry => ({ ...entry, coding: currentCountryBatchCoding[entry.id] })),
 ].map(prepareExpansionEntry);
 
 export const referenceEntries: ReferenceEntry[] = [
   ...correctedBaseReferenceEntries,
   ...referenceExpansionEntries,
-].map(withIdentityAliases);
+].map(reconcileHistoricalCountry03).map(reconcileCurrentCountry04).map(extendCurrentCountryCoverage05).map(reconcileHistoricalCountry04).map(reconcileSoros)
+  .map(entry => historicalLegacyRecoding.find(replacement => replacement.id === entry.id) ?? entry).map(withIdentityAliases).map(reconcileLegacyPublicQuality01).map(reconcileLegacyHistoricalQuality01).map(reviewCurrentCountryEconomicScope).map(extendHistoricalCountryCoverage08).map(reconcileExistingIdeology01).map(extendHistoricalCountryCoverage09).map(reconcileLegacyPublicQuality02).map(reviewCurrentCountryScope02).map(clarifyCurrentCountryQuality06).map(extendHistoricalCountryCoverage10).map(extendHistoricalCountryCoverage11).map(extendHistoricalCountryCoverage13).map(extendHistoricalCountryCoverage12).map(extendHistoricalCountryCoverage14).map(reconcileLegacyHistoricalQuality02).map(extendCurrentCountryCoverage06).map(extendHistoricalCountryCoverage15).map(extendHistoricalCountryCoverage16).map(reconcileLegacyHistoricalQuality03).map(reconcileHistoricalExistingCoverage01).map(reconcileExistingIdeologyCoverage02).map(extendHistoricalCountryCoverage17).map(extendCurrentCountryCoverage07).map(reconcilePublicFigureCoverage02).map(extendHistoricalCountryCoverage18).map(reconcileLegacyHistoricalQuality04).map(extendCurrentCountryCoverage08).map(reconcileLegacyHistoricalQuality06).map(extendCurrentCountryCoverage09).map(extendCurrentCountryCoverage10).map(reconcileLegacyHistoricalQuality07).map(reconcilePublicProvenance01).map(reconcilePublicProvenance02).map(reconcilePublicProvenance03).map(reconcileLegacyHistoricalQuality08).map(reconcileExistingIdeologyDefinition08).map(reconcileExistingIdeologyDefinition09).map(reconcilePublicDescription01).map(extendCurrentCountryCoverage11).map(extendCurrentCountryCoverage12).map(alignCurrentCountryPeriod01).map(reconcileLegacyHistoricalQuality09).map(reconcileLegacyHistoricalQuality10).map(reconcilePublicProvenance04).map(reconcilePublicProvenance05).map(reconcilePublicProvenance06).map(reconcilePublicProvenance07).map(reconcileExistingIdeologyDefinition10).map(reconcilePublicIdentityRefresh01).map(reconcileLegacyHistoricalQuality11).map(reconcileLegacyHistoricalQuality12).map(reconcileLegacyHistoricalQuality13).map(reconcileLegacyHistoricalQuality14).map(reconcileExistingIdeologyDefinition11).map(reconcileHistoricalCountryDescription01).map(extendCurrentCountryCoverage13).map(alignCurrentCountryPeriod02).map(reconcileExistingIdeologyDefinition12).map(reconcileExistingIdeologyDefinition13).map(extendCurrentCountryCoverage14).map(extendCurrentCountryCoverage15).map(extendCurrentCountryCoverage16).map(extendCurrentCountryCoverage17).map(extendCurrentCountryCoverage18).map(extendCurrentCountryCoverage19).map(alignCurrentCountryDescription03).map(reconcileExistingIdeologyDefinition14).map(reconcileExistingIdeologyDefinition15).map(reconcileExistingIdeologyDefinition16).map(reconcileLegacyHistoricalQuality15).map(reconcileExistingIdeologyDefinition17).map(reconcileExistingIdeologyDefinition18).map(reconcileExistingIdeologyDefinition19).map(reconcileExistingIdeologyDefinition20).map(reconcileExistingIdeologyDefinition21).map(reconcileHistoricalCountryProvenance02).map(reconcileHistoricalCountryProvenance01).map(reconcileHistoricalCountryProvenance03).map(reconcileHistoricalCountryProvenance04).map(reconcileHistoricalCountryProvenance05).map(reconcileHistoricalCountryProvenance06).map(reconcileExistingIdeologyDefinition22).map(reconcileExistingIdeologyDefinition23).map(reconcileExistingIdeologyDefinition24).map(reconcileExistingIdeologyDefinition25).map(reconcileHistoricalCountryProvenance07).map(reconcileHistoricalCountryProvenance08).map(reconcileHistoricalCountryProvenance09).map(reconcileHistoricalCountryProvenance10).map(reconcileExistingIdeologyDefinition26).map(reconcileExistingIdeologyDefinition27).map(reconcileExistingIdeologyDefinition28).map(reconcileExistingIdeologyDefinition29).map(reconcileExistingIdeologyDefinition30).map(reconcileExistingIdeologyDefinition31).map(reconcileExistingIdeologyDefinition32).map(reconcileExistingIdeologyDefinition33).map(entry => entry.id === 'michelle-bachelet' ? reconcileRanking675Public01(entry) : entry).map(entry => entry.id === 'germany' ? extendRanking675Country01([entry])[0] : entry).map(entry => ['north-korea-kim-il-sung','czechoslovakia-socialist-unitary-1960'].includes(entry.id) ? extendRanking675HistoricalCountry01([entry])[0] : entry).map(entry => ['na-george-washington','salvador-allende'].includes(entry.id) ? reconcileRanking675HistoricalFigure01([entry])[0] : entry).map(entry => ['ideology-national-conservatism','ideology-social-conservatism'].includes(entry.id) ? reconcileRanking675Ideology01(entry) : entry).map(entry => ['japan','uruguay'].includes(entry.id) ? extendRanking675Country02([entry])[0] : entry).map(entry => entry.id === 'marine-le-pen' ? reconcileRanking675Public02(entry) : entry).map(entry => entry.id === 'na-george-washington' ? reconcileRanking675HistoricalFigure02([entry])[0] : entry).map(entry => entry.id === 'ideology-left-anarcho-collectivism' ? reconcileRanking675Ideology02(entry) : entry).map(entry => entry.id === 'india-nehru' ? extendRanking675HistoricalCountry02([entry])[0] : entry).map(entry => ['social-liberalism','christian-democracy'].includes(entry.id) ? reconcileRanking675Ideology03(entry) : entry).map(entry => entry.id === 'green-politics' ? reconcileRanking675Ideology03a(entry) : entry).map(entry => ['green-politics','ideology-program-technocracy-inc-2004'].includes(entry.id) ? reconcileRanking675Ideology04(entry) : entry).map(entry => entry.id === 'ussr-1977' ? extendRanking675HistoricalCountry03([entry])[0] : entry).map(entry => entry.id === 'prabowo-subianto' ? reconcileRanking675Public03(entry) : entry).map(entry => ['peter-kropotkin','ricardo-flores-magon'].includes(entry.id) ? reconcileRanking675HistoricalFigure03([entry])[0] : entry).map(entry => entry.id === 'thomas-paine' ? reconcileRanking675HistoricalFigure04([entry])[0] : entry).map(entry => entry.id === 'jose-ramos-horta' ? reconcileRanking675Public06(entry) : entry).map(entry => entry.id === 'jill-stein' ? reconcileRanking675Public04(entry) : entry).map(entry => entry.id === 'myriam-bregman' ? reconcileRanking675Public05(entry) : entry).map(entry => ["indonesia", "turkey", "malta-current-2025"].includes(entry.id) ? extendRanking675Country03([entry])[0] : entry).map(entry => ["denmark", "india", "andorra-current-2025"].includes(entry.id) ? extendRanking675Country04([entry])[0] : entry).map(entry => ["friedrich-hayek"].includes(entry.id) ? reconcileRanking675HistoricalFigure05([entry])[0] : entry).map(entry => ["thomas-paine"].includes(entry.id) ? reconcileRanking675HistoricalFigure06([entry])[0] : entry).map(entry => ["giuseppe-mazzini"].includes(entry.id) ? reconcileRanking675HistoricalFigure07([entry])[0] : entry).map(entry => entry.id === 'jeremy-corbyn' ? reconcileRanking675Public07(entry) : entry).map(entry => entry.id === 'keir-starmer' ? reconcileRanking675Public08(entry) : entry).map(entry => entry.id === 'peter-obi' ? reconcileRanking675Public09(entry) : entry).map(entry => ['united-states','new-zealand','singapore'].includes(entry.id) ? extendRanking675Country05([entry])[0] : entry).map(entry => ['ideology-maoism','ideology-left-baathism','ideology-left-black-anarchism'].includes(entry.id) ? reconcileRanking675Ideology05(entry) : entry).map(entry => ["fiji-current-2025", "tonga-current-2025", "sao-tome-and-principe-current-2025", "comoros-current-2025"].includes(entry.id) ? extendNative16CurrentCountries([entry])[0] : entry).map(entry => ["ideology-program-zapatista-autonomy-ezln-1993-1996", "ideology-program-anarcho-syndicalism-iwa-2022"].includes(entry.id) ? reconcileNative16Ideologies(entry) : entry).map(entry => ["ilhan-omar", "ayanna-pressley", "atiku-abubakar"].includes(entry.id) ? reconcileNative16PublicFigures(entry) : entry).map(entry => ["nicolas-de-condorcet", "salvador-allende", "david-ben-gurion-1948"].includes(entry.id) ? reconcileNative16HistoricalFigures([entry])[0] : entry).map(entry => ["brazil-estado-novo-1937", "venezuela-first-republic-1811", "south-korea-rhee-government-1948", "brazil-first-republic-1889"].includes(entry.id) ? reconcileNative16HistoricalCountries(entry) : entry).map(entry => ["saudi-arabia", "samoa-current-2025", "st-kitts-and-nevis-current-2025"].includes(entry.id) ? extendNative14CurrentCountries([entry])[0] : entry).map(entry => ["chile-liberal-order-1828", "uruguay-dual-executive-order-1919", "brazil-fourth-republic-1946"].includes(entry.id) ? reconcileNative14HistoricalCountries([entry])[0] : entry).map(entry => ["aristotle", "na-john-adams", "william-mckinley"].includes(entry.id) ? reconcileNative14HistoricalFigures(entry) : entry).map(entry => ["ideology-maoism", "civic-transhumanism"].includes(entry.id) ? reconcileNative14Ideologies(entry) : entry).map(entry => ["jill-stein", "jeannette-jara", "rashida-tlaib"].includes(entry.id) ? reconcileNative14PublicFigures(entry) : entry);

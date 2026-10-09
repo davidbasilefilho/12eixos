@@ -1,3 +1,5 @@
+import { codeReferenceAxis, REFERENCE_CODING_VERSION, type AuditableAxisCoding } from './reference-coding';
+import type { ReferenceSource } from '../data/references';
 import { AXES, type AxisKey, type AxisScores } from './scoring';
 
 export type MatchableReference = {
@@ -9,6 +11,7 @@ export type MatchableReference = {
   evidence: Partial<Record<AxisKey, 'high' | 'medium' | 'low'>>;
   axisEvidence?: Partial<Record<AxisKey, { sourceTitles: readonly string[]; rationale: string }>>;
   sources?: readonly { title: string }[];
+  coding?: Partial<Record<AxisKey, AuditableAxisCoding>>;
 };
 
 export type AxisDifference = { key: AxisKey; distance: number; user: number; reference: number };
@@ -29,7 +32,8 @@ const round1 = (value: number) => Math.round(value * 10) / 10;
 /** Editorial display threshold; this does not alter the published similarity formula. */
 export const MIN_EVIDENCE_AXES_FOR_RANKED_MATCH = 6;
 
-export function documentedEvidenceAxes(reference: MatchableReference): AxisKey[] {
+/** Legacy citation plumbing only; does not establish located documentary support. */
+export function mappedEvidenceAxes(reference: MatchableReference): AxisKey[] {
   const sourceTitles = new Set(reference.sources?.flatMap(source =>
     typeof source.title === 'string' && source.title.trim() ? [source.title] : []) ?? []);
   return AXES.flatMap(({ key }) => {
@@ -45,6 +49,48 @@ export function documentedEvidenceAxes(reference: MatchableReference): AxisKey[]
       ? [key]
       : [];
   });
+}
+
+/** Located coding metadata is necessary, but does not certify source truth or entailment. */
+export function documentedEvidenceAxes(reference: MatchableReference): AxisKey[] {
+  return mappedEvidenceAxes(reference).filter(key => {
+    const coding = reference.coding?.[key];
+    if (!coding || coding.axis !== key || coding.version !== REFERENCE_CODING_VERSION) return false;
+    try {
+      // The encoder reads source titles only; matching does not invent URL metadata.
+      const checked = codeReferenceAxis(coding, reference.sources as readonly ReferenceSource[]);
+      const mapped = reference.axisEvidence![key]!;
+      const claimTitles = new Set(checked.axisEvidence!.sourceTitles);
+      return coding.value === checked.value && reference.vec[key] === checked.value
+        && reference.evidence[key] === checked.evidence
+        && Array.isArray(coding.range) && coding.range.length === 2
+        && coding.range.every((value, index) => value === checked.coding.range[index])
+        && mapped.sourceTitles.length === claimTitles.size
+        && mapped.sourceTitles.every(title => claimTitles.has(title))
+        && mapped.rationale === checked.axisEvidence!.rationale;
+    } catch {
+      return false;
+    }
+  });
+}
+
+/** Representative caption source: most distinct valid coded axes; ties follow bibliography order.
+ * Preserves the complete bibliography and makes no claim of sole-source attribution.
+ */
+export function preferredDocumentarySourceTitle(reference: MatchableReference): string | undefined {
+  const counts = new Map<string, number>();
+  for (const axis of documentedEvidenceAxes(reference)) {
+    for (const title of new Set(reference.coding![axis]!.claims.map(claim => claim.sourceTitle))) {
+      counts.set(title, (counts.get(title) ?? 0) + 1);
+    }
+  }
+  let selected: string | undefined;
+  let greatest = 0;
+  for (const source of reference.sources ?? []) {
+    const count = counts.get(source.title) ?? 0;
+    if (count > greatest) { selected = source.title; greatest = count; }
+  }
+  return selected;
 }
 
 export function countDocumentedEvidenceAxes(reference: MatchableReference): number {
@@ -140,7 +186,7 @@ export function calculateSimilarity12full(scores: AxisScores, reference: Matchab
   return scoreSupportedAxes(scores, reference, AXES.map(axis => axis.key)).similarity;
 }
 
-/** Rank references only on axes whose values have a high/medium grade, exact cited source, and rationale. */
+/** Rank references only on axes with consistent, located editorial coding and medium/high support. */
 export function matchReferences<T extends MatchableReference>(scores: AxisScores, entries: readonly T[]): ReferenceMatch<T>[] {
   validateScores(scores);
   return partitionMatchReferences(entries).ranked.map(reference => {

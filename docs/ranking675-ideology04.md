@@ -1,0 +1,39 @@
+# Ranking 675 ideology 04 — whole inherited Greens and Technocracy Inc. review
+
+Status: external research candidates on 8 October 2026, not imported or accepted. No selected identity, date, definition, four substitution maps or six-axis gate changes. Greens is deliberately bound to the exact isolated 03a withdrawn post, not its earlier unsupported ECO 60 baseline. It must not be imported before that correction or over a later altered record.
+
+| Existing dated referent | Proposed whole review |
+| --- | --- |
+| Global Greens Charter, Korea 2023 | EST 80 REP 80 POD 40 IMI 20 CON 60 MOR 80 TEC 40 DIP 40 REL 80 INT 40; ECO/COM unknown |
+| Technocracy Inc. Study Course, electronic 1.1, Edmonton 2004 | EST 20 REP 20 POD 60 ECO 80 CON 80 TEC 60; other six unknown |
+
+All confidence grades are medium. The figures are explicit editorial ordinal anchors, not observed percentages. The complete previous live object and all inherited coding/source fields are exported. Source objects are prepended without modifying or dropping any original source object. Every held axis becomes 50 with no coding, confidence or mapping.
+
+## Greens source and calibration
+
+Sourcefix freshly read the official [21-page 2023 charter](https://globalgreens.org/wp-content/uploads/2023/07/GlobalGreens_Charter_2023.pdf), complete current extraction 0–740, including version masthead/final approval note and all principles and ten political sections. Method_review independently freshly read the same complete 0–740 body; its preliminary direction recommendation is separate from final literal review of this candidate. Canberra 2001/Dakar 2012/Liverpool 2017 are historical revision context, not silently substituted for the active Korea 2023 edition.
+
+Local/regional general decision authority supports EST 80 without inventing one mandatory constitutional federation. Equal adult votes, proportional representation, multi-party choice, accountability and separated powers support REP 80. Legal proportionality/defence, universal liberties, anti-torture/death-penalty and fair-asylum guarantees support POD 40, not absence of policing. Cultural/linguistic diversity, indigenous and minority rights are general IMI 20 norms rather than immigration admission alone. Broad finance/corporate regulation, price environmental costs, economic incentives and local productive/territorial planning support CON 60 with markets and consumer choice retained.
+
+Gender, family and reproductive/bodily autonomy substantively cover MOR 80, preserving the §2.9 disapproval of harmful economic reliance on pornography/prostitution. The general ecological/industrial precaution principle together with nuclear and commercial-GM bans supports TEC 40; research, sustainable energy and technology are positive counters. DIP becomes 40 instead of inherited 20 because §9.2 explicitly authorises last-resort force under a UN mandate for mass-rights/genocide situations and retains countries' right not to participate. That same explicit international coercive authorization supports INT 40, not a duty of unilateral war. Actual §1.8/§1.11 secular justice and State-religion separation support REL 80; private religious diversity remains protected.
+
+ECO is unknown: public water/essential services do not determine whole ownership predominance, and the charter also supports civic entrepreneurship, resource rents and responsible consumer choice. COM remains unknown: trade subordinated to sustainability and preference for some local production do not alone settle broad protectionism versus liberalization. No statistical/ecological causal assertion was independently validated as fact.
+
+Greens caveats are updated because the earlier literal says religion/intervention remain unknown; the complete old caveats are archived in the exact prior. The new caveats accurately disclose the now-located norms, held ECO/COM and security/market/technology counters without changing the accepted political definition.
+
+## Technocracy Inc. source and calibration
+
+Sourcefix freshly read the [primary organisational electronic PDF](https://www.technate.org/pdf/Technocracy%20study%20guide.pdf), edition metadata 31–34 showing electronic 1.1/Edmonton 2004, complete Lesson 22 own 6295–7088 (printed 208–233), and selected Lesson 23 freight 7367–7374 and communication 7475–7540 passages (printed 242/246–247). This is not a claim to freshly read all 275 pages or all Lesson 23. Earlier author and independent reports are historical separate attestations. Metadata describes the sequence of printed editions 1934–1947, not a new adoption date. Veblen 1921 remains a different preserved conditional design and is not the author of these codes.
+
+Continental final authority and administrative regional divisions support EST 20; functional appointments/self-selection of the director/internal two-thirds veto and recall support REP 20 with internal constraints retained. POD 60 requires the actual named all-consumption record plus general continental constabulary under military discipline; it is not inferred from internal personnel data alone. Widest individual consumer choice remains, and rejecting jury practice does not demonstrate absence of every fair procedure or modern digital interception.
+
+ECO 80 is narrowed to explicit common continental operating control and provision of ALL goods/services, not an invented contemporary State legal title. Energy budgets, balanced productive allocation and equal personal nontransferable/nonaccumulable certificates support CON 80 with consumer choice and adjustment to actual demand retained. TEC 60 rests on general continuous technological improvement/automation, research in fundamental sciences across all functional sequences and reduced-labour goals, plus specific freight/mail mechanisms. Central approval and energy limits are substantial counters; there is no body-enhancement, AI or genetic-policy imputation. Whole military existence does not supply DIP/INT. No scientific feasibility, abundance, productivity or human-conditioning claim is validated as observed fact.
+
+## Guarded scope
+
+Only numerical/evidence/coding fields, source prepend and the explicitly reviewed Greens caveat correction are proposed. Name, date, rationale, membership and all four maps remain unchanged. The deterministic full-post guard accepts repeat application by identity and fails closed on any changed prior/post; no new import or records accompany this external candidate. Final independent literal review and parent judgment are pending, and prospective counts must not be reported as current human qualification.
+
+`composition-proof.json` passes the prospective sequence ideology03 → isolated03a → ideology04 on all 818 current catalogue objects: raw count and unique IDs, all 814 non-target object identities, every old source object, definition/date fields and exact selected75 are preserved. Each stage is individually idempotent; an earlier full-post guard intentionally rejects a later separately reviewed post rather than accepting arbitrary changes. The full pipeline is applied once to its actual prepared baseline, not repeatedly to already decorated records. This is external proposal validation, not proof of integration or human certification.
+
+
+Atualização de integração — checkpoint04, 8 de outubro de 2026: payload exato autorizado pelo Root e importado na árvore de trabalho sobre a943305. Somente os imports absolutos foram relocados; o corpo exportado é idêntico ao arquivo revisado. A retirada de ECO no estágio03a precede o novo registro Greens04, cujo inteiro objeto anterior coincide com o resultado retirado. Provas de registros anteriores/posteriores, fontes completas e revisão independente estão em `future-ranking675-04`; não se afirma conclusão da meta de ranking dos675 nem commit desta atualização.

@@ -1,0 +1,406 @@
+{
+  "baseline": "95c3e705eb2583b80abc0673b573782cde2c41b9",
+  "entries": [
+    {
+      "id": "donald-trump",
+      "kind": "person",
+      "category": "public-figure",
+      "name": "Donald Trump",
+      "period": "Campanha e administração dos Estados Unidos, 2017–2026",
+      "vec": {
+        "est": 40,
+        "rep": 40,
+        "pod": 78,
+        "imi": 82,
+        "dip": 72,
+        "int": 78,
+        "eco": 25,
+        "con": 50,
+        "com": 86,
+        "rel": 50,
+        "mor": 32,
+        "tec": 50
+      },
+      "rationale": "Documentos oficiais e plataformas descrevem fronteiras restritivas, protecionismo comercial, defesa nacional e redução de regulação federal.",
+      "caveats": "Duas administrações e campanhas diferem; atos oficiais podem ser contestados judicialmente e não demonstram opiniões pessoais em todo eixo.",
+      "sources": [
+        {
+          "title": "Plataforma oficial do Partido Republicano, 2024",
+          "url": "https://prod-static.gop.com/media/RNC2024-Platform.pdf",
+          "note": "Plataforma aprovada pelo partido na eleição presidencial de 2024, com propostas de fronteiras, comércio, energia e governo."
+        }
+      ],
+      "evidence": {
+        "est": "medium",
+        "rep": "medium",
+        "pod": "medium",
+        "imi": "high",
+        "dip": "medium",
+        "int": "medium",
+        "eco": "medium",
+        "com": "medium",
+        "mor": "medium"
+      },
+      "axisEvidence": {
+        "est": {
+          "sourceTitles": [
+            "Plataforma oficial do Partido Republicano, 2024"
+          ],
+          "rationale": "Plataforma aprovada pelo partido na eleição presidencial de 2024, com propostas de fronteiras, comércio, energia e governo. Documentos oficiais e plataformas descrevem fronteiras restritivas, protecionismo comercial, defesa nacional e redução de regulação federal. A direção editorial deste eixo é Unitário, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "rep": {
+          "sourceTitles": [
+            "Plataforma oficial do Partido Republicano, 2024"
+          ],
+          "rationale": "Plataforma aprovada pelo partido na eleição presidencial de 2024, com propostas de fronteiras, comércio, energia e governo. Documentos oficiais e plataformas descrevem fronteiras restritivas, protecionismo comercial, defesa nacional e redução de regulação federal. A direção editorial deste eixo é Autocracia, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "pod": {
+          "sourceTitles": [
+            "Plataforma oficial do Partido Republicano, 2024"
+          ],
+          "rationale": "Plataforma aprovada pelo partido na eleição presidencial de 2024, com propostas de fronteiras, comércio, energia e governo. Documentos oficiais e plataformas descrevem fronteiras restritivas, protecionismo comercial, defesa nacional e redução de regulação federal. A direção editorial deste eixo é Segurança, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "imi": {
+          "sourceTitles": [
+            "Plataforma oficial do Partido Republicano, 2024"
+          ],
+          "rationale": "Plataforma aprovada pelo partido na eleição presidencial de 2024, com propostas de fronteiras, comércio, energia e governo. Documentos oficiais e plataformas descrevem fronteiras restritivas, protecionismo comercial, defesa nacional e redução de regulação federal. A direção editorial deste eixo é Assimilação, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "dip": {
+          "sourceTitles": [
+            "Plataforma oficial do Partido Republicano, 2024"
+          ],
+          "rationale": "Plataforma aprovada pelo partido na eleição presidencial de 2024, com propostas de fronteiras, comércio, energia e governo. Documentos oficiais e plataformas descrevem fronteiras restritivas, protecionismo comercial, defesa nacional e redução de regulação federal. A direção editorial deste eixo é Militarista, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "int": {
+          "sourceTitles": [
+            "Plataforma oficial do Partido Republicano, 2024"
+          ],
+          "rationale": "Plataforma aprovada pelo partido na eleição presidencial de 2024, com propostas de fronteiras, comércio, energia e governo. Documentos oficiais e plataformas descrevem fronteiras restritivas, protecionismo comercial, defesa nacional e redução de regulação federal. A direção editorial deste eixo é Não intervencionista, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "eco": {
+          "sourceTitles": [
+            "Plataforma oficial do Partido Republicano, 2024"
+          ],
+          "rationale": "Plataforma aprovada pelo partido na eleição presidencial de 2024, com propostas de fronteiras, comércio, energia e governo. Documentos oficiais e plataformas descrevem fronteiras restritivas, protecionismo comercial, defesa nacional e redução de regulação federal. A direção editorial deste eixo é Privado, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "com": {
+          "sourceTitles": [
+            "Plataforma oficial do Partido Republicano, 2024"
+          ],
+          "rationale": "Plataforma aprovada pelo partido na eleição presidencial de 2024, com propostas de fronteiras, comércio, energia e governo. Documentos oficiais e plataformas descrevem fronteiras restritivas, protecionismo comercial, defesa nacional e redução de regulação federal. A direção editorial deste eixo é Protecionismo, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "mor": {
+          "sourceTitles": [
+            "Plataforma oficial do Partido Republicano, 2024"
+          ],
+          "rationale": "Plataforma aprovada pelo partido na eleição presidencial de 2024, com propostas de fronteiras, comércio, energia e governo. Documentos oficiais e plataformas descrevem fronteiras restritivas, protecionismo comercial, defesa nacional e redução de regulação federal. A direção editorial deste eixo é Tradicionalista, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        }
+      }
+    },
+    {
+      "id": "joe-biden",
+      "kind": "person",
+      "category": "public-figure",
+      "name": "Joe Biden",
+      "period": "Presidência dos Estados Unidos e plataforma pública, 2021–2025",
+      "vec": {
+        "est": 50,
+        "rep": 83,
+        "pod": 50,
+        "imi": 50,
+        "dip": 50,
+        "int": 42,
+        "eco": 60,
+        "con": 65,
+        "com": 50,
+        "rel": 50,
+        "mor": 66,
+        "tec": 70
+      },
+      "rationale": "A agenda governamental incluiu investimento público, proteção trabalhista, direitos civis, alianças e infraestrutura tecnológica.",
+      "caveats": "O registro descreve políticas executivas e leis do período, com compromissos de coalizão; não é inferência psicológica sobre o indivíduo.",
+      "sources": [
+        {
+          "title": "Agenda de ações e políticas da Casa Branca",
+          "url": "https://bidenwhitehouse.archives.gov/briefing-room/statements-releases/",
+          "note": "Arquivo oficial do governo Biden sobre leis, programas econômicos, direitos e política externa."
+        }
+      ],
+      "evidence": {
+        "rep": "medium",
+        "int": "medium",
+        "eco": "medium",
+        "con": "medium",
+        "mor": "medium",
+        "tec": "medium"
+      },
+      "axisEvidence": {
+        "rep": {
+          "sourceTitles": [
+            "Agenda de ações e políticas da Casa Branca"
+          ],
+          "rationale": "Arquivo oficial do governo Biden sobre leis, programas econômicos, direitos e política externa. A agenda governamental incluiu investimento público, proteção trabalhista, direitos civis, alianças e infraestrutura tecnológica. A direção editorial deste eixo é Democracia, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "int": {
+          "sourceTitles": [
+            "Agenda de ações e políticas da Casa Branca"
+          ],
+          "rationale": "Arquivo oficial do governo Biden sobre leis, programas econômicos, direitos e política externa. A agenda governamental incluiu investimento público, proteção trabalhista, direitos civis, alianças e infraestrutura tecnológica. A direção editorial deste eixo é Nacionalista, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "eco": {
+          "sourceTitles": [
+            "Agenda de ações e políticas da Casa Branca"
+          ],
+          "rationale": "Arquivo oficial do governo Biden sobre leis, programas econômicos, direitos e política externa. A agenda governamental incluiu investimento público, proteção trabalhista, direitos civis, alianças e infraestrutura tecnológica. A direção editorial deste eixo é Público, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "con": {
+          "sourceTitles": [
+            "Agenda de ações e políticas da Casa Branca"
+          ],
+          "rationale": "Arquivo oficial do governo Biden sobre leis, programas econômicos, direitos e política externa. A agenda governamental incluiu investimento público, proteção trabalhista, direitos civis, alianças e infraestrutura tecnológica. A direção editorial deste eixo é Planejamento, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "mor": {
+          "sourceTitles": [
+            "Agenda de ações e políticas da Casa Branca"
+          ],
+          "rationale": "Arquivo oficial do governo Biden sobre leis, programas econômicos, direitos e política externa. A agenda governamental incluiu investimento público, proteção trabalhista, direitos civis, alianças e infraestrutura tecnológica. A direção editorial deste eixo é Progressista, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "tec": {
+          "sourceTitles": [
+            "Agenda de ações e políticas da Casa Branca"
+          ],
+          "rationale": "Arquivo oficial do governo Biden sobre leis, programas econômicos, direitos e política externa. A agenda governamental incluiu investimento público, proteção trabalhista, direitos civis, alianças e infraestrutura tecnológica. A direção editorial deste eixo é Tecnologia, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        }
+      }
+    },
+    {
+      "id": "gustavo-petro",
+      "kind": "person",
+      "category": "public-figure",
+      "name": "Gustavo Petro",
+      "period": "Presidência e programa político da Colômbia, 2022–2026",
+      "vec": {
+        "est": 50,
+        "rep": 74,
+        "pod": 50,
+        "imi": 50,
+        "dip": 27,
+        "int": 61,
+        "eco": 78,
+        "con": 73,
+        "com": 50,
+        "rel": 50,
+        "mor": 79,
+        "tec": 50
+      },
+      "rationale": "No discurso de posse, Petro liga reforma social, paz negociada, proteção ambiental e participação democrática.",
+      "caveats": "Mandato encerrado em 2026; o perfil usa compromissos de 2022, não resultados nem opiniões de todos os integrantes do governo.",
+      "sources": [
+        {
+          "title": "Discurso de posse e decálogo de governo",
+          "url": "https://petro.presidencia.gov.co/prensa/Paginas/Palabras-del-Presidente-de-la-Republica-Gustavo-Petro-Urrego-al-tomar-220807.aspx",
+          "note": "Texto presidencial de 2022 enumera paz, justiça social e compromissos de governo."
+        }
+      ],
+      "evidence": {
+        "rep": "medium",
+        "dip": "medium",
+        "int": "medium",
+        "eco": "medium",
+        "con": "medium",
+        "mor": "medium"
+      },
+      "axisEvidence": {
+        "rep": {
+          "sourceTitles": [
+            "Discurso de posse e decálogo de governo"
+          ],
+          "rationale": "Texto presidencial de 2022 enumera paz, justiça social e compromissos de governo. No discurso de posse, Petro liga reforma social, paz negociada, proteção ambiental e participação democrática. A direção editorial deste eixo é Democracia, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "dip": {
+          "sourceTitles": [
+            "Discurso de posse e decálogo de governo"
+          ],
+          "rationale": "Texto presidencial de 2022 enumera paz, justiça social e compromissos de governo. No discurso de posse, Petro liga reforma social, paz negociada, proteção ambiental e participação democrática. A direção editorial deste eixo é Pacifista, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "int": {
+          "sourceTitles": [
+            "Discurso de posse e decálogo de governo"
+          ],
+          "rationale": "Texto presidencial de 2022 enumera paz, justiça social e compromissos de governo. No discurso de posse, Petro liga reforma social, paz negociada, proteção ambiental e participação democrática. A direção editorial deste eixo é Não intervencionista, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "eco": {
+          "sourceTitles": [
+            "Discurso de posse e decálogo de governo"
+          ],
+          "rationale": "Texto presidencial de 2022 enumera paz, justiça social e compromissos de governo. No discurso de posse, Petro liga reforma social, paz negociada, proteção ambiental e participação democrática. A direção editorial deste eixo é Público, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "con": {
+          "sourceTitles": [
+            "Discurso de posse e decálogo de governo"
+          ],
+          "rationale": "Texto presidencial de 2022 enumera paz, justiça social e compromissos de governo. No discurso de posse, Petro liga reforma social, paz negociada, proteção ambiental e participação democrática. A direção editorial deste eixo é Planejamento, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "mor": {
+          "sourceTitles": [
+            "Discurso de posse e decálogo de governo"
+          ],
+          "rationale": "Texto presidencial de 2022 enumera paz, justiça social e compromissos de governo. No discurso de posse, Petro liga reforma social, paz negociada, proteção ambiental e participação democrática. A direção editorial deste eixo é Progressista, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        }
+      }
+    },
+    {
+      "id": "nayib-bukele",
+      "kind": "person",
+      "category": "public-figure",
+      "name": "Nayib Bukele",
+      "period": "Presidência e reeleição de El Salvador, 2019–2026",
+      "vec": {
+        "est": 50,
+        "rep": 30,
+        "pod": 92,
+        "imi": 50,
+        "dip": 66,
+        "int": 50,
+        "eco": 54,
+        "con": 69,
+        "com": 50,
+        "rel": 50,
+        "mor": 50,
+        "tec": 75
+      },
+      "rationale": "Mensagens e medidas oficiais centram segurança pública, autoridade executiva e modernização digital.",
+      "caveats": "A codificação de segurança e centralização usa decisões governamentais, não endosso nem avaliação de eficácia; práticas e normas são contestadas.",
+      "sources": [
+        {
+          "title": "Plano de governo e mensagens oficiais",
+          "url": "https://www.presidencia.gob.sv/",
+          "note": "Portal oficial da Presidência de El Salvador para decretos, discursos e programas atribuídos ao Executivo."
+        }
+      ],
+      "evidence": {
+        "rep": "medium",
+        "pod": "medium",
+        "dip": "medium",
+        "eco": "medium",
+        "con": "medium",
+        "tec": "medium"
+      },
+      "axisEvidence": {
+        "rep": {
+          "sourceTitles": [
+            "Plano de governo e mensagens oficiais"
+          ],
+          "rationale": "Portal oficial da Presidência de El Salvador para decretos, discursos e programas atribuídos ao Executivo. Mensagens e medidas oficiais centram segurança pública, autoridade executiva e modernização digital. A direção editorial deste eixo é Autocracia, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "pod": {
+          "sourceTitles": [
+            "Plano de governo e mensagens oficiais"
+          ],
+          "rationale": "Portal oficial da Presidência de El Salvador para decretos, discursos e programas atribuídos ao Executivo. Mensagens e medidas oficiais centram segurança pública, autoridade executiva e modernização digital. A direção editorial deste eixo é Segurança, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "dip": {
+          "sourceTitles": [
+            "Plano de governo e mensagens oficiais"
+          ],
+          "rationale": "Portal oficial da Presidência de El Salvador para decretos, discursos e programas atribuídos ao Executivo. Mensagens e medidas oficiais centram segurança pública, autoridade executiva e modernização digital. A direção editorial deste eixo é Militarista, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "eco": {
+          "sourceTitles": [
+            "Plano de governo e mensagens oficiais"
+          ],
+          "rationale": "Portal oficial da Presidência de El Salvador para decretos, discursos e programas atribuídos ao Executivo. Mensagens e medidas oficiais centram segurança pública, autoridade executiva e modernização digital. A direção editorial deste eixo é Público, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "con": {
+          "sourceTitles": [
+            "Plano de governo e mensagens oficiais"
+          ],
+          "rationale": "Portal oficial da Presidência de El Salvador para decretos, discursos e programas atribuídos ao Executivo. Mensagens e medidas oficiais centram segurança pública, autoridade executiva e modernização digital. A direção editorial deste eixo é Planejamento, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "tec": {
+          "sourceTitles": [
+            "Plano de governo e mensagens oficiais"
+          ],
+          "rationale": "Portal oficial da Presidência de El Salvador para decretos, discursos e programas atribuídos ao Executivo. Mensagens e medidas oficiais centram segurança pública, autoridade executiva e modernização digital. A direção editorial deste eixo é Tecnologia, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        }
+      }
+    },
+    {
+      "id": "volodymyr-zelenskyy",
+      "kind": "person",
+      "category": "public-figure",
+      "name": "Volodymyr Zelenskyy",
+      "period": "Presidência da Ucrânia durante guerra e integração europeia, 2019–2026",
+      "vec": {
+        "est": 69,
+        "rep": 69,
+        "pod": 80,
+        "imi": 50,
+        "dip": 73,
+        "int": 28,
+        "eco": 50,
+        "con": 50,
+        "com": 50,
+        "rel": 50,
+        "mor": 50,
+        "tec": 71
+      },
+      "rationale": "Discursos e decisões do período são moldados pela defesa contra invasão, integração europeia e resiliência nacional.",
+      "caveats": "O contexto de guerra altera escolhas institucionais e de segurança; não deve ser extrapolado para um cenário de paz ou para crenças permanentes.",
+      "sources": [
+        {
+          "title": "Discursos presidenciais da Ucrânia",
+          "url": "https://www.president.gov.ua/en/news/speeches",
+          "note": "Arquivo oficial de Zelenskyy com pronunciamentos sobre guerra, instituições e relações internacionais."
+        }
+      ],
+      "evidence": {
+        "est": "medium",
+        "rep": "medium",
+        "pod": "medium",
+        "dip": "medium",
+        "int": "medium",
+        "tec": "medium"
+      },
+      "axisEvidence": {
+        "est": {
+          "sourceTitles": [
+            "Discursos presidenciais da Ucrânia"
+          ],
+          "rationale": "Arquivo oficial de Zelenskyy com pronunciamentos sobre guerra, instituições e relações internacionais. Discursos e decisões do período são moldados pela defesa contra invasão, integração europeia e resiliência nacional. A direção editorial deste eixo é Federal, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "rep": {
+          "sourceTitles": [
+            "Discursos presidenciais da Ucrânia"
+          ],
+          "rationale": "Arquivo oficial de Zelenskyy com pronunciamentos sobre guerra, instituições e relações internacionais. Discursos e decisões do período são moldados pela defesa contra invasão, integração europeia e resiliência nacional. A direção editorial deste eixo é Democracia, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "pod": {
+          "sourceTitles": [
+            "Discursos presidenciais da Ucrânia"
+          ],
+          "rationale": "Arquivo oficial de Zelenskyy com pronunciamentos sobre guerra, instituições e relações internacionais. Discursos e decisões do período são moldados pela defesa contra invasão, integração europeia e resiliência nacional. A direção editorial deste eixo é Segurança, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "dip": {
+          "sourceTitles": [
+            "Discursos presidenciais da Ucrânia"
+          ],
+          "rationale": "Arquivo oficial de Zelenskyy com pronunciamentos sobre guerra, instituições e relações internacionais. Discursos e decisões do período são moldados pela defesa contra invasão, integração europeia e resiliência nacional. A direção editorial deste eixo é Militarista, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "int": {
+          "sourceTitles": [
+            "Discursos presidenciais da Ucrânia"
+          ],
+          "rationale": "Arquivo oficial de Zelenskyy com pronunciamentos sobre guerra, instituições e relações internacionais. Discursos e decisões do período são moldados pela defesa contra invasão, integração europeia e resiliência nacional. A direção editorial deste eixo é Nacionalista, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        },
+        "tec": {
+          "sourceTitles": [
+            "Discursos presidenciais da Ucrânia"
+          ],
+          "rationale": "Arquivo oficial de Zelenskyy com pronunciamentos sobre guerra, instituições e relações internacionais. Discursos e decisões do período são moldados pela defesa contra invasão, integração europeia e resiliência nacional. A direção editorial deste eixo é Tecnologia, com valor aproximado do recorte da fonte; ela não mede opinião privada."
+        }
+      }
+    }
+  ]
+}

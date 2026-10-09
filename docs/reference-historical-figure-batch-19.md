@@ -1,0 +1,13 @@
+# Histórico19 — Harding1921, proposta sem integração
+
+Nome/ID/aliases James/Warren Harding ausentes após pesquisa exata em src/data; nenhum objeto dormente encontrado. Um candidato novo: REP60/POD60/DIP40/INT60/ECO40/COM60, seis desconhecidos. Não aceito ou contado; seis não quota automática. Sem imports/Git/publicação.
+
+Leitura autoral efetiva: MillerCenter/UVA https://millercenter.org/the-presidency/presidential-speeches/march-4-1921-inaugural-address corpo36–95 completo. Fonte indicadaNational Archives30, orador26/data28. REP38/52/79–80/90 ampla representação/vontade popular e minorias. POD63–67 serviço compulsório a todos homens/mulheres e instalações na defesa, não polícia ordinária ou voluntariado; guerra imposta condiciona a proposta. DIP45–48/53/62–66 arbitragem/desarmamento generalizados mas defesa plena. INT42–48 recusa permanente militar/política/obrigações que submetem decisão soberana, mas aceita consultas e tribunal consentido47. ECO75/84–86 termina atividade governamental nos negócios, empresa/posses privadas gerais; não mero setor escolar, apoio público e mobilização temporária como contrapontos. COM82–85 tarifa geral segundo custos nacionais; comprar/exportar e interdependência como limites. Declarações não fatos de execução.
+
+EST: supremacia da União40 não resolve distribuição de competências territoriais. CON: normalidade/preços71–75 não fornece regra geral suficiente de coordenação e alocação. REL: oração e oath39/91–95 não estabelecem influência da religião sobre instituições/leis. MOR: papel de mães87 apenas uma faceta, sem orientação cultural geral. IMI/TEC sem base. Nenhum desconhecido recebe evidence, axisEvidence ou coding.
+
+Identidade institucional efetivamente lida24–30/42–54 em https://millercenter.org/president/harding : cabeçaWarren G. Harding25, campo46 Warren Gamaliel sem sobrenome abrevia; nascimento1865-11-02 em50 e morte1923-08-02 em54. Biografia partidária, profissão e fé não viram vetores.
+
+Independente/Root pendentes. Autor não leu todas demais mensagens de governo e não certifica práticas ou carreira integral. Bun1/6/6 desconhecidos sem metadata e TypeScript --noEmit --incremental false passaram; julgamento real decide cada direção, mesmo se isso deixar menos de seis.
+
+Estado vigente: revisor leu inaugural36–95 inteiro e identidade24–30/42–54 reais, recomendando seis; Root aceitou REP60/POD60/DIP40/INT60/ECO40/COM60. POD64aspiracional guerra imposta63, nunca lei ordinária ou implementação demonstrada. Afirmação autocelebratória59 sobre nenhuma guerra americana ofensiva não fato certificado. Arquivo congelado para próxima integração após719, sem imports/contagem/Git/publicação.

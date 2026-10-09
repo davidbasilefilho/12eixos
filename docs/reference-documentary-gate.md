@@ -1,0 +1,13 @@
+# Revisão do filtro documental — 7 de outubro de 2026
+
+O mapeamento anterior aceitava grau médio/alto, título de fonte e uma justificativa não vazia. Isso admitia justificativas genéricas repetidas, inclusive aquelas derivadas dos próprios vetores. Esses campos permanecem no catálogo para auditoria; não bastam para ranquear.
+
+`mappedEvidenceAxes` mantém o diagnóstico estrutural anterior. `documentedEvidenceAxes` exige adicionalmente codificação `editorial-ordinal-v1` validada por `codeReferenceAxis`: afirmação documental não vazia, locador, data/versão documental (ou ausência de data explicitada), data de acesso e de revisão válidas, base normativa/prática/declaratória, justificativa e incerteza. O eixo, valor, faixa e confiança devem concordar com o vetor/grau; fontes e justificativa do mapeamento devem concordar com a saída da codificação. O mínimo segue seis eixos. Fórmula, pesos e valores dos registros não foram alterados.
+
+Na execução inicial, anterior à revisão de escopo da Índia03 e às integrações posteriores, o snapshot de 658 registros conservava 77 candidatos do gate estrutural antigo e identificava 24 candidatos com metadados localizados consistentes: 13 países atuais, cinco figuras históricas e seis ideologias. As 53 identidades que deixam o ranqueamento permanecem disponíveis no inventário, com fontes e números preservados. `unreviewedDirectionalAxes` registra estimativas arquivísticas pendentes; não afirma que sejam falsas. Nenhuma nova codificação ou identidade foi adicionada nesta revisão.
+
+Os 24 são candidatos à revisão substantiva, não comprovação da meta de 675 perfis. Campos preenchidos não provam autenticidade, leitura efetiva, correspondência ao construto, abrangência suficiente ou implementação de uma norma. A revisão editorial deve localizar o conteúdo real e preservar contraevidência antes de afirmar conclusão documental.
+
+Validação: 33 testes Bun passaram, sem falhas, com 72.998 asserções; TypeScript passou. Os testes exercitam a exclusão de boilerplate sem apagamento, locadores vazios, títulos incompatíveis, datas inválidas, base inválida, divergência de vetor/grau e mapeamento, além de casos válidos com seis eixos. As passagens dos fixtures são explicitamente sintéticas e não constituem dados políticos. O hash daquele snapshot inicial do catálogo integrado permaneceu `f1a22206c7ce30d7225c749d786b5dff178760b5c78fbfe7ee29c202ddb46203`.
+
+Artefatos: `docs/catalog-audit.json` (schema 2) e `/workspace/12eixos-deliverables/validation/documentary-gate-658.json`. Não houve nova captura de navegador ou certificação visual nesta alteração. A interface e a exportação consomem o mesmo filtro; os rótulos e estados sem figuras públicas exigem a verificação do responsável por UI.

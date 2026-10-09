@@ -2,7 +2,7 @@ import { describe, expect, test } from 'bun:test';
 import { AXIS_KEYS, referenceEntries, referenceExpansionEntries, type ReferenceCategory } from '../src/data/references';
 import { referenceCategories } from '../src/data/reference-categories';
 import { legacyUnknownAxes } from '../src/data/reference-legacy-corrections';
-import { partitionMatchReferences } from '../src/lib/matching';
+import { partitionMatchReferences, documentedEvidenceAxes } from '../src/lib/matching';
 
 const validCategories = new Set<ReferenceCategory>(referenceCategories.map(category => category.id));
 const normalizeIdentity = (value: string) => value.normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLocaleLowerCase('pt-BR').replace(/[^a-z0-9]+/g, ' ').trim();
@@ -62,7 +62,15 @@ describe('reference catalog integrity', () => {
     for (const [id, axes] of Object.entries(legacyUnknownAxes)) {
       const entry = byId.get(id);
       expect(entry).toBeDefined();
-      for (const axis of axes) expect(entry!.vec[axis]).toBe(50);
+      for (const axis of axes) {
+        const recovery = entry!.coding?.[axis];
+        if (recovery) {
+          expect(entry!.vec[axis]).toBe(recovery.value);
+          expect(documentedEvidenceAxes(entry!)).toContain(axis);
+        } else {
+          expect(entry!.vec[axis]).toBe(50);
+        }
+      }
     }
   });
 

@@ -1,0 +1,63 @@
+import { AXIS_KEYS, referenceEntries, type ReferenceEntry } from './references';
+import { ideology75Profiles } from './reference-ideology75-profiles';
+import { matchReferences, partitionMatchReferences } from '../lib/matching';
+import type { AxisScores } from '../lib/scoring';
+
+/** The historical source catalog is immutable. Selection never rewrites its records. */
+const priorById = new Map(referenceEntries.map(entry => [entry.id, entry]));
+
+export const selectedIdeologyEntries: ReferenceEntry[] = ideology75Profiles.map(profile => {
+  const prior = priorById.get(profile.id);
+  if (profile.existing !== Boolean(prior)) throw new Error(`Ideology identity resolution changed: ${profile.id}`);
+  const bibliography = [...(prior?.sources ?? [])];
+  for (const source of profile.sources) {
+    if (!bibliography.some(item => item.url === source.url && item.title === source.title && item.note === source.note)) {
+      bibliography.push(source);
+    }
+  }
+  return {
+    ...prior,
+    id: profile.id,
+    kind: 'ideology',
+    category: 'ideology',
+    name: profile.name,
+    // Reused coding retains its exact existing documentary period.
+    period: prior?.period ?? profile.period,
+    rationale: profile.rationale,
+    caveats: [prior?.caveats, profile.caveats].filter(Boolean).join(' '),
+    sources: bibliography,
+    // No conversion from research prospects to scores, evidence grades or coding.
+    vec: prior?.vec ?? Object.fromEntries(AXIS_KEYS.map(key => [key, 50])) as ReferenceEntry['vec'],
+    evidence: prior?.evidence ?? {},
+    axisEvidence: prior?.axisEvidence ?? {},
+    coding: prior?.coding ?? {},
+  };
+});
+
+const selectedIdeologyIds = new Set(selectedIdeologyEntries.map(entry => entry.id));
+if (selectedIdeologyEntries.length !== 75 || selectedIdeologyIds.size !== 75) {
+  throw new Error('The editorial ideology selection must contain 75 distinct identities.');
+}
+
+/** Exactly 150 entries per non-ideology category plus 75 selected doctrines/programmes. */
+export const selectedReferenceEntries: ReferenceEntry[] = [
+  ...referenceEntries.filter(entry => entry.category !== 'ideology'),
+  ...selectedIdeologyEntries,
+];
+
+/** All former profiles remain consultable, with their original IDs and evidence. */
+export const archivedReferenceEntries = referenceEntries.filter(entry =>
+  entry.category === 'ideology' && !selectedIdeologyIds.has(entry.id));
+export const fullReferenceCatalog = [
+  ...referenceEntries,
+  ...selectedIdeologyEntries.filter(entry => !priorById.has(entry.id)),
+];
+
+/** Shared product boundary: archived profiles cannot enter any ranked surface. */
+export function matchSelectedReferences(scores: AxisScores) {
+  return matchReferences(scores, selectedReferenceEntries);
+}
+export function partitionSelectedReferences() {
+  return partitionMatchReferences(selectedReferenceEntries);
+}
+export const selectedReferenceCoverage = partitionSelectedReferences();

@@ -1,0 +1,15 @@
+# Root review 18 — existing-record revision inventory818-01
+
+Root accepts the frozen revision against 95c3e705eb2583b80abc0673b573782cde2c41b9. The catalog remains 818 records: 150 current countries, 150 historical countries, 150 public figures, 150 historical figures and 218 ideologies. No new identity was added. The 75 selected ideologies and 143 retained alternatives remain separate.
+
+The 95 changed existing records comprise 37 guarded evidence/definition overlays and 58 public-figure descriptions. All previous IDs, source objects and whole-before archives are retained; 723 complete previous records are unchanged. The 4,754-check preservation proof records the authorized exceptions. Ranking membership, vectors, coding, source objects and match signatures remain unchanged; ranked descriptions may change and complete ranked-record equality is not claimed.
+
+Accepted groups: current-country coverage09–10, historical-quality07–08, public-provenance01–03, existing-ideology-definition08–09 and public-description-reconciliation01. The two ideology definitions repair the existing Prebisch/Lange records with located bounded normative text rather than adding duplicate identities or treating old unsupported estimates as documentary codes. There are 68 located normative referents and 53 bounded comparisons; this does not certify 75 independently distinct definitions.
+
+Validation: 36 tests pass, zero fail, 99,932 assertions. TypeScript and Vite pass with the existing bundle-size advisory. Catalog SHA256: 0f7d8b290e32ce680cd3488bd2bd1c3d3ff659a85df3680635bc35f844bf22ea. Located-metadata eligibility is 56, not a source-truth or whole-profile certificate. Independently reviewed whole-profile lower bound remains 44; the final total is unknown.
+
+Browser evidence covers eight overlay catalog profiles, two same-ID definitions and the changed Gabriel Boric ranked export. Root directly inspected the original final Boric PNG: complete political description, caption, twelve result axes and six country rows are readable within the export. The initial ambiguous test selector is retained separately as a technical diagnostic. Earlier catalog/definition captures remain valid because their records are unchanged by the disjoint 58-description overlay. This is bounded Chromium evidence, not comprehensive WCAG or cross-browser certification.
+
+The selected675 audit has complete category ledgers and separate source-body, identity/date/category, description alignment and ranking verdicts. Its existence and exact identity counts do not establish complete grounding. Remaining primary access, time/description alignment and closest-ideology comparisons must still be resolved. The unrecovered efbd435 checkpoint identity and separate verified remote baseline remain preserved in previous reports; no unavailable data are inferred.
+
+Evidence: /workspace/12eixos-deliverables/validation/inventory818-01-summary.json, inventory818-01-preservation.json, inventory818-01-ranked-export-final/report.json and selected675-audit/. Future pending proposals are excluded from this checkpoint. No push, merge or deployment is authorized or performed.

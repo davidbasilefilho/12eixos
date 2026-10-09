@@ -1,0 +1,15 @@
+# Histórico15 — Grover Cleveland, proposta não integrada
+
+Status: uma identidade ausente, seis direções est60/rep60/dip40/int60/con40/com40, seis desconhecidos; aceitas pelo Root após revisão independente, congeladas para integração local. Nenhuma importação, alteração de Git ou publicação. Busca textual em todos os módulos `src/data` por Grover Cleveland, Stephen Grover e Cleveland entre aspas não encontrou identidade ativa, dormente ou proposta anterior. Não trata segundo mandato como continuidade do primeiro: recorte são dois programas adotados em4/3/1885 e4/3/1893, com intervalo presidencial.
+
+## Fontes realmente abertas e lidas pelo autor
+
+- [Miller Center, primeira inauguração1885](https://millercenter.org/the-presidency/presidential-speeches/march-4-1885-first-inaugural-address): corpo36–64 inteiro, fonte declarada National Archives30. Rep38–42/49–50, est47, dip/int53–54. Restrições imigratórias58, repressão à poligamia e tutela indígena57 preservadas. Aberturas iniciais em URLs Avalon clevel1/clevel2 falharam e não produzem evidência; reprodução efetivamente aberta é MillerCenter.
+- [Miller Center, segunda inauguração1893](https://millercenter.org/the-presidency/presidential-speeches/march-4-1893-second-inaugural-address): corpo36–76 inteiro. Est71–72; con47–51/57–59/68; com48/63–68. Intervenção financeira46, proteção federal da concorrência59 e tutela/assimilação indígena61–62 são contrapontos explícitos.
+- [Miller Center, identidade](https://millercenter.org/president/cleveland): corpo24–30 e metadados42–54. Stephen Grover Cleveland29; nascimento18/3/1837 em50 e morte24/6/1908 em54. Biografia e religião pessoal64–66 não alimentam vetores.
+
+As passagens de concorrência se referem a atividades empresariais, fixação de produção e preços em geral, protegidas por intervenção antitruste. São norma de alocação competitiva, com contrapartida regulatória, e não prova de orientação de toda titularidade produtiva: eco50. Reforma tarifária rejeita proteção como fim e aceita receita fiscal, com aplicação cautelosa: com40, não extremo20. Política de paz/neutralidade é norma externa geral, mas fundada no próprio interesse, poder defensivo e assimetria hemisférica; não pacifismo absoluto nem histórico de não intervenção verificado. REP é princípio de autogoverno e controle popular, não simples vitória partidária nem afirmação de sufrágio universal.
+
+POD/IMI/ECO/REL/MOR/TEC ficam50 sem evidence, axisEvidence ou coding. Uma restrição migratória ou proibição de poligamia não basta para o eixo cultural completo; antipaternalismo/subsídios não basta para propriedade de todos os meios produtivos. Invocação de Deus não é programa geral de religião pública. Desconhecido significa ausência de codificação adequada, não afirmação sobre a pessoa.
+
+Revisão independente efetivamente reabriu os corpos completos1885,36–64 e1893,36–76 e identidade24–30/42–54. Root aceitou seis direções moderadas no recorte declarado; isso não comprova implementação nem toda a carreira. Fontes de discursos são reproduções institucionais de declarações atribuídas/adotadas, não prova de redação exclusiva ou prática real.

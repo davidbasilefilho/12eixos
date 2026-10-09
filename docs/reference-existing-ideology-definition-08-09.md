@@ -1,0 +1,15 @@
+# Accepted same-identity ideology definition overlays
+
+The parent superseded the earlier new-ID proposals. These two guarded overlays preserve `ideology-developmentalism` and `ideology-market-socialism`; no catalog identity is added. Baseline818 checkpoint `95c3e705eb2583b80abc0673b573782cde2c41b9` is preserved; both guarded overlays are now integrated through the reviewed reconciliation flow.
+
+`reference-existing-ideology-definition-08.ts` exports `reconcileExistingIdeologyDefinition08`, `existingIdeologyDefinition08PreviousSnapshot` and audit. It identifies the actually reviewed revised English Prebisch27April1950 edition and affirmative industrial-development/allocation directives. Full previous LIVE1949 record remains literal; active source union retains every original source object. Already unknown axes and metadata retain object identity.
+
+`reference-existing-ideology-definition-09.ts` exports `reconcileExistingIdeologyDefinition09`, `existingIdeologyDefinition09PreviousSnapshot` and audit. It identifies Lange's affirmative1936–1937 welfare/social-ownership directives and scoped productive-rule authority. The full previous LIVE record, including legacyECO79/CON67 and their generic grades/maps, is archived exactly. Those unsupported numeric values become unknown50 with no axis evidence/maps/coding; no replacement score is fabricated. All original source objects remain in the active union.
+
+Both overlays accept only the exact reviewed prior object or exact reviewed output; changed prior or poststate fails closed. Repeat application returns the existing object. Unrelated entries and input objects remain unchanged. Matching threshold remains six located axes; both reviewed definitions are unranked.
+
+Integrated `reference-ideology-selection.ts` preserves all75 selected IDs in original order, every143 alternative record literally and original75 snapshot. Catalog count stays218. The integrated ledger records 68 located normative referents and 53 bounded comparisons; these counts do not certify global75 independence. No source objects/IDs from superseded new-ID selections are imported. Global flags remain false.
+
+`/tmp/validate-ideology-definition-overlays.ts` passed complete LIVE archive equality, input immutability, source object identity, unknown status, idempotence, drift rejection and no raw growth. `/tmp/validate-ideology-author-ledger.ts` passed exact baseline75 audit IDs, selected75/143/original75 preservation, catalog218, false global flags and source attestation/status fields.
+
+The complete attributed author audit is `../selected675-audit/ideology-author.json`. Its70 reviewed normative-body claims include integrated same-ID overlays and accepted source-defined Berlinguer/Ghannouchi readings. These are not70 fully distinct/committed verified entries: every full verdict remains research-needed with two overlay-specific verdicts requiring final peer adjudication. Five primary-definition/provenance qualifications and broader nearest-neighbor overlaps remain explicit. The independent reviewer owns the peer adjudication separately.

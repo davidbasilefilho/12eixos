@@ -1,0 +1,47 @@
+{
+  "reviewedOn": "2026-10-08",
+  "reviewer": "/root/method_review",
+  "baseCommit": "0f1b67cdad0a9a65708b13620df18536d38e4391",
+  "rootReview": "25",
+  "scope": "Final675 successor audit consistency, no source reread/axis recoding; successor commit handled by Root.",
+  "habermas": {
+    "id": "civic-deliberative-democracy",
+    "actualSelectedName": "Democracia deliberativa: modelo de Habermas, 2006",
+    "actualSelectedPeriod": "Political Communication in Media Society, Communication Theory 16(4), 2006, pp 411–426; PDF primário republicado pelo MIT",
+    "publication": "Political Communication in Media Society, Communication Theory16(4),2006,411–426",
+    "source": "https://www.mit.edu/~shaslang/mprg/HabermasPCMS.pdf",
+    "actualPriorPeerScope": "Metadata0–34; own35–83/148–240/243–320, especially43–50/169–172/250–273",
+    "actualPriorAuthorScope": "0–373; not entire574lines",
+    "readAttestations": [
+      "/workspace/12eixos-deliverables/independent-method-review-resumed.md:637",
+      "/workspace/12eixos-deliverables/ideology-definition-17-habermas-pending/README.md:5"
+    ],
+    "prior1995FullSourceHistoryPreserved": true,
+    "prior1995Context": "LuaNova36 Portuguese1995 edition reading remains explicitly historical; does not support current2006 attribution"
+  },
+  "attlee": {
+    "id": "clement-attlee",
+    "changedFieldOnly": "rationale",
+    "newDescription": "Defende democracia parlamentar, liberdades civis, propriedade pública e controles de reconstrução, com paz e autoridade da ONU.",
+    "actualExistingScopes": "Hansard343–345/248/338/344/332–336/314–324/269–273; UN1946 recorded body locators, prior reader identity unresolved where reported",
+    "allOtherFieldsAndRankedSignaturesUnchanged": true,
+    "preservationReport": "/workspace/12eixos-deliverables/validation/attlee-rationale-preservation-0f1b67c.json"
+  },
+  "counts": {
+    "selectedUnique": 675,
+    "boundedGrounded": 675,
+    "datedMaterialDefinitions": 75,
+    "rawCatalog": 818,
+    "approvedMappings": 4,
+    "schemaErrors": 0
+  },
+  "hashes": {
+    "finalCatalogSha256": "6aae8f91976c346aacae0417a68b6deee8dfda9503280a9d2125409ddfe006bb",
+    "selected675Sha256": "2ec7640dd8979d07db07b613828134908c4e759f3a26f99cb2a1be3f04b77e5d"
+  },
+  "successorAudit": "/workspace/12eixos-deliverables/selected675-successor-0f1b67c-habermas-attlee",
+  "fullEvidence": "/workspace/12eixos-deliverables/selected675-successor-0f1b67c-habermas-attlee/method-final-675-consistency08.json",
+  "originalAuditPreserved": "/workspace/12eixos-deliverables/selected675-audit",
+  "remainingGroundingBlockers": [],
+  "sixAxisMatchingGateUnchanged": true
+}
