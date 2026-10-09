@@ -3600,3 +3600,30 @@ body:has(.quiz-page)::before { @apply hidden; }
   .top-match-country { --flag-height: 48px; }
   .match-name { --flag-height: 30px; }
 }
+
+/* Requested spacing refinements retain the atlas typography and fixed export size. */
+.result-profile { @apply self-center; }
+.atlas-results .result-source-catalog { @apply border-y-0; }
+.mobile-navigation-layout { @apply text-left; }
+.mobile-navigation-heading .wordmark { @apply text-[32px] leading-none; }
+.mobile-navigation-links .mobile-navigation-link { @apply justify-start text-left; }
+.mobile-navigation-details summary, .mobile-axis-links > a { @apply text-left; }
+.share-capture-source .share-people-strip { @apply flex flex-col justify-center gap-[8px]; }
+.share-capture-source .share-people-strip > h3 { @apply m-0; }
+.share-capture-source .share-people-grid { @apply items-start; }
+.share-capture-source .share-person-card:not(:has(> img)) { @apply border-l border-border pl-[8px]; }
+.share-capture-source .share-person-card h4 { @apply block overflow-visible [-webkit-line-clamp:unset]; }
+.share-capture-source .share-callout { @apply justify-between gap-[10px]; }
+.share-capture-source .share-callout h3, .share-capture-source .share-callout p { @apply m-0; }
+.share-capture-source .share-plan-row { @apply mt-0; }
+.atlas-method > div:last-child > section > h2 { @apply text-[23px] gap-[12px] mb-[16px]; }
+.atlas-method > div:last-child > section > h2 > span { @apply text-[32px] leading-none; }
+.atlas-method > div:last-child > section > div > p { @apply text-[15px] leading-[1.55]; }
+.atlas-method blockquote { @apply border-l-2 border-accent pl-[12px]; }
+@media (max-width: 640px) {
+  .atlas-shell .hero-grid { @apply gap-[28px]; }
+  .atlas-shell .plan-tile { @apply px-[12px] py-[16px] min-h-[156px]; }
+  .atlas-shell .landing-preview { @apply min-h-0; }
+  .atlas-shell .preview-lead { @apply min-h-0 pb-[18px]; }
+  .atlas-method > div:last-child > section > h2 { @apply text-[22px]; }
+}
