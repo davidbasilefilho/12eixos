@@ -2,10 +2,10 @@ import { describe, expect, test } from 'bun:test';
 import { createHash } from 'node:crypto';
 import { referenceEntries, AXIS_KEYS } from '../src/data/references';
 import { selectedReferenceEntries, fullReferenceCatalog, archivedReferenceEntries } from '../src/data/reference-selected-catalog';
-import { historicalThree20261009Definitions as definitions, historicalThree20261009ExpectedPosts as posts, reconcileHistoricalThree20261009 as reconcile } from '../src/data/reference-research-historical-three-20261009';
+import { currentCountryResearch02Definitions as definitions, currentCountryResearch02ExpectedPosts as posts, reconcileCurrentCountryResearch02 as reconcile } from '../src/data/reference-research-current-country02-20261009';
 import { documentedEvidenceAxes, partitionMatchReferences } from '../src/lib/matching';
 const hash = (value: unknown) => createHash('sha256').update(JSON.stringify(value)).digest('hex');
-describe('three exact reviewed historical constitutional snapshots', () => {
+describe('two reviewed current-country normative snapshots', () => {
   test('keeps raw archive intact and selected/full lookups on the reviewed posts', () => {
     expect(hash(referenceEntries)).toBe('1ba985e6ad16ffb2fa3922eebf5bd5c7ebc4eb57318f014d76f745210bc0b41a');
     for (const [index, definition] of definitions.entries()) {
@@ -42,12 +42,15 @@ describe('three exact reviewed historical constitutional snapshots', () => {
     const untouched = selectedReferenceEntries.find(entry => !definitions.some(definition => definition.before.id === entry.id))!;
     expect(reconcile(untouched)).toBe(untouched);
   });
-  test('holds unknown axes and unchanged six-axis gate; no historical profile gains eligibility', () => {
+  test('holds unknown axes and unchanged six-axis gate; neither current-country profile gains eligibility', () => {
     const partition = partitionMatchReferences(selectedReferenceEntries);
     expect(partition.ranked).toHaveLength(92);
     expect(partition.insufficientEvidence).toHaveLength(583);
     expect(selectedReferenceEntries.reduce((total, entry) => total + Math.max(0, 6 - documentedEvidenceAxes(entry).length), 0)).toBe(2906);
     for (const post of posts) expect(documentedEvidenceAxes(post).length).toBeLessThan(6);
-    expect(documentedEvidenceAxes(posts.find(entry => entry.id === 'portugal-charter-monarchy-1826')!)).not.toContain('est');
+    const finland = selectedReferenceEntries.find(entry => entry.id === 'finland-current-2025')!;
+    expect(reconcile(finland)).toBe(finland);
+    expect(documentedEvidenceAxes(finland)).toEqual([]);
+    expect(fullReferenceCatalog.find(entry => entry.id === finland.id)).toBe(finland);
   });
 });

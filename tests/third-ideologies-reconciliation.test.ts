@@ -44,7 +44,7 @@ describe('four exact reviewed third-batch ideology reconciliations', () => {
     const partition = partitionMatchReferences(selectedReferenceEntries);
     expect(partition.ranked).toHaveLength(92);
     expect(partition.insufficientEvidence).toHaveLength(583);
-    expect(selectedReferenceEntries.reduce((total, entry) => total + Math.max(0, 6 - documentedEvidenceAxes(entry).length), 0)).toBe(2916);
+    expect(selectedReferenceEntries.reduce((total, entry) => total + Math.max(0, 6 - documentedEvidenceAxes(entry).length), 0)).toBe(2906);
     expect(documentedEvidenceAxes(posts.find(entry => entry.id === 'ideology-communitarianism')!)).not.toContain('eco');
     expect(documentedEvidenceAxes(posts.find(entry => entry.id === 'ideology-right-neoconservatism')!)).not.toContain('mor');
     for (const post of posts) expect(documentedEvidenceAxes(post).length).toBeLessThan(6);
