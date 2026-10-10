@@ -1,12 +1,14 @@
 import { useEffect, useLayoutEffect, useRef, useState, type CSSProperties } from 'react'
 import { flushSync } from 'react-dom'
+import { cn } from 'cn'
+import { MiniMatches, ResultComparisonGroups, ShareCountryGroups, SharePeopleGroups, ideologyPanelClassName } from './comparison-groups'
 import { Link, Outlet, useLocation, useNavigate } from '@tanstack/react-router'
 import { MenuRoot, MenuTrigger, MenuPortal, MenuPositioner, MenuPopup, MenuItem } from './primitives'
 import { ActionLink, Button, Callout, controlClassName } from './primitives'
 import { displayAxisNames, displayAxisScore } from './axis-display'
 import { EditorialArtwork } from './editorial-artwork'
 import { EditorialSection } from './editorial-section'
-import { ReferenceThumbnail, referenceImage, countryFlagDisplaySize } from './reference-media'
+import { ReferenceThumbnail, referenceImage, countryFlagDisplaySize, referenceFlagPeriodNote } from './reference-media'
 import { ReferenceEvidenceStatus } from './reference-evidence-status'
 import {
   IconArrowLeft,
@@ -72,7 +74,7 @@ function getThemePreference(): ThemePreference {
   }
 }
 
-function FilmGrain() {
+function FilmGrain({ className }: { className?: string } = {}) {
   const textureRef = useRef<HTMLSpanElement>(null)
   useEffect(() => {
     const canvas = document.createElement('canvas')
@@ -91,7 +93,7 @@ function FilmGrain() {
     context.putImageData(noise, 0, 0)
     if (textureRef.current) textureRef.current.style.backgroundImage = `url("${canvas.toDataURL('image/png')}")`
   }, [])
-  return <span className="film-grain" aria-hidden="true" ref={textureRef}/>
+  return <span className={cn("film-grain", className)} aria-hidden="true" ref={textureRef}/>
 }
 
 function resolveTheme(preference: ThemePreference): 'light' | 'dark' {
@@ -243,10 +245,10 @@ export function AppShell() {
     <header className="site-header">
       <Link to="/" className="wordmark" aria-label="12eixos, início">12eixos</Link>
       <div className="header-actions">
-        {compactNavigation && <button type="button" className="theme-trigger" aria-haspopup="dialog" aria-expanded={mobileNavigationOpen} onClick={() => setMobileNavigationOpen(true)}>Explorar <IconChevronDown size={15} aria-hidden="true"/></button>}
+        {compactNavigation && <button type="button" className="theme-trigger justify-between!" aria-haspopup="dialog" aria-expanded={mobileNavigationOpen} onClick={() => setMobileNavigationOpen(true)}>Explorar <IconChevronDown size={15} aria-hidden="true"/></button>}
         <MenuRoot modal={false}>
-        <MenuTrigger className={controlClassName({ variant: 'outline', color: 'ink', size: 'sm', className: 'theme-trigger' })} aria-label={`Tema: ${themeLabel}. Abrir opções`}>
-            <span className="theme-trigger-label">{themePreference === 'system' ? <IconDeviceDesktop size={18} aria-hidden="true"/> : theme === 'light' ? <IconSun size={18} aria-hidden="true"/> : <IconMoon size={18} aria-hidden="true"/>}
+        <MenuTrigger className={controlClassName({ variant: 'outline', color: 'ink', size: 'sm', className: 'theme-trigger justify-between!' })} aria-label={`Tema: ${themeLabel}. Abrir opções`}>
+            <span className="theme-trigger-label inline-flex items-center gap-[9px]">{themePreference === 'system' ? <IconDeviceDesktop size={18} aria-hidden="true"/> : theme === 'light' ? <IconSun size={18} aria-hidden="true"/> : <IconMoon size={18} aria-hidden="true"/>}
             <span>{themeLabel}</span></span><IconChevronDown size={15} aria-hidden="true"/>
           </MenuTrigger>
           <MenuPortal>
@@ -274,9 +276,9 @@ export function AppShell() {
             if (!('commandForElement' in event.currentTarget)) setMobileNavigationOpen(false)
           }}><IconX size={19}/></Button></div>
           <nav aria-label="Navegação principal" className="mobile-navigation-links">
-            <ActionLink to="/eixos" onClick={() => setMobileNavigationOpen(false)} variant="ghost" color="ink" className="mobile-navigation-link">Os 12 eixos</ActionLink>
-            <details className="mobile-navigation-details"><summary>Detalhes dos eixos <IconChevronDown size={16}/></summary><div className="mobile-axis-links">{AXES.map(axis => <Link key={axis.key} to="/eixos/$axis" params={{ axis: axis.key }} onClick={() => setMobileNavigationOpen(false)}>{axisPoleName(axis)}</Link>)}</div></details>
-            <ActionLink to="/metodologia" onClick={() => setMobileNavigationOpen(false)} variant="ghost" color="ink" className="mobile-navigation-link">Metodologia</ActionLink>
+            <ActionLink to="/eixos" onClick={() => setMobileNavigationOpen(false)} variant="ghost" color="ink" className="mobile-navigation-link px-4!">Os 12 eixos</ActionLink>
+            <details className="mobile-navigation-details"><summary className="gap-2! px-4! py-0! text-base! leading-[normal]!">Detalhes dos eixos <IconChevronDown size={16}/></summary><div className="mobile-axis-links">{AXES.map(axis => <Link key={axis.key} to="/eixos/$axis" params={{ axis: axis.key }} onClick={() => setMobileNavigationOpen(false)}>{axisPoleName(axis)}</Link>)}</div></details>
+            <ActionLink to="/metodologia" onClick={() => setMobileNavigationOpen(false)} variant="ghost" color="ink" className="mobile-navigation-link px-4!">Metodologia</ActionLink>
           </nav>
         </div>
       </dialog>
@@ -290,15 +292,15 @@ export function AppShell() {
   </div>
 }
 
-function AxisBars({ scores, compact = false }: { scores: AxisScores; compact?: boolean }) {
-  return <div className={compact ? 'axis-bars compact' : 'axis-bars'}>
+function AxisBars({ scores, compact = false, capture = false }: { scores: AxisScores; compact?: boolean; capture?: boolean }) {
+  return <div className={cn(compact ? 'axis-bars compact' : 'axis-bars', capture && 'flex-none! content-start! gap-[2px]!')}>
     {AXES.map((axis, index) => {
       const score = scores[axis.key]
       const visibleScore = displayAxisScore(scores, index)
       const AxisIcon = axisIcons[index]
-      return <div className="axis-bar" key={axis.key} style={{ '--axis-color': axisColors[index] } as CSSProperties}>
-        <span className="axis-symbol" aria-hidden="true"><AxisIcon size={17} stroke={1.8}/></span>
-        <span className="axis-pole">{displayAxisNames[index]}</span>
+      return <div className={cn('axis-bar', capture && 'h-[20px]! grid-cols-[22px_83px_minmax(35px,1fr)_29px]! gap-1!')} key={axis.key} style={{ '--axis-color': axisColors[index] } as CSSProperties}>
+        <span className={cn('axis-symbol', capture && 'h-5! w-5!')} aria-hidden="true"><AxisIcon size={17} stroke={1.8}/></span>
+        <span className={cn('axis-pole', capture && 'text-[9px]!')}>{displayAxisNames[index]}</span>
         <div className="axis-track" role="img" aria-label={`${axisPoleName(axis)}: ${formatPercent(score)}% ${axis.left}, ${formatPercent(100 - score)}% ${axis.right}`}>
           <span style={{ width: `${visibleScore}%` }}/>
           <i style={{ left: `${visibleScore}%` }}/>
@@ -340,18 +342,10 @@ function LandingPreview() {
   const scores = scoreAnswers(exampleQuestions, exampleAnswers)
   const matches = matchSelectedReferences(scores)
   const ideology = matches.find(match => match.reference.category === 'ideology')
-  return <aside className="landing-preview" aria-label="Perfil ilustrativo calculado com respostas fictícias"><FilmGrain/>
-    <div className="preview-lead"><div><h2>Seu perfil político <small>(exemplo)</small></h2><p>Respostas fictícias mostram como os doze eixos e as comparações aparecem no resultado.</p></div>{ideology && <div className="preview-ideology"><b>{Math.round(ideology.similarity)}%</b><span>IDEOLOGIA MAIS PRÓXIMA</span><strong>{ideology.reference.name}</strong></div>}</div>
-    <div className="preview-grid"><div><h3>SEUS 12 EIXOS</h3><AxisBars scores={scores} compact/></div><div className="preview-side"><h3>POSIÇÃO NO ESPECTRO</h3><RadarProfile scores={scores} compact/><div className="preview-matches"><MiniMatches title="FIGURAS PRÓXIMAS" matches={matches.filter(match => match.reference.category === 'public-figure').slice(0, 2)}/><MiniMatches title="PAÍSES PRÓXIMOS" matches={matches.filter(match => match.reference.category === 'country').slice(0, 2)}/></div></div></div>
+  return <aside className="landing-preview isolate! h-auto! bg-surface! bg-none!" aria-label="Perfil ilustrativo calculado com respostas fictícias"><FilmGrain className="z-0! opacity-[.035]! mix-blend-normal!"/>
+    <div className="preview-lead min-h-0! pb-4! max-[640px]:gap-0!"><div><h2>Seu perfil político <small>(exemplo)</small></h2><p>Respostas fictícias mostram como os doze eixos e as comparações aparecem no resultado.</p></div>{ideology && <div className={cn("preview-ideology min-[1101px]:self-start! min-[1101px]:py-2! min-[1101px]:[&>strong]:text-[15px]!", ideologyPanelClassName)}><b>{Math.round(ideology.similarity)}%</b><span>IDEOLOGIA MAIS PRÓXIMA</span><strong>{ideology.reference.name}</strong></div>}</div>
+    <div className="preview-grid h-auto!"><div><h3>SEUS 12 EIXOS</h3><AxisBars scores={scores} compact/></div><div className="preview-side [&_.radar-wrap]:h-40!"><h3>POSIÇÃO NO ESPECTRO</h3><RadarProfile scores={scores} compact/><div className="preview-matches"><MiniMatches title="FIGURAS PRÓXIMAS" matches={matches.filter(match => match.reference.category === 'public-figure').slice(0, 2)}/><MiniMatches title="PAÍSES PRÓXIMOS" matches={matches.filter(match => match.reference.category === 'country').slice(0, 2)}/></div></div></div>
   </aside>
-}
-
-function PersonPortrait({ reference }: { reference: ReferenceEntry }) {
-  return referenceImage(reference) ? <ReferenceThumbnail reference={reference}/> : <span className="portrait-unavailable">Retrato indisponível</span>
-}
-
-function MiniMatches({ title, matches, detailed = false }: { title: string; matches: ReferenceMatch<ReferenceEntry>[]; detailed?: boolean }) {
-  return <section className={`mini-matches${detailed ? ' categorized-matches' : ''}`}><h3>{title}</h3>{matches.length ? matches.map(match => <div key={match.reference.id} data-reference-id={match.reference.id} data-category={match.reference.category}>{match.reference.kind === 'person' ? <PersonPortrait reference={match.reference}/> : <ReferenceThumbnail reference={match.reference}/>}<span>{match.reference.name}{detailed && <small>{match.reference.period}</small>}</span><b>{Math.round(match.similarity)}%</b></div>) : <p>Sem cobertura suficiente.</p>}</section>
 }
 
 export function LandingPage() {
@@ -360,7 +354,7 @@ export function LandingPage() {
   })
   return <>
     <section className="hero">
-      <div className="hero-map" aria-hidden="true"/>
+      <div className="hero-map brightness-[1.5]! contrast-[.8]! saturate-[.9]! opacity-[.54]! dark:brightness-100! dark:contrast-100! dark:saturate-100! dark:opacity-70! max-[640px]:opacity-[.14]! max-[640px]:dark:opacity-20!" aria-hidden="true"/>
       <div className="hero-grid">
         <div className="hero-copy">
           <h1>Descubra onde<br/>você se posiciona<br/><em>nos 12 eixos.</em></h1>
@@ -578,7 +572,7 @@ function MatchRows({ matches }: { matches: ReferenceMatch<ReferenceEntry>[] }) {
     const flagSize = isCountry ? countryFlagDisplaySize(match.reference.id, flagWidth) : undefined
     const coverage = countDocumentedEvidenceAxes(match.reference)
     return <details key={match.reference.id} className="match-row">
-      <summary><span className="match-number">{String(index + 1).padStart(2, '0')}</span><span className="match-name" style={image ? { gridTemplateColumns: `${isCountry ? flagWidth : `${image.width}px`} minmax(0, 1fr)`, gridTemplateRows: 'auto auto auto', columnGap: 10, alignItems: 'center' } : undefined}><ReferenceThumbnail reference={match.reference} className={isCountry ? 'country-flag-intrinsic' : undefined} style={{ gridColumn: 1, gridRow: '1 / span 3', ...flagSize }}/><b>{match.reference.name}</b><small>{match.reference.period}</small><small className="match-evidence">Documentado em {coverage}/12 eixos</small></span><span className="match-score"><strong>{Math.round(match.similarity)}%</strong><small>{formatPercent(match.distance)} pontos do índice</small></span><IconChevronDown size={19} aria-hidden="true"/></summary>
+      <summary><span className="match-number">{String(index + 1).padStart(2, '0')}</span><span className="match-name" style={image ? { gridTemplateColumns: `${isCountry ? flagWidth : `${image.width}px`} minmax(0, 1fr)`, gridTemplateRows: 'auto auto auto', columnGap: 10, alignItems: 'center' } : undefined}><ReferenceThumbnail reference={match.reference} className={isCountry ? 'country-flag-intrinsic' : undefined} style={{ gridColumn: 1, gridRow: '1 / span 3', ...flagSize }}/><b>{match.reference.name}</b><small>{match.reference.period}{referenceFlagPeriodNote(match.reference) && <span className="mt-1 block">{referenceFlagPeriodNote(match.reference)}</span>}</small><small className="match-evidence">Documentado em {coverage}/12 eixos</small></span><span className="match-score"><strong>{Math.round(match.similarity)}%</strong><small>{formatPercent(match.distance)} pontos do índice</small></span><IconChevronDown size={19} aria-hidden="true"/></summary>
       <div className="match-detail"><p>{match.reference.rationale}</p><p className="evidence-note">Fontes de evidência média ou alta cobrem {coverage} dos 12 eixos. Os demais valores não têm a mesma sustentação documental e não são interpretados como posições neutras. {match.reference.caveats} O índice de distância é 100 menos a similaridade ponderada exibida; não corresponde à soma simples destas diferenças.</p>
         <div className="match-analysis"><div><h3>Menores diferenças</h3>{match.closestAxes.map(item => <p key={item.key}><b>{axisPoleName(AXES.find(axis => axis.key === item.key)!)}</b><span>{item.distance.toFixed(1)} pontos</span></p>)}</div><div><h3>Maiores diferenças</h3>{match.divergentAxes.map(item => <p key={item.key}><b>{axisPoleName(AXES.find(axis => axis.key === item.key)!)}</b><span>{item.distance.toFixed(1)} pontos</span></p>)}</div></div>
         <div className="source-list">{match.reference.sources.map((source, index) => <a key={`${source.url}:${source.title}:${index}`} href={source.url} target="_blank" rel="noreferrer">{source.title} <IconExternalLink size={14}/><small>{source.note}</small></a>)}</div>
@@ -661,7 +655,7 @@ function CountryMatchSection({ matches }: { matches: ReferenceMatch<ReferenceEnt
           <span>PAÍS MAIS PRÓXIMO · {scope === 'current' ? 'ATUAL' : 'HISTÓRICO'}</span>
           <strong><ReferenceThumbnail reference={primary.reference} className="country-flag-intrinsic" style={countryFlagDisplaySize(primary.reference.id, 'clamp(72px, 8.2vw, 105px)')}/>{primary.reference.name}</strong>
           <b>{formatPercent(primary.similarity)}%</b>
-          <small style={{ gridColumn: '1 / -1', color: 'var(--text-secondary)', fontSize: 12 }}>{primary.reference.period}</small>
+          <small style={{ gridColumn: '1 / -1', color: 'var(--text-secondary)', fontSize: 12 }}>{primary.reference.period}{referenceFlagPeriodNote(primary.reference) && <span className="mt-1 block">{referenceFlagPeriodNote(primary.reference)}</span>}</small>
           <p style={{ gridColumn: '1 / -1', margin: 0, color: 'var(--text-secondary)', lineHeight: 1.55 }}>{primary.reference.rationale}</p>
         </article> : <p role="status">Não há perfis de países neste período.</p>}
         {selected.length > 1 && <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 280px), 1fr))', gap: 24 }}>
@@ -673,34 +667,21 @@ function CountryMatchSection({ matches }: { matches: ReferenceMatch<ReferenceEnt
   </section>
 }
 
-/** Export captions retain exact date tokens; the full contextual period stays on the live record. */
-function sharePeriodDates(period: string) {
-  const dates = period.match(/\d{2}\/\d{2}\/\d{4}|\d{4}-\d{2}-\d{2}|\b(?:1[5-9]|20)\d{2}\b/g)
-  if (!dates) return period
-  const unique = [...new Set(dates.map(date => /^\d{4}-/.test(date) ? date.split('-').reverse().join('/') : date))]
-  return `Datas citadas: ${unique.join(' · ')}`
-}
-
 function ShareCard({ scores, matches }: { scores: AxisScores; matches: ReferenceMatch<ReferenceEntry>[] }) {
   const isBalanced = AXES.every(axis => Math.abs(scores[axis.key] - 50) <= 5)
   const topIdeology = matches.find(item => item.reference.kind === 'ideology')
-  const closestPerson = matches.find(item => item.reference.kind === 'person')
-  const currentPeople = matches.filter(item => item.reference.category === 'public-figure').slice(0, 3)
-  const historicalPeople = matches.filter(item => item.reference.category === 'historical-figure').slice(0, 3)
-  const countries = matches.filter(item => item.reference.category === 'country').slice(0, 3)
-  const historicalCountries = matches.filter(item => item.reference.category === 'historical-country').slice(0, 3)
   const signatureAxes = AXES.map(axis => ({ axis, score: scores[axis.key], intensity: Math.max(scores[axis.key], 100 - scores[axis.key]) }))
     .sort((first, second) => second.intensity - first.intensity)
     .slice(0, 3)
-  return <div className="share-card categorized-share">
+  return <div className="share-card categorized-share grid-cols-[.85fr_1.15fr]! grid-rows-[40px_245px_325px_270px]! gap-2!">
     <div className="share-card-head"><span className="wordmark">12eixos</span><span>SEU RESULTADO · 12 DIMENSÕES</span></div>
     <section className="share-card-hero" data-extended-title={!isBalanced && (topIdeology?.reference.name.length ?? 0) > 40}>
       <div className="share-card-intro" data-long-title={(topIdeology?.reference.name.length ?? 0) > 22}><h2>{isBalanced ? <>Um perfil próximo<br/><em>do centro.</em></> : <>Seu perfil se aproxima<br/>principalmente de<br/><em>{topIdeology?.reference.name ?? 'doze dimensões'}.</em></>}</h2><p>{isBalanced ? 'Suas respostas ficaram próximas ao centro nos doze eixos. Isso descreve um vetor equilibrado, não um rótulo político.' : <>Os polos mais marcados nas suas respostas: {signatureAxes.map(({ axis, score, intensity }) => `${axisPoleName(axis)} (${formatPercent(intensity)}% ${score >= 50 ? axis.left : axis.right})`).join(' · ')}.</>}</p></div>
-      {isBalanced ? <aside className="share-ideology-feature share-neutral-feature"><p>PERFIL EQUILIBRADO</p><h3>Respostas próximas ao centro</h3><p>As comparações abaixo aproximam vetores documentados; não definem sua identidade política.</p></aside> : topIdeology && <aside className="share-ideology-feature"><p>IDEOLOGIA MAIS PRÓXIMA</p><strong className="share-feature-score">{formatPercent(topIdeology.similarity)}%</strong><h3>{topIdeology.reference.name}</h3><p>{topIdeology.reference.rationale}</p><small>{topIdeology.reference.period}</small><small>Fonte · {preferredDocumentarySourceTitle(topIdeology.reference)}</small></aside>}
+      {isBalanced ? <aside className={cn("share-ideology-feature share-neutral-feature", ideologyPanelClassName)}><p>PERFIL EQUILIBRADO</p><h3>Respostas próximas ao centro</h3><p>As comparações abaixo aproximam vetores documentados; não definem sua identidade política.</p></aside> : topIdeology && <aside className={cn("share-ideology-feature", ideologyPanelClassName)}><p>IDEOLOGIA MAIS PRÓXIMA</p><strong className="share-feature-score">{formatPercent(topIdeology.similarity)}%</strong><h3>{topIdeology.reference.name}</h3><p>{topIdeology.reference.rationale}</p><small>{topIdeology.reference.period}</small><small>Fonte · {preferredDocumentarySourceTitle(topIdeology.reference)}</small></aside>}
     </section>
-    <section className="share-axes"><h3>SEUS 12 EIXOS</h3><AxisBars scores={scores} compact/></section>
-    <section className="categorized-share-countries"><h3>PAÍSES</h3>{[{title: 'ATUAIS', items: countries}, {title: 'HISTÓRICOS', items: historicalCountries}].map(group => <div className="country-subgroup" key={group.title}><h4>{group.title}</h4>{group.items.length === 0 && <p>Sem cobertura suficiente para ordenar.</p>}{group.items.map(item => <article className="categorized-country" key={item.reference.id} data-reference-id={item.reference.id} data-category={item.reference.category}><ReferenceThumbnail reference={item.reference}/><div><b>{item.reference.name}</b><small>{sharePeriodDates(item.reference.period)}</small></div><strong>{formatPercent(item.similarity)}%</strong></article>)}</div>)}</section>
-    <div className="categorized-share-people">{[{title: 'FIGURAS HISTÓRICAS', items: historicalPeople}, {title: 'FIGURAS ATUAIS', items: currentPeople}].map(group => <section className="categorized-people-group" key={group.title}><h3>{group.title}</h3>{group.items.length === 0 && <p>Sem cobertura suficiente para ordenar.</p>}{group.items.map(item => <article className="categorized-person" key={item.reference.id} data-reference-id={item.reference.id} data-category={item.reference.category}><PersonPortrait reference={item.reference}/><div><h4>{item.reference.name}</h4><strong>{formatPercent(item.similarity)}%{item.reference.id === closestPerson?.reference.id && <span className="closest-person-label">FIGURA MAIS PRÓXIMA</span>}</strong><small>{item.reference.period}</small></div></article>)}</section>)}</div>
+    <section className="share-axes col-start-1! row-start-3! row-span-1! p-[9px]!"><h3>SEUS 12 EIXOS</h3><AxisBars scores={scores} compact capture/></section>
+    <ShareCountryGroups matches={matches}/>
+    <SharePeopleGroups matches={matches}/>
   </div>
 }
 
@@ -746,12 +727,11 @@ export function ResultsPage() {
   return <div className="results-page atlas-results">
     <section className="result-summary">
       <div className="result-summary-copy"><h1>{isBalanced ? <>Suas respostas<br/>ficaram próximas<br/><em>do centro.</em></> : <>Seu perfil se<br/>aproxima de<br/><em>{ideology?.reference.name ?? 'doze dimensões'}.</em></>}</h1><p>Estas posições descrevem suas respostas. As aproximações usam apenas os eixos documentados e não definem uma identidade política.</p>
-        {ideology && <article className="result-primary"><span>IDEOLOGIA MAIS PRÓXIMA</span><h2>{ideology.reference.name}</h2><b>{Math.round(ideology.similarity)}%</b><p>{ideology.reference.rationale}</p><small>{countDocumentedEvidenceAxes(ideology.reference)}/12 eixos documentados · {ideology.reference.period}</small></article>}
+        {ideology && <article className={cn("result-primary", ideologyPanelClassName)}><span>IDEOLOGIA MAIS PRÓXIMA</span><h2>{ideology.reference.name}</h2><b>{Math.round(ideology.similarity)}%</b><p>{ideology.reference.rationale}</p><small>{countDocumentedEvidenceAxes(ideology.reference)}/12 eixos documentados · {ideology.reference.period}</small></article>}
       </div>
       <aside className="result-profile"><h2>Seu posicionamento nos 12 eixos</h2><div className="result-profile-grid"><AxisBars scores={scores}/><div><RadarProfile scores={scores}/></div></div></aside>
     </section>
-    <div className="result-ideology-comparisons"><MiniMatches title="IDEOLOGIAS PRÓXIMAS" matches={categoryMatches('ideology').slice(0, 3)} detailed/></div>
-    <div className="result-profile-comparisons categorized-result-groups"><MiniMatches title="FIGURAS HISTÓRICAS" matches={categoryMatches('historical-figure').slice(0, 3)} detailed/><MiniMatches title="FIGURAS ATUAIS" matches={categoryMatches('public-figure').slice(0, 3)} detailed/><section className="result-country-category"><h3>PAÍSES</h3><MiniMatches title="ATUAIS" matches={categoryMatches('country').slice(0, 3)} detailed/><MiniMatches title="HISTÓRICOS" matches={categoryMatches('historical-country').slice(0, 3)} detailed/></section></div>
+    <ResultComparisonGroups matches={matches}/>
     <section className="result-reasons"><div><h2>Por que este resultado?</h2><p>Estes são os eixos mais afastados do centro nas suas respostas. Cada escala é calculada independentemente; um valor não causa os demais.</p></div><div>{definingAxes.map(({ axis, index, score }) => <article key={axis.key} style={{ '--axis-color': axisColors[index] } as CSSProperties}><b>{score >= 50 ? axis.left : axis.right}</b><span>{formatPercent(Math.max(score, 100 - score))}%</span><p>{axisDetails[axis.key]}</p></article>)}</div></section>
     <section className="results-map atlas-axis-cards scroll-reveal"><div className="section-heading visually-hidden"><h2>Suas posições nos 12 eixos</h2><p>100 representa o polo à esquerda de cada par; 0 representa o polo à direita. Os resultados mostram direção e intensidade, sem resumir sua identidade.</p></div>
       <div className="results-map-grid"><div className="results-axis-list">{AXES.map((axis, index) => {
@@ -810,7 +790,7 @@ function ReferenceValueRows({ references, axisKey, axis, unestimated = false }: 
     const value = entry.vec[axisKey]
     const position = unestimated ? null : value
     return <article className="reference-value" key={entry.id}>
-      <div><ReferenceThumbnail reference={entry} style={entry.kind === 'person' ? { width: 42, height: 54, objectFit: 'cover' } : countryFlagDisplaySize(entry.id, '52px')}/><span><b>{entry.name}</b><small>{entry.period}</small></span></div>
+      <div><ReferenceThumbnail reference={entry} style={entry.kind === 'person' ? { width: 42, height: 54, objectFit: 'cover' } : countryFlagDisplaySize(entry.id, '52px')}/><span><b>{entry.name}</b><small>{entry.period}{referenceFlagPeriodNote(entry) && <span className="mt-1 block">{referenceFlagPeriodNote(entry)}</span>}</small></span></div>
       <strong>{position === null ? '—' : `${value}%`}<small>{position === null ? 'Não estimado' : `${countDocumentedEvidenceAxes(entry)}/12 eixos`}</small></strong>
       <div className="reference-value-track">{position !== null && <span style={{ width: `${value}%` }}/>}</div>
     </article>

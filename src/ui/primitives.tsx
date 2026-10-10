@@ -26,7 +26,7 @@ const baseControl = 'inline-flex min-h-12 items-center justify-center gap-2 bord
 
 export function controlClassName({ variant = 'outline', color = 'accent', size = 'md', className }: { variant?: ControlVariant; color?: ColorScheme; size?: ControlSize; className?: string } = {}) {
 const variantClass = variant === 'solid'
-    ? cn(controlVariants.solid, controlColorClasses[color].solid)
+    ? cn(controlVariants.solid, controlColorClasses[color].solid, 'text-background! hover:text-background!', color === 'accent' && 'not-dark:hover:brightness-100! not-dark:hover:bg-[color-mix(in_srgb,var(--orange)_94%,var(--text))]!')
     : cn(controlVariants[variant], controlColorClasses[color].text)
   return cn(baseControl, variantClass, controlSizes[size], (variant === 'ghost' || variant === 'quiet') && size !== 'icon' && 'border-0 px-0 justify-start text-left', className)
 }

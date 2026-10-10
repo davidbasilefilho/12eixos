@@ -1,7 +1,9 @@
 import { useState, type CSSProperties } from 'react'
-import { flagAssets } from '../data/flag-assets'
+import { flagAssets, historicalFlagReuses } from '../data/flag-assets'
 import { portraitAssets } from '../data/portrait-assets'
 import type { ReferenceEntry } from '../data/references'
+
+export { referenceFlagPeriodNote } from '../data/flag-assets'
 
 const portraitById = new Map(portraitAssets.flatMap(asset => [[asset.id, asset] as const, [asset.id.replace(/^(?:na|eu|as|af)-/, ''), asset] as const]))
 const packagedFlags = new Set(flagAssets)
@@ -15,6 +17,7 @@ const historicalFlagAliases: Record<string, string> = {
   'argentina-first-peron-administration-1946': 'argentina-current-2025',
 }
 const countryFlagAspectRatios: Record<string, number> = {
+  ...Object.fromEntries(historicalFlagReuses.map(asset => [asset.id, asset.width / asset.height])),
   // Native modern illustrative vector only; historical ratio/dye not certified.
   // docs/assets-historical-flags-batch03.md; 1981 sea ratio is not retroactive.
   'austria-first-republic-parliamentary-1918': 900 / 600,
