@@ -1,5 +1,213 @@
+/** Provenance of byte-for-byte local reuse, verified on 2026-10-10.
+ * Historical sources establish the design in the stated documentary period.
+ * Native vector dimensions and screen colors do not certify historical textiles.
+ * See docs/assets-historical-flags-batch04.md and
+ * docs/assets-historical-flags-batch05.md for source limits.
+ */
+export interface HistoricalFlagReuse {
+  id: string
+  src: string
+  copiedFrom: string
+  sha256: string
+  width: number
+  height: number
+  documentedPeriod: string
+  historicalSource: string
+  originalSource: string
+  license: string
+  author: string
+  periodNote?: string
+  periods?: readonly {
+    fromDate: string
+    toDate: string
+    src: string | null
+    description: string
+    historicalSource: string
+  }[]
+}
+
+export const historicalFlagReuses: readonly HistoricalFlagReuse[] = [
+  {
+    "id": "nepal-multiparty-monarchy-1990",
+    "src": "/assets/flags/nepal-multiparty-monarchy-1990.svg",
+    "copiedFrom": "/assets/flags/nepal-current-2025.svg",
+    "sha256": "98b33ea847a3f6e6f21c777423acc9d80512a85f858d967ceaf56d206c10be1e",
+    "width": 726,
+    "height": 885,
+    "documentedPeriod": "Constituição de 09/11/1990, art. 5 e Anexo 1; perfil de 1990–2007.",
+    "historicalSource": "https://www.servat.unibe.ch/icl/np00000_.html",
+    "originalSource": "https://commons.wikimedia.org/wiki/File:Flag_of_Nepal.svg",
+    "license": "Domínio público, PD-Nepal, conforme ficha Commons.",
+    "author": "Pumbaa80 e Achim1999"
+  },
+  {
+    "id": "dahomey-founding-civil-republic-1960",
+    "src": "/assets/flags/dahomey-founding-civil-republic-1960.svg",
+    "copiedFrom": "/assets/flags/benin-current-2025.svg",
+    "sha256": "03e7fd78282d719338630eaf2301fa9c9dbcbf57a9639a20e8fbb43353409569",
+    "width": 900,
+    "height": 600,
+    "documentedPeriod": "01/08/1960–28/10/1963; desenho usado de 1960 até 1975, segundo o governo do Benim.",
+    "historicalSource": "https://www.gouv.bj/pages/le-drapeau/",
+    "originalSource": "https://commons.wikimedia.org/wiki/File:Flag_of_Benin.svg",
+    "license": "Domínio público: geometria simples.",
+    "author": "SKopp e Gabbe"
+  },
+  {
+    "id": "madagascar-tsiranana-founding-government-1960",
+    "src": "/assets/flags/madagascar-tsiranana-founding-government-1960.svg",
+    "copiedFrom": "/assets/flags/madagascar-current-2025.svg",
+    "sha256": "a302a82027fb4c1739350e49505791537ed26a3b6326558b09bdc87dcf2b6cb8",
+    "width": 900,
+    "height": 600,
+    "documentedPeriod": "Constituição de 29/04/1959, art. 2; recorte fundador do perfil de 1960–1972.",
+    "historicalSource": "https://cnlegis.gov.mg/page_acces_pdf/eoVisRcmXhrSdnW",
+    "originalSource": "https://commons.wikimedia.org/wiki/File:Flag_of_Madagascar.svg",
+    "license": "Domínio público: geometria simples.",
+    "author": "SKopp"
+  },
+  {
+    "id": "nigeria-second-republic-1979",
+    "src": "/assets/flags/nigeria-second-republic-1979.svg",
+    "copiedFrom": "/assets/flags/nigeria-current-2025.svg",
+    "sha256": "29a8a7fff1ca574873f953e086753bb2f90be55c3efac5c91f829b1a1c6c01be",
+    "width": 1200,
+    "height": 600,
+    "documentedPeriod": "Segunda República, 1979–1983; desenho documentado no Nigeria Year Book 1983, p. 13.",
+    "historicalSource": "https://nigeriareposit.nln.gov.ng/bitstreams/a88a1e6b-f94f-460a-9df6-eb4b40b38c6e/download",
+    "originalSource": "https://commons.wikimedia.org/wiki/File:Flag_of_Nigeria.svg",
+    "license": "Domínio público: geometria simples; não baseado em expiração do prazo governamental de 70 anos.",
+    "author": "Michael Taiwo Akinkunmi; vetor de Jon Harald Søby"
+  },
+  {
+    "id": "kenya-kenyatta-founding-government-1963",
+    "src": "/assets/flags/kenya-kenyatta-founding-government-1963.svg",
+    "copiedFrom": "/assets/flags/kenya-current-2025.svg",
+    "sha256": "4e750d2b4aba128580e40052630883aee27419dcbd87ea44a4ede609e7c42a1b",
+    "width": 900,
+    "height": 600,
+    "documentedPeriod": "Lei 32/1964, com vigência declarada em 12/12/1963, Segundo Anexo, Parte I; perfil de 1963–1978.",
+    "historicalSource": "https://upload.wikimedia.org/wikipedia/commons/5/55/Kenya_Gazette_Supplement_-_170_-_1964-12-17.pdf",
+    "originalSource": "https://commons.wikimedia.org/wiki/File:Flag_of_Kenya.svg",
+    "license": "Domínio público, PD-Kenya: desenho governamental de 1963, conforme ficha Commons.",
+    "author": "Pumbaa80"
+  },
+  {
+    "id": "senegal-senghor-founding-government-1960",
+    "src": "/assets/flags/senegal-senghor-founding-government-1960.svg",
+    "copiedFrom": "/assets/flags/senegal-current-2025.svg",
+    "sha256": "c9fb30d11cf7e230ee44d5cf663b7dce52a11c58798155b37fabec4158441497",
+    "width": 900,
+    "height": 600,
+    "documentedPeriod": "Constituição de 07/03/1963, art. 1; recorte fundador do perfil de 1960–1980.",
+    "historicalSource": "https://mjp.univ-perp.fr/constit/sn1963.htm",
+    "originalSource": "https://commons.wikimedia.org/wiki/File:Flag_of_Senegal.svg",
+    "license": "Domínio público: geometria simples.",
+    "author": "Upload original por Nightstallion"
+  },
+  {
+    "id": "brazil-first-republic-1889",
+    "src": "/assets/flags/brazil-first-republic-1889.svg",
+    "copiedFrom": "/assets/flags/brazil-estado-novo-1937.svg",
+    "sha256": "4fe5746b128101524c3422d4bef92e0e21a0b4e155c8a92270f7047c7820808b",
+    "width": 1000,
+    "height": 700,
+    "documentedPeriod": "19/11/1889–24/10/1930; a bandeira provisória de 15–18/11/1889 está excluída.",
+    "historicalSource": "https://www.presidencia.gov.br/ccivil_03/decreto/1851-1899/d0004.htm",
+    "originalSource": "https://commons.wikimedia.org/wiki/File:Flag_of_Brazil_(1889%E2%80%931960).svg",
+    "license": "Domínio público: PD-BrazilGov e Public Domain Mark, conforme ficha Commons.",
+    "author": "Raimundo Teixeira Mendes; histórico de vetorização na ficha Commons.",
+    "periodNote": "Bandeira de 21 estrelas, 19/11/1889–24/10/1930; não representa 15–18/11/1889.",
+    "periods": [
+      {
+        "fromDate": "1889-11-15",
+        "toDate": "1889-11-18",
+        "src": null,
+        "description": "Bandeira provisória não empacotada; não substituir pelo desenho de 19 de novembro.",
+        "historicalSource": "https://www2.senado.leg.br/bdsf/bitstream/handle/id/514443/001048628_Arquivo_S_v1.pdf"
+      },
+      {
+        "fromDate": "1889-11-19",
+        "toDate": "1930-10-24",
+        "src": "/assets/flags/brazil-first-republic-1889.svg",
+        "description": "21 estrelas; subperíodo representado pela miniatura.",
+        "historicalSource": "https://www.presidencia.gov.br/ccivil_03/decreto/1851-1899/d0004.htm"
+      }
+    ]
+  },
+  {
+    "id": "brazil-fourth-republic-1946",
+    "src": "/assets/flags/brazil-fourth-republic-1946.svg",
+    "copiedFrom": "/assets/flags/brazil-estado-novo-1937.svg",
+    "sha256": "4fe5746b128101524c3422d4bef92e0e21a0b4e155c8a92270f7047c7820808b",
+    "width": 1000,
+    "height": 700,
+    "documentedPeriod": "31/01/1946–20/04/1960; a fase de 21/04/1960–31/03/1964 usou 22 estrelas.",
+    "historicalSource": "https://www.presidencia.gov.br/ccivil_03/decreto/antigos/d48124.htm",
+    "originalSource": "https://commons.wikimedia.org/wiki/File:Flag_of_Brazil_(1889%E2%80%931960).svg",
+    "license": "Domínio público: PD-BrazilGov e Public Domain Mark, conforme ficha Commons.",
+    "author": "Raimundo Teixeira Mendes; histórico de vetorização na ficha Commons.",
+    "periodNote": "Bandeira de 21 estrelas, 1946–1960; a partir de 21/04/1960, eram 22 estrelas.",
+    "periods": [
+      {
+        "fromDate": "1946-01-31",
+        "toDate": "1960-04-20",
+        "src": "/assets/flags/brazil-fourth-republic-1946.svg",
+        "description": "21 estrelas; subperíodo representado pela miniatura.",
+        "historicalSource": "https://www.presidencia.gov.br/ccivil_03/decreto/antigos/d48124.htm"
+      },
+      {
+        "fromDate": "1960-04-21",
+        "toDate": "1964-03-31",
+        "src": "/assets/flags/period-variants/brazil-military-regime-1964-1968.svg",
+        "description": "22 estrelas; variante local existente, sem nova cópia ou redesenho.",
+        "historicalSource": "https://www.presidencia.gov.br/ccivil_03/decreto/antigos/d48124.htm"
+      }
+    ]
+  }
+]
+
+const historicalFlagReuseById = new Map(historicalFlagReuses.map(asset => [asset.id, asset]))
+
+/** A thumbnail may represent only a documented subperiod of a broader profile. */
+export function referenceFlagPeriodNote(reference: { id: string; kind: string }): string | null {
+  return reference.kind === 'country' ? historicalFlagReuseById.get(reference.id)?.periodNote ?? null : null
+}
+
 /** Existing packaged flag files only. Missing identities intentionally have no image. */
 export const flagAssets: readonly string[] = [
+  ...historicalFlagReuses.map(asset => asset.src),
+  "/assets/flags/austria-first-republic-parliamentary-1918.svg",
+  "/assets/flags/nigeria-first-civilian-order-1960.svg",
+  "/assets/flags/uganda-independent-parliamentary-order-1962.svg",
+  "/assets/flags/france-july-monarchy-1830.svg",
+  "/assets/flags/irish-free-state-1922.svg",
+  "/assets/flags/north-german-confederation-1867.svg",
+  "/assets/flags/czechoslovakia-socialist-unitary-1960.svg",
+  "/assets/flags/eswatini-current-2025.svg",
+  "/assets/flags/djibouti-current-2025.svg",
+  "/assets/flags/comoros-current-2025.svg",
+  "/assets/flags/seychelles-current-2025.svg",
+  "/assets/flags/cabo-verde-current-2025.svg",
+  "/assets/flags/tonga-current-2025.svg",
+  "/assets/flags/samoa-current-2025.svg",
+  "/assets/flags/fiji-current-2025.svg",
+  "/assets/flags/bosnia-and-herzegovina-current-2025.svg",
+  "/assets/flags/cyprus-current-2025.svg",
+  "/assets/flags/san-marino-current-2025.svg",
+  "/assets/flags/monaco-current-2025.svg",
+  "/assets/flags/liechtenstein-current-2025.svg",
+  "/assets/flags/andorra-current-2025.svg",
+  "/assets/flags/trinidad-and-tobago-current-2025.svg",
+  "/assets/flags/st-vincent-and-the-grenadines-current-2025.svg",
+  "/assets/flags/st-lucia-current-2025.svg",
+  "/assets/flags/st-kitts-and-nevis-current-2025.svg",
+  "/assets/flags/grenada-current-2025.svg",
+  "/assets/flags/dominica-current-2025.svg",
+  "/assets/flags/antigua-and-barbuda-current-2025.svg",
+  "/assets/flags/barbados-current-2025.svg",
+  "/assets/flags/bahamas-current-2025.svg",
+  "/assets/flags/belize-current-2025.svg",
   "/assets/flags/afghanistan-pdpa-1978.svg",
   "/assets/flags/albania-current-2025.svg",
   "/assets/flags/albania-hoxha-1946.svg",

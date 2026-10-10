@@ -1,0 +1,45 @@
+{
+  "status": "PASS actual integrated working tree, not a source-truth certification of every profile",
+  "checks": 1623,
+  "raw818Unchanged": true,
+  "otherSelected673Unchanged": true,
+  "otherFull866Unchanged": true,
+  "archived193Unchanged": true,
+  "rothbardEntireRecordUnchanged": true,
+  "finlandEntireRecordUnchanged": true,
+  "oldSourcePrefixObjectsPreserved": true,
+  "gateMinimumAxes": 6,
+  "selected": 675,
+  "eligible": 92,
+  "pending": 583,
+  "minimumMissingSlots": 2906,
+  "newCodes": 10,
+  "rawSHA256": "1ba985e6ad16ffb2fa3922eebf5bd5c7ebc4eb57318f014d76f745210bc0b41a",
+  "selectedSHA256": "08909e30c069dbac675ff9ce963ca99a1169b62d22ee22142c6ecfa940d5cd86",
+  "fullSHA256": "499d7a0a87e9a23d44e48a7c2701ba0168e4088fde2ee74b4780f3564a05e650",
+  "postsSHA256": "6e77421b39d77123771e06ae259c51df6524784f06d9eecf0f7103b601b29a6e",
+  "rows": [
+    {
+      "id": "portugal-current-2025",
+      "postSHA256": "af99cae823fc5044f1cd0cb98d6a4ea17da0b64b6fb411447c1ab428e379300c",
+      "axes": [
+        "rep",
+        "pod",
+        "con",
+        "rel",
+        "mor"
+      ]
+    },
+    {
+      "id": "poland-current-2025",
+      "postSHA256": "2273a69879e1abe10b23ad4922aeb4451563a7467c55cf7231b4d64f807b2c4e",
+      "axes": [
+        "rep",
+        "pod",
+        "imi",
+        "eco",
+        "con"
+      ]
+    }
+  ]
+}

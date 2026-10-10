@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "checks": 2441,
+  "changedRawIds": [
+    "atiku-abubakar",
+    "ilhan-omar",
+    "fiji-current-2025"
+  ],
+  "changedSelectedAndLookupIds": [
+    "atiku-abubakar",
+    "ilhan-omar",
+    "fiji-current-2025",
+    "ideology-program-anarcho-syndicalism-iwa-2022"
+  ],
+  "rawUnchanged": 815,
+  "selectedUnchanged": 671,
+  "fullLookupUnchanged": 864,
+  "archiveUnchanged": 193,
+  "rawCount": 818,
+  "selectedCount": 675,
+  "fullCount": 868,
+  "eligible": 90,
+  "pending": 585,
+  "minimumSixAxisSlotDeficit": 2975,
+  "rawRuntimeSHA256": "1ba985e6ad16ffb2fa3922eebf5bd5c7ebc4eb57318f014d76f745210bc0b41a",
+  "selectedRuntimeSHA256": "2ad62c57ad5888447fa4be60d7503518c3bf6d1149f21fda8fab9769c44dec6c",
+  "fullRuntimeSHA256": "d94c686036fe9c3696736a6d8d8405ee2589c98d2eeca7cb07e5d5ef080ba880",
+  "posts": {
+    "atiku-abubakar": "f5085906fd6866200d1f2f1ef4218e12c484f9be774bfff9995a42223b35003e",
+    "ilhan-omar": "eafd38fed5abf6b9cc820b2793ba75d8e4710907fdb0bb50891868905cc5876f",
+    "fiji-current-2025": "53cf894b9b5b1d6565ca9899c20aeae07535d3488b6e5a0e238f25bbc3037a21",
+    "ideology-program-anarcho-syndicalism-iwa-2022": "e73d3368ade104fb2fde68cfef5163248e289dd1c69bfd39cec618434dc099e9"
+  },
+  "priorRankedMatchesUnchangedFiveScenarios": true,
+  "gate": 6
+}

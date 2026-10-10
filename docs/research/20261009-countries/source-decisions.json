@@ -1,0 +1,149 @@
+{
+  "status": "PRC three normative axes independently reviewed and integrated under Root authorization; working tree uncommitted. Comoros COM remains held.",
+  "checkpoint": "68a224787d2e3f0a8cacc4f5d31b7a728731fdce",
+  "baselineFullRecordsFile": "Literal complete before preserved in src/data/reference-research-country-20261009.ts",
+  "existingGate": "Six documented axes unchanged; unknown50 has no coding/evidence. Anchors are editorial intervals, not measured percentages.",
+  "records": [
+    {
+      "id": "comoros-current-2025",
+      "baselineLocatedAxes": [
+        "est",
+        "rep",
+        "pod",
+        "dip",
+        "rel"
+      ],
+      "decision": "COM remains unknown50, absent coding/evidence. No eligibility promotion.",
+      "newFinding": "The official accessible goods-schedule PDF has only two cover pages; pages3–461 are indicated as an attached Access file. No tariff schedule or general operative market duties were actually read.",
+      "sources": [
+        {
+          "url": "https://www.wto.org/english/thewto_e/acc_e/a1_comoros_e.htm",
+          "scope": "Actual indexed institutional document list: WT/ACC/COM/51 dated18January2024, goods Add.1 and services Add.2; identity and references only, not operative obligations."
+        },
+        {
+          "url": "https://goods-schedules.wto.org/system/files/procedure/2024-10/COM51A1-01-EN-FR-ES.pdf",
+          "scope": "Actual direct two-page cover; WT/ACC/COM/51/Add.1 and WT/MIN(24)/3/Add.1 dated18January2024; negotiated schedule is annexed to protocol per paragraph312. Attached operative body not retrieved.",
+          "shortQuote": "PP3–461Offset (Accessfileattached)"
+        }
+      ],
+      "accessFailures": [
+        "WTO accession/factsheet direct endpoints returned402 or timeout.",
+        "docs.wto.org directdoc inaccessible.",
+        "Indian commerce mirror returned404."
+      ],
+      "reason": "Membership and generic native trade-topic summary do not calibrate whole opening/protection direction; no opposite inference."
+    },
+    {
+      "id": "prc-mao-1949",
+      "baselineLocatedAxes": [
+        "eco",
+        "con"
+      ],
+      "scope": "The existing regime identity1949–1976 is retained; proposed additions describe1954 constitutional norms and1950 marriage law operative at that snapshot, not all-phase practice.",
+      "sources": [
+        {
+          "title": "Constitution of the People’s Republic of China (1954) — translated primary republication",
+          "url": "https://en.wikisource.org/wiki/Constitution_of_the_People%27s_Republic_of_China_(1954)",
+          "documentDate": "1954-09-20",
+          "edition": "English transcription attributed by page to US Senate hearings, US Government Printing Office 1972, p.528; Wikisource oldid15995439",
+          "actualReader": "data_continue, 2026-10-09",
+          "actualReadScope": "Entire offered English normative body, preamble and Articles1–106, web lines133–512. Not an official original Chinese facsimile. Partial Chinese parallel indexed passages were compared, not the whole Chinese text.",
+          "defects": [
+            "English Article2 omits the democratic-centralism paragraph present in the indexed Chinese republication; do not infer absence of that rule.",
+            "Duplicate31(7) and section-heading transcription defects."
+          ],
+          "shortQuote": "equal rights with men in all spheres of political, economic, cultural, social and domestic life"
+        },
+        {
+          "title": "Marriage Law of the People’s Republic of China — Foreign Languages Press scan",
+          "url": "https://www.bannedthought.net/China/MaoEra/Women-Family/MarriageLawOfThePRC-1950-OCR-sm.pdf",
+          "documentDate": "Effective1950-05-01, stated statutory footnote",
+          "edition": "Foreign Languages Press, Peking; printing date not established from inspected cover. Privately hosted scan, not authenticated official-host bytes.",
+          "actualReader": "data_continue, 2026-10-09",
+          "actualReadScope": "Cover/foreword and complete offered statutory Articles1–27, PDF pages4–10 (printed1–12), via full OCR body. Some OCR article labels are damaged; no claim of complete visual facsimile certification. Commentary is distinguished from statutory text.",
+          "shortQuote": "Husband and wife are companions living together and shall enjoy equal status in the home."
+        }
+      ],
+      "proposedAxes": [
+        {
+          "axis": "est",
+          "position": "moderate-second",
+          "proposedAnchor": 40,
+          "editorialRange": [
+            30,
+            45
+          ],
+          "confidence": "medium",
+          "claims": [
+            {
+              "accessedDate": "2026-10-09",
+              "basis": "norm",
+              "sourceTitle": "Constitution of the People’s Republic of China (1954) — translated primary republication",
+              "locator": "Articles21–22,31(7),49(4/6/15),53–72",
+              "statement": "A legislação nacional é exclusiva do Congresso Nacional; órgãos centrais podem anular decisões locais e dirigir a cadeia administrativa. Regiões autônomas conservam competências financeiras, de segurança local e regulamentares, subordinadas à lei nacional e ao assentimento central.",
+              "publishedDate": "Constituição1954-09-20; tradução republicada1972"
+            }
+          ],
+          "rationale": "Direção nacional unitária com autonomia territorial real, por isso moderada, não centralização absoluta.",
+          "counterevidence": "Arts67–72 preservam autonomia e direitos regionais; Art70 exige aprovação central de regulamentos autônomos. Não descreve a execução histórica entre1949 e1976."
+        },
+        {
+          "axis": "imi",
+          "position": "moderate-second",
+          "proposedAnchor": 40,
+          "editorialRange": [
+            30,
+            45
+          ],
+          "confidence": "medium",
+          "claims": [
+            {
+              "accessedDate": "2026-10-09",
+              "basis": "norm",
+              "sourceTitle": "Constitution of the People’s Republic of China (1954) — translated primary republication",
+              "locator": "Articles3,68,71,77",
+              "statement": "Todas as nacionalidades têm igualdade normativa e liberdade de língua e costumes; órgãos autônomos incluem representação das nacionalidades e usam línguas locais, com direitos linguísticos e interpretação judicial.",
+              "publishedDate": "Constituição1954-09-20; tradução republicada1972"
+            }
+          ],
+          "rationale": "Programa cultural e linguístico transversal das nacionalidades, não mera permissão de entrada nem proteção de um grupo isolado.",
+          "counterevidence": "Art3 torna as autonomias partes inalienáveis do Estado; unidade nacional e rejeição de nacionalismos limitam a pluralidade. Não equivale a imigração aberta ou coexistência efetivamente realizada."
+        },
+        {
+          "axis": "mor",
+          "position": "moderate-first",
+          "proposedAnchor": 60,
+          "editorialRange": [
+            55,
+            70
+          ],
+          "confidence": "medium",
+          "claims": [
+            {
+              "accessedDate": "2026-10-09",
+              "basis": "norm",
+              "sourceTitle": "Constitution of the People’s Republic of China (1954) — translated primary republication",
+              "locator": "Article96",
+              "statement": "A norma declara igualdade entre mulheres e homens nas esferas política, econômica, cultural, social e doméstica, juntamente com proteção estatal da família.",
+              "publishedDate": "Constituição1954-09-20; tradução republicada1972"
+            },
+            {
+              "accessedDate": "2026-10-09",
+              "basis": "norm",
+              "sourceTitle": "Marriage Law of the People’s Republic of China — Foreign Languages Press scan",
+              "locator": "Articles1–4,7–17,19,23,27",
+              "statement": "A lei substitui casamento compulsório e supremacia masculina por consentimento, igualdade doméstica, liberdade profissional de ambos, direitos patrimoniais e de nome, direitos dos filhos não matrimoniais e divórcio condicionado a procedimento.",
+              "publishedDate": "Lei em vigor1950-05-01; impressão examinada sem data estabelecida"
+            }
+          ],
+          "rationale": "Conjunto amplo de normas de papéis de gênero, relações conjugais, filiação e autonomia familiar permite proposta moderada; supera uma única cláusula de acesso a cargo público.",
+          "counterevidence": "Monogamia heterossexual; idades mínimas diferentes; impedimentos médicos; mediação obrigatória do divórcio; consentimento de militar para certos divórcios; deveres familiares/produtivos; alterações regionais dependem de ratificação. Não comprova execução igualitária ou doutrina cultural integral."
+        }
+      ],
+      "otherAxes": "REP/POD/DIP/REL/TEC/INT/COM remain unresolved. Nominal rights, religious-belief freedom and generic peace professions alone do not settle these whole constructs.",
+      "potentialMetadataCount": 5,
+      "eligibleAfterHypotheticalApproval": false,
+      "preservation": "No record, source object, existing ECO/CON coding, matching gate or checkout file was changed."
+    }
+  ]
+}

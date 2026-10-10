@@ -1,0 +1,39 @@
+{
+  "status": "PASS independent exact literal binding",
+  "moduleSHA256": "23b59b30af0a9db7919f507ba78b25e5befe424e0736c0d284cf8159874797b3",
+  "recipesSHA256": "4970d05fea9e322e30652e1c8dd0847f472f0e5d7ba87a6cdd0ee1f499feac0b",
+  "postsSHA256": "9cdd4ff4464d774f8bf281a2c79b7c0ea84613fdcef0436d0a0458af83c4eeb6",
+  "checks": 65,
+  "rows": [
+    {
+      "id": "ideology-egalitarian-liberalism",
+      "beforeSHA256": "4a7d450957c534a917743d824acbbd0a87619e308ec4c8af66221a60ffb6c320",
+      "postSHA256": "3924c40413d44955909d86e06d8a6ccf6bd1f8f47c56ad4f72043cc158abdc1c",
+      "axes": [
+        "rep",
+        "pod",
+        "rel",
+        "mor"
+      ],
+      "eligible": false,
+      "verdict": "accept exact partial post"
+    },
+    {
+      "id": "ideology-right-minarchism",
+      "beforeSHA256": "c0e050be15cc98aa130387155b58343cf1adc19ab5c072b5199e8feb654650de",
+      "postSHA256": "ac9d1338e80af82b94a90810e11917803104140eb984349852602043815a729a",
+      "axes": [
+        "pod",
+        "eco",
+        "con"
+      ],
+      "eligible": false,
+      "verdict": "accept exact partial post"
+    }
+  ],
+  "sourceScopeClarification": "Fresh supplementary direct OCR followup on 2026-10-09 read note42 lines2489–2490. Earlier declared selected ranges remain historical attestations; note42 previously was a reference marker, now body actually read. No wholebook claim.",
+  "productWrites": false,
+  "selectionUnchanged": 675,
+  "gateUnchanged": 6,
+  "remainingRequirement": "Root authorization and active selected-catalog hook, followed by runtime preservation proof."
+}

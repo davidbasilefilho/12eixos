@@ -1,6 +1,8 @@
-# Seleção pesquisada de 75 ideologias: integração de 8 de outubro de 2026
+# Seleção pesquisada de 75 ideologias: registro da integração de 8 de outubro de 2026
 
-## Estado integrado
+> Atualização de 10 de outubro de 2026: a seleção tem **675 perfis, 94 elegíveis e 581 parciais**; ideologias: 13/75 elegíveis. O gate continua em seis eixos. Consulte a [auditoria atual](selected-catalog-audit.json) e o [sétimo recorte documental](research/ideology-seventh-20261010.md). O restante deste documento preserva a integração original de 8/10: seus totais, hash bruto e alegações de preservação referem-se exclusivamente àquele checkpoint, antes das reconciliações posteriores. O arquivo bruto atual aprovado é identificado na auditoria, não pelo hash histórico abaixo.
+
+## Estado no checkpoint original de 8/10/2026
 
 A seleção ativa contém 675 perfis: 150 países atuais, 150 países/governos históricos, 150 figuras públicas, 150 figuras históricas e 75 programas ou doutrinas ideológicas delimitados. Essa seleção substitui o conjunto ideológico provisório; não substitui o arquivo de fontes.
 
@@ -16,7 +18,7 @@ A pesquisa fresh75 é preservada integralmente em `research/ideology75/selected-
 - O arquivo completo tem 868 registros. Os 193 registros ideológicos fora da seleção continuam consultáveis nas fichas de resultado, com os IDs e as evidências originais; ficam fora dos índices de proximidade.
 - O módulo do antigo conjunto provisório permanece como registro histórico, identificado como substituído. A seleção atual é `src/data/reference-selected-catalog.ts`.
 
-## Cobertura efetiva
+## Cobertura no checkpoint original de 8/10/2026
 
 | Categoria | Selecionados | Com ao menos seis eixos documentados | Pendentes |
 | --- | ---: | ---: | ---: |

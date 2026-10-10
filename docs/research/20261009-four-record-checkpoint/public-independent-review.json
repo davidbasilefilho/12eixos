@@ -1,0 +1,145 @@
+{
+  "status": "ACCEPT exact corrected new codes: Atiku DIP40, Omar INT60 and MOR60, all medium; Root integration judgment separate",
+  "reviewer": "/root/coding_method",
+  "reviewedOn": "2026-10-09",
+  "candidateSha256": "d0ef942f327d937f1df3c62632c3dabb56efd6aab1b33af1c5aa96a2d2b00a1b",
+  "fullActiveBeforeBinding": "PASS to selectedReferenceEntries675 in /workspace/12eixos-frontend; exact whole objects and hashes",
+  "sourceReads": [
+    {
+      "url": "https://elections.civichive.org/wp-content/uploads/2022/10/Atikus-5-Point-Development-Agenda-Abridged.pdf",
+      "mode": "direct web extracted primary PDF",
+      "edition": "74 physical pages; personally endorsed campaign2023 programme, day/month not certified from hosting path",
+      "actualScope": "Initial extracted0–218 including endorsement57–66, and second displayed839–1394 including all security1216–1295 and foreign-policy1346–1393. Not all74 pages; no new facsimile certification.",
+      "newFinding": "1250–1253 explicitly alternative conflict-resolution diplomacy/intelligence/bordercontrol/traditionalinstitutions/goodneighbourliness; complements economic-diplomacycore1361–1367.",
+      "empiricalClaims": "Quantitative social/security claims not fact-checked or adopted."
+    },
+    {
+      "url": "https://omar.house.gov/issues/foreign-policy",
+      "mode": "official-domain indexed full body; direct InternalError",
+      "edition": "Undated; index age does not date publication",
+      "actualScope": "All four programme paragraphs and contact boundary; not relatednews",
+      "counterScope": "International engagement, domesticvalues shaping foreignprogrammes and force aslastresort; harmful-intervention qualification."
+    },
+    {
+      "url": "https://omar.house.gov/issues/healthcare",
+      "mode": "official-domain indexed full body; direct InternalError",
+      "edition": "Undated; relatednews dates do not date programme",
+      "actualScope": "All four policy paragraphs and MoreonHealthcare boundary; only reproductionparagraph grounds newMOR."
+    },
+    {
+      "url": "https://omar.house.gov/media/press-releases/rep-ilhan-omar-introduces-legislation-hold-brunei-accountable-brutal-penal",
+      "mode": "official-domain indexed primary body; no independent direct attempt",
+      "edition": "HeaderMay10,2019 actuallyread",
+      "actualScope": "Complete context, own full named quotation, billdescription and attribution boundaries of organizationalquotes.",
+      "counterScope": "Introduces travel/business targeted sanctions for implementingofficials inBrunei and any analogouscountry; notjust domesticexpression. Sippel/HRC/HRW comments notattributed toOmar."
+    },
+    {
+      "url": "https://omar.house.gov/breakdown-trumps-executive-orders-ways-rep-omar-fighting-back",
+      "mode": "official-domain indexed body",
+      "edition": "ExplicitlastupdateFeb6,2025; initialpublication unknown",
+      "actualScope": "Full displayedfact-sheet read; onlyFederalGovernmenttoDefineSexasOnlyMaleorFemale section andHowWereFightingBack plusdate used fornewcoding.",
+      "voice": "Institutionaloffice statement, notpersonalverbatimquote; judicial/causal/legalityclaims notcertified."
+    },
+    {
+      "url": "https://omar.house.gov/media/press-releases/rep-omars-statement-trump-revoking-equal-employment-opportunity-executive",
+      "mode": "official-domain indexed full primary statement",
+      "edition": "HeaderJan22,2025 actuallyread",
+      "actualScope": "Complete ownstatement up toIssues; noexecutiveorder impactcertification."
+    }
+  ],
+  "constructReview": {
+    "atiku:DIP": {
+      "recommendation": "ACCEPT40 medium after adding located conflict-resolution evidence",
+      "reason": "Policy expressly prioritizes diplomatic/economic instruments generally, and1250–1253 supplies direct conflict-resolution content. This is stronger than mere tradepromotion; not absolute pacifism.",
+      "counter": "Externaldefense1216–1225 and securityfunding1281–1295 preserved. One-million increase explicitlyPOLICE, notarmedforces buildup. No militaryinference from policing.",
+      "requiredRepair": "Add PDF1250–1253/p67physical asadditionalclaim orclaimlocator and bound statement to alternative conflict-resolution diplomacy/goodneighbourliness.",
+      "crosswalk": "All20DIPquestions reviewed.02/06 useful broad diplomacy/conflict links;01 is atmost counter-context, not proof of any answered proposition about militaryrespect. No unconditionalexhaustion requirement is imputed."
+    },
+    "omar:INT": {
+      "recommendation": "ACCEPT60 medium after qualification/countercitation repair",
+      "reason": "General policy opposes harmfulintervention and punitivecontrol sanctions; supports limited involvement without isolation. Targetedrights sanctions are normative material counter, not a merely empirical exception.",
+      "counter": "2019 owninitiative creates real externalpersonalrestrictions worldwide; continuedinternationalengagement/force-lastresort also limits nonintervention. Does not mean80, neutralwarpolicy orneverinterfere.",
+      "requiredRepair": [
+        "Replace blanket rejectsinterference with electedgovernments with qualified harmfulintervention/policies wording matching ownparagraph3.",
+        "Add second located Brunei2019 claim to INT so counter source is in per-axis sourceTitles, not only free-text uncertainty."
+      ],
+      "crosswalk": "All20INTquestions reviewed;01/13 tie to qualifiedgovernmentautonomy,15 sanctionscriticism,08 thematic coercioncounter only—not endorsement of sanctionsfornationalinterests. Normative critique, empiricalsanction-successrates notcertified."
+    },
+    "omar:MOR": {
+      "recommendation": "ACCEPT60 medium; no mandatory repair",
+      "reason": "Reproductiveautonomy+genderrecognition+consensualaffectivefreedom+professionalgenderopportunity jointly supply breadth beyond abortiononly; legal/institutional reformdirection grounded inown/adoptedofficepositions.",
+      "counter": "Multiple2019/2025/undated editions explicitly separated. Notapparent renewed2026stance; nomarriage/parentage/polygamy/adoption/curriculumimputed.",
+      "crosswalk": "All20MORquestions reviewed;03/07/09 close constructlinks;18 onlypartialworkplacegenderrole context, notliteral claimabout primaryhomemakingresponsibility. IDs do not become individualanswers."
+    }
+  },
+  "priorAxisScope": "Fullnine priorcodes/sourceobjects inspected and preserved. Thisreview didnot freshly reopen all their sources/passages or newlyrecertify them. Prior native16 peer judgment attributed byauthor is reuse, notthisreading.",
+  "structuralProof": {
+    "status": "PASS structural only",
+    "checks": 89,
+    "candidateSha256": "d0ef942f327d937f1df3c62632c3dabb56efd6aab1b33af1c5aa96a2d2b00a1b",
+    "results": [
+      {
+        "id": "atiku-abubakar",
+        "beforeSha256": "4b401c47c210e215cc38e80e3fa53f37b844e96932b827ba84a68be84ed8208b",
+        "proposedAfterSha256": "f5085906fd6866200d1f2f1ef4218e12c484f9be774bfff9995a42223b35003e",
+        "priorAxes": [
+          "est",
+          "rep",
+          "eco",
+          "con",
+          "tec"
+        ],
+        "newAxes": [
+          "dip"
+        ],
+        "projectedStructuralAxes": 6,
+        "unknownAxes": [
+          "pod",
+          "imi",
+          "int",
+          "com",
+          "rel",
+          "mor"
+        ]
+      },
+      {
+        "id": "ilhan-omar",
+        "beforeSha256": "fa704a198e0d880046434423d7e3ed968795a7bc490ffbbb3a7124a9d3950d49",
+        "proposedAfterSha256": "eafd38fed5abf6b9cc820b2793ba75d8e4710907fdb0bb50891868905cc5876f",
+        "priorAxes": [
+          "rep",
+          "pod",
+          "imi",
+          "dip"
+        ],
+        "newAxes": [
+          "int",
+          "mor"
+        ],
+        "projectedStructuralAxes": 6,
+        "unknownAxes": [
+          "est",
+          "eco",
+          "con",
+          "com",
+          "rel",
+          "tec"
+        ]
+      }
+    ],
+    "sourceTruthIsSeparate": true,
+    "priorNineNotRecertified": true
+  },
+  "finalApproval": "Root only; projected six codes each remain hypothetical; no currenteligibility increase or675completion asserted",
+  "noProductEdits": true,
+  "noVCS": true,
+  "initialCandidateSha256": "029d16b10730ff2f96f9460f381b68d25723270285244533da71f889b4661ef2",
+  "literalRepairResolution": {
+    "Atiku": "Additional located claim1250–1253 physical67/P66 includes diplomacy/goodneighbourliness AND intelligence/frontier/traditionalinstitution qualifiers; crosswalk02/06. Correct.",
+    "OmarINT": "Harmful-intervention qualification restored; Brunei2019 travel/business targeted restrictions included as second located claim. Both sources in per-axis generated map. Correct.",
+    "OmarMOR": "Unchanged from accepted literal. Dates/voices/counters retained.",
+    "privateSourceChannels": "No private source channel: new sources are public official omar.house.gov URLs, Atiku uses public CivicHive-hosted primary PDF. External review paths are audit artifacts, not evidence URLs.",
+    "newSourceReadingClaim": "This final operation checks corrected literals against earlier own actual readings, not another fresh body reading."
+  },
+  "remainingBlockers": "No outstanding source/construct/metadata repair for these three new codes. Whole-profile/previous-nine judgments and actual integration remain Root responsibility; no current eligibility increase claimed."
+}

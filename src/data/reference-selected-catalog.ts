@@ -1,3 +1,12 @@
+import { reconcileSeventhIdeologies20261010, seventhIdeologies20261010Definitions } from './reference-seventh-ideologies-20261010';
+import { reconcileSixthIdeologies20261010, sixthIdeologies20261010Definitions } from './reference-sixth-ideologies-20261010';
+import { reconcileFifthIdeologies20261010, fifthIdeologies20261010Definitions } from './reference-fifth-ideologies-20261010';
+import { reconcileCurrentCountryResearch02, currentCountryResearch02Definitions } from './reference-research-current-country02-20261009';
+import { reconcileHistoricalThree20261009, historicalThree20261009Definitions } from './reference-research-historical-three-20261009';
+import { reconcileFourthIdeologies20261009, fourthIdeologies20261009Definitions } from './reference-fourth-ideologies-20261009';
+import { reconcileThirdIdeologies20261009, thirdIdeologies20261009Definitions } from './reference-third-ideologies-20261009';
+import { reconcileParentIdeologies20261009, parentIdeologies20261009Definitions } from './reference-parent-ideologies-20261009';
+import { reconcileResearchIwa20261009 } from './reference-research-iwa-20261009';
 import { AXIS_KEYS, referenceEntries, type ReferenceEntry } from './references';
 import { ideology75Profiles } from './reference-ideology75-profiles';
 import { matchReferences, partitionMatchReferences } from '../lib/matching';
@@ -6,7 +15,7 @@ import type { AxisScores } from '../lib/scoring';
 /** The historical source catalog is immutable. Selection never rewrites its records. */
 const priorById = new Map(referenceEntries.map(entry => [entry.id, entry]));
 
-export const selectedIdeologyEntries: ReferenceEntry[] = ideology75Profiles.map(profile => {
+export const selectedIdeologyEntries: ReferenceEntry[] = ideology75Profiles.map((profile): ReferenceEntry => {
   const prior = priorById.get(profile.id);
   if (profile.existing !== Boolean(prior)) throw new Error(`Ideology identity resolution changed: ${profile.id}`);
   const bibliography = [...(prior?.sources ?? [])];
@@ -32,7 +41,7 @@ export const selectedIdeologyEntries: ReferenceEntry[] = ideology75Profiles.map(
     axisEvidence: prior?.axisEvidence ?? {},
     coding: prior?.coding ?? {},
   };
-});
+}).map(reconcileResearchIwa20261009).map(reconcileParentIdeologies20261009).map(reconcileThirdIdeologies20261009).map(reconcileFourthIdeologies20261009).map(reconcileFifthIdeologies20261010).map(reconcileSixthIdeologies20261010).map(reconcileSeventhIdeologies20261010);
 
 const selectedIdeologyIds = new Set(selectedIdeologyEntries.map(entry => entry.id));
 if (selectedIdeologyEntries.length !== 75 || selectedIdeologyIds.size !== 75) {
@@ -43,7 +52,7 @@ if (selectedIdeologyEntries.length !== 75 || selectedIdeologyIds.size !== 75) {
 export const selectedReferenceEntries: ReferenceEntry[] = [
   ...referenceEntries.filter(entry => entry.category !== 'ideology'),
   ...selectedIdeologyEntries,
-];
+].map(reconcileHistoricalThree20261009).map(reconcileCurrentCountryResearch02);
 
 /** All former profiles remain consultable, with their original IDs and evidence. */
 export const archivedReferenceEntries = referenceEntries.filter(entry =>
@@ -51,7 +60,9 @@ export const archivedReferenceEntries = referenceEntries.filter(entry =>
 export const fullReferenceCatalog = [
   ...referenceEntries,
   ...selectedIdeologyEntries.filter(entry => !priorById.has(entry.id)),
-];
+].map(entry => entry.id === 'ideology-program-anarcho-syndicalism-iwa-2022' || [...parentIdeologies20261009Definitions, ...thirdIdeologies20261009Definitions, ...fourthIdeologies20261009Definitions, ...fifthIdeologies20261010Definitions, ...sixthIdeologies20261010Definitions, ...seventhIdeologies20261010Definitions, ...historicalThree20261009Definitions, ...currentCountryResearch02Definitions].some(definition => definition.before.id === entry.id)
+  ? selectedReferenceEntries.find(selected => selected.id === entry.id)!
+  : entry);
 
 /** Shared product boundary: archived profiles cannot enter any ranked surface. */
 export function matchSelectedReferences(scores: AxisScores) {

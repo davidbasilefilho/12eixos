@@ -147,3 +147,9 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 - Autoria e licença: @catamphetamine, copyright 2020; [MIT](https://github.com/catamphetamine/country-flag-icons/blob/master/LICENSE), com o aviso integral já reproduzido acima no registro de Malta e presente no pacote original.
 - `viewBox="0 85.333 512 341.333"`; proporção nominal 3:2 do pacote, preservada pelo componente. SHA-256 do asset: `f495bdd55ee1383e8688d289b7d97fef773e0c06b2bdfebbe0746339c5772c4c`.
 - Escopo: identificação visual compacta do país atual; nenhum vetor, fonte política, evidência, período ou regra de elegibilidade foi alterado pelo reparo de imagem.
+
+## Reuso histórico verificado em 10/10/2026
+
+- [Lote 04](assets-historical-flags-batch04.md): Nepal de 1990, Dahomey, Madagascar, Segunda República da Nigéria, Quênia e Senegal. Cópias integrais de SVGs licenciados já presentes, com evidência histórica independente, hashes e dimensões.
+- [Lote 05](assets-historical-flags-batch05.md): Primeira e Quarta Repúblicas brasileiras. A miniatura de 21 estrelas tem subperíodo explícito; a variante de 22 estrelas de 1960 é registrada separadamente. As notas de período devem acompanhar as miniaturas na tela e na exportação.
+- Cobertura histórica após esses lotes: 97/150 perfis com imagem, 53 sem imagem. Coreia do Sul sob Rhee permanece sem mapeamento por falta de comprovação das variantes de 1948–1949 nos arquivos locais.

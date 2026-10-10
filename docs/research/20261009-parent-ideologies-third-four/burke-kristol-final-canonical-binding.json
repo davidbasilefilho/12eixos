@@ -1,0 +1,27 @@
+{
+  "status": "ACCEPT",
+  "checks": 77,
+  "scope": "Burke and Kristol ONLY; other pair not reviewed here",
+  "reviewInputSha256": "93695a0c9f2115cc38bb5e9517d0c678336d8b389d990c552f93d198f879672f",
+  "moduleSha256": "333fe88b53bad989b753d3e679bbed0c336933b0e6ff74e2b5d9bd9d044ce98e",
+  "recipesSha256": "30a7736e6210e7503cd31b038a511c104235f22beb7d6e2e54662bfb40aad9ed",
+  "postsFileSha256": "15b1852a198639982c12cfd853104981d98cec855d1d854487acf2293e211221",
+  "rows": [
+    {
+      "id": "ideology-burkean-conservatism",
+      "beforeSha256": "74dfcdb12cc8c822ea8171b3e686bd831f48bfa83ee875230b8e80c307b0b96b",
+      "postSha256": "01673dde0c4658a26886cf3e3770ed0296516fb973aadb7be4954beff2c52fc3",
+      "axes": 4,
+      "verdict": "ACCEPT exact literal; source judgment from prior review, no fresh body reread asserted"
+    },
+    {
+      "id": "ideology-right-neoconservatism",
+      "beforeSha256": "67f85f9a7f6f60d7aa8d492942f40207a48fbad02b736f2337bbb9fb2f5319e4",
+      "postSha256": "70b7f79fe2e82faa83d817f1ea94f965e07a70cef79cdd39ea44f0d9d6934aaf",
+      "axes": 2,
+      "verdict": "ACCEPT exact literal; source judgment from prior review, no fresh body reread asserted"
+    }
+  ],
+  "noProductEdits": true,
+  "noObservedEligibilityIncrease": true
+}

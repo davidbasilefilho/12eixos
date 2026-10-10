@@ -1,0 +1,81 @@
+{
+  "status": "PASS-EXTERNAL-PROPOSAL-NOT-INTEGRATED",
+  "readOnlyProduct": true,
+  "checks": 1742,
+  "baseHead": "068f4e603b8fd9355a55bed5cd4e5255e8d18752",
+  "protocol": "editorial-ordinal-v1",
+  "gate": 6,
+  "countsBefore": {
+    "selected": 675,
+    "eligible": 92,
+    "pending": 583
+  },
+  "countsProposed": {
+    "selected": 675,
+    "eligible": 92,
+    "pending": 583
+  },
+  "newAxes": 6,
+  "otherSelectedExact": 672,
+  "otherFullExact": 865,
+  "rankedFiveScenariosByteEqual": true,
+  "targets": [
+    {
+      "id": "republic-texas-1836",
+      "beforeSha256": "01d3a1c955a2b6877e9b3f8bd4c51538a3c1913e14299ecdd682c30d71f0f7b3",
+      "expectedPostSha256": "14647368f02d8c4aef222c60401d3978bf9ab35bdc8b7b7c473692b7b892dbc7",
+      "beforeAxes": [
+        "rep",
+        "rel"
+      ],
+      "afterAxes": [
+        "est",
+        "rep",
+        "rel"
+      ],
+      "oldAllSourcesExactPrefix": true,
+      "oldCodingAxesExactPreserved": true,
+      "eligibleAfter": false
+    },
+    {
+      "id": "belgium-unitary-kingdom-1831",
+      "beforeSha256": "0eae8fbf8a885bd27168c3818b833a25ee36caef9f7728b98bb9df0bd790eebb",
+      "expectedPostSha256": "2877d111a952ec1355821b732913441de935e3ae4475b6c5b9f015e47cd16fa7",
+      "beforeAxes": [
+        "rep",
+        "pod"
+      ],
+      "afterAxes": [
+        "est",
+        "rep",
+        "pod",
+        "rel"
+      ],
+      "oldAllSourcesExactPrefix": true,
+      "oldCodingAxesExactPreserved": true,
+      "eligibleAfter": false
+    },
+    {
+      "id": "portugal-charter-monarchy-1826",
+      "beforeSha256": "33e50a6c4fe381d3880c6557237f964dd2354e46e8da2e03d40da7a282866c38",
+      "expectedPostSha256": "315a10cde40b543754af1833048616ab389ae698b218600ea1bee799721fedcd",
+      "beforeAxes": [],
+      "afterAxes": [
+        "rep",
+        "pod",
+        "rel"
+      ],
+      "oldAllSourcesExactPrefix": true,
+      "oldCodingAxesExactPreserved": true,
+      "eligibleAfter": false
+    }
+  ],
+  "fullSourceBeforeSha256": "b25c50ab34908892256fbb00d4674ee39dab8e98fdfc7ecbe325edb33f33ede5",
+  "selectedBeforeSha256": "094a5483a8e4fa04d16202576cdde9746c5d0b838ba9b23848bff12f60e978e4",
+  "methodHashes": {
+    "src/lib/reference-coding.ts": "55a1b4339e709bc2531881eb925869343d62a8e475d9f8fe94ea834d94cd148f",
+    "src/lib/matching.ts": "0c67571f283b14d511e7554f38c3408c5e2fe9069759bd127ec7daa71dc68acb",
+    "docs/reference-coding-protocol.md": "21032b5fb984d83db3e641bb777c70e122669582c297dc095af9df6aea64178a",
+    "docs/reference-methodology.md": "7b32f24ed9f786defec7f0298606c2e218b27f5f3e8a662cd308ac3678c0baf6"
+  }
+}

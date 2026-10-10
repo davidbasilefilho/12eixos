@@ -1,0 +1,62 @@
+{
+  "reviewer": "method_review",
+  "readOn": "2026-10-09",
+  "ownership": [
+    "portugal-current-2025",
+    "poland-current-2025",
+    "finland-current-2025"
+  ],
+  "noProductEdits": true,
+  "thresholdUnchanged": 6,
+  "researchScope": "Normas selecionadas, não prática nacional contemporânea",
+  "sources": [
+    {
+      "country": "Portugal",
+      "mode": "direct-web-rendered-text",
+      "url": "https://www.parlamento.pt/Legislacao/Paginas/ConstituicaoRepublicaPortuguesa.aspx",
+      "ownReadWindows": [
+        "285–476",
+        "445–865",
+        "1033–1165",
+        "1246–1516",
+        "2979–3011",
+        "3697–3726"
+      ],
+      "qualification": "Somente janelas efetivamente exibidas; 227lido apenas1(a–f), sem inferir EST; nenhuma leitura integral da Constituição."
+    },
+    {
+      "country": "Poland",
+      "mode": "official-indexed-full-clause-text",
+      "url": "https://www.sejm.gov.pl/prawo/konst/angielski/konse.htm",
+      "ownCompleteClauses": [
+        "preamble",
+        "1–15",
+        "20–51",
+        "53",
+        "54",
+        "56–59",
+        "87–99"
+      ],
+      "qualification": "União de respostas indexadas; 16 apenas(1);18 não recuperado completo;55 alterado não utilizado; trechos intermediários fora dessas listas não alegados completos."
+    },
+    {
+      "country": "Finland",
+      "mode": "failed-official-access",
+      "urls": [
+        "https://www.constituteproject.org/constitution/Finland_2011",
+        "https://freedomhouse.org/country/finland/freedom-world/2025",
+        "https://www.finlex.fi/api/media/statute-foreign-language-translation/688686/mainPdf/main.pdf?timestamp=1999-06-10T21%3A00%3A00.000Z",
+        "https://finlex.fi/api/media/statute-foreign-language-translation/240375/mainPdf/main.pdf"
+      ],
+      "failures": [
+        "Finlex 688686 e 240375:InternalError",
+        "MinistryofJustice:InternalError",
+        "shellurllib:Tunnel403"
+      ],
+      "alternative": "WIPO2010 English119–125 lido, edição incompatível com atualização817/2018 selecionada; não usado para codificar.",
+      "result": "full no-op"
+    }
+  ],
+  "crosswalk": "IDs relacionam construtos e contrapontos; não respostas imputadas. POD/ECO sem questão individual por princípio constitucional geral.",
+  "requiresIndependentReview": true
+}

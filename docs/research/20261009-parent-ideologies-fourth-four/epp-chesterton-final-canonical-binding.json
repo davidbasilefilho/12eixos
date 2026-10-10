@@ -1,0 +1,27 @@
+{
+  "status": "ACCEPT",
+  "checks": 86,
+  "scope": "EPP2012 and Chesterton1927 ONLY; integralism and jacobin not reviewed here",
+  "reviewInputSha256": "7d0f30460a5685d5ad09aa6a6ae00c8b6ad83e33aa80d5fda6cb191e245b9c16",
+  "moduleSha256": "3d28b386ae84fe802e531e9277c057fad9876504fd965aa54f5578a5dc2351fc",
+  "recipesSha256": "d55415d0f72cd63c9dfa41706e5a198f8d119aac8fd051ddc9ef7a2497f3aebd",
+  "postsFileSha256": "1d85e558f25a912b65e058d5783795e0fdf2cd9ffb31d4b6c724b4bb369bff26",
+  "rows": [
+    {
+      "id": "ideology-christian-democracy",
+      "beforeSha256": "601234fa3d970ba274277ed129f609bfdf87c1f592c1d6889e56cb155405777a",
+      "postSha256": "fbc7e63c0ce3618d074221a7da24ee64f6f53896ada501674b5ea5f8cf6d1159",
+      "axes": 3,
+      "verdict": "ACCEPT exact literal; source judgment from prior review, no fresh body reread asserted"
+    },
+    {
+      "id": "ideology-distributism",
+      "beforeSha256": "d8ed9f513c0babf4af782c04d3d6ac0d8fb3cae4a2f8caf6ee9861b8bdea1d67",
+      "postSha256": "086127f89189c839fb65402c8daf892d9f5e8e6c99eecbf3e0d986e71f13f774",
+      "axes": 6,
+      "verdict": "ACCEPT exact literal; source judgment from prior review, no fresh body reread asserted"
+    }
+  ],
+  "noProductEdits": true,
+  "noObservedEligibilityIncrease": true
+}

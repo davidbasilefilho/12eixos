@@ -1,0 +1,91 @@
+{
+  "status": "PASS actual integrated working tree, not a source-truth certification of every profile",
+  "checks": 1824,
+  "raw818Unchanged": true,
+  "otherSelected668Unchanged": true,
+  "otherFull861Unchanged": true,
+  "archived193Unchanged": true,
+  "rothbardEntireRecordUnchanged": true,
+  "oldSourcePrefixObjectsPreserved": true,
+  "gateMinimumAxes": 6,
+  "selected": 675,
+  "eligible": 91,
+  "pending": 584,
+  "minimumMissingSlots": 2950,
+  "newCodes": 27,
+  "rawSHA256": "1ba985e6ad16ffb2fa3922eebf5bd5c7ebc4eb57318f014d76f745210bc0b41a",
+  "selectedSHA256": "355dd26f002a2b4dc5b1d5bf5cedfc74fd5d9a2e0eb8108cea1d3eb441060f42",
+  "fullSHA256": "f9967ead0a820cb136c1ba2418ecff4a963efb48c58e34ee5e25cda35cd3cba2",
+  "postsSHA256": "ea49b83223014b7942f3fde89960f6e80a1bc97e73a1b30535735cfda7847ba3",
+  "rows": [
+    {
+      "id": "ideology-program-constitutional-liberalism-constant-1819",
+      "postSHA256": "09f227a41a5e6a146937d3eb150e160a1c7e3686eb1e67cc78120d61192f6552",
+      "axes": [
+        "rep",
+        "pod",
+        "dip",
+        "con"
+      ]
+    },
+    {
+      "id": "ideology-social-liberalism",
+      "postSHA256": "d5f81d471a2449c38d78662fd0b3fa61e5367e88ec594248683d39620a723dcd",
+      "axes": [
+        "rep",
+        "pod",
+        "dip",
+        "eco",
+        "con",
+        "com",
+        "rel",
+        "mor"
+      ]
+    },
+    {
+      "id": "ideology-egalitarian-liberalism",
+      "postSHA256": "3924c40413d44955909d86e06d8a6ccf6bd1f8f47c56ad4f72043cc158abdc1c",
+      "axes": [
+        "rep",
+        "pod",
+        "rel",
+        "mor"
+      ]
+    },
+    {
+      "id": "ideology-right-minarchism",
+      "postSHA256": "ac9d1338e80af82b94a90810e11917803104140eb984349852602043815a729a",
+      "axes": [
+        "pod",
+        "eco",
+        "con"
+      ]
+    },
+    {
+      "id": "ideology-georgism",
+      "postSHA256": "acf9f89b3405e00a210bd98c795c52a328d6d1be7daaacfba0513e1145c3f0a7",
+      "axes": [
+        "eco",
+        "con",
+        "com"
+      ]
+    },
+    {
+      "id": "ideology-program-freiburg-ordoliberalism-1936-1952",
+      "postSHA256": "85693c63c72405de2b337746e64c0f7edff53fad5a33a17aba3ced289c026640",
+      "axes": [
+        "eco",
+        "con",
+        "com"
+      ]
+    },
+    {
+      "id": "ideology-civic-republicanism",
+      "postSHA256": "668c7547fdf42ff0c9c4df3842621e35fe1eae5d16e9f9727b1763d20e22e2af",
+      "axes": [
+        "rep",
+        "pod"
+      ]
+    }
+  ]
+}

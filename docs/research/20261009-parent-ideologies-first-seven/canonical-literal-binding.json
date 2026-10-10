@@ -1,0 +1,577 @@
+{
+  "status": "PASS independent exact three post binding",
+  "reviewer": "method_review",
+  "sourceJudgments": "review.json; no repeated primary reading",
+  "checksPassed": 199,
+  "moduleSha256": "23b59b30af0a9db7919f507ba78b25e5befe424e0736c0d284cf8159874797b3",
+  "rootReady": true,
+  "rootApproval": false,
+  "productWrites": false,
+  "selected675": 675,
+  "metadataEligible": 90,
+  "raw818": 818,
+  "rows": [
+    {
+      "id": "ideology-right-austrian-libertarianism",
+      "verdict": "NOOP",
+      "fullBeforeSha256": "4046c0f091f20bfa217e78a2975cf30ae290c1eb922aa1802ce1fd181e48f8e9",
+      "legacyThreePreserved": true
+    },
+    {
+      "id": "ideology-georgism",
+      "fullBeforeSha256": "e35b51d9bdcde4e079ae25802b870d38cb1e5aaf45535d6f901cd3ae2d90fe00",
+      "fullExpectedPostSha256": "acf9f89b3405e00a210bd98c795c52a328d6d1be7daaacfba0513e1145c3f0a7",
+      "fullExpectedPost": {
+        "id": "ideology-georgism",
+        "category": "ideology",
+        "kind": "ideology",
+        "name": "Georgismo (George, 1879)",
+        "period": "Progress and Poverty, 1879",
+        "vec": {
+          "est": 50,
+          "rep": 50,
+          "pod": 50,
+          "imi": 50,
+          "dip": 50,
+          "int": 50,
+          "eco": 60,
+          "con": 40,
+          "com": 20,
+          "rel": 50,
+          "mor": 50,
+          "tec": 50
+        },
+        "rationale": "Liberdade econômica com apropriação comum da renda da terra, distinguindo-a dos produtos do trabalho e do capital. Tributação do valor fundiário substitui outros impostos, mantendo títulos privados formais.",
+        "caveats": "O livro é uma proposta de reforma fundiária e tributária, não programa completo sobre democracia, defesa ou costumes. A posição fiscal não equivale a propriedade pública generalizada. Georgismo é um programa geral de propriedade e distribuição, não apenas preferência por um imposto; posições constitucionais/migratórias precisam de textos adicionais. A pesquisa qualitativa de seleção não certifica, por si, os 12 eixos. Lacunas não equivalem a neutralidade. Codificação documental de 09/10/2026: Três eixos codificados somente em Progress and Poverty (1879), pela edição de 1912 em transcrição. Renda fundiária comum, capital e melhorias privados e serviços públicos coexistem; não se importam prescrições de Protection or Free Trade. Âncoras e faixas são juízos editoriais, não medições ou respostas imputadas ao questionário. Eixos não documentados permanecem desconhecidos.",
+        "sources": [
+          {
+            "title": "Progress and Poverty — Project Gutenberg",
+            "url": "https://www.gutenberg.org/ebooks/55308",
+            "note": "Obra primária de Henry George sobre propriedade da terra e imposto único."
+          },
+          {
+            "title": "Progress and Poverty",
+            "url": "https://www.econlib.org/library/YPDBooks/George/grgPP.html?chapter_num=35",
+            "note": "Publicação: 1879. Acesso registrado pela pesquisa: 2026-10-08. Tipo: primary. Localizador: Livro VIII, cap. 2, How Equal Rights to the Land May Be Asserted and Secured. Leitura efetiva declarada na pesquisa: Capítulo VIII.2 em texto lido. Edição de 1912; não confundir com a adaptação abreviada de Bob Drake (2006)."
+          },
+          {
+            "title": "Progress and Poverty — Livro VIII, capítulo 2 (Econlib)",
+            "url": "https://www.econlib.org/library/YPDBooks/George/grgPP.html?chapter_num=35",
+            "note": "Leitura em 09/10/2026. Capítulo já presente na seleção; não houve cotejo da primeira impressão de 1879. Escopo declarado: Corpo completo do capítulo VIII.2, linhas de extração 138–175, e metadados da edição. A introdução de Henry George Jr. não foi usada como posição do autor. Versão: 1879; edição Doubleday, Page & Co. de 1912"
+          },
+          {
+            "title": "Progress and Poverty — Livro IX, capítulo 1 (Econlib)",
+            "url": "https://www.econlib.org/library/YPDBooks/George/grgPP.html?chapter_num=38",
+            "note": "Leitura em 09/10/2026. Usado para mecanismo fiscal e comércio; efeitos previstos não são efeitos empiricamente verificados. Escopo declarado: Abertura do capítulo IX.1, sobretudo os parágrafos sobre impostos produtivos e alfândegas, linhas 153–165; não capítulo integral. Versão: 1879; edição de 1912"
+          },
+          {
+            "title": "Progress and Poverty — Livro IX, capítulo 4 (Econlib)",
+            "url": "https://www.econlib.org/library/YPDBooks/George/grgPP.html?chapter_num=41",
+            "note": "Leitura em 09/10/2026. Propostas e previsões são distinguidas; não tratar consequências esperadas como prova de implementação. Escopo declarado: Parágrafos iniciais, linhas 138–152, sobre simplificação do governo e serviços públicos. Não leitura integral. Versão: 1879; edição de 1912"
+          }
+        ],
+        "evidence": {
+          "eco": "medium",
+          "con": "medium",
+          "com": "high"
+        },
+        "axisEvidence": {
+          "eco": {
+            "sourceTitles": [
+              "Progress and Poverty — Livro VIII, capítulo 2 (Econlib)",
+              "Progress and Poverty — Livro IX, capítulo 4 (Econlib)"
+            ],
+            "rationale": "Renda de toda a terra comum e provisão coletiva coexistem com capital privado. Codificação editorial moderate-first: âncora 60, faixa 55–70; a fonte não mede esse número. Limites: Preserva capital produtivo privado. Relações a perguntas são conceituais; nenhuma resposta individual é imputada."
+          },
+          "con": {
+            "sourceTitles": [
+              "Progress and Poverty — Livro IX, capítulo 1 (Econlib)",
+              "Progress and Poverty — Livro IX, capítulo 4 (Econlib)"
+            ],
+            "rationale": "Coordenação produtiva predominantemente livre. Codificação editorial moderate-second: âncora 40, faixa 30–45; a fonte não mede esse número. Limites: Tributação fundiária e serviços públicos permanecem. Relações a perguntas são conceituais; nenhuma resposta individual é imputada."
+          },
+          "com": {
+            "sourceTitles": [
+              "Progress and Poverty — Livro IX, capítulo 1 (Econlib)",
+              "Progress and Poverty — Livro VIII, capítulo 2 (Econlib)"
+            ],
+            "rationale": "Abertura deriva de regra fiscal explícita. Codificação editorial strong-second: âncora 20, faixa 10–25; a fonte não mede esse número. Limites: Não importar o livro posterior Protection or Free Trade. Relações a perguntas são conceituais; nenhuma resposta individual é imputada."
+          }
+        },
+        "coding": {
+          "eco": {
+            "axis": "eco",
+            "position": "moderate-first",
+            "confidence": "medium",
+            "relatedQuestionIds": [
+              "economia_03"
+            ],
+            "claims": [
+              {
+                "sourceTitle": "Progress and Poverty — Livro VIII, capítulo 2 (Econlib)",
+                "locator": "Livro VIII.2, linhas138–175; método/títulos/improvements149–165 e regra fiscal166–168",
+                "statement": "Socializa renda fundiária sem abolir títulos formais nem melhorias privadas.",
+                "basis": "declaration",
+                "publishedDate": "1879; edição Doubleday, Page & Co. de 1912",
+                "accessedDate": "2026-10-09"
+              },
+              {
+                "sourceTitle": "Progress and Poverty — Livro IX, capítulo 4 (Econlib)",
+                "locator": "Livro IX.4, parágrafos sobre telégrafos, ferrovias e receitas comuns",
+                "statement": "Admite infraestrutura e serviços públicos financiados pela renda comum.",
+                "basis": "declaration",
+                "publishedDate": "1879; edição de 1912",
+                "accessedDate": "2026-10-09"
+              }
+            ],
+            "rationale": "Renda de toda a terra comum e provisão coletiva coexistem com capital privado.",
+            "uncertainty": "Preserva capital produtivo privado. Relações a perguntas são conceituais; nenhuma resposta individual é imputada.",
+            "reviewedOn": "2026-10-09",
+            "version": "editorial-ordinal-v1",
+            "value": 60,
+            "range": [
+              55,
+              70
+            ]
+          },
+          "con": {
+            "axis": "con",
+            "position": "moderate-second",
+            "confidence": "medium",
+            "relatedQuestionIds": [
+              "controle_04",
+              "controle_06"
+            ],
+            "claims": [
+              {
+                "sourceTitle": "Progress and Poverty — Livro IX, capítulo 1 (Econlib)",
+                "locator": "Livro IX.1, linhas153–165; produção e troca em geral",
+                "statement": "Substitui tributos produtivos pelo fundiário, liberando produção e troca.",
+                "basis": "declaration",
+                "publishedDate": "1879; edição de 1912",
+                "accessedDate": "2026-10-09"
+              },
+              {
+                "sourceTitle": "Progress and Poverty — Livro IX, capítulo 4 (Econlib)",
+                "locator": "Livro IX.4, linhas147–150; previsão condicional de funções cooperativas",
+                "statement": "Rejeita governo diretivo e repressivo, admitindo funções cooperativas.",
+                "basis": "declaration",
+                "publishedDate": "1879; edição de 1912",
+                "accessedDate": "2026-10-09"
+              }
+            ],
+            "rationale": "Coordenação produtiva predominantemente livre.",
+            "uncertainty": "Tributação fundiária e serviços públicos permanecem. Relações a perguntas são conceituais; nenhuma resposta individual é imputada.",
+            "reviewedOn": "2026-10-09",
+            "version": "editorial-ordinal-v1",
+            "value": 40,
+            "range": [
+              30,
+              45
+            ]
+          },
+          "com": {
+            "axis": "com",
+            "position": "strong-second",
+            "confidence": "high",
+            "relatedQuestionIds": [
+              "comercio_08"
+            ],
+            "claims": [
+              {
+                "sourceTitle": "Progress and Poverty — Livro IX, capítulo 1 (Econlib)",
+                "locator": "Livro IX.1,159–164, alfândegas160",
+                "statement": "Condena barreiras alfandegárias dentro da abolição de tributos sobre trocas.",
+                "basis": "declaration",
+                "publishedDate": "1879; edição de 1912",
+                "accessedDate": "2026-10-09"
+              },
+              {
+                "sourceTitle": "Progress and Poverty — Livro VIII, capítulo 2 (Econlib)",
+                "locator": "Livro VIII.2,166–168, regra fiscal geral",
+                "statement": "Prescreve abolir todos os tributos salvo os incidentes sobre o valor da terra.",
+                "basis": "declaration",
+                "publishedDate": "1879; edição Doubleday, Page & Co. de 1912",
+                "accessedDate": "2026-10-09"
+              }
+            ],
+            "rationale": "Abertura deriva de regra fiscal explícita.",
+            "uncertainty": "Não importar o livro posterior Protection or Free Trade. Relações a perguntas são conceituais; nenhuma resposta individual é imputada.",
+            "reviewedOn": "2026-10-09",
+            "version": "editorial-ordinal-v1",
+            "value": 20,
+            "range": [
+              10,
+              25
+            ]
+          }
+        },
+        "unknownAxisReasons": {
+          "est": "As passagens efetivamente examinadas não estabelecem a orientação geral deste eixo; não se infere posição pela identidade da doutrina.",
+          "rep": "As passagens efetivamente examinadas não estabelecem a orientação geral deste eixo; não se infere posição pela identidade da doutrina.",
+          "pod": "As passagens efetivamente examinadas não estabelecem a orientação geral deste eixo; não se infere posição pela identidade da doutrina.",
+          "imi": "As passagens efetivamente examinadas não estabelecem a orientação geral deste eixo; não se infere posição pela identidade da doutrina.",
+          "dip": "As passagens efetivamente examinadas não estabelecem a orientação geral deste eixo; não se infere posição pela identidade da doutrina.",
+          "int": "As passagens efetivamente examinadas não estabelecem a orientação geral deste eixo; não se infere posição pela identidade da doutrina.",
+          "rel": "As passagens efetivamente examinadas não estabelecem a orientação geral deste eixo; não se infere posição pela identidade da doutrina.",
+          "mor": "As passagens efetivamente examinadas não estabelecem a orientação geral deste eixo; não se infere posição pela identidade da doutrina.",
+          "tec": "As passagens efetivamente examinadas não estabelecem a orientação geral deste eixo; não se infere posição pela identidade da doutrina."
+        }
+      },
+      "documentedAxes": [
+        "eco",
+        "con",
+        "com"
+      ],
+      "verdict": "recommend-exact-post"
+    },
+    {
+      "id": "ideology-program-freiburg-ordoliberalism-1936-1952",
+      "fullBeforeSha256": "15c64b59c35ce01a5720f28ee1ffcbafbc999ed513d737d9a76ab717610f3b5b",
+      "fullExpectedPostSha256": "85693c63c72405de2b337746e64c0f7edff53fad5a33a17aba3ced289c026640",
+      "fullExpectedPost": {
+        "id": "ideology-program-freiburg-ordoliberalism-1936-1952",
+        "kind": "ideology",
+        "category": "ideology",
+        "name": "Ordoliberalismo de Freiburg (Eucken)",
+        "period": "Escola de Freiburg, programa de Eucken/Böhm/Großmann-Doerth e princípios de Eucken (1936–1952).",
+        "rationale": "A concorrência depende de uma constituição econômica que impeça concentrações de poder privado e estatal. Regras gerais, antitruste, estabilidade monetária e responsabilidade patrimonial; distinção entre ordenar o mercado e dirigir resultados.",
+        "caveats": "Há variedades internas; não identificar automaticamente ordoliberalismo, neoliberalismo e toda economia social de mercado. Excertos de Eucken estão traduzidos por portal; conferir alemão antes de pontuar nuances. A pesquisa qualitativa de seleção não certifica, por si, os 12 eixos. Lacunas não equivalem a neutralidade. Codificação documental de 09/10/2026: Três eixos codificados nos excertos de Eucken da obra de 1952, atribuídos à edição revista de 1990. Tradução e alemão do mesmo portal não são fontes independentes. Não se transportam falas de Böhm, Erhard ou Hayek; concorrência exige correções jurídicas, fiscais, ambientais e antimonopólio. Âncoras e faixas são juízos editoriais, não medições ou respostas imputadas ao questionário. Eixos não documentados permanecem desconhecidos.",
+        "sources": [
+          {
+            "title": "The history of the Freiburg School of Ordoliberalism",
+            "url": "https://www.eucken.de/en/institute/walter-eucken-and-the-freiburg-school-of-ordoliberalism/",
+            "note": "Publicação: undated. Acesso registrado pela pesquisa: 2026-10-08. Tipo: institutional. Localizador: Biografias de Eucken/Böhm e princípios da escola. Leitura efetiva declarada na pesquisa: Apresentação institucional e passagens indexadas lidas."
+          },
+          {
+            "title": "The EU’s neoliberal constitutionalism(s)",
+            "url": "https://www.cambridge.org/core/journals/european-law-open/article/eus-neoliberal-constitutionalisms/8E75415A504DF0666E804CD61A8AE50D",
+            "note": "Publicação: 2025. Acesso registrado pela pesquisa: 2026-10-08. Tipo: scholarly. Localizador: A. Ordoliberal constitutionalism. Leitura efetiva declarada na pesquisa: Passagens sobre manifesto de 1936 e princípios constitutivos/reguladores recuperadas."
+          },
+          {
+            "title": "Grundsätze der Wirtschaftspolitik — excerpts from constituent and regulating principles",
+            "url": "https://www.ordnungspolitisches-portal.com/en/vater-der-ordnungspolitik",
+            "note": "Publicação: 1952. Acesso registrado pela pesquisa: 2026-10-08. Tipo: primary-excerpts. Localizador: Seção Walter Eucken: caps.XVI–XVIII, pp.254–324 da 6ª edição 1990. Leitura efetiva declarada na pesquisa: Excertos sobre todos os princípios constitutivos e reguladores, e interdependência, lidos na tradução do portal; não livro integral. Tradução secundária e seleção de citações; manter o recorte Eucken, sem importar falas de Erhard/Rüstow na mesma página."
+          },
+          {
+            "title": "Grundsätze der Wirtschaftspolitik — excertos alemães de Eucken no Ordnungspolitisches Portal",
+            "url": "https://www.ordnungspolitisches-portal.com/v%C3%A4ter-der-ordnungspolitik",
+            "note": "Leitura em 09/10/2026. Locadores do portal: cap. XVI, pp. 254–291; XVII, pp. 291–304; XVIII, pp. 304–324. As falas de Böhm 1958, Erhard e Hayek não foram importadas para o recorte de 1936–1952. Escopo declarado: Somente seção Walter Eucken: princípios constitutivos 1–7, reguladores 1–4 e interdependência, linhas 135–204. Alemão cotejado com a tradução inglesa do mesmo portal; não é cotejo independente nem fac-símile. Versão: Obra de 1952; excertos atribuídos à 6ª edição revista, 1990"
+          },
+          {
+            "title": "Grundsätze der Wirtschaftspolitik — tradução inglesa dos mesmos excertos",
+            "url": "https://www.ordnungspolitisches-portal.com/en/vater-der-ordnungspolitik",
+            "note": "Leitura em 09/10/2026. Não conta como segunda fonte independente. Escopo declarado: Seção Walter Eucken, linhas 132–202. Tradução cotejada com o alemão republicado; não livro integral. Versão: 1952/1990; tradução do portal sem autoria/data confirmadas"
+          },
+          {
+            "title": "Walter Eucken and the Freiburg School of Ordoliberalism — Walter Eucken Institute",
+            "url": "https://www.eucken.de/en/institute/walter-eucken-and-the-freiburg-school-of-ordoliberalism/",
+            "note": "Leitura em 09/10/2026; confirmação de identidade e escopo, não certificação dos escores. Escopo declarado: Texto institucional visível sobre Eucken, Böhm, Großmann-Doerth e a escola, linhas 7–32. Versão: Sem data visível"
+          },
+          {
+            "title": "The EU’s neoliberal constitutionalism(s) — seção 2.A",
+            "url": "https://www.cambridge.org/core/journals/european-law-open/article/eus-neoliberal-constitutionalisms/8E75415A504DF0666E804CD61A8AE50D",
+            "note": "Leitura em 09/10/2026. A interpretação contemporânea apenas coteja; a classificação numérica dos princípios diverge do portal e não foi usada para acrescentar códigos. Escopo declarado: Seção 2.A, linhas 516–535: manifesto de 1936, ordem/processo e princípios. Não artigo integral nem fontes originais citadas. Versão: 2025, conforme registro da seleção; data editorial não reconfirmada"
+          }
+        ],
+        "vec": {
+          "est": 50,
+          "rep": 50,
+          "pod": 50,
+          "imi": 50,
+          "dip": 50,
+          "int": 50,
+          "eco": 40,
+          "con": 40,
+          "com": 40,
+          "rel": 50,
+          "mor": 50,
+          "tec": 50
+        },
+        "evidence": {
+          "eco": "medium",
+          "con": "medium",
+          "com": "medium"
+        },
+        "axisEvidence": {
+          "eco": {
+            "sourceTitles": [
+              "Grundsätze der Wirtschaftspolitik — excertos alemães de Eucken no Ordnungspolitisches Portal"
+            ],
+            "rationale": "Primazia privada condicionada. Codificação editorial moderate-second: âncora 40, faixa 30–45; a fonte não mede esse número. Limites: Admite restrição patrimonial antimonopolista. Relações a perguntas são conceituais; nenhuma resposta individual é imputada."
+          },
+          "con": {
+            "sourceTitles": [
+              "Grundsätze der Wirtschaftspolitik — excertos alemães de Eucken no Ordnungspolitisches Portal"
+            ],
+            "rationale": "Mercado dentro de ordem jurídica ativa. Codificação editorial moderate-second: âncora 40, faixa 30–45; a fonte não mede esse número. Limites: Mantém correções fiscais, ambientais e antimonopólio. Relações a perguntas são conceituais; nenhuma resposta individual é imputada."
+          },
+          "com": {
+            "sourceTitles": [
+              "Grundsätze der Wirtschaftspolitik — excertos alemães de Eucken no Ordnungspolitisches Portal"
+            ],
+            "rationale": "Abertura é princípio constitutivo. Codificação editorial moderate-second: âncora 40, faixa 30–45; a fonte não mede esse número. Limites: Excertos não esgotam exceções comerciais. Relações a perguntas são conceituais; nenhuma resposta individual é imputada."
+          }
+        },
+        "coding": {
+          "eco": {
+            "axis": "eco",
+            "position": "moderate-second",
+            "confidence": "medium",
+            "relatedQuestionIds": [
+              "economia_05",
+              "economia_13"
+            ],
+            "claims": [
+              {
+                "sourceTitle": "Grundsätze der Wirtschaftspolitik — excertos alemães de Eucken no Ordnungspolitisches Portal",
+                "locator": "Eucken, cap. XVI, princípio Privateigentum, pp. 254–291",
+                "statement": "Propriedade produtiva privada depende de concorrência que limite poder monopolista.",
+                "basis": "declaration",
+                "publishedDate": "Obra de 1952; excertos atribuídos à 6ª edição revista, 1990",
+                "accessedDate": "2026-10-09"
+              }
+            ],
+            "rationale": "Primazia privada condicionada.",
+            "uncertainty": "Admite restrição patrimonial antimonopolista. Relações a perguntas são conceituais; nenhuma resposta individual é imputada.",
+            "reviewedOn": "2026-10-09",
+            "version": "editorial-ordinal-v1",
+            "value": 40,
+            "range": [
+              30,
+              45
+            ]
+          },
+          "con": {
+            "axis": "con",
+            "position": "moderate-second",
+            "confidence": "medium",
+            "relatedQuestionIds": [
+              "controle_02",
+              "controle_04",
+              "controle_09"
+            ],
+            "claims": [
+              {
+                "sourceTitle": "Grundsätze der Wirtschaftspolitik — excertos alemães de Eucken no Ordnungspolitisches Portal",
+                "locator": "Princípios Grundprinzip, Vertragsfreiheit e reguladores; caps. XVI–XVII",
+                "statement": "Coordena por preços e contratos, rejeitando comandos produtivos e controles gerais.",
+                "basis": "declaration",
+                "publishedDate": "Obra de 1952; excertos atribuídos à 6ª edição revista, 1990",
+                "accessedDate": "2026-10-09"
+              }
+            ],
+            "rationale": "Mercado dentro de ordem jurídica ativa.",
+            "uncertainty": "Mantém correções fiscais, ambientais e antimonopólio. Relações a perguntas são conceituais; nenhuma resposta individual é imputada.",
+            "reviewedOn": "2026-10-09",
+            "version": "editorial-ordinal-v1",
+            "value": 40,
+            "range": [
+              30,
+              45
+            ]
+          },
+          "com": {
+            "axis": "com",
+            "position": "moderate-second",
+            "confidence": "medium",
+            "relatedQuestionIds": [
+              "comercio_07",
+              "comercio_08"
+            ],
+            "claims": [
+              {
+                "sourceTitle": "Grundsätze der Wirtschaftspolitik — excertos alemães de Eucken no Ordnungspolitisches Portal",
+                "locator": "Cap. XVI, Grundprinzip e Offene Märkte",
+                "statement": "Rejeita proibições de importação e exige mercados abertos à concorrência.",
+                "basis": "declaration",
+                "publishedDate": "Obra de 1952; excertos atribuídos à 6ª edição revista, 1990",
+                "accessedDate": "2026-10-09"
+              }
+            ],
+            "rationale": "Abertura é princípio constitutivo.",
+            "uncertainty": "Excertos não esgotam exceções comerciais. Relações a perguntas são conceituais; nenhuma resposta individual é imputada.",
+            "reviewedOn": "2026-10-09",
+            "version": "editorial-ordinal-v1",
+            "value": 40,
+            "range": [
+              30,
+              45
+            ]
+          }
+        },
+        "unknownAxisReasons": {
+          "est": "As passagens efetivamente examinadas não estabelecem a orientação geral deste eixo; não se infere posição pela identidade da doutrina.",
+          "rep": "As passagens efetivamente examinadas não estabelecem a orientação geral deste eixo; não se infere posição pela identidade da doutrina.",
+          "pod": "As passagens efetivamente examinadas não estabelecem a orientação geral deste eixo; não se infere posição pela identidade da doutrina.",
+          "imi": "As passagens efetivamente examinadas não estabelecem a orientação geral deste eixo; não se infere posição pela identidade da doutrina.",
+          "dip": "As passagens efetivamente examinadas não estabelecem a orientação geral deste eixo; não se infere posição pela identidade da doutrina.",
+          "int": "As passagens efetivamente examinadas não estabelecem a orientação geral deste eixo; não se infere posição pela identidade da doutrina.",
+          "rel": "As passagens efetivamente examinadas não estabelecem a orientação geral deste eixo; não se infere posição pela identidade da doutrina.",
+          "mor": "As passagens efetivamente examinadas não estabelecem a orientação geral deste eixo; não se infere posição pela identidade da doutrina.",
+          "tec": "As passagens efetivamente examinadas não estabelecem a orientação geral deste eixo; não se infere posição pela identidade da doutrina."
+        }
+      },
+      "documentedAxes": [
+        "eco",
+        "con",
+        "com"
+      ],
+      "verdict": "recommend-exact-post"
+    },
+    {
+      "id": "ideology-civic-republicanism",
+      "fullBeforeSha256": "ee5ba78474c7e91dca95589297020e63c18b8deb6447a870327a1509302fe5ad",
+      "fullExpectedPostSha256": "668c7547fdf42ff0c9c4df3842621e35fe1eae5d16e9f9727b1763d20e22e2af",
+      "fullExpectedPost": {
+        "id": "ideology-civic-republicanism",
+        "kind": "ideology",
+        "category": "ideology",
+        "name": "Republicanismo da não dominação (Pettit, 2012)",
+        "period": "Philip Pettit, modelo de On the People’s Terms (2012).",
+        "rationale": "Liberdade significa não depender de poder arbitrário, inclusive quando ninguém interfere efetivamente. Controle popular igual, contestação cidadã e canais protegidos contra dominação privada ou governamental.",
+        "caveats": "Não equivale a toda tradição republicana nem fixa uma política econômica única. Na pesquisa de seleção anterior, a leitura primária do livro se limitou à sinopse de capítulo; nesta rodada também foram examinadas passagens delimitadas do artigo autoral de 2012. A pesquisa qualitativa de seleção não certifica, por si, os 12 eixos. Lacunas não equivalem a neutralidade. Codificação documental de 09/10/2026: Dois eixos codificados em sinopses editoriais do livro de 2012 e passagens do artigo de 2012. Sinopse não equivale a capítulo integral; controle popular não exige votação direta permanente, e coerção controlada pode ser legítima. Não fixa uma política econômica única. Âncoras e faixas são juízos editoriais, não medições ou respostas imputadas ao questionário. Eixos não documentados permanecem desconhecidos.",
+        "sources": [
+          {
+            "title": "On the People’s Terms: Democratic control",
+            "url": "https://www.cambridge.org/core/books/abs/on-the-peoples-terms/democratic-control/A569C01A3E111B4CA3C53EB3834AEEF4",
+            "note": "Publicação: 2012. Acesso registrado pela pesquisa: 2026-10-08. Tipo: primary. Localizador: cap. 5, pp.239–292. Leitura efetiva declarada na pesquisa: Sinopse editorial do capítulo, não texto integral; publicação online em 2013."
+          },
+          {
+            "title": "Republicanism",
+            "url": "https://plato.stanford.edu/entries/republicanism/",
+            "note": "Publicação: 2026-08-12. Acesso registrado pela pesquisa: 2026-10-08. Tipo: scholarly. Localizador: Introdução; §1 Political Liberty as Non-Domination. Leitura efetiva declarada na pesquisa: Introdução e definição doutrinária lidas."
+          },
+          {
+            "title": "On the People’s Terms — capítulo 5, Democratic control (sinopse editorial)",
+            "url": "https://www.cambridge.org/core/books/abs/on-the-peoples-terms/democratic-control/A569C01A3E111B4CA3C53EB3834AEEF4",
+            "note": "Leitura em 09/10/2026. Separar sinopse do capítulo integral. Escopo declarado: Sinopse completa visível, linhas 466–470, e metadados. O texto integral das pp. 239–292 não foi acessado. Versão: Livro de 2012; capítulo online em 2013-01-05"
+          },
+          {
+            "title": "Legitimacy and Justice in Republican Perspective — Philip Pettit",
+            "url": "https://ppettit.scholar.princeton.edu/document/1771",
+            "note": "Leitura em 09/10/2026. Cópia hospedada pelo autor em Princeton. Nota 1 diz que o artigo deriva da conferência de 2012 e se apoia fortemente no capítulo 3 do livro de 2012; não importar obra posterior. Escopo declarado: Resumo e nota 1 da p. 59; passagens das pp. 65–74 e 79–81 (PDF 7–16 e 21–23). Não artigo integral. Versão: 2012; Current Legal Problems 65, pp. 59–82; DOI 10.1093/clp/cus016"
+          },
+          {
+            "title": "On the People’s Terms — capítulo 2, Social justice (sinopse editorial)",
+            "url": "https://www.cambridge.org/core/books/abs/on-the-peoples-terms/social-justice/2BF749A19B8D5A6944D38577EDDFF305",
+            "note": "Leitura em 09/10/2026. Usada para delimitar a população abrangida; não prova de um regime econômico específico. Escopo declarado: Sinopse visível, linhas 476–479; não texto integral das pp. 75–129. Versão: Livro de 2012; capítulo online em 2013-01-05"
+          }
+        ],
+        "vec": {
+          "est": 50,
+          "rep": 80,
+          "pod": 40,
+          "imi": 50,
+          "dip": 50,
+          "int": 50,
+          "eco": 50,
+          "con": 50,
+          "com": 50,
+          "rel": 50,
+          "mor": 50,
+          "tec": 50
+        },
+        "evidence": {
+          "rep": "high",
+          "pod": "medium"
+        },
+        "axisEvidence": {
+          "rep": {
+            "sourceTitles": [
+              "On the People’s Terms — capítulo 5, Democratic control (sinopse editorial)",
+              "Legitimacy and Justice in Republican Perspective — Philip Pettit"
+            ],
+            "rationale": "Controle democrático é constitutivo. Codificação editorial strong-first: âncora 80, faixa 75–90; a fonte não mede esse número. Limites: Não exige decisão direta permanente. Relações a perguntas são conceituais; nenhuma resposta individual é imputada."
+          },
+          "pod": {
+            "sourceTitles": [
+              "Legitimacy and Justice in Republican Perspective — Philip Pettit"
+            ],
+            "rationale": "Limita dominação pessoal e pública. Codificação editorial moderate-second: âncora 40, faixa 30–45; a fonte não mede esse número. Limites: Coerção controlada pode ser legítima. Relações a perguntas são conceituais; nenhuma resposta individual é imputada."
+          }
+        },
+        "coding": {
+          "rep": {
+            "axis": "rep",
+            "position": "strong-first",
+            "confidence": "high",
+            "relatedQuestionIds": [
+              "representacao_03",
+              "representacao_19"
+            ],
+            "claims": [
+              {
+                "sourceTitle": "On the People’s Terms — capítulo 5, Democratic control (sinopse editorial)",
+                "locator": "Sinopse completa do cap. 5; pp. editoriais 239–292, texto integral não lido",
+                "statement": "Exige controle popular igual, eficaz, independente e aberto à contestação.",
+                "basis": "declaration",
+                "publishedDate": "Livro de 2012; capítulo online em 2013-01-05",
+                "accessedDate": "2026-10-09"
+              },
+              {
+                "sourceTitle": "Legitimacy and Justice in Republican Perspective — Philip Pettit",
+                "locator": "Artigo2012, pp.79–81, canais eleitorais/contestatórios e poder popular; linhas763–849",
+                "statement": "Voto e contestação devem ser acessíveis sem captura por riqueza.",
+                "basis": "declaration",
+                "publishedDate": "2012; Current Legal Problems 65, pp. 59–82; DOI 10.1093/clp/cus016",
+                "accessedDate": "2026-10-09"
+              }
+            ],
+            "rationale": "Controle democrático é constitutivo.",
+            "uncertainty": "Não exige decisão direta permanente. Relações a perguntas são conceituais; nenhuma resposta individual é imputada.",
+            "reviewedOn": "2026-10-09",
+            "version": "editorial-ordinal-v1",
+            "value": 80,
+            "range": [
+              75,
+              90
+            ]
+          },
+          "pod": {
+            "axis": "pod",
+            "position": "moderate-second",
+            "confidence": "medium",
+            "relatedQuestionIds": [],
+            "claims": [
+              {
+                "sourceTitle": "Legitimacy and Justice in Republican Perspective — Philip Pettit",
+                "locator": "Artigo2012, pp.71–74, liberdades fundamentais, proteção e não dominação; linhas431–597",
+                "statement": "Liberdades básicas devem ser protegidas igualmente contra poder arbitrário.",
+                "basis": "declaration",
+                "publishedDate": "2012; Current Legal Problems 65, pp. 59–82; DOI 10.1093/clp/cus016",
+                "accessedDate": "2026-10-09"
+              }
+            ],
+            "rationale": "Limita dominação pessoal e pública.",
+            "uncertainty": "Coerção controlada pode ser legítima. Relações a perguntas são conceituais; nenhuma resposta individual é imputada.",
+            "reviewedOn": "2026-10-09",
+            "version": "editorial-ordinal-v1",
+            "value": 40,
+            "range": [
+              30,
+              45
+            ]
+          }
+        },
+        "unknownAxisReasons": {
+          "est": "As passagens efetivamente examinadas não estabelecem a orientação geral deste eixo; não se infere posição pela identidade da doutrina.",
+          "imi": "As passagens efetivamente examinadas não estabelecem a orientação geral deste eixo; não se infere posição pela identidade da doutrina.",
+          "dip": "As passagens efetivamente examinadas não estabelecem a orientação geral deste eixo; não se infere posição pela identidade da doutrina.",
+          "int": "As passagens efetivamente examinadas não estabelecem a orientação geral deste eixo; não se infere posição pela identidade da doutrina.",
+          "eco": "As passagens efetivamente examinadas não estabelecem a orientação geral deste eixo; não se infere posição pela identidade da doutrina.",
+          "con": "As passagens efetivamente examinadas não estabelecem a orientação geral deste eixo; não se infere posição pela identidade da doutrina.",
+          "com": "As passagens efetivamente examinadas não estabelecem a orientação geral deste eixo; não se infere posição pela identidade da doutrina.",
+          "rel": "As passagens efetivamente examinadas não estabelecem a orientação geral deste eixo; não se infere posição pela identidade da doutrina.",
+          "mor": "As passagens efetivamente examinadas não estabelecem a orientação geral deste eixo; não se infere posição pela identidade da doutrina.",
+          "tec": "As passagens efetivamente examinadas não estabelecem a orientação geral deste eixo; não se infere posição pela identidade da doutrina."
+        }
+      },
+      "documentedAxes": [
+        "rep",
+        "pod"
+      ],
+      "verdict": "recommend-exact-post"
+    }
+  ]
+}

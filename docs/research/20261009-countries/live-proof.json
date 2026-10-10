@@ -1,0 +1,22 @@
+{
+  "status": "PASS; actual integrated runtime",
+  "checks": 318,
+  "rawCount": 818,
+  "selectedCount": 675,
+  "eligible": 86,
+  "pending": 589,
+  "target": "prc-mao-1949",
+  "afterAxes": [
+    "est",
+    "imi",
+    "eco",
+    "con",
+    "mor"
+  ],
+  "rawRuntimeSHA256": "e094a0d207d138e683ae29c122ba1bda236ab2fde319e19a55782747408beca0",
+  "postSHA256": "2e5e0ea6120264f538f9b4012c9c95deb312cf5df587ec6cbae5fb55b1bed205",
+  "moduleSHA256": "0397faeab34adfd2d60f75e6b880af94a97ce50fbdcc40fa704070b97a5d4a08",
+  "referencesSHA256": "bbdb83e63a8347817d3201a672f648eab9ab353b05aae33e50390321c590c84c",
+  "rankedMatchesUnchangedFiveScenarios": true,
+  "hookOnlyOneImportOneFinalMap": true
+}

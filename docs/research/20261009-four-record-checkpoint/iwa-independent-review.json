@@ -1,0 +1,119 @@
+{
+  "reviewer": "/root/figures_continue",
+  "reviewedOn": "2026-10-09",
+  "verdict": "recommend-accept-exact-IWA-candidate-six-bounded-documentary-axes",
+  "integrated": false,
+  "candidateFileSha256": "d21c27fe3c737fd303ef197b94f23888f90fc4f010149634db0c031625e2b110",
+  "beforeSha256": "f0fc626e7009888269d9f1e5d0cf63ebcdd21473426f36bf87c1afc2eda4e40b",
+  "postSha256": "e73d3368ade104fb2fde68cfef5163248e289dd1c69bfd39cec618434dc099e9",
+  "id": "ideology-program-anarcho-syndicalism-iwa-2022",
+  "liveBinding": {
+    "checks": 64,
+    "passed": true,
+    "candidateFileSha256": "d21c27fe3c737fd303ef197b94f23888f90fc4f010149634db0c031625e2b110",
+    "beforeSha256": "f0fc626e7009888269d9f1e5d0cf63ebcdd21473426f36bf87c1afc2eda4e40b",
+    "postSha256": "e73d3368ade104fb2fde68cfef5163248e289dd1c69bfd39cec618434dc099e9",
+    "selectedCount": 675,
+    "currentAxes": 5,
+    "candidateAxes": 6,
+    "mechanicalGateOnly": true
+  },
+  "freshPrimaryReading": {
+    "url": "https://www.iwa-ait.org/content/statutes",
+    "mode": "direct-web-tool-HTML-body",
+    "reader": "/root/figures_continue",
+    "scope": "Official English webpage title/update16; entire sections I–XI, lines17–148; congress approval150. First full response plus second explicit17–104 response recovered all central clauses29–36 without truncation. Navigation/form151–171 excluded.",
+    "edition": "Congress approval9–10December2022; webpage update10February2023. No1922 transfer, PDF facsimile, implemented practice or other-language collation.",
+    "failure": "none",
+    "toolReferences": [
+      "turn4461view0",
+      "turn4467view0"
+    ]
+  },
+  "constructReview": {
+    "fullQuestionsRead": [
+      "estrutura_01–20",
+      "poder_01–20",
+      "diplomacia_01–20",
+      "economia_01–20",
+      "controle_01–20",
+      "tecnologia_01–20"
+    ],
+    "files": [
+      "src/data/questions.ts",
+      "src/lib/reference-coding.ts",
+      "src/lib/matching.ts"
+    ],
+    "threshold": 6,
+    "ordinalValuesAreEditorialNotMeasurements": true,
+    "confidenceIndependentOfIntensity": true,
+    "crosswalkNotImputedAnswers": true
+  },
+  "axisJudgments": [
+    {
+      "axis": "est",
+      "value": 80,
+      "confidence": "medium",
+      "verdict": "retain independently reviewed",
+      "locator": "II.2–4,29–36",
+      "grounds": "Autoridade social federal de baixo para cima; unidades autônomas sem poder político superior. Acordos conjuntos limitam autonomia absoluta.",
+      "intensity": "Strong-first fits constitutive social architecture, not just internal association rules; no State-federalism equivalence or public-law answer imputation."
+    },
+    {
+      "axis": "dip",
+      "value": 40,
+      "confidence": "medium",
+      "verdict": "retain independently reviewed",
+      "locator": "II.7/10,40–48",
+      "grounds": "Combate guerra e exércitos permanentes, mas admite milícias, defesa revolucionária e auxílio armado.",
+      "intensity": "Moderate-second rather than20: organized defensive force is a material exception, not a missing mechanism alone."
+    },
+    {
+      "axis": "eco",
+      "value": 80,
+      "confidence": "medium",
+      "verdict": "retain independently reviewed",
+      "locator": "I23;II.1–3,27–33",
+      "grounds": "Terra, fábricas e produção geral passam à administração comum dos trabalhadores; não propriedade estatal.",
+      "intensity": "Strong-first fits whole productive ownership abolition/expropriation, not bank financing or public-sector examples; domestic personal property is not inferred."
+    },
+    {
+      "axis": "con",
+      "value": 80,
+      "confidence": "medium",
+      "verdict": "retain independently reviewed",
+      "locator": "II.3,32–33",
+      "grounds": "Todos os ramos coordenam produção e distribuição por plano comunitário pactuado; autonomia permanece.",
+      "intensity": "Strong-first rests on entire production/distribution plan replacing private-market coordination, not ECO ownership alone. Voluntary decentralized planning differs from central State command but is still constitutive whole allocation. Question13 is a construct crosswalk, never a claimed endorsement of State planning."
+    },
+    {
+      "axis": "tec",
+      "value": 40,
+      "confidence": "medium",
+      "verdict": "retain independently reviewed",
+      "locator": "II.8,43–44;XI143–148",
+      "grounds": "Toda produção é condicionada à proteção ambiental e ao uso de recursos renováveis; tecnologia livre é admitida.",
+      "intensity": "Moderate-second is supported on broad environmental constraints across productive intervention/resource choice, not a general anti-technology80 claim. No nuclear/genetic/body/AI answer is inferred; causal accusations are not verified empirical facts."
+    },
+    {
+      "axis": "pod",
+      "value": 40,
+      "confidence": "medium",
+      "verdict": "accept new candidate",
+      "locator": "I22;II.2,29–31;II.4,34–36;II.10,46–48",
+      "grounds": "Rejeita dominação social e controle disciplinar individual, defendendo iniciativa e pensamento independente; transição classista e violência defensiva limitam a liberdade.",
+      "intensity": "Moderate-second40, not20: positive individual-autonomy/anti-domination prescriptions go beyond abolition of State as an EST proxy. Revolutionary coercion/expropriation is affirmative counterevidence. No universal private-conduct, unrestricted opposition, due-process or privacy protection is supplied; internal votes/data are excluded."
+    }
+  ],
+  "unknownAxes": [
+    "rep",
+    "imi",
+    "int",
+    "com",
+    "rel",
+    "mor"
+  ],
+  "wholeProfileConclusion": "All six directions were independently evaluated against actual primary clauses and full relevant question constructs; five inherited codes were not certified by metadata count. Support concerns this dated normative social programme, not all anarcho-syndicalism, current civil liberties, IWA practice or measured percentages. Class-restricted transition/anti-party affiliation limits and defensive violence are preserved and preclude unrestricted liberal-system characterization.",
+  "nonBlockingCopyObservation": "Candidate caveat records editorial workflow/independent-review status. This external proposal has not been integrated; any future product copy cleanup must preserve factual limits and be separately authorized rather than hidden in this approval.",
+  "preservation": "64 independent mechanical checks pass: actual selected675 unique membership/full current before, hashes, all full source objects, identity/date/rationale, five prior codes/mappings/evidence/vectors exact; six unknown axes50/no metadata; new POD encoder exact. No shared product edits, imports, VCS or Mao review."
+}

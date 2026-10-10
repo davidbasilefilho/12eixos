@@ -1,0 +1,110 @@
+{
+  "status": "APPROVED-EXTERNAL-ONLY",
+  "checks": 1787,
+  "candidateSha256": "3dd4703615ad98647a8d5ff40580f1ceccd76c2c819cce3fa59978af17041719",
+  "postFileSha256": "6ee4e7aae161de02aacf827049b706c6da5b1abcee06c1ee5f9922e88450af47",
+  "targets": [
+    {
+      "id": "portugal-current-2025",
+      "beforeSha256": "da17926b08659ef9110b17b8fa57c627ec0c711560c53512a01201ca19e9f624",
+      "postSha256": "af99cae823fc5044f1cd0cb98d6a4ea17da0b64b6fb411447c1ab428e379300c",
+      "newAxes": [
+        {
+          "axis": "rep",
+          "value": 80,
+          "confidence": "medium"
+        },
+        {
+          "axis": "pod",
+          "value": 40,
+          "confidence": "medium"
+        },
+        {
+          "axis": "rel",
+          "value": 80,
+          "confidence": "medium"
+        },
+        {
+          "axis": "mor",
+          "value": 60,
+          "confidence": "medium"
+        },
+        {
+          "axis": "con",
+          "value": 60,
+          "confidence": "medium"
+        }
+      ],
+      "documentedAxes": [
+        "rep",
+        "pod",
+        "con",
+        "rel",
+        "mor"
+      ],
+      "eligible": false
+    },
+    {
+      "id": "poland-current-2025",
+      "beforeSha256": "9f13e3714a6009b6bc07b163d2b24370003fb5206fe8628d6701dc4d7301d740",
+      "postSha256": "2273a69879e1abe10b23ad4922aeb4451563a7467c55cf7231b4d64f807b2c4e",
+      "newAxes": [
+        {
+          "axis": "rep",
+          "value": 80,
+          "confidence": "medium"
+        },
+        {
+          "axis": "pod",
+          "value": 40,
+          "confidence": "medium"
+        },
+        {
+          "axis": "imi",
+          "value": 40,
+          "confidence": "medium"
+        },
+        {
+          "axis": "eco",
+          "value": 40,
+          "confidence": "medium"
+        },
+        {
+          "axis": "con",
+          "value": 40,
+          "confidence": "medium"
+        }
+      ],
+      "documentedAxes": [
+        "rep",
+        "pod",
+        "imi",
+        "eco",
+        "con"
+      ],
+      "eligible": false
+    },
+    {
+      "id": "finland-current-2025",
+      "beforeSha256": "83026b05efe8816044dec70602ac56327de2e61c87c7eb912f31f64b266f4cb5",
+      "postSha256": "83026b05efe8816044dec70602ac56327de2e61c87c7eb912f31f64b266f4cb5",
+      "newAxes": [],
+      "documentedAxes": [],
+      "eligible": false
+    }
+  ],
+  "countsBefore": {
+    "selected": 675,
+    "eligible": 92,
+    "pending": 583
+  },
+  "countsProposed": {
+    "selected": 675,
+    "eligible": 92,
+    "pending": 583
+  },
+  "otherSelectedExact": 672,
+  "otherFullExact": 865,
+  "rankedAndFiveMatchScenariosExact": true,
+  "activeWrites": false
+}

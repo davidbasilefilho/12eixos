@@ -1,0 +1,199 @@
+{
+  "reviewer": "method_review",
+  "date": "2026-10-09",
+  "status": "bounded-independent-recommendation-before-integration",
+  "readAGENTS": true,
+  "headAtReview": "61c0020f1f3589fa917dd5a218b1ca51ba2310d0",
+  "inputSha256": "0a52ca3aedb72437f6095f3d9ca56d84d163e679939441d5f0f2e896b7603e42",
+  "sourceReads": [
+    {
+      "key": "george_land",
+      "ownActuallyRead": true,
+      "scope": "Metadata63–77; complete VIII.2 author body138–175",
+      "url": "https://www.econlib.org/library/YPDBooks/George/grgPP.html?chapter_num=35"
+    },
+    {
+      "key": "george_production",
+      "ownActuallyRead": true,
+      "scope": "IX.1 author153–166, selected opening only",
+      "url": "https://www.econlib.org/library/YPDBooks/George/grgPP.html?chapter_num=38"
+    },
+    {
+      "key": "george_social",
+      "ownActuallyRead": true,
+      "scope": "IX.4 author138–150, selected opening only",
+      "url": "https://www.econlib.org/library/YPDBooks/George/grgPP.html?chapter_num=41"
+    },
+    {
+      "key": "eucken_de",
+      "ownActuallyRead": true,
+      "scope": "Eucken quoted constitutive/regulating/interdependence extracts135–204; NOT other authors or original book chapters",
+      "url": "https://www.ordnungspolitisches-portal.com/v%C3%A4ter-der-ordnungspolitik"
+    },
+    {
+      "key": "pettit_article",
+      "ownActuallyRead": true,
+      "scope": "Own author PDF metadata/abstract/footnote0–34; selected pp71–74 lines431–597 and pp79–81 lines763–849; adjacent coercion counter598–708 also displayed/read. Not complete article.",
+      "url": "https://ppettit.scholar.princeton.edu/document/1771"
+    },
+    {
+      "key": "pettit_ch5",
+      "ownActuallyRead": true,
+      "scope": "Complete visible summary466–470 and metadata430/480–490. NOT book chapter full text.",
+      "url": "https://www.cambridge.org/core/books/abs/on-the-peoples-terms/democratic-control/A569C01A3E111B4CA3C53EB3834AEEF4"
+    },
+    {
+      "key": "rothbard_preface",
+      "ownActuallyRead": false,
+      "scope": "Opening returned PDF metadata; subsequent body fetch timed out and find failed. Author prior explicit prefatory read is attributed to supplied research; not own fresh text.",
+      "url": "https://www.rothbard.it/books/for-a-new-liberty.pdf"
+    }
+  ],
+  "rows": [
+    {
+      "id": "ideology-right-austrian-libertarianism",
+      "fullBeforeSha256": "4046c0f091f20bfa217e78a2975cf30ae290c1eb922aa1802ce1fd181e48f8e9",
+      "actualSelected": true,
+      "recommendedAxes": [],
+      "hold": "hold-all-six-revised-edition-candidates-noop",
+      "existingPeriod": "For a New Liberty, Murray Rothbard, 1973"
+    },
+    {
+      "id": "ideology-georgism",
+      "fullBeforeSha256": "e35b51d9bdcde4e079ae25802b870d38cb1e5aaf45535d6f901cd3ae2d90fe00",
+      "actualSelected": true,
+      "recommendedAxes": [
+        {
+          "axis": "eco",
+          "position": "moderate-first",
+          "value": 60,
+          "range": [
+            55,
+            70
+          ],
+          "confidence": "medium",
+          "verdict": "recommend-accept-with-narrowed-crosswalk-and-locator",
+          "reason": "VIII.2 makes all land rent common while preserving titles and improvements; IX.4 adds public infrastructure. This is an economy-wide land/resource rule with mixed capital ownership, supporting moderate public orientation rather than public predominance."
+        },
+        {
+          "axis": "con",
+          "position": "moderate-second",
+          "value": 40,
+          "range": [
+            30,
+            45
+          ],
+          "confidence": "medium",
+          "verdict": "recommend-accept-with-narrowed-crosswalk-and-locator",
+          "reason": "IX.1 removes production/exchange taxes generally; IX.4 limits directive government while permitting cooperative provision. Moderate market coordination, not abolition of public institutions."
+        },
+        {
+          "axis": "com",
+          "position": "strong-second",
+          "value": 20,
+          "range": [
+            10,
+            25
+          ],
+          "confidence": "high",
+          "verdict": "recommend-accept-with-narrowed-crosswalk-and-locator",
+          "reason": "VIII.2 abolishes all taxes except land values and IX.1 expressly condemns customs barriers. Strong openness is a fiscal-rule prescription, not a forecast or a later-book transfer."
+        }
+      ],
+      "hold": null,
+      "existingPeriod": "Progress and Poverty, 1879"
+    },
+    {
+      "id": "ideology-program-freiburg-ordoliberalism-1936-1952",
+      "fullBeforeSha256": "15c64b59c35ce01a5720f28ee1ffcbafbc999ed513d737d9a76ab717610f3b5b",
+      "actualSelected": true,
+      "recommendedAxes": [
+        {
+          "axis": "eco",
+          "position": "moderate-second",
+          "value": 40,
+          "range": [
+            30,
+            45
+          ],
+          "confidence": "medium",
+          "verdict": "recommend-accept-with-narrowed-crosswalk-and-locator",
+          "reason": "The private productive-property principle is general and conditioned by competition; monopoly power warrants restriction. Moderate private orientation, not unrestricted ownership."
+        },
+        {
+          "axis": "con",
+          "position": "moderate-second",
+          "value": 40,
+          "range": [
+            30,
+            45
+          ],
+          "confidence": "medium",
+          "verdict": "recommend-accept-with-narrowed-crosswalk-and-locator",
+          "reason": "A general price system and voluntary contracts replace productive directives; anti-monopoly, income and environmental corrections remain. This is a whole economic process rule, not an agency mandate."
+        },
+        {
+          "axis": "com",
+          "position": "moderate-second",
+          "value": 40,
+          "range": [
+            30,
+            45
+          ],
+          "confidence": "medium",
+          "verdict": "recommend-accept-with-narrowed-crosswalk-and-locator",
+          "reason": "The general principle expressly rejects import bans; open supply and demand support openness with narrow exceptions. Moderate, not absolute, commercial openness."
+        }
+      ],
+      "hold": null,
+      "existingPeriod": "Escola de Freiburg, programa de Eucken/Böhm/Großmann-Doerth e princípios de Eucken (1936–1952)."
+    },
+    {
+      "id": "ideology-civic-republicanism",
+      "fullBeforeSha256": "ee5ba78474c7e91dca95589297020e63c18b8deb6447a870327a1509302fe5ad",
+      "actualSelected": true,
+      "recommendedAxes": [
+        {
+          "axis": "rep",
+          "position": "strong-first",
+          "value": 80,
+          "range": [
+            75,
+            90
+          ],
+          "confidence": "high",
+          "verdict": "recommend-accept-with-narrowed-crosswalk-and-locator",
+          "reason": "Equal electoral and contestatory access, independent effective popular control and protection against wealth capture are constitutive institutional requirements. Strong democratic orientation does not entail constant direct decisions."
+        },
+        {
+          "axis": "pod",
+          "position": "moderate-second",
+          "value": 40,
+          "range": [
+            30,
+            45
+          ],
+          "confidence": "medium",
+          "verdict": "recommend-accept-with-narrowed-crosswalk-and-locator",
+          "reason": "Basic liberties require equally applied public-law protection against arbitrary private and public power. Controlled coercion remains legitimate, supporting moderate liberty rather than abolition of coercion."
+        }
+      ],
+      "hold": null,
+      "existingPeriod": "Philip Pettit, modelo de On the People’s Terms (2012)."
+    }
+  ],
+  "acceptedAxisCount": 8,
+  "rootReady": true,
+  "rootApproved": false,
+  "noSharedWrites": true,
+  "gateUnchanged": 6,
+  "newEligibleProfiles": 0,
+  "criticalIntegrationConditions": [
+    "Use only revised acceptedRecipes, not original unfiltered question lists. Related questions are conceptual, never questionnaire answers.",
+    "Rothbard remains entire-record NOOP: retain legacy ECO/CON/COM object fields and sources. Empty recommendedCodings excludes all six held revisions.",
+    "Do not erase unknown-axis reasons for unreviewed legacy scores; full guard uses actual selected runtime Before, not archive alternatives.",
+    "Retain exact old source prefix. No period rewrite: George1879 via1912 transmission; Eucken1952 extracts via1990 revised reprint, not claim original1936/1952 collation; Pettit2012 book summary and expressly related author2012 article distinct.",
+    "Append source/read/edition caveats; original Eucken German and English are one source transmission, not independent corroboration.",
+    "No new whole-six human certificate: these are only three/three/two axes; canonical encoder does not establish documentary authenticity."
+  ]
+}

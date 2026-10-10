@@ -1,0 +1,27 @@
+{
+  "status": "ACCEPT",
+  "checks": 95,
+  "scope": "Constant and Hobhouse ONLY; five other definitions not reviewed",
+  "reviewInputSha256": "d2bccededd9aa5d1f1722922b3fc7767c672b49678cbfe811f147ee7d31e8707",
+  "moduleSha256": "a9cddc2fd22e0dde59aad1e70d0260f27a92d548dc617083fedc69c4a4ab1ab5",
+  "recipesSha256": "3c3c5956dd609f353cace7ab09633f758f8f8fb99ef9996bee106322b5dad8e7",
+  "postsFileSha256": "665ebbbc0a8dca798ef9dff8021549d31b0d9942d8314913ea9a5114b28025d6",
+  "rows": [
+    {
+      "id": "ideology-program-constitutional-liberalism-constant-1819",
+      "beforeSha256": "aee28a788de546e6dd68eaea436912dfcd8d4fe81b26dd90fa26a61a831e377e",
+      "postSha256": "09f227a41a5e6a146937d3eb150e160a1c7e3686eb1e67cc78120d61192f6552",
+      "axes": 4,
+      "verdict": "ACCEPT exact literal; source judgment from prior review, no fresh body reread asserted"
+    },
+    {
+      "id": "ideology-social-liberalism",
+      "beforeSha256": "9aa1c3f93c99f06af620c983ce2892cad1080f74ebee31eee02de43dc0a9f96c",
+      "postSha256": "d5f81d471a2449c38d78662fd0b3fa61e5367e88ec594248683d39620a723dcd",
+      "axes": 8,
+      "verdict": "ACCEPT exact literal; source judgment from prior review, no fresh body reread asserted"
+    }
+  ],
+  "noProductEdits": true,
+  "noObservedEligibilityIncrease": true
+}

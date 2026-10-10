@@ -1,0 +1,46 @@
+{
+  "schemaVersion": "independent-burke-kristol-review-v1",
+  "reviewedOn": "2026-10-09",
+  "reader": "/root/figures_continue",
+  "inputSHA256": "2016382d16a4eea1fe08b018917387a5ec7a927a2957e0d31cce27c1a3869b70",
+  "verdict": "Support Burke4 and Kristol2 partial recipes, hold KristolMOR; no six-axis promotion.",
+  "analysis": [
+    {
+      "id": "ideology-burkean-conservatism",
+      "axes": {
+        "rep": "40 medium: hereditary and property-weighted authority; mixed constitutional checks prevent20.",
+        "eco": "40 medium: general protected private productive and inherited property; regulation and social duties prevent20.",
+        "rel": "20 high: constitutional established church essential, not private faith; tolerance and independent clergy retained.",
+        "mor": "40 medium: inherited domestic/cultural continuity and prudent preservation; reform and toleration prevent20."
+      }
+    },
+    {
+      "id": "ideology-right-neoconservatism",
+      "axes": {
+        "dip": "60 medium: broad defense responsibilities tied to military power; limited foreign-policy attitudes, no endorsement of every listed war.",
+        "int": "40 medium: explicitly defend democracies against internal/external forces when possible; exceptional conditions prevent20.",
+        "mor": "HOLD unknown50: porn regulation is a limited policy; labels and unspecified culture/education do not establish broader customs orientation."
+      }
+    }
+  ],
+  "sourcesActuallyRead": [
+    {
+      "url": "https://www.gutenberg.org/files/15679/15679-h/15679-h.htm",
+      "scope": "Leitura independente em 09/10/2026: metadados linhas4–15 e fronteira do ensaio1256–1279; passagens1377–1398,1429–1458,1516–1568,1788–1816,1832–1854,1983–2003,2127–2150,2175–2200,2690–2710; texto de1607 recuperado por find. Somente o ensaio de1790 na coletânea John C.Nimmo1887, não todos os discursos nem primeira edição cotejada."
+    },
+    {
+      "url": "https://ciaotest.cc.columbia.edu/pbei/aei/oti/kri03/kri03.pdf",
+      "scope": "Leitura independente em09/10/2026: todas as três páginas extraídas do PDF AEI, linhas0–198, com metadados48–57; não fac-símile visual nem versão original WeeklyStandard25agosto2003 cotejada. Fonte distinta de outras reproduções anteriores com elipses; sua transmissão não torna aquelas reproduções integrais."
+    }
+  ],
+  "wholeConstructs": "All20 questions each REP/ECO/REL/MOR/DIP/INT considered (120). REP/ECO/REL/MOR reused exact own earlier reading and current capture; DIP/INT freshly read all40. Question links are constructs, not inferred individual answers.",
+  "editionLimits": "Burke1790 essay within1887collection, notfullessay/volume. Kristol currentAEI3-page PDF extracted fully; originalWeeklyStandard and any earlier ellipsized reproduction not certified integral.",
+  "preservation": "Full actual selected Before records and SHA retained; all prior source objects unchanged prefixes in proposed external outputs. No product or source edits.",
+  "recipeArtifact": "burke-kristol-reviewed-recipes.json",
+  "mechanicalBinding": "burke-kristol-current-binding.json",
+  "remainingRequirements": [
+    "Exact encoded posts must be approved after generation.",
+    "Root adjudicates held MOR and exact repaired rationales/counters.",
+    "Fresh Burke selected entry needs active selected-catalog hook; no new IDs or gate changes."
+  ]
+}

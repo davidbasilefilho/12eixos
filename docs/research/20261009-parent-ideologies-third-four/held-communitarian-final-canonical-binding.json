@@ -1,0 +1,27 @@
+{
+  "status": "ACCEPT",
+  "checks": 77,
+  "scope": "Held–Archibugi and responsive platform ONLY; Burke/Kristol not reviewed here",
+  "reviewInputSha256": "b77b9257880f63b7786ab3c8d283c90b5762bd525ea0952a08f2b57150d7bf66",
+  "moduleSha256": "333fe88b53bad989b753d3e679bbed0c336933b0e6ff74e2b5d9bd9d044ce98e",
+  "recipesSha256": "30a7736e6210e7503cd31b038a511c104235f22beb7d6e2e54662bfb40aad9ed",
+  "postsFileSha256": "15b1852a198639982c12cfd853104981d98cec855d1d854487acf2293e211221",
+  "rows": [
+    {
+      "id": "ideology-cosmopolitan-democracy",
+      "beforeSha256": "61afd3a9dfdc9bfacb4e4b7841b800e723ba0bc7deb94d857479ec9288695f6d",
+      "postSha256": "7033874bda1b229d5418c951c40007d45b47ee22b859713bfe95e5c6723c5b17",
+      "axes": 3,
+      "verdict": "ACCEPT exact literal; source judgment from prior review, no fresh body reread asserted"
+    },
+    {
+      "id": "ideology-communitarianism",
+      "beforeSha256": "22172cc5ec062ff997ee231402a781c5adc101a23e4cfdc7a33bf5401d51d680",
+      "postSha256": "c8eb89ada3e43df8cd439e3563fdb59165c9e34fff3b238a2644f55c687799f5",
+      "axes": 3,
+      "verdict": "ACCEPT exact literal; source judgment from prior review, no fresh body reread asserted"
+    }
+  ],
+  "noProductEdits": true,
+  "noObservedEligibilityIncrease": true
+}

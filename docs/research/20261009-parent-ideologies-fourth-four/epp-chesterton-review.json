@@ -1,0 +1,519 @@
+{
+  "schemaVersion": "epp-chesterton-independent-review-v1",
+  "reviewedOn": "2026-10-09",
+  "status": "ACCEPT nine bounded revised inputs for Root judgement and canonical binding; not integrated",
+  "inputSha256": "a1abb4245d0a1ed473966e9da1d93a34466716c3d7b523cfe8ed4780d2916eca",
+  "selectedCount": 675,
+  "selectedIdeologyCount": 75,
+  "records": [
+    {
+      "id": "ideology-christian-democracy",
+      "beforeSha256": "601234fa3d970ba274277ed129f609bfdf87c1f592c1d6889e56cb155405777a",
+      "fullBefore": {
+        "id": "ideology-christian-democracy",
+        "kind": "ideology",
+        "category": "ideology",
+        "name": "Democracia cristã europeia (PPE, 2012)",
+        "period": "Manifesto do Partido Popular Europeu, 17–18 outubro 2012; síntese selecionada, não toda a família.",
+        "rationale": "Personalismo, solidariedade e subsidiariedade dentro de democracia pluralista e economia social de mercado. Integração europeia com poderes compartilhados, concorrência socialmente regulada e proteção de associações/famílias.",
+        "caveats": "O PPE inclui conservadores e liberais; o recorte é sua síntese democrata-cristã declarada de 2012. Valores cristãos não bastam para pontuar Estado confessional. Pesquisa qualitativa de seleção; não atribui novos scores nem certifica os 12 eixos. Lacunas não equivalem a neutralidade.",
+        "sources": [
+          {
+            "title": "EPP Manifesto, 2012",
+            "url": "https://www.epp.eu/files/uploads/2015/09/Manifesto2012_EN.pdf",
+            "note": "Publicação: 2012-10-18. Acesso registrado pela pesquisa: 2026-10-08. Tipo: primary. Localizador: §§2–4, pp.1–7 numeradas no manifesto. Leitura efetiva declarada na pesquisa: Texto principal renderizado lido, pp.1–7; 9 páginas de PDF incluindo capa."
+          }
+        ],
+        "vec": {
+          "est": 50,
+          "rep": 50,
+          "pod": 50,
+          "imi": 50,
+          "dip": 50,
+          "int": 50,
+          "eco": 50,
+          "con": 50,
+          "com": 50,
+          "rel": 50,
+          "mor": 50,
+          "tec": 50
+        },
+        "evidence": {},
+        "axisEvidence": {},
+        "coding": {}
+      },
+      "scopePeriod": "Manifesto do Partido Popular Europeu, 17–18 outubro 2012; síntese selecionada, não toda a família.",
+      "axisVerdicts": [
+        {
+          "axis": "rep",
+          "verdict": "accept bounded revised canonical input",
+          "reason": "Pluralismo democrático é regra geral explícita, não dedução da participação coletiva; eleição direta e partidos reforçam o compromisso central.",
+          "approvedInput": {
+            "axis": "rep",
+            "position": "strong-first",
+            "confidence": "high",
+            "relatedQuestionIds": [
+              "representacao_01",
+              "representacao_15",
+              "representacao_19"
+            ],
+            "claims": [
+              {
+                "sourceTitle": "EPP Manifesto — Bucharest, 17–18 October 2012",
+                "locator": "Manifesto adotado em 17–18 outubro 2012, §2 pp 2–3 (extração 47–55); §4 pp 4–5 e 8 (110–115,225–231).",
+                "statement": "Afirma democracia pluralista e eleições europeias diretas, com participação partidária.",
+                "basis": "declaration",
+                "publishedDate": "2012-10-17/18",
+                "accessedDate": "2026-10-09"
+              }
+            ],
+            "rationale": "Compromisso representativo central.",
+            "uncertainty": "Manifesto de 2012; não comprova execução nem imputa voto secreto, referendos ou cada direito específico da oposição. Ligações ao questionário são de constructo, não respostas literais.",
+            "reviewedOn": "2026-10-09"
+          },
+          "value": 80,
+          "editorialRange": [
+            75,
+            90
+          ],
+          "evidenceGrade": "high"
+        },
+        {
+          "axis": "con",
+          "verdict": "accept bounded revised canonical input",
+          "reason": "Liberdade empresarial e eliminação de burocracia sustentam mercado como orientação, com governança pública/social/ambiental que exclui laissez-faire maximalista.",
+          "approvedInput": {
+            "axis": "con",
+            "position": "moderate-second",
+            "confidence": "medium",
+            "relatedQuestionIds": [
+              "controle_04",
+              "controle_14"
+            ],
+            "claims": [
+              {
+                "sourceTitle": "EPP Manifesto — Bucharest, 17–18 October 2012",
+                "locator": "2012, §2 p 3 (56–62); §4 pp 5/7 (116–127,185–196).",
+                "statement": "Adota economia social de mercado, liberdade empresarial e redução de burocracia.",
+                "basis": "declaration",
+                "publishedDate": "2012-10-17/18",
+                "accessedDate": "2026-10-09"
+              }
+            ],
+            "rationale": "Coordenação mercantil regulada.",
+            "uncertainty": "O programa exige reforçar governança fiscal/econômica e instrumentos ambientais vinculantes; não prova livre formação universal de preços/salários nem redução geral de impostos.",
+            "reviewedOn": "2026-10-09"
+          },
+          "value": 40,
+          "editorialRange": [
+            30,
+            45
+          ],
+          "evidenceGrade": "medium"
+        },
+        {
+          "axis": "com",
+          "verdict": "accept bounded revised canonical input",
+          "reason": "Programa explícito de derrubar barreiras e ampliar comércio livre, não simples pertença à UE.",
+          "approvedInput": {
+            "axis": "com",
+            "position": "moderate-second",
+            "confidence": "medium",
+            "relatedQuestionIds": [
+              "comercio_04",
+              "comercio_08",
+              "comercio_10"
+            ],
+            "claims": [
+              {
+                "sourceTitle": "EPP Manifesto — Bucharest, 17–18 October 2012",
+                "locator": "2012, §4 p 5, mercado único e comércio internacional (131–134).",
+                "statement": "Propõe remover barreiras europeias e ampliar comércio internacional livre e justo.",
+                "basis": "declaration",
+                "publishedDate": "2012-10-17/18",
+                "accessedDate": "2026-10-09"
+              }
+            ],
+            "rationale": "Abertura comercial expressa.",
+            "uncertainty": "Mercado único é regional e o texto fala também em comércio internacional mais livre e justo; não explicita abolir todas as exceções ou liberdade irrestrita de aquisição estrangeira.",
+            "reviewedOn": "2026-10-09"
+          },
+          "value": 40,
+          "editorialRange": [
+            30,
+            45
+          ],
+          "evidenceGrade": "medium"
+        }
+      ],
+      "heldProposals": [],
+      "acceptedAxisCount": 3,
+      "unknownAxisReasons": {
+        "est": "Poderes compartilhados na UE não demonstram federalismo doméstico.",
+        "pod": "Compromissos gerais de liberdade/segurança não delimitam suficientemente coerção.",
+        "imi": "Respeito a direitos humanos não equivale a assimilação cultural.",
+        "dip": "Defesa comum e cooperação não fixam prioridade militar agregada.",
+        "int": "Apoio externo à democracia não explicita critérios de intervenção.",
+        "eco": "Economia social de mercado não especifica titularidade/provisão predominante.",
+        "rel": "Reconhecimento de crentes e não crentes não prova separação institucional.",
+        "mor": "Família e igualdade sexual não resolvem a direção cultural ampla.",
+        "tec": "Inovação e sustentabilidade não resolvem o eixo tecnológico amplo."
+      },
+      "adverseEvidenceToPreserve": [],
+      "sourceRecipe": {
+        "preserveOrderedPrefixExactly": [
+          {
+            "title": "EPP Manifesto, 2012",
+            "url": "https://www.epp.eu/files/uploads/2015/09/Manifesto2012_EN.pdf",
+            "note": "Publicação: 2012-10-18. Acesso registrado pela pesquisa: 2026-10-08. Tipo: primary. Localizador: §§2–4, pp.1–7 numeradas no manifesto. Leitura efetiva declarada na pesquisa: Texto principal renderizado lido, pp.1–7; 9 páginas de PDF incluindo capa."
+          }
+        ],
+        "appendReviewedSources": [
+          {
+            "title": "EPP Manifesto — Bucharest, 17–18 October 2012",
+            "url": "https://www.epp.eu/files/uploads/2015/09/Manifesto2012_EN.pdf",
+            "note": "Publicação/edição: 2012-10-17/18. Acesso: 2026-10-09. Manifesto partidário adotado no Congresso de Bucareste em 17–18 outubro 2012. Leitura independente: extração 0–235, capa e corpo integral §§1–4, nove páginas físicas. Sem incorporar outras datas ou toda a família democrata-cristã."
+          }
+        ],
+        "onlyNewTitlesUsedByNewCodes": true
+      }
+    },
+    {
+      "id": "ideology-distributism",
+      "beforeSha256": "d8ed9f513c0babf4af782c04d3d6ac0d8fb3cae4a2f8caf6ee9861b8bdea1d67",
+      "fullBefore": {
+        "id": "ideology-distributism",
+        "category": "ideology",
+        "kind": "ideology",
+        "name": "Distributismo (Chesterton, 1926)",
+        "period": "The Outline of Sanity, edição Dodd, Mead & Company, Nova York, 1927; transcrição PDF republicada pela Seton Hall",
+        "vec": {
+          "est": 50,
+          "rep": 50,
+          "pod": 50,
+          "imi": 50,
+          "dip": 50,
+          "int": 50,
+          "eco": 50,
+          "con": 50,
+          "com": 50,
+          "rel": 50,
+          "mor": 50,
+          "tec": 50
+        },
+        "rationale": "Propriedade produtiva amplamente distribuída deve garantir autonomia familiar contra concentração capitalista e coletivismo estatal. Pequenos proprietários, cooperativas e barreiras à concentração, com reorganização da vida produtiva local.",
+        "caveats": "Exemplar de Chesterton, não todas as tradições distributistas ou doutrina papal integral. Admite diferentes meios, como leis, impostos, tarifas e subsídios; sua crítica geral ao socialismo é posição autoral, não fato certificado sobre todos os socialistas. Transcrição textual sem colação de fac-símile; velhos números não validados. Não pressupõe que toda atividade seja agrícola; visão familiar historicamente situada e passagens preconceituosas não devem ser omitidas em revisão substantiva. Pesquisa qualitativa de seleção; não atribui novos scores nem certifica os 12 eixos. Lacunas não equivalem a neutralidade.",
+        "sources": [
+          {
+            "title": "Rerum Novarum — Santa Sé",
+            "url": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_15051891_rerum-novarum.html",
+            "note": "Documento primário de 1891 sobre trabalho, propriedade, associações e responsabilidade estatal."
+          },
+          {
+            "title": "Quadragesimo Anno — Santa Sé",
+            "url": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_19310515_quadragesimo-anno.html",
+            "note": "Documento primário de 1931 sobre justiça social e princípio de subsidiariedade."
+          },
+          {
+            "title": "The Outline of Sanity — Chesterton, Dodd Mead New York1927 primary transcription",
+            "url": "https://www.shu.edu/documents/1927-GK-Chesterton-The-Outline-of-Sanity.pdf",
+            "note": "O colofão, nas linhas 0–5, registra a edição de 1927. Foram inspecionadas as linhas 37–197 e as páginas 1–6 e 48–50: distribuição da propriedade produtiva e oposição à dependência salarial. A seção II.2 admite leis, impostos, tarifas e subsídios como métodos. O texto não equivale exclusivamente às encíclicas de 1891–1931; sua crítica a todos os socialistas é uma afirmação do autor, não um fato certificado."
+          },
+          {
+            "title": "The Outline of Sanity",
+            "url": "https://www.shu.edu/documents/1927-GK-Chesterton-The-Outline-of-Sanity.pdf",
+            "note": "Publicação: 1926. Acesso registrado pela pesquisa: 2026-10-08. Tipo: primary. Localizador: PartIII, The Real Life on the Land; PDF pp.76–77 e discussão inicial. Leitura efetiva declarada na pesquisa: Passagens sobre distribuição de propriedade e propostas lidas; livro não integral. Arquivo rotulado 1927; obra originalmente 1926, edição deve ser mantida na evidência."
+          }
+        ],
+        "evidence": {},
+        "axisEvidence": {},
+        "coding": {}
+      },
+      "scopePeriod": "The Outline of Sanity, edição Dodd, Mead & Company, Nova York, 1927; transcrição PDF republicada pela Seton Hall",
+      "axisVerdicts": [
+        {
+          "axis": "eco",
+          "verdict": "accept bounded revised canonical input",
+          "reason": "Regime geral explícito de propriedade produtiva privada amplamente distribuída, incluindo máquinas e participação individual; não inferido apenas de financiamento ou entrega de cuidado.",
+          "approvedInput": {
+            "axis": "eco",
+            "position": "moderate-second",
+            "confidence": "high",
+            "relatedQuestionIds": [
+              "economia_05",
+              "economia_08",
+              "economia_13",
+              "economia_18"
+            ],
+            "claims": [
+              {
+                "sourceTitle": "The Outline of Sanity — Dodd, Mead 1927, transcrição Seton Hall",
+                "locator": "Edição Nova York 1927, I.1 PDF físico 2–6 (37–197); III.3 físico 77–79 (2980–3056); IV.1 físico 88–89 (3399–3422).",
+                "statement": "Defende propriedade produtiva privada disseminada, inclusive participações e pequenas guildas.",
+                "basis": "declaration",
+                "publishedDate": "1927, edição de Nova York; obra originalmente 1926",
+                "accessedDate": "2026-10-09"
+              }
+            ],
+            "rationale": "Propriedade descentralizada é o núcleo.",
+            "uncertainty": "Propriedade é privada, inclusive ações individuais: guildas locais e divisão entre trabalhadores não equivalem automaticamente a propriedade pública ou comum. Distribuição e intervenção contra monopólio limitam a defesa incondicional de desigualdade; sem inferir propriedade setorial prevalente.",
+            "reviewedOn": "2026-10-09"
+          },
+          "value": 40,
+          "editorialRange": [
+            30,
+            45
+          ],
+          "evidenceGrade": "high"
+        },
+        {
+          "axis": "con",
+          "verdict": "accept bounded revised canonical input",
+          "reason": "Instrumentos públicos concretos para reorganizar propriedade/produção: tributação contratual, subsídios e repressão antitruste; não total planejamento estatal.",
+          "approvedInput": {
+            "axis": "con",
+            "position": "moderate-first",
+            "confidence": "medium",
+            "relatedQuestionIds": [
+              "controle_01",
+              "controle_07",
+              "controle_14"
+            ],
+            "claims": [
+              {
+                "sourceTitle": "The Outline of Sanity — Dodd, Mead 1927, transcrição Seton Hall",
+                "locator": "Edição 1927, II.2 físico 50 (1909–1936); II.4 físico 62–64 (2402–2466); VI físico 132–133 (5130–5188).",
+                "statement": "Propõe tributação de contratos, subsídios e repressão antitrustes.",
+                "basis": "declaration",
+                "publishedDate": "1927, edição de Nova York; obra originalmente 1926",
+                "accessedDate": "2026-10-09"
+              }
+            ],
+            "rationale": "Intervenção estrutural material.",
+            "uncertainty": "São instrumentos de transição e regulação antimonopolista, não plano central universal de preços/produção. Algumas propostas não vinculam todos os distributistas.",
+            "reviewedOn": "2026-10-09"
+          },
+          "value": 60,
+          "editorialRange": [
+            55,
+            70
+          ],
+          "evidenceGrade": "medium"
+        },
+        {
+          "axis": "com",
+          "verdict": "accept bounded revised canonical input",
+          "reason": "Aceita proteção tarifária de experimentos distributivos expressamente, como instrumento econômico condicional; não doutrina de fechamento geral ou hostilidade a estrangeiros.",
+          "approvedInput": {
+            "axis": "com",
+            "position": "moderate-first",
+            "confidence": "medium",
+            "relatedQuestionIds": [
+              "comercio_01",
+              "comercio_07"
+            ],
+            "claims": [
+              {
+                "sourceTitle": "The Outline of Sanity — Dodd, Mead 1927, transcrição Seton Hall",
+                "locator": "Edição 1927, II.2 físico 50 (1909–1936, proteção condicional por tarifas, inclusive locais); VI físico 133 (5181–5188). Contraponto III.3 físico 78 e 83 (3017–3021,3193–3204): trocas e variação continuam.",
+                "statement": "Admite tarifas, inclusive locais, para proteger experiências distributistas.",
+                "basis": "declaration",
+                "publishedDate": "1927, edição de Nova York; obra originalmente 1926",
+                "accessedDate": "2026-10-09"
+              }
+            ],
+            "rationale": "Proteção seletiva explícita.",
+            "uncertainty": "Tarifas são condicionais, inclusive locais; ele não reduz todos a autossuficiência e admite comércio/trocas. Não imputa restrições a empresas estrangeiras, terras ou todos os setores nacionais.",
+            "reviewedOn": "2026-10-09"
+          },
+          "value": 60,
+          "editorialRange": [
+            55,
+            70
+          ],
+          "evidenceGrade": "medium"
+        },
+        {
+          "axis": "pod",
+          "verdict": "accept bounded revised canonical input",
+          "reason": "Regra ampla de autodireção cotidiana e independência crítica, além da defesa patrimonial; penalidade econômica coerciva permanece contraponto material, sem média fabricada.",
+          "approvedInput": {
+            "axis": "pod",
+            "position": "moderate-second",
+            "confidence": "medium",
+            "relatedQuestionIds": [
+              "poder_04",
+              "poder_06",
+              "poder_16"
+            ],
+            "claims": [
+              {
+                "sourceTitle": "The Outline of Sanity — Dodd, Mead 1927, transcrição Seton Hall",
+                "locator": "Edição 1927, I.1 físico 5–6 (150–196), imprensa crítica independente; VI físico 129 (4999–5016) e 135 (5233–5267), autonomia e oposição à Prohibition. Contraponto II.4 físico 62–63 (2402–2453), punições penais de monopolistas.",
+                "statement": "Defende crítica independente do poder e regra de autodireção da vida cotidiana, incluindo decisões de saúde e oposição à Prohibition.",
+                "basis": "declaration",
+                "publishedDate": "1927, edição de Nova York; obra originalmente 1926",
+                "accessedDate": "2026-10-09"
+              }
+            ],
+            "rationale": "Autonomia pessoal e expressão concretas.",
+            "uncertainty": "II.4 admite prisão, exposição punitiva e enforcamento de monopolistas e tratamento de conspirações mercantis como conspirações contra Estado/rei. Essa coerção impede leitura libertária irrestrita; autonomia e crítica sustentam somente inclinação moderada. Não prova tolerância penal universal, devido processo ou posições sobre todas as drogas.",
+            "reviewedOn": "2026-10-09"
+          },
+          "value": 40,
+          "editorialRange": [
+            30,
+            45
+          ],
+          "evidenceGrade": "medium"
+        },
+        {
+          "axis": "mor",
+          "verdict": "accept bounded revised canonical input",
+          "reason": "Norma familiar monogâmica e autoridade parental estruturam uma visão geral conservadora de costumes. Não depende apenas do rótulo católico, nem imputa respostas sexuais contemporâneas.",
+          "approvedInput": {
+            "axis": "mor",
+            "position": "moderate-second",
+            "confidence": "medium",
+            "relatedQuestionIds": [
+              "moral_02",
+              "moral_17",
+              "moral_20"
+            ],
+            "claims": [
+              {
+                "sourceTitle": "The Outline of Sanity — Dodd, Mead 1927, transcrição Seton Hall",
+                "locator": "Edição 1927, I.2 físico 12 (417–451), analogia normativa monogamia/fidelidade; VI físico 135–136 (5231–5244,5268–5286), autoridade parental e casamento. Contraponto IV.1 físico 89 (3430–3439) e VI físico 131–132 (5108–5115), preconceitos e linguagem sexista.",
+                "statement": "Apresenta fidelidade monogâmica e autoridade parental como costumes e poderes desejáveis da família, contrapondo-os à sociedade centralizada.",
+                "basis": "declaration",
+                "publishedDate": "1927, edição de Nova York; obra originalmente 1926",
+                "accessedDate": "2026-10-09"
+              }
+            ],
+            "rationale": "Matriz familiar tradicional.",
+            "uncertainty": "Analogia matrimonial não é política explicitamente formulada sobre casamento LGBT, aborto, identidade de gênero ou divisão feminina universal do cuidado. Mantêm-se a simpatia declarada por uma frase de exclusão de judeus alemães e linguagem antifeminista; nenhuma alegação de tolerância universal.",
+            "reviewedOn": "2026-10-09"
+          },
+          "value": 40,
+          "editorialRange": [
+            30,
+            45
+          ],
+          "evidenceGrade": "medium"
+        },
+        {
+          "axis": "tec",
+          "verdict": "accept bounded revised canonical input",
+          "reason": "Critério geral subordina maquinaria/eficiência ao bem-estar humano e favorece existência rural/artesanal com menor mecanização. Há possibilidade explícita de limitar usos, ao mesmo tempo permitindo tecnologia instrumental.",
+          "approvedInput": {
+            "axis": "tec",
+            "position": "moderate-second",
+            "confidence": "medium",
+            "relatedQuestionIds": [
+              "tecnologia_02",
+              "tecnologia_13",
+              "tecnologia_18"
+            ],
+            "claims": [
+              {
+                "sourceTitle": "The Outline of Sanity — Dodd, Mead 1927, transcrição Seton Hall",
+                "locator": "Edição 1927, III.3 físico 78–83 (3017–3056,3193–3204); IV.1–2 físico 85–90 (3305–3374,3399–3422,3484–3502); VI físico 132–133 (5141–5188), instrumentos úteis, preferência artesanal e vigilância seletiva.",
+                "statement": "Subordina a maquinaria ao bem-estar humano, prefere maior independência rural e artesanal e admite limitar usos, preservando instrumentos úteis à transição distributiva.",
+                "basis": "declaration",
+                "publishedDate": "1927, edição de Nova York; obra originalmente 1926",
+                "accessedDate": "2026-10-09"
+              }
+            ],
+            "rationale": "Cautela industrial explícita.",
+            "uncertainty": "Não considera máquinas intrinsecamente más; aceita ações/guildas para maquinaria necessária, automóveis e eletricidade úteis à dispersão da produção. Sua hipótese de banir toda maquinaria não é conclusão adotada. Não se imputam políticas de genética, IA, clima, mineração ou resultados empíricos da vida rural.",
+            "reviewedOn": "2026-10-09"
+          },
+          "value": 40,
+          "editorialRange": [
+            30,
+            45
+          ],
+          "evidenceGrade": "medium"
+        }
+      ],
+      "heldProposals": [],
+      "acceptedAxisCount": 6,
+      "unknownAxisReasons": {
+        "est": "Desconcentração econômica não demonstra competências territoriais.",
+        "rep": "Rótulo democrático não oferece desenho representativo suficiente.",
+        "imi": "Emigração e preconceitos não estabelecem programa migratório completo.",
+        "dip": "Não estabelecido nas passagens lidas.",
+        "int": "Não estabelecido nas passagens lidas.",
+        "rel": "Fundamentação religiosa não determina arranjo Igreja–Estado."
+      },
+      "adverseEvidenceToPreserve": [
+        {
+          "sourceTitle": "The Outline of Sanity — Dodd, Mead 1927, transcrição Seton Hall",
+          "locator": "IV.1, PDF 89; VI, PDF 131",
+          "finding": "Simpatiza com fala excludente sobre judeus alemães e usa formulação sexista sobre feministas. Não sanitizar a fonte nem generalizar tolerância."
+        },
+        {
+          "sourceTitle": "The Outline of Sanity — Dodd, Mead 1927, transcrição Seton Hall",
+          "locator": "VI, PDF 132–133",
+          "finding": "Aceita automóvel e eletricidade como instrumentos distributistas. A posição TEC não é proibição universal de máquinas."
+        },
+        {
+          "locator": "II.4 físico62–63, extração2402–2453",
+          "statement": "Admite punição coerciva inclusive enforcamento para monopolistas; contraponto relevante à liberdade civil."
+        }
+      ],
+      "sourceRecipe": {
+        "preserveOrderedPrefixExactly": [
+          {
+            "title": "Rerum Novarum — Santa Sé",
+            "url": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_15051891_rerum-novarum.html",
+            "note": "Documento primário de 1891 sobre trabalho, propriedade, associações e responsabilidade estatal."
+          },
+          {
+            "title": "Quadragesimo Anno — Santa Sé",
+            "url": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_19310515_quadragesimo-anno.html",
+            "note": "Documento primário de 1931 sobre justiça social e princípio de subsidiariedade."
+          },
+          {
+            "title": "The Outline of Sanity — Chesterton, Dodd Mead New York1927 primary transcription",
+            "url": "https://www.shu.edu/documents/1927-GK-Chesterton-The-Outline-of-Sanity.pdf",
+            "note": "O colofão, nas linhas 0–5, registra a edição de 1927. Foram inspecionadas as linhas 37–197 e as páginas 1–6 e 48–50: distribuição da propriedade produtiva e oposição à dependência salarial. A seção II.2 admite leis, impostos, tarifas e subsídios como métodos. O texto não equivale exclusivamente às encíclicas de 1891–1931; sua crítica a todos os socialistas é uma afirmação do autor, não um fato certificado."
+          },
+          {
+            "title": "The Outline of Sanity",
+            "url": "https://www.shu.edu/documents/1927-GK-Chesterton-The-Outline-of-Sanity.pdf",
+            "note": "Publicação: 1926. Acesso registrado pela pesquisa: 2026-10-08. Tipo: primary. Localizador: PartIII, The Real Life on the Land; PDF pp.76–77 e discussão inicial. Leitura efetiva declarada na pesquisa: Passagens sobre distribuição de propriedade e propostas lidas; livro não integral. Arquivo rotulado 1927; obra originalmente 1926, edição deve ser mantida na evidência."
+          }
+        ],
+        "appendReviewedSources": [
+          {
+            "title": "The Outline of Sanity — Dodd, Mead 1927, transcrição Seton Hall",
+            "url": "https://www.shu.edu/documents/1927-GK-Chesterton-The-Outline-of-Sanity.pdf",
+            "note": "Publicação/edição: 1927, edição de Nova York; obra originalmente 1926. Acesso: 2026-10-09. Transcrição republicada pela Seton Hall, colofão Dodd, Mead & Company, Nova York 1927; obra originalmente 1926. Leitura independente delimitada: metadados/I.1 extração 0–402; I.2 casamento 417–451; II.2 propostas 1909–1936; II.4 extração 2309–2453; III.3 extração 2980–3215; IV.1–2 extração 3217–3546; VI extração 4848–5303. As páginas remanescentes não foram integralmente lidas; sem certificação de fac-símile. Preservam-se coerção penal antimonopolista, preconceitos e uso de máquinas úteis; não se incorporam as encíclicas de 1891/1931 aos novos códigos."
+          }
+        ],
+        "onlyNewTitlesUsedByNewCodes": true
+      }
+    }
+  ],
+  "readingLog": [
+    {
+      "url": "https://www.epp.eu/files/uploads/2015/09/Manifesto2012_EN.pdf",
+      "freshRead": "Full extracted manifesto0–235 including cover; independent body read, not retrieval metadata alone.",
+      "sourceEdition": "17–18 October2012"
+    },
+    {
+      "url": "https://www.shu.edu/documents/1927-GK-Chesterton-The-Outline-of-Sanity.pdf",
+      "freshRead": "Exact bounded extractions enumerated in sourceRecipe; direct primary-body opens and finds. Not fullbook, not screenshot certification.",
+      "sourceEdition": "DoddMead NewYork1927 transcription; original1926 remains historical context only"
+    }
+  ],
+  "questionReview": "All20 each REP/POD/ECO/CON/COM/MOR/TEC reviewed against unchanged active pools. REP/POD/ECO same pools reviewed in prior work; CON/COM/MOR/TEC also read freshly this batch. Crosswalks revised where modern narrow questions exceeded primary prescriptions; IDs indicate dimensions, never imputed survey answers.",
+  "limits": [
+    "Six defensible ordinal codes proposed for Chesterton after independent construct review, not because eligibility needed a sixth.",
+    "No automatic eligibility/source validation/completion inference from this recipe receipt.",
+    "Preserve every active old source object and fullbefore; append scoped reviewed titles, never rewrite earlier note.",
+    "Chesterton current period1927 remains; no silent1926 substitution or encyclical1931 mixture.",
+    "No product edits, selection changes or VCS/publication actions."
+  ]
+}

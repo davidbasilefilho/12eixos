@@ -26,21 +26,21 @@ const baseControl = 'inline-flex min-h-12 items-center justify-center gap-2 bord
 
 export function controlClassName({ variant = 'outline', color = 'accent', size = 'md', className }: { variant?: ControlVariant; color?: ColorScheme; size?: ControlSize; className?: string } = {}) {
 const variantClass = variant === 'solid'
-    ? cn(controlVariants.solid, controlColorClasses[color].solid)
+    ? cn(controlVariants.solid, controlColorClasses[color].solid, 'text-background! hover:text-background!', color === 'accent' && 'not-dark:hover:brightness-100! not-dark:hover:bg-[color-mix(in_srgb,var(--orange)_94%,var(--text))]!')
     : cn(controlVariants[variant], controlColorClasses[color].text)
-  return cn(baseControl, variantClass, controlSizes[size], className)
+  return cn(baseControl, variantClass, controlSizes[size], (variant === 'ghost' || variant === 'quiet') && size !== 'icon' && 'border-0 px-0 justify-start text-left', className)
 }
 
 export function Button({ variant = 'outline', color = 'accent', size = 'md', className, type = 'button', command, commandFor, ...props }: ButtonHTMLAttributes<HTMLButtonElement> & ControlOptions & CommandProps) {
   const semanticCommand = command ? { command, commandfor: commandFor } : {}
-  return <button type={type} className={controlClassName({ variant, color, size, className })} {...props} {...semanticCommand as ButtonHTMLAttributes<HTMLButtonElement>}/>
+  return <button type={type} data-control-variant={variant} className={controlClassName({ variant, color, size, className })} {...props} {...semanticCommand as ButtonHTMLAttributes<HTMLButtonElement>}/>
 }
 
 export type ActionLinkProps<TRouter extends AnyRouter = RegisteredRouter, TFrom extends string = string, TTo extends string | undefined = undefined, TMaskFrom extends string = TFrom, TMaskTo extends string = ''> = Omit<LinkComponentProps<'a', TRouter, TFrom, TTo, TMaskFrom, TMaskTo>, 'className' | 'color'> & Pick<AnchorHTMLAttributes<HTMLAnchorElement>, 'className'> & { variant?: ControlVariant; color?: ColorScheme; size?: ControlSize }
 
 export function ActionLink<TRouter extends AnyRouter = RegisteredRouter, const TFrom extends string = string, const TTo extends string | undefined = undefined, const TMaskFrom extends string = TFrom, const TMaskTo extends string = ''>({ variant = 'outline', color = 'accent', size = 'md', className, ...props }: ActionLinkProps<TRouter, TFrom, TTo, TMaskFrom, TMaskTo>) {
   const linkProps = props as ComponentProps<typeof Link>
-  return <Link className={controlClassName({ variant, color, size, className })} {...linkProps}/>
+  return <Link data-control-variant={variant} className={controlClassName({ variant, color, size, className })} {...linkProps}/>
 }
 
 export function TextLink({ className, ...props }: ActionLinkProps) {

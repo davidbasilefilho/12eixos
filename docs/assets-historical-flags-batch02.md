@@ -1,0 +1,10 @@
+# Bandeiras históricas — lote02
+
+Dois arquivos licenciados existentes copiados byte a byte, sem redesenho, recoloração ou alteração de geometria. As fontes oficiais verificam adoção e desenho no período escolhido. São vetores ilustrativos, não fotografias de tecidos históricos nem comprovação de valores RGB de todos exemplares da época.
+
+| Arquivo e período | Autoria, origem e licença | Evidência histórica | Dimensões / SHA256 |
+|---|---|---|---|
+| `nigeria-first-civilian-order-1960.svg` — 01/10/1960–ruptura política15/01/1966; recorte normativo1960 | [Original Michael Taiwo Akinkunmi; vector Jon Harald Søby](https://commons.wikimedia.org/wiki/File:Flag_of_Nigeria.svg); Public domain: common-property/simple-geometry; do not rely on government70year expiration because1960+70 has not elapsed. Cópia integral de `nigeria-current-2025.svg`. | [fonte oficial](https://ntda.gov.ng/media.assets.php). NTDA explicitly describes green-white-green vertical triband and official adoption1October1960, matching founderperiod. | 1200 × 600; `29a8a7fff1ca574873f953e086753bb2f90be55c3efac5c91f829b1a1c6c01be` |
+| `uganda-independent-parliamentary-order-1962.svg` — 09/10/1962–crise fevereiro–maio1966; suspensão política22/02/1966; norma consolidada31/12/1963 | [Nationaldesign attributed by UgandaMFA to Grace Ibingira; vector tobias/OpenClipArt](https://commons.wikimedia.org/wiki/File:Flag_of_Uganda.svg); Public domain as documented by Commons: Ugandagovernmentpublication1962 termexpired; vector common-property/OpenClipArt. Cópia integral de `uganda-current-2025.svg`. | [fonte oficial](https://abuja.mofa.go.ug/uganda/national-symbols). OfficialUgandaMFA exactly dates adoption9October1962 and sixequalblack/yellow/redrepeatedbands, centralwhitedisc andgreycrestedcrane facinghoist. | 900 × 600; `a701990b39026cebea400a2dfc30a3eaa87c84220673ac719a265e521dfb7bd7` |
+
+Os hashes identificam os bytes locais preservados, não uma nova transferência de upstream. Nigéria1979, Quênia1963, Senegal1960 e Finlândia1919 permanecem sem novos mappings deste lote. Fontes consultadas em09/10/2026.

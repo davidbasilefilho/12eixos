@@ -1,0 +1,536 @@
+{
+  "status": "external pending exact peer binding and Root integration verdict",
+  "baseHead": "5b808e9dfb3170fbf62ce6079fb43ec2af518cc1",
+  "definitions": [
+    {
+      "before": {
+        "id": "ideology-cosmopolitan-democracy",
+        "kind": "ideology",
+        "category": "ideology",
+        "name": "Democracia cosmopolita (Held–Archibugi, 2011)",
+        "period": "Daniele Archibugi e David Held, Paths and Agents (2011).",
+        "rationale": "Democratização de decisões transnacionais por direitos e representação que ultrapassam a cidadania nacional. Instituições multinível, assembleia parlamentar mundial e participação dos afetados além das fronteiras.",
+        "caveats": "Não é sinônimo de livre comércio nem projeto necessariamente unitário de Estado mundial; caminhos institucionais são abertos. Pesquisa qualitativa de seleção; não atribui novos scores nem certifica os 12 eixos. Lacunas não equivalem a neutralidade.",
+        "sources": [
+          {
+            "title": "Cosmopolitan Democracy: Paths and Agents",
+            "url": "https://ciaotest.cc.columbia.edu/journals/cceia/v25i4/f_0024217_19756.pdf",
+            "note": "Publicação: 2011. Acesso registrado pela pesquisa: 2026-10-08. Tipo: primary. Localizador: pp.441–447, The Role of States; Citizen Participation in Global Politics. Leitura efetiva declarada na pesquisa: Passagens pp.441–447 recuperadas e lidas; não todo artigo. Ethics & International Affairs 25(4), pp.433–461."
+          }
+        ],
+        "vec": {
+          "est": 50,
+          "rep": 50,
+          "pod": 50,
+          "imi": 50,
+          "dip": 50,
+          "int": 50,
+          "eco": 50,
+          "con": 50,
+          "com": 50,
+          "rel": 50,
+          "mor": 50,
+          "tec": 50
+        },
+        "evidence": {},
+        "axisEvidence": {},
+        "coding": {}
+      },
+      "addedSources": [
+        {
+          "title": "Cosmopolitan Democracy: Paths and Agents — Ethics & International Affairs 25(4), 2011",
+          "url": "https://ciaotest.cc.columbia.edu/journals/cceia/v25i4/f_0024217_19756.pdf",
+          "note": "Publicação/edição: 2011. Acesso: 2026-10-09. Ethics & International Affairs 25(4), pp.433–461; doi:10.1017/S 0892679411000360. Texto primário autoral do artigo de 2011, sem incorporar outras obras dos autores. Leitura independente delimitada em 09/10/2026: texto extraído 0–425, incluindo metadados, definição, tabela 1, minorias domésticas, política externa, autoridades judiciais e assembleia; passagens sobre migrantes 458–477 recuperadas separadamente. Notas e bibliografia não foram integralmente lidas; sem certificação de fac-símile."
+        }
+      ],
+      "codings": [
+        {
+          "axis": "rep",
+          "position": "strong-first",
+          "confidence": "high",
+          "relatedQuestionIds": [
+            "representacao_03",
+            "representacao_07",
+            "representacao_19"
+          ],
+          "claims": [
+            {
+              "sourceTitle": "Cosmopolitan Democracy: Paths and Agents — Ethics & International Affairs 25(4), 2011",
+              "locator": "2011, pp434/438–440, definição e tabela1; pp443–444, reforma institucional; pp446–448, Citizen Participation e representação (extração43–53,153–202,277–298,365–425).",
+              "statement": "Propõe representação cidadã transnacional e controle democrático independente dos governos.",
+              "basis": "declaration",
+              "publishedDate": "2011",
+              "accessedDate": "2026-10-09"
+            }
+          ],
+          "rationale": "A democratização é compromisso central.",
+          "uncertainty": "Forma eleitoral e poderes da assembleia permanecem abertos. Não imputa sufrágio secreto universal ou direitos específicos de oposição; são ligações de constructo. Alguns desenhos privilegiam ONGs/stakeholders e podem ameaçar igualdade; tabela1 explicita esse risco.",
+          "reviewedOn": "2026-10-09"
+        },
+        {
+          "axis": "imi",
+          "position": "moderate-second",
+          "confidence": "medium",
+          "relatedQuestionIds": [
+            "imigracao_02",
+            "imigracao_06",
+            "imigracao_18",
+            "imigracao_20"
+          ],
+          "claims": [
+            {
+              "sourceTitle": "Cosmopolitan Democracy: Paths and Agents — Ethics & International Affairs 25(4), 2011",
+              "locator": "2011, p442, The Role of States, extração237–250; pp449–450, Migrants, extração458–477.",
+              "statement": "Defende direitos minoritários e redução de desigualdades entre nacionais e residentes estrangeiros.",
+              "basis": "declaration",
+              "publishedDate": "2011",
+              "accessedDate": "2026-10-09"
+            }
+          ],
+          "rationale": "Direção multicultural explícita.",
+          "uncertainty": "Não especifica todas as regras de admissão. Nem toda condição de admissão, língua escolar ou identidade nacional é resolvida; movimentos descritos não são automaticamente programa dos autores.",
+          "reviewedOn": "2026-10-09"
+        },
+        {
+          "axis": "dip",
+          "position": "moderate-second",
+          "confidence": "medium",
+          "relatedQuestionIds": [
+            "diplomacia_06",
+            "diplomacia_14",
+            "diplomacia_20"
+          ],
+          "claims": [
+            {
+              "sourceTitle": "Cosmopolitan Democracy: Paths and Agents — Ethics & International Affairs 25(4), 2011",
+              "locator": "2011, pp443–446, Toward a Democratic Foreign Policy e Global Judicial Authorities, extração257–364; sanções não violentas362–364.",
+              "statement": "Prefere cooperação, solução judicial e responsabilização por crimes internacionais.",
+              "basis": "declaration",
+              "publishedDate": "2011",
+              "accessedDate": "2026-10-09"
+            }
+          ],
+          "rationale": "Instrumentos não militares são materiais.",
+          "uncertainty": "Não demonstra pacifismo absoluto; aceita sanções não violentas.",
+          "reviewedOn": "2026-10-09"
+        }
+      ],
+      "unknownAxisReasons": {
+        "est": "Governança multinível não demonstra repartição constitucional doméstica de competências.",
+        "pod": "Direitos gerais e jurisdição internacional não delimitam suficientemente coerção doméstica.",
+        "int": "Rejeição da exportação coerciva convive com apoio externo a democratas; direção agregada não resolvida.",
+        "eco": "Bens públicos globais não determinam titularidade ou provisão predominante.",
+        "con": "Não estabelecido no recorte lido.",
+        "com": "Os interesses de sindicatos e empresas são descritos, não adotados como programa comercial único.",
+        "rel": "Direitos de minorias religiosas não bastam para demonstrar separação institucional.",
+        "mor": "Não estabelecido no recorte lido.",
+        "tec": "Não estabelecido no recorte lido."
+      },
+      "caveats": "Não é sinônimo de livre comércio nem projeto necessariamente unitário de Estado mundial; caminhos institucionais são abertos. A pesquisa qualitativa de seleção não certifica, por si, os 12 eixos. Lacunas não equivalem a neutralidade. Codificação documental de 09/10/2026: Três eixos codificados somente no artigo autoral de 2011, por passagens delimitadas do PDF extraído. Desenhos da assembleia e seus poderes permanecem abertos; participação de ONGs e stakeholders pode afetar igualdade. Direitos de minorias e residentes não resolvem todas as admissões. Cooperação e tribunais coexistem com sanções não violentas, sem provar pacifismo absoluto ou adotar toda agenda dos movimentos descritos. Âncoras e faixas são juízos editoriais, não medições ou respostas imputadas ao questionário. Eixos não documentados permanecem desconhecidos."
+    },
+    {
+      "before": {
+        "id": "ideology-communitarianism",
+        "kind": "ideology",
+        "category": "ideology",
+        "name": "Comunitarismo responsivo (plataforma 1991)",
+        "period": "Responsive Communitarian Platform (18 novembro 1991).",
+        "rationale": "Direitos pessoais e responsabilidades recíprocas sustentam uma comunidade moral democrática. Fortalecimento de famílias, associações e educação cívica, com proteção social e limites de direitos avaliados por segurança pública.",
+        "caveats": "Não representa comunitarismos autoritários ou todo pensamento de Sandel/MacIntyre. Texto reproduzido por terceiro, não página original dos signatários. Pesquisa qualitativa de seleção; não atribui novos scores nem certifica os 12 eixos. Lacunas não equivalem a neutralidade.",
+        "sources": [
+          {
+            "title": "The Responsive Communitarian Platform",
+            "url": "https://www.republikanisme.nl/politiek/responsive-community-1991/",
+            "note": "Publicação: 1991-11-18. Acesso registrado pela pesquisa: 2026-10-08. Tipo: primary. Localizador: Restoring the Moral Voice; Freedom of Speech; Social Justice; Public Safety and Public Health. Leitura efetiva declarada na pesquisa: Seções citadas lidas em reprodução integral disponível; não todas as seções."
+          }
+        ],
+        "vec": {
+          "est": 50,
+          "rep": 50,
+          "pod": 50,
+          "imi": 50,
+          "dip": 50,
+          "int": 50,
+          "eco": 50,
+          "con": 50,
+          "com": 50,
+          "rel": 50,
+          "mor": 50,
+          "tec": 50
+        },
+        "evidence": {},
+        "axisEvidence": {},
+        "coding": {}
+      },
+      "addedSources": [
+        {
+          "title": "The Responsive Communitarian Platform — reprodução em Republikanisme",
+          "url": "https://www.republikanisme.nl/politiek/responsive-community-1991/",
+          "note": "Publicação/edição: 1991-11-18; data da reprodução não identificada. Acesso: 2026-10-09. Texto atribuído à plataforma de 18 novembro de 1991; sem facsímile ou cotejo com publicação Winter 1991/92. Reprodução com elipses explícitas; não integralidade da plataforma original. A ressalva atual prevalece sobre descrição anterior de reprodução integral, sem alterar objetos antigos. Leitura independente em 09/10/2026 das seções substantivas disponíveis 252–353; elipses explícitas em 290, 296, 302, 303, 306, 323, 327 e 329. A leitura anterior atribuída à pesquisa abrangia 252–338; não se afirma texto original integral."
+        },
+        {
+          "title": "Amitai Etzioni: An Introduction — Walter Reese-Schaefer, tradução Morgan Hangartner",
+          "url": "https://www.uni-goettingen.de/de/document/download/510766aa1c3ad163fffbf93dd7a7df1f.pdf/EtzionicompleteVersion_31_07_2013.pdf",
+          "note": "Edição: Versão identificada pelo arquivo como 2013-07-31; publicação editorial não confirmada. Acesso: 2026-10-09. Somente contexto: título/sumário e cap. 6 pp 42–43, data/autoria. Não fonte de novos scores."
+        }
+      ],
+      "codings": [
+        {
+          "axis": "rep",
+          "position": "strong-first",
+          "confidence": "medium",
+          "relatedQuestionIds": [
+            "representacao_03",
+            "representacao_07",
+            "representacao_19"
+          ],
+          "claims": [
+            {
+              "sourceTitle": "The Responsive Communitarian Platform — reprodução em Republikanisme",
+              "locator": "Reprodução atribuída a 18 de novembro de 1991, Not Majoritarian But Strongly Democratic267–275; Duties to the Polity307–312; Cleaning Up the Polity313–320.",
+              "statement": "Defende participação, igualdade eleitoral e contenção da influência financeira.",
+              "basis": "declaration",
+              "publishedDate": "1991-11-18; data da reprodução não identificada",
+              "accessedDate": "2026-10-09"
+            }
+          ],
+          "rationale": "Compromisso democrático abrangente.",
+          "uncertainty": "Protege dissenso; reprodução apresenta omissões.",
+          "reviewedOn": "2026-10-09"
+        },
+        {
+          "axis": "pod",
+          "position": "moderate-first",
+          "confidence": "medium",
+          "relatedQuestionIds": [
+            "poder_04",
+            "poder_09",
+            "poder_16"
+          ],
+          "claims": [
+            {
+              "sourceTitle": "The Responsive Communitarian Platform — reprodução em Republikanisme",
+              "locator": "Reprodução de 1991, Freedom of Speech321–323; Public Safety and Public Health328–336; contrapontos de persuasão260–263 e In Conclusion343–353.",
+              "statement": "Apoia controles de sobriedade, desarmamento e deveres sanitários.",
+              "basis": "declaration",
+              "publishedDate": "1991-11-18; data da reprodução não identificada",
+              "accessedDate": "2026-10-09"
+            }
+          ],
+          "rationale": "Restrições concretas priorizam segurança.",
+          "uncertainty": "Preserva expressão ofensiva, privacidade e proteção antidiscriminatória. Deveres sanitários são recomendações, não prova de criminalização; conclusões privilegiam adesão moral e persuasão sobre penas.",
+          "reviewedOn": "2026-10-09"
+        },
+        {
+          "axis": "mor",
+          "position": "moderate-second",
+          "confidence": "medium",
+          "relatedQuestionIds": [
+            "moral_02",
+            "moral_04",
+            "moral_18",
+            "moral_20"
+          ],
+          "claims": [
+            {
+              "sourceTitle": "The Responsive Communitarian Platform — reprodução em Republikanisme",
+              "locator": "Reprodução de 1991, Start With the Family279–290; Schools291–296; igualdade/dissenso267–275 e conclusões343–353.",
+              "statement": "Valoriza formação moral familiar e desestimula divórcio evitável.",
+              "basis": "declaration",
+              "publishedDate": "1991-11-18; data da reprodução não identificada",
+              "accessedDate": "2026-10-09"
+            }
+          ],
+          "rationale": "Orientação tradicional limitada.",
+          "uncertainty": "Dever parental compartilhado; admite divórcio e educação escolar. Não imputa primazia feminina no lar ou veto parental absoluto; escola ensina tolerância, igualdade e democracia.",
+          "reviewedOn": "2026-10-09"
+        }
+      ],
+      "unknownAxisReasons": {
+        "est": "Subsidiariedade social não prova autonomia legislativa ou soberania territorial.",
+        "imi": "Ajuda a imigrantes não define política de assimilação.",
+        "dip": "Não estabelecido no texto disponível.",
+        "int": "Não estabelecido no texto disponível.",
+        "con": "Não estabelecido no texto disponível.",
+        "com": "Não estabelecido no texto disponível.",
+        "rel": "Educação moral compartilhada não determina arranjo Igreja–Estado.",
+        "tec": "Não estabelecido no texto disponível.",
+        "eco": "O texto estabelece subsidiariedade da prestação de cuidado, mas não prescrição geral de propriedade dos meios de produção; proposta estreita preservada na pesquisa."
+      },
+      "caveats": "Não representa comunitarismos autoritários ou todo pensamento de Sandel/MacIntyre. Texto reproduzido por terceiro, não página original dos signatários. A pesquisa qualitativa de seleção não certifica, por si, os 12 eixos. Lacunas não equivalem a neutralidade. Codificação documental de 09/10/2026: Três eixos codificados na reprodução atribuída à plataforma de 18/11/1991, com elipses e sem cotejo integral da publicação original. Direitos, dissenso e expressão ofensiva contrapõem restrições de segurança; deveres sanitários são recomendações e a persuasão moral não equivale à criminalização. Família e formação moral preservam dever parental compartilhado, divórcio e educação escolar igualitária. ECO permanece desconhecido: subsidiariedade da prestação de cuidado não determina propriedade geral dos meios de produção. Âncoras e faixas são juízos editoriais, não medições ou respostas imputadas ao questionário. Eixos não documentados permanecem desconhecidos."
+    },
+    {
+      "before": {
+        "id": "ideology-burkean-conservatism",
+        "kind": "ideology",
+        "category": "ideology",
+        "name": "Conservadorismo constitucional burkeano",
+        "period": "Edmund Burke, Reflections on the Revolution in France (1790).",
+        "rationale": "Ordem política como herança intergeracional, reformada prudentemente em vez de reconstruída por abstrações. Constituição histórica, instituições intermediárias, propriedade e autoridade transmitida com obrigações.",
+        "caveats": "Não é defesa de qualquer regime existente; não converter metáforas orgânicas em TEC biológico. Pesquisa qualitativa de seleção; não atribui novos scores nem certifica os 12 eixos. Lacunas não equivalem a neutralidade.",
+        "sources": [
+          {
+            "title": "Reflections on the Revolution in France",
+            "url": "https://www.gutenberg.org/files/15679/15679-h/15679-h.htm",
+            "note": "Publicação: 1790. Acesso registrado pela pesquisa: 2026-10-08. Tipo: primary. Localizador: passagens “equal rights; but not to equal things” e contrato entre gerações. Leitura efetiva declarada na pesquisa: Passagens sobre direitos/propriedade e parceria intergeracional lidas; volume não integral."
+          },
+          {
+            "title": "Conservatism",
+            "url": "https://plato.stanford.edu/archives/fall2024/entries/conservatism/",
+            "note": "Publicação: 2024. Acesso registrado pela pesquisa: 2026-10-08. Tipo: scholarly. Localizador: §1.5. Leitura efetiva declarada na pesquisa: Passagem classificatória lida."
+          }
+        ],
+        "vec": {
+          "est": 50,
+          "rep": 50,
+          "pod": 50,
+          "imi": 50,
+          "dip": 50,
+          "int": 50,
+          "eco": 50,
+          "con": 50,
+          "com": 50,
+          "rel": 50,
+          "mor": 50,
+          "tec": 50
+        },
+        "evidence": {},
+        "axisEvidence": {},
+        "coding": {}
+      },
+      "addedSources": [
+        {
+          "title": "Reflections on the Revolution in France — Works, vol.III, reimpressão de 1887",
+          "url": "https://www.gutenberg.org/files/15679/15679-h/15679-h.htm",
+          "note": "Publicação/edição: 1790; coletânea John C. Nimmo, 1887, transcrição Gutenberg. Leitura anterior atribuída à pesquisa: Título editorial e fronteira do ensaio; passagens recuperadas 1377–1407,1427–1466,1552–1569,1606–1639,1798–1858,1988–1993,2135–2138,2185–2201,2701–2704. Não o volume ou ensaio inteiro. Leitura independente em 09/10/2026: metadados linhas 4–15 e fronteira do ensaio 1256–1279; passagens 1377–1398,1429–1458,1516–1568,1788–1816,1832–1854,1983–2003,2127–2150,2175–2200,2690–2710; texto de 1607 recuperado por find. Somente o ensaio de 1790 na coletânea John C. Nimmo 1887, não todos os discursos nem primeira edição cotejada."
+        },
+        {
+          "title": "Conservatism — Stanford Encyclopedia of Philosophy, arquivo Fall 2024",
+          "url": "https://plato.stanford.edu/archives/fall2024/entries/conservatism/",
+          "note": "Publicação/edição: 2015; revisão substantiva de 2019-10-29; arquivo de 2024. Leitura anterior atribuída à pesquisa: Abertura, §§ 1.2–1.5 e passagem inicial de § 2.3. Não verbete integral. Fonte secundária contextual; sem nova leitura independente neste lote."
+        }
+      ],
+      "codings": [
+        {
+          "axis": "rep",
+          "position": "moderate-second",
+          "confidence": "medium",
+          "relatedQuestionIds": [
+            "representacao_10",
+            "representacao_15",
+            "representacao_16"
+          ],
+          "claims": [
+            {
+              "sourceTitle": "Reflections on the Revolution in France — Works, vol.III, reimpressão de 1887",
+              "locator": "ensaio Reflections: parágrafos sobre sucessão e representação; linhas 1377–1407,1450,1553–1564; contraponto 1988–1993",
+              "statement": "Defende coroa e pares hereditários e representação privilegiada da propriedade.",
+              "basis": "declaration",
+              "publishedDate": "1790; coletânea John C. Nimmo, 1887, transcrição Gutenberg",
+              "accessedDate": "2026-10-09"
+            }
+          ],
+          "rationale": "Direção hierárquica explícita.",
+          "uncertainty": "Preserva Parlamento e contrapesos, acesso de mérito em condições restritas e possibilidade excepcional de democracia; não absolutismo nem rejeição de toda reforma.",
+          "reviewedOn": "2026-10-09"
+        },
+        {
+          "axis": "eco",
+          "position": "moderate-second",
+          "confidence": "medium",
+          "relatedQuestionIds": [
+            "economia_08",
+            "economia_18"
+          ],
+          "claims": [
+            {
+              "sourceTitle": "Reflections on the Revolution in France — Works, vol.III, reimpressão de 1887",
+              "locator": "Reflections: linhas 1557–1563,1606–1610,1847–1851,2185–2201",
+              "statement": "Protege herança, propriedade desigual e patrimônio corporativo contra confisco.",
+              "basis": "declaration",
+              "publishedDate": "1790; coletânea John C. Nimmo, 1887, transcrição Gutenberg",
+              "accessedDate": "2026-10-09"
+            }
+          ],
+          "rationale": "Titularidade privada e transmissão hereditária são princípios gerais protegidos; o Estado guarda e regula, sem medida da composição econômica.",
+          "uncertainty": "Admite regulação e obrigações sociais; sem laissez-faire completo.",
+          "reviewedOn": "2026-10-09"
+        },
+        {
+          "axis": "rel",
+          "position": "strong-second",
+          "confidence": "high",
+          "relatedQuestionIds": [
+            "religiao_04",
+            "religiao_08",
+            "religiao_20"
+          ],
+          "claims": [
+            {
+              "sourceTitle": "Reflections on the Revolution in France — Works, vol.III, reimpressão de 1887",
+              "locator": "Reflections: defesa do estabelecimento religioso, linhas 1798–1800,1838–1851; tolerância 2135–2138",
+              "statement": "Trata Igreja estabelecida e Estado como constitucionalmente inseparáveis.",
+              "basis": "declaration",
+              "publishedDate": "1790; coletânea John C. Nimmo, 1887, transcrição Gutenberg",
+              "accessedDate": "2026-10-09"
+            }
+          ],
+          "rationale": "Compromisso confessional estrutural.",
+          "uncertainty": "Preserva tolerância e independência eclesiástica frente à Coroa.",
+          "reviewedOn": "2026-10-09"
+        },
+        {
+          "axis": "mor",
+          "position": "moderate-second",
+          "confidence": "medium",
+          "relatedQuestionIds": [
+            "moral_02",
+            "moral_04",
+            "moral_16"
+          ],
+          "claims": [
+            {
+              "sourceTitle": "Reflections on the Revolution in France — Works, vol.III, reimpressão de 1887",
+              "locator": "Reflections: linhas 1439–1457,1815–1825,2191–2196,2701–2704",
+              "statement": "Prioriza continuidade dos costumes e critica usos moralmente degradantes da riqueza.",
+              "basis": "declaration",
+              "publishedDate": "1790; coletânea John C. Nimmo, 1887, transcrição Gutenberg",
+              "accessedDate": "2026-10-09"
+            }
+          ],
+          "rationale": "Conservação cultural documentada.",
+          "uncertainty": "Admite reforma e tolera vícios por liberdade; não inferir posições contemporâneas.",
+          "reviewedOn": "2026-10-09"
+        }
+      ],
+      "unknownAxisReasons": {
+        "est": "Crítica à fragmentação francesa não resolve competências territoriais.",
+        "pod": "Restrições gerais às paixões não delimitam instrumentos coercivos suficientes.",
+        "imi": "Não estabelecido neste ensaio pelas passagens lidas.",
+        "dip": "Não estabelecido; não importar textos de guerra posteriores.",
+        "int": "Não estabelecido; não importar textos de guerra posteriores.",
+        "con": "Propriedade e prudência não estabelecem coordenação econômica.",
+        "com": "Não estabelecido; não importar outras obras econômicas.",
+        "tec": "Metáfora orgânica não é política tecnológica."
+      },
+      "caveats": "Não é defesa de qualquer regime existente; não converter metáforas orgânicas em TEC biológico. A pesquisa qualitativa de seleção não certifica, por si, os 12 eixos. Lacunas não equivalem a neutralidade. Codificação documental de 09/10/2026: Quatro eixos codificados em passagens de Reflections (1790), na coletânea de 1887 transcrita, sem cotejo da primeira edição ou leitura integral do ensaio. Autoridade hereditária e propriedade coexistem com Parlamento, contrapesos, mérito limitado, reformas e obrigações sociais. Igreja estabelecida preserva tolerância e independência clerical. Conservação cultural não autoriza posições contemporâneas nem infere política tecnológica de metáforas orgânicas. Âncoras e faixas são juízos editoriais, não medições ou respostas imputadas ao questionário. Eixos não documentados permanecem desconhecidos."
+    },
+    {
+      "before": {
+        "id": "ideology-right-neoconservatism",
+        "kind": "ideology",
+        "category": "ideology",
+        "name": "Neoconservadorismo (Kristol, 2003)",
+        "period": "The Neoconservative Persuasion, AEI On the Issues, setembro de 2003; o arquivo identifica versão anterior no Weekly Standard de 25 de agosto",
+        "vec": {
+          "est": 50,
+          "rep": 50,
+          "pod": 50,
+          "imi": 50,
+          "dip": 50,
+          "int": 50,
+          "eco": 50,
+          "con": 50,
+          "com": 50,
+          "rel": 50,
+          "mor": 50,
+          "tec": 50
+        },
+        "rationale": "Conservadorismo adaptado à democracia de massas, conciliando capitalismo, governo robusto e disciplina cultural. Reformas orientadas ao crescimento e uso da capacidade estratégica dos EUA em defesa de interesses também ideológicos.",
+        "caveats": "Ensaio específico de 2003, não todos os textos de Kristol desde os anos 1970. O autor descreve uma persuasão e atitudes, sem sistema completo de política externa. Critica concentração de serviços no Estado de bem-estar, mas aceita crescimento estatal e déficits temporários. Suas alegações de superioridade militar e eficácia política não são resultados verificados. Kristol descreve uma persuasão heterogênea; não é licença para atribuir a todos os neoconservadores cada guerra dos EUA. Pesquisa qualitativa de seleção; não atribui novos scores nem certifica os 12 eixos. Lacunas não equivalem a neutralidade.",
+        "sources": [
+          {
+            "title": "The Neoconservative Persuasion — Irving Kristol",
+            "url": "https://contemporarythinkers.org/irving-kristol/essay/the-neoconservative-persuasion-what-it-was-and-what-it-is/",
+            "note": "Ensaio do próprio Kristol sobre objetivos domésticos e papel internacional da corrente."
+          },
+          {
+            "title": "Reflections of a Neoconservative — Irving Kristol",
+            "url": "https://contemporarythinkers.org/irving-kristol/essay/reflections-of-a-neoconservative/",
+            "note": "Ensaio autobiográfico do autor sobre os pressupostos da corrente."
+          },
+          {
+            "title": "The Neoconservative Persuasion — Irving Kristol, AEI, setembro de 2003",
+            "url": "https://ciaotest.cc.columbia.edu/pbei/aei/oti/kri03/kri03.pdf",
+            "note": "As três páginas do ensaio defendem crescimento e governo forte sem intrusão excessiva, atenção pública a questões culturais e responsabilidade externa diante de ameaças a democracias. A rejeição de governo mundial não elimina toda cooperação internacional. A data do ensaio não abrange automaticamente a obra anterior do autor."
+          },
+          {
+            "title": "The Neoconservative Persuasion",
+            "url": "https://ciaotest.cc.columbia.edu/pbei/aei/oti/kri03/kri03.pdf",
+            "note": "Publicação: 2003-09. Acesso registrado pela pesquisa: 2026-10-08. Tipo: primary. Localizador: pp.1–3; seção Foreign Policy. Leitura efetiva declarada na pesquisa: pp.2–3 lidas, abertura e registro conferidos. Publicado antes no Weekly Standard em 25 agosto 2003; PDF é edição AEI de setembro."
+          }
+        ],
+        "evidence": {},
+        "axisEvidence": {},
+        "coding": {}
+      },
+      "addedSources": [
+        {
+          "title": "The Neoconservative Persuasion — AEI On the Issues, September 2003",
+          "url": "https://ciaotest.cc.columbia.edu/pbei/aei/oti/kri03/kri03.pdf",
+          "note": "Publicação/edição: 2003-09; informa versão anterior no Weekly Standard de 2003-08-25. Leitura anterior atribuída à pesquisa: As três páginas completas do texto extraído, linhas 0–198, incluindo abertura, economia/cultura e política externa. Não inspeção visual nem cotejo com Weekly Standard. Leitura independente em 09/10/2026: todas as três páginas extraídas do PDF AEI, linhas 0–198, com metadados 48–57; não fac-símile visual nem versão original Weekly Standard 25agosto 2003 cotejada. Fonte distinta de outras reproduções anteriores com elipses; sua transmissão não torna aquelas reproduções integrais."
+        }
+      ],
+      "codings": [
+        {
+          "axis": "dip",
+          "position": "moderate-first",
+          "confidence": "medium",
+          "relatedQuestionIds": [
+            "diplomacia_05",
+            "diplomacia_17"
+          ],
+          "claims": [
+            {
+              "sourceTitle": "The Neoconservative Persuasion — AEI On the Issues, September 2003",
+              "locator": "AEI setembro2003, p.3, linhas146–161 e162–187: defesa de democracias e responsabilidades do poder militar; lista de guerras169–170 não é endosso.",
+              "statement": "Associa superioridade militar norte-americana a responsabilidades de uso do poder.",
+              "basis": "declaration",
+              "publishedDate": "2003-09; informa versão anterior no Weekly Standard de 2003-08-25",
+              "accessedDate": "2026-10-09"
+            }
+          ],
+          "rationale": "O compromisso de defender democracias soma-se à aceitação de responsabilidades e oportunidades de uso do poder militar; direção moderada, sem provar militarismo irrestrito.",
+          "uncertainty": "A superioridade e a lista de guerras são descrições do autor, não fatos certificados nem aprovação de cada guerra. Defesa condicionada à possibilidade e a circunstâncias extraordinárias; não programa militar completo ou regra geral de ataque preventivo.",
+          "reviewedOn": "2026-10-09"
+        },
+        {
+          "axis": "int",
+          "position": "moderate-second",
+          "confidence": "medium",
+          "relatedQuestionIds": [
+            "intervencao_02",
+            "intervencao_12",
+            "intervencao_17"
+          ],
+          "claims": [
+            {
+              "sourceTitle": "The Neoconservative Persuasion — AEI On the Issues, September 2003",
+              "locator": "p.3, parágrafo sobre interesses ideológicos e defesa de democracias",
+              "statement": "Defende atuação externa em favor de democracias atacadas, inclusive internamente.",
+              "basis": "declaration",
+              "publishedDate": "2003-09; informa versão anterior no Weekly Standard de 2003-08-25",
+              "accessedDate": "2026-10-09"
+            }
+          ],
+          "rationale": "Interesses ideológicos ultrapassam fronteiras.",
+          "uncertainty": "Compromisso condicionado à possibilidade e a circunstâncias extraordinárias.",
+          "reviewedOn": "2026-10-09"
+        }
+      ],
+      "unknownAxisReasons": {
+        "est": "Nada estabelecido sobre competências territoriais.",
+        "rep": "Adaptação à democracia não especifica garantias representativas suficientes.",
+        "pod": "Uma questão cultural não cobre o eixo coercivo amplo.",
+        "imi": "Patriotismo numa nação de imigrantes não determina assimilação.",
+        "eco": "Crítica à concentração assistencial não especifica regime de titularidade/provisão.",
+        "con": "Cortes tributários e aceitação de déficits não resolvem planejamento versus mercado.",
+        "com": "Nenhuma política comercial delimitada.",
+        "rel": "Aliança religiosa não estabelece regime Igreja–Estado.",
+        "tec": "Pesquisa militar mencionada não constitui programa tecnológico.",
+        "mor": "A regulação de pornografia e referências gerais a declínio cultural, qualidade educacional e aliança religiosa não estabelecem orientação ampla de família, gênero e costumes; proposta estreita preservada em pesquisa."
+      },
+      "caveats": "Ensaio específico de 2003, não todos os textos de Kristol desde os anos 1970. O autor descreve uma persuasão e atitudes, sem sistema completo de política externa. Critica concentração de serviços no Estado de bem-estar, mas aceita crescimento estatal e déficits temporários. Suas alegações de superioridade militar e eficácia política não são resultados verificados. Kristol descreve uma persuasão heterogênea; não é licença para atribuir a todos os neoconservadores cada guerra dos EUA. A pesquisa qualitativa de seleção não certifica, por si, os 12 eixos. Lacunas não equivalem a neutralidade. Codificação documental de 09/10/2026: Dois eixos codificados no ensaio AEI de setembro de 2003, com as três páginas de texto extraído independentemente lidas; sem inspeção de fac-símile ou cotejo com a versão Weekly Standard de 25/08/2003. Defesa de democracias e responsabilidades militares são condicionadas à possibilidade e a circunstâncias extraordinárias; lista de guerras e superioridade militar são descrições autorais, sem endosso de cada guerra ou resultados verificados. MOR permanece desconhecido: pornografia e referências culturais não cobrem costumes, família e gênero em geral. Âncoras e faixas são juízos editoriais, não medições ou respostas imputadas ao questionário. Eixos não documentados permanecem desconhecidos."
+    }
+  ]
+}

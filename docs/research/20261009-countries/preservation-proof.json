@@ -1,0 +1,47 @@
+{
+  "status": "PASS; helper evaluated before product hook",
+  "checks": 876,
+  "beforeSHA256": "69659805a1b567b0014264604af32461dc546f94339bb71f54493f1edf04d6e1",
+  "postSHA256": "2e5e0ea6120264f538f9b4012c9c95deb312cf5df587ec6cbae5fb55b1bed205",
+  "rawCount": 818,
+  "selectedCount": 675,
+  "eligible": 86,
+  "pending": 589,
+  "changedRecordIds": [
+    "prc-mao-1949"
+  ],
+  "newAxes": [
+    "est",
+    "imi",
+    "mor"
+  ],
+  "priorAxes": [
+    "eco",
+    "con"
+  ],
+  "afterAxes": [
+    "est",
+    "imi",
+    "eco",
+    "con",
+    "mor"
+  ],
+  "gate": 6,
+  "moduleSHA256": "0397faeab34adfd2d60f75e6b880af94a97ce50fbdcc40fa704070b97a5d4a08",
+  "existingCodingTests": {
+    "passed": 6,
+    "failed": 0,
+    "expectCalls": 29061
+  },
+  "typecheck": "PASS",
+  "approvedFieldDelta": [
+    "vec.est/imi/mor",
+    "evidence.est/imi/mor",
+    "axisEvidence.est/imi/mor",
+    "coding.est/imi/mor",
+    "append two new source objects",
+    "remove unknownAxisReasons.est/imi/mor",
+    "append normative rationale/caveats"
+  ],
+  "integrationStatus": "Exact approved post now live; no agent VCS"
+}
