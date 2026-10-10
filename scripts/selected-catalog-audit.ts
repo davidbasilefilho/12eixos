@@ -1,3 +1,4 @@
+import { fifthIdeologies20261010Definitions } from '../src/data/reference-fifth-ideologies-20261010';
 import { currentCountryResearch02Definitions } from '../src/data/reference-research-current-country02-20261009';
 import { historicalThree20261009Definitions } from '../src/data/reference-research-historical-three-20261009';
 import { fourthIdeologies20261009Definitions } from '../src/data/reference-fourth-ideologies-20261009';
@@ -15,7 +16,7 @@ import { documentedEvidenceAxes, partitionMatchReferences } from '../src/lib/mat
 const oldSelection = new Set<string>(intendedIdeologySelection.map(entry => entry.id));
 const hash = (value: string | Buffer) => createHash('sha256').update(value).digest('hex');
 const audit = {
-  reviewedOn: '2026-10-09',
+  reviewedOn: '2026-10-10',
   baseCommit: '54f7feef62aa62632ee517721512fc23e69dd3d3',
   originalCatalog: {
     records: referenceEntries.length,
@@ -37,13 +38,15 @@ const audit = {
   documentaryEligible: selectedReferenceCoverage.ranked.length,
   insufficientEvidence: selectedReferenceCoverage.insufficientEvidence.length,
   newMeasuredScores: 0,
-  newEditorialAxisCodings: 77,
+  newEditorialAxisCodings: 94,
+  minimumMissingAxisSlots: selectedReferenceEntries.reduce((total, entry) => total + Math.max(0, 6 - documentedEvidenceAxes(entry).length), 0),
+  fifthIdeologyCheckpoint: { newCodings: 17, ids: fifthIdeologies20261010Definitions.map(definition => definition.before.id), raw818Unchanged: true, newEligible: ['ideology-ambedkarite-constitutional-socialism'], sourceReview: 'docs/research/ideology-fifth-20261010.md' },
   currentCountryResearch02: { newCodings: 10, ids: currentCountryResearch02Definitions.map(definition => definition.before.id), raw818Unchanged: true, newEligible: [], finlandEntireRecordNoop: true },
   historicalThreeCheckpoint: { newCodings: 6, ids: historicalThree20261009Definitions.map(definition => definition.before.id), raw818Unchanged: true, newEligible: [] },
   fourthIdeologyCheckpoint: { newCodings: 16, ids: fourthIdeologies20261009Definitions.map(definition => definition.before.id), raw818Unchanged: true, newEligible: ['ideology-distributism'] },
   thirdIdeologyCheckpoint: { newCodings: 12, ids: thirdIdeologies20261009Definitions.map(definition => definition.before.id), raw818Unchanged: true, newEligible: [] },
   parentIdeologyCheckpoint: { newCodings: 27, ids: parentIdeologies20261009Definitions.map(definition => definition.before.id), raw818Unchanged: true, newEligible: ['ideology-social-liberalism'] },
-  selectedOnlyReconciliation: { id: "ideology-program-anarcho-syndicalism-iwa-2022", newAxis: "pod", beforeAxes: 5, afterAxes: 6, fullLookupExceptionOnlyThisId: false, otherApprovedSelectedLookupIds: [...parentIdeologies20261009Definitions, ...thirdIdeologies20261009Definitions, ...fourthIdeologies20261009Definitions, ...historicalThree20261009Definitions, ...currentCountryResearch02Definitions].map(definition => definition.before.id), rawArchiveUnchanged: true },
+  selectedOnlyReconciliation: { id: "ideology-program-anarcho-syndicalism-iwa-2022", newAxis: "pod", beforeAxes: 5, afterAxes: 6, fullLookupExceptionOnlyThisId: false, otherApprovedSelectedLookupIds: [...parentIdeologies20261009Definitions, ...thirdIdeologies20261009Definitions, ...fourthIdeologies20261009Definitions, ...fifthIdeologies20261010Definitions, ...historicalThree20261009Definitions, ...currentCountryResearch02Definitions].map(definition => definition.before.id), rawArchiveUnchanged: true },
   gateMinimumAxes: 6,
   categories: ['country', 'historical-country', 'public-figure', 'historical-figure', 'ideology'].map(category => {
     const selected = selectedReferenceEntries.filter(entry => entry.category === category);
@@ -52,9 +55,10 @@ const audit = {
   }),
   limitations: [
     'Selection research is not source-truth certification or whole-axis coding.',
-    'Current-country02 adds ten medium-confidence normative codes to Portugal/Poland only, not practice. Finland is entire-record NOOP. Current92eligible583pending2906minimum missing slots; unchanged six-axis gate.',
-    'The historical-three checkpoint adds six bounded normative codes only in selected and same-ID full lookup posts; raw records remain exact. Current92eligible583pending,2916minimum missing slots, no eligibility gain.',
-    'The fourth bounded checkpoint adds16approved documentary codes. Only Chesterton gains eligibility; current675selected92eligible583pending and2922minimum missing slots. CatholicCON/JacobinIMI remain unknown, with full original records and sources retained.',
+    'The 2026-10-10 fifth ideology checkpoint adds 17 bounded documentary codes: Ambedkar 1947 gains eligibility; Ocalan 2011 and Bookchin 2002 remain at five. Current selection: 93 eligible, 582 partial, 2890 minimum missing slots. Mao and Rothbard are unchanged. Counts in the following dated research checkpoints describe their earlier integration states.',
+    'Current-country02 adds ten medium-confidence normative codes to Portugal/Poland only, not practice. Finland is entire-record NOOP. Its checkpoint had92eligible583pending2906minimum missing slots; unchanged six-axis gate.',
+    'The historical-three checkpoint adds six bounded normative codes only in selected and same-ID full lookup posts; raw records remain exact. Its checkpoint had92eligible583pending,2916minimum missing slots, no eligibility gain.',
+    'The fourth bounded checkpoint adds16approved documentary codes. Only Chesterton gains eligibility; that checkpoint675selected92eligible583pending and2922minimum missing slots. CatholicCON/JacobinIMI remain unknown, with full original records and sources retained.',
     'The third bounded checkpoint adds 12 approved documentary codes to Held, the responsive platform, Burke and Kristol. No new eligible profile: 91 eligible, 584 pending, 2938 minimum missing slots. All prior raw and selected posts remain intact.',
     'No numeric vectors are inferred from prospects. The exact seven reviewed ideology posts add27documentary ordinal codes; all unsupported axes remain unknown.',
     'Inherited raw coding remains exact. Seven additional selected ideology posts use approved source-specific inputs; IWA2022 retains its prior selected POD40medium. All old source objects and unmodified axis fields are preserved.',

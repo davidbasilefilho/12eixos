@@ -44,9 +44,9 @@ describe('two reviewed current-country normative snapshots', () => {
   });
   test('holds unknown axes and unchanged six-axis gate; neither current-country profile gains eligibility', () => {
     const partition = partitionMatchReferences(selectedReferenceEntries);
-    expect(partition.ranked).toHaveLength(92);
-    expect(partition.insufficientEvidence).toHaveLength(583);
-    expect(selectedReferenceEntries.reduce((total, entry) => total + Math.max(0, 6 - documentedEvidenceAxes(entry).length), 0)).toBe(2906);
+    expect(partition.ranked).toHaveLength(93);
+    expect(partition.insufficientEvidence).toHaveLength(582);
+    expect(selectedReferenceEntries.reduce((total, entry) => total + Math.max(0, 6 - documentedEvidenceAxes(entry).length), 0)).toBe(2890);
     for (const post of posts) expect(documentedEvidenceAxes(post).length).toBeLessThan(6);
     const finland = selectedReferenceEntries.find(entry => entry.id === 'finland-current-2025')!;
     expect(reconcile(finland)).toBe(finland);
