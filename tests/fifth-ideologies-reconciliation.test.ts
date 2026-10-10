@@ -105,9 +105,9 @@ describe('three independently researched fifth-batch selected ideology reconcili
     ]);
     const missing = (entries: typeof posts) => entries.reduce((count, entry) => count + Math.max(0, 6 - documentedEvidenceAxes(entry).length), 0);
     expect(missing(definitions.map(definition => definition.before)) - missing(posts)).toBe(16);
-    // Explicit checkpoint rather than changing historical counts in earlier batch tests.
+    // Current integrated catalog; the local fifth-batch delta remains exactly sixteen slots.
     expect(partitionMatchReferences(selectedReferenceEntries).ranked).toHaveLength(93);
-    expect(missing(selectedReferenceEntries)).toBe(2890);
+    expect(missing(selectedReferenceEntries)).toBe(2881);
   });
 
   test('preserves substantive counterevidence instead of rewarding a political label', () => {

@@ -1,3 +1,4 @@
+import { sixthIdeologies20261010Definitions } from '../src/data/reference-sixth-ideologies-20261010';
 import { fifthIdeologies20261010Definitions } from '../src/data/reference-fifth-ideologies-20261010';
 import { currentCountryResearch02Definitions } from '../src/data/reference-research-current-country02-20261009';
 import { historicalThree20261009Definitions } from '../src/data/reference-research-historical-three-20261009';
@@ -38,15 +39,16 @@ const audit = {
   documentaryEligible: selectedReferenceCoverage.ranked.length,
   insufficientEvidence: selectedReferenceCoverage.insufficientEvidence.length,
   newMeasuredScores: 0,
-  newEditorialAxisCodings: 94,
+  newEditorialAxisCodings: 103,
   minimumMissingAxisSlots: selectedReferenceEntries.reduce((total, entry) => total + Math.max(0, 6 - documentedEvidenceAxes(entry).length), 0),
+  sixthIdeologyCheckpoint: { newCodings: 9, ids: sixthIdeologies20261010Definitions.map(definition => definition.before.id), raw818Unchanged: true, newEligible: [], sourceReview: 'docs/research/ideology-sixth-20261010.md' },
   fifthIdeologyCheckpoint: { newCodings: 17, ids: fifthIdeologies20261010Definitions.map(definition => definition.before.id), raw818Unchanged: true, newEligible: ['ideology-ambedkarite-constitutional-socialism'], sourceReview: 'docs/research/ideology-fifth-20261010.md' },
   currentCountryResearch02: { newCodings: 10, ids: currentCountryResearch02Definitions.map(definition => definition.before.id), raw818Unchanged: true, newEligible: [], finlandEntireRecordNoop: true },
   historicalThreeCheckpoint: { newCodings: 6, ids: historicalThree20261009Definitions.map(definition => definition.before.id), raw818Unchanged: true, newEligible: [] },
   fourthIdeologyCheckpoint: { newCodings: 16, ids: fourthIdeologies20261009Definitions.map(definition => definition.before.id), raw818Unchanged: true, newEligible: ['ideology-distributism'] },
   thirdIdeologyCheckpoint: { newCodings: 12, ids: thirdIdeologies20261009Definitions.map(definition => definition.before.id), raw818Unchanged: true, newEligible: [] },
   parentIdeologyCheckpoint: { newCodings: 27, ids: parentIdeologies20261009Definitions.map(definition => definition.before.id), raw818Unchanged: true, newEligible: ['ideology-social-liberalism'] },
-  selectedOnlyReconciliation: { id: "ideology-program-anarcho-syndicalism-iwa-2022", newAxis: "pod", beforeAxes: 5, afterAxes: 6, fullLookupExceptionOnlyThisId: false, otherApprovedSelectedLookupIds: [...parentIdeologies20261009Definitions, ...thirdIdeologies20261009Definitions, ...fourthIdeologies20261009Definitions, ...fifthIdeologies20261010Definitions, ...historicalThree20261009Definitions, ...currentCountryResearch02Definitions].map(definition => definition.before.id), rawArchiveUnchanged: true },
+  selectedOnlyReconciliation: { id: "ideology-program-anarcho-syndicalism-iwa-2022", newAxis: "pod", beforeAxes: 5, afterAxes: 6, fullLookupExceptionOnlyThisId: false, otherApprovedSelectedLookupIds: [...parentIdeologies20261009Definitions, ...thirdIdeologies20261009Definitions, ...fourthIdeologies20261009Definitions, ...fifthIdeologies20261010Definitions, ...sixthIdeologies20261010Definitions, ...historicalThree20261009Definitions, ...currentCountryResearch02Definitions].map(definition => definition.before.id), rawArchiveUnchanged: true },
   gateMinimumAxes: 6,
   categories: ['country', 'historical-country', 'public-figure', 'historical-figure', 'ideology'].map(category => {
     const selected = selectedReferenceEntries.filter(entry => entry.category === category);
@@ -54,8 +56,9 @@ const audit = {
     return { category, selected: selected.length, documentaryEligible: eligible, pending: selected.length - eligible };
   }),
   limitations: [
+    'The 2026-10-10 sixth ideology checkpoint adds nine bounded declarations to Combahee 1977, Malcolm X Cleveland 1964 and Newton Boston 1970. All remain partial. Current selection: 93 eligible, 582 partial, 2881 minimum missing slots; 44 ideologies still have no codes. Earlier dated counts remain historical checkpoints.',
     'Selection research is not source-truth certification or whole-axis coding.',
-    'The 2026-10-10 fifth ideology checkpoint adds 17 bounded documentary codes: Ambedkar 1947 gains eligibility; Ocalan 2011 and Bookchin 2002 remain at five. Current selection: 93 eligible, 582 partial, 2890 minimum missing slots. Mao and Rothbard are unchanged. Counts in the following dated research checkpoints describe their earlier integration states.',
+    'The 2026-10-10 fifth ideology checkpoint adds 17 bounded documentary codes: Ambedkar 1947 gains eligibility; Ocalan 2011 and Bookchin 2002 remain at five. Its checkpoint: 93 eligible, 582 partial, 2890 minimum missing slots. Mao and Rothbard are unchanged. Counts in the following dated research checkpoints describe their earlier integration states.',
     'Current-country02 adds ten medium-confidence normative codes to Portugal/Poland only, not practice. Finland is entire-record NOOP. Its checkpoint had92eligible583pending2906minimum missing slots; unchanged six-axis gate.',
     'The historical-three checkpoint adds six bounded normative codes only in selected and same-ID full lookup posts; raw records remain exact. Its checkpoint had92eligible583pending,2916minimum missing slots, no eligibility gain.',
     'The fourth bounded checkpoint adds16approved documentary codes. Only Chesterton gains eligibility; that checkpoint675selected92eligible583pending and2922minimum missing slots. CatholicCON/JacobinIMI remain unknown, with full original records and sources retained.',

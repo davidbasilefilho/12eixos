@@ -1,3 +1,4 @@
+import { reconcileSixthIdeologies20261010, sixthIdeologies20261010Definitions } from './reference-sixth-ideologies-20261010';
 import { reconcileFifthIdeologies20261010, fifthIdeologies20261010Definitions } from './reference-fifth-ideologies-20261010';
 import { reconcileCurrentCountryResearch02, currentCountryResearch02Definitions } from './reference-research-current-country02-20261009';
 import { reconcileHistoricalThree20261009, historicalThree20261009Definitions } from './reference-research-historical-three-20261009';
@@ -39,7 +40,7 @@ export const selectedIdeologyEntries: ReferenceEntry[] = ideology75Profiles.map(
     axisEvidence: prior?.axisEvidence ?? {},
     coding: prior?.coding ?? {},
   };
-}).map(reconcileResearchIwa20261009).map(reconcileParentIdeologies20261009).map(reconcileThirdIdeologies20261009).map(reconcileFourthIdeologies20261009).map(reconcileFifthIdeologies20261010);
+}).map(reconcileResearchIwa20261009).map(reconcileParentIdeologies20261009).map(reconcileThirdIdeologies20261009).map(reconcileFourthIdeologies20261009).map(reconcileFifthIdeologies20261010).map(reconcileSixthIdeologies20261010);
 
 const selectedIdeologyIds = new Set(selectedIdeologyEntries.map(entry => entry.id));
 if (selectedIdeologyEntries.length !== 75 || selectedIdeologyIds.size !== 75) {
@@ -58,7 +59,7 @@ export const archivedReferenceEntries = referenceEntries.filter(entry =>
 export const fullReferenceCatalog = [
   ...referenceEntries,
   ...selectedIdeologyEntries.filter(entry => !priorById.has(entry.id)),
-].map(entry => entry.id === 'ideology-program-anarcho-syndicalism-iwa-2022' || [...parentIdeologies20261009Definitions, ...thirdIdeologies20261009Definitions, ...fourthIdeologies20261009Definitions, ...fifthIdeologies20261010Definitions, ...historicalThree20261009Definitions, ...currentCountryResearch02Definitions].some(definition => definition.before.id === entry.id)
+].map(entry => entry.id === 'ideology-program-anarcho-syndicalism-iwa-2022' || [...parentIdeologies20261009Definitions, ...thirdIdeologies20261009Definitions, ...fourthIdeologies20261009Definitions, ...fifthIdeologies20261010Definitions, ...sixthIdeologies20261010Definitions, ...historicalThree20261009Definitions, ...currentCountryResearch02Definitions].some(definition => definition.before.id === entry.id)
   ? selectedReferenceEntries.find(selected => selected.id === entry.id)!
   : entry);
 

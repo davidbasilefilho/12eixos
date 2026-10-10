@@ -1,3 +1,4 @@
+import { sixthIdeologies20261010ExpectedPosts } from '../src/data/reference-sixth-ideologies-20261010';
 import { fifthIdeologies20261010ExpectedPosts } from '../src/data/reference-fifth-ideologies-20261010';
 import { currentCountryResearch02ExpectedPosts } from '../src/data/reference-research-current-country02-20261009';
 import { historicalThree20261009Definitions, historicalThree20261009ExpectedPosts } from '../src/data/reference-research-historical-three-20261009';
@@ -27,7 +28,7 @@ describe('researched 75-ideology selection and preserved archive', () => {
       .toBe('1ba985e6ad16ffb2fa3922eebf5bd5c7ebc4eb57318f014d76f745210bc0b41a');
     expect(fullReferenceCatalog).toHaveLength(868);
     for (const entry of referenceEntries) {
-      const expected = (entry.id === 'ideology-program-anarcho-syndicalism-iwa-2022' || [...parentIdeologies20261009ExpectedPosts, ...thirdIdeologies20261009ExpectedPosts, ...fourthIdeologies20261009ExpectedPosts, ...fifthIdeologies20261010ExpectedPosts, ...historicalThree20261009ExpectedPosts, ...currentCountryResearch02ExpectedPosts].some(post => post.id === entry.id)) ? selectedReferenceEntries.find(item => item.id === entry.id) : entry;
+      const expected = (entry.id === 'ideology-program-anarcho-syndicalism-iwa-2022' || [...parentIdeologies20261009ExpectedPosts, ...thirdIdeologies20261009ExpectedPosts, ...fourthIdeologies20261009ExpectedPosts, ...fifthIdeologies20261010ExpectedPosts, ...sixthIdeologies20261010ExpectedPosts, ...historicalThree20261009ExpectedPosts, ...currentCountryResearch02ExpectedPosts].some(post => post.id === entry.id)) ? selectedReferenceEntries.find(item => item.id === entry.id) : entry;
       expect(fullReferenceCatalog.find(item => item.id === entry.id)).toBe(expected);
     }
     expect(new Set(fullReferenceCatalog.map(entry => entry.id)).size).toBe(fullReferenceCatalog.length);
@@ -53,7 +54,7 @@ describe('researched 75-ideology selection and preserved archive', () => {
     expect(referenceCounts).toEqual({ country: 150, 'historical-country': 150, 'public-figure': 150, 'historical-figure': 150, ideology: 75 });
     expect(referenceById.size).toBe(868);
     for (const original of referenceEntries) {
-      const expected = (original.id === 'ideology-program-anarcho-syndicalism-iwa-2022' || [...parentIdeologies20261009ExpectedPosts, ...thirdIdeologies20261009ExpectedPosts, ...fourthIdeologies20261009ExpectedPosts, ...fifthIdeologies20261010ExpectedPosts, ...historicalThree20261009ExpectedPosts, ...currentCountryResearch02ExpectedPosts].some(post => post.id === original.id)) ? selectedReferenceEntries.find(item => item.id === original.id) : original;
+      const expected = (original.id === 'ideology-program-anarcho-syndicalism-iwa-2022' || [...parentIdeologies20261009ExpectedPosts, ...thirdIdeologies20261009ExpectedPosts, ...fourthIdeologies20261009ExpectedPosts, ...fifthIdeologies20261010ExpectedPosts, ...sixthIdeologies20261010ExpectedPosts, ...historicalThree20261009ExpectedPosts, ...currentCountryResearch02ExpectedPosts].some(post => post.id === original.id)) ? selectedReferenceEntries.find(item => item.id === original.id) : original;
       expect(referenceById.get(original.id)).toBe(expected);
     }
     expect(referenceById.get('ideology-democratic-transhumanism-hughes')?.name).toContain('Hughes');
@@ -64,7 +65,7 @@ describe('researched 75-ideology selection and preserved archive', () => {
     expect(ideology75Profiles.filter(profile => profile.existing)).toHaveLength(25);
     for (const selected of selectedIdeologyEntries) {
       const prior = priorById.get(selected.id);
-      const approvedPost = [...parentIdeologies20261009ExpectedPosts, ...thirdIdeologies20261009ExpectedPosts, ...fourthIdeologies20261009ExpectedPosts, ...fifthIdeologies20261010ExpectedPosts, ...historicalThree20261009ExpectedPosts, ...currentCountryResearch02ExpectedPosts].find(post => post.id === selected.id);
+      const approvedPost = [...parentIdeologies20261009ExpectedPosts, ...thirdIdeologies20261009ExpectedPosts, ...fourthIdeologies20261009ExpectedPosts, ...fifthIdeologies20261010ExpectedPosts, ...sixthIdeologies20261010ExpectedPosts, ...historicalThree20261009ExpectedPosts, ...currentCountryResearch02ExpectedPosts].find(post => post.id === selected.id);
       if (approvedPost) {
         expect(selected).toEqual(approvedPost);
         if (prior) for (const source of prior.sources) expect(selected.sources).toContainEqual(source);
