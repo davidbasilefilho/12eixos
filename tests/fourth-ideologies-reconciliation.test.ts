@@ -42,9 +42,9 @@ describe('four exact reviewed fourth-batch ideology reconciliations', () => {
   });
   test('holds unknown axes and unchanged six-axis gate; only Chesterton gains eligibility', () => {
     const partition = partitionMatchReferences(selectedReferenceEntries);
-    expect(partition.ranked).toHaveLength(93);
-    expect(partition.insufficientEvidence).toHaveLength(582);
-    expect(selectedReferenceEntries.reduce((total, entry) => total + Math.max(0, 6 - documentedEvidenceAxes(entry).length), 0)).toBe(2881);
+    expect(partition.ranked).toHaveLength(94);
+    expect(partition.insufficientEvidence).toHaveLength(581);
+    expect(selectedReferenceEntries.reduce((total, entry) => total + Math.max(0, 6 - documentedEvidenceAxes(entry).length), 0)).toBe(2868);
     expect(documentedEvidenceAxes(posts.find(entry => entry.id === 'ideology-catholic-integralism')!)).not.toContain('con');
     const jacobin = posts.find(entry => entry.id === 'ideology-jacobin-republicanism')!;
     for (const axis of ['imi', 'pod', 'eco']) expect(documentedEvidenceAxes(jacobin)).not.toContain(axis);

@@ -1,6 +1,6 @@
 # Seleção pesquisada de 75 ideologias: registro da integração de 8 de outubro de 2026
 
-> Atualização de 10 de outubro de 2026: a seleção tem **675 perfis, 93 elegíveis e 582 parciais**; ideologias: 12/75 elegíveis. O gate continua em seis eixos. Consulte a [auditoria atual](selected-catalog-audit.json) e o [sexto recorte documental](research/ideology-sixth-20261010.md). O restante deste documento preserva a integração original de 8/10: seus totais, hash bruto e alegações de preservação referem-se exclusivamente àquele checkpoint, antes das reconciliações posteriores. O arquivo bruto atual aprovado é identificado na auditoria, não pelo hash histórico abaixo.
+> Atualização de 10 de outubro de 2026: a seleção tem **675 perfis, 94 elegíveis e 581 parciais**; ideologias: 13/75 elegíveis. O gate continua em seis eixos. Consulte a [auditoria atual](selected-catalog-audit.json) e o [sétimo recorte documental](research/ideology-seventh-20261010.md). O restante deste documento preserva a integração original de 8/10: seus totais, hash bruto e alegações de preservação referem-se exclusivamente àquele checkpoint, antes das reconciliações posteriores. O arquivo bruto atual aprovado é identificado na auditoria, não pelo hash histórico abaixo.
 
 ## Estado no checkpoint original de 8/10/2026
 

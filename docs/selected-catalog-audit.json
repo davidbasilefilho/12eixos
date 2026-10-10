@@ -16,17 +16,31 @@
     "priorSelectedEligible": 94
   },
   "researchInputSha256": "ef57dcfc83eb3ba6f71a4db2bdc43fc95c69993715253967ed2f1ca3d4761883",
-  "selectedCatalogSha256": "27416e0492d0fa540d09be1730818a3aa8b3a2f8accb068469b7a6d8a16c50da",
+  "selectedCatalogSha256": "cde3f9c7f1e2bae955e0f9ae2794ef9deb8f40714a21672e55620dc9b6f85240",
   "fullArchiveRecords": 868,
   "selectedRecords": 675,
   "reusedIdeologyReferents": 25,
   "newResearchOnlyReferents": 50,
   "archivedOutsideSelection": 193,
-  "documentaryEligible": 93,
-  "insufficientEvidence": 582,
+  "documentaryEligible": 94,
+  "insufficientEvidence": 581,
   "newMeasuredScores": 0,
-  "newEditorialAxisCodings": 103,
-  "minimumMissingAxisSlots": 2881,
+  "newEditorialAxisCodings": 116,
+  "minimumMissingAxisSlots": 2868,
+  "seventhIdeologyCheckpoint": {
+    "newCodings": 13,
+    "ids": [
+      "ideology-anarcho-communism",
+      "ideology-pacifist-anarchism",
+      "ideology-gandhian-swaraj",
+      "ideology-national-liberation-socialism"
+    ],
+    "raw818Unchanged": true,
+    "newEligible": [
+      "ideology-gandhian-swaraj"
+    ],
+    "sourceReview": "docs/research/ideology-seventh-20261010.md"
+  },
   "sixthIdeologyCheckpoint": {
     "newCodings": 9,
     "ids": [
@@ -139,6 +153,10 @@
       "ideology-feminist-socialism",
       "ideology-black-nationalism",
       "ideology-revolutionary-intercommunalism",
+      "ideology-anarcho-communism",
+      "ideology-pacifist-anarchism",
+      "ideology-gandhian-swaraj",
+      "ideology-national-liberation-socialism",
       "portugal-charter-monarchy-1826",
       "belgium-unitary-kingdom-1831",
       "republic-texas-1836",
@@ -176,12 +194,13 @@
     {
       "category": "ideology",
       "selected": 75,
-      "documentaryEligible": 12,
-      "pending": 63
+      "documentaryEligible": 13,
+      "pending": 62
     }
   ],
   "limitations": [
-    "The 2026-10-10 sixth ideology checkpoint adds nine bounded declarations to Combahee 1977, Malcolm X Cleveland 1964 and Newton Boston 1970. All remain partial. Current selection: 93 eligible, 582 partial, 2881 minimum missing slots; 44 ideologies still have no codes. Earlier dated counts remain historical checkpoints.",
+    "The 2026-10-10 seventh ideology checkpoint adds thirteen bounded declarations to Kropotkin, Tolstoy, Gandhi and Arusha. Gandhi alone gains eligibility. Current selection: 94 eligible, 581 partial, 2868 minimum missing slots; 40 ideologies still have no codes. Earlier dated counts remain historical checkpoints.",
+    "The 2026-10-10 sixth ideology checkpoint adds nine bounded declarations to Combahee 1977, Malcolm X Cleveland 1964 and Newton Boston 1970. All remain partial. Its checkpoint: 93 eligible, 582 partial, 2881 minimum missing slots; 44 ideologies still have no codes. Earlier dated counts remain historical checkpoints.",
     "Selection research is not source-truth certification or whole-axis coding.",
     "The 2026-10-10 fifth ideology checkpoint adds 17 bounded documentary codes: Ambedkar 1947 gains eligibility; Ocalan 2011 and Bookchin 2002 remain at five. Its checkpoint: 93 eligible, 582 partial, 2890 minimum missing slots. Mao and Rothbard are unchanged. Counts in the following dated research checkpoints describe their earlier integration states.",
     "Current-country02 adds ten medium-confidence normative codes to Portugal/Poland only, not practice. Finland is entire-record NOOP. Its checkpoint had92eligible583pending2906minimum missing slots; unchanged six-axis gate.",

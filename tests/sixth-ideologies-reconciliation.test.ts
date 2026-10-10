@@ -117,7 +117,7 @@ describe('three bounded sixth-batch selected ideology reconciliations', () => {
     expect(partitionMatchReferences(posts).ranked).toEqual([]);
     expect(partitionMatchReferences(posts).insufficientEvidence.map(entry => entry.id)).toEqual(definitions.map(definition => definition.before.id));
     expect(missing(beforeSelection) - missing(projectedSelection)).toBe(9);
-    expect(missing(selectedReferenceEntries)).toBe(2881);
+    expect(missing(selectedReferenceEntries)).toBe(2868);
     expect(partitionMatchReferences(projectedSelection).ranked.map(entry => entry.id))
       .toEqual(partitionMatchReferences(beforeSelection).ranked.map(entry => entry.id));
   });
